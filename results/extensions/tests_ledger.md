@@ -2,7 +2,7 @@
 
 *Generated 2026-11-08 · reproduce: `PYTHONPATH=src python scripts/tests_ledger.py`*
 
-30 tests: 22 held, 3 indicative, 5 null.
+33 tests: 25 held, 3 indicative, 5 null.
 
 | ID | Area | Question | Prediction | Result | Status | Timing |
 |---|---|---|---|---|---|---|
@@ -16,9 +16,9 @@
 | M2 | Modern evidence: presence | Are Dioscorides-only claims more often studied at all than unclaimed indications of the same plants? | OR > 1 (95% CI excludes 1) | OR 1.98 [1.67-2.35], p = 4e-15, n = 12,797 | **held** | a priori |
 | M3 | Modern evidence: presence | Are Culpeper-only claims more often studied at all than unclaimed indications of the same plants? | OR > 1 (95% CI excludes 1) | OR 1.65 [1.40-1.94], p = 2e-09, n = 12,797 | **held** | a priori |
 | M4 | Modern evidence: presence | Same, with an exact within-plant comparison? | OR > 1 | OR 2.29 [1.80-2.90], p = 1e-11 | **held** | a priori |
-| M5 | Modern evidence: intensity | Are persistent claims studied more intensively (more co-mentioning papers)? | rate ratio > 1 (95% CI excludes 1) | RR 1.18 [0.70-1.99], p = 0.53 | **null** | a priori |
-| M6 | Modern evidence: intensity | Are persistent claims studied more intensively (more co-mentioning papers)? | rate ratio > 1 (95% CI excludes 1) | RR 1.75 [1.05-2.91], p = 0.03 | **held** | a priori |
-| M7 | Modern evidence: intensity | Are persistent claims studied more intensively once studied? | rate ratio > 1 (95% CI excludes 1) | RR 1.04 [0.61-1.76], p = 0.88 | **null** | a priori |
+| M5 | Modern evidence: intensity | Are persistent claims studied more intensively (more co-mentioning papers than expected; primary intensity model)? | rate ratio > 1 (95% CI excludes 1) | RR 1.18 [0.70-1.99], p = 0.53 | **null** | a priori |
+| M6 | Modern evidence: intensity | Are persistent claims studied more intensively (more co-mentioning papers; secondary model without indication FE)? | rate ratio > 1 (95% CI excludes 1) | RR 1.75 [1.05-2.91], p = 0.03 | **held** | a priori |
+| M7 | Modern evidence: intensity | Are persistent claims studied more intensively once studied (among pairs with >= 1 paper)? | rate ratio > 1 (95% CI excludes 1) | RR 1.04 [0.61-1.76], p = 0.88 | **null** | a priori |
 | M8 | Modern evidence: lift | Within each plant, do claimed indications have higher lift over expectation than unclaimed ones? | one-sided Wilcoxon p < 0.05 | 65% of 585 plants higher, p = 1e-15 | **held** | a priori |
 | M9 | Modern evidence: matched controls | Is the share of persistent (both herbals) pairs with >= 1 paper higher than for the unclaimed indications of exactly the same plants? | claimed share's 95% CI above the matched share's 95% CI | 44.9% [37.2%-52.4%] vs 32.2% [27.8%-36.7%] | **held** | a priori |
 | M10 | Modern evidence: matched controls | Is the share of Dioscorides-only pairs with >= 1 paper higher than for the unclaimed indications of exactly the same plants? | claimed share's 95% CI above the matched share's 95% CI | 36.9% [32.6%-41.1%] vs 24.8% [22.2%-27.5%] | **held** | a priori |
@@ -34,6 +34,9 @@
 | X1 | Expert benchmark | Do our Dioscorides identifications agree with Lardos et al. (2024) expert top-1 at species level? | agreement > 50% (Wilson CI lower bound) | 70% (38/54) [0.57-0.81] | **held** | post hoc |
 | X2 | Expert benchmark | Do our Dioscorides identifications agree with Lardos et al. (2024) expert top-1 at genus level? | agreement > 80% (Wilson CI lower bound) | 91% (49/54) [0.80-0.96] | **held** | post hoc |
 | X3 | Expert benchmark | Are the 30 commonest food/garden plants identified correctly? | 30/30 | 30/30 correct | **held** | a priori |
+| P5a | Time machine | Among pairs unstudied up to 2010, do persistent claims gain a first paper afterwards more often than unclaimed indications of the same plants? | OR > 1 (CI excludes 1) and matched share higher | OR 2.77 [1.98-3.87]; gained 28.8% vs 19.6% same plants unclaimed | **held** | a priori |
+| P5-2005 | Time machine | Same, cutoff 2005? | OR > 1 | OR 2.79 [2.04-3.83] | **held** | a priori |
+| P5-2015 | Time machine | Same, cutoff 2015? | OR > 1 | OR 2.58 [1.79-3.73] | **held** | a priori |
 | P4 | Leads | Is the lead ranking robust to identification uncertainty? | descriptive (Kendall tau; no threshold) | tau-b 0.56 over 517 candidates; 41/60 stay in the top 60 | **indicative** | a priori |
 | P10 | Mechanism (hypothesis-generating) | Are a lead plant's active targets more often associated with its historical indication than with other diseases? | lead disease above the plant's median over other diseases in > 50% of leads | 33/60 leads have a path; lead disease above median in 22/51 | **null** | post hoc |
 

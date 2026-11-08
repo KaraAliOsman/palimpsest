@@ -9,11 +9,11 @@
  },
  "timing_note": "'recorded' is the modification date of the result file (the repository has no git history); 'prediction_timing' marks criteria fixed only when this ledger was written.",
  "counts": {
-  "held": 22,
+  "held": 25,
   "null": 5,
   "indicative": 3
  },
- "n_tests": 30,
+ "n_tests": 33,
  "tests": [
   {
    "id": "T1",
@@ -204,7 +204,7 @@
   {
    "id": "M5",
    "area": "Modern evidence: intensity",
-   "question": "Are persistent claims studied more intensively (more co-mentioning papers)?",
+   "question": "Are persistent claims studied more intensively (more co-mentioning papers than expected; primary intensity model)?",
    "prediction": "rate ratio > 1 (95% CI excludes 1)",
    "method": "Poisson GLM, indication FE + offset log(expected), cluster-robust",
    "result": "RR 1.18 [0.70-1.99], p = 0.53",
@@ -225,7 +225,7 @@
   {
    "id": "M6",
    "area": "Modern evidence: intensity",
-   "question": "Are persistent claims studied more intensively (more co-mentioning papers)?",
+   "question": "Are persistent claims studied more intensively (more co-mentioning papers; secondary model without indication FE)?",
    "prediction": "rate ratio > 1 (95% CI excludes 1)",
    "method": "Poisson GLM, offset only (secondary)",
    "result": "RR 1.75 [1.05-2.91], p = 0.03",
@@ -246,7 +246,7 @@
   {
    "id": "M7",
    "area": "Modern evidence: intensity",
-   "question": "Are persistent claims studied more intensively once studied?",
+   "question": "Are persistent claims studied more intensively once studied (among pairs with >= 1 paper)?",
    "prediction": "rate ratio > 1 (95% CI excludes 1)",
    "method": "Poisson FE restricted to pairs with >= 1 paper (intensity once studied)",
    "result": "RR 1.04 [0.61-1.76], p = 0.88",
@@ -487,6 +487,48 @@
    "prediction_timing": "a priori",
    "reproduce": "PYTHONPATH=src python scripts/expert_benchmark.py",
    "source": "results/extensions/expert_benchmark.json",
+   "recorded": "2026-11-08"
+  },
+  {
+   "id": "P5a",
+   "area": "Time machine",
+   "question": "Among pairs unstudied up to 2010, do persistent claims gain a first paper afterwards more often than unclaimed indications of the same plants?",
+   "prediction": "OR > 1 (CI excludes 1) and matched share higher",
+   "method": "logit, indication FE + plant volume at cutoff, cluster-robust; PUB_YEAR windows",
+   "result": "OR 2.77 [1.98-3.87]; gained 28.8% vs 19.6% same plants unclaimed",
+   "numbers": {},
+   "status": "held",
+   "prediction_timing": "a priori",
+   "reproduce": "PYTHONPATH=src python scripts/time_machine.py fetch && python scripts/time_machine.py analyze",
+   "source": "results/extensions/time_machine.json",
+   "recorded": "2026-11-08"
+  },
+  {
+   "id": "P5-2005",
+   "area": "Time machine",
+   "question": "Same, cutoff 2005?",
+   "prediction": "OR > 1",
+   "method": "same model, other cutoff",
+   "result": "OR 2.79 [2.04-3.83]",
+   "numbers": {},
+   "status": "held",
+   "prediction_timing": "a priori",
+   "reproduce": "PYTHONPATH=src python scripts/time_machine.py fetch && python scripts/time_machine.py analyze",
+   "source": "results/extensions/time_machine.json",
+   "recorded": "2026-11-08"
+  },
+  {
+   "id": "P5-2015",
+   "area": "Time machine",
+   "question": "Same, cutoff 2015?",
+   "prediction": "OR > 1",
+   "method": "same model, other cutoff",
+   "result": "OR 2.58 [1.79-3.73]",
+   "numbers": {},
+   "status": "held",
+   "prediction_timing": "a priori",
+   "reproduce": "PYTHONPATH=src python scripts/time_machine.py fetch && python scripts/time_machine.py analyze",
+   "source": "results/extensions/time_machine.json",
    "recorded": "2026-11-08"
   },
   {

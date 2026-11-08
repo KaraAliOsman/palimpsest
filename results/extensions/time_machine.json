@@ -1,0 +1,686 @@
+{
+  "question": "Did the herbals predict later research? Among plant-indication pairs with no paper up to a cutoff year, do claimed (especially persistent) pairs gain a first paper afterwards more often than unclaimed indications of the same plants?",
+  "design": {
+    "field": "Europe PMC PUB_YEAR windows (verified to partition the counts)",
+    "risk_set": "0 co-mentioning papers up to the cutoff; plant itself has >= 1 paper up to the cutoff",
+    "outcome": ">= 1 co-mentioning paper published after the cutoff (to 2026-11-08)",
+    "primary_model": "logit, indication FE + log(1 + plant papers up to cutoff), cluster-robust by plant",
+    "secondary": [
+      "+ log(1 + plant papers after cutoff)",
+      "conditional logit, strata = plant",
+      "matched shares (same plants)",
+      "within-plant Wilcoxon (one-sided)"
+    ],
+    "cutoffs": [
+      2005,
+      2010,
+      2015
+    ],
+    "primary_cutoff": 2010
+  },
+  "verdict": "HELD: among plant-indication pairs unstudied up to 2010, pairs both herbals claim were more likely to receive their first paper afterwards than unclaimed indications of the same plants.",
+  "status": "held",
+  "headline": {
+    "cutoff": 2010,
+    "n_risk_pairs": 10182,
+    "n_risk_taxa": 549,
+    "OR_both": [
+      2.77,
+      1.98,
+      3.87
+    ],
+    "p_both": 2.4e-09,
+    "OR_dsc_only": [
+      2.24,
+      1.82,
+      2.74
+    ],
+    "OR_cul_only": [
+      1.52,
+      1.25,
+      1.86
+    ],
+    "share_gained_both": 0.288,
+    "share_gained_matched_unclaimed": 0.196,
+    "n_both_at_risk": 459,
+    "wilcoxon_p": 4e-07,
+    "OR_both_by_cutoff": {
+      "2005": [
+        2.79,
+        2.04,
+        3.83
+      ],
+      "2010": [
+        2.77,
+        1.98,
+        3.87
+      ],
+      "2015": [
+        2.58,
+        1.79,
+        3.73
+      ]
+    }
+  },
+  "by_cutoff": {
+    "2005": {
+      "cutoff": 2005,
+      "risk_set": {
+        "n_pairs": 10531,
+        "n_taxa": 532,
+        "by_group": {
+          "unclaimed": 5865,
+          "cul_only": 2349,
+          "dsc_only": 1812,
+          "both": 505
+        },
+        "n_gained": 2411
+      },
+      "matched_shares": [
+        {
+          "group": "unclaimed",
+          "n": 5865,
+          "share_gained": 0.17868712702472292,
+          "ci": [
+            0.16218455873753632,
+            0.19608894699118706
+          ]
+        },
+        {
+          "group": "dsc_only",
+          "n": 1812,
+          "n_taxa": 342,
+          "share_gained": 0.29635761589403975,
+          "ci": [
+            0.2610139945182044,
+            0.3336916069406452
+          ],
+          "matched_unclaimed_share": 0.19666048237476808,
+          "matched_unclaimed_ci": [
+            0.17511929938931578,
+            0.2208183447309491
+          ],
+          "matched_n": 3773
+        },
+        {
+          "group": "cul_only",
+          "n": 2349,
+          "n_taxa": 286,
+          "share_gained": 0.27330779054916987,
+          "ci": [
+            0.24174501669506207,
+            0.3044442675872954
+          ],
+          "matched_unclaimed_share": 0.18304,
+          "matched_unclaimed_ci": [
+            0.16253770467177409,
+            0.20514295103516264
+          ],
+          "matched_n": 3125
+        },
+        {
+          "group": "both",
+          "n": 505,
+          "n_taxa": 118,
+          "share_gained": 0.36435643564356435,
+          "ci": [
+            0.3029786218398028,
+            0.4372545782239303
+          ],
+          "matched_unclaimed_share": 0.24960127591706538,
+          "matched_unclaimed_ci": [
+            0.2100299005461833,
+            0.2895082676030502
+          ],
+          "matched_n": 1254
+        }
+      ],
+      "logit_fe": [
+        {
+          "term": "dsc_only",
+          "odds_ratio": 2.30456027618902,
+          "ci": [
+            1.916441752939369,
+            2.7712807125197503
+          ],
+          "p": 7.120712525298339e-19,
+          "n_obs": 10531,
+          "n_taxa": 532,
+          "n_events": 2411
+        },
+        {
+          "term": "cul_only",
+          "odds_ratio": 1.4818639299710306,
+          "ci": [
+            1.2302559496616907,
+            1.7849299631942812
+          ],
+          "p": 3.43337846403316e-05,
+          "n_obs": 10531,
+          "n_taxa": 532,
+          "n_events": 2411
+        },
+        {
+          "term": "both",
+          "odds_ratio": 2.794259208462154,
+          "ci": [
+            2.040428619575799,
+            3.826590378691506
+          ],
+          "p": 1.4969171150158476e-10,
+          "n_obs": 10531,
+          "n_taxa": 532,
+          "n_events": 2411
+        }
+      ],
+      "logit_fe_plus_later_plant_volume": [
+        {
+          "term": "dsc_only",
+          "odds_ratio": 1.6801717366275277,
+          "ci": [
+            1.399528489418385,
+            2.0170915318309333
+          ],
+          "p": 2.6252600532947133e-08,
+          "n_obs": 10531,
+          "n_taxa": 532,
+          "n_events": 2411
+        },
+        {
+          "term": "cul_only",
+          "odds_ratio": 1.7558761580356244,
+          "ci": [
+            1.4732275915485449,
+            2.0927527423765007
+          ],
+          "p": 3.2424287335259613e-10,
+          "n_obs": 10531,
+          "n_taxa": 532,
+          "n_events": 2411
+        },
+        {
+          "term": "both",
+          "odds_ratio": 2.859691044089757,
+          "ci": [
+            2.0899993696900006,
+            3.912839872702996
+          ],
+          "p": 5.1033195752098036e-11,
+          "n_obs": 10531,
+          "n_taxa": 532,
+          "n_events": 2411
+        }
+      ],
+      "conditional_logit": [
+        {
+          "term": "dsc_only",
+          "odds_ratio": 1.3867679135714566,
+          "ci": [
+            1.1666979924914695,
+            1.6483488087645715
+          ],
+          "p": 0.0002083077351474734,
+          "n_obs": 8515,
+          "n_strata": 416
+        },
+        {
+          "term": "cul_only",
+          "odds_ratio": 1.7614944135194925,
+          "ci": [
+            1.503219866246713,
+            2.0641442004140793
+          ],
+          "p": 2.584392647065304e-12,
+          "n_obs": 8515,
+          "n_strata": 416
+        },
+        {
+          "term": "both",
+          "odds_ratio": 2.331655571723154,
+          "ci": [
+            1.7889353956370375,
+            3.0390240577758014
+          ],
+          "p": 3.79176570159116e-10,
+          "n_obs": 8515,
+          "n_strata": 416
+        }
+      ],
+      "wilcoxon_within_plant": {
+        "n_taxa": 525,
+        "mean_diff": 0.06397148033437396,
+        "share_taxa_claimed_higher": 0.4666666666666667,
+        "share_taxa_claimed_lower": 0.2914285714285714,
+        "statistic": 53430.0,
+        "p_value": 1.1196829830582944e-09
+      },
+      "wilcoxon_within_plant_persistent": {
+        "n_taxa": 118,
+        "mean_diff": 0.11820400990391018,
+        "share_taxa_claimed_higher": 0.4830508474576271,
+        "share_taxa_claimed_lower": 0.3559322033898305,
+        "statistic": 3401.5,
+        "p_value": 0.0006092222889140721
+      }
+    },
+    "2010": {
+      "cutoff": 2010,
+      "risk_set": {
+        "n_pairs": 10182,
+        "n_taxa": 549,
+        "by_group": {
+          "unclaimed": 5791,
+          "cul_only": 2217,
+          "dsc_only": 1715,
+          "both": 459
+        },
+        "n_gained": 1776
+      },
+      "matched_shares": [
+        {
+          "group": "unclaimed",
+          "n": 5791,
+          "share_gained": 0.13451908133310309,
+          "ci": [
+            0.12148182120456151,
+            0.14791182918638718
+          ]
+        },
+        {
+          "group": "dsc_only",
+          "n": 1715,
+          "n_taxa": 348,
+          "share_gained": 0.22973760932944606,
+          "ci": [
+            0.19666016109045847,
+            0.2614739354374512
+          ],
+          "matched_unclaimed_share": 0.14561785519869352,
+          "matched_unclaimed_ci": [
+            0.1273418733075239,
+            0.16341741953737765
+          ],
+          "matched_n": 3674
+        },
+        {
+          "group": "cul_only",
+          "n": 2217,
+          "n_taxa": 291,
+          "share_gained": 0.2124492557510149,
+          "ci": [
+            0.18474905680429354,
+            0.24051462846386437
+          ],
+          "matched_unclaimed_share": 0.1378627968337731,
+          "matched_unclaimed_ci": [
+            0.12093717701691752,
+            0.1563683099653249
+          ],
+          "matched_n": 3032
+        },
+        {
+          "group": "both",
+          "n": 459,
+          "n_taxa": 117,
+          "share_gained": 0.2875816993464052,
+          "ci": [
+            0.22442045454545456,
+            0.35337651389476193
+          ],
+          "matched_unclaimed_share": 0.19572649572649573,
+          "matched_unclaimed_ci": [
+            0.16234255078808182,
+            0.23044012303088737
+          ],
+          "matched_n": 1170
+        }
+      ],
+      "logit_fe": [
+        {
+          "term": "dsc_only",
+          "odds_ratio": 2.235446229974037,
+          "ci": [
+            1.8248890950554668,
+            2.7383690661778255
+          ],
+          "p": 7.856582233453908e-15,
+          "n_obs": 9977,
+          "n_taxa": 549,
+          "n_events": 1776
+        },
+        {
+          "term": "cul_only",
+          "odds_ratio": 1.524197632237058,
+          "ci": [
+            1.2494864123402927,
+            1.8593066712632211
+          ],
+          "p": 3.230313300399004e-05,
+          "n_obs": 9977,
+          "n_taxa": 549,
+          "n_events": 1776
+        },
+        {
+          "term": "both",
+          "odds_ratio": 2.7685477478285216,
+          "ci": [
+            1.9815917875455262,
+            3.8680300757101738
+          ],
+          "p": 2.399900427804894e-09,
+          "n_obs": 9977,
+          "n_taxa": 549,
+          "n_events": 1776
+        }
+      ],
+      "logit_fe_plus_later_plant_volume": [
+        {
+          "term": "dsc_only",
+          "odds_ratio": 1.6907448764203055,
+          "ci": [
+            1.390422639317494,
+            2.0559347613504775
+          ],
+          "p": 1.4143642971013412e-07,
+          "n_obs": 9977,
+          "n_taxa": 549,
+          "n_events": 1776
+        },
+        {
+          "term": "cul_only",
+          "odds_ratio": 1.7460427462127477,
+          "ci": [
+            1.4436767869544431,
+            2.111736712227373
+          ],
+          "p": 9.212782469642612e-09,
+          "n_obs": 9977,
+          "n_taxa": 549,
+          "n_events": 1776
+        },
+        {
+          "term": "both",
+          "odds_ratio": 2.8464635170227943,
+          "ci": [
+            2.041238201883298,
+            3.9693331950510915
+          ],
+          "p": 7.010449991496463e-10,
+          "n_obs": 9977,
+          "n_taxa": 549,
+          "n_events": 1776
+        }
+      ],
+      "conditional_logit": [
+        {
+          "term": "dsc_only",
+          "odds_ratio": 1.4224593582659122,
+          "ci": [
+            1.1784311621695365,
+            1.7170206380092088
+          ],
+          "p": 0.0002427502507681651,
+          "n_obs": 7647,
+          "n_strata": 398
+        },
+        {
+          "term": "cul_only",
+          "odds_ratio": 1.7604035853100168,
+          "ci": [
+            1.4793797307351748,
+            2.094810898640817
+          ],
+          "p": 1.8501373299665084e-10,
+          "n_obs": 7647,
+          "n_strata": 398
+        },
+        {
+          "term": "both",
+          "odds_ratio": 2.316345512289594,
+          "ci": [
+            1.734741677468368,
+            3.0929426565310485
+          ],
+          "p": 1.2401480521157257e-08,
+          "n_obs": 7647,
+          "n_strata": 398
+        }
+      ],
+      "wilcoxon_within_plant": {
+        "n_taxa": 540,
+        "mean_diff": 0.053909147440311195,
+        "share_taxa_claimed_higher": 0.40925925925925927,
+        "share_taxa_claimed_lower": 0.28888888888888886,
+        "statistic": 46071.0,
+        "p_value": 4.040756895013767e-07
+      },
+      "wilcoxon_within_plant_persistent": {
+        "n_taxa": 117,
+        "mean_diff": 0.09346998317586551,
+        "share_taxa_claimed_higher": 0.42735042735042733,
+        "share_taxa_claimed_lower": 0.37606837606837606,
+        "statistic": 2914.5,
+        "p_value": 0.005047515165194816
+      }
+    },
+    "2015": {
+      "cutoff": 2015,
+      "risk_set": {
+        "n_pairs": 9901,
+        "n_taxa": 562,
+        "by_group": {
+          "unclaimed": 5695,
+          "cul_only": 2134,
+          "dsc_only": 1640,
+          "both": 432
+        },
+        "n_gained": 1223
+      },
+      "matched_shares": [
+        {
+          "group": "unclaimed",
+          "n": 5695,
+          "share_gained": 0.09376646180860404,
+          "ci": [
+            0.08341750942710463,
+            0.10470734160799722
+          ]
+        },
+        {
+          "group": "dsc_only",
+          "n": 1640,
+          "n_taxa": 348,
+          "share_gained": 0.16646341463414635,
+          "ci": [
+            0.1390088884930531,
+            0.19562262083913298
+          ],
+          "matched_unclaimed_share": 0.09915254237288136,
+          "matched_unclaimed_ci": [
+            0.08545597463449785,
+            0.11316802137114038
+          ],
+          "matched_n": 3540
+        },
+        {
+          "group": "cul_only",
+          "n": 2134,
+          "n_taxa": 297,
+          "share_gained": 0.15745079662605435,
+          "ci": [
+            0.13549726115274915,
+            0.1795946561677738
+          ],
+          "matched_unclaimed_share": 0.09969889595182335,
+          "matched_unclaimed_ci": [
+            0.08591898385509399,
+            0.11509829584793402
+          ],
+          "matched_n": 2989
+        },
+        {
+          "group": "both",
+          "n": 432,
+          "n_taxa": 116,
+          "share_gained": 0.18518518518518517,
+          "ci": [
+            0.13926732862045701,
+            0.23898016367194447
+          ],
+          "matched_unclaimed_share": 0.14016172506738545,
+          "matched_unclaimed_ci": [
+            0.11315330747433457,
+            0.16939890710382513
+          ],
+          "matched_n": 1113
+        }
+      ],
+      "logit_fe": [
+        {
+          "term": "dsc_only",
+          "odds_ratio": 2.23835835659682,
+          "ci": [
+            1.7762406756077271,
+            2.820703411058075
+          ],
+          "p": 8.534282022189508e-12,
+          "n_obs": 9371,
+          "n_taxa": 562,
+          "n_events": 1223
+        },
+        {
+          "term": "cul_only",
+          "odds_ratio": 1.6359076742058463,
+          "ci": [
+            1.32809722408321,
+            2.015058739673947
+          ],
+          "p": 3.6937778169688444e-06,
+          "n_obs": 9371,
+          "n_taxa": 562,
+          "n_events": 1223
+        },
+        {
+          "term": "both",
+          "odds_ratio": 2.5824173832197834,
+          "ci": [
+            1.7890538022136842,
+            3.727601446588124
+          ],
+          "p": 4.059783244713907e-07,
+          "n_obs": 9371,
+          "n_taxa": 562,
+          "n_events": 1223
+        }
+      ],
+      "logit_fe_plus_later_plant_volume": [
+        {
+          "term": "dsc_only",
+          "odds_ratio": 1.7619628894141783,
+          "ci": [
+            1.415641080096692,
+            2.1930087133814413
+          ],
+          "p": 3.9183949583269677e-07,
+          "n_obs": 9371,
+          "n_taxa": 562,
+          "n_events": 1223
+        },
+        {
+          "term": "cul_only",
+          "odds_ratio": 1.8380658057984582,
+          "ci": [
+            1.4942491318227507,
+            2.260992383729419
+          ],
+          "p": 8.358906454991797e-09,
+          "n_obs": 9371,
+          "n_taxa": 562,
+          "n_events": 1223
+        },
+        {
+          "term": "both",
+          "odds_ratio": 2.494319345063036,
+          "ci": [
+            1.7316506849773892,
+            3.5928891716616214
+          ],
+          "p": 9.161370480936793e-07,
+          "n_obs": 9371,
+          "n_taxa": 562,
+          "n_events": 1223
+        }
+      ],
+      "conditional_logit": [
+        {
+          "term": "dsc_only",
+          "odds_ratio": 1.449547911083574,
+          "ci": [
+            1.1703433766496352,
+            1.7953612490565531
+          ],
+          "p": 0.00067162054580104,
+          "n_obs": 6692,
+          "n_strata": 372
+        },
+        {
+          "term": "cul_only",
+          "odds_ratio": 1.8321246591284919,
+          "ci": [
+            1.5056438894317312,
+            2.229398857291275
+          ],
+          "p": 1.4778377472749757e-09,
+          "n_obs": 6692,
+          "n_strata": 372
+        },
+        {
+          "term": "both",
+          "odds_ratio": 2.097006716617147,
+          "ci": [
+            1.5023909860655515,
+            2.9269592338632147
+          ],
+          "p": 1.3455690602290627e-05,
+          "n_obs": 6692,
+          "n_strata": 372
+        }
+      ],
+      "wilcoxon_within_plant": {
+        "n_taxa": 548,
+        "mean_diff": 0.045529204508186163,
+        "share_taxa_claimed_higher": 0.36313868613138683,
+        "share_taxa_claimed_lower": 0.26824817518248173,
+        "statistic": 38390.5,
+        "p_value": 3.4219986900095843e-06
+      },
+      "wilcoxon_within_plant_persistent": {
+        "n_taxa": 116,
+        "mean_diff": 0.06977054667216939,
+        "share_taxa_claimed_higher": 0.3793103448275862,
+        "share_taxa_claimed_lower": 0.3620689655172414,
+        "statistic": 2268.0,
+        "p_value": 0.04343033241843181
+      }
+    }
+  },
+  "consistency": {
+    "n_pairs": 13138,
+    "n_pairs_with_papers_now": 3721,
+    "monotone_2005_2010_2015": true,
+    "share_equal_to_published_total": 0.9995433094839398,
+    "sum_now": 33327,
+    "sum_published": 33333
+  },
+  "caveats": [
+    "Pseudo-prospective: the claims are ancient, but the controls and the indication vocabulary were chosen in 2026; co-mention measures attention, not efficacy.",
+    "Later research may itself be motivated by the herbals (circularity is reduced, not removed).",
+    "Pairs whose plant had no paper at all by the cutoff are excluded from the risk set.",
+    "Counts are a 2026-11-08 snapshot; records indexed late can move between windows."
+  ],
+  "reproduce": [
+    "PYTHONPATH=src python scripts/time_machine.py fetch",
+    "PYTHONPATH=src python scripts/time_machine.py analyze"
+  ],
+  "generated": "2026-11-08"
+}

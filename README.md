@@ -47,6 +47,16 @@ conclusions intact: persistent-claim OR 2.48 [1.84–3.36], RR once studied 1.03
 ![Evidence by group](results/figures/fig2_evidence_by_group.png)
 ![Odds ratios](results/figures/fig3_odds_ratios.png)
 
+**4 · The herbals predicted where research went next.** Among plant–indication pairs with no paper up to 2010,
+those both herbals claim received their first paper afterwards in 28.8% of cases vs 19.6% for unclaimed
+indications of the same plants (logit with indication fixed effects: **OR 2.77 [1.98–3.87]**, p = 2e-9; cut-offs
+2005 and 2015 give 2.79 and 2.58) — a pseudo-prospective answer to the circularity objection
+([`results/extensions/`](results/extensions/), [docs/EXTENSIONS.md](docs/EXTENSIONS.md)).
+
+**5 · Identifications match the experts.** Against the expert identifications of Lardos et al. 2024 (54 chapters),
+our species equals the experts' top choice in **70%** [57–81%] (81% for species-rank IDs) and the genus in **91%**;
+a 30-plant staples check is 30/30. Caveat: the AI-assisted curation may have seen that literature.
+
 **3 · Leads.** 517 persistent pairs have ≤ 4 co-mentioning papers; the top 60
 (diversified, [`results/tables/leads.csv`](results/tables/leads.csv)) combine persistence, LOTUS chemistry and a
 volume-aware evidence gap, and must be supported by a chapter on the plant itself in both herbals. None is

@@ -37,7 +37,25 @@ Offline tests: `tests/test_extensions.py`.
 
 ## P5 · Time machine (pseudo-prospective test)
 
-<!-- P5 -->
+`scripts/time_machine.py fetch|analyze` · `sources/europepmc_years.py`, `analysis/time_machine.py` ·
+[`results/extensions/time_machine.md`](../results/extensions/time_machine.md) ·
+![time machine](../results/extensions/fig_time_machine.png)
+
+* **Question:** did the herbals *predict* later research? Every scored pair (claimed + 12 seeded unclaimed
+  controls per plant) was re-counted in Europe PMC with publication-year windows. `PUB_YEAR:[1000 TO Y]` /
+  `PUB_YEAR:[Y+1 TO 2100]` was verified to partition the counts exactly (wormwood 480 = 107 + 373;
+  `FIRST_PDATE` also partitions, 109 + 371); window sums reproduce the published counts (33,327 vs 33,333).
+* **Design (fixed before fetching):** risk set = pairs with 0 papers up to the cutoff whose plant already had
+  papers; outcome = ≥ 1 paper after the cutoff; logit with indication fixed effects and the plant's
+  research volume *at the cutoff*, cluster-robust by plant; secondary: + later plant volume, conditional
+  logit (strata = plant), matched shares, within-plant Wilcoxon. Estimator checked on simulated data
+  (recovers OR 2.55 for a true 2.5; null → CI covers 1).
+* **Result — held at every cutoff.** Cutoff 2010: of 459 persistent pairs unstudied in 2010, **28.8%** gained a
+  first paper by 2026 vs **19.6%** of the unclaimed indications of the same plants; **OR 2.77 [1.98–3.87]**,
+  p = 2e-9 (Dioscorides-only 2.24, Culpeper-only 1.52); + later plant volume 2.85; conditional logit 2.32;
+  within-plant Wilcoxon p = 4e-7. Cutoff 2005: OR 2.79 [2.04–3.83]; 2015: 2.58 [1.79–3.73].
+* **Caveat:** pseudo-prospective — tradition may itself have motivated post-2010 studies (circularity is
+  reduced, not removed), and co-mention measures attention, not efficacy.
 
 ## P4 · Uncertainty-weighted leads
 
