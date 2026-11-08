@@ -248,6 +248,11 @@ console.log("manifest.json", manifest.map((m) => `${m.id}:${m.bytes}`).join(" ")
     rr: { v: reg("poisson", "both").rate_ratio ?? null, ci: reg("poisson", "both").ci ?? null },
     leads: leads.length,
     hero,
+    timeMachine: (() => {
+      const f = join(root, "data/extra/time_machine.json");
+      if (!existsSync(f)) return null;
+      try { const t = JSON.parse(readFileSync(f, "utf8")), h = t.headline ?? {}; return h.OR_both ? { cutoff: h.cutoff, or: h.OR_both, gained: h.share_gained_both, control: h.share_gained_matched_unclaimed } : null; } catch { return null; }
+    })(),
     tests: (() => {
       const f = join(root, "data/extra/tests_ledger.json");
       if (!existsSync(f)) return null;

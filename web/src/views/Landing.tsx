@@ -1,6 +1,6 @@
-import { lazy, Suspense, useEffect, useMemo, type ReactNode } from "react";
+import { lazy, Suspense, useEffect, useMemo, useRef, useState } from "react";
 import {
-  conceptMap, load, recordFile, useResource,
+  assetUrl, conceptMap, load, recordFile, useResource,
   type Concept, type PlantRecord,
 } from "../lib/data";
 import { href, to } from "../lib/router";
@@ -8,106 +8,145 @@ import { fmt } from "../lib/format";
 import { clause, firstSpan } from "../lib/text";
 import { useImages, srcSet, smallest } from "../lib/images";
 import { SITE } from "../lib/export";
-import { Arch, Caution, CopyButton, Ext, Kbd, Skeleton, TierMeter, isMac } from "../components/ui";
-import { Scrape, type ScrapeLayer } from "../components/Scrape";
+import { Arch, Caution, CopyButton, Kbd, Skeleton, TierMeter, isMac } from "../components/ui";
 import { useInView } from "../charts/kit";
 import INLINE from "../generated/inline.json";
 
 const SurvivalFlow = lazy(() => import("../charts/SurvivalFlow").then((m) => ({ default: m.SurvivalFlow })));
 
-const H = INLINE.hero;
-const WORMWOOD = "artemisia-absinthium";
+type Era = "all" | "dsc" | "cul" | "now";
+const ERAS: { id: Era; year: string; who: string }[] = [
+  { id: "all", year: "All layers", who: "as the page stands" },
+  { id: "dsc", year: "c. 60 CE", who: "Dioscorides" },
+  { id: "cul", year: "1653", who: "Culpeper" },
+  { id: "now", year: "2026", who: "Accepted name" },
+];
+const HERO = {
+  srcs: [1800, 1200, 640].map((w) => `${assetUrl(`img/codex/wiener-dioskurides-absinthion-badypikron-${w}.webp`)} ${w}w`).join(", "),
+  src: assetUrl("img/codex/wiener-dioskurides-absinthion-badypikron-1200.webp"),
+  w: 1200, h: 1496,
+};
 const FOCUS = "jaundice";
+const WORMWOOD = "artemisia-absinthium";
 
-type Mark = { k: string; s: number; e: number };
-const MARK_CLASS: Record<string, string> = { eye: "lm lm--claim", juice: "lm lm--same", fennel: "lm lm--same", honey: "lm lm--same" };
+/* ------------------------------------------------------------------ hero */
 
-/** Text from one source with its aligned words marked; offsets are characters in the edition. */
-function Marked({ text, base, marks, lang }: { text: string; base: number; marks: Mark[]; lang?: string }) {
-  const out: ReactNode[] = [];
-  let at = 0;
-  const ms = marks.map((m) => ({ ...m, s: m.s - base, e: m.e - base })).filter((m) => m.s >= 0 && m.e <= text.length).sort((a, b) => a.s - b.s);
-  ms.forEach((m, i) => {
-    if (m.s > at) out.push(text.slice(at, m.s));
-    out.push(<span key={i} className={MARK_CLASS[m.k] ?? "lm"} data-k={m.k} lang={lang}>{text.slice(m.s, m.e)}</span>);
-    at = m.e;
+function useFirstVisit(): boolean {
+  // The writing-over sequence plays once per session; afterwards the stack simply is.
+  const [first] = useState(() => {
+    try { if (sessionStorage.getItem("ps-intro")) return false; sessionStorage.setItem("ps-intro", "1"); } catch { /* storage blocked */ }
+    return !window.matchMedia?.("(prefers-reduced-motion: reduce)").matches;
   });
-  out.push(text.slice(at));
-  return <>{out}</>;
+  return first;
 }
 
-const LAYERS: [ScrapeLayer, ScrapeLayer, ScrapeLayer] = [
-  {
-    id: "cul", era: "1653", who: "Culpeper", label: `Culpeper on ${H.names.cul}, the eye remedy`,
-    body: (
-      <div className="leaf-body">
-        <p className="leaf-head"><span className="leaf-src">Culpeper, <i>The Complete Herbal</i></span><span className="leaf-ref num">1653 · {H.cul.title}</span></p>
-        <p className="leaf-name leaf-name--cul">{H.names.cul}</p>
-        <p className="leaf-text leaf-text--cul"><span className="leaf-initial" aria-hidden="true">{H.cul.text.charAt(0)}</span><span className="visually-hidden">{H.cul.text.charAt(0)}</span><Marked text={H.cul.text.slice(1)} base={H.cul.start + H.cul.lead + 1} marks={H.cul.marks} /></p>
-        <p className="leaf-foot">Project Gutenberg 49513, characters <span className="num">{fmt.int(H.cul.start + H.cul.lead)}–{fmt.int(H.cul.start + H.cul.lead + H.cul.text.length)}</span></p>
+function NameStack({ era, setEra, intro }: { era: Era; setEra: (e: Era) => void; intro: boolean }) {
+  const radios = useRef<(HTMLButtonElement | null)[]>([]);
+  const onKey = (e: React.KeyboardEvent, i: number) => {
+    const n = e.key === "ArrowRight" || e.key === "ArrowDown" ? 1 : e.key === "ArrowLeft" || e.key === "ArrowUp" ? -1 : 0;
+    if (!n) return;
+    e.preventDefault();
+    const j = (i + n + ERAS.length) % ERAS.length;
+    setEra(ERAS[j].id);
+    radios.current[j]?.focus();
+  };
+  return (
+    <div className={`stack is-${era} ${intro ? "is-intro" : ""}`}>
+      <p className="stack-layers" aria-label="Wormwood, three names: ἀψίνθιον in Dioscorides, Wormwood in Culpeper, Artemisia absinthium today">
+        <span className="layer layer--dsc" lang="grc" aria-hidden="true">ἀψίνθιον</span>
+        <span className="layer layer--cul" aria-hidden="true">Wormwood</span>
+        <span className="layer layer--now" aria-hidden="true"><i>Artemisia absinthium</i></span>
+      </p>
+      <div className="eras" role="radiogroup" aria-label="Which layer to read">
+        {ERAS.map((e, i) => {
+          const on = era === e.id;
+          return (
+            <button
+              key={e.id}
+              ref={(el) => { radios.current[i] = el; }}
+              type="button"
+              role="radio"
+              aria-checked={on}
+              tabIndex={on ? 0 : -1}
+              className={`era era--${e.id}`}
+              onClick={() => setEra(e.id)}
+              onKeyDown={(ev) => onKey(ev, i)}
+            >
+              <span className="era-mark" aria-hidden="true" />
+              <span className="era-year num">{e.year}</span>
+              <span className="era-who">{e.who}</span>
+            </button>
+          );
+        })}
       </div>
-    ),
-  },
-  {
-    id: "dsc", era: "c. 60 CE", who: "Dioscorides", label: `Dioscorides on ${H.names.dsc}, the same recipe in Greek`,
-    body: (
-      <div className="leaf-body">
-        <p className="leaf-head"><span className="leaf-src">Dioscorides, <i>De materia medica</i> {H.dsc.ref.replace("dsc:", "")}</span><span className="leaf-ref num">c. 60 CE</span></p>
-        <p className="leaf-name leaf-name--dsc" lang="grc">{H.names.dsc}</p>
-        <p className="leaf-text leaf-text--dsc" lang="grc">
-          <Marked text={H.dsc.head} base={H.dsc.headStart} marks={H.dsc.marks} lang="grc" /> … <Marked text={H.dsc.text} base={H.dsc.start} marks={H.dsc.marks} lang="grc" />
-        </p>
-        <p className="leaf-gloss"><span className="leaf-gloss-tag">Literal gloss</span> “the <b>juice</b> … helps <b>dim sight</b>, smeared on with <b>fennel</b> juice and <b>honey</b>.”</p>
-        <p className="leaf-foot">Wellmann’s edition via First1KGreek, characters <span className="num">{fmt.int(H.dsc.start)}–{fmt.int(H.dsc.start + H.dsc.text.length)}</span> · CC BY-SA 4.0</p>
-      </div>
-    ),
-  },
-  {
-    id: "now", era: "2026", who: "the evidence", label: `${H.papers_pair} papers name ${H.taxon} with an eye complaint`,
-    body: (
-      <div className="leaf-body leaf-body--now">
-        <p className="leaf-head"><span className="leaf-src">Europe PMC, searched 2026</span><span className="leaf-ref num">Lead {H.rank} of {INLINE.leads}</span></p>
-        <p className="leaf-name leaf-name--now"><i>{H.taxon}</i></p>
-        <p className="leaf-zero"><span className="leaf-zero-n num">{H.papers_pair}</span><span className="leaf-zero-t">papers name {H.common ?? "the plant"} together with an eye complaint, out of <span className="num">{fmt.int(H.papers_plant)}</span> papers on {H.common ?? "the plant"}. Two herbals agree across sixteen centuries; nobody has written on this page yet.</span></p>
-        <p className="leaf-actions">
-          <a className="btn btn--ink btn--small" href={href(`/lead/${H.rank}`)}>Open the lead dossier</a>
-          <Ext className="leaf-query" href={`https://europepmc.org/search?query=${encodeURIComponent(H.query)}`}>Run the exact search</Ext>
-        </p>
-        {H.warn && <Caution tone="line">The herbals themselves warn about {H.common ?? "this plant"}. A research hypothesis, not medical advice.</Caution>}
-      </div>
-    ),
-  },
-];
+    </div>
+  );
+}
+
+function EraReading({ era, rec, cmap }: { era: Era; rec: PlantRecord | undefined; cmap: Map<string, Concept> }) {
+  const label = cmap.get(FOCUS)?.label ?? "Jaundice";
+  const mesh = cmap.get(FOCUS)?.mesh_id;
+  const d = rec?.texts["dsc:3.23"], c = rec?.texts["cul:327-wormwood"];
+  const ds = d?.text ? firstSpan(d, FOCUS) : null;
+  const cs = c?.text ? firstSpan(c, FOCUS) : null;
+  const claim = rec?.plant.claims?.find((x) => x.concept_id === FOCUS);
+  if (!rec) return <div className="reading-line is-pending" aria-hidden="true" />;
+  const show = era === "all" ? "dsc" : era;
+  return (
+    <div className="reading-line" aria-live="polite">
+      {show === "dsc" && d?.text && ds && (() => { const k = clause(d.text, ds, 44, 46); return (
+        <p><span className="reading-src">De materia medica 3.23</span><q lang="grc" className="grc">{k.cutStart ? "… " : ""}{k.pre}<mark className="hl hl--dsc">{k.hit}</mark>{k.post}{k.cutEnd ? " …" : ""}</q></p>
+      ); })()}
+      {show === "cul" && c?.text && cs && (() => { const k = clause(c.text, cs, 60, 30); return (
+        <p><span className="reading-src">Complete Herbal, Wormwood</span><q>{k.cutStart ? "… " : ""}{k.pre}<mark className="hl hl--cul">{k.hit}</mark>{k.post}{k.cutEnd ? " …" : ""}</q></p>
+      ); })()}
+      {show === "now" && (
+        <p><span className="reading-src">Europe PMC, 2026</span>
+          <span><b className="num">{fmt.int(claim?.epmc_pair)}</b> papers name <i>Artemisia absinthium</i> with {label.toLowerCase()}, of <span className="num">{fmt.int(rec.plant.epmc_total)}</span> on the plant{mesh ? <> (MeSH <span className="num">{mesh}</span>)</> : null}.</span></p>
+      )}
+    </div>
+  );
+}
 
 function Hero({ onSearch }: { onSearch: () => void }) {
+  const intro = useFirstVisit();
+  const [era, setEra] = useState<Era>("all");
+  const rec = useResource<PlantRecord>(recordFile(WORMWOOD));
+  const concepts = useResource<Concept[]>("concepts.json");
+  const cmap = conceptMap(concepts.data ?? []);
   const n = INLINE.counts;
-  const fold = INLINE.persistence.fold;
   return (
     <section className="hero" aria-labelledby="page-title">
       <div className="wrap hero-grid">
         <div className="hero-text">
-          <h1 id="page-title" tabIndex={-1} className="hero-title">Scrape a 1653 herbal and Dioscorides is underneath.</h1>
+          <NameStack era={era} setEra={setEra} intro={intro} />
+          <EraReading era={era} rec={rec.data} cmap={cmap} />
+          <h1 id="page-title" tabIndex={-1} className="hero-title">Two herbals, sixteen centuries apart, read to the word and tested against modern evidence.</h1>
           <p className="hero-lede">
-            Culpeper’s cure for dim sight, {H.common} juice with fennel and honey, is the recipe Dioscorides wrote in Greek sixteen centuries earlier. Palimpsest reads both herbals to the word, finds <b className="num">{fmt.int(INLINE.persistence.observed)}</b> claims that survived, <b className="num">{fmt.two(fold)}×</b> more than chance, and checks which ones modern science has studied. For this one: <b>none</b>.
+            Palimpsest maps the <span className="num">{fmt.int(n?.dsc_chapters ?? 822)}</span> Greek chapters of Dioscorides and the <span className="num">{fmt.int(n?.cul_monographs ?? 328)}</span> monographs of Culpeper onto <span className="num">{fmt.int(n?.taxa ?? 692)}</span> accepted plants, keeps the exact words of <span className="num">{fmt.int(n?.claims ?? 10399)}</span> claims, and asks which survived, and whether science has looked.
           </p>
           <div className="hero-actions">
             <button type="button" className="searchbox" onClick={onSearch} aria-label="Search plants, Greek names and indications" aria-keyshortcuts={isMac ? "Meta+K" : "Control+K"}>
               <svg viewBox="0 0 20 20" width="18" height="18" aria-hidden="true"><circle cx="8.5" cy="8.5" r="5.5" fill="none" stroke="currentColor" strokeWidth="1.6" /><path d="m12.7 12.7 4.3 4.3" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" /></svg>
-              <span className="searchbox-ph">Search <span lang="grc" className="grc">πήγανον</span>, wormwood, jaundice…</span>
+              <span className="searchbox-ph">Search <span lang="grc" className="grc">ἀψίνθιον</span>, rue, jaundice…</span>
               <span className="searchbox-keys" aria-hidden="true"><Kbd>{isMac ? "⌘" : "Ctrl"}</Kbd><Kbd>K</Kbd></span>
             </button>
             <a className="btn btn--ink" href={href("/findings")}>Read the findings</a>
           </div>
-          <p className="hero-scope">
-            <span className="num">{fmt.int(n.dsc_chapters)}</span> Greek chapters · <span className="num">{fmt.int(n.cul_monographs)}</span> English monographs · <span className="num">{fmt.int(n.taxa)}</span> plants · <span className="num">{fmt.int(n.claims)}</span> claims, each kept with its exact characters
-          </p>
         </div>
-        <Scrape
-          layers={LAYERS}
-          caption={<>One leaf, written three times: Culpeper’s <i>Garden-Rue</i> over Dioscorides’ <span lang="grc" className="grc">{H.names.dsc}</span> (identified as <i>{H.taxon}</i>, {H.names.dsc_conf} confidence), over the modern record. Dotted words are the shared ingredients; the red underline is the claim both herbals make. <a href={href(`/plant/${H.slug}`, { c: H.concept_id })}>Both texts in full</a></>}
-        />
+        <figure className="hero-folio">
+          <a href={href(`/plant/${WORMWOOD}`)} className="hero-folio-link" aria-label="Open the wormwood record">
+            <img
+              src={HERO.src} srcSet={HERO.srcs} sizes="(max-width: 860px) 92vw, 40vw"
+              width={HERO.w} height={HERO.h} alt="Wormwood in the Vienna Dioscurides: a tall grey-green plant with feathery leaves and seed heads, its Greek name written in red uncials beneath it."
+              fetchPriority="high" decoding="async"
+            />
+          </a>
+          <figcaption className="seam">
+            <span lang="grc" className="grc">ἀψίνθιον βαθύπικρον</span>, “very bitter wormwood”. Vienna Dioscurides, Constantinople, c. 512 CE. Public domain. <a href={href("/credits")}>Credits</a>
+          </figcaption>
+        </figure>
       </div>
-      <HowToRead />
     </section>
   );
 }
@@ -116,22 +155,25 @@ function Hero({ onSearch }: { onSearch: () => void }) {
 
 function HowToRead() {
   return (
-    <div className="wrap">
-      <ol className="howto" aria-label="How to read the explorer">
-        <li className="howto-step">
-          <h2 className="howto-title"><span className="howto-n">i</span>Read the marks</h2>
-          <p>Every complaint a herbal claims to treat is marked in place: <span className="span span--dsc howto-sample" lang="grc">ἀμβλυωπίαις</span> in Dioscorides’ Greek, <span className="span span--cul howto-sample">dimness</span> in Culpeper’s English. Hover a Greek word for its English gloss.</p>
-        </li>
-        <li className="howto-step">
-          <h2 className="howto-title"><span className="howto-n">ii</span>Look for red</h2>
-          <p>A <span className="span span--cul is-persistent howto-sample">red underline</span> means both herbals make the same claim for the same plant: it survived sixteen centuries of copying.</p>
-        </li>
-        <li className="howto-step">
-          <h2 className="howto-title"><span className="howto-n">iii</span>Check 2026</h2>
-          <p>Each claim carries a tier, <TierMeter tier="unstudied" /> <TierMeter tier="sparse" /> <TierMeter tier="studied" />, counting papers that name the plant with the complaint. Papers, not proof: a paper may report no effect.</p>
-        </li>
-      </ol>
-    </div>
+    <section className="howto-sec" aria-labelledby="howto-title">
+      <div className="wrap">
+        <h2 id="howto-title">How to read the explorer</h2>
+        <ol className="howto">
+          <li className="howto-step">
+            <h3 className="howto-title"><span className="howto-n">i</span>Read the marks</h3>
+            <p>Every complaint a herbal claims to treat is marked in place: <span className="span span--dsc howto-sample" lang="grc">ἰκτερικούς</span> in Dioscorides’ Greek, <span className="span span--cul howto-sample">jaundice</span> in Culpeper’s English. Hover a Greek word for its literal English gloss.</p>
+          </li>
+          <li className="howto-step">
+            <h3 className="howto-title"><span className="howto-n">ii</span>Look for red</h3>
+            <p>A <span className="span span--cul is-persistent howto-sample">red underline</span> means both herbals make the same claim for the same plant: it survived sixteen centuries of copying.</p>
+          </li>
+          <li className="howto-step">
+            <h3 className="howto-title"><span className="howto-n">iii</span>Check 2026</h3>
+            <p>Each claim carries a tier, <TierMeter tier="unstudied" /> <TierMeter tier="sparse" /> <TierMeter tier="studied" />, counting papers that name the plant with the complaint. Papers, not proof: a paper may report no effect.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
   );
 }
 
@@ -257,8 +299,8 @@ function Findings() {
           <li className="find">
             <h3 className="find-claim">Science has looked. Claims both herbals make are studied at all more often: <span className="find-fig num">{fmt.pct(INLINE.shareBoth)}</span> against {fmt.pct(INLINE.matchedBoth)}.</h3>
             <ShareBars a={INLINE.shareBoth} b={INLINE.matchedBoth} />
-            <p className="find-body">Share of plant–indication pairs with at least one co-mentioning paper, compared with unclaimed indications of exactly the same plants. Odds ratio {fmt.two(or.v)} [{fmt.two(or.ci[0])}–{fmt.two(or.ci[1])}] with indication fixed effects and plant research volume.</p>
-            <a className="find-link" href={href("/findings", null, "controls")}>Matched controls and odds ratios</a>
+            <p className="find-body">Share of plant–indication pairs with at least one co-mentioning paper, compared with unclaimed indications of exactly the same plants. Odds ratio {fmt.two(or.v)} [{fmt.two(or.ci[0])}–{fmt.two(or.ci[1])}] with indication fixed effects and plant research volume.{INLINE.timeMachine ? <> And forward in time: of pairs still unstudied in {INLINE.timeMachine.cutoff}, {fmt.pct(INLINE.timeMachine.gained)} of those both herbals claim got a first paper afterwards, against {fmt.pct(INLINE.timeMachine.control)} (OR {fmt.two(INLINE.timeMachine.or[0])}).</> : null}</p>
+            <a className="find-link" href={href("/findings", null, INLINE.timeMachine ? "timemachine" : "controls")}>{INLINE.timeMachine ? "Matched controls and the time machine" : "Matched controls and odds ratios"}</a>
           </li>
           <li className="find">
             <h3 className="find-claim">But not hard. Once studied, persistent claims draw <span className="find-fig num">{fmt.two(rr.v)}×</span> the papers: no more than any other.</h3>
@@ -444,6 +486,7 @@ export function Landing({ onSearch }: { onSearch: () => void }) {
     <div className="landing">
       <Hero onSearch={onSearch} />
       <Findings />
+      <HowToRead />
       <FlowSection />
       <Ways />
       <Chain />

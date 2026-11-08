@@ -172,10 +172,21 @@ function readTimeMachine(raw: unknown): { question: string | null; answer: strin
     const c = asArray<number>(pick(r, "ci", "ci95", `${effKey}_ci`));
     rows.push({ label, v: num(r[effKey])!, lo: num(c[0]), hi: num(c[1]), n: num(pick(r, "n", "n_pairs", "n_obs")), extra: str(pick(r, "note", "summary")) });
   }
+  // shape written by scripts/time_machine.py: headline.OR_both_by_cutoff = {year: [or, lo, hi]}
+  const hl = isObj(raw["headline"]) ? (raw["headline"] as O) : null;
+  if (!rows.length && hl && isObj(hl["OR_both_by_cutoff"])) {
+    measure = "Odds ratio";
+    for (const [y, v] of Object.entries(hl["OR_both_by_cutoff"] as O)) {
+      const a = asArray<number>(v);
+      if (num(a[0]) !== null) rows.push({ label: `Unstudied in ${y}`, v: a[0], lo: num(a[1]), hi: num(a[2]), n: null, extra: null });
+    }
+  }
   if (!rows.length) return null;
+  const join = (v: unknown) => (Array.isArray(v) ? v.filter((x) => typeof x === "string").join(Array.isArray(v) && /python|PYTHON/.test(String(v[0])) ? " && " : " ") : str(v));
+  const verdict = str(pick(raw, "answer", "verdict", "finding", "summary"));
   return {
-    question: str(pick(raw, "question")), answer: str(pick(raw, "answer", "verdict", "finding", "summary", "headline")),
-    measure, rows, caveat: str(pick(raw, "caveat", "limitations")), cmd: str(pick(raw, "reproduce", "command")),
+    question: str(pick(raw, "question")), answer: verdict ? ((x) => x.charAt(0).toUpperCase() + x.slice(1))(verdict.replace(/^(HELD|NULL|DID NOT HOLD):\s*/i, "")) : null,
+    measure, rows, caveat: join(pick(raw, "caveat", "caveats", "limitations")), cmd: join(pick(raw, "reproduce", "command")),
   };
 }
 
@@ -186,7 +197,7 @@ export function TimeMachine({ heading }: { heading?: (title: string) => ReactNod
   if (!tm) return null;
   const vals = tm.rows.flatMap((x) => [x.v, x.lo ?? x.v, x.hi ?? x.v]);
   const lo = Math.min(0.5, ...vals) * 0.9, hi = Math.max(2, ...vals) * 1.1;
-  const W = 560, rowH = 34, m = { l: 70, r: 24, t: 24 };
+  const W = 620, rowH = 34, m = { l: 140, r: 40, t: 24 };
   const H = m.t + tm.rows.length * rowH + 30;
   const x = (v: number) => m.l + ((Math.log(v) - Math.log(lo)) / (Math.log(hi) - Math.log(lo))) * (W - m.l - m.r);
   const ticks = [0.5, 1, 1.5, 2, 3, 4, 5].filter((t) => t >= lo && t <= hi);
@@ -210,7 +221,7 @@ export function TimeMachine({ heading }: { heading?: (title: string) => ReactNod
           );
         })}
       </svg>
-      <p className="chart-axis-note">{tm.measure} on a log scale; the line at 1 is no difference; hollow points are intervals that include 1.{tm.caveat ? ` ${tm.caveat}` : ""}{tm.cmd ? <> Reproduce: <code>{tm.cmd}</code></> : null}</p>
+      <p className="chart-axis-note">{tm.measure} that a pair with no paper by the cutoff year gained one afterwards, claimed by both herbals against unclaimed indications of the same plants; log scale; the line at 1 is no difference.{tm.caveat ? ` ${tm.caveat}` : ""}{tm.cmd ? <> Reproduce: <code>{tm.cmd}</code></> : null}</p>
     </div>
   );
 }
