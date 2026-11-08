@@ -48,7 +48,17 @@ def taxon_claims(claims: pd.DataFrame, mt: pd.DataFrame, level: str = "species")
     return wide.merge(mono, on=["taxon", "concept_id"], how="left")
 
 
-def transmission_test(tc: pd.DataFrame, n_perm: int = 10000, seed: int = 2026) -> dict:
+def size_strata(tc: pd.DataFrame, q: int = 5) -> dict:
+    """Quintile of the number of Dioscorides claims per plant: plants that both
+    authors wrote at length about are only shuffled among themselves."""
+    n = tc[tc.dsc].groupby("taxon").size()
+    return pd.qcut(n.rank(method="first"), q, labels=False).to_dict()
+
+
+def transmission_test(tc: pd.DataFrame, n_perm: int = 10000, seed: int = 2026,
+                      strata: dict | None = None) -> dict:
+    """Label permutation; with ``strata`` (taxon -> label) Culpeper's claim sets
+    are only exchanged between plants of the same stratum."""
     d_sets = {t: set(g.concept_id) for t, g in tc[tc.dsc].groupby("taxon")}
     c_sets = {t: set(g.concept_id) for t, g in tc[tc.cul].groupby("taxon")}
     shared = sorted(set(d_sets) & set(c_sets))
@@ -66,8 +76,17 @@ def transmission_test(tc: pd.DataFrame, n_perm: int = 10000, seed: int = 2026) -
     rng = np.random.default_rng(seed)
     null = np.empty(n_perm, dtype=np.int64)
     null_by_concept = np.zeros(len(concepts))
+    groups = None
+    if strata is not None:
+        lab = np.array([strata.get(t, -1) for t in shared], dtype=object)
+        groups = [np.where(lab == g)[0] for g in pd.unique(lab)]
     for k in range(n_perm):
-        perm = rng.permutation(len(shared))
+        if groups is None:
+            perm = rng.permutation(len(shared))
+        else:
+            perm = np.arange(len(shared))
+            for idx in groups:
+                perm[idx] = rng.permutation(idx)
         ov = (D & C[perm]).sum(axis=0)
         null[k] = ov.sum()
         null_by_concept += ov

@@ -16,7 +16,9 @@ from ..paths import CULPEPER_TXT
 from ..textnorm import slugify
 
 _HEADING = re.compile(r"^ {3,6}([A-Z][A-Z’',.\- ()&]{2,})\s*$")
-_MARKER = re.compile(r"_([A-Z][A-Za-z ,]+?)\._\]")
+# "_Government and virtues._]" and the variant without the full stop
+_MARKER = re.compile(r"_([A-Z][A-Za-z ,]+?)\.?_\.?\]")
+_HEADER_KEYS = ("description", "place", "time", "place and time", "time and place")
 _FIRST_HERB = "AMARA DULCIS"
 _STOP = "SECTION I."
 
@@ -44,6 +46,10 @@ def _blocks(lines: list[str]) -> Iterator[tuple[str, list[str]]]:
 
 
 def _sections(text: str) -> dict[str, str]:
+    """Split on italic markers.  ``text`` keeps paragraph breaks (blank lines):
+    a description/place/time section is only its first paragraph - unlabelled
+    paragraphs after it are virtues text (e.g. Lily of the Valley) and go to
+    ``virtues_extra``."""
     out: dict[str, str] = {}
     pos = [(m.start(), m.end(), m.group(1).strip().lower()) for m in _MARKER.finditer(text)]
     intro_end = pos[0][0] if pos else len(text)
@@ -53,14 +59,16 @@ def _sections(text: str) -> dict[str, str]:
         key = {
             "descript": "description",
             "description": "description",
-            "place": "place",
-            "time": "time",
             "government and virtues": "virtues",
             "virtues": "virtues",
             "government": "virtues",
         }.get(name, name)
-        out[key] = (out.get(key, "") + " " + text[e:nxt]).strip()
-    return out
+        chunk = text[e:nxt].strip()
+        if key in _HEADER_KEYS and "\n\n" in chunk:
+            chunk, extra = chunk.split("\n\n", 1)
+            out["virtues_extra"] = (out.get("virtues_extra", "") + " " + extra).strip()
+        out[key] = (out.get(key, "") + " " + chunk).strip()
+    return {k: re.sub(r"\s+", " ", v).strip() for k, v in out.items()}
 
 
 def iter_monographs(path=CULPEPER_TXT) -> Iterator[dict]:
@@ -76,10 +84,11 @@ def iter_monographs(path=CULPEPER_TXT) -> Iterator[dict]:
         return {w for w in re.findall(r"[a-z]{4,}", r["headword"].lower())} - stop
 
     for i, r in enumerate(recs):
-        if not r["analysis_text"].strip():
+        if not r["sections"].get("virtues"):
             for j in range(i + 1, min(i + 4, len(recs))):
                 if recs[j]["sections"].get("virtues") and words(r) & words(recs[j]):
-                    r["analysis_text"] = recs[j]["sections"]["virtues"]
+                    own = r["analysis_text"].strip()
+                    r["analysis_text"] = (own + " " if own else "") + recs[j]["sections"]["virtues"]
                     r["virtues_from"] = recs[j]["id"]
                     break
         yield r
@@ -89,14 +98,20 @@ def _iter_raw(path) -> Iterator[dict]:
     lines = path.read_text(encoding="utf-8").replace("\r\n", "\n").split("\n")
     for n, (heading, body) in enumerate(_blocks(lines), start=1):
         raw = "\n".join(body).strip()
-        text = re.sub(r"\[Illustration[^\]]*\]", " ", raw)
-        text = re.sub(r"\s+", " ", text).strip()
+        raw = re.sub(r"\[Illustration[^\]]*\]", " ", raw)
+        paras = "\n\n".join(re.sub(r"\s+", " ", p).strip()
+                            for p in re.split(r"\n\s*\n", raw) if p.strip())
+        text = re.sub(r"\s+", " ", paras).strip()
         if len(text) < 80:
             continue
-        secs = _sections(text)
-        analysis = secs.get("virtues") or " ".join(
-            v for k, v in secs.items() if k not in ("description", "place", "time")
-        )
+        secs = _sections(paras)
+        if secs.get("virtues"):
+            # extra paragraphs after a description are usually further kinds being
+            # described, so with a real virtues section they are not mined
+            analysis = secs["virtues"]
+        else:
+            analysis = " ".join(v for k, v in secs.items()
+                                if k not in ("description",) + _HEADER_KEYS and v)
         names = [p.strip(" .") for p in re.split(r",? OR |, CALLED |, ", heading) if p.strip(" .")]
         title = heading.rstrip(".").title()
         yield {

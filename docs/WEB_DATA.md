@@ -1,6 +1,7 @@
 # Web explorer data contract (`web/public/data/`)
 
-Written by `palimpsest export-web`; read by the static explorer. All JSON, UTF-8.
+Written by `python -m palimpsest web`; read by the static explorer. All JSON, UTF-8.
+**All numbers in the examples below are illustrative placeholders**, not results; see `results/`.
 
 ## `summary.json`
 ```json

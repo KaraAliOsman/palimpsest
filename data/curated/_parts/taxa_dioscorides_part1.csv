@@ -3,7 +3,7 @@ dsc:1.1,ἶρις Ἰλλυρική,plant,Iris germanica,species,medium,Iris pal
 dsc:1.2,ἄκορον,plant,Acorus calamus,species,medium,Iris pseudacorus,sweet flag,"Berendes/Gunther: sweet flag; iris-like narrow leaves, knotty aromatic creeping rhizome. Some propose Iris pseudacorus."
 dsc:1.3,μῆον Ἀθαμαντικόν,plant,Meum athamanticum,species,high,,"spignel, baldmoney",Standard identification; Linnaean epithet derives from Dioscorides' 'Athamantic meon'.
 dsc:1.4,κύπερος,plant,Cyperus rotundus,species,medium,Cyperus longus,"nutsedge, galingale","Leek-like leaves, triangular stem, black fragrant olive-like tubers; C. rotundus or C. longus per Berendes/Beck."
-dsc:1.5,κύπερος Ἰνδικός,plant,Curcuma longa,species,high,,turmeric,"Indian 'cyperus' like ginger, saffron-yellow and bitter when chewed: turmeric (Berendes, Beck)."
+dsc:1.5,κύπερος Ἰνδικός,plant,Curcuma longa,species,medium,,turmeric,"Turmeric is the usual reading of ""Indian kyperos""; disputed (review 2026-11-08)."
 dsc:1.6,καρδάμωμον,plant,Elettaria cardamomum,species,medium,Amomum subulatum,cardamom,"Traditional identification as cardamom; stated origins (Commagene, Armenia) make the ancient source debated."
 dsc:1.7,νάρδος Ἰνδική καὶ Συριακή,plant,Nardostachys jatamansi,species,high,,spikenard,"Indian and 'Syrian' nard are both spikenard rhizomes traded via different routes (Berendes, Beck)."
 dsc:1.8,νάρδος Κελτική,plant,Valeriana celtica,species,high,,Celtic nard,Alpine 'saliunca' of Liguria and Istria: Valeriana celtica (standard).
@@ -20,7 +20,7 @@ dsc:1.18,κάλαμος ἀρωματικός,plant,Acorus calamus,species,low,C
 dsc:1.19,βάλσαμον,plant,Commiphora gileadensis,species,high,,balm of Gilead,"Judaean balsam tree (opobalsamum, xylobalsamum, carpobalsamum): Commiphora gileadensis (standard)."
 dsc:1.20,ἀσπάλαθος,plant,Calicotome villosa,species,low,Genista acanthoclada;Alhagi maurorum,"aspalathus, spiny broom","Spiny woody shrub of Nisyros/Rhodes/Syria used by perfumers; spiny broom often proposed, identity uncertain."
 dsc:1.21,βρύον,fungus,Usnea,genus,low,Evernia prunastri;Pseudevernia furfuracea,"tree lichen, tree moss","Fragrant growth on cedar, white poplar and oak: epiphytic lichens (Berendes: Usnea, Parmelia)."
-dsc:1.22,ἀγάλλοχον,plant,Aquilaria malaccensis,species,high,,"aloeswood, agarwood",Fragrant spotted wood from India/Arabia used as incense: agarwood (syn. Aquilaria agallocha).
+dsc:1.22,ἀγάλλοχον,plant,Aquilaria,genus,high,,"aloeswood, agarwood",Agarwood; species cannot be fixed from the text (review: genus level).
 dsc:1.23,νάσκαφθον,plant,,unknown,low,,naskaphthon (aromatic bark),Unidentified Indian aromatic bark resembling mulberry-fig bark; no secure identification.
 dsc:1.24,κάγκαμον,product,,unknown,low,,kankamon (aromatic gum),Unidentified myrrh-like tear of an Arabian tree used as incense; source not securely identified.
 dsc:1.25,κῦφι,product,,unknown,high,,kyphi (Egyptian incense),Multi-ingredient Egyptian temple incense compound; no single source taxon.
@@ -148,7 +148,7 @@ dsc:2.81,οὖρον ἀνθρώπου,animal,,unknown,high,,human urine,Human u
 dsc:2.82,μέλι,animal,,unknown,high,,honey,Bee honey (Apis mellifera product); Attic Hymettian best.
 dsc:2.83,κηρός,animal,,unknown,high,,beeswax,Beeswax (Apis mellifera product).
 dsc:2.84,πρόπολις,animal,,unknown,high,,propolis,Bee glue (Apis mellifera product).
-dsc:2.85,πυροί,plant,Triticum aestivum,species,medium,Triticum durum,wheat,Pyros: free-threshing wheat; bread and durum wheat not distinguished in the text.
+dsc:2.85,πυροί,plant,Triticum,genus,medium,Triticum aestivum;Triticum durum;Triticum turgidum,wheat,Wheats in general; genus level (review).
 dsc:2.86,κριθή,plant,Hordeum vulgare,species,high,,barley,Barley (standard); includes barley water (ptisane).
 dsc:2.87,ζῦθος,product,Hordeum vulgare,species,high,,zythos (barley beer),Beer made from barley.
 dsc:2.88,κοῦρμι,product,Hordeum vulgare,species,high,,curmi (barley beer),"Barley drink used instead of wine (Iberia, Britain)."

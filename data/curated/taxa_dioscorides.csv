@@ -3,7 +3,7 @@ dsc:1.1,ἶρις Ἰλλυρική,plant,Iris germanica,species,medium,Iris pal
 dsc:1.2,ἄκορον,plant,Acorus calamus,species,medium,Iris pseudacorus,sweet flag,"Berendes/Gunther: sweet flag; iris-like narrow leaves, knotty aromatic creeping rhizome. Some propose Iris pseudacorus."
 dsc:1.3,μῆον Ἀθαμαντικόν,plant,Meum athamanticum,species,high,,"spignel, baldmoney",Standard identification; Linnaean epithet derives from Dioscorides' 'Athamantic meon'.
 dsc:1.4,κύπερος,plant,Cyperus rotundus,species,medium,Cyperus longus,"nutsedge, galingale","Leek-like leaves, triangular stem, black fragrant olive-like tubers; C. rotundus or C. longus per Berendes/Beck."
-dsc:1.5,κύπερος Ἰνδικός,plant,Curcuma longa,species,high,,turmeric,"Indian 'cyperus' like ginger, saffron-yellow and bitter when chewed: turmeric (Berendes, Beck)."
+dsc:1.5,κύπερος Ἰνδικός,plant,Curcuma longa,species,medium,,turmeric,"Turmeric is the usual reading of ""Indian kyperos""; disputed (review 2026-11-08)."
 dsc:1.6,καρδάμωμον,plant,Elettaria cardamomum,species,medium,Amomum subulatum,cardamom,"Traditional identification as cardamom; stated origins (Commagene, Armenia) make the ancient source debated."
 dsc:1.7,νάρδος Ἰνδική καὶ Συριακή,plant,Nardostachys jatamansi,species,high,,spikenard,"Indian and 'Syrian' nard are both spikenard rhizomes traded via different routes (Berendes, Beck)."
 dsc:1.8,νάρδος Κελτική,plant,Valeriana celtica,species,high,,Celtic nard,Alpine 'saliunca' of Liguria and Istria: Valeriana celtica (standard).
@@ -20,7 +20,7 @@ dsc:1.18,κάλαμος ἀρωματικός,plant,Acorus calamus,species,low,C
 dsc:1.19,βάλσαμον,plant,Commiphora gileadensis,species,high,,balm of Gilead,"Judaean balsam tree (opobalsamum, xylobalsamum, carpobalsamum): Commiphora gileadensis (standard)."
 dsc:1.20,ἀσπάλαθος,plant,Calicotome villosa,species,low,Genista acanthoclada;Alhagi maurorum,"aspalathus, spiny broom","Spiny woody shrub of Nisyros/Rhodes/Syria used by perfumers; spiny broom often proposed, identity uncertain."
 dsc:1.21,βρύον,fungus,Usnea,genus,low,Evernia prunastri;Pseudevernia furfuracea,"tree lichen, tree moss","Fragrant growth on cedar, white poplar and oak: epiphytic lichens (Berendes: Usnea, Parmelia)."
-dsc:1.22,ἀγάλλοχον,plant,Aquilaria malaccensis,species,high,,"aloeswood, agarwood",Fragrant spotted wood from India/Arabia used as incense: agarwood (syn. Aquilaria agallocha).
+dsc:1.22,ἀγάλλοχον,plant,Aquilaria,genus,high,,"aloeswood, agarwood",Agarwood; species cannot be fixed from the text (review: genus level).
 dsc:1.23,νάσκαφθον,plant,,unknown,low,,naskaphthon (aromatic bark),Unidentified Indian aromatic bark resembling mulberry-fig bark; no secure identification.
 dsc:1.24,κάγκαμον,product,,unknown,low,,kankamon (aromatic gum),Unidentified myrrh-like tear of an Arabian tree used as incense; source not securely identified.
 dsc:1.25,κῦφι,product,,unknown,high,,kyphi (Egyptian incense),Multi-ingredient Egyptian temple incense compound; no single source taxon.
@@ -148,7 +148,7 @@ dsc:2.81,οὖρον ἀνθρώπου,animal,,unknown,high,,human urine,Human u
 dsc:2.82,μέλι,animal,,unknown,high,,honey,Bee honey (Apis mellifera product); Attic Hymettian best.
 dsc:2.83,κηρός,animal,,unknown,high,,beeswax,Beeswax (Apis mellifera product).
 dsc:2.84,πρόπολις,animal,,unknown,high,,propolis,Bee glue (Apis mellifera product).
-dsc:2.85,πυροί,plant,Triticum aestivum,species,medium,Triticum durum,wheat,Pyros: free-threshing wheat; bread and durum wheat not distinguished in the text.
+dsc:2.85,πυροί,plant,Triticum,genus,medium,Triticum aestivum;Triticum durum;Triticum turgidum,wheat,Wheats in general; genus level (review).
 dsc:2.86,κριθή,plant,Hordeum vulgare,species,high,,barley,Barley (standard); includes barley water (ptisane).
 dsc:2.87,ζῦθος,product,Hordeum vulgare,species,high,,zythos (barley beer),Beer made from barley.
 dsc:2.88,κοῦρμι,product,Hordeum vulgare,species,high,,curmi (barley beer),"Barley drink used instead of wine (Iberia, Britain)."
@@ -163,7 +163,7 @@ dsc:2.96,ὁ δὲ χονδρος,product,Triticum turgidum,species,medium,Triti
 dsc:2.97,κέγχρος ἀτροφωτέρα τῶν,plant,Panicum miliaceum,species,high,,broomcorn millet,Kenchros = common millet; standard identification.
 dsc:2.98,καὶ ἡ ἔλυμος,plant,Setaria italica,species,medium,Sorghum bicolor,foxtail millet,"Elymos/meline, a millet-like cereal; usually identified as foxtail millet."
 dsc:2.99,σήσαμον κακοστόμαχον καὶ,plant,Sesamum indicum,species,high,,sesame,Sesamon = sesame; uncontroversial.
-dsc:2.100,αἶπα ἡ γινομένη,plant,Lolium temulentum,species,high,,darnel,Aira growing among wheat = darnel; standard identification.
+dsc:2.100,αἶρα,plant,Lolium temulentum,species,high,,darnel,Aira growing among wheat = darnel; standard identification.
 dsc:2.101,ἄμμλον ὠνόμασται διὰ τὸ χωρὶς μύλου κατασκευάζεσθαι,product,Triticum aestivum,species,medium,,wheat starch (amylon),Starch made without milling from 'setanios' wheat by soaking and treading; soft wheat assumed.
 dsc:2.102,καὶ τὸ ἐκ,product,Trigonella foenum-graecum,species,high,,fenugreek meal,"Meal of telis (synonyms boukeras, aigokeras) = fenugreek; uncontroversial."
 dsc:2.103,καὶ τὸ λινόσπεπμον,plant,Linum usitatissimum,species,high,,linseed,"Linosperm (flax seed), same virtues as fenugreek; uncontroversial."
@@ -172,7 +172,7 @@ dsc:2.105,κύαμος Ἑλλην ικὸς,plant,Vicia faba,species,high,,bro
 dsc:3.1,ἀγαρικόν,fungus,Fomitopsis officinalis,species,high,,agarikon (larch polypore),Spongy silphium-like 'root'; standard identification larch polypore (Berendes: Lärchenschwamm).
 dsc:3.2,ῥᾶ,plant,Rheum rhaponticum,species,medium,Rheum ribes,rhapontic rhubarb,Rha from beyond the Bosporus; Berendes 'Rhapontik'; exact Rheum species debated.
 dsc:3.3,γεντιανή,plant,Gentiana lutea,species,high,,great yellow gentian,Named after Illyrian king Gentius; Berendes Enzian; standard G. lutea.
-dsc:3.4,ἀριστολοχεία,plant,Aristolochia rotunda,species,high,Aristolochia fontanesii;Aristolochia clematitis,round birthwort,"Round (female), long (male), klematitis kinds: A. rotunda, A. longa L. (GBIF: A. fontanesii), A. clematitis."
+dsc:3.4,ἀριστολοχεία,plant,Aristolochia,genus,high,Aristolochia fontanesii;Aristolochia clematitis,round birthwort,"Chapter treats three aristolochiai (rotunda, longa, clematitis); genus level (review)."
 dsc:3.5,γλυκύρριζα,plant,Glycyrrhiza glabra,species,medium,Glycyrrhiza echinata,liquorice,Sweet root; burr-like fruit heads described fit G. echinata; G. glabra usual identification.
 dsc:3.6,κενταύρειον τὸ μέγα,plant,Rhaponticoides centaurium,species,medium,,great centaury,"Walnut-like leaves, tall stem, red root; standard Centaurea centaurium (now Rhaponticoides)."
 dsc:3.7,κενταύρειον τὸ λεπτὸν,plant,Centaurium erythraea,species,high,,common centaury,"Small centaury, hypericum-like, of moist places; uncontroversial."
@@ -224,7 +224,7 @@ dsc:3.52,σταφυλῖνος ἄγριος,plant,Daucus carota,species,high,,w
 dsc:3.53,σέσελι,plant,Seseli tortuosum,species,medium,Bupleurum fruticosum;Myrrhis odorata,Massilian seseli,Massilian = Seseli tortuosum; Ethiopian = Bupleurum fruticosum; Peloponnesian uncertain (Berendes).
 dsc:3.54,τόρδιλον,plant,Tordylium officinale,species,medium,Tordylium apulum,hartwort,Cretan seseli of Amanus; round double shield-shaped seed; Berendes T. officinale.
 dsc:3.55,σίνων,plant,Sison amomum,species,medium,,stone parsley,Syrian celery-like black seed; traditional identification Sison amomum.
-dsc:3.56,ἄνσσον,plant,Pimpinella anisum,species,high,,anise,Anison; uncontroversial.
+dsc:3.56,ἄνισον,plant,Pimpinella anisum,species,high,,anise,Anison; uncontroversial.
 dsc:3.57,καρώ,plant,Carum carvi,species,high,,caraway,"Karo, known aromatic seed; standard caraway."
 dsc:3.58,ἀνήθου ξηροῦ τῆς,plant,Anethum graveolens,species,high,,dill,Anethon; uncontroversial.
 dsc:3.59,κύμινον τὸ ἥμερον,plant,Cuminum cyminum,species,high,,cumin,Cultivated kyminon (Ethiopian 'royal' cumin); Berendes Cuminum cyminum.
@@ -244,7 +244,7 @@ dsc:3.72,δαῦκος,plant,Athamanta cretensis,species,medium,Cervaria rivini;
 dsc:3.73a,RV: δελφίνιον,plant,Delphinium,genus,medium,Delphinium peregrinum;Delphinium ajacis;Delphinium tenuissimum,larkspur,"RV-text chapter; dolphin-shaped flowers; Sibthorp D. ajacis, Fraas D. peregrinum; second kind D. tenuissimum."
 dsc:3.73b,πύρεθρος,plant,Anacyclus pyrethrum,species,medium,,pellitory,Burning root for toothache; Berendes Anacyclus pyrethrum; 'umbel' wording questioned.
 dsc:3.74,λιβανωτίς,plant,Cachrys libanotis,species,medium,,libanotis (kachrys),Fruiting kind yields kachrys: 'ohne Zweifel' Cachrys libanotis (Berendes); second kind Ferula nodiflora.
-dsc:3.75,λιβανωτίς,plant,Salvia rosmarinus,species,high,,rosemary,Libanotis called rosmarinus by the Romans; uncontroversial.
+dsc:3.75,λιβανωτίς,plant,Salvia rosmarinus,species,low,Prangos ferulacea;Seseli libanotis;Cachrys libanotis,rosemary,Libanotis kinds are disputed; rosemary is only one reading (review: low).
 dsc:3.76,σφονδύλιον,plant,Heracleum sphondylium,species,medium,,hogweed,"Plane-like leaves, broad winged seeds; Berendes Bärenklau (Heracleum)."
 dsc:3.77,νάρθηκος χλωροῦ ἡ,plant,Ferula communis,species,high,,giant fennel,Narthex pith; uncontroversial.
 dsc:3.78,πευκέκδανον,plant,Peucedanum officinale,species,medium,,hog's fennel,Peukedanon; Berendes Haarstrang (Peucedanum).
@@ -271,7 +271,7 @@ dsc:3.99,λευκάς,plant,Lamium maculatum,species,low,,leukas,"Fragmentary c
 dsc:3.100,λυχνὶς στεφανωματική,plant,Silene coronaria,species,high,,rose campion,"Garland lychnis, purple leukoion-like flower; Berendes Lychnis coronaria."
 dsc:3.101,λυχνὶς ἀγρία,plant,Agrostemma githago,species,medium,,corncockle,Wild lychnis similar to garden one; Berendes Agrostemma githago.
 dsc:3.102,κρίνον,plant,Lilium candidum,species,high,,Madonna lily,"Krinon/leirion, garland flower, source of susinon oil; uncontroversial."
-dsc:3.103,βαλλντή,plant,Ballota nigra,species,high,,black horehound,"Ballote/melamprasion, square black stems; Berendes Ballota."
+dsc:3.103,βαλλωτή,plant,Ballota nigra,species,high,,black horehound,"Ballote/melamprasion, square black stems; Berendes Ballota."
 dsc:3.104,μελισσόφυλλον,plant,Melissa officinalis,species,high,,lemon balm,"Melissophyllon, loved by bees; uncontroversial."
 dsc:3.105,πράσιον,plant,Marrubium vulgare,species,high,,white horehound,Prasion; Berendes Marrubium vulgare.
 dsc:3.106,στάχυς,plant,Stachys germanica,species,medium,,downy woundwort,"Like prasion but longer, whiter leaves; Berendes Stachys germanica (Sibthorp S. palaestina)."
@@ -314,7 +314,7 @@ dsc:3.142,φαληρίς,plant,Phalaris aquatica,species,medium,Phalaris canari
 dsc:3.143,ἐρυθρόδανον ἐρευθέδανον,plant,Rubia tinctorum,species,high,Rubia peregrina,madder,"Red dye root, wild and cultivated kinds; standard identification (Berendes, Beck)."
 dsc:3.144,λογχῖτις,plant,Serapias,genus,medium,Serapias vomeracea;Serapias lingua,tongue orchid,Flowers like gaping comic masks with a white tongue-like lip: tongue orchid; species debated.
 dsc:3.145,λογχῖτις ἑτέρα τραχεῖα,plant,Polystichum lonchitis,species,low,,holly fern,"Fern like scolopendrion but rougher and more divided; holly fern traditional, uncertain."
-dsc:3.146,ἀολθαία,plant,Althaea officinalis,species,high,,marsh mallow,"Wild mallow with round downy leaves, also called ebiskos (hibiscus); standard identification."
+dsc:3.146,ἀλθαία,plant,Althaea officinalis,species,high,,marsh mallow,"Wild mallow with round downy leaves, also called ebiskos (hibiscus); standard identification."
 dsc:3.147,ἀλκαίας,plant,Malva alcea,species,medium,Malva moschata,vervain mallow,Wild mallow with leaves cut like hiera botane; Berendes/Beck Malva alcea.
 dsc:3.148,κάνναβις,plant,Cannabis sativa,species,high,,hemp,"Rope-fibre plant with ash-like, ill-smelling leaves; uncontroversial."
 dsc:3.149,ἡ δὲ ἀγρία,plant,Althaea cannabina,species,medium,,hemp-leaved marsh mallow,"Wild 'hemp' with hemp-like leaves, reddish flowers, althaia-like root; Berendes Althaea cannabina."
@@ -368,7 +368,7 @@ dsc:4.38,βάτος Ἰδαία,plant,Rubus idaeus,species,high,,raspberry,"Idae
 dsc:4.39,ἑλξίνη,plant,Convolvulus arvensis,species,medium,Fallopia convolvulus;Calystegia sepium,field bindweed,"Small ivy-like leaves, long twining shoots in hedges, vineyards, grain; bindweed."
 dsc:4.40,ἐλατίνη,plant,Kickxia elatine,species,medium,Kickxia spuria,sharp-leaved fluellen,"Like helxine but smaller, rounder, hairy leaves; fluellen (Linaria elatine)."
 dsc:4.41,Εὐπατόριος,plant,Agrimonia eupatoria,species,high,,agrimony,"Single woody hairy stem, divided leaves, burred seed; agrimony."
-dsc:4.42,πεντέφθλλον,plant,Potentilla reptans,species,high,,creeping cinquefoil,Five-leaved herb; standard identification.
+dsc:4.42,πεντάφυλλον,plant,Potentilla reptans,species,high,,creeping cinquefoil,Five-leaved herb; standard identification.
 dsc:4.43,φοῖνιξ,plant,Lolium perenne,species,low,Hordeum murinum,perennial ryegrass,"Barley-like leaves, darnel-like spike, in fields and on new roofs; ryegrass or wall barley proposed."
 dsc:4.44,Ἰδαία ῥίζα,plant,Ruscus hypophyllum,species,low,Ruscus hypoglossum,Idaean root,"Leaves like butcher's broom with flowering outgrowths; Ruscus suggested, uncertain."
 dsc:4.45,Ῥοδία ῥίζα,plant,Rhodiola rosea,species,high,,roseroot,Macedonian root smelling of roses when rubbed; roseroot.
@@ -397,7 +397,7 @@ dsc:4.67,ὑπήκοον,plant,Hypecoum procumbens,species,medium,,procumbent h
 dsc:4.68,ὑοσκύαμος,plant,Hyoscyamus,genus,high,Hyoscyamus albus;Hyoscyamus niger;Hyoscyamus aureus,henbane,Three henbanes by flower colour; the preferred white kind is H. albus.
 dsc:4.69,ψύλλιον,plant,Plantago afra,species,high,Plantago arenaria,psyllium,Fleawort; Plantago psyllium (=P. afra).
 dsc:4.70,στρύχνον κηπαῖον,plant,Solanum nigrum,species,high,,black nightshade,Edible garden strychnos; black nightshade.
-dsc:4.71,ἔστι δὲ καὶ,plant,Alkekengi officinarum,species,high,,winter cherry,Halikakkabon with fruit in a bladder-like husk; winter cherry (Physalis alkekengi).
+dsc:4.71,στρύχνον ἁλικάκαβον,plant,Alkekengi officinarum,species,high,,winter cherry,Halikakkabon with fruit in a bladder-like husk; winter cherry (Physalis alkekengi).
 dsc:4.72,στρύχνον ὑπνωτικόν,plant,Withania somnifera,species,high,,ashwagandha,"Sleep-inducing strychnos with red fruit in husk; Withania (Berendes, Beck)."
 dsc:4.73,στρύχνον μανικόν,plant,Atropa belladonna,species,low,Datura metel,deadly nightshade,Madness-causing strychnos; belladonna and Datura proposed; identity debated.
 dsc:4.74,δορύκνιον,plant,Convolvulus oleifolius,species,low,Convolvulus dorycnium;Lotus hirsutus,dorycnium,"Olive-like shrub on coastal rocks, rough leaves, white flower; Convolvulus and legume candidates."
@@ -678,7 +678,7 @@ dsc:1.119,κρανία,plant,Cornus mas,species,high,,cornelian cherry,"Olive-li
 dsc:1.120,οὖα,plant,Sorbus domestica,species,high,,service tree (sorb),Oua (sorbs) dried for diarrhoea; standard.
 dsc:1.121,κοκκυμηλέα,plant,Prunus domestica,species,high,Prunus spinosa,plum,Plum tree; Damascene dried plums; wild plums also mentioned.
 dsc:1.122,κόμαρος,plant,Arbutus unedo,species,high,,strawberry tree,Thin-barked tree with stoneless 'memaikyla' fruit; standard.
-dsc:1.123,ἀμυγδάλη,plant,Prunus dulcis,species,high,,almond,Bitter and sweet almonds; standard.
+dsc:1.123,ἀμυγδάλη,plant,Prunus amygdalus,species,high,,almond,Bitter and sweet almonds; standard.
 dsc:1.124,πιστάκια,plant,Pistacia vera,species,high,,pistachio,Syrian pistachios; standard.
 dsc:1.125,κάρυα βασιλικά,plant,Juglans regia,species,high,,walnut,Royal or Persian nuts = walnut; standard.
 dsc:1.126,μορέα,plant,Morus nigra,species,high,,black mulberry,Morea or sykaminon: mulberry (black mulberry in antiquity); standard.

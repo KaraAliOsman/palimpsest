@@ -74,6 +74,13 @@ def group_summary(p: pd.DataFrame) -> list[dict]:
             "mean_log2_lift": float(sub.log2_lift.mean()),
             "mean_log2_lift_ci": cluster_bootstrap(sub, lambda d: d.log2_lift.mean(), n_boot=1000),
         })
+        if g != "unclaimed":
+            # matched controls: unclaimed indications of exactly the plants in this group
+            ctrl = p[(p.group == "unclaimed") & p.taxon.isin(set(sub.taxon))]
+            out[-1]["matched_unclaimed_share"] = float(ctrl.any_pair.mean()) if len(ctrl) else None
+            out[-1]["matched_unclaimed_ci"] = (cluster_bootstrap(ctrl, lambda d: d.any_pair.mean(), n_boot=500)
+                                              if len(ctrl) else None)
+            out[-1]["matched_n_controls"] = int(len(ctrl))
     return out
 
 
@@ -126,9 +133,9 @@ def logit_fixed_effects(p: pd.DataFrame) -> list[dict]:
     import statsmodels.api as sm
 
     d = p[p.taxon_total > 0].copy()
-    for _ in range(3):
-        d = d[d.groupby("concept_id").any_pair.transform(lambda s: s.nunique() > 1)]
-        d = d[d.groupby("taxon").any_pair.transform(lambda s: s.nunique() > 1)]
+    # only indications without outcome variation are dropped (their fixed effect
+    # is not identified); plants are NOT filtered on the outcome (review fix)
+    d = d[d.groupby("concept_id").any_pair.transform(lambda s: s.nunique() > 1)]
     if d.empty:
         return []
     X = pd.get_dummies(d.group, dtype=float)

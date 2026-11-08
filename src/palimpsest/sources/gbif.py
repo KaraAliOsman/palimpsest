@@ -101,3 +101,24 @@ def vernacular_names(key: int | str, lang: str | None = "eng", **kw) -> list[str
         if page.get("endOfRecords", True) or not results:
             return names
         offset += len(results)
+
+
+def synonym_names(key: int | str, limit: int = 100, **kw) -> list[str]:
+    """Canonical binomials of the GBIF backbone synonyms of an accepted species
+    (rank SPECIES only; infraspecific names and autonyms dropped), in API order."""
+    try:
+        page = get_json(f"{API}/species/{int(key)}/synonyms", {"limit": limit},
+                        namespace=NAMESPACE, **kw)
+    except FetchError as exc:
+        if exc.status == 404:
+            return []
+        raise
+    out, seen = [], set()
+    for r in page.get("results", []):
+        name = " ".join((r.get("canonicalName") or "").split())
+        if r.get("rank") != "SPECIES" or len(name.split()) != 2:
+            continue
+        if name.casefold() not in seen:
+            seen.add(name.casefold())
+            out.append(name)
+    return out

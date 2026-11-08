@@ -7,7 +7,7 @@ dsc:2.96,ὁ δὲ χονδρος,product,Triticum turgidum,species,medium,Triti
 dsc:2.97,κέγχρος ἀτροφωτέρα τῶν,plant,Panicum miliaceum,species,high,,broomcorn millet,Kenchros = common millet; standard identification.
 dsc:2.98,καὶ ἡ ἔλυμος,plant,Setaria italica,species,medium,Sorghum bicolor,foxtail millet,"Elymos/meline, a millet-like cereal; usually identified as foxtail millet."
 dsc:2.99,σήσαμον κακοστόμαχον καὶ,plant,Sesamum indicum,species,high,,sesame,Sesamon = sesame; uncontroversial.
-dsc:2.100,αἶπα ἡ γινομένη,plant,Lolium temulentum,species,high,,darnel,Aira growing among wheat = darnel; standard identification.
+dsc:2.100,αἶρα,plant,Lolium temulentum,species,high,,darnel,Aira growing among wheat = darnel; standard identification.
 dsc:2.101,ἄμμλον ὠνόμασται διὰ τὸ χωρὶς μύλου κατασκευάζεσθαι,product,Triticum aestivum,species,medium,,wheat starch (amylon),Starch made without milling from 'setanios' wheat by soaking and treading; soft wheat assumed.
 dsc:2.102,καὶ τὸ ἐκ,product,Trigonella foenum-graecum,species,high,,fenugreek meal,"Meal of telis (synonyms boukeras, aigokeras) = fenugreek; uncontroversial."
 dsc:2.103,καὶ τὸ λινόσπεπμον,plant,Linum usitatissimum,species,high,,linseed,"Linosperm (flax seed), same virtues as fenugreek; uncontroversial."
@@ -16,7 +16,7 @@ dsc:2.105,κύαμος Ἑλλην ικὸς,plant,Vicia faba,species,high,,bro
 dsc:3.1,ἀγαρικόν,fungus,Fomitopsis officinalis,species,high,,agarikon (larch polypore),Spongy silphium-like 'root'; standard identification larch polypore (Berendes: Lärchenschwamm).
 dsc:3.2,ῥᾶ,plant,Rheum rhaponticum,species,medium,Rheum ribes,rhapontic rhubarb,Rha from beyond the Bosporus; Berendes 'Rhapontik'; exact Rheum species debated.
 dsc:3.3,γεντιανή,plant,Gentiana lutea,species,high,,great yellow gentian,Named after Illyrian king Gentius; Berendes Enzian; standard G. lutea.
-dsc:3.4,ἀριστολοχεία,plant,Aristolochia rotunda,species,high,Aristolochia fontanesii;Aristolochia clematitis,round birthwort,"Round (female), long (male), klematitis kinds: A. rotunda, A. longa L. (GBIF: A. fontanesii), A. clematitis."
+dsc:3.4,ἀριστολοχεία,plant,Aristolochia,genus,high,Aristolochia fontanesii;Aristolochia clematitis,round birthwort,"Chapter treats three aristolochiai (rotunda, longa, clematitis); genus level (review)."
 dsc:3.5,γλυκύρριζα,plant,Glycyrrhiza glabra,species,medium,Glycyrrhiza echinata,liquorice,Sweet root; burr-like fruit heads described fit G. echinata; G. glabra usual identification.
 dsc:3.6,κενταύρειον τὸ μέγα,plant,Rhaponticoides centaurium,species,medium,,great centaury,"Walnut-like leaves, tall stem, red root; standard Centaurea centaurium (now Rhaponticoides)."
 dsc:3.7,κενταύρειον τὸ λεπτὸν,plant,Centaurium erythraea,species,high,,common centaury,"Small centaury, hypericum-like, of moist places; uncontroversial."
@@ -68,7 +68,7 @@ dsc:3.52,σταφυλῖνος ἄγριος,plant,Daucus carota,species,high,,w
 dsc:3.53,σέσελι,plant,Seseli tortuosum,species,medium,Bupleurum fruticosum;Myrrhis odorata,Massilian seseli,Massilian = Seseli tortuosum; Ethiopian = Bupleurum fruticosum; Peloponnesian uncertain (Berendes).
 dsc:3.54,τόρδιλον,plant,Tordylium officinale,species,medium,Tordylium apulum,hartwort,Cretan seseli of Amanus; round double shield-shaped seed; Berendes T. officinale.
 dsc:3.55,σίνων,plant,Sison amomum,species,medium,,stone parsley,Syrian celery-like black seed; traditional identification Sison amomum.
-dsc:3.56,ἄνσσον,plant,Pimpinella anisum,species,high,,anise,Anison; uncontroversial.
+dsc:3.56,ἄνισον,plant,Pimpinella anisum,species,high,,anise,Anison; uncontroversial.
 dsc:3.57,καρώ,plant,Carum carvi,species,high,,caraway,"Karo, known aromatic seed; standard caraway."
 dsc:3.58,ἀνήθου ξηροῦ τῆς,plant,Anethum graveolens,species,high,,dill,Anethon; uncontroversial.
 dsc:3.59,κύμινον τὸ ἥμερον,plant,Cuminum cyminum,species,high,,cumin,Cultivated kyminon (Ethiopian 'royal' cumin); Berendes Cuminum cyminum.
@@ -88,7 +88,7 @@ dsc:3.72,δαῦκος,plant,Athamanta cretensis,species,medium,Cervaria rivini;
 dsc:3.73a,RV: δελφίνιον,plant,Delphinium,genus,medium,Delphinium peregrinum;Delphinium ajacis;Delphinium tenuissimum,larkspur,"RV-text chapter; dolphin-shaped flowers; Sibthorp D. ajacis, Fraas D. peregrinum; second kind D. tenuissimum."
 dsc:3.73b,πύρεθρος,plant,Anacyclus pyrethrum,species,medium,,pellitory,Burning root for toothache; Berendes Anacyclus pyrethrum; 'umbel' wording questioned.
 dsc:3.74,λιβανωτίς,plant,Cachrys libanotis,species,medium,,libanotis (kachrys),Fruiting kind yields kachrys: 'ohne Zweifel' Cachrys libanotis (Berendes); second kind Ferula nodiflora.
-dsc:3.75,λιβανωτίς,plant,Salvia rosmarinus,species,high,,rosemary,Libanotis called rosmarinus by the Romans; uncontroversial.
+dsc:3.75,λιβανωτίς,plant,Salvia rosmarinus,species,low,Prangos ferulacea;Seseli libanotis;Cachrys libanotis,rosemary,Libanotis kinds are disputed; rosemary is only one reading (review: low).
 dsc:3.76,σφονδύλιον,plant,Heracleum sphondylium,species,medium,,hogweed,"Plane-like leaves, broad winged seeds; Berendes Bärenklau (Heracleum)."
 dsc:3.77,νάρθηκος χλωροῦ ἡ,plant,Ferula communis,species,high,,giant fennel,Narthex pith; uncontroversial.
 dsc:3.78,πευκέκδανον,plant,Peucedanum officinale,species,medium,,hog's fennel,Peukedanon; Berendes Haarstrang (Peucedanum).
@@ -115,7 +115,7 @@ dsc:3.99,λευκάς,plant,Lamium maculatum,species,low,,leukas,"Fragmentary c
 dsc:3.100,λυχνὶς στεφανωματική,plant,Silene coronaria,species,high,,rose campion,"Garland lychnis, purple leukoion-like flower; Berendes Lychnis coronaria."
 dsc:3.101,λυχνὶς ἀγρία,plant,Agrostemma githago,species,medium,,corncockle,Wild lychnis similar to garden one; Berendes Agrostemma githago.
 dsc:3.102,κρίνον,plant,Lilium candidum,species,high,,Madonna lily,"Krinon/leirion, garland flower, source of susinon oil; uncontroversial."
-dsc:3.103,βαλλντή,plant,Ballota nigra,species,high,,black horehound,"Ballote/melamprasion, square black stems; Berendes Ballota."
+dsc:3.103,βαλλωτή,plant,Ballota nigra,species,high,,black horehound,"Ballote/melamprasion, square black stems; Berendes Ballota."
 dsc:3.104,μελισσόφυλλον,plant,Melissa officinalis,species,high,,lemon balm,"Melissophyllon, loved by bees; uncontroversial."
 dsc:3.105,πράσιον,plant,Marrubium vulgare,species,high,,white horehound,Prasion; Berendes Marrubium vulgare.
 dsc:3.106,στάχυς,plant,Stachys germanica,species,medium,,downy woundwort,"Like prasion but longer, whiter leaves; Berendes Stachys germanica (Sibthorp S. palaestina)."

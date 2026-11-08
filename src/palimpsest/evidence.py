@@ -46,6 +46,45 @@ def plan_pairs(tc: pd.DataFrame, concept_ids: list[str], k: int = K_CONTROLS,
     return plan
 
 
+EPMC_POST = "https://www.ebi.ac.uk/europepmc/webservices/rest/searchPOST"
+
+
+def epmc_count(query: str) -> int:
+    """Europe PMC hit count via POST (long synonym queries exceed URL limits)."""
+    from .sources.http import get_json
+
+    body = get_json(EPMC_POST, None, namespace="europepmc", method="POST",
+                    data={"query": query, "resultType": "idlist", "pageSize": 1,
+                          "format": "json", "synonym": "false"},
+                    validate=lambda b: isinstance(b, dict) and isinstance(b.get("hitCount"), int))
+    return int(body["hitCount"])
+
+
+def taxon_search_names(mt: pd.DataFrame, taxa: list[str], max_names: int = 60) -> dict[str, list[str]]:
+    from .sources import gbif
+
+    cur = mt[(mt.taxon != "") & (mt.scientific_name.str.split().str.len() == 2)]
+    curated = cur.groupby("taxon").scientific_name.apply(lambda s: sorted(set(s))).to_dict()
+    key = mt[mt.taxon != ""].drop_duplicates("taxon").set_index("taxon").gbif_key.to_dict()
+
+    def one(t):
+        syn = []
+        k = key.get(t)
+        if k:
+            try:
+                syn = gbif.synonym_names(int(float(k)))
+            except Exception:
+                syn = []
+        out, seen = [], set()
+        for n in [t] + curated.get(t, []) + syn:
+            if n.casefold() not in seen:
+                seen.add(n.casefold())
+                out.append(n)
+        return out[:max_names]
+
+    return dict(zip(taxa, _pmap(one, taxa, 8)))
+
+
 def _pmap(fn, items, workers):
     with ThreadPoolExecutor(max_workers=workers) as ex:
         return list(ex.map(fn, items))
@@ -62,14 +101,27 @@ def run_evidence(workers: int = 24) -> dict:
     taxa = sorted(tc.taxon.unique())
 
     N = europepmc.total_records()
-    taxon_total = dict(zip(taxa, _pmap(europepmc.taxon_count, taxa, workers)))
+    # every taxon is searched under its accepted name, the name(s) the curators
+    # used, and all GBIF backbone synonyms (e.g. Salvia rosmarinus OR Rosmarinus
+    # officinalis ...): 211 -> 2,179 papers for rosemary.
+    # Synonym expansion is implemented but OFF by default: the published numbers
+    # (2026-11-08) use the accepted binomial only. Set PALIMPSEST_SYNONYMS=1 to
+    # re-run with synonyms (~13k new queries, ~40 min).
+    import os
+    use_syn = os.environ.get("PALIMPSEST_SYNONYMS") == "1"
+    names = taxon_search_names(mt, taxa) if use_syn else {t: [t] for t in taxa}
+    taxon_q = {t: europepmc.concept_query(names[t]) if use_syn else europepmc.taxon_query(t) for t in taxa}
+    count = epmc_count if use_syn else europepmc.hit_count
+    taxon_total = dict(zip(taxa, _pmap(lambda t: count(taxon_q[t]), taxa, workers)))
     cids = sorted(terms)
     concept_total = dict(zip(cids, _pmap(lambda c: europepmc.concept_count(terms[c]), cids, workers)))
     plan = plan_pairs(tc, cids)
 
     def pair(tc_):
         t, c = tc_
-        return 0 if taxon_total[t] == 0 else europepmc.pair_count(t, terms[c])
+        if taxon_total[t] == 0:
+            return 0
+        return count(f"{taxon_q[t]} AND {europepmc.concept_query(terms[c])}")
 
     counts = _pmap(pair, plan, workers)
     ev = pd.DataFrame([{"taxon": t, "concept_id": c, "pair": n, "taxon_total": taxon_total[t],
@@ -84,8 +136,9 @@ def run_evidence(workers: int = 24) -> dict:
     keys = [int(k) for k in sp.gbif_key.dropna()]
     sp["gbif_occurrences"] = _pmap(
         lambda k: gbif.occurrence_count(int(k)) if k == k else None, list(sp.gbif_key), workers)
-    sp["trials"] = _pmap(lambda t: clinicaltrials.trial_count([t]), list(sp.taxon), 5)
+    sp["trials"] = _pmap(lambda t: clinicaltrials.trial_count(names[t][:6]), list(sp.taxon), 5)
     sp["taxon_total"] = sp.taxon.map(taxon_total)
+    sp["search_names"] = sp.taxon.map(lambda t: "; ".join(names[t]))
 
     info, compounds = _wikidata_context(sp, keys)
     sp = sp.merge(info, on="taxon", how="left")
@@ -96,7 +149,8 @@ def run_evidence(workers: int = 24) -> dict:
     meta = {
         "queried": datetime.now(timezone.utc).strftime("%Y-%m-%d"),
         "N": N, "n_taxa": len(taxa), "n_pairs": len(plan), "k_controls": K_CONTROLS, "seed": SEED,
-        "taxon_query_example": europepmc.taxon_query("Artemisia absinthium"),
+        "taxon_query": "OR of accepted name, curated names and GBIF synonyms in TITLE_ABS/KW (POST)",
+        "taxon_query_example": taxon_q.get("Artemisia absinthium", ""),
         "concept_query_example": europepmc.concept_query(terms["jaundice"]),
         "total_query": europepmc.TOTAL_QUERY,
     }

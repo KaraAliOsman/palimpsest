@@ -1,607 +1,607 @@
-taxon,taxon_rank,family,genus,gbif_key,gbif_occurrences,trials,taxon_total,wikidata,iucn,n_compounds
-Iris germanica,species,Iridaceae,Iris,5298069,21510,2,80,Q161734,,129
-Acorus calamus,species,Acoraceae,Acorus,2873769,71202,10,595,Q158008,LC,239
-Meum athamanticum,species,Apiaceae,Meum,6026490,46969,0,13,Q1019275,,10
-Cyperus rotundus,species,Cyperaceae,Cyperus,2714818,33695,4,856,Q1391422,LC,195
-Elettaria cardamomum,species,Zingiberaceae,Elettaria,2759871,822,13,251,Q33466,,27
-Nardostachys jatamansi,species,Caprifoliaceae,Nardostachys,4095989,1219,25,210,Q24853263,CR,107
-Valeriana celtica,species,Caprifoliaceae,Valeriana,7298940,4368,0,2,Q1261137,,5
-Asarum europaeum,species,Aristolochiaceae,Asarum,7313595,132510,0,45,Q156853,,9
-Valeriana phu,species,Caprifoliaceae,Valeriana,8201823,453,0,2,Q17435350,,2
-Cinnamomum tamala,species,Lauraceae,Cinnamomum,9128079,477,0,117,Q1661611,LC,13
-Cinnamomum aromaticum,species,Lauraceae,Cinnamomum,3033982,330,16,283,Q21156956,,65
-Cinnamomum verum,species,Lauraceae,Cinnamomum,3033987,10520,131,371,Q370239,VU,183
-Dolomiaea costus,species,Asteraceae,Dolomiaea,10864861,168,0,9,Q106903401,,118
-Cymbopogon schoenanthus,species,Poaceae,Cymbopogon,2705269,3131,0,54,Q2195173,,52
-Commiphora gileadensis,species,Burseraceae,Commiphora,3993077,526,0,34,Q15543125,,26
-Calicotome villosa,species,Fabaceae,Calicotome,2956364,44305,0,22,Q2259953,,23
-Aquilaria malaccensis,species,Thymelaeaceae,Aquilaria,5524063,454,0,82,Q2249742,CR,40
-Crocus sativus,species,Iridaceae,Crocus,2747430,1544,19,1767,Q15041677,,152
-Inula helenium,species,Asteraceae,Inula,3148340,34533,3,236,Q697416,,64
-Olea europaea,species,Oleaceae,Olea,5415040,411168,846,3212,Q37083,,274
-Ricinus communis,species,Euphorbiaceae,Ricinus,5380041,105471,49,3939,Q155867,,35
-Prunus amygdalus,species,Rosaceae,Prunus,3020980,22036,26,207,Q15545507,,23
-Moringa peregrina,species,Moringaceae,Moringa,3752342,1463,1,83,Q3324108,LC,9
-Hyoscyamus albus,species,Solanaceae,Hyoscyamus,2928979,13301,0,30,Q1663536,,57
-Daphne gnidium,species,Thymelaeaceae,Daphne,7311306,71662,0,42,Q1609513,,19
-Raphanus sativus,species,Brassicaceae,Raphanus,7678610,52534,10,2455,Q7224565,,248
-Sinapis alba,species,Brassicaceae,Sinapis,3047621,60547,8,1192,Q146202,,62
-Myrtus communis,species,Myrtaceae,Myrtus,3180085,54226,1,596,Q6122027,LC,225
-Laurus nobilis,species,Lauraceae,Laurus,3034015,74767,3,552,Q26006,LC,1
-Pistacia lentiscus,species,Anacardiaceae,Pistacia,3190583,288098,15,587,Q159812,LC,54
-Phoenix dactylifera,species,Arecaceae,Phoenix,6109699,9850,7,1361,Q25292,,58
-Cydonia oblonga,species,Rosaceae,Cydonia,5362215,54474,4,287,Q43300,LC,125
-Vitis vinifera,species,Vitaceae,Vitis,5372392,163685,277,8298,Q30046,LC,504
-Trigonella foenum-graecum,species,Fabaceae,Trigonella,5360475,5461,56,1285,Q133205,,213
-Origanum majorana,species,Lamiaceae,Origanum,2926615,4119,8,394,Q22694,,63
-Ocimum basilicum,species,Lamiaceae,Ocimum,2927096,9822,31,2165,Q38859,,268
-Artemisia abrotanum,species,Asteraceae,Artemisia,8042568,7930,1,36,Q157976,,34
-Anethum graveolens,species,Apiaceae,Anethum,3034646,15661,5,475,Q26686,,116
-Lilium candidum,species,Liliaceae,Lilium,2753090,3878,0,40,Q159811,,39
-Narcissus poeticus,species,Amaryllidaceae,Narcissus,2858581,59489,0,16,Q27983,LC,8
-Lawsonia inermis,species,Lythraceae,Lawsonia,5420912,8103,4,380,Q182448,LC,62
-Ferula gummosa,species,Apiaceae,Ferula,3034683,166,0,75,Q4483170,,13
-Commiphora myrrha,species,Burseraceae,Commiphora,3994082,870,11,155,Q164609,,56
-Styrax officinalis,species,Styracaceae,Styrax,5371666,7521,1,21,Q1281140,LC,18
-Triticum aestivum,species,Poaceae,Triticum,7795888,830212,548,23351,Q161098,,274
-Hordeum vulgare,species,Poaceae,Hordeum,2706056,438179,91,8827,Q11577,,121
-Avena sativa,species,Poaceae,Avena,2705290,214587,348,3240,Q12104,,116
-Oryza sativa,species,Poaceae,Oryza,2703459,568919,794,24955,Q161426,,454
-Triticum turgidum,species,Poaceae,Triticum,2706406,205648,0,1487,Q1939841,LC,2
-Panicum miliaceum,species,Poaceae,Panicum,2705090,77461,2,531,Q165196,,5
-Sesamum indicum,species,Pedaliaceae,Sesamum,3172622,17889,3,1267,Q2763698,,111
-Lolium temulentum,species,Poaceae,Lolium,2706242,15859,0,123,Q162088,,28
-Linum usitatissimum,species,Linaceae,Linum,2873861,83415,167,1724,Q45108,,96
-Cicer arietinum,species,Fabaceae,Cicer,2947311,133537,3,2894,Q81375,,106
-Vicia faba,species,Fabaceae,Vicia,2974832,112814,29,5440,Q131342,,297
-Fomitopsis officinalis,species,Fomitopsidaceae,Fomitopsis,2543474,1820,2,40,Q81797459,EN,44
-Rheum rhaponticum,species,Polygonaceae,Rheum,2888866,724,2,55,Q7218332,,38
-Gentiana lutea,species,Gentianaceae,Gentiana,3170040,127211,7,189,Q158572,,112
-Aristolochia rotunda,species,Aristolochiaceae,Aristolochia,2874019,22961,0,9,Q2861412,,4
-Glycyrrhiza glabra,species,Fabaceae,Glycyrrhiza,2965732,6493,104,1601,Q257106,LC,461
-Rhaponticoides centaurium,species,Asteraceae,Rhaponticoides,3128905,106,0,0,Q21308878,,0
-Centaurium erythraea,species,Gentianaceae,Centaurium,5414457,282240,0,109,Q156870,LC,36
-Atractylis gummifera,species,Asteraceae,Atractylis,7449725,187,0,61,Q21871946,,8
-Cardopatium corymbosum,species,Asteraceae,Cardopatium,3098511,1078,0,2,Q1035776,,3
-Carduus pycnocephalus,species,Asteraceae,Carduus,3114667,37765,0,29,Q2700500,,2
-Dipsacus fullonum,species,Caprifoliaceae,Dipsacus,8435025,376199,0,25,Q160099,,4
-Lophiolepis ferox,species,Asteraceae,Lophiolepis,12218806,3112,0,0,Q123095679,,0
-Scolymus hispanicus,species,Asteraceae,Scolymus,5403742,26475,0,27,Q1403748,,14
-Onopordum acanthium,species,Asteraceae,Onopordum,3094900,95164,0,56,Q30166,,6
-Acanthus mollis,species,Acanthaceae,Acanthus,5415455,35000,0,26,Q136648,,6
-Ononis spinosa,species,Fabaceae,Ononis,2977149,373729,1,56,Q160102,,26
-Cirsium tuberosum,species,Asteraceae,Cirsium,3112651,29075,0,3,Q1777398,,0
-Eryngium campestre,species,Apiaceae,Eryngium,3034426,300996,0,34,Q839771,,36
-Aloe vera,species,Asphodelaceae,Aloe,2777724,5165,119,3893,Q80079,,157
-Artemisia absinthium,species,Asteraceae,Artemisia,3121319,110813,9,480,Q25686,,154
-Origanum syriacum,species,Lamiaceae,Origanum,6411178,4414,3,82,Q13714507,,63
-Lavandula stoechas,species,Lamiaceae,Lavandula,2927303,231380,0,201,Q1342976,,59
-Origanum vulgare,species,Lamiaceae,Origanum,2926612,448068,19,1356,Q134283,,186
-Stachys glutinosa,species,Lamiaceae,Stachys,3882844,3619,0,3,Q132021,,5
-Mentha pulegium,species,Lamiaceae,Mentha,2927189,89289,0,281,Q161235,LC,98
-Origanum dictamnus,species,Lamiaceae,Origanum,3894972,481,1,62,Q1227336,NT,69
-Salvia fruticosa,species,Lamiaceae,Salvia,6412283,4713,1,138,Q864698,,136
-Mentha spicata,species,Lamiaceae,Mentha,2927175,52339,23,694,Q160114,LC,194
-Clinopodium nepeta,species,Lamiaceae,Clinopodium,8916040,53905,0,14,Q15350096,,0
-Thymbra capitata,species,Lamiaceae,Thymbra,5607804,55279,0,77,Q1302761,,115
-Mentha aquatica,species,Lamiaceae,Mentha,2927208,646845,2,100,Q161232,LC,66
-Origanum sipyleum,species,Lamiaceae,Origanum,3893904,384,0,7,Q15348630,,54
-Clinopodium acinos,species,Lamiaceae,Clinopodium,2927118,105377,0,0,Q17024325,,13
-Helichrysum sanguineum,species,Asteraceae,Helichrysum,3131419,3372,0,5,Q2910998,,0
-Ruta graveolens,species,Rutaceae,Ruta,3190382,8979,13,416,Q25062,,204
-Peganum harmala,species,Tetradiclidaceae,Peganum,3189912,11248,0,552,Q94857,,64
-Opopanax chironium,species,Apiaceae,Opopanax,6027176,3760,0,5,Q13560912,,42
-Echinophora tenuifolia,species,Apiaceae,Echinophora,5538701,274,0,16,Q12843181,,41
-Levisticum officinale,species,Apiaceae,Levisticum,5371772,12821,7,76,Q27615,,64
-Daucus carota,species,Apiaceae,Daucus,3034742,927828,33,3938,Q30056,LC,414
-Seseli tortuosum,species,Apiaceae,Seseli,7904530,10656,0,10,Q6126256,,12
-Tordylium officinale,species,Apiaceae,Tordylium,3633274,811,0,1,Q12838833,,0
-Sison amomum,species,Apiaceae,Sison,3641433,48678,0,3,Q3485328,,0
-Pimpinella anisum,species,Apiaceae,Pimpinella,8080300,1286,15,350,Q28692,,93
-Carum carvi,species,Apiaceae,Carum,3034714,141693,9,311,Q26811,,77
-Cuminum cyminum,species,Apiaceae,Cuminum,3034775,797,34,574,Q132624,,61
-Lagoecia cuminoides,species,Apiaceae,Lagoecia,8419745,4339,0,4,Q2887589,,11
-Nigella arvensis,species,Ranunculaceae,Nigella,7278276,11657,0,22,Q164700,,2
-Trachyspermum ammi,species,Apiaceae,Trachyspermum,3034241,1150,0,324,Q413254,,32
-Coriandrum sativum,species,Apiaceae,Coriandrum,3034871,20277,15,946,Q41611,,157
-Apium graveolens,species,Apiaceae,Apium,5371879,32864,23,765,Q28298,LC,371
-Seseli libanotis,species,Apiaceae,Seseli,3034133,40285,0,6,Q1595512,,2
-Petroselinum crispum,species,Apiaceae,Petroselinum,7828157,18989,14,497,Q25284,,119
-Smyrnium olusatrum,species,Apiaceae,Smyrnium,3034782,86474,0,33,Q628360,,33
-Smyrnium perfoliatum,species,Apiaceae,Smyrnium,6027089,15512,0,5,Q12325136,,22
-Pastinaca sativa,species,Apiaceae,Pastinaca,8262702,304403,0,143,Q188614,,23
-Foeniculum vulgare,species,Apiaceae,Foeniculum,3034922,168042,22,996,Q43511,,384
-Athamanta cretensis,species,Apiaceae,Athamanta,7607769,19973,0,0,Q2650767,,0
-Anacyclus pyrethrum,species,Asteraceae,Anacyclus,3148578,865,0,72,Q1855185,VU,34
-Cachrys libanotis,species,Apiaceae,Cachrys,3634812,863,0,5,Q15567150,,0
-Salvia rosmarinus,species,Lamiaceae,Salvia,10902460,425959,16,211,Q102240169,,25
-Heracleum sphondylium,species,Apiaceae,Heracleum,3034830,1188564,0,44,Q752675,,16
-Ferula communis,species,Apiaceae,Ferula,8048981,18434,0,90,Q150411,LC,94
-Peucedanum officinale,species,Apiaceae,Peucedanum,6026255,8847,0,6,Q459253,,10
-Nigella sativa,species,Ranunculaceae,Nigella,5371700,1540,72,2975,Q160575,,237
-Ferula persica,species,Apiaceae,Ferula,6026967,86,0,26,Q15580892,,28
-Euphorbia resinifera,species,Euphorbiaceae,Euphorbia,3068445,189,0,53,Q2658650,,27
-Ferula marmarica,species,Apiaceae,Ferula,3637559,26,0,0,Q15579008,,6
-Astragalus sarcocolla,species,Fabaceae,Astragalus,5343610,6,0,5,Q12228690,,0
-Glaucium corniculatum,species,Papaveraceae,Glaucium,5334188,9202,0,10,Q159368,,30
-Viscum album,species,Viscaceae,Viscum,2889828,281663,22,1067,Q144940,,88
-Galium aparine,species,Rubiaceae,Galium,2913548,1225144,0,225,Q161581,,19
-Fibigia clypeata,species,Brassicaceae,Fibigia,3051652,3536,0,4,Q5446398,,5
-Vincetoxicum hirundinaria,species,Apocynaceae,Vincetoxicum,5414548,186030,0,31,Q157331,,5
-Carthamus lanatus,species,Asteraceae,Carthamus,3138230,50006,0,22,Q2121623,,30
-Ziziphora capitata,species,Lamiaceae,Ziziphora,7308818,1888,0,3,Q4191804,,0
-Clinopodium vulgare,species,Lamiaceae,Clinopodium,2926945,358124,0,30,Q163952,,19
-Leontice leontopetalum,species,Berberidaceae,Leontice,7944367,1885,0,11,Q11875341,,27
-Teucrium flavum,species,Lamiaceae,Teucrium,3887754,9293,0,18,Q1553939,,11
-Teucrium chamaedrys,species,Lamiaceae,Teucrium,6411747,259676,1,73,Q161937,,25
-Lamium maculatum,species,Lamiaceae,Lamium,2926684,215033,0,14,Q164035,,8
-Silene coronaria,species,Caryophyllaceae,Silene,5384741,51508,0,2,Q159034,,0
-Agrostemma githago,species,Caryophyllaceae,Agrostemma,3085368,71616,0,77,Q147852,,12
-Ballota nigra,species,Lamiaceae,Ballota,2926894,205790,1,41,Q157878,,27
-Melissa officinalis,species,Lamiaceae,Melissa,5341501,137787,84,916,Q148396,,139
-Marrubium vulgare,species,Lamiaceae,Marrubium,2927069,126072,0,186,Q157631,,63
-Stachys germanica,species,Lamiaceae,Stachys,2927297,17894,0,11,Q159842,,27
-Asplenium scolopendrium,species,Aspleniaceae,Asplenium,2650669,357299,0,21,Q1130272,,3
-Anthericum ramosum,species,Asparagaceae,Anthericum,2773942,74723,0,7,Q159289,,0
-Bituminaria bituminosa,species,Fabaceae,Bituminaria,2952882,89786,0,54,Q1251922,,18
-Teucrium polium,species,Lamiaceae,Teucrium,3887764,42270,0,278,Q2415298,,184
-Teucrium scordium,species,Lamiaceae,Teucrium,7945074,31780,0,11,Q158832,,12
-Tussilago farfara,species,Asteraceae,Tussilago,3149879,884025,2,225,Q26302,,94
-Artemisia arborescens,species,Asteraceae,Artemisia,3120677,5416,0,52,Q309692,,100
-Dysphania botrys,species,Amaranthaceae,Dysphania,5568428,18205,0,5,Q1746114,,31
-Geranium tuberosum,species,Geraniaceae,Geranium,2890791,3397,0,2,Q1777399,,6
-Achillea maritima,species,Asteraceae,Achillea,3120356,9049,0,4,Q12234003,,2
-Typha angustifolia,species,Typhaceae,Typha,5289461,124024,0,327,Q146572,LC,13
-Vincetoxicum nigrum,species,Apocynaceae,Vincetoxicum,5414551,12719,0,20,Q2678333,,1
-Filipendula vulgaris,species,Rosaceae,Filipendula,2988069,233940,0,27,Q148961,,2
-Dittrichia viscosa,species,Asteraceae,Dittrichia,3101184,80000,1,138,Q311844,,59
-Hemerocallis fulva,species,Asphodelaceae,Hemerocallis,2781074,37637,0,104,Q1424440,,67
-Erysimum cheiri,species,Brassicaceae,Erysimum,3048203,34952,0,15,Q159370,,16
-Mercurialis perennis,species,Euphorbiaceae,Mercurialis,3063016,579660,0,45,Q158132,,2
-Anacamptis papilionacea,species,Orchidaceae,Anacamptis,2808646,19069,0,8,Q6632387,,0
-Orchis italica,species,Orchidaceae,Orchis,2849640,13357,0,26,Q1315197,,0
-Orchis anthropophora,species,Orchidaceae,Orchis,2849624,95003,0,9,Q13387669,,0
-Salvia viridis,species,Lamiaceae,Salvia,3883959,7117,0,12,Q2068059,,22
-Coronilla securidaca,species,Fabaceae,Coronilla,5349991,2881,0,0,Q21872870,,0
-Onosma echioides,species,Boraginaceae,Onosma,2925855,2026,0,10,Q146097,,0
-Nymphaea alba,species,Nymphaeaceae,Nymphaea,2882437,128702,0,56,Q147030,LC,31
-Acetabularia acetabulum,species,Polyphysaceae,Acetabularia,5273029,5622,0,84,Q991300,,1
-Asplenium ceterach,species,Aspleniaceae,Asplenium,2650617,122089,0,9,Q1754958,,1
-Asplenium sagittatum,species,Aspleniaceae,Asplenium,7774915,2402,0,0,Q17064490,,0
-Cressa cretica,species,Convolvulaceae,Cressa,7324452,6477,0,32,Q1139718,LC,9
-Matricaria chamomilla,species,Asteraceae,Matricaria,8370958,292826,66,655,Q28437,,231
-Tanacetum parthenium,species,Asteraceae,Tanacetum,3118430,171112,3,403,Q818481,,194
-Glebionis coronaria,species,Asteraceae,Glebionis,7627205,39945,0,25,Q6585129,,74
-Paeonia mascula,species,Paeoniaceae,Paeonia,7155281,5168,0,7,Q161482,,0
-Lithospermum officinale,species,Boraginaceae,Lithospermum,2926086,69779,0,53,Q515267,,6
-Phalaris aquatica,species,Poaceae,Phalaris,5289746,46161,0,151,Q1750612,,11
-Rubia tinctorum,species,Rubiaceae,Rubia,2892272,7561,0,134,Q163641,,53
-Polystichum lonchitis,species,Dryopteridaceae,Polystichum,2651113,80219,0,3,Q542735,,2
-Althaea officinalis,species,Malvaceae,Althaea,3152520,64696,9,128,Q158496,,46
-Malva alcea,species,Malvaceae,Malva,3152365,45338,0,2,Q162805,,1
-Cannabis sativa,species,Cannabaceae,Cannabis,5361880,33818,1027,5166,Q26726,,528
-Althaea cannabina,species,Malvaceae,Althaea,3152519,12281,0,0,Q2561295,,17
-Anagyris foetida,species,Fabaceae,Anagyris,2946427,8137,0,12,Q2630262,LC,14
-Sedum cepaea,species,Crassulaceae,Sedum,5690287,17032,0,2,Q3356666,,2
-Alisma plantago-aquatica,species,Alismataceae,Alisma,2865100,376803,2,90,Q21063,LC,60
-Hypericum triquetrifolium,species,Hypericaceae,Hypericum,3715163,4484,0,38,Q310680,,26
-Hypericum empetrifolium,species,Hypericaceae,Hypericum,8411092,1362,0,14,Q1790537,,16
-Ajuga chamaepitys,species,Lamiaceae,Ajuga,2927080,51013,0,15,Q158310,,46
-Betonica officinalis,species,Lamiaceae,Betonica,2927280,343353,0,15,Q21872006,,22
-Rumex aquaticus,species,Polygonaceae,Rumex,2888992,30068,0,20,Q159061,,0
-Lysimachia vulgaris,species,Primulaceae,Lysimachia,3169386,740225,0,30,Q147843,LC,7
-Polygonum aviculare,species,Polygonaceae,Polygonum,7821030,819971,0,189,Q242573,,30
-Polygonatum odoratum,species,Asparagaceae,Polygonatum,2770228,169079,0,199,Q157430,,28
-Vinca major,species,Apocynaceae,Vinca,3169708,160101,0,38,Q161746,,49
-Coris monspeliensis,species,Primulaceae,Coris,7290586,33627,0,0,Q4888153,,0
-Symphytum officinale,species,Boraginaceae,Symphytum,7558421,451472,3,212,Q157561,,37
-Plantago albicans,species,Plantaginaceae,Plantago,8424834,21558,0,14,Q17741142,,3
-Sarcopoterium spinosum,species,Rosaceae,Sarcopoterium,3001879,12490,0,47,Q27845140,,3
-Lathyrus clymenum,species,Fabaceae,Lathyrus,5356407,18485,0,5,Q12813815,LC,6
-Lonicera etrusca,species,Caprifoliaceae,Lonicera,5334247,48772,0,3,Q2339065,,0
-Tribulus terrestris,species,Zygophyllaceae,Tribulus,5421116,52227,11,802,Q235889,LC,219
-Limonium vulgare,species,Plumbaginaceae,Limonium,3082322,57514,0,26,Q27952,,1
-Trifolium arvense,species,Fabaceae,Trifolium,5359246,320155,0,17,Q125813,,7
-Epimedium alpinum,species,Berberidaceae,Epimedium,7695021,4682,1,2,Q164064,,0
-Gladiolus italicus,species,Iridaceae,Gladiolus,2749791,24675,0,2,Q2272100,LC,25
-Sparganium erectum,species,Typhaceae,Sparganium,7679536,332872,0,15,Q148734,LC,0
-Iris foetidissima,species,Iridaceae,Iris,5298765,102578,0,3,Q2484930,,11
-Alkanna tinctoria,species,Boraginaceae,Alkanna,5341257,7572,0,201,Q856964,,8
-Lycopsis arvensis,species,Boraginaceae,Lycopsis,5341197,151131,0,0,Q15593258,,0
-Silene gallica,species,Caryophyllaceae,Silene,5384848,73907,0,5,Q1450768,,10
-Cynodon dactylon,species,Poaceae,Cynodon,6109637,175723,3,2017,Q208705,,9
-Parnassia palustris,species,Parnassiaceae,Parnassia,3032585,375002,0,17,Q161633,LC,6
-Rubus idaeus,species,Rosaceae,Rubus,2993094,820274,70,687,Q12252383,,110
-Convolvulus arvensis,species,Convolvulaceae,Convolvulus,2928390,737106,0,315,Q111346,,23
-Kickxia elatine,species,Plantaginaceae,Kickxia,3170819,79207,0,6,Q159133,,15
-Agrimonia eupatoria,species,Rosaceae,Agrimonia,3001956,498698,0,101,Q156865,,21
-Potentilla reptans,species,Rosaceae,Potentilla,5367273,754153,0,49,Q130224,,0
-Lolium perenne,species,Poaceae,Lolium,2706241,1085642,7,4092,Q161722,,47
-Ruscus hypophyllum,species,Asparagaceae,Ruscus,2769757,1788,0,5,Q3648105,,8
-Rhodiola rosea,species,Crassulaceae,Rhodiola,2985688,56315,27,1068,Q161665,,280
-Ephedra distachya,species,Ephedraceae,Ephedra,2653321,17788,1,20,Q162784,LC,26
-Juncus acutus,species,Juncaceae,Juncus,2701632,32433,0,51,Q2094325,LC,36
-Marchantia polymorpha,species,Marchantiaceae,Marchantia,2688570,77745,0,1190,Q992846,,103
-Paronychia argentea,species,Caryophyllaceae,Paronychia,5528747,24323,0,18,Q627816,,8
-Galatella linosyris,species,Asteraceae,Galatella,3091677,26458,3,2,Q1534538,,6
-Bongardia chrysogonum,species,Berberidaceae,Bongardia,3981547,1090,0,8,Q4093107,,31
-Helichrysum stoechas,species,Asteraceae,Helichrysum,3131494,88040,0,44,Q1636806,,74
-Achillea ageratum,species,Asteraceae,Achillea,3120391,7030,0,11,Q285796,,40
-Verbena officinalis,species,Verbenaceae,Verbena,2925529,255531,1,168,Q161417,,53
-Verbena supina,species,Verbenaceae,Verbena,2925492,4138,0,0,Q6160520,,4
-Hyacinthus orientalis,species,Asparagaceae,Hyacinthus,2772666,18490,0,51,Q157428,,25
-Papaver rhoeas,species,Papaveraceae,Papaver,2888443,480071,1,297,Q130201,,73
-Papaver somniferum,species,Papaveraceae,Papaver,2888439,126726,2,744,Q131584,,108
-Glaucium flavum,species,Papaveraceae,Glaucium,5334190,56051,0,48,Q157916,,44
-Silene vulgaris,species,Caryophyllaceae,Silene,9172281,529160,0,214,Q511103,LC,19
-Plantago afra,species,Plantaginaceae,Plantago,7303104,22614,0,3,Q789360,,10
-Solanum nigrum,species,Solanaceae,Solanum,9150405,386392,14,1166,Q146400,,80
-Alkekengi officinarum,species,Solanaceae,Alkekengi,3797084,19081,0,2,Q161780,,90
-Withania somnifera,species,Solanaceae,Withania,2928840,9207,88,2110,Q852660,,208
-Atropa belladonna,species,Solanaceae,Atropa,3802655,62624,327,1114,Q156091,,29
-Convolvulus oleifolius,species,Convolvulaceae,Convolvulus,7324411,1336,0,0,Q296805,,0
-Mandragora officinarum,species,Solanaceae,Mandragora,5341748,4868,0,20,Q545550,,102
-Conium maculatum,species,Apiaceae,Conium,3034807,205026,1,149,Q218041,,33
-Taxus baccata,species,Taxaceae,Taxus,5284517,318267,0,463,Q179729,LC,230
-Nerium oleander,species,Apocynaceae,Nerium,3169756,117230,3,542,Q155833,LC,133
-Convallaria majalis,species,Asparagaceae,Convallaria,7459480,483423,0,106,Q101711,,19
-Parietaria officinalis,species,Urticaceae,Parietaria,5361803,24279,0,72,Q158578,,10
-Stellaria media,species,Caryophyllaceae,Stellaria,5384604,835680,0,252,Q158711,,44
-Lemna minor,species,Araceae,Lemna,2867589,444312,4,1375,Q26875,LC,9
-Aeonium arboreum,species,Crassulaceae,Aeonium,2985682,5511,0,13,Q138279,,5
-Umbilicus rupestris,species,Crassulaceae,Umbilicus,7334368,132523,0,6,Q2719123,,6
-Urtica pilulifera,species,Urticaceae,Urtica,5670646,7842,0,21,Q160037,,0
-Scrophularia peregrina,species,Scrophulariaceae,Scrophularia,3170862,5481,0,0,Q17746062,,0
-Galium verum,species,Rubiaceae,Galium,9063248,853533,0,69,Q156854,,21
-Senecio vulgaris,species,Asteraceae,Senecio,3108983,758585,0,227,Q504256,,35
-Thalictrum minus,species,Ranunculaceae,Thalictrum,3033129,111533,0,44,Q164268,,116
-Ulva lactuca,species,Ulvaceae,Ulva,5273309,43437,2,804,Q852879,,61
-Potamogeton natans,species,Potamogetonaceae,Potamogeton,5301147,236865,0,28,Q370566,LC,19
-Pistia stratiotes,species,Araceae,Pistia,2870583,28065,0,408,Q654001,LC,18
-Achillea millefolium,species,Asteraceae,Achillea,3120060,1872669,2,642,Q25408,LC,255
-Salvia aethiopis,species,Lamiaceae,Salvia,2927030,9695,0,19,Q159131,,23
-Arctium lappa,species,Asteraceae,Arctium,7353729,164169,9,589,Q26932,,112
-Petasites hybridus,species,Asteraceae,Petasites,9490132,204219,1,117,Q375620,,154
-Fumaria officinalis,species,Papaveraceae,Fumaria,5334217,227449,0,84,Q157618,,44
-Trigonella caerulea,species,Fabaceae,Trigonella,5360498,2094,0,5,Q164849,,16
-Medicago arborea,species,Fabaceae,Medicago,2965379,13987,0,35,Q1668432,LC,0
-Myriophyllum spicatum,species,Haloragaceae,Myriophyllum,5361760,193634,0,377,Q158130,LC,1
-Myrrhis odorata,species,Apiaceae,Myrrhis,3034681,59886,14,8,Q1137175,,26
-Chamaenerion angustifolium,species,Onagraceae,Chamaenerion,6428353,925496,0,46,Q160104,,0
-Aster amellus,species,Asteraceae,Aster,8133114,38509,0,24,Q819178,,0
-Isopyrum thalictroides,species,Ranunculaceae,Isopyrum,5615962,20608,0,7,Q13268229,,37
-Viola odorata,species,Violaceae,Viola,5331181,271747,0,139,Q108684,,4
-Bunium ferulaceum,species,Apiaceae,Bunium,3641616,611,0,3,Q15566524,,5
-Anchusa azurea,species,Boraginaceae,Anchusa,5341198,20572,0,17,Q2339051,,11
-Ruscus hypoglossum,species,Asparagaceae,Ruscus,2769775,1981,0,7,Q3021942,,4
-Tripolium pannonicum,species,Asteraceae,Tripolium,3098616,140332,0,19,Q635916,,9
-Adiantum capillus-veneris,species,Pteridaceae,Adiantum,2651816,62829,1,169,Q4678994,LC,47
-Drimia maritima,species,Asparagaceae,Drimia,2776790,16256,0,24,Q161788,LC,116
-Pyrus communis,species,Rosaceae,Pyrus,5362573,106370,36,758,Q146281,LC,99
-Punica granatum,species,Lythraceae,Punica,5420901,53471,168,2394,Q13188,LC,507
-Ficus carica,species,Moraceae,Ficus,5361909,113049,4,1035,Q36146,LC,87
-Ficus sycomorus,species,Moraceae,Ficus,5361921,6112,0,58,Q750217,LC,2
-Pinus pinea,species,Pinaceae,Pinus,5285165,326298,0,440,Q106094,LC,10
-Juniperus oxycedrus,species,Cupressaceae,Juniperus,2684451,183285,70,150,Q184300,LC,36
-Cedrus libani,species,Pinaceae,Cedrus,5284682,6658,0,105,Q61105,VU,70
-Hyssopus officinalis,species,Lamiaceae,Hyssopus,5341387,20590,0,153,Q137931,,80
-Opopanax hispidus,species,Apiaceae,Opopanax,3639801,697,0,4,Q2027031,,1
-Cneorum tricoccon,species,Rutaceae,Cneorum,7483998,7136,0,8,Q148722,VU,3
-Helleborus odorus,species,Ranunculaceae,Helleborus,7277077,1693,0,13,Q681557,,7
-Convolvulus scammonia,species,Convolvulaceae,Convolvulus,2928397,727,0,5,Q310388,,10
-Indigofera tinctoria,species,Fabaceae,Indigofera,2972043,4377,0,98,Q165213,,5
-Dracaena cinnabari,species,Asparagaceae,Dracaena,5304574,325,0,42,Q133560,VU,44
-Commiphora wightii,species,Burseraceae,Commiphora,3992808,170,0,102,Q901803,CR,41
-Boswellia sacra,species,Burseraceae,Boswellia,8330171,380,32,126,Q133964,NT,130
-Pinus halepensis,species,Pinaceae,Pinus,5285604,391696,0,749,Q211457,LC,99
-Pistacia terebinthus,species,Anacardiaceae,Pistacia,3190580,66649,1,107,Q63045,LC,14
-Cupressus sempervirens,species,Cupressaceae,Cupressus,2684030,20491,1,288,Q147513,LC,102
-Juniperus sabina,species,Cupressaceae,Juniperus,7963890,20979,0,68,Q148630,LC,89
-Platanus orientalis,species,Platanaceae,Platanus,3152816,6996,0,142,Q161105,DD,25
-Fraxinus ornus,species,Oleaceae,Fraxinus,3172347,41187,8,92,Q161421,LC,45
-Populus alba,species,Salicaceae,Populus,3040233,198474,0,779,Q146269,LC,84
-Holarrhena pubescens,species,Apocynaceae,Holarrhena,3169748,3293,1,40,Q9096302,LC,82
-Populus nigra,species,Salicaceae,Populus,3040227,222450,0,717,Q147064,DD,32
-Ulmus minor,species,Ulmaceae,Ulmus,5361865,337036,0,107,Q147487,DD,0
-Phragmites australis,species,Poaceae,Phragmites,5290149,1231750,0,2231,Q28557,LC,13
-Cyperus papyrus,species,Cyperaceae,Cyperus,2716311,5633,3,114,Q158808,LC,8
-Erica arborea,species,Ericaceae,Erica,5333410,148014,0,104,Q176647,LC,27
-Chamaecrista absus,species,Fabaceae,Chamaecrista,2949868,4619,0,1,Q15466047,LC,0
-Atriplex halimus,species,Amaranthaceae,Atriplex,3083718,23910,0,195,Q1974321,LC,2
-Paliurus spina-christi,species,Rhamnaceae,Paliurus,5372457,21991,0,25,Q660414,,8
-Crataegus monogyna,species,Rosaceae,Crataegus,9220780,1451705,29,281,Q161511,LC,92
-Rosa canina,species,Rosaceae,Rosa,3002461,449417,5,434,Q146066,,43
-Phillyrea latifolia,species,Oleaceae,Phillyrea,7325923,42487,0,75,Q784070,LC,25
-Cistus creticus,species,Cistaceae,Cistus,6438085,19135,0,90,Q891305,,280
-Dalbergia melanoxylon,species,Fabaceae,Dalbergia,2968897,2354,0,22,Q83170,NT,15
-Rosa gallica,species,Rosaceae,Rosa,3002530,17492,0,40,Q157668,,106
-Rhamnus lycioides,species,Rhamnaceae,Rhamnus,6371380,21787,0,25,Q148804,,10
-Vitex agnus-castus,species,Lamiaceae,Vitex,2925562,35141,9,371,Q259318,DD,231
-Salix alba,species,Salicaceae,Salix,5372513,373830,6,248,Q156918,LC,24
-Quercus infectoria,species,Fagaceae,Quercus,2881010,4216,0,168,Q3565069,LC,20
-Rhus coriaria,species,Anacardiaceae,Rhus,3190563,14542,6,241,Q159546,LC,33
-Prunus avium,species,Rosaceae,Prunus,3020791,655776,2,1644,Q165137,LC,379
-Ceratonia siliqua,species,Fabaceae,Ceratonia,5356354,76309,24,483,Q68763,LC,31
-Malus domestica,species,Rosaceae,Malus,3001244,220137,6,3050,Q18674606,,184
-Celtis australis,species,Cannabaceae,Celtis,2984492,45101,0,55,Q255375,LC,10
-Crataegus azarolus,species,Rosaceae,Crataegus,3013739,8336,0,40,Q793606,LC,0
-Cornus mas,species,Cornaceae,Cornus,3082263,141461,6,240,Q158642,LC,11
-Cormus domestica,species,Rosaceae,Cormus,3013215,41939,0,5,Q18593737,,1
-Prunus domestica,species,Rosaceae,Prunus,7931731,145992,26,762,Q44120,DD,180
-Pistacia vera,species,Anacardiaceae,Pistacia,3190585,4421,50,497,Q36071,NT,84
-Juglans regia,species,Juglandaceae,Juglans,3054368,263740,5,1511,Q46871,LC,190
-Morus nigra,species,Moraceae,Morus,5361888,6989,5,328,Q161040,,66
-Mimusops laurifolia,species,Sapotaceae,Mimusops,2883821,726,0,5,Q15335855,,7
-Nelumbo nucifera,species,Nelumbonaceae,Nelumbo,2882449,9929,7,1243,Q16528,,125
-Vicia lens,species,Fabaceae,Vicia,3973001,65711,0,3,Q111391147,,0
-Vicia ervilia,species,Fabaceae,Vicia,2974887,10292,0,52,Q163064,LC,3
-Lupinus albus,species,Fabaceae,Lupinus,2964167,12687,1,1097,Q161372,LC,212
-Brassica rapa,species,Brassicaceae,Brassica,7903057,138137,95,5546,Q3384,,281
-Brassica napus,species,Brassicaceae,Brassica,3042636,128361,164,11915,Q177932,,243
-Sium sisarum,species,Apiaceae,Sium,3034532,1709,0,1,Q228122,LC,0
-Sinapis arvensis,species,Brassicaceae,Sinapis,3047598,287920,0,272,Q27986,,13
-Amaranthus blitum,species,Amaranthaceae,Amaranthus,8911082,43698,0,25,Q160572,,5
-Malva sylvestris,species,Malvaceae,Malva,3152374,354006,1,257,Q156835,,68
-Atriplex hortensis,species,Amaranthaceae,Atriplex,3083761,11544,0,43,Q158505,,4
-Brassica oleracea,species,Brassicaceae,Brassica,3042845,58977,171,4929,Q146212,DD,258
-Brassica cretica,species,Brassicaceae,Brassica,3042837,4793,0,14,Q15537049,LC,12
-Calystegia soldanella,species,Convolvulaceae,Calystegia,7646357,40431,0,36,Q159012,,10
-Beta vulgaris,species,Amaranthaceae,Beta,8971274,169114,146,5647,Q165191,,236
-Portulaca oleracea,species,Portulacaceae,Portulaca,3084719,202150,4,1211,Q158015,LC,127
-Asparagus acutifolius,species,Asparagaceae,Asparagus,2768995,87532,0,30,Q1587417,LC,7
-Plantago major,species,Plantaginaceae,Plantago,3189767,1343915,7,478,Q157154,LC,127
-Berula erecta,species,Apiaceae,Berula,3034699,161811,0,19,Q195416,LC,0
-Nasturtium officinale,species,Brassicaceae,Nasturtium,7701037,152228,3,261,Q150452,LC,26
-Crithmum maritimum,species,Apiaceae,Crithmum,3632234,96503,1,157,Q1136311,,31
-Plantago coronopus,species,Plantaginaceae,Plantago,3189739,238218,0,52,Q164030,,29
-Sonchus oleraceus,species,Asteraceae,Sonchus,8228544,673632,0,237,Q331676,,26
-Cichorium endivia,species,Asteraceae,Cichorium,5392243,7497,2,121,Q178547,,141
-Chondrilla juncea,species,Asteraceae,Chondrilla,8537667,71411,0,45,Q116137,,13
-Lagenaria siceraria,species,Cucurbitaceae,Lagenaria,2874672,7874,0,358,Q1277255,,39
-Cucumis melo,species,Cucurbitaceae,Cucumis,2874570,41144,2,2450,Q81602,,142
-Lactuca sativa,species,Asteraceae,Lactuca,7403263,44330,31,4099,Q83193,,100
-Visnaga daucoides,species,Apiaceae,Visnaga,5371753,7193,0,7,Q15596411,,5
-Scandix pecten-veneris,species,Apiaceae,Scandix,3034233,65405,0,9,Q580360,,2
-Tordylium apulum,species,Apiaceae,Tordylium,3034902,11062,0,8,Q622341,,80
-Eruca vesicaria,species,Brassicaceae,Eruca,5375920,23401,0,103,Q5395935,,9
-Vigna unguiculata,species,Fabaceae,Vigna,2982583,109172,1,2778,Q498940,,50
-Vicia cracca,species,Fabaceae,Vicia,2975287,900858,0,88,Q147159,,11
-Allium ampeloprasum,species,Amaryllidaceae,Allium,2856037,27939,3,161,Q148995,LC,205
-Allium cepa,species,Amaryllidaceae,Allium,2857697,21909,49,4096,Q23485,,320
-Allium sativum,species,Amaryllidaceae,Allium,2856681,12896,112,3149,Q23400,,231
-Lepidium sativum,species,Brassicaceae,Lepidium,5376565,10409,1,1090,Q27033,,36
-Thlaspi arvense,species,Brassicaceae,Thlaspi,3052680,204404,0,307,Q161867,,28
-Sisymbrium polyceratium,species,Brassicaceae,Sisymbrium,3046899,1912,0,0,Q15549260,,0
-Piper nigrum,species,Piperaceae,Piper,3086357,3089,135,1568,Q43084,,432
-Zingiber officinale,species,Zingiberaceae,Zingiber,2757280,2181,235,4533,Q35625,DD,712
-Persicaria hydropiper,species,Polygonaceae,Persicaria,8323622,330604,2,43,Q160113,LC,70
-Achillea ptarmica,species,Asteraceae,Achillea,3120333,415422,0,15,Q1335122,LC,42
-Saponaria officinalis,species,Caryophyllaceae,Saponaria,3085360,323039,0,191,Q156841,,27
-Dracunculus vulgaris,species,Araceae,Dracunculus,5330001,5141,0,7,Q934650,LC,4
-Arum italicum,species,Araceae,Arum,5330661,164372,0,33,Q30968,,49
-Arisarum vulgare,species,Araceae,Arisarum,2867495,31909,0,19,Q1644587,,10
-Asphodelus ramosus,species,Asphodelaceae,Asphodelus,2778478,30957,0,13,Q256956,,17
-Muscari comosum,species,Asparagaceae,Muscari,2769204,103127,0,22,Q163946,,27
-Pancratium maritimum,species,Amaryllidaceae,Pancratium,2853283,30224,0,60,Q1271785,,61
-Capparis spinosa,species,Capparaceae,Capparis,6370689,23500,1,320,Q156251,LC,106
-Lepidium latifolium,species,Brassicaceae,Lepidium,5376692,41423,0,68,Q32465,,0
-Anemone coronaria,species,Ranunculaceae,Anemone,3033261,26701,0,27,Q511179,,23
-Roemeria argemone,species,Papaveraceae,Roemeria,5531435,56842,0,0,Q111206353,,0
-Lysimachia arvensis,species,Primulaceae,Lysimachia,8184903,468641,6,15,Q21327968,,28
-Hedera helix,species,Araliaceae,Hedera,8351737,1296160,3,429,Q26354,,110
-Chelidonium majus,species,Papaveraceae,Chelidonium,5334186,630533,0,476,Q156807,,69
-Ficaria verna,species,Ranunculaceae,Ficaria,9094061,919348,0,32,Q157557,,2
-Isatis tinctoria,species,Brassicaceae,Isatis,5374118,47928,1,209,Q212547,,175
-Cerinthe major,species,Boraginaceae,Cerinthe,2926108,13457,0,2,Q3665114,,0
-Asplenium trichomanes,species,Aspleniaceae,Asplenium,8108066,373869,0,27,Q902211,,11
-Xanthium strumarium,species,Asteraceae,Xanthium,3089154,56649,0,557,Q857159,,183
-Aegilops geniculata,species,Poaceae,Aegilops,5289781,30327,0,65,Q2701568,LC,4
-Astragalus glaux,species,Fabaceae,Astragalus,5343088,2312,0,0,Q2884112,,0
-Osyris alba,species,Santalaceae,Osyris,3789029,50225,0,7,Q1114899,,31
-Smilax aspera,species,Smilacaceae,Smilax,5295044,109141,0,23,Q161119,,14
-Ruscus aculeatus,species,Asparagaceae,Ruscus,2769766,220931,6,152,Q161425,,56
-Daphne laureola,species,Thymelaeaceae,Daphne,5420853,140536,0,20,Q161418,,9
-Danae racemosa,species,Asparagaceae,Danae,5303891,568,0,4,Q2064758,,1
-Veratrum album,species,Melanthiaceae,Veratrum,2742119,91127,0,82,Q157547,,73
-Reseda undata,species,Resedaceae,Reseda,7368336,3081,0,0,Q6106141,,0
-Ecballium elaterium,species,Cucurbitaceae,Ecballium,2874680,49688,1,154,Q157877,,19
-Staphisagria macrosperma,species,Ranunculaceae,Staphisagria,7620156,2445,0,0,Q80708332,,93
-Thapsia garganica,species,Apiaceae,Thapsia,6026849,2041,0,54,Q3519581,,69
-Spartium junceum,species,Fabaceae,Spartium,5355395,61615,0,82,Q910358,,49
-Silybum marianum,species,Asteraceae,Silybum,3145214,87438,64,1710,Q193798,LC,72
-Muscarimia muscari,species,Asparagaceae,Muscarimia,2772013,4412,0,0,Q110830556,,0
-Centaurea spinosa,species,Asteraceae,Centaurea,3128393,667,0,1,Q786801,,37
-Sesamoides interrupta,species,Resedaceae,Sesamoides,7275917,2944,0,0,Q6126246,,3
-Euphorbia pithyusa,species,Euphorbiaceae,Euphorbia,3068684,5164,0,8,Q859880,,14
-Euphorbia lathyris,species,Euphorbiaceae,Euphorbia,3066965,125287,0,145,Q164223,,80
-Euphorbia chamaesyce,species,Euphorbiaceae,Euphorbia,3067869,5855,0,6,Q5410411,,32
-Daphne oleoides,species,Thymelaeaceae,Daphne,7311536,3100,0,20,Q296815,,80
-Sambucus nigra,species,Viburnaceae,Sambucus,2888728,1167514,11,1273,Q22701,LC,121
-Euphorbia apios,species,Euphorbiaceae,Euphorbia,3069036,420,0,0,Q12230476,,0
-Citrullus colocynthis,species,Cucurbitaceae,Citrullus,2874622,8434,1,418,Q913609,,74
-Cuscuta epithymum,species,Convolvulaceae,Cuscuta,2927518,72243,0,28,Q1479326,,0
-Clematis vitalba,species,Ranunculaceae,Clematis,3033558,550186,0,47,Q160100,,21
-Dioscorea communis,species,Dioscoreaceae,Dioscorea,2755063,298398,0,7,Q161378,,42
-Bryonia cretica,species,Cucurbitaceae,Bryonia,2874496,40951,0,5,Q15531180,,30
-Bryonia alba,species,Cucurbitaceae,Bryonia,2874497,10191,2,67,Q157980,,37
-Dryopteris filix-mas,species,Dryopteridaceae,Dryopteris,5275132,925344,0,60,Q322994,,34
-Pteridium aquilinum,species,Dennstaedtiaceae,Pteridium,5275012,1118236,1,473,Q213548,,127
-Polypodium vulgare,species,Polypodiaceae,Polypodium,5274951,487963,0,54,Q743883,,68
-Carthamus tinctorius,species,Asteraceae,Carthamus,3138327,17346,101,1710,Q156625,,194
-Mercurialis annua,species,Euphorbiaceae,Mercurialis,3062975,217876,0,133,Q163949,,8
-Heliotropium europaeum,species,Heliotropiaceae,Heliotropium,2925767,50440,0,45,Q164452,,11
-Heliotropium supinum,species,Heliotropiaceae,Heliotropium,2925777,8576,0,3,Q15491657,,2
-Scorpiurus muricatus,species,Fabaceae,Scorpiurus,5358302,23751,0,8,Q3762497,,0
-Solanum dulcamara,species,Solanaceae,Solanum,2932737,772270,0,183,Q147707,,58
-Ophioglossum vulgatum,species,Ophioglossaceae,Ophioglossum,2650133,95543,0,26,Q847497,,0
-Bidens tripartita,species,Asteraceae,Bidens,5391862,190477,0,47,Q673334,LC,16
-Glechoma hederacea,species,Lamiaceae,Glechoma,2926557,1346476,1,132,Q162544,,31
-Frangula alnus,species,Rhamnaceae,Frangula,3039454,636694,18,97,Q146136,LC,0
-Alnus glutinosa,species,Betulaceae,Alnus,2876213,1097286,0,628,Q156904,LC,30
-Angelica archangelica,species,Apiaceae,Angelica,5371808,63222,69,159,Q207745,,127
-Chenopodium vulvaria,species,Amaranthaceae,Chenopodium,3083932,16813,0,7,Q2119407,,1
-Lamium album,species,Lamiaceae,Lamium,2926683,554307,0,45,Q157626,,42
-Asparagus officinalis,species,Asparagaceae,Asparagus,2768885,129139,0,680,Q28367,LC,157
-Fraxinus excelsior,species,Oleaceae,Fraxinus,3172358,1732676,0,772,Q156907,NT,49
-Geum urbanum,species,Rosaceae,Geum,5369652,1059046,0,72,Q157407,,0
-Berberis vulgaris,species,Berberidaceae,Berberis,3033894,157730,5,328,Q158563,,64
-Phaseolus vulgaris,species,Fabaceae,Phaseolus,5350452,289305,41,11639,Q42339,LC,663
-Scrophularia auriculata,species,Scrophulariaceae,Scrophularia,3170875,215169,0,7,Q160256,,3
-Fagus sylvatica,species,Fagaceae,Fagus,2882316,1609354,0,2768,Q146149,LC,9
-Vaccinium myrtillus,species,Ericaceae,Vaccinium,2882833,1046328,40,1113,Q5413585,,112
-Betula pendula,species,Betulaceae,Betula,5331916,1058977,8,1357,Q156895,LC,173
-Ornithopus perpusillus,species,Fabaceae,Ornithopus,5358256,120514,0,1,Q159197,,0
-Ammi majus,species,Apiaceae,Ammi,3034182,24367,0,140,Q133477,,71
-Bistorta officinalis,species,Polygonaceae,Bistorta,7925535,144066,0,12,Q112917,,14
-Maianthemum bifolium,species,Asparagaceae,Maianthemum,2769317,397392,0,16,Q161543,,0
-Rubus fruticosus,species,Rosaceae,Rubus,8436459,291392,16,255,Q13541716,,26
-Borago officinalis,species,Boraginaceae,Borago,2926110,183002,17,252,Q147075,,31
-Centaurea cyanus,species,Asteraceae,Centaurea,3089561,217437,0,113,Q156921,,42
-Bryonia dioica,species,Cucurbitaceae,Bryonia,6422396,214798,0,79,Q163815,,64
-Veronica beccabunga,species,Plantaginaceae,Veronica,3172062,400544,0,10,Q164053,LC,0
-Cytisus scoparius,species,Fabaceae,Cytisus,5354656,561975,0,181,Q145781,,37
-Lepidium coronopus,species,Brassicaceae,Lepidium,5376627,99052,0,1,Q149924,,0
-Ajuga reptans,species,Lamiaceae,Ajuga,2927078,724371,0,98,Q157249,,91
-Crambe maritima,species,Brassicaceae,Crambe,5373533,57712,0,13,Q165299,,1
-Chamaemelum nobile,species,Asteraceae,Chamaemelum,5391599,24095,3,81,Q5723577,LC,165
-Potamogeton crispus,species,Potamogetonaceae,Potamogeton,5301162,122706,0,221,Q157863,LC,0
-Silene latifolia,species,Caryophyllaceae,Silene,5384805,562114,0,403,Q27624,,4
-Centaurea benedicta,species,Asteraceae,Centaurea,3127691,10823,0,8,Q792835,,31
-Anthriscus cerefolium,species,Apiaceae,Anthriscus,5371746,12040,0,28,Q218462,,10
-Castanea sativa,species,Fagaceae,Castanea,5333294,423851,1,861,Q22699,LC,83
-Conopodium majus,species,Apiaceae,Conopodium,6026760,235649,0,5,Q672080,,0
-Allium schoenoprasum,species,Amaryllidaceae,Allium,2855860,78287,2,115,Q51148,LC,51
-Salvia sclarea,species,Lamiaceae,Salvia,2927000,16233,1,263,Q157872,,135
-Salvia verbenaca,species,Lamiaceae,Salvia,6409706,85748,0,37,Q1313052,,10
-Stachys palustris,species,Lamiaceae,Stachys,2927245,370504,0,16,Q158392,LC,16
-Onobrychis viciifolia,species,Fabaceae,Onobrychis,2972595,111992,0,321,Q157933,LC,56
-Aquilegia vulgaris,species,Ranunculaceae,Aquilegia,3033191,220932,0,42,Q148929,,0
-Cardamine bulbifera,species,Brassicaceae,Cardamine,3045931,135333,0,6,Q244583,,0
-Tanacetum balsamita,species,Asteraceae,Tanacetum,3118254,4014,0,30,Q1451844,,25
-Filago germanica,species,Asteraceae,Filago,7533148,73435,0,2,Q108746821,,0
-Primula veris,species,Primulaceae,Primula,8377689,684315,0,115,Q157552,,35
-Stratiotes aloides,species,Hydrocharitaceae,Stratiotes,5329192,53472,0,18,Q162030,LC,14
-Diplotaxis tenuifolia,species,Brassicaceae,Diplotaxis,5376426,97859,0,163,Q163812,,3
-Lepidium graminifolium,species,Brassicaceae,Lepidium,5376994,15589,0,4,Q163483,,1
-Cruciata laevipes,species,Rubiaceae,Cruciata,5338920,282942,0,5,Q159244,,10
-Ranunculus acris,species,Ranunculaceae,Ranunculus,3033363,1387676,0,63,Q157563,,7
-Arum maculatum,species,Araceae,Arum,5330580,490576,0,112,Q836366,,65
-Cucumis sativus,species,Cucurbitaceae,Cucumis,2874569,29755,14,6341,Q23425,,138
-Bellis perennis,species,Asteraceae,Bellis,3117424,1113478,3,110,Q26158,,231
-Taraxacum officinale,species,Asteraceae,Taraxacum,5394163,576200,19,925,Q131219,,91
-Succisa pratensis,species,Caprifoliaceae,Succisa,2888811,619422,0,39,Q161697,,0
-Elymus repens,species,Poaceae,Elymus,5290299,804390,2,117,Q276262,,16
-Geranium molle,species,Geraniaceae,Geranium,2891488,452063,0,13,Q164017,,0
-Sambucus ebulus,species,Viburnaceae,Sambucus,2888722,156410,0,108,Q158515,,25
-Eryngium maritimum,species,Apiaceae,Eryngium,3034391,100895,0,32,Q21110,,0
-Euphrasia officinalis,species,Orobanchaceae,Euphrasia,8106874,94834,1,22,Q17813184,,11
-Osmunda regalis,species,Osmundaceae,Osmunda,8049341,126541,0,40,Q733398,LC,22
-Scrophularia nodosa,species,Scrophulariaceae,Scrophularia,3170886,526053,0,23,Q159115,,72
-Iris pseudacorus,species,Iridaceae,Iris,5298231,756679,0,215,Q21173,LC,63
-Linaria vulgaris,species,Plantaginaceae,Linaria,5415020,574828,0,93,Q157078,,35
-Descurainia sophia,species,Brassicaceae,Descurainia,3044318,76554,1,174,Q164143,,21
-Kickxia spuria,species,Plantaginaceae,Kickxia,3170817,66087,0,4,Q159768,,7
-Digitalis purpurea,species,Plantaginaceae,Digitalis,5414995,569046,231,374,Q157555,,140
-Ulex europaeus,species,Fabaceae,Ulex,2951984,437879,0,1715,Q161794,LC,37
-Gentianella amarella,species,Gentianaceae,Gentianella,8196434,59713,0,6,Q159257,,14
-Dianthus caryophyllus,species,Caryophyllaceae,Dianthus,3085420,16045,9,349,Q158984,,77
-Solidago virgaurea,species,Asteraceae,Solidago,6446462,615543,0,142,Q599435,,84
-Aegopodium podagraria,species,Apiaceae,Aegopodium,3034620,804406,0,57,Q217778,,12
-Ribes uva-crispa,species,Grossulariaceae,Ribes,2986185,234671,0,39,Q41503,,67
-Pyrola rotundifolia,species,Ericaceae,Pyrola,2888269,113719,0,20,Q692248,,20
-Viola tricolor,species,Violaceae,Viola,5331347,221539,0,112,Q190326,,18
-Cynara cardunculus,species,Asteraceae,Cynara,3112364,21389,3,603,Q7186137,,133
-Corylus avellana,species,Betulaceae,Corylus,2875979,1445260,1,788,Q124969,LC,49
-Hyoscyamus niger,species,Solanaceae,Hyoscyamus,2928978,50449,0,185,Q161058,,78
-Gratiola officinalis,species,Plantaginaceae,Gratiola,3171915,25248,0,20,Q872969,LC,37
-Helleborus niger,species,Ranunculaceae,Helleborus,3033107,44018,0,38,Q147834,,3
-Geranium robertianum,species,Geraniaceae,Geranium,2890668,1153377,0,51,Q160096,,16
-Paris quadrifolia,species,Melanthiaceae,Paris,5295911,366918,0,21,Q119135,,2
-Humulus lupulus,species,Cannabaceae,Humulus,2984535,427867,74,1323,Q104212,,486
-Equisetum telmateia,species,Equisetaceae,Equisetum,2687943,176117,0,33,Q936546,LC,35
-Sempervivum tectorum,species,Crassulaceae,Sempervivum,2985949,46660,0,29,Q161724,,9
-Cynoglossum officinale,species,Boraginaceae,Cynoglossum,2925815,114963,0,72,Q381584,,16
-Ilex aquifolium,species,Aquifoliaceae,Ilex,5414222,789929,0,123,Q192190,LC,20
-Hypericum perforatum,species,Hypericaceae,Hypericum,3189486,935957,58,2209,Q158289,,239
-Juniperus communis,species,Cupressaceae,Juniperus,2684709,822946,17,439,Q26325,LC,193
-Centaurea nigra,species,Asteraceae,Centaurea,3128225,414171,0,28,Q1851639,,18
-Alchemilla vulgaris,species,Rosaceae,Alchemilla,7890713,99133,0,76,Q160189,,6
-Lavandula angustifolia,species,Lamiaceae,Lavandula,2927305,53687,258,784,Q42081,LC,107
-Santolina chamaecyparissus,species,Asteraceae,Santolina,3125933,14335,0,53,Q1543811,,128
-Cardamine pratensis,species,Brassicaceae,Cardamine,7972010,876026,0,41,Q27490,,0
-Lythrum salicaria,species,Lythraceae,Lythrum,3188736,839522,0,313,Q157513,LC,40
-Lobaria pulmonaria,species,Lobariaceae,Lobaria,5260693,252553,0,186,Q1281000,,17
-Asplenium ruta-muraria,species,Aspleniaceae,Asplenium,2650625,324755,0,8,Q1125768,,0
-Acer campestre,species,Sapindaceae,Acer,3189863,768730,0,84,Q158785,LC,8
-Calendula officinalis,species,Asteraceae,Calendula,5391480,53842,25,781,Q145930,,186
-Imperatoria ostruthium,species,Apiaceae,Imperatoria,5538108,42251,0,3,Q17140255,,8
-Mespilus germanica,species,Rosaceae,Mespilus,3031774,56424,0,48,Q146186,LC,22
-Melilotus officinalis,species,Fabaceae,Melilotus,8193111,154265,0,239,Q161160,,50
-Lysimachia nummularia,species,Primulaceae,Lysimachia,3169379,388418,0,20,Q147305,LC,17
-Botrychium lunaria,species,Ophioglossaceae,Botrychium,2650165,121233,0,13,Q579784,,0
-Leonurus cardiaca,species,Lamiaceae,Leonurus,5341389,85257,1,95,Q161130,,28
-Pilosella officinarum,species,Asteraceae,Pilosella,9458333,389361,0,13,Q15593797,,0
-Artemisia vulgaris,species,Asteraceae,Artemisia,3120946,891045,16,465,Q26663,,163
-Verbascum thapsus,species,Scrophulariaceae,Verbascum,3171949,357972,4,141,Q160095,,73
-Sisymbrium officinale,species,Brassicaceae,Sisymbrium,3046890,395160,0,47,Q157698,,3
-Draba verna,species,Brassicaceae,Draba,7473187,278700,0,4,Q157381,,0
-Nepeta cataria,species,Lamiaceae,Nepeta,5341499,47069,2,187,Q161139,,45
-Urtica dioica,species,Urticaceae,Urtica,7960979,2264716,16,1259,Q155909,LC,34
-Quercus robur,species,Fagaceae,Quercus,2878688,1736601,1,1629,Q165145,LC,85
-Hylotelephium telephium,species,Crassulaceae,Hylotelephium,2985865,112475,0,7,Q1327535,,7
-Aphanes arvensis,species,Rosaceae,Aphanes,5365013,134930,0,6,Q161306,,0
-Prunus persica,species,Rosaceae,Prunus,8149923,51591,62,3174,Q13189,,239
-Parietaria judaica,species,Urticaceae,Parietaria,5361801,142712,3,231,Q147991,,1
-Vinca minor,species,Apocynaceae,Vinca,3169707,308732,1,176,Q161777,,66
-Hypericum tetrapterum,species,Hypericaceae,Hypericum,6436469,209828,0,5,Q159259,,21
-Primula vulgaris,species,Primulaceae,Primula,5414335,331273,0,89,Q159537,,0
-Ligustrum vulgare,species,Oleaceae,Ligustrum,3172300,627269,26,86,Q1848856,,38
-Filipendula ulmaria,species,Rosaceae,Filipendula,2987999,1394753,2,130,Q147176,LC,25
-Armoracia rusticana,species,Brassicaceae,Armoracia,3041022,132238,9,178,Q26545,LC,15
-Jacobaea vulgaris,species,Asteraceae,Jacobaea,5388602,813486,0,90,Q15630491,,46
-Rhinanthus minor,species,Orobanchaceae,Rhinanthus,3172043,373850,0,102,Q147181,,7
-Barbarea vulgaris,species,Brassicaceae,Barbarea,5708780,227522,0,132,Q157285,LC,23
-Drosera rotundifolia,species,Droseraceae,Drosera,3191030,320003,0,76,Q21187,LC,12
-Rumex patientia,species,Polygonaceae,Rumex,2889019,10137,0,56,Q164728,,28
-Rumex alpinus,species,Polygonaceae,Rumex,2888948,37068,0,23,Q159084,,3
-Thalictrum flavum,species,Ranunculaceae,Thalictrum,7509607,133176,0,31,Q162764,,53
-Herniaria glabra,species,Caryophyllaceae,Herniaria,3085798,84820,1,23,Q162783,,4
-Secale cereale,species,Poaceae,Secale,2705966,65692,75,2407,Q12099,,87
-Salvia officinalis,species,Lamiaceae,Salvia,2927004,35404,104,1492,Q1111359,LC,446
-Teucrium scorodonia,species,Lamiaceae,Teucrium,2926901,501957,0,11,Q161748,,67
-Polygonatum multiflorum,species,Asparagaceae,Polygonatum,2770022,348268,0,23,Q159299,,4
-Sanicula europaea,species,Apiaceae,Sanicula,6027128,284034,0,20,Q157846,,8
-Senecio sarracenicus,species,Asteraceae,Senecio,7903764,12333,0,1,Q743916,,4
-Alliaria petiolata,species,Brassicaceae,Alliaria,5376075,1033366,1,224,Q160097,,41
-Satureja hortensis,species,Lamiaceae,Satureja,2926885,5110,0,246,Q157283,,18
-Saxifraga granulata,species,Saxifragaceae,Saxifraga,7887000,247148,0,9,Q133867,,0
-Pimpinella saxifraga,species,Apiaceae,Pimpinella,7622278,452859,0,23,Q1473991,,7
-Knautia arvensis,species,Caprifoliaceae,Knautia,2888808,563471,0,47,Q27648,,1
-Cochlearia officinalis,species,Brassicaceae,Cochlearia,5373276,44701,0,20,Q160191,,2
-Prunella vulgaris,species,Lamiaceae,Prunella,5341297,1261448,32,567,Q158469,LC,62
-Torminalis glaberrima,species,Rosaceae,Torminalis,9410160,158285,0,6,Q41297526,,9
-Capsella bursa-pastoris,species,Brassicaceae,Capsella,5375388,814048,1,408,Q27264,,59
-Rumex acetosa,species,Polygonaceae,Rumex,2888951,1394504,1,219,Q26297,,48
-Oxalis acetosella,species,Oxalidaceae,Oxalis,8211958,757194,0,40,Q158576,,0
-Centaurea calcitrapa,species,Asteraceae,Centaurea,3128483,29961,0,29,Q1763537,,28
-Fragaria vesca,species,Rosaceae,Fragaria,3029817,819085,197,757,Q146684,,11
-Cichorium intybus,species,Asteraceae,Cichorium,5392252,397846,56,1395,Q2544599,,136
-Sedum album,species,Crassulaceae,Sedum,5362008,288492,0,14,Q253636,,21
-Nicotiana rustica,species,Solanaceae,Nicotiana,2928775,4631,0,244,Q602633,,20
-Tamarix gallica,species,Tamaricaceae,Tamarix,8380575,27308,0,55,Q164285,LC,12
-Tanacetum vulgare,species,Asteraceae,Tanacetum,3118274,709426,0,289,Q27079,,181
-Argentina anserina,species,Rosaceae,Argentina,5367246,876119,0,22,Q64061702,LC,0
-Cirsium heterophyllum,species,Asteraceae,Cirsium,3113745,212086,0,15,Q1446001,,2
-Dipsacus sativus,species,Caprifoliaceae,Dipsacus,2888816,10642,0,1,Q162445,,0
-Lepidium campestre,species,Brassicaceae,Lepidium,7703116,55866,0,30,Q149447,,0
-Prunus spinosa,species,Rosaceae,Prunus,3023221,1093565,0,196,Q129018,LC,29
-Bupleurum rotundifolium,species,Apiaceae,Bupleurum,3034554,19695,0,9,Q2121023,,73
-Thymus vulgaris,species,Lamiaceae,Thymus,5341442,123366,62,1564,Q148668,LC,154
-Thymus serpyllum,species,Lamiaceae,Thymus,6409622,127235,2,190,Q147251,,6
-Potentilla erecta,species,Rosaceae,Potentilla,5365576,1091778,0,49,Q160098,,43
-Trifolium pratense,species,Fabaceae,Trifolium,8324121,1648986,14,1644,Q156635,LC,181
-Medicago arabica,species,Fabaceae,Medicago,2965527,148128,0,15,Q159140,,39
-Hypericum androsaemum,species,Hypericaceae,Hypericum,3189525,124565,0,42,Q886411,,43
-Echium vulgare,species,Boraginaceae,Echium,2925892,461293,0,81,Q157722,,15
-Reseda luteola,species,Resedaceae,Reseda,3040251,152481,0,43,Q157927,,27
-Lonicera periclymenum,species,Caprifoliaceae,Lonicera,5334277,748227,0,18,Q161584,,12
+taxon,taxon_rank,family,genus,gbif_key,gbif_occurrences,trials,taxon_total,search_names,wikidata,iucn,n_compounds
+Iris germanica,species,Iridaceae,Iris,5298069,21510,2,80,Iris germanica,Q161734,,129
+Acorus calamus,species,Acoraceae,Acorus,2873769,71202,10,595,Acorus calamus,Q158008,LC,239
+Meum athamanticum,species,Apiaceae,Meum,6026490,46969,0,13,Meum athamanticum,Q1019275,,10
+Cyperus rotundus,species,Cyperaceae,Cyperus,2714818,33695,4,856,Cyperus rotundus,Q1391422,LC,195
+Elettaria cardamomum,species,Zingiberaceae,Elettaria,2759871,822,13,251,Elettaria cardamomum,Q33466,,27
+Nardostachys jatamansi,species,Caprifoliaceae,Nardostachys,4095989,1219,25,210,Nardostachys jatamansi,Q24853263,CR,107
+Valeriana celtica,species,Caprifoliaceae,Valeriana,7298940,4368,0,2,Valeriana celtica,Q1261137,,5
+Asarum europaeum,species,Aristolochiaceae,Asarum,7313595,132510,0,45,Asarum europaeum,Q156853,,9
+Valeriana phu,species,Caprifoliaceae,Valeriana,8201823,453,0,2,Valeriana phu,Q17435350,,2
+Cinnamomum tamala,species,Lauraceae,Cinnamomum,9128079,477,0,117,Cinnamomum tamala,Q1661611,LC,13
+Cinnamomum aromaticum,species,Lauraceae,Cinnamomum,3033982,330,16,283,Cinnamomum aromaticum,Q21156956,,65
+Cinnamomum verum,species,Lauraceae,Cinnamomum,3033987,10520,131,371,Cinnamomum verum,Q370239,VU,183
+Dolomiaea costus,species,Asteraceae,Dolomiaea,10864861,168,0,9,Dolomiaea costus,Q106903401,,118
+Cymbopogon schoenanthus,species,Poaceae,Cymbopogon,2705269,3131,0,54,Cymbopogon schoenanthus,Q2195173,,52
+Commiphora gileadensis,species,Burseraceae,Commiphora,3993077,526,0,34,Commiphora gileadensis,Q15543125,,26
+Calicotome villosa,species,Fabaceae,Calicotome,2956364,44305,0,22,Calicotome villosa,Q2259953,,23
+Crocus sativus,species,Iridaceae,Crocus,2747430,1544,19,1767,Crocus sativus,Q15041677,,152
+Inula helenium,species,Asteraceae,Inula,3148340,34533,3,236,Inula helenium,Q697416,,64
+Olea europaea,species,Oleaceae,Olea,5415040,411168,846,3212,Olea europaea,Q37083,,274
+Ricinus communis,species,Euphorbiaceae,Ricinus,5380041,105471,49,3939,Ricinus communis,Q155867,,35
+Prunus amygdalus,species,Rosaceae,Prunus,3020980,22036,26,207,Prunus amygdalus,Q15545507,,23
+Moringa peregrina,species,Moringaceae,Moringa,3752342,1463,1,83,Moringa peregrina,Q3324108,LC,9
+Hyoscyamus albus,species,Solanaceae,Hyoscyamus,2928979,13301,0,30,Hyoscyamus albus,Q1663536,,57
+Daphne gnidium,species,Thymelaeaceae,Daphne,7311306,71662,0,42,Daphne gnidium,Q1609513,,19
+Raphanus sativus,species,Brassicaceae,Raphanus,7678610,52534,10,2455,Raphanus sativus,Q7224565,,248
+Sinapis alba,species,Brassicaceae,Sinapis,3047621,60547,8,1192,Sinapis alba,Q146202,,62
+Myrtus communis,species,Myrtaceae,Myrtus,3180085,54226,1,596,Myrtus communis,Q6122027,LC,225
+Laurus nobilis,species,Lauraceae,Laurus,3034015,74767,3,552,Laurus nobilis,Q26006,LC,1
+Pistacia lentiscus,species,Anacardiaceae,Pistacia,3190583,288098,15,587,Pistacia lentiscus,Q159812,LC,54
+Phoenix dactylifera,species,Arecaceae,Phoenix,6109699,9850,7,1361,Phoenix dactylifera,Q25292,,58
+Cydonia oblonga,species,Rosaceae,Cydonia,5362215,54474,4,287,Cydonia oblonga,Q43300,LC,125
+Vitis vinifera,species,Vitaceae,Vitis,5372392,163685,277,8298,Vitis vinifera,Q30046,LC,504
+Trigonella foenum-graecum,species,Fabaceae,Trigonella,5360475,5461,56,1285,Trigonella foenum-graecum,Q133205,,213
+Origanum majorana,species,Lamiaceae,Origanum,2926615,4119,8,394,Origanum majorana,Q22694,,63
+Ocimum basilicum,species,Lamiaceae,Ocimum,2927096,9822,31,2165,Ocimum basilicum,Q38859,,268
+Artemisia abrotanum,species,Asteraceae,Artemisia,8042568,7930,1,36,Artemisia abrotanum,Q157976,,34
+Anethum graveolens,species,Apiaceae,Anethum,3034646,15661,5,475,Anethum graveolens,Q26686,,116
+Lilium candidum,species,Liliaceae,Lilium,2753090,3878,0,40,Lilium candidum,Q159811,,39
+Narcissus poeticus,species,Amaryllidaceae,Narcissus,2858581,59489,0,16,Narcissus poeticus,Q27983,LC,8
+Lawsonia inermis,species,Lythraceae,Lawsonia,5420912,8103,4,380,Lawsonia inermis,Q182448,LC,62
+Ferula gummosa,species,Apiaceae,Ferula,3034683,166,0,75,Ferula gummosa,Q4483170,,13
+Commiphora myrrha,species,Burseraceae,Commiphora,3994082,870,11,155,Commiphora myrrha,Q164609,,56
+Styrax officinalis,species,Styracaceae,Styrax,5371666,7521,1,21,Styrax officinalis,Q1281140,LC,18
+Hordeum vulgare,species,Poaceae,Hordeum,2706056,438179,91,8827,Hordeum vulgare,Q11577,,121
+Avena sativa,species,Poaceae,Avena,2705290,214587,348,3240,Avena sativa,Q12104,,116
+Oryza sativa,species,Poaceae,Oryza,2703459,568919,794,24955,Oryza sativa,Q161426,,454
+Triticum turgidum,species,Poaceae,Triticum,2706406,205648,0,1487,Triticum turgidum,Q1939841,LC,2
+Panicum miliaceum,species,Poaceae,Panicum,2705090,77461,2,531,Panicum miliaceum,Q165196,,5
+Sesamum indicum,species,Pedaliaceae,Sesamum,3172622,17889,3,1267,Sesamum indicum,Q2763698,,111
+Lolium temulentum,species,Poaceae,Lolium,2706242,15859,0,123,Lolium temulentum,Q162088,,28
+Triticum aestivum,species,Poaceae,Triticum,7795888,830212,548,23351,Triticum aestivum,Q161098,,274
+Linum usitatissimum,species,Linaceae,Linum,2873861,83415,167,1724,Linum usitatissimum,Q45108,,96
+Cicer arietinum,species,Fabaceae,Cicer,2947311,133537,3,2894,Cicer arietinum,Q81375,,106
+Vicia faba,species,Fabaceae,Vicia,2974832,112814,29,5440,Vicia faba,Q131342,,297
+Fomitopsis officinalis,species,Fomitopsidaceae,Fomitopsis,2543474,1820,2,40,Fomitopsis officinalis,Q81797459,EN,44
+Rheum rhaponticum,species,Polygonaceae,Rheum,2888866,724,2,55,Rheum rhaponticum,Q7218332,,38
+Gentiana lutea,species,Gentianaceae,Gentiana,3170040,127211,7,189,Gentiana lutea,Q158572,,112
+Glycyrrhiza glabra,species,Fabaceae,Glycyrrhiza,2965732,6493,104,1601,Glycyrrhiza glabra,Q257106,LC,461
+Rhaponticoides centaurium,species,Asteraceae,Rhaponticoides,3128905,106,0,0,Rhaponticoides centaurium,Q21308878,,0
+Centaurium erythraea,species,Gentianaceae,Centaurium,5414457,282240,0,109,Centaurium erythraea,Q156870,LC,36
+Atractylis gummifera,species,Asteraceae,Atractylis,7449725,187,0,61,Atractylis gummifera,Q21871946,,8
+Cardopatium corymbosum,species,Asteraceae,Cardopatium,3098511,1078,0,2,Cardopatium corymbosum,Q1035776,,3
+Carduus pycnocephalus,species,Asteraceae,Carduus,3114667,37765,0,29,Carduus pycnocephalus,Q2700500,,2
+Dipsacus fullonum,species,Caprifoliaceae,Dipsacus,8435025,376199,0,25,Dipsacus fullonum,Q160099,,4
+Lophiolepis ferox,species,Asteraceae,Lophiolepis,12218806,3112,0,0,Lophiolepis ferox,Q123095679,,0
+Scolymus hispanicus,species,Asteraceae,Scolymus,5403742,26475,0,27,Scolymus hispanicus,Q1403748,,14
+Onopordum acanthium,species,Asteraceae,Onopordum,3094900,95164,0,56,Onopordum acanthium,Q30166,,6
+Acanthus mollis,species,Acanthaceae,Acanthus,5415455,35000,0,26,Acanthus mollis,Q136648,,6
+Ononis spinosa,species,Fabaceae,Ononis,2977149,373729,1,56,Ononis spinosa,Q160102,,26
+Cirsium tuberosum,species,Asteraceae,Cirsium,3112651,29075,0,3,Cirsium tuberosum,Q1777398,,0
+Eryngium campestre,species,Apiaceae,Eryngium,3034426,300996,0,34,Eryngium campestre,Q839771,,36
+Aloe vera,species,Asphodelaceae,Aloe,2777724,5165,119,3893,Aloe vera,Q80079,,157
+Artemisia absinthium,species,Asteraceae,Artemisia,3121319,110813,9,480,Artemisia absinthium,Q25686,,154
+Origanum syriacum,species,Lamiaceae,Origanum,6411178,4414,3,82,Origanum syriacum,Q13714507,,63
+Lavandula stoechas,species,Lamiaceae,Lavandula,2927303,231380,0,201,Lavandula stoechas,Q1342976,,59
+Origanum vulgare,species,Lamiaceae,Origanum,2926612,448068,19,1356,Origanum vulgare,Q134283,,186
+Stachys glutinosa,species,Lamiaceae,Stachys,3882844,3619,0,3,Stachys glutinosa,Q132021,,5
+Mentha pulegium,species,Lamiaceae,Mentha,2927189,89289,0,281,Mentha pulegium,Q161235,LC,98
+Origanum dictamnus,species,Lamiaceae,Origanum,3894972,481,1,62,Origanum dictamnus,Q1227336,NT,69
+Salvia fruticosa,species,Lamiaceae,Salvia,6412283,4713,1,138,Salvia fruticosa,Q864698,,136
+Mentha spicata,species,Lamiaceae,Mentha,2927175,52339,23,694,Mentha spicata,Q160114,LC,194
+Clinopodium nepeta,species,Lamiaceae,Clinopodium,8916040,53905,0,14,Clinopodium nepeta,Q15350096,,0
+Thymbra capitata,species,Lamiaceae,Thymbra,5607804,55279,0,77,Thymbra capitata,Q1302761,,115
+Mentha aquatica,species,Lamiaceae,Mentha,2927208,646845,2,100,Mentha aquatica,Q161232,LC,66
+Origanum sipyleum,species,Lamiaceae,Origanum,3893904,384,0,7,Origanum sipyleum,Q15348630,,54
+Clinopodium acinos,species,Lamiaceae,Clinopodium,2927118,105377,0,0,Clinopodium acinos,Q17024325,,13
+Helichrysum sanguineum,species,Asteraceae,Helichrysum,3131419,3372,0,5,Helichrysum sanguineum,Q2910998,,0
+Ruta graveolens,species,Rutaceae,Ruta,3190382,8979,13,416,Ruta graveolens,Q25062,,204
+Peganum harmala,species,Tetradiclidaceae,Peganum,3189912,11248,0,552,Peganum harmala,Q94857,,64
+Opopanax chironium,species,Apiaceae,Opopanax,6027176,3760,0,5,Opopanax chironium,Q13560912,,42
+Echinophora tenuifolia,species,Apiaceae,Echinophora,5538701,274,0,16,Echinophora tenuifolia,Q12843181,,41
+Levisticum officinale,species,Apiaceae,Levisticum,5371772,12821,7,76,Levisticum officinale,Q27615,,64
+Daucus carota,species,Apiaceae,Daucus,3034742,927828,33,3938,Daucus carota,Q30056,LC,414
+Seseli tortuosum,species,Apiaceae,Seseli,7904530,10656,0,10,Seseli tortuosum,Q6126256,,12
+Tordylium officinale,species,Apiaceae,Tordylium,3633274,811,0,1,Tordylium officinale,Q12838833,,0
+Sison amomum,species,Apiaceae,Sison,3641433,48678,0,3,Sison amomum,Q3485328,,0
+Pimpinella anisum,species,Apiaceae,Pimpinella,8080300,1286,15,350,Pimpinella anisum,Q28692,,93
+Carum carvi,species,Apiaceae,Carum,3034714,141693,9,311,Carum carvi,Q26811,,77
+Cuminum cyminum,species,Apiaceae,Cuminum,3034775,797,34,574,Cuminum cyminum,Q132624,,61
+Lagoecia cuminoides,species,Apiaceae,Lagoecia,8419745,4339,0,4,Lagoecia cuminoides,Q2887589,,11
+Nigella arvensis,species,Ranunculaceae,Nigella,7278276,11657,0,22,Nigella arvensis,Q164700,,2
+Trachyspermum ammi,species,Apiaceae,Trachyspermum,3034241,1150,0,324,Trachyspermum ammi,Q413254,,32
+Coriandrum sativum,species,Apiaceae,Coriandrum,3034871,20277,15,946,Coriandrum sativum,Q41611,,157
+Apium graveolens,species,Apiaceae,Apium,5371879,32864,23,765,Apium graveolens,Q28298,LC,371
+Seseli libanotis,species,Apiaceae,Seseli,3034133,40285,0,6,Seseli libanotis,Q1595512,,2
+Petroselinum crispum,species,Apiaceae,Petroselinum,7828157,18989,14,497,Petroselinum crispum,Q25284,,119
+Smyrnium olusatrum,species,Apiaceae,Smyrnium,3034782,86474,0,33,Smyrnium olusatrum,Q628360,,33
+Smyrnium perfoliatum,species,Apiaceae,Smyrnium,6027089,15512,0,5,Smyrnium perfoliatum,Q12325136,,22
+Pastinaca sativa,species,Apiaceae,Pastinaca,8262702,304403,0,143,Pastinaca sativa,Q188614,,23
+Foeniculum vulgare,species,Apiaceae,Foeniculum,3034922,168042,22,996,Foeniculum vulgare,Q43511,,384
+Athamanta cretensis,species,Apiaceae,Athamanta,7607769,19973,0,0,Athamanta cretensis,Q2650767,,0
+Anacyclus pyrethrum,species,Asteraceae,Anacyclus,3148578,865,0,72,Anacyclus pyrethrum,Q1855185,VU,34
+Cachrys libanotis,species,Apiaceae,Cachrys,3634812,863,0,5,Cachrys libanotis,Q15567150,,0
+Salvia rosmarinus,species,Lamiaceae,Salvia,10902460,425959,16,211,Salvia rosmarinus,Q102240169,,25
+Heracleum sphondylium,species,Apiaceae,Heracleum,3034830,1188564,0,44,Heracleum sphondylium,Q752675,,16
+Ferula communis,species,Apiaceae,Ferula,8048981,18434,0,90,Ferula communis,Q150411,LC,94
+Peucedanum officinale,species,Apiaceae,Peucedanum,6026255,8847,0,6,Peucedanum officinale,Q459253,,10
+Nigella sativa,species,Ranunculaceae,Nigella,5371700,1540,72,2975,Nigella sativa,Q160575,,237
+Ferula persica,species,Apiaceae,Ferula,6026967,86,0,26,Ferula persica,Q15580892,,28
+Euphorbia resinifera,species,Euphorbiaceae,Euphorbia,3068445,189,0,53,Euphorbia resinifera,Q2658650,,27
+Ferula marmarica,species,Apiaceae,Ferula,3637559,26,0,0,Ferula marmarica,Q15579008,,6
+Astragalus sarcocolla,species,Fabaceae,Astragalus,5343610,6,0,5,Astragalus sarcocolla,Q12228690,,0
+Glaucium corniculatum,species,Papaveraceae,Glaucium,5334188,9202,0,10,Glaucium corniculatum,Q159368,,30
+Viscum album,species,Viscaceae,Viscum,2889828,281663,22,1067,Viscum album,Q144940,,88
+Galium aparine,species,Rubiaceae,Galium,2913548,1225144,0,225,Galium aparine,Q161581,,19
+Fibigia clypeata,species,Brassicaceae,Fibigia,3051652,3536,0,4,Fibigia clypeata,Q5446398,,5
+Vincetoxicum hirundinaria,species,Apocynaceae,Vincetoxicum,5414548,186030,0,31,Vincetoxicum hirundinaria,Q157331,,5
+Carthamus lanatus,species,Asteraceae,Carthamus,3138230,50006,0,22,Carthamus lanatus,Q2121623,,30
+Ziziphora capitata,species,Lamiaceae,Ziziphora,7308818,1888,0,3,Ziziphora capitata,Q4191804,,0
+Clinopodium vulgare,species,Lamiaceae,Clinopodium,2926945,358124,0,30,Clinopodium vulgare,Q163952,,19
+Leontice leontopetalum,species,Berberidaceae,Leontice,7944367,1885,0,11,Leontice leontopetalum,Q11875341,,27
+Teucrium flavum,species,Lamiaceae,Teucrium,3887754,9293,0,18,Teucrium flavum,Q1553939,,11
+Teucrium chamaedrys,species,Lamiaceae,Teucrium,6411747,259676,1,73,Teucrium chamaedrys,Q161937,,25
+Lamium maculatum,species,Lamiaceae,Lamium,2926684,215033,0,14,Lamium maculatum,Q164035,,8
+Silene coronaria,species,Caryophyllaceae,Silene,5384741,51508,0,2,Silene coronaria,Q159034,,0
+Agrostemma githago,species,Caryophyllaceae,Agrostemma,3085368,71616,0,77,Agrostemma githago,Q147852,,12
+Ballota nigra,species,Lamiaceae,Ballota,2926894,205790,1,41,Ballota nigra,Q157878,,27
+Melissa officinalis,species,Lamiaceae,Melissa,5341501,137787,84,916,Melissa officinalis,Q148396,,139
+Marrubium vulgare,species,Lamiaceae,Marrubium,2927069,126072,0,186,Marrubium vulgare,Q157631,,63
+Stachys germanica,species,Lamiaceae,Stachys,2927297,17894,0,11,Stachys germanica,Q159842,,27
+Asplenium scolopendrium,species,Aspleniaceae,Asplenium,2650669,357299,0,21,Asplenium scolopendrium,Q1130272,,3
+Anthericum ramosum,species,Asparagaceae,Anthericum,2773942,74723,0,7,Anthericum ramosum,Q159289,,0
+Bituminaria bituminosa,species,Fabaceae,Bituminaria,2952882,89786,0,54,Bituminaria bituminosa,Q1251922,,18
+Teucrium polium,species,Lamiaceae,Teucrium,3887764,42270,0,278,Teucrium polium,Q2415298,,184
+Teucrium scordium,species,Lamiaceae,Teucrium,7945074,31780,0,11,Teucrium scordium,Q158832,,12
+Tussilago farfara,species,Asteraceae,Tussilago,3149879,884025,2,225,Tussilago farfara,Q26302,,94
+Artemisia arborescens,species,Asteraceae,Artemisia,3120677,5416,0,52,Artemisia arborescens,Q309692,,100
+Dysphania botrys,species,Amaranthaceae,Dysphania,5568428,18205,0,5,Dysphania botrys,Q1746114,,31
+Geranium tuberosum,species,Geraniaceae,Geranium,2890791,3397,0,2,Geranium tuberosum,Q1777399,,6
+Achillea maritima,species,Asteraceae,Achillea,3120356,9049,0,4,Achillea maritima,Q12234003,,2
+Typha angustifolia,species,Typhaceae,Typha,5289461,124024,0,327,Typha angustifolia,Q146572,LC,13
+Vincetoxicum nigrum,species,Apocynaceae,Vincetoxicum,5414551,12719,0,20,Vincetoxicum nigrum,Q2678333,,1
+Filipendula vulgaris,species,Rosaceae,Filipendula,2988069,233940,0,27,Filipendula vulgaris,Q148961,,2
+Dittrichia viscosa,species,Asteraceae,Dittrichia,3101184,80000,1,138,Dittrichia viscosa,Q311844,,59
+Hemerocallis fulva,species,Asphodelaceae,Hemerocallis,2781074,37637,0,104,Hemerocallis fulva,Q1424440,,67
+Erysimum cheiri,species,Brassicaceae,Erysimum,3048203,34952,0,15,Erysimum cheiri,Q159370,,16
+Mercurialis perennis,species,Euphorbiaceae,Mercurialis,3063016,579660,0,45,Mercurialis perennis,Q158132,,2
+Anacamptis papilionacea,species,Orchidaceae,Anacamptis,2808646,19069,0,8,Anacamptis papilionacea,Q6632387,,0
+Orchis italica,species,Orchidaceae,Orchis,2849640,13357,0,26,Orchis italica,Q1315197,,0
+Orchis anthropophora,species,Orchidaceae,Orchis,2849624,95003,0,9,Orchis anthropophora,Q13387669,,0
+Salvia viridis,species,Lamiaceae,Salvia,3883959,7117,0,12,Salvia viridis,Q2068059,,22
+Coronilla securidaca,species,Fabaceae,Coronilla,5349991,2881,0,0,Coronilla securidaca,Q21872870,,0
+Onosma echioides,species,Boraginaceae,Onosma,2925855,2026,0,10,Onosma echioides,Q146097,,0
+Nymphaea alba,species,Nymphaeaceae,Nymphaea,2882437,128702,0,56,Nymphaea alba,Q147030,LC,31
+Acetabularia acetabulum,species,Polyphysaceae,Acetabularia,5273029,5622,0,84,Acetabularia acetabulum,Q991300,,1
+Asplenium ceterach,species,Aspleniaceae,Asplenium,2650617,122089,0,9,Asplenium ceterach,Q1754958,,1
+Asplenium sagittatum,species,Aspleniaceae,Asplenium,7774915,2402,0,0,Asplenium sagittatum,Q17064490,,0
+Cressa cretica,species,Convolvulaceae,Cressa,7324452,6477,0,32,Cressa cretica,Q1139718,LC,9
+Matricaria chamomilla,species,Asteraceae,Matricaria,8370958,292826,66,655,Matricaria chamomilla,Q28437,,231
+Tanacetum parthenium,species,Asteraceae,Tanacetum,3118430,171112,3,403,Tanacetum parthenium,Q818481,,194
+Glebionis coronaria,species,Asteraceae,Glebionis,7627205,39945,0,25,Glebionis coronaria,Q6585129,,74
+Paeonia mascula,species,Paeoniaceae,Paeonia,7155281,5168,0,7,Paeonia mascula,Q161482,,0
+Lithospermum officinale,species,Boraginaceae,Lithospermum,2926086,69779,0,53,Lithospermum officinale,Q515267,,6
+Phalaris aquatica,species,Poaceae,Phalaris,5289746,46161,0,151,Phalaris aquatica,Q1750612,,11
+Rubia tinctorum,species,Rubiaceae,Rubia,2892272,7561,0,134,Rubia tinctorum,Q163641,,53
+Polystichum lonchitis,species,Dryopteridaceae,Polystichum,2651113,80219,0,3,Polystichum lonchitis,Q542735,,2
+Althaea officinalis,species,Malvaceae,Althaea,3152520,64696,9,128,Althaea officinalis,Q158496,,46
+Malva alcea,species,Malvaceae,Malva,3152365,45338,0,2,Malva alcea,Q162805,,1
+Cannabis sativa,species,Cannabaceae,Cannabis,5361880,33818,1027,5166,Cannabis sativa,Q26726,,528
+Althaea cannabina,species,Malvaceae,Althaea,3152519,12281,0,0,Althaea cannabina,Q2561295,,17
+Anagyris foetida,species,Fabaceae,Anagyris,2946427,8137,0,12,Anagyris foetida,Q2630262,LC,14
+Sedum cepaea,species,Crassulaceae,Sedum,5690287,17032,0,2,Sedum cepaea,Q3356666,,2
+Alisma plantago-aquatica,species,Alismataceae,Alisma,2865100,376803,2,90,Alisma plantago-aquatica,Q21063,LC,60
+Hypericum triquetrifolium,species,Hypericaceae,Hypericum,3715163,4484,0,38,Hypericum triquetrifolium,Q310680,,26
+Hypericum empetrifolium,species,Hypericaceae,Hypericum,8411092,1362,0,14,Hypericum empetrifolium,Q1790537,,16
+Ajuga chamaepitys,species,Lamiaceae,Ajuga,2927080,51013,0,15,Ajuga chamaepitys,Q158310,,46
+Betonica officinalis,species,Lamiaceae,Betonica,2927280,343353,0,15,Betonica officinalis,Q21872006,,22
+Rumex aquaticus,species,Polygonaceae,Rumex,2888992,30068,0,20,Rumex aquaticus,Q159061,,0
+Lysimachia vulgaris,species,Primulaceae,Lysimachia,3169386,740225,0,30,Lysimachia vulgaris,Q147843,LC,7
+Polygonum aviculare,species,Polygonaceae,Polygonum,7821030,819971,0,189,Polygonum aviculare,Q242573,,30
+Polygonatum odoratum,species,Asparagaceae,Polygonatum,2770228,169079,0,199,Polygonatum odoratum,Q157430,,28
+Vinca major,species,Apocynaceae,Vinca,3169708,160101,0,38,Vinca major,Q161746,,49
+Coris monspeliensis,species,Primulaceae,Coris,7290586,33627,0,0,Coris monspeliensis,Q4888153,,0
+Symphytum officinale,species,Boraginaceae,Symphytum,7558421,451472,3,212,Symphytum officinale,Q157561,,37
+Plantago albicans,species,Plantaginaceae,Plantago,8424834,21558,0,14,Plantago albicans,Q17741142,,3
+Sarcopoterium spinosum,species,Rosaceae,Sarcopoterium,3001879,12490,0,47,Sarcopoterium spinosum,Q27845140,,3
+Lathyrus clymenum,species,Fabaceae,Lathyrus,5356407,18485,0,5,Lathyrus clymenum,Q12813815,LC,6
+Lonicera etrusca,species,Caprifoliaceae,Lonicera,5334247,48772,0,3,Lonicera etrusca,Q2339065,,0
+Tribulus terrestris,species,Zygophyllaceae,Tribulus,5421116,52227,11,802,Tribulus terrestris,Q235889,LC,219
+Limonium vulgare,species,Plumbaginaceae,Limonium,3082322,57514,0,26,Limonium vulgare,Q27952,,1
+Trifolium arvense,species,Fabaceae,Trifolium,5359246,320155,0,17,Trifolium arvense,Q125813,,7
+Epimedium alpinum,species,Berberidaceae,Epimedium,7695021,4682,1,2,Epimedium alpinum,Q164064,,0
+Gladiolus italicus,species,Iridaceae,Gladiolus,2749791,24675,0,2,Gladiolus italicus,Q2272100,LC,25
+Sparganium erectum,species,Typhaceae,Sparganium,7679536,332872,0,15,Sparganium erectum,Q148734,LC,0
+Iris foetidissima,species,Iridaceae,Iris,5298765,102578,0,3,Iris foetidissima,Q2484930,,11
+Alkanna tinctoria,species,Boraginaceae,Alkanna,5341257,7572,0,201,Alkanna tinctoria,Q856964,,8
+Lycopsis arvensis,species,Boraginaceae,Lycopsis,5341197,151131,0,0,Lycopsis arvensis,Q15593258,,0
+Silene gallica,species,Caryophyllaceae,Silene,5384848,73907,0,5,Silene gallica,Q1450768,,10
+Cynodon dactylon,species,Poaceae,Cynodon,6109637,175723,3,2017,Cynodon dactylon,Q208705,,9
+Parnassia palustris,species,Parnassiaceae,Parnassia,3032585,375002,0,17,Parnassia palustris,Q161633,LC,6
+Rubus idaeus,species,Rosaceae,Rubus,2993094,820274,70,687,Rubus idaeus,Q12252383,,110
+Convolvulus arvensis,species,Convolvulaceae,Convolvulus,2928390,737106,0,315,Convolvulus arvensis,Q111346,,23
+Kickxia elatine,species,Plantaginaceae,Kickxia,3170819,79207,0,6,Kickxia elatine,Q159133,,15
+Agrimonia eupatoria,species,Rosaceae,Agrimonia,3001956,498698,0,101,Agrimonia eupatoria,Q156865,,21
+Potentilla reptans,species,Rosaceae,Potentilla,5367273,754153,0,49,Potentilla reptans,Q130224,,0
+Lolium perenne,species,Poaceae,Lolium,2706241,1085642,7,4092,Lolium perenne,Q161722,,47
+Ruscus hypophyllum,species,Asparagaceae,Ruscus,2769757,1788,0,5,Ruscus hypophyllum,Q3648105,,8
+Rhodiola rosea,species,Crassulaceae,Rhodiola,2985688,56315,27,1068,Rhodiola rosea,Q161665,,280
+Ephedra distachya,species,Ephedraceae,Ephedra,2653321,17788,1,20,Ephedra distachya,Q162784,LC,26
+Juncus acutus,species,Juncaceae,Juncus,2701632,32433,0,51,Juncus acutus,Q2094325,LC,36
+Marchantia polymorpha,species,Marchantiaceae,Marchantia,2688570,77745,0,1190,Marchantia polymorpha,Q992846,,103
+Paronychia argentea,species,Caryophyllaceae,Paronychia,5528747,24323,0,18,Paronychia argentea,Q627816,,8
+Galatella linosyris,species,Asteraceae,Galatella,3091677,26458,3,2,Galatella linosyris,Q1534538,,6
+Bongardia chrysogonum,species,Berberidaceae,Bongardia,3981547,1090,0,8,Bongardia chrysogonum,Q4093107,,31
+Helichrysum stoechas,species,Asteraceae,Helichrysum,3131494,88040,0,44,Helichrysum stoechas,Q1636806,,74
+Achillea ageratum,species,Asteraceae,Achillea,3120391,7030,0,11,Achillea ageratum,Q285796,,40
+Verbena officinalis,species,Verbenaceae,Verbena,2925529,255531,1,168,Verbena officinalis,Q161417,,53
+Verbena supina,species,Verbenaceae,Verbena,2925492,4138,0,0,Verbena supina,Q6160520,,4
+Hyacinthus orientalis,species,Asparagaceae,Hyacinthus,2772666,18490,0,51,Hyacinthus orientalis,Q157428,,25
+Papaver rhoeas,species,Papaveraceae,Papaver,2888443,480071,1,297,Papaver rhoeas,Q130201,,73
+Papaver somniferum,species,Papaveraceae,Papaver,2888439,126726,2,744,Papaver somniferum,Q131584,,108
+Glaucium flavum,species,Papaveraceae,Glaucium,5334190,56051,0,48,Glaucium flavum,Q157916,,44
+Silene vulgaris,species,Caryophyllaceae,Silene,9172281,529160,0,214,Silene vulgaris,Q511103,LC,19
+Plantago afra,species,Plantaginaceae,Plantago,7303104,22614,0,3,Plantago afra,Q789360,,10
+Solanum nigrum,species,Solanaceae,Solanum,9150405,386392,14,1166,Solanum nigrum,Q146400,,80
+Alkekengi officinarum,species,Solanaceae,Alkekengi,3797084,19081,0,2,Alkekengi officinarum,Q161780,,90
+Withania somnifera,species,Solanaceae,Withania,2928840,9207,88,2110,Withania somnifera,Q852660,,208
+Atropa belladonna,species,Solanaceae,Atropa,3802655,62624,327,1114,Atropa belladonna,Q156091,,29
+Convolvulus oleifolius,species,Convolvulaceae,Convolvulus,7324411,1336,0,0,Convolvulus oleifolius,Q296805,,0
+Mandragora officinarum,species,Solanaceae,Mandragora,5341748,4868,0,20,Mandragora officinarum,Q545550,,102
+Conium maculatum,species,Apiaceae,Conium,3034807,205026,1,149,Conium maculatum,Q218041,,33
+Taxus baccata,species,Taxaceae,Taxus,5284517,318267,0,463,Taxus baccata,Q179729,LC,230
+Nerium oleander,species,Apocynaceae,Nerium,3169756,117230,3,542,Nerium oleander,Q155833,LC,133
+Convallaria majalis,species,Asparagaceae,Convallaria,7459480,483423,0,106,Convallaria majalis,Q101711,,19
+Parietaria officinalis,species,Urticaceae,Parietaria,5361803,24279,0,72,Parietaria officinalis,Q158578,,10
+Stellaria media,species,Caryophyllaceae,Stellaria,5384604,835680,0,252,Stellaria media,Q158711,,44
+Lemna minor,species,Araceae,Lemna,2867589,444312,4,1375,Lemna minor,Q26875,LC,9
+Aeonium arboreum,species,Crassulaceae,Aeonium,2985682,5511,0,13,Aeonium arboreum,Q138279,,5
+Umbilicus rupestris,species,Crassulaceae,Umbilicus,7334368,132523,0,6,Umbilicus rupestris,Q2719123,,6
+Urtica pilulifera,species,Urticaceae,Urtica,5670646,7842,0,21,Urtica pilulifera,Q160037,,0
+Scrophularia peregrina,species,Scrophulariaceae,Scrophularia,3170862,5481,0,0,Scrophularia peregrina,Q17746062,,0
+Galium verum,species,Rubiaceae,Galium,9063248,853533,0,69,Galium verum,Q156854,,21
+Senecio vulgaris,species,Asteraceae,Senecio,3108983,758585,0,227,Senecio vulgaris,Q504256,,35
+Thalictrum minus,species,Ranunculaceae,Thalictrum,3033129,111533,0,44,Thalictrum minus,Q164268,,116
+Ulva lactuca,species,Ulvaceae,Ulva,5273309,43437,2,804,Ulva lactuca,Q852879,,61
+Potamogeton natans,species,Potamogetonaceae,Potamogeton,5301147,236865,0,28,Potamogeton natans,Q370566,LC,19
+Pistia stratiotes,species,Araceae,Pistia,2870583,28065,0,408,Pistia stratiotes,Q654001,LC,18
+Achillea millefolium,species,Asteraceae,Achillea,3120060,1872669,2,642,Achillea millefolium,Q25408,LC,255
+Salvia aethiopis,species,Lamiaceae,Salvia,2927030,9695,0,19,Salvia aethiopis,Q159131,,23
+Arctium lappa,species,Asteraceae,Arctium,7353729,164169,9,589,Arctium lappa,Q26932,,112
+Petasites hybridus,species,Asteraceae,Petasites,9490132,204219,1,117,Petasites hybridus,Q375620,,154
+Fumaria officinalis,species,Papaveraceae,Fumaria,5334217,227449,0,84,Fumaria officinalis,Q157618,,44
+Trigonella caerulea,species,Fabaceae,Trigonella,5360498,2094,0,5,Trigonella caerulea,Q164849,,16
+Medicago arborea,species,Fabaceae,Medicago,2965379,13987,0,35,Medicago arborea,Q1668432,LC,0
+Myriophyllum spicatum,species,Haloragaceae,Myriophyllum,5361760,193634,0,377,Myriophyllum spicatum,Q158130,LC,1
+Myrrhis odorata,species,Apiaceae,Myrrhis,3034681,59886,14,8,Myrrhis odorata,Q1137175,,26
+Chamaenerion angustifolium,species,Onagraceae,Chamaenerion,6428353,925496,0,46,Chamaenerion angustifolium,Q160104,,0
+Aster amellus,species,Asteraceae,Aster,8133114,38509,0,24,Aster amellus,Q819178,,0
+Isopyrum thalictroides,species,Ranunculaceae,Isopyrum,5615962,20608,0,7,Isopyrum thalictroides,Q13268229,,37
+Viola odorata,species,Violaceae,Viola,5331181,271747,0,139,Viola odorata,Q108684,,4
+Bunium ferulaceum,species,Apiaceae,Bunium,3641616,611,0,3,Bunium ferulaceum,Q15566524,,5
+Anchusa azurea,species,Boraginaceae,Anchusa,5341198,20572,0,17,Anchusa azurea,Q2339051,,11
+Ruscus hypoglossum,species,Asparagaceae,Ruscus,2769775,1981,0,7,Ruscus hypoglossum,Q3021942,,4
+Tripolium pannonicum,species,Asteraceae,Tripolium,3098616,140332,0,19,Tripolium pannonicum,Q635916,,9
+Adiantum capillus-veneris,species,Pteridaceae,Adiantum,2651816,62829,1,169,Adiantum capillus-veneris,Q4678994,LC,47
+Drimia maritima,species,Asparagaceae,Drimia,2776790,16256,0,24,Drimia maritima,Q161788,LC,116
+Pyrus communis,species,Rosaceae,Pyrus,5362573,106370,36,758,Pyrus communis,Q146281,LC,99
+Punica granatum,species,Lythraceae,Punica,5420901,53471,168,2394,Punica granatum,Q13188,LC,507
+Ficus carica,species,Moraceae,Ficus,5361909,113049,4,1035,Ficus carica,Q36146,LC,87
+Ficus sycomorus,species,Moraceae,Ficus,5361921,6112,0,58,Ficus sycomorus,Q750217,LC,2
+Pinus pinea,species,Pinaceae,Pinus,5285165,326298,0,440,Pinus pinea,Q106094,LC,10
+Juniperus oxycedrus,species,Cupressaceae,Juniperus,2684451,183285,70,150,Juniperus oxycedrus,Q184300,LC,36
+Cedrus libani,species,Pinaceae,Cedrus,5284682,6658,0,105,Cedrus libani,Q61105,VU,70
+Hyssopus officinalis,species,Lamiaceae,Hyssopus,5341387,20590,0,153,Hyssopus officinalis,Q137931,,80
+Opopanax hispidus,species,Apiaceae,Opopanax,3639801,697,0,4,Opopanax hispidus,Q2027031,,1
+Cneorum tricoccon,species,Rutaceae,Cneorum,7483998,7136,0,8,Cneorum tricoccon,Q148722,VU,3
+Helleborus odorus,species,Ranunculaceae,Helleborus,7277077,1693,0,13,Helleborus odorus,Q681557,,7
+Convolvulus scammonia,species,Convolvulaceae,Convolvulus,2928397,727,0,5,Convolvulus scammonia,Q310388,,10
+Indigofera tinctoria,species,Fabaceae,Indigofera,2972043,4377,0,98,Indigofera tinctoria,Q165213,,5
+Dracaena cinnabari,species,Asparagaceae,Dracaena,5304574,325,0,42,Dracaena cinnabari,Q133560,VU,44
+Commiphora wightii,species,Burseraceae,Commiphora,3992808,170,0,102,Commiphora wightii,Q901803,CR,41
+Boswellia sacra,species,Burseraceae,Boswellia,8330171,380,32,126,Boswellia sacra,Q133964,NT,130
+Pinus halepensis,species,Pinaceae,Pinus,5285604,391696,0,749,Pinus halepensis,Q211457,LC,99
+Pistacia terebinthus,species,Anacardiaceae,Pistacia,3190580,66649,1,107,Pistacia terebinthus,Q63045,LC,14
+Cupressus sempervirens,species,Cupressaceae,Cupressus,2684030,20491,1,288,Cupressus sempervirens,Q147513,LC,102
+Juniperus sabina,species,Cupressaceae,Juniperus,7963890,20979,0,68,Juniperus sabina,Q148630,LC,89
+Platanus orientalis,species,Platanaceae,Platanus,3152816,6996,0,142,Platanus orientalis,Q161105,DD,25
+Fraxinus ornus,species,Oleaceae,Fraxinus,3172347,41187,8,92,Fraxinus ornus,Q161421,LC,45
+Populus alba,species,Salicaceae,Populus,3040233,198474,0,779,Populus alba,Q146269,LC,84
+Holarrhena pubescens,species,Apocynaceae,Holarrhena,3169748,3293,1,40,Holarrhena pubescens,Q9096302,LC,82
+Populus nigra,species,Salicaceae,Populus,3040227,222450,0,717,Populus nigra,Q147064,DD,32
+Ulmus minor,species,Ulmaceae,Ulmus,5361865,337036,0,107,Ulmus minor,Q147487,DD,0
+Phragmites australis,species,Poaceae,Phragmites,5290149,1231750,0,2231,Phragmites australis,Q28557,LC,13
+Cyperus papyrus,species,Cyperaceae,Cyperus,2716311,5633,3,114,Cyperus papyrus,Q158808,LC,8
+Erica arborea,species,Ericaceae,Erica,5333410,148014,0,104,Erica arborea,Q176647,LC,27
+Chamaecrista absus,species,Fabaceae,Chamaecrista,2949868,4619,0,1,Chamaecrista absus,Q15466047,LC,0
+Atriplex halimus,species,Amaranthaceae,Atriplex,3083718,23910,0,195,Atriplex halimus,Q1974321,LC,2
+Paliurus spina-christi,species,Rhamnaceae,Paliurus,5372457,21991,0,25,Paliurus spina-christi,Q660414,,8
+Crataegus monogyna,species,Rosaceae,Crataegus,9220780,1451705,29,281,Crataegus monogyna,Q161511,LC,92
+Rosa canina,species,Rosaceae,Rosa,3002461,449417,5,434,Rosa canina,Q146066,,43
+Phillyrea latifolia,species,Oleaceae,Phillyrea,7325923,42487,0,75,Phillyrea latifolia,Q784070,LC,25
+Cistus creticus,species,Cistaceae,Cistus,6438085,19135,0,90,Cistus creticus,Q891305,,280
+Dalbergia melanoxylon,species,Fabaceae,Dalbergia,2968897,2354,0,22,Dalbergia melanoxylon,Q83170,NT,15
+Rosa gallica,species,Rosaceae,Rosa,3002530,17492,0,40,Rosa gallica,Q157668,,106
+Rhamnus lycioides,species,Rhamnaceae,Rhamnus,6371380,21787,0,25,Rhamnus lycioides,Q148804,,10
+Vitex agnus-castus,species,Lamiaceae,Vitex,2925562,35141,9,371,Vitex agnus-castus,Q259318,DD,231
+Salix alba,species,Salicaceae,Salix,5372513,373830,6,248,Salix alba,Q156918,LC,24
+Quercus infectoria,species,Fagaceae,Quercus,2881010,4216,0,168,Quercus infectoria,Q3565069,LC,20
+Rhus coriaria,species,Anacardiaceae,Rhus,3190563,14542,6,241,Rhus coriaria,Q159546,LC,33
+Prunus avium,species,Rosaceae,Prunus,3020791,655776,2,1644,Prunus avium,Q165137,LC,379
+Ceratonia siliqua,species,Fabaceae,Ceratonia,5356354,76309,24,483,Ceratonia siliqua,Q68763,LC,31
+Malus domestica,species,Rosaceae,Malus,3001244,220137,6,3050,Malus domestica,Q18674606,,184
+Celtis australis,species,Cannabaceae,Celtis,2984492,45101,0,55,Celtis australis,Q255375,LC,10
+Crataegus azarolus,species,Rosaceae,Crataegus,3013739,8336,0,40,Crataegus azarolus,Q793606,LC,0
+Cornus mas,species,Cornaceae,Cornus,3082263,141461,6,240,Cornus mas,Q158642,LC,11
+Cormus domestica,species,Rosaceae,Cormus,3013215,41939,0,5,Cormus domestica,Q18593737,,1
+Prunus domestica,species,Rosaceae,Prunus,7931731,145992,26,762,Prunus domestica,Q44120,DD,180
+Pistacia vera,species,Anacardiaceae,Pistacia,3190585,4421,50,497,Pistacia vera,Q36071,NT,84
+Juglans regia,species,Juglandaceae,Juglans,3054368,263740,5,1511,Juglans regia,Q46871,LC,190
+Morus nigra,species,Moraceae,Morus,5361888,6989,5,328,Morus nigra,Q161040,,66
+Mimusops laurifolia,species,Sapotaceae,Mimusops,2883821,726,0,5,Mimusops laurifolia,Q15335855,,7
+Nelumbo nucifera,species,Nelumbonaceae,Nelumbo,2882449,9929,7,1243,Nelumbo nucifera,Q16528,,125
+Vicia lens,species,Fabaceae,Vicia,3973001,65711,0,3,Vicia lens,Q111391147,,0
+Vicia ervilia,species,Fabaceae,Vicia,2974887,10292,0,52,Vicia ervilia,Q163064,LC,3
+Lupinus albus,species,Fabaceae,Lupinus,2964167,12687,1,1097,Lupinus albus,Q161372,LC,212
+Brassica rapa,species,Brassicaceae,Brassica,7903057,138137,95,5546,Brassica rapa,Q3384,,281
+Brassica napus,species,Brassicaceae,Brassica,3042636,128361,164,11915,Brassica napus,Q177932,,243
+Sium sisarum,species,Apiaceae,Sium,3034532,1709,0,1,Sium sisarum,Q228122,LC,0
+Sinapis arvensis,species,Brassicaceae,Sinapis,3047598,287920,0,272,Sinapis arvensis,Q27986,,13
+Amaranthus blitum,species,Amaranthaceae,Amaranthus,8911082,43698,0,25,Amaranthus blitum,Q160572,,5
+Malva sylvestris,species,Malvaceae,Malva,3152374,354006,1,257,Malva sylvestris,Q156835,,68
+Atriplex hortensis,species,Amaranthaceae,Atriplex,3083761,11544,0,43,Atriplex hortensis,Q158505,,4
+Brassica oleracea,species,Brassicaceae,Brassica,3042845,58977,171,4929,Brassica oleracea,Q146212,DD,258
+Brassica cretica,species,Brassicaceae,Brassica,3042837,4793,0,14,Brassica cretica,Q15537049,LC,12
+Calystegia soldanella,species,Convolvulaceae,Calystegia,7646357,40431,0,36,Calystegia soldanella,Q159012,,10
+Beta vulgaris,species,Amaranthaceae,Beta,8971274,169114,146,5647,Beta vulgaris,Q165191,,236
+Portulaca oleracea,species,Portulacaceae,Portulaca,3084719,202150,4,1211,Portulaca oleracea,Q158015,LC,127
+Asparagus acutifolius,species,Asparagaceae,Asparagus,2768995,87532,0,30,Asparagus acutifolius,Q1587417,LC,7
+Plantago major,species,Plantaginaceae,Plantago,3189767,1343915,7,478,Plantago major,Q157154,LC,127
+Berula erecta,species,Apiaceae,Berula,3034699,161811,0,19,Berula erecta,Q195416,LC,0
+Nasturtium officinale,species,Brassicaceae,Nasturtium,7701037,152228,3,261,Nasturtium officinale,Q150452,LC,26
+Crithmum maritimum,species,Apiaceae,Crithmum,3632234,96503,1,157,Crithmum maritimum,Q1136311,,31
+Plantago coronopus,species,Plantaginaceae,Plantago,3189739,238218,0,52,Plantago coronopus,Q164030,,29
+Sonchus oleraceus,species,Asteraceae,Sonchus,8228544,673632,0,237,Sonchus oleraceus,Q331676,,26
+Cichorium endivia,species,Asteraceae,Cichorium,5392243,7497,2,121,Cichorium endivia,Q178547,,141
+Chondrilla juncea,species,Asteraceae,Chondrilla,8537667,71411,0,45,Chondrilla juncea,Q116137,,13
+Lagenaria siceraria,species,Cucurbitaceae,Lagenaria,2874672,7874,0,358,Lagenaria siceraria,Q1277255,,39
+Cucumis melo,species,Cucurbitaceae,Cucumis,2874570,41144,2,2450,Cucumis melo,Q81602,,142
+Lactuca sativa,species,Asteraceae,Lactuca,7403263,44330,31,4099,Lactuca sativa,Q83193,,100
+Visnaga daucoides,species,Apiaceae,Visnaga,5371753,7193,0,7,Visnaga daucoides,Q15596411,,5
+Scandix pecten-veneris,species,Apiaceae,Scandix,3034233,65405,0,9,Scandix pecten-veneris,Q580360,,2
+Tordylium apulum,species,Apiaceae,Tordylium,3034902,11062,0,8,Tordylium apulum,Q622341,,80
+Eruca vesicaria,species,Brassicaceae,Eruca,5375920,23401,0,103,Eruca vesicaria,Q5395935,,9
+Vigna unguiculata,species,Fabaceae,Vigna,2982583,109172,1,2778,Vigna unguiculata,Q498940,,50
+Vicia cracca,species,Fabaceae,Vicia,2975287,900858,0,88,Vicia cracca,Q147159,,11
+Allium ampeloprasum,species,Amaryllidaceae,Allium,2856037,27939,3,161,Allium ampeloprasum,Q148995,LC,205
+Allium cepa,species,Amaryllidaceae,Allium,2857697,21909,49,4096,Allium cepa,Q23485,,320
+Allium sativum,species,Amaryllidaceae,Allium,2856681,12896,112,3149,Allium sativum,Q23400,,231
+Lepidium sativum,species,Brassicaceae,Lepidium,5376565,10409,1,1090,Lepidium sativum,Q27033,,36
+Thlaspi arvense,species,Brassicaceae,Thlaspi,3052680,204404,0,307,Thlaspi arvense,Q161867,,28
+Sisymbrium polyceratium,species,Brassicaceae,Sisymbrium,3046899,1912,0,0,Sisymbrium polyceratium,Q15549260,,0
+Piper nigrum,species,Piperaceae,Piper,3086357,3089,135,1568,Piper nigrum,Q43084,,432
+Zingiber officinale,species,Zingiberaceae,Zingiber,2757280,2181,235,4533,Zingiber officinale,Q35625,DD,712
+Persicaria hydropiper,species,Polygonaceae,Persicaria,8323622,330604,2,43,Persicaria hydropiper,Q160113,LC,70
+Achillea ptarmica,species,Asteraceae,Achillea,3120333,415422,0,15,Achillea ptarmica,Q1335122,LC,42
+Saponaria officinalis,species,Caryophyllaceae,Saponaria,3085360,323039,0,191,Saponaria officinalis,Q156841,,27
+Dracunculus vulgaris,species,Araceae,Dracunculus,5330001,5141,0,7,Dracunculus vulgaris,Q934650,LC,4
+Arum italicum,species,Araceae,Arum,5330661,164372,0,33,Arum italicum,Q30968,,49
+Arisarum vulgare,species,Araceae,Arisarum,2867495,31909,0,19,Arisarum vulgare,Q1644587,,10
+Asphodelus ramosus,species,Asphodelaceae,Asphodelus,2778478,30957,0,13,Asphodelus ramosus,Q256956,,17
+Muscari comosum,species,Asparagaceae,Muscari,2769204,103127,0,22,Muscari comosum,Q163946,,27
+Pancratium maritimum,species,Amaryllidaceae,Pancratium,2853283,30224,0,60,Pancratium maritimum,Q1271785,,61
+Capparis spinosa,species,Capparaceae,Capparis,6370689,23500,1,320,Capparis spinosa,Q156251,LC,106
+Lepidium latifolium,species,Brassicaceae,Lepidium,5376692,41423,0,68,Lepidium latifolium,Q32465,,0
+Anemone coronaria,species,Ranunculaceae,Anemone,3033261,26701,0,27,Anemone coronaria,Q511179,,23
+Roemeria argemone,species,Papaveraceae,Roemeria,5531435,56842,0,0,Roemeria argemone,Q111206353,,0
+Lysimachia arvensis,species,Primulaceae,Lysimachia,8184903,468641,6,15,Lysimachia arvensis,Q21327968,,28
+Hedera helix,species,Araliaceae,Hedera,8351737,1296160,3,429,Hedera helix,Q26354,,110
+Chelidonium majus,species,Papaveraceae,Chelidonium,5334186,630533,0,476,Chelidonium majus,Q156807,,69
+Ficaria verna,species,Ranunculaceae,Ficaria,9094061,919348,0,32,Ficaria verna,Q157557,,2
+Isatis tinctoria,species,Brassicaceae,Isatis,5374118,47928,1,209,Isatis tinctoria,Q212547,,175
+Cerinthe major,species,Boraginaceae,Cerinthe,2926108,13457,0,2,Cerinthe major,Q3665114,,0
+Asplenium trichomanes,species,Aspleniaceae,Asplenium,8108066,373869,0,27,Asplenium trichomanes,Q902211,,11
+Xanthium strumarium,species,Asteraceae,Xanthium,3089154,56649,0,557,Xanthium strumarium,Q857159,,183
+Aegilops geniculata,species,Poaceae,Aegilops,5289781,30327,0,65,Aegilops geniculata,Q2701568,LC,4
+Astragalus glaux,species,Fabaceae,Astragalus,5343088,2312,0,0,Astragalus glaux,Q2884112,,0
+Osyris alba,species,Santalaceae,Osyris,3789029,50225,0,7,Osyris alba,Q1114899,,31
+Smilax aspera,species,Smilacaceae,Smilax,5295044,109141,0,23,Smilax aspera,Q161119,,14
+Ruscus aculeatus,species,Asparagaceae,Ruscus,2769766,220931,6,152,Ruscus aculeatus,Q161425,,56
+Daphne laureola,species,Thymelaeaceae,Daphne,5420853,140536,0,20,Daphne laureola,Q161418,,9
+Danae racemosa,species,Asparagaceae,Danae,5303891,568,0,4,Danae racemosa,Q2064758,,1
+Veratrum album,species,Melanthiaceae,Veratrum,2742119,91127,0,82,Veratrum album,Q157547,,73
+Reseda undata,species,Resedaceae,Reseda,7368336,3081,0,0,Reseda undata,Q6106141,,0
+Ecballium elaterium,species,Cucurbitaceae,Ecballium,2874680,49688,1,154,Ecballium elaterium,Q157877,,19
+Staphisagria macrosperma,species,Ranunculaceae,Staphisagria,7620156,2445,0,0,Staphisagria macrosperma,Q80708332,,93
+Thapsia garganica,species,Apiaceae,Thapsia,6026849,2041,0,54,Thapsia garganica,Q3519581,,69
+Spartium junceum,species,Fabaceae,Spartium,5355395,61615,0,82,Spartium junceum,Q910358,,49
+Silybum marianum,species,Asteraceae,Silybum,3145214,87438,64,1710,Silybum marianum,Q193798,LC,72
+Muscarimia muscari,species,Asparagaceae,Muscarimia,2772013,4412,0,0,Muscarimia muscari,Q110830556,,0
+Centaurea spinosa,species,Asteraceae,Centaurea,3128393,667,0,1,Centaurea spinosa,Q786801,,37
+Sesamoides interrupta,species,Resedaceae,Sesamoides,7275917,2944,0,0,Sesamoides interrupta,Q6126246,,3
+Euphorbia pithyusa,species,Euphorbiaceae,Euphorbia,3068684,5164,0,8,Euphorbia pithyusa,Q859880,,14
+Euphorbia lathyris,species,Euphorbiaceae,Euphorbia,3066965,125287,0,145,Euphorbia lathyris,Q164223,,80
+Euphorbia chamaesyce,species,Euphorbiaceae,Euphorbia,3067869,5855,0,6,Euphorbia chamaesyce,Q5410411,,32
+Daphne oleoides,species,Thymelaeaceae,Daphne,7311536,3100,0,20,Daphne oleoides,Q296815,,80
+Sambucus nigra,species,Viburnaceae,Sambucus,2888728,1167514,11,1273,Sambucus nigra,Q22701,LC,121
+Euphorbia apios,species,Euphorbiaceae,Euphorbia,3069036,420,0,0,Euphorbia apios,Q12230476,,0
+Citrullus colocynthis,species,Cucurbitaceae,Citrullus,2874622,8434,1,418,Citrullus colocynthis,Q913609,,74
+Cuscuta epithymum,species,Convolvulaceae,Cuscuta,2927518,72243,0,28,Cuscuta epithymum,Q1479326,,0
+Clematis vitalba,species,Ranunculaceae,Clematis,3033558,550186,0,47,Clematis vitalba,Q160100,,21
+Dioscorea communis,species,Dioscoreaceae,Dioscorea,2755063,298398,0,7,Dioscorea communis,Q161378,,42
+Bryonia cretica,species,Cucurbitaceae,Bryonia,2874496,40951,0,5,Bryonia cretica,Q15531180,,30
+Bryonia alba,species,Cucurbitaceae,Bryonia,2874497,10191,2,67,Bryonia alba,Q157980,,37
+Dryopteris filix-mas,species,Dryopteridaceae,Dryopteris,5275132,925344,0,60,Dryopteris filix-mas,Q322994,,34
+Pteridium aquilinum,species,Dennstaedtiaceae,Pteridium,5275012,1118236,1,473,Pteridium aquilinum,Q213548,,127
+Polypodium vulgare,species,Polypodiaceae,Polypodium,5274951,487963,0,54,Polypodium vulgare,Q743883,,68
+Carthamus tinctorius,species,Asteraceae,Carthamus,3138327,17346,101,1710,Carthamus tinctorius,Q156625,,194
+Mercurialis annua,species,Euphorbiaceae,Mercurialis,3062975,217876,0,133,Mercurialis annua,Q163949,,8
+Heliotropium europaeum,species,Heliotropiaceae,Heliotropium,2925767,50440,0,45,Heliotropium europaeum,Q164452,,11
+Heliotropium supinum,species,Heliotropiaceae,Heliotropium,2925777,8576,0,3,Heliotropium supinum,Q15491657,,2
+Scorpiurus muricatus,species,Fabaceae,Scorpiurus,5358302,23751,0,8,Scorpiurus muricatus,Q3762497,,0
+Solanum dulcamara,species,Solanaceae,Solanum,2932737,772270,0,183,Solanum dulcamara,Q147707,,58
+Ophioglossum vulgatum,species,Ophioglossaceae,Ophioglossum,2650133,95543,0,26,Ophioglossum vulgatum,Q847497,,0
+Bidens tripartita,species,Asteraceae,Bidens,5391862,190477,0,47,Bidens tripartita,Q673334,LC,16
+Glechoma hederacea,species,Lamiaceae,Glechoma,2926557,1346476,1,132,Glechoma hederacea,Q162544,,31
+Frangula alnus,species,Rhamnaceae,Frangula,3039454,636694,18,97,Frangula alnus,Q146136,LC,0
+Alnus glutinosa,species,Betulaceae,Alnus,2876213,1097286,0,628,Alnus glutinosa,Q156904,LC,30
+Angelica archangelica,species,Apiaceae,Angelica,5371808,63222,69,159,Angelica archangelica,Q207745,,127
+Chenopodium vulvaria,species,Amaranthaceae,Chenopodium,3083932,16813,0,7,Chenopodium vulvaria,Q2119407,,1
+Lamium album,species,Lamiaceae,Lamium,2926683,554307,0,45,Lamium album,Q157626,,42
+Asparagus officinalis,species,Asparagaceae,Asparagus,2768885,129139,0,680,Asparagus officinalis,Q28367,LC,157
+Fraxinus excelsior,species,Oleaceae,Fraxinus,3172358,1732676,0,772,Fraxinus excelsior,Q156907,NT,49
+Geum urbanum,species,Rosaceae,Geum,5369652,1059046,0,72,Geum urbanum,Q157407,,0
+Berberis vulgaris,species,Berberidaceae,Berberis,3033894,157730,5,328,Berberis vulgaris,Q158563,,64
+Phaseolus vulgaris,species,Fabaceae,Phaseolus,5350452,289305,41,11639,Phaseolus vulgaris,Q42339,LC,663
+Scrophularia auriculata,species,Scrophulariaceae,Scrophularia,3170875,215169,0,7,Scrophularia auriculata,Q160256,,3
+Fagus sylvatica,species,Fagaceae,Fagus,2882316,1609354,0,2768,Fagus sylvatica,Q146149,LC,9
+Vaccinium myrtillus,species,Ericaceae,Vaccinium,2882833,1046328,40,1113,Vaccinium myrtillus,Q5413585,,112
+Neottia ovata,species,Orchidaceae,Neottia,2816250,462485,0,13,Neottia ovata,Q15502088,,0
+Betula pendula,species,Betulaceae,Betula,5331916,1058977,8,1357,Betula pendula,Q156895,LC,173
+Ornithopus perpusillus,species,Fabaceae,Ornithopus,5358256,120514,0,1,Ornithopus perpusillus,Q159197,,0
+Ammi majus,species,Apiaceae,Ammi,3034182,24367,0,140,Ammi majus,Q133477,,71
+Bistorta officinalis,species,Polygonaceae,Bistorta,7925535,144066,0,12,Bistorta officinalis,Q112917,,14
+Maianthemum bifolium,species,Asparagaceae,Maianthemum,2769317,397392,0,16,Maianthemum bifolium,Q161543,,0
+Rubus fruticosus,species,Rosaceae,Rubus,8436459,291392,16,255,Rubus fruticosus,Q13541716,,26
+Borago officinalis,species,Boraginaceae,Borago,2926110,183002,17,252,Borago officinalis,Q147075,,31
+Centaurea cyanus,species,Asteraceae,Centaurea,3089561,217437,0,113,Centaurea cyanus,Q156921,,42
+Bryonia dioica,species,Cucurbitaceae,Bryonia,6422396,214798,0,79,Bryonia dioica,Q163815,,64
+Veronica beccabunga,species,Plantaginaceae,Veronica,3172062,400544,0,10,Veronica beccabunga,Q164053,LC,0
+Cytisus scoparius,species,Fabaceae,Cytisus,5354656,561975,0,181,Cytisus scoparius,Q145781,,37
+Lepidium coronopus,species,Brassicaceae,Lepidium,5376627,99052,0,1,Lepidium coronopus,Q149924,,0
+Ajuga reptans,species,Lamiaceae,Ajuga,2927078,724371,0,98,Ajuga reptans,Q157249,,91
+Poterium sanguisorba,species,Rosaceae,Poterium,5364245,588882,0,6,Poterium sanguisorba,Q21877146,,0
+Crambe maritima,species,Brassicaceae,Crambe,5373533,57712,0,13,Crambe maritima,Q165299,,1
+Chamaemelum nobile,species,Asteraceae,Chamaemelum,5391599,24095,3,81,Chamaemelum nobile,Q5723577,LC,165
+Potamogeton crispus,species,Potamogetonaceae,Potamogeton,5301162,122706,0,221,Potamogeton crispus,Q157863,LC,0
+Silene latifolia,species,Caryophyllaceae,Silene,5384805,562114,0,403,Silene latifolia,Q27624,,4
+Centaurea benedicta,species,Asteraceae,Centaurea,3127691,10823,0,8,Centaurea benedicta,Q792835,,31
+Anthriscus cerefolium,species,Apiaceae,Anthriscus,5371746,12040,0,28,Anthriscus cerefolium,Q218462,,10
+Castanea sativa,species,Fagaceae,Castanea,5333294,423851,1,861,Castanea sativa,Q22699,LC,83
+Conopodium majus,species,Apiaceae,Conopodium,6026760,235649,0,5,Conopodium majus,Q672080,,0
+Allium schoenoprasum,species,Amaryllidaceae,Allium,2855860,78287,2,115,Allium schoenoprasum,Q51148,LC,51
+Salvia sclarea,species,Lamiaceae,Salvia,2927000,16233,1,263,Salvia sclarea,Q157872,,135
+Salvia verbenaca,species,Lamiaceae,Salvia,6409706,85748,0,37,Salvia verbenaca,Q1313052,,10
+Stachys palustris,species,Lamiaceae,Stachys,2927245,370504,0,16,Stachys palustris,Q158392,LC,16
+Onobrychis viciifolia,species,Fabaceae,Onobrychis,2972595,111992,0,321,Onobrychis viciifolia,Q157933,LC,56
+Aquilegia vulgaris,species,Ranunculaceae,Aquilegia,3033191,220932,0,42,Aquilegia vulgaris,Q148929,,0
+Cardamine bulbifera,species,Brassicaceae,Cardamine,3045931,135333,0,6,Cardamine bulbifera,Q244583,,0
+Tanacetum balsamita,species,Asteraceae,Tanacetum,3118254,4014,0,30,Tanacetum balsamita,Q1451844,,25
+Filago germanica,species,Asteraceae,Filago,7533148,73435,0,2,Filago germanica,Q108746821,,0
+Primula veris,species,Primulaceae,Primula,8377689,684315,0,115,Primula veris,Q157552,,35
+Stratiotes aloides,species,Hydrocharitaceae,Stratiotes,5329192,53472,0,18,Stratiotes aloides,Q162030,LC,14
+Diplotaxis tenuifolia,species,Brassicaceae,Diplotaxis,5376426,97859,0,163,Diplotaxis tenuifolia,Q163812,,3
+Lepidium graminifolium,species,Brassicaceae,Lepidium,5376994,15589,0,4,Lepidium graminifolium,Q163483,,1
+Cruciata laevipes,species,Rubiaceae,Cruciata,5338920,282942,0,5,Cruciata laevipes,Q159244,,10
+Ranunculus acris,species,Ranunculaceae,Ranunculus,3033363,1387676,0,63,Ranunculus acris,Q157563,,7
+Arum maculatum,species,Araceae,Arum,5330580,490576,0,112,Arum maculatum,Q836366,,65
+Cucumis sativus,species,Cucurbitaceae,Cucumis,2874569,29755,14,6341,Cucumis sativus,Q23425,,138
+Bellis perennis,species,Asteraceae,Bellis,3117424,1113478,3,110,Bellis perennis,Q26158,,231
+Taraxacum officinale,species,Asteraceae,Taraxacum,5394163,576200,19,925,Taraxacum officinale,Q131219,,91
+Succisa pratensis,species,Caprifoliaceae,Succisa,2888811,619422,0,39,Succisa pratensis,Q161697,,0
+Elymus repens,species,Poaceae,Elymus,5290299,804390,2,117,Elymus repens,Q276262,,16
+Geranium molle,species,Geraniaceae,Geranium,2891488,452063,0,13,Geranium molle,Q164017,,0
+Sambucus ebulus,species,Viburnaceae,Sambucus,2888722,156410,0,108,Sambucus ebulus,Q158515,,25
+Eryngium maritimum,species,Apiaceae,Eryngium,3034391,100895,0,32,Eryngium maritimum,Q21110,,0
+Euphrasia officinalis,species,Orobanchaceae,Euphrasia,8106874,94834,1,22,Euphrasia officinalis,Q17813184,,11
+Osmunda regalis,species,Osmundaceae,Osmunda,8049341,126541,0,40,Osmunda regalis,Q733398,LC,22
+Scrophularia nodosa,species,Scrophulariaceae,Scrophularia,3170886,526053,0,23,Scrophularia nodosa,Q159115,,72
+Iris pseudacorus,species,Iridaceae,Iris,5298231,756679,0,215,Iris pseudacorus,Q21173,LC,63
+Linaria vulgaris,species,Plantaginaceae,Linaria,5415020,574828,0,93,Linaria vulgaris,Q157078,,35
+Descurainia sophia,species,Brassicaceae,Descurainia,3044318,76554,1,174,Descurainia sophia,Q164143,,21
+Kickxia spuria,species,Plantaginaceae,Kickxia,3170817,66087,0,4,Kickxia spuria,Q159768,,7
+Digitalis purpurea,species,Plantaginaceae,Digitalis,5414995,569046,231,374,Digitalis purpurea,Q157555,,140
+Ulex europaeus,species,Fabaceae,Ulex,2951984,437879,0,1715,Ulex europaeus,Q161794,LC,37
+Gentianella amarella,species,Gentianaceae,Gentianella,8196434,59713,0,6,Gentianella amarella,Q159257,,14
+Dianthus caryophyllus,species,Caryophyllaceae,Dianthus,3085420,16045,9,349,Dianthus caryophyllus,Q158984,,77
+Solidago virgaurea,species,Asteraceae,Solidago,6446462,615543,0,142,Solidago virgaurea,Q599435,,84
+Aegopodium podagraria,species,Apiaceae,Aegopodium,3034620,804406,0,57,Aegopodium podagraria,Q217778,,12
+Ribes uva-crispa,species,Grossulariaceae,Ribes,2986185,234671,0,39,Ribes uva-crispa,Q41503,,67
+Pyrola rotundifolia,species,Ericaceae,Pyrola,2888269,113719,0,20,Pyrola rotundifolia,Q692248,,20
+Viola tricolor,species,Violaceae,Viola,5331347,221539,0,112,Viola tricolor,Q190326,,18
+Cynara cardunculus,species,Asteraceae,Cynara,3112364,21389,3,603,Cynara cardunculus,Q7186137,,133
+Corylus avellana,species,Betulaceae,Corylus,2875979,1445260,1,788,Corylus avellana,Q124969,LC,49
+Hyoscyamus niger,species,Solanaceae,Hyoscyamus,2928978,50449,0,185,Hyoscyamus niger,Q161058,,78
+Gratiola officinalis,species,Plantaginaceae,Gratiola,3171915,25248,0,20,Gratiola officinalis,Q872969,LC,37
+Helleborus niger,species,Ranunculaceae,Helleborus,3033107,44018,0,38,Helleborus niger,Q147834,,3
+Geranium robertianum,species,Geraniaceae,Geranium,2890668,1153377,0,51,Geranium robertianum,Q160096,,16
+Paris quadrifolia,species,Melanthiaceae,Paris,5295911,366918,0,21,Paris quadrifolia,Q119135,,2
+Humulus lupulus,species,Cannabaceae,Humulus,2984535,427867,74,1323,Humulus lupulus,Q104212,,486
+Equisetum telmateia,species,Equisetaceae,Equisetum,2687943,176117,0,33,Equisetum telmateia,Q936546,LC,35
+Sempervivum tectorum,species,Crassulaceae,Sempervivum,2985949,46660,0,29,Sempervivum tectorum,Q161724,,9
+Cynoglossum officinale,species,Boraginaceae,Cynoglossum,2925815,114963,0,72,Cynoglossum officinale,Q381584,,16
+Ilex aquifolium,species,Aquifoliaceae,Ilex,5414222,789929,0,123,Ilex aquifolium,Q192190,LC,20
+Hypericum perforatum,species,Hypericaceae,Hypericum,3189486,935957,58,2209,Hypericum perforatum,Q158289,,239
+Juniperus communis,species,Cupressaceae,Juniperus,2684709,822946,17,439,Juniperus communis,Q26325,LC,193
+Centaurea nigra,species,Asteraceae,Centaurea,3128225,414171,0,28,Centaurea nigra,Q1851639,,18
+Alchemilla vulgaris,species,Rosaceae,Alchemilla,7890713,99133,0,76,Alchemilla vulgaris,Q160189,,6
+Lavandula angustifolia,species,Lamiaceae,Lavandula,2927305,53687,258,784,Lavandula angustifolia,Q42081,LC,107
+Santolina chamaecyparissus,species,Asteraceae,Santolina,3125933,14335,0,53,Santolina chamaecyparissus,Q1543811,,128
+Cardamine pratensis,species,Brassicaceae,Cardamine,7972010,876026,0,41,Cardamine pratensis,Q27490,,0
+Lythrum salicaria,species,Lythraceae,Lythrum,3188736,839522,0,313,Lythrum salicaria,Q157513,LC,40
+Lobaria pulmonaria,species,Lobariaceae,Lobaria,5260693,252553,0,186,Lobaria pulmonaria,Q1281000,,17
+Asplenium ruta-muraria,species,Aspleniaceae,Asplenium,2650625,324755,0,8,Asplenium ruta-muraria,Q1125768,,0
+Acer campestre,species,Sapindaceae,Acer,3189863,768730,0,84,Acer campestre,Q158785,LC,8
+Calendula officinalis,species,Asteraceae,Calendula,5391480,53842,25,781,Calendula officinalis,Q145930,,186
+Imperatoria ostruthium,species,Apiaceae,Imperatoria,5538108,42251,0,3,Imperatoria ostruthium,Q17140255,,8
+Mespilus germanica,species,Rosaceae,Mespilus,3031774,56424,0,48,Mespilus germanica,Q146186,LC,22
+Melilotus officinalis,species,Fabaceae,Melilotus,8193111,154265,0,239,Melilotus officinalis,Q161160,,50
+Lysimachia nummularia,species,Primulaceae,Lysimachia,3169379,388418,0,20,Lysimachia nummularia,Q147305,LC,17
+Botrychium lunaria,species,Ophioglossaceae,Botrychium,2650165,121233,0,13,Botrychium lunaria,Q579784,,0
+Leonurus cardiaca,species,Lamiaceae,Leonurus,5341389,85257,1,95,Leonurus cardiaca,Q161130,,28
+Pilosella officinarum,species,Asteraceae,Pilosella,9458333,389361,0,13,Pilosella officinarum,Q15593797,,0
+Artemisia vulgaris,species,Asteraceae,Artemisia,3120946,891045,16,465,Artemisia vulgaris,Q26663,,163
+Verbascum thapsus,species,Scrophulariaceae,Verbascum,3171949,357972,4,141,Verbascum thapsus,Q160095,,73
+Sisymbrium officinale,species,Brassicaceae,Sisymbrium,3046890,395160,0,47,Sisymbrium officinale,Q157698,,3
+Draba verna,species,Brassicaceae,Draba,7473187,278700,0,4,Draba verna,Q157381,,0
+Nepeta cataria,species,Lamiaceae,Nepeta,5341499,47069,2,187,Nepeta cataria,Q161139,,45
+Urtica dioica,species,Urticaceae,Urtica,7960979,2264716,16,1259,Urtica dioica,Q155909,LC,34
+Quercus robur,species,Fagaceae,Quercus,2878688,1736601,1,1629,Quercus robur,Q165145,LC,85
+Hylotelephium telephium,species,Crassulaceae,Hylotelephium,2985865,112475,0,7,Hylotelephium telephium,Q1327535,,7
+Aphanes arvensis,species,Rosaceae,Aphanes,5365013,134930,0,6,Aphanes arvensis,Q161306,,0
+Prunus persica,species,Rosaceae,Prunus,8149923,51591,62,3174,Prunus persica,Q13189,,239
+Parietaria judaica,species,Urticaceae,Parietaria,5361801,142712,3,231,Parietaria judaica,Q147991,,1
+Vinca minor,species,Apocynaceae,Vinca,3169707,308732,1,176,Vinca minor,Q161777,,66
+Hypericum tetrapterum,species,Hypericaceae,Hypericum,6436469,209828,0,5,Hypericum tetrapterum,Q159259,,21
+Primula vulgaris,species,Primulaceae,Primula,5414335,331273,0,89,Primula vulgaris,Q159537,,0
+Ligustrum vulgare,species,Oleaceae,Ligustrum,3172300,627269,26,86,Ligustrum vulgare,Q1848856,,38
+Filipendula ulmaria,species,Rosaceae,Filipendula,2987999,1394753,2,130,Filipendula ulmaria,Q147176,LC,25
+Armoracia rusticana,species,Brassicaceae,Armoracia,3041022,132238,9,178,Armoracia rusticana,Q26545,LC,15
+Jacobaea vulgaris,species,Asteraceae,Jacobaea,5388602,813486,0,90,Jacobaea vulgaris,Q15630491,,46
+Rhinanthus minor,species,Orobanchaceae,Rhinanthus,3172043,373850,0,102,Rhinanthus minor,Q147181,,7
+Barbarea vulgaris,species,Brassicaceae,Barbarea,5708780,227522,0,132,Barbarea vulgaris,Q157285,LC,23
+Drosera rotundifolia,species,Droseraceae,Drosera,3191030,320003,0,76,Drosera rotundifolia,Q21187,LC,12
+Rumex patientia,species,Polygonaceae,Rumex,2889019,10137,0,56,Rumex patientia,Q164728,,28
+Rumex alpinus,species,Polygonaceae,Rumex,2888948,37068,0,23,Rumex alpinus,Q159084,,3
+Thalictrum flavum,species,Ranunculaceae,Thalictrum,7509607,133176,0,31,Thalictrum flavum,Q162764,,53
+Herniaria glabra,species,Caryophyllaceae,Herniaria,3085798,84820,1,23,Herniaria glabra,Q162783,,4
+Secale cereale,species,Poaceae,Secale,2705966,65692,75,2407,Secale cereale,Q12099,,87
+Salvia officinalis,species,Lamiaceae,Salvia,2927004,35404,104,1492,Salvia officinalis,Q1111359,LC,446
+Teucrium scorodonia,species,Lamiaceae,Teucrium,2926901,501957,0,11,Teucrium scorodonia,Q161748,,67
+Polygonatum multiflorum,species,Asparagaceae,Polygonatum,2770022,348268,0,23,Polygonatum multiflorum,Q159299,,4
+Sanicula europaea,species,Apiaceae,Sanicula,6027128,284034,0,20,Sanicula europaea,Q157846,,8
+Senecio sarracenicus,species,Asteraceae,Senecio,7903764,12333,0,1,Senecio sarracenicus,Q743916,,4
+Alliaria petiolata,species,Brassicaceae,Alliaria,5376075,1033366,1,224,Alliaria petiolata,Q160097,,41
+Satureja hortensis,species,Lamiaceae,Satureja,2926885,5110,0,246,Satureja hortensis,Q157283,,18
+Saxifraga granulata,species,Saxifragaceae,Saxifraga,7887000,247148,0,9,Saxifraga granulata,Q133867,,0
+Pimpinella saxifraga,species,Apiaceae,Pimpinella,7622278,452859,0,23,Pimpinella saxifraga,Q1473991,,7
+Knautia arvensis,species,Caprifoliaceae,Knautia,2888808,563471,0,47,Knautia arvensis,Q27648,,1
+Cochlearia officinalis,species,Brassicaceae,Cochlearia,5373276,44701,0,20,Cochlearia officinalis,Q160191,,2
+Prunella vulgaris,species,Lamiaceae,Prunella,5341297,1261448,32,567,Prunella vulgaris,Q158469,LC,62
+Torminalis glaberrima,species,Rosaceae,Torminalis,9410160,158285,0,6,Torminalis glaberrima,Q41297526,,9
+Capsella bursa-pastoris,species,Brassicaceae,Capsella,5375388,814048,1,408,Capsella bursa-pastoris,Q27264,,59
+Rumex acetosa,species,Polygonaceae,Rumex,2888951,1394504,1,219,Rumex acetosa,Q26297,,48
+Oxalis acetosella,species,Oxalidaceae,Oxalis,8211958,757194,0,40,Oxalis acetosella,Q158576,,0
+Centaurea calcitrapa,species,Asteraceae,Centaurea,3128483,29961,0,29,Centaurea calcitrapa,Q1763537,,28
+Fragaria vesca,species,Rosaceae,Fragaria,3029817,819085,197,757,Fragaria vesca,Q146684,,11
+Cichorium intybus,species,Asteraceae,Cichorium,5392252,397846,56,1395,Cichorium intybus,Q2544599,,136
+Sedum album,species,Crassulaceae,Sedum,5362008,288492,0,14,Sedum album,Q253636,,21
+Nicotiana rustica,species,Solanaceae,Nicotiana,2928775,4631,0,244,Nicotiana rustica,Q602633,,20
+Tamarix gallica,species,Tamaricaceae,Tamarix,8380575,27308,0,55,Tamarix gallica,Q164285,LC,12
+Tanacetum vulgare,species,Asteraceae,Tanacetum,3118274,709426,0,289,Tanacetum vulgare,Q27079,,181
+Argentina anserina,species,Rosaceae,Argentina,5367246,876119,0,22,Argentina anserina,Q64061702,LC,0
+Cirsium heterophyllum,species,Asteraceae,Cirsium,3113745,212086,0,15,Cirsium heterophyllum,Q1446001,,2
+Dipsacus sativus,species,Caprifoliaceae,Dipsacus,2888816,10642,0,1,Dipsacus sativus,Q162445,,0
+Lepidium campestre,species,Brassicaceae,Lepidium,7703116,55866,0,30,Lepidium campestre,Q149447,,0
+Prunus spinosa,species,Rosaceae,Prunus,3023221,1093565,0,196,Prunus spinosa,Q129018,LC,29
+Bupleurum rotundifolium,species,Apiaceae,Bupleurum,3034554,19695,0,9,Bupleurum rotundifolium,Q2121023,,73
+Thymus vulgaris,species,Lamiaceae,Thymus,5341442,123366,62,1564,Thymus vulgaris,Q148668,LC,154
+Thymus serpyllum,species,Lamiaceae,Thymus,6409622,127235,2,190,Thymus serpyllum,Q147251,,6
+Potentilla erecta,species,Rosaceae,Potentilla,5365576,1091778,0,49,Potentilla erecta,Q160098,,43
+Trifolium pratense,species,Fabaceae,Trifolium,8324121,1648986,14,1644,Trifolium pratense,Q156635,LC,181
+Medicago arabica,species,Fabaceae,Medicago,2965527,148128,0,15,Medicago arabica,Q159140,,39
+Hypericum androsaemum,species,Hypericaceae,Hypericum,3189525,124565,0,42,Hypericum androsaemum,Q886411,,43
+Echium vulgare,species,Boraginaceae,Echium,2925892,461293,0,81,Echium vulgare,Q157722,,15
+Reseda luteola,species,Resedaceae,Reseda,3040251,152481,0,43,Reseda luteola,Q157927,,27
+Lonicera periclymenum,species,Caprifoliaceae,Lonicera,5334277,748227,0,18,Lonicera periclymenum,Q161584,,12

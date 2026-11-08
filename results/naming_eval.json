@@ -1,11 +1,11 @@
 {
   "greek": {
-    "n_checked": 270,
-    "agreement": 0.6370370370370371,
+    "n_checked": 269,
+    "agreement": 0.6356877323420075,
     "agreement_by_confidence": {
-      "high": 0.642,
-      "low": 0.647,
-      "medium": 0.625
+      "high": 0.64,
+      "low": 0.667,
+      "medium": 0.621
     }
   },
   "english": {

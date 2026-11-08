@@ -39,7 +39,7 @@ identification only. Astrological statements are not extracted.
 
 ## 3. Cross-era name resolution
 
-Each of the 623 Greek chapters and 328 Culpeper monographs was assigned a taxon by
+Each of the 822 Greek chapters and 328 Culpeper monographs was assigned a taxon by
 AI-assisted curation (Claude, Anthropic), working from the lemma, its listed synonyms,
 the author's own description and the standard scholarly identifications (Wellmann,
 Berendes, Gunther/Goodyer, Beck; modern annotated Culpeper editions). Every row records
@@ -90,8 +90,12 @@ randomly re-assigning Culpeper's per-plant claim sets among the shared species (
 label permutations). This keeps each author's number of claims per plant and the
 frequency of every indication fixed and destroys only the same-plant linkage. We report
 the fold enrichment (observed / mean null), z-score and one-sided permutation p-value,
-plus per-indication enrichment. Sensitivity: genus level, high-confidence identifications
-only, and therapeutic-category level.
+plus per-indication enrichment. Because plants that one author wrote about at length tend
+to get long entries from the other too, and related plants share chemistry and uses, we
+also report two **stricter nulls**: permutation only among plants in the same size quintile
+of Dioscorides claims, and permutation only within the same botanical family (the most
+conservative, since shared family uses are partly genuine pharmacology). Further
+sensitivity: genus level, high-confidence identifications only, therapeutic-category level.
 
 ## 6. Modern-evidence test
 
@@ -118,6 +122,10 @@ are simply studied far more than others:
 * secondary: conditional logit (strata = plant, + log indication volume) and Poisson with
   offset only. All models were checked on simulated data with a known effect (recovered
   rate ratios 1.98 / 1.99 / 4.0 for true 2 / 2 / 4);
+* **intensity once studied:** the same Poisson model restricted to pairs with ≥ 1 paper;
+* **matched controls:** for each claim group, the share of studied indications is compared
+  with the unclaimed indications of exactly the same plants (plants with persistent claims
+  are larger and better studied than average, so an unmatched comparison overstates gaps);
 * within-plant Wilcoxon signed-rank test of mean log₂ lift, claimed vs unclaimed;
 * 95 % cluster-bootstrap CIs (resampling plants) for group summaries.
 
@@ -134,6 +142,10 @@ volume — this ignores agronomic literature, which otherwise dominates crop pla
 published list is diversified (≤ 2 leads per plant, ≤ 4 per indication); the full ranking is
 `results/tables/leads_all.csv`. Historical safety warnings and IUCN threat status are shown
 as flags and never folded into the score. Weights are a transparent heuristic, not fitted.
+A lead must be supported by a chapter about the plant itself in both herbals (not only by a
+product chapter such as an oil, a wine or bird-lime). Mentions count distinct clauses, not
+lexical hits. Most leads concern plants without an IUCN assessment; "no lead depends on a
+threatened species" means none is *assessed* as VU/EN/CR.
 
 ## 8. Limitations (read before citing any number)
 
@@ -149,6 +161,13 @@ as flags and never folded into the score. Weights are a transparent heuristic, n
 * **Culpeper is not independent of Dioscorides** (via Galen, Mattioli, Gerard): the
   transmission test measures persistence of a textual tradition, not independent
   rediscovery.
-* **Name searches** use binomials only; studies using vernacular or pharmacopoeial names
-  are missed, uniformly across claimed and control pairs.
+* **Name searches** use the accepted GBIF binomial only. Literature published under
+  synonyms is missed — for rosemary, *Salvia rosmarinus* finds 211 papers but *Rosmarinus
+  officinalis* 1,994. The loss is the same for a plant's claimed and control indications
+  (within-plant design), but it lowers power and inflates "unstudied" gaps for renamed
+  plants. Synonym expansion (accepted + curated + GBIF synonyms, POST queries) is
+  implemented (`PALIMPSEST_SYNONYMS=1`) but was not run for the published numbers.
+* **AI-produced reference annotation.** The blind reference set was annotated with AI
+  assistance, as was the curation; a human double-annotated subset (with kappa) is the
+  next validation step.
 * Predictions are **hypotheses for laboratory follow-up**, never medical advice.

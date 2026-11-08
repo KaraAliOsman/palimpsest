@@ -90,6 +90,11 @@ def evidence_by_group(groups: list[dict]):
             ax.plot([lo, hi], [yi, yi], color=GROUP_COLOR[g], lw=2, solid_capstyle="round")
             ax.plot(v, yi, "o", ms=9, color=GROUP_COLOR[g], mec=SURFACE, mew=2)
             ax.text(hi, yi + 0.22, "  " + fmt.format(v), color=INK, fontsize=9.5, va="bottom")
+            mv = by[g].get("matched_unclaimed_share")
+            if key == "share_any_paper" and g != "unclaimed" and mv is not None:
+                ax.plot(mv, yi - 0.28, "o", ms=7, mfc=SURFACE, mec=NEUTRAL, mew=1.8)
+                ax.text(mv, yi - 0.28, f"  same plants, unclaimed: {mv:.0%}", color=INK2,
+                        fontsize=8.5, va="center")
         ax.set_xlabel(xlabel)
         ax.grid(axis="x", color=GRID, lw=0.8)
         ax.set_axisbelow(True)

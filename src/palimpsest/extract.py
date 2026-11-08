@@ -134,7 +134,8 @@ def monograph_concepts(claims: pd.DataFrame, polarities=POSITIVE) -> pd.DataFram
     c = claims[claims.polarity.isin(polarities)]
     g = (
         c.groupby(["monograph_id", "source", "concept_id"])
-        .agg(n_mentions=("claim_id", "size"), first_match=("match", "first"),
+        # mentions = distinct clauses, so one sentence listing a remedy twice counts once
+        .agg(n_mentions=("clause", "nunique"), first_match=("match", "first"),
              first_clause=("clause", "first"))
         .reset_index()
     )

@@ -28,7 +28,6 @@ dsc:1.58,Origanum majorana,medium,ἀμαράκινον,μαντζουρανα; 
 dsc:1.60,Commiphora myrrha,medium,στακτή,κομμιφοροσ; μυρρα,False
 dsc:1.61,Cinnamomum verum,medium,κιναμώμινον,γνησιον; κινναμωμον,True
 dsc:1.64,Commiphora myrrha,high,σμύρνα,κομμιφοροσ; μυρρα,True
-dsc:2.85,Triticum aestivum,medium,πυροί,μαλακοσ; πυροσ; σιτοσ,True
 dsc:2.86,Hordeum vulgare,high,κριθή,κριθαρι; κριθη,True
 dsc:2.87,Hordeum vulgare,high,ζῦθος,κριθαρι; κριθη,False
 dsc:2.88,Hordeum vulgare,high,κοῦρμι,κριθαρι; κριθη,False
@@ -36,7 +35,7 @@ dsc:2.94,Avena sativa,high,βρόμος κάλαμός ἐστι,βρομη; β
 dsc:2.95,Oryza sativa,high,ὄρυζα τῶν σιτηρῶν,ορυζα,True
 dsc:2.97,Panicum miliaceum,high,κέγχρος ἀτροφωτέρα τῶν,κεγχροσ,True
 dsc:2.99,Sesamum indicum,high,σήσαμον κακοστόμαχον καὶ,σησαμι; σουσαμι,True
-dsc:2.100,Lolium temulentum,high,αἶπα ἡ γινομένη,αιρα; ζιζανιον; θυαροσ,True
+dsc:2.100,Lolium temulentum,high,αἶρα,αιρα; ζιζανιον; θυαροσ,True
 dsc:2.101,Triticum aestivum,medium,ἄμμλον ὠνόμασται διὰ τὸ χωρὶς μύλου κατασκευάζεσθαι,μαλακοσ; πυροσ; σιτοσ,False
 dsc:2.102,Trigonella foenum-graecum,high,καὶ τὸ ἐκ,ελληνικη; μοσχοσιταρο; ντηλιλινα; ντοντιλινα; στροφυλι; τηλι; τηλισ; τηντελιδα; τριγωνελλα; τριγωνισκοσ; τσιμενι,False
 dsc:2.103,Linum usitatissimum,high,καὶ τὸ λινόσπεπμον,λιναρι,False
@@ -67,7 +66,7 @@ dsc:3.45,Ruta graveolens,medium,πήγανον,απηγανοσ,True
 dsc:3.49,Echinophora tenuifolia,low,πάνακες Ἀσκληπίον,ασκληπιειον; πανακεσ,True
 dsc:3.51,Levisticum officinale,low,λιγυστικόν,λεβιστικον; φαρμακευτικον,True
 dsc:3.52,Daucus carota,high,σταφυλῖνος ἄγριος,δαυκοσ; καρωτον,False
-dsc:3.56,Pimpinella anisum,high,ἄνσσον,ανισο; γλυκανισοσ,True
+dsc:3.56,Pimpinella anisum,high,ἄνισον,ανισο; γλυκανισοσ,True
 dsc:3.57,Carum carvi,high,καρώ,αγριοκυμινο; κιουμελ,False
 dsc:3.58,Anethum graveolens,high,ἀνήθου ξηροῦ τῆς,ανηθο; ανηθον; ανηθοσ,True
 dsc:3.59,Cuminum cyminum,high,κύμινον τὸ ἥμερον,κυμινο,True
@@ -79,7 +78,7 @@ dsc:3.67,Smyrnium olusatrum,high,ἱπποσέλινον,αγριοσελινο
 dsc:3.69,Pastinaca sativa,medium,ἐλαφοβόσκον,εδωδιμοσ; παστινακη; σισαρον,False
 dsc:3.70,Foeniculum vulgare,high,μάραθον,μαραθο; μαραθοσ; μαραθρο; φοινικουλον,True
 dsc:3.73b,Anacyclus pyrethrum,medium,πύρεθρος,ανακυκλοσ; πυρεθρον,True
-dsc:3.75,Salvia rosmarinus,high,λιβανωτίς,δενδρολιβανο; δεντρολιβανο; λιβανωτισ; ροσμαρινον,True
+dsc:3.75,Salvia rosmarinus,low,λιβανωτίς,δενδρολιβανο; δεντρολιβανο; λιβανωτισ; ροσμαρινον,True
 dsc:3.77,Ferula communis,high,νάρθηκος χλωροῦ ἡ,αρτυκασ; κοινη; ναρθηκασ; φερουλα,True
 dsc:3.79,Nigella sativa,high,μελάνθιον,εδωδιμοσ; νιγελα,False
 dsc:3.89,Viscum album,medium,ἰξός,γκι; ιξοσ,True

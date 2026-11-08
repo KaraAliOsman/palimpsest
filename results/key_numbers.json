@@ -1,96 +1,106 @@
 {
  "N_CHAPTERS_DSC": 822,
  "N_MONO_CUL": 328,
- "N_TAXA": 693,
- "N_SPECIES_DSC": 468,
+ "N_TAXA": 692,
+ "N_SPECIES_DSC": 466,
  "N_SPECIES_CUL": 315,
- "N_CLAIMS": 10299,
- "N_CLAIMS_DSC": 5150,
- "N_CLAIMS_CUL": 5149,
+ "N_CLAIMS": 10399,
  "PREC_GRC": 0.88,
  "REC_GRC": 0.83,
  "F1_GRC": 0.86,
+ "F1_GRC_CI": [
+  0.81,
+  0.89
+ ],
  "PREC_EN": 0.9,
  "REC_EN": 0.9,
  "F1_EN": 0.9,
+ "F1_EN_CI": [
+  0.88,
+  0.92
+ ],
  "N_EVAL_DSC": 50,
- "N_EVAL_CUL": 50,
+ "N_EVAL_CUL": 49,
  "GBIF_RESOLVED": 0.992,
  "NAME_AGREE_GREEK": 0.64,
  "NAME_AGREE_EN": 0.72,
- "N_SHARED_TAXA": 133,
- "N_BOTH": 628,
- "N_NULL": 236,
- "FOLD": 2.66,
- "Z": 26.0,
- "P_PERM": "< 0.0001 (10,000 permutations)",
+ "N_SHARED_TAXA": 136,
+ "N_BOTH": 642,
+ "N_NULL": 242,
+ "FOLD": 2.65,
+ "Z": 26.1,
  "SHARE_CUL_IN_DSC": 0.36,
- "FOLD_GENUS": 2.4,
- "FOLD_HICONF": 2.5,
- "FOLD_CATEGORY": 1.42,
- "N_PAIRS_QUERIED": 12761,
+ "SHARE_CUL_IN_DSC_CHANCE": 0.134,
+ "FOLD_SIZE_STRATIFIED": 2.11,
+ "P_SIZE_STRATIFIED": 0.0001999600079984003,
+ "FOLD_WITHIN_FAMILY": 1.56,
+ "P_WITHIN_FAMILY": 0.0001999600079984003,
+ "FOLD_GENUS": 2.39,
+ "FOLD_HICONF": 2.49,
+ "N_PAIRS_QUERIED": 12797,
  "N_TAXA_TESTED": 585,
  "N_RECORDS": 48227744,
- "SHARE_BOTH": 0.447,
- "SHARE_DSC": 0.371,
- "SHARE_CUL": 0.351,
- "SHARE_UNCL": 0.227,
+ "SHARE": {
+  "unclaimed": 0.226,
+  "dsc_only": 0.369,
+  "cul_only": 0.351,
+  "both": 0.449
+ },
+ "SHARE_MATCHED_UNCLAIMED": {
+  "dsc_only": 0.248,
+  "cul_only": 0.24,
+  "both": 0.322
+ },
  "OR_BOTH": [
-  2.48,
-  1.8,
-  3.43
+  2.77,
+  2.04,
+  3.77
  ],
  "OR_DSC": [
-  1.95,
-  1.65,
-  2.31
+  1.98,
+  1.67,
+  2.35
  ],
  "OR_CUL": [
-  1.59,
-  1.35,
-  1.87
+  1.65,
+  1.4,
+  1.94
  ],
- "P_OR_BOTH": "3e-08",
- "CLOGIT_OR_BOTH": 2.24,
- "RR_BOTH_POISSON": [
-  0.78,
-  0.35,
-  1.74
- ],
- "RR_DSC_POISSON": [
-  1.52,
+ "P_OR_BOTH": "9e-11",
+ "CLOGIT_OR_BOTH": 2.29,
+ "RR_GIVEN_STUDIED_BOTH": [
   1.04,
-  2.22
+  0.61,
+  1.76
  ],
- "WILCOXON_P": "4e-16",
- "WILCOXON_SHARE_TAXA": 0.65,
+ "P_RR_GIVEN_STUDIED_BOTH": 0.88,
+ "WILCOXON_P": "1e-15",
  "N_LEADS": 60,
- "N_LEAD_CANDIDATES": 526,
+ "N_LEAD_CANDIDATES": 517,
+ "N_LEADS_IUCN_ASSESSED": 19,
  "N_THREATENED": 0,
- "KG_NODES": 20462,
- "KG_EDGES": 51365,
- "N_COMPOUNDS": 18534,
+ "KG_NODES": 20425,
+ "KG_EDGES": 51430,
+ "N_COMPOUNDS": 18498,
  "TOP_LEADS": [
   {
    "rank": 1,
-   "taxon": "Viscum album",
-   "label": "Boils / imposthumes / felons",
-   "n_dsc": 3,
-   "n_cul": 2,
+   "taxon": "Ruta graveolens",
+   "label": "Eye complaints / dim sight",
+   "n_dsc": 2,
+   "n_cul": 1,
    "pair": 0,
-   "n_compounds": 88,
-   "iucn": "",
-   "flag_historical_safety": false
+   "n_compounds": 204,
+   "flag_historical_safety": true
   },
   {
    "rank": 2,
-   "taxon": "Triticum aestivum",
-   "label": "Venomous bites & stings",
-   "n_dsc": 3,
-   "n_cul": 4,
+   "taxon": "Vicia faba",
+   "label": "Bleeding / staunching blood",
+   "n_dsc": 1,
+   "n_cul": 1,
    "pair": 0,
-   "n_compounds": 274,
-   "iucn": "",
+   "n_compounds": 297,
    "flag_historical_safety": true
   },
   {
@@ -98,10 +108,9 @@
    "taxon": "Ocimum basilicum",
    "label": "Venomous bites & stings",
    "n_dsc": 2,
-   "n_cul": 7,
+   "n_cul": 3,
    "pair": 0,
    "n_compounds": 268,
-   "iucn": "",
    "flag_historical_safety": false
   },
   {
@@ -109,56 +118,50 @@
    "taxon": "Juglans regia",
    "label": "Ulcers & sores",
    "n_dsc": 1,
-   "n_cul": 5,
+   "n_cul": 4,
    "pair": 0,
    "n_compounds": 190,
-   "iucn": "LC",
    "flag_historical_safety": true
   },
   {
    "rank": 5,
-   "taxon": "Ruta graveolens",
-   "label": "Eye complaints / dim sight",
-   "n_dsc": 2,
-   "n_cul": 1,
-   "pair": 0,
-   "n_compounds": 204,
-   "iucn": "",
+   "taxon": "Cannabis sativa",
+   "label": "Ear-ache / running ears",
+   "n_dsc": 1,
+   "n_cul": 2,
+   "pair": 1,
+   "n_compounds": 528,
    "flag_historical_safety": true
   },
   {
    "rank": 6,
-   "taxon": "Triticum aestivum",
-   "label": "Freckles / spots / sunburn",
-   "n_dsc": 1,
-   "n_cul": 4,
+   "taxon": "Origanum vulgare",
+   "label": "Venomous bites & stings",
+   "n_dsc": 3,
+   "n_cul": 2,
    "pair": 0,
-   "n_compounds": 274,
-   "iucn": "",
-   "flag_historical_safety": true
+   "n_compounds": 186,
+   "flag_historical_safety": false
   },
   {
    "rank": 7,
-   "taxon": "Plantago major",
-   "label": "Kidney & bladder complaints",
-   "n_dsc": 2,
-   "n_cul": 3,
-   "pair": 1,
-   "n_compounds": 127,
-   "iucn": "LC",
-   "flag_historical_safety": false
+   "taxon": "Brassica oleracea",
+   "label": "Constipation / purging",
+   "n_dsc": 3,
+   "n_cul": 1,
+   "pair": 0,
+   "n_compounds": 258,
+   "flag_historical_safety": true
   },
   {
    "rank": 8,
-   "taxon": "Foeniculum vulgare",
-   "label": "Eye complaints / dim sight",
+   "taxon": "Iris germanica",
+   "label": "Ulcers & sores",
    "n_dsc": 3,
    "n_cul": 2,
-   "pair": 4,
-   "n_compounds": 384,
-   "iucn": "",
-   "flag_historical_safety": false
+   "pair": 0,
+   "n_compounds": 129,
+   "flag_historical_safety": true
   }
- ],
- "interpretation": "Claimed indications are about twice as likely to have been investigated at all (any co-mentioning paper), but persistent claims do not attract more papers once investigated (Poisson RR n.s.) - the gap the leads target. Co-mention measures attention, not efficacy."
+ ]
 }

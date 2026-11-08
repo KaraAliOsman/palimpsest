@@ -2,7 +2,7 @@ monograph_id,headword,kind,scientific_name,rank,confidence,alternatives,common_n
 dsc:3.143,ἐρυθρόδανον ἐρευθέδανον,plant,Rubia tinctorum,species,high,Rubia peregrina,madder,"Red dye root, wild and cultivated kinds; standard identification (Berendes, Beck)."
 dsc:3.144,λογχῖτις,plant,Serapias,genus,medium,Serapias vomeracea;Serapias lingua,tongue orchid,Flowers like gaping comic masks with a white tongue-like lip: tongue orchid; species debated.
 dsc:3.145,λογχῖτις ἑτέρα τραχεῖα,plant,Polystichum lonchitis,species,low,,holly fern,"Fern like scolopendrion but rougher and more divided; holly fern traditional, uncertain."
-dsc:3.146,ἀολθαία,plant,Althaea officinalis,species,high,,marsh mallow,"Wild mallow with round downy leaves, also called ebiskos (hibiscus); standard identification."
+dsc:3.146,ἀλθαία,plant,Althaea officinalis,species,high,,marsh mallow,"Wild mallow with round downy leaves, also called ebiskos (hibiscus); standard identification."
 dsc:3.147,ἀλκαίας,plant,Malva alcea,species,medium,Malva moschata,vervain mallow,Wild mallow with leaves cut like hiera botane; Berendes/Beck Malva alcea.
 dsc:3.148,κάνναβις,plant,Cannabis sativa,species,high,,hemp,"Rope-fibre plant with ash-like, ill-smelling leaves; uncontroversial."
 dsc:3.149,ἡ δὲ ἀγρία,plant,Althaea cannabina,species,medium,,hemp-leaved marsh mallow,"Wild 'hemp' with hemp-like leaves, reddish flowers, althaia-like root; Berendes Althaea cannabina."
@@ -56,7 +56,7 @@ dsc:4.38,βάτος Ἰδαία,plant,Rubus idaeus,species,high,,raspberry,"Idae
 dsc:4.39,ἑλξίνη,plant,Convolvulus arvensis,species,medium,Fallopia convolvulus;Calystegia sepium,field bindweed,"Small ivy-like leaves, long twining shoots in hedges, vineyards, grain; bindweed."
 dsc:4.40,ἐλατίνη,plant,Kickxia elatine,species,medium,Kickxia spuria,sharp-leaved fluellen,"Like helxine but smaller, rounder, hairy leaves; fluellen (Linaria elatine)."
 dsc:4.41,Εὐπατόριος,plant,Agrimonia eupatoria,species,high,,agrimony,"Single woody hairy stem, divided leaves, burred seed; agrimony."
-dsc:4.42,πεντέφθλλον,plant,Potentilla reptans,species,high,,creeping cinquefoil,Five-leaved herb; standard identification.
+dsc:4.42,πεντάφυλλον,plant,Potentilla reptans,species,high,,creeping cinquefoil,Five-leaved herb; standard identification.
 dsc:4.43,φοῖνιξ,plant,Lolium perenne,species,low,Hordeum murinum,perennial ryegrass,"Barley-like leaves, darnel-like spike, in fields and on new roofs; ryegrass or wall barley proposed."
 dsc:4.44,Ἰδαία ῥίζα,plant,Ruscus hypophyllum,species,low,Ruscus hypoglossum,Idaean root,"Leaves like butcher's broom with flowering outgrowths; Ruscus suggested, uncertain."
 dsc:4.45,Ῥοδία ῥίζα,plant,Rhodiola rosea,species,high,,roseroot,Macedonian root smelling of roses when rubbed; roseroot.
@@ -85,7 +85,7 @@ dsc:4.67,ὑπήκοον,plant,Hypecoum procumbens,species,medium,,procumbent h
 dsc:4.68,ὑοσκύαμος,plant,Hyoscyamus,genus,high,Hyoscyamus albus;Hyoscyamus niger;Hyoscyamus aureus,henbane,Three henbanes by flower colour; the preferred white kind is H. albus.
 dsc:4.69,ψύλλιον,plant,Plantago afra,species,high,Plantago arenaria,psyllium,Fleawort; Plantago psyllium (=P. afra).
 dsc:4.70,στρύχνον κηπαῖον,plant,Solanum nigrum,species,high,,black nightshade,Edible garden strychnos; black nightshade.
-dsc:4.71,ἔστι δὲ καὶ,plant,Alkekengi officinarum,species,high,,winter cherry,Halikakkabon with fruit in a bladder-like husk; winter cherry (Physalis alkekengi).
+dsc:4.71,στρύχνον ἁλικάκαβον,plant,Alkekengi officinarum,species,high,,winter cherry,Halikakkabon with fruit in a bladder-like husk; winter cherry (Physalis alkekengi).
 dsc:4.72,στρύχνον ὑπνωτικόν,plant,Withania somnifera,species,high,,ashwagandha,"Sleep-inducing strychnos with red fruit in husk; Withania (Berendes, Beck)."
 dsc:4.73,στρύχνον μανικόν,plant,Atropa belladonna,species,low,Datura metel,deadly nightshade,Madness-causing strychnos; belladonna and Datura proposed; identity debated.
 dsc:4.74,δορύκνιον,plant,Convolvulus oleifolius,species,low,Convolvulus dorycnium;Lotus hirsutus,dorycnium,"Olive-like shrub on coastal rocks, rough leaves, white flower; Convolvulus and legume candidates."

@@ -1,23 +1,23 @@
 {
- "generated": "2026-11-08T03:58:11Z",
+ "generated": "2026-11-08T12:05:51Z",
  "counts": {
   "dsc_chapters": 822,
   "cul_monographs": 328,
-  "taxa": 693,
-  "taxa_shared": 133,
-  "claims": 10299,
+  "taxa": 692,
+  "taxa_shared": 136,
+  "claims": 10399,
   "claims_dsc": 5150,
-  "claims_cul": 5149,
+  "claims_cul": 5249,
   "concepts": 85,
-  "persistent_pairs": 628,
-  "pairs_queried": 13102,
-  "compounds": 18534
+  "persistent_pairs": 642,
+  "pairs_queried": 13138,
+  "compounds": 18498
  },
  "headline": [
   {
-   "value": "2.7×",
+   "value": "2.6×",
    "label": "Culpeper (1653) repeats Dioscorides' (c. 60 CE) indication for the same plant this many times more often than chance",
-   "detail": "628 shared plant–indication claims vs 236 expected; label-permutation p < 0.0001, 133 shared species"
+   "detail": "642 shared plant–indication claims vs 242 expected; label-permutation p < 0.0001, 136 shared species"
   },
   {
    "value": "45%",
@@ -25,9 +25,9 @@
    "detail": "vs 23% for unclaimed indications of the same plants"
   },
   {
-   "value": "OR 2.5",
+   "value": "OR 2.8",
    "label": "odds that modern research has looked at an indication both herbals claimed, vs. unclaimed indications of the same plants",
-   "detail": "logit with indication fixed effects and plant research volume, cluster-robust 95% CI 1.8–3.4; but persistent claims do not attract more papers once studied (Poisson RR n.s.) — the gap the leads target"
+   "detail": "logit with indication fixed effects and plant research volume, cluster-robust 95% CI 2.0–3.8; but persistent claims do not attract more papers once studied (Poisson RR n.s.) — the gap the leads target"
   },
   {
    "value": "60",
@@ -54,25 +54,25 @@
    "precision": 0.9030172413793104,
    "recall": 0.9010752688172043,
    "f1": 0.9020452099031218,
-   "n_monographs": 50,
+   "n_monographs": 49,
    "precision_ci": [
-    0.8772727272727273,
-    0.9288705183234742
+    0.8752666849015317,
+    0.9274733475479744
    ],
    "recall_ci": [
-    0.8736754385964913,
-    0.9281335769613922
+    0.8735856639537554,
+    0.9285714285714286
    ]
   }
  },
  "naming_eval": {
   "greek": {
-   "n_checked": 270,
-   "agreement": 0.6370370370370371,
+   "n_checked": 269,
+   "agreement": 0.6356877323420075,
    "agreement_by_confidence": {
-    "high": 0.642,
-    "low": 0.647,
-    "medium": 0.625
+    "high": 0.64,
+    "low": 0.667,
+    "medium": 0.621
    }
   },
   "english": {

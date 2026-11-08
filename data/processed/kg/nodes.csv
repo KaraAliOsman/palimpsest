@@ -133,13 +133,13 @@ taxon:Anthericum ramosum,Taxon,Anthericum ramosum,,,Asparagaceae,2773942,Q159289
 taxon:Anthriscus cerefolium,Taxon,Anthriscus cerefolium,,,Apiaceae,5371746,Q218462,,,,,
 taxon:Aphanes arvensis,Taxon,Aphanes arvensis,,,Rosaceae,5365013,Q161306,,,,,
 taxon:Apium graveolens,Taxon,Apium graveolens,,,Apiaceae,5371879,Q28298,LC,,,,
-taxon:Aquilaria malaccensis,Taxon,Aquilaria malaccensis,,,Thymelaeaceae,5524063,Q2249742,CR,,,,
+taxon:Aquilaria,Taxon,Aquilaria,,,,,,,,,,
 taxon:Aquilegia vulgaris,Taxon,Aquilegia vulgaris,,,Ranunculaceae,3033191,Q148929,,,,,
 taxon:Arbutus unedo,Taxon,Arbutus unedo,,,,,,,,,,
 taxon:Arctium lappa,Taxon,Arctium lappa,,,Asteraceae,7353729,Q26932,,,,,
 taxon:Argentina anserina,Taxon,Argentina anserina,,,Rosaceae,5367246,Q64061702,LC,,,,
 taxon:Arisarum vulgare,Taxon,Arisarum vulgare,,,Araceae,2867495,Q1644587,,,,,
-taxon:Aristolochia rotunda,Taxon,Aristolochia rotunda,,,Aristolochiaceae,2874019,Q2861412,,,,,
+taxon:Aristolochia,Taxon,Aristolochia,,,,,,,,,,
 taxon:Armoracia rusticana,Taxon,Armoracia rusticana,,,Brassicaceae,3041022,Q26545,LC,,,,
 taxon:Artemisia abrotanum,Taxon,Artemisia abrotanum,,,Asteraceae,8042568,Q157976,,,,,
 taxon:Artemisia absinthium,Taxon,Artemisia absinthium,,,Asteraceae,3121319,Q25686,,,,,
@@ -496,7 +496,7 @@ taxon:Narcissus poeticus,Taxon,Narcissus poeticus,,,Amaryllidaceae,2858581,Q2798
 taxon:Nardostachys jatamansi,Taxon,Nardostachys jatamansi,,,Caprifoliaceae,4095989,Q24853263,CR,,,,
 taxon:Nasturtium officinale,Taxon,Nasturtium officinale,,,Brassicaceae,7701037,Q150452,LC,,,,
 taxon:Nelumbo nucifera,Taxon,Nelumbo nucifera,,,Nelumbonaceae,2882449,Q16528,,,,,
-taxon:Neottia ovata,Taxon,Neottia ovata,,,,,,,,,,
+taxon:Neottia ovata,Taxon,Neottia ovata,,,Orchidaceae,2816250,Q15502088,,,,,
 taxon:Nepeta cataria,Taxon,Nepeta cataria,,,Lamiaceae,5341499,Q161139,,,,,
 taxon:Nerium oleander,Taxon,Nerium oleander,,,Apocynaceae,3169756,Q155833,LC,,,,
 taxon:Nicotiana rustica,Taxon,Nicotiana rustica,,,Solanaceae,2928775,Q602633,,,,,
@@ -584,11 +584,10 @@ taxon:Potamogeton crispus,Taxon,Potamogeton crispus,,,Potamogetonaceae,5301162,Q
 taxon:Potamogeton natans,Taxon,Potamogeton natans,,,Potamogetonaceae,5301147,Q370566,LC,,,,
 taxon:Potentilla erecta,Taxon,Potentilla erecta,,,Rosaceae,5365576,Q160098,,,,,
 taxon:Potentilla reptans,Taxon,Potentilla reptans,,,Rosaceae,5367273,Q130224,,,,,
-taxon:Poterium sanguisorba,Taxon,Poterium sanguisorba,,,,,,,,,,
+taxon:Poterium sanguisorba,Taxon,Poterium sanguisorba,,,Rosaceae,5364245,Q21877146,,,,,
 taxon:Primula veris,Taxon,Primula veris,,,Primulaceae,8377689,Q157552,,,,,
 taxon:Primula vulgaris,Taxon,Primula vulgaris,,,Primulaceae,5414335,Q159537,,,,,
 taxon:Prunella vulgaris,Taxon,Prunella vulgaris,,,Lamiaceae,5341297,Q158469,LC,,,,
-taxon:Prunus,Taxon,Prunus,,,,,,,,,,
 taxon:Prunus amygdalus,Taxon,Prunus amygdalus,,,Rosaceae,3020980,Q15545507,,,,,
 taxon:Prunus avium,Taxon,Prunus avium,,,Rosaceae,3020791,Q165137,LC,,,,
 taxon:Prunus domestica,Taxon,Prunus domestica,,,Rosaceae,7931731,Q44120,DD,,,,
@@ -6963,10 +6962,6 @@ compound:Q105291310,Compound,Vqjpidczxisjkm-cducuwfysa-,,,,,,,,,,VQJPIDCZXISJKM-
 compound:Q105312044,Compound,"(2S,3R,4S,4aR,6aR,6bS,8R,8aS,12aS,14aR,14bR)-2,3,8-trihydroxy-8a-(hydroxymethyl)-4,6a,6b,11,11,14b-hexamethyl-1,2,3,4a,5,6,7,8,9,10,12,12a,14,14a-tetradecahydropicene-4-carboxylic acid",,,,,,,,,,WSRBAVGXIFPMGH-WNIFXXRISA-N
 compound:Q180623,Compound,acetylcholine,,,,,,,,,,OIPILFWXSMYKGL-UHFFFAOYSA-N
 compound:Q412424,Compound,safrole,,,,,,,,,,ZMQAAUBTXCXRIC-UHFFFAOYSA-N
-compound:Q2548975,Compound,aristolochic acid ii,,,,,,,,,,MEEXETVZNQYRSP-UHFFFAOYSA-N
-compound:Q21099362,Compound,aristolochic acid,,,,,,,,,,BBFQZRXNYIEMAW-UHFFFAOYSA-N
-compound:Q72443760,Compound,Aristolactam I,,,,,,,,,,MXOKGWUJNGEKBH-UHFFFAOYSA-N
-compound:Q105179256,Compound,Hayatine,,,,,,,,,,NGZXDRGWBULKFA-UHFFFAOYSA-N
 compound:Q26963,Compound,progesterone,,,,,,,,,,RJKFOVLPORLFTN-LEKSSAKUSA-N
 compound:Q113820,Compound,heptyl alcohol,,,,,,,,,,BBMCTIGTTCKYKF-UHFFFAOYSA-N
 compound:Q175901,Compound,17α-hydroxyprogesterone,,,,,,,,,,DBPWSSGDRRHUNT-CEGNMAFCSA-N
@@ -15370,23 +15365,6 @@ compound:Q105220999,Compound,Isorhamnetin-3-O-neohespeidoside,,,,,,,,,,QHLKSZBFI
 compound:Q105349384,Compound,"(7R,9R,10S)-nonacosane-7,9,10-triol",,,,,,,,,,YJPSPAUZXUUWRY-SSBOKUKZSA-N
 compound:Q110197070,Compound,"2-hydroxy-N-[3-hydroxy-1-[3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxynonadeca-4,13-dien-2-yl]nonadecanamide",,,,,,,,,,VCFUQALXQWHRFB-UHFFFAOYSA-N
 compound:Q110197711,Compound,"N-[3,4-dihydroxy-1-[3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxynonadec-8-en-2-yl]-2-hydroxytricosanamide",,,,,,,,,,YDXLBYDQHCMQBS-UHFFFAOYSA-N
-compound:Q104253439,Compound,"{[(E)-(2-phenyl-1-{[3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]sulfanyl}ethylidene)amino]oxy}sulfonic acid",,,,,,,,,,QQGLQYQXUKHWPX-XNTDXEJSSA-N
-compound:Q104917993,Compound,"(2R,3S,4S,5R,6S)-2-(hydroxymethyl)-6-[4-(1H-imidazol-2-ylmethyl)-2-methoxyphenoxy]oxane-3,4,5-triol",,,,,,,,,,ASPNXCICLVYQCJ-USACIQFYSA-N
-compound:Q104917994,Compound,Semilepidinoside B,,,,,,,,,,ASPNXCICLVYQCJ-UVLCOCDESA-N
-compound:Q104937451,Compound,"[(2S,3R,6R)-3-ethyl-6-[(3S,8S,9S,10R,13R,14S,17R)-3-hydroxy-10,13-dimethyl-2,3,4,7,8,9,11,12,14,15,16,17-dodecahydro-1H-cyclopenta[a]phenanthren-17-yl]-2-methylheptyl] benzoate",,,,,,,,,,BJZQJLWLEFGCBH-RXEQDNJCSA-N
-compound:Q105018890,Compound,Lepidine C,,,,,,,,,,GTJSRUGILPIENS-UHFFFAOYSA-N
-compound:Q105134552,Compound,"(E,4R,5S,8R,12S)-5-hydroxy-4,8,12-trimethyl-1-(2,6,6-trimethylcyclohexen-1-yl)pentadec-1-en-7-one",,,,,,,,,,JSSNFOHEHRIBDT-YVFVYJCDSA-N
-compound:Q105139069,Compound,Lepidine D,,,,,,,,,,KDBJPLXCURQBOE-UHFFFAOYSA-N
-compound:Q105157951,Compound,"(E,6S,10R,13R,14S,18S)-2,6,10,14,18-pentamethylicos-15-ene-2,13-diol",,,,,,,,,,LVOIAUYYMRCVLX-CDVIFZHFSA-N
-compound:Q105204707,Compound,"(4S,8R,12R)-13-hept-6-enoxy-4,8,12-trimethyl-13-oxotridecanoic acid",,,,,,,,,,PASMASQJCDKBJK-QHAWAJNXSA-N
-compound:Q105205460,Compound,"(2S,3R,4S)-3,4-dihydroxy-2-[(2S,3R,4R,5R,6S)-2,4,5-trihydroxy-6-methyloxan-3-yl]oxy-3,4-dihydro-2H-pyran-6-carboxylic acid",,,,,,,,,,PBUKNNGDHZLXKG-VGTJAOMCSA-N
-compound:Q105215662,Compound,Semilepidinoside A,,,,,,,,,,PVXWBKJKWJZGQJ-DZQJYWQESA-N
-compound:Q105224917,Compound,2-[3-hydroxy-5-(1H-imidazol-2-ylmethyl)phenoxy]-4-(1H-imidazol-2-ylmethyl)phenol,,,,,,,,,,QOJGTWLFQCAXLE-UHFFFAOYSA-N
-compound:Q105243445,Compound,Lepidine B,,,,,,,,,,RQNSAUQJLRAUMV-UHFFFAOYSA-N
-compound:Q105267235,Compound,Lepidine E,,,,,,,,,,TYCLBPSZSGTWCX-UHFFFAOYSA-N
-compound:Q105304868,Compound,1-Vanilloylglucose,,,,,,,,,,WGSQZAKTMBFXLJ-BLJJELEKSA-N
-compound:Q105339231,Compound,Lepidine F,,,,,,,,,,XQANLWORMFUCPG-UHFFFAOYSA-N
-compound:Q105346915,Compound,2-(3-(2-((1H-Imidazol-2-yl)methyl)-6-methoxyphenoxy)benzyl)-1H-imidazole,,,,,,,,,,YDQJXVYGARVLRT-UHFFFAOYSA-N
 compound:Q72493344,Compound,Mussaenoside,,,,,,,,,,XBGJTRDIWPEIMG-DUMNYRKASA-N
 compound:Q104376085,Compound,Gardoside methyl ester,,,,,,,,,,AFFNBNJOIDYUQN-QUQWIGIVSA-N
 compound:Q105155242,Compound,"[(1S,4aR,5S,7aS)-5-hydroxy-1-[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxy-1,4a,5,7a-tetrahydrocyclopenta[c]pyran-7-yl]methyl benzoate",,,,,,,,,,LPLWWIHUJXWQSS-QNAXTHAFSA-N
@@ -17178,139 +17156,6 @@ compound:Q82255362,Compound,"9H-Xanthen-9-one, 1,3,5,6-tetrahydroxy-2-(3-methyl-
 compound:Q104393458,Compound,toxyloxanthone B,,,,,,,,,,MFKYNKVEQUTJEH-UHFFFAOYSA-N
 compound:Q104393466,Compound,garcinone B,,,,,,,,,,HVXHJNVYRXRHNX-UHFFFAOYSA-N
 compound:Q104399340,Compound,Cudraxanthone K,,,,,,,,,,ABSJXNDYIGTGCH-UHFFFAOYSA-N
-compound:Q410052,Compound,lactucopicrin,,,,,,,,,,QCDLLIUTDGNCPO-AEMJNJESSA-N
-compound:Q5175227,Compound,costunolide,,,,,,,,,,HRYLQFBHBWLLLL-AHNJNIBGSA-N
-compound:Q6469057,Compound,lactucin,,,,,,,,,,VJQAFLAZRVKAKM-VZLIPTOUSA-N
-compound:Q27105128,Compound,"11beta,13-dihydrolactucin",,,,,,,,,,ZHZZKRDEPZMPLJ-WLVQVHLUSA-N
-compound:Q27107159,Compound,lactucaxanthin,,,,,,,,,,BIPAHAFBQLWRMC-SUOWZELTSA-N
-compound:Q27107162,Compound,Lactupicrin,,,,,,,,,,UMVSOHBRAQTGQI-XGARDCMYSA-N
-compound:Q27108536,Compound,glucozaluzanin c,,,,,,,,,,OIOLZODVFMMERF-GHSWTDDMSA-N
-compound:Q27162448,Compound,"11beta,13-dihydrolactucopicrin",,,,,,,,,,ICJJPTZLMALYBH-ZUQDHHQASA-N
-compound:Q82990981,Compound,"11beta,13-Dihydro-santamarin",,,,,,,,,,DGIMMEWTLSCNGO-DMLGPZFASA-N
-compound:Q83127413,Compound,Lettucenin A,,,,,,,,,,PATCUDSVUMFCMB-UHFFFAOYSA-N
-compound:Q100145894,Compound,"(3aS,4R,9aR,9bS)-4-hydroxy-9-(hydroxymethyl)-6-methyl-3-methylidene-4,5,9a,9b-tetrahydro-3aH-azuleno[4,5-b]furan-2,7-dione",,,,,,,,,,VJQAFLAZRVKAKM-GJQVQUKXSA-N
-compound:Q104251034,Compound,Lactuside A,,,,,,,,,,TZXUUTQEICXCOH-RYGBUWAXSA-N
-compound:Q104376036,Compound,germanicol acetate,,,,,,,,,,FKMDSFSBFAGDCK-SPFANWNTSA-N
-compound:Q104390349,Compound,costunolide,,,,,,,,,,HRYLQFBHBWLLLL-BOHUOVHSSA-N
-compound:Q104397505,Compound,Dihydrosantamarin,,,,,,,,,,DGIMMEWTLSCNGO-XBDPKTDKSA-N
-compound:Q104402655,Compound,Macrocliniside A,,,,,,,,,,ARJUJAMZTUUZNZ-NJQUUYHGSA-N
-compound:Q104917370,Compound,"(3aS,5R,6aR,8S,9aR,9bS)-5-hydroxy-3,6,9-trimethylidene-8-[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxy-3a,4,5,6a,7,8,9a,9b-octahydroazuleno[4,5-b]furan-2-one",,,,,,,,,,ARJUJAMZTUUZNZ-AZVRUGFFSA-N
-compound:Q104939286,Compound,"(3aS,6aR,9R,9aS,9bS)-9-(hydroxymethyl)-3,6-dimethylidene-9-[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxy-3a,4,5,6a,7,8,9a,9b-octahydroazuleno[4,5-b]furan-2-one",,,,,,,,,,BOKMNGMJRJLOCJ-BQOOUUMFSA-N
-compound:Q104986940,Compound,"(3S,3aS,5aR,6R,9R,9aS,9bS)-9-hydroxy-3,5a,9-trimethyl-6-[(2R,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxy-3a,4,5,6,7,8,9a,9b-octahydro-3H-benzo[g][1]benzofuran-2-one",,,,,,,,,,DQHHPAKUNFZVIQ-ALMOYXMRSA-N
-compound:Q105004945,Compound,"(3S,3abeta,6abeta,9abeta,9balpha)-3beta,9beta-Dimethyl-5beta,8alpha-dihydroxy-6-methylenedecahydroazuleno[4,5-b]furan-2(3H)-one",,,,,,,,,,FZHVZHPJLXWJIZ-FXBRUWNDSA-N
-compound:Q105011057,Compound,"9alpha-Hydroxy-11beta,13-dihydrozaluzanin C",,,,,,,,,,GLMKTMOFCGDFFQ-XPLKHYSGSA-N
-compound:Q105025894,Compound,"[(3aR,4R,9aR,9bS)-6-methyl-3-methylidene-2,7-dioxo-9-[[(2R,3S,4S,5S,6S)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxymethyl]-4,5,9a,9b-tetrahydro-3aH-azuleno[4,5-b]furan-4-yl] 2-(4-hydroxyphenyl)acetate",,,,,,,,,,HCOZTDACWSVSLP-JTZNOEJASA-N
-compound:Q105028062,Compound,"[(3S,3aS,5aR,6R,9aS,9bS)-6-hydroxy-3,5a-dimethyl-2-oxo-3,3a,4,5,6,7,9a,9b-octahydrobenzo[g][1]benzofuran-9-yl]methyl 2-(4-methoxyphenyl)acetate",,,,,,,,,,HGXKRNRXAGDTHR-RQGNXEPMSA-N
-compound:Q105032898,Compound,"(3aR,6E,10E,11aR)-6,10-dimethyl-3-methylidene-3a,4,5,8,9,11a-hexahydrocyclodeca[b]furan-2-one",,,,,,,,,,HRYLQFBHBWLLLL-QJAKHLMASA-N
-compound:Q105146108,Compound,"Cyclodeca[b]furan-2(3H)-one, 3a,4,5,8,9,11a-hexahydro-9-hydroxy-6-(hydroxymethyl)-3,10-dimethyl-, [3S-(3R*,3aR*,6Z,9R*,10E,11aR*)]-",,,,,,,,,,KUERQAIAYCRGOB-DOGNWQSSSA-N
-compound:Q105146110,Compound,"(3S,3aR,6Z,9R,10E,11aS)-9-hydroxy-6-(hydroxymethyl)-3,10-dimethyl-3a,4,5,8,9,11a-hexahydro-3H-cyclodeca[b]furan-2-one",,,,,,,,,,KUERQAIAYCRGOB-PIOXYOOTSA-N
-compound:Q105146467,Compound,"(3S,3aS,6Z,9S,10E,11aS)-9-hydroxy-3,10-dimethyl-2-oxo-3a,4,5,8,9,11a-hexahydro-3H-cyclodeca[b]furan-6-carbaldehyde",,,,,,,,,,KVDCMKYALKIZID-DOGNWQSSSA-N
-compound:Q105146468,Compound,"(3S,3aS,6E,9S,10E,11aR)-9-hydroxy-3,10-dimethyl-2-oxo-3a,4,5,8,9,11a-hexahydro-3H-cyclodeca[b]furan-6-carbaldehyde",,,,,,,,,,KVDCMKYALKIZID-PSNZUKABSA-N
-compound:Q105146470,Compound,"(3S,3aS,6E,9S,10E,11aS)-9-hydroxy-3,10-dimethyl-2-oxo-3a,4,5,8,9,11a-hexahydro-3H-cyclodeca[b]furan-6-carbaldehyde",,,,,,,,,,KVDCMKYALKIZID-YOBAHCRPSA-N
-compound:Q105149341,Compound,"3-methyl-6,9-dimethylidene-8-[3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxy-3a,4,5,6a,7,8,9a,9b-octahydro-3H-azuleno[4,5-b]furan-2-one",,,,,,,,,,LBJIOPYQHNZVLF-UHFFFAOYSA-N
-compound:Q105192638,Compound,"(3aS,6aR,8S,9aR,9bS)-3,6,9-trimethylidene-8-[(2S,3R,4S,5R,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxy-3a,4,5,6a,7,8,9a,9b-octahydroazuleno[4,5-b]furan-2-one",,,,,,,,,,OIOLZODVFMMERF-BHFFZQNCSA-N
-compound:Q105205513,Compound,"(3S,3aS,6S,6aR,9aR,9bS)-6-hydroxy-6-(hydroxymethyl)-3-methyl-9-methylidene-3a,4,5,6a,7,8,9a,9b-octahydro-3H-azuleno[4,5-b]furan-2-one",,,,,,,,,,PBXKFMXJVNEHCU-MRWSCNBVSA-N
-compound:Q105212039,Compound,9alpha-Hydroxyzaluzalin C,,,,,,,,,,PNMKDWVKEBNNFG-XQZGEAEESA-N
-compound:Q105242925,Compound,"(3S)-6alpha-(beta-D-Glucopyranosyloxy)-3abeta,6,6abeta,7,8,9,9abeta,9balpha-octahydro-6-(hydroxymethyl)-3beta-methyl-9-methyleneazuleno[4,5-b]furan-2(3H)-one",,,,,,,,,,RPQTUGURKSFZTM-MHMJNRRMSA-N
-compound:Q105268475,Compound,"(3S,3aS,6E,9R,10E,11aS)-3,10-dimethyl-2-oxo-9-[(2R,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxy-3a,4,5,8,9,11a-hexahydro-3H-cyclodeca[b]furan-6-carbaldehyde",,,,,,,,,,TZXUUTQEICXCOH-GZKCVXLASA-N
-compound:Q105268478,Compound,"(3S,3aS,6E,9S,10E,11aR)-3,10-dimethyl-2-oxo-9-[(2R,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxy-3a,4,5,8,9,11a-hexahydro-3H-cyclodeca[b]furan-6-carbaldehyde",,,,,,,,,,TZXUUTQEICXCOH-XWHBQGKBSA-N
-compound:Q105351857,Compound,Lactuside B,,,,,,,,,,YPUAPUZIURIYPB-BJQNQQTFSA-N
-compound:Q105351861,Compound,"(3S,3aS,6E,9S,10E,11aR)-6-(hydroxymethyl)-3,10-dimethyl-9-[(2R,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxy-3a,4,5,8,9,11a-hexahydro-3H-cyclodeca[b]furan-2-one",,,,,,,,,,YPUAPUZIURIYPB-XWHBQGKBSA-N
-compound:Q105373427,Compound,Cichorioside B,,,,,,,,,,ZEMSXERQBUSFBA-YNZHIRHJSA-N
-compound:Q105383871,Compound,"(3S,3aS,5R,9aS,9bS)-3,6,9-trimethyl-5-[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxy-3,3a,4,5,9a,9b-hexahydroazuleno[4,5-b]furan-2,7-dione",,,,,,,,,,ZUNQUEPUGDYLCG-ASGNGTQASA-N
-compound:Q105383874,Compound,Lactuside C,,,,,,,,,,ZUNQUEPUGDYLCG-NHDJOBCSSA-N
-compound:Q110080581,Compound,"2-[(4-hydroxy-6-methyl-3-methylidene-2,7-dioxo-4,5,9a,9b-tetrahydro-3aH-azuleno[8,7-b]furan-9-yl)methoxy]-2-oxoacetic acid",,,,,,,,,,LMOXWYJMYLUOMS-UHFFFAOYSA-N
-compound:Q115951672,Compound,,,,,,,,,,,KUERQAIAYCRGOB-NOYQSMGQSA-N
-compound:Q24817453,Compound,cosmene,,,,,,,,,,HPZWSJQQCJZBBG-LQPGMRSMSA-N
-compound:Q27108357,Compound,sulfuretin,,,,,,,,,,RGNXWPVNPFAADO-NSIKDUERSA-N
-compound:Q76305011,Compound,1-(2-Hydroxy-4-methoxyphenyl)-3-(4-methoxyphenyl)-2-propen-1-one,,,,,,,,,,OAAPAFSEMHJNTF-BJMVGYQFSA-N
-compound:Q105188557,Compound,"6'-Hydroxy-4,4'-dimethoxychalcone",,,,,,,,,,OAAPAFSEMHJNTF-UHFFFAOYSA-N
-compound:Q105235972,Compound,sulfuretin,,,,,,,,,,RGNXWPVNPFAADO-UHFFFAOYSA-N
-compound:Q76085451,Compound,hellebrigenin,,,,,,,,,,TVKPTWJPKVSGJB-XHCIOXAKSA-N
-compound:Q82941973,Compound,"14-Hydroxy-3-oxobufa-20,22-dienolide",,,,,,,,,,YHPFWEDUGHFFTA-UHFFFAOYSA-N
-compound:Q104403426,Compound,"(1R,3aS,5aS,7S,9aS,11aR)-7-{[(2R,4R,5R)-3,4-dihydroxy-6-methyl-5-{[(2S,4R,5S)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxy}oxan-2-yl]oxy}-3a,5a-dihydroxy-11a-methyl-1-(6-oxopyran-3-yl)-dodecahydro-1H-cyclopenta[a]phenanthrene-9a-carbaldehyde",,,,,,,,,,DCSLTSSPIJWEJN-IMBGTWCNSA-N
-compound:Q105030961,Compound,CID 44584382,,,,,,,,,,HNNFRQFXBWSJBX-MTUTWWBMSA-N
-compound:Q110185733,Compound,Hellebrin,,,,,,,,,,DCSLTSSPIJWEJN-YRFFWODSSA-N
-compound:Q27105597,Compound,7-Epiloganic acid,,,,,,,,,,JNNGEAWILNVFFD-DXNVVGTLSA-N
-compound:Q27137333,Compound,luteolin-4'-O-beta-D-glucopyranoside,,,,,,,,,,UHNXUSWGOJMEFO-QNDFHXLGSA-N
-compound:Q27151384,Compound,Forsythin,,,,,,,,,,KFFCKOBAHMGTMW-LGQRSHAYSA-N
-compound:Q104253146,Compound,"(2S,3S,4S,5R,6R)-2-[4-[(3S,3aR,6S,6aR)-3-(3,4-dimethoxyphenyl)-1,3,3a,4,6,6a-hexahydrofuro[3,4-c]furan-6-yl]-2-methoxyphenoxy]-6-(hydroxymethyl)oxane-3,4,5-triol",,,,,,,,,,KFFCKOBAHMGTMW-REXVRNFISA-N
-compound:Q105235684,Compound,"methyl (4R,5E,6S)-4-[2-[2-(3,4-dihydroxyphenyl)ethoxy]-2-oxoethyl]-5-ethylidene-6-[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxy-4H-pyran-3-carboxylate",,,,,,,,,,RFWGABANNQMHMZ-ZQNIJKSFSA-N
-compound:Q104986846,Compound,"5-hydroxy-2-(4-hydroxyphenyl)-7-[(2S,3R,4S,5R,6S)-3,4,5-trihydroxy-6-methyloxan-2-yl]oxy-3-[(2S,3S,4S,5S)-3,4,5-trihydroxyoxan-2-yl]oxychromen-4-one",,,,,,,,,,DQBVFTJNUYZVQL-FCYXVNGCSA-N
-compound:Q105215196,Compound,"Kaempferol-3,7-O-bis-alpha-L-rhamnoside",,,,,,,,,,PUPKKEQDLNREIM-KPQJDSDZSA-N
-compound:Q105306110,Compound,"5-hydroxy-2-(4-hydroxyphenyl)-3-[(2S,3R,4S,5R,6S)-3,4,5-trihydroxy-6-methyloxan-2-yl]oxy-7-[(2S,3S,4S,5S)-3,4,5-trihydroxyoxan-2-yl]oxychromen-4-one",,,,,,,,,,WIALSWOBTZTJMW-FCYXVNGCSA-N
-compound:Q3050386,Compound,emetine,,,,,,,,,,AUVVAXYIELKVAI-CKBKHPSWSA-N
-compound:Q27133812,Compound,acutoside A,,,,,,,,,,LEQCLUFJRGKLOA-WLMDKFIXSA-N
-compound:Q27137714,Compound,cauloside D,,,,,,,,,,UEHILKCNLIKLEV-LXABABOZSA-N
-compound:Q27137931,Compound,30-norhederagenin,,,,,,,,,,FKUBIEWSGBVADJ-VZBPFLCRSA-N
-compound:Q27258775,Compound,cauloside g,,,,,,,,,,SRSSAQMYMNLZFL-IYZIRETKSA-N
-compound:Q27276893,Compound,dipsacoside b,,,,,,,,,,GFPLPBCJRRNZHM-ICUGHKHQSA-N
-compound:Q82941528,Compound,Hederoside B,,,,,,,,,,CCDRPBGPIXPGRW-RNYXGUFRSA-N
-compound:Q83002196,Compound,"beta-D-Glucopyranosiduronic acid, (3beta,4alpha)-17-carboxy-23-hydroxy-28-norolean-12-en-3-yl",,,,,,,,,,DYFUVQSGLMQLRX-ALBXZGMBSA-N
-compound:Q104391965,Compound,"10-(2,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,22,24,26,28-Docosahydroxynonacosoxy)-9-(hydroxymethyl)-2,2,6a,6b,9,12a-hexamethyl-1,3,4,5,6,6a,7,8,8a,10,11,12,13,14b-tetradecahydropicene-4a-carboxylic acid",,,,,,,,,,PGHRFWJRZHZTQN-UHFFFAOYSA-N
-compound:Q104402787,Compound,hederagenin-3-O-beta-D-glucopyranoside,,,,,,,,,,CCDRPBGPIXPGRW-DLQTVUGOSA-N
-compound:Q104667835,Compound,hederacoside D,,,,,,,,,,UEHILKCNLIKLEV-UHFFFAOYSA-N
-compound:Q104888519,Compound,"9-(Hydroxymethyl)-2,2,6a,6b,9,12a-hexamethyl-10-(3,4,5-trihydroxyoxan-2-yl)oxy-1,3,4,5,6,6a,7,8,8a,10,11,12,13,14b-tetradecahydropicene-4a-carboxylic acid",,,,,,,,,,QUBNLZCADIYAFW-UHFFFAOYSA-N
-compound:Q104909651,Compound,Didehydrofalcarinol,,,,,,,,,,ADKVNLJOJPLERM-GMBPKHMRSA-N
-compound:Q104909653,Compound,"(3S,9Z,11Z)-heptadeca-1,9,11,16-tetraen-4,6-diyn-3-ol",,,,,,,,,,ADKVNLJOJPLERM-JBDKYTPXSA-N
-compound:Q104953169,Compound,"(4aS,6aR,6aS,6bR,8aS,9R,10S,12aR,14bS)-9-(hydroxymethyl)-2,2,6a,6b,9,12a-hexamethyl-10-[(2R,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxy-1,3,4,5,6,6a,7,8,8a,10,11,12,13,14b-tetradecahydropicene-4a-carboxylic acid",,,,,,,,,,CCDRPBGPIXPGRW-QOBSNSOZSA-N
-compound:Q104971683,Compound,,,,,,,,,,,CWYUSFMWQKCWDK-AAVGEHTMSA-N
-compound:Q104971684,Compound,,,,,,,,,,,CWYUSFMWQKCWDK-UHFFFAOYSA-N
-compound:Q104991356,Compound,"6-[[8a-Carboxy-4-(hydroxymethyl)-4,6a,6b,11,11,14b-hexamethyl-1,2,3,4a,5,6,7,8,9,10,12,12a,14,14a-tetradecahydropicen-3-yl]oxy]-3,4,5-trihydroxyoxane-2-carboxylic acid",,,,,,,,,,DYFUVQSGLMQLRX-UHFFFAOYSA-N
-compound:Q105004394,Compound,,,,,,,,,,,FYBHGBVHRPQYQC-GWIVOYSISA-N
-compound:Q105007691,Compound,Glycoside L-G3;Tauroside G3,,,,,,,,,,GFPLPBCJRRNZHM-UHFFFAOYSA-N
-compound:Q105031883,Compound,CID 15127236,,,,,,,,,,HPTCFCREEHCWMI-GTOFXWBISA-N
-compound:Q105035759,Compound,"2,2,6a,6b,9,9,12a-Heptamethyl-10-(3,4,5-trihydroxyoxan-2-yl)oxy-1,3,4,5,6,6a,7,8,8a,10,11,12,13,14b-tetradecahydropicene-4a-carboxylic acid",,,,,,,,,,HZLWUYJLOIAQFC-UHFFFAOYSA-N
-compound:Q105036394,Compound,"10-[4,5-Dihydroxy-3-(3,4,5-trihydroxy-6-methyloxan-2-yl)oxyoxan-2-yl]oxy-2,2,6a,6b,9,9,12a-heptamethyl-1,3,4,5,6,6a,7,8,8a,10,11,12,13,14b-tetradecahydropicene-4a-carboxylic acid",,,,,,,,,,IBAJNOZMACNWJD-UHFFFAOYSA-N
-compound:Q105120478,Compound,Momordin Ib,,,,,,,,,,IUCHKMAZAWJNBJ-UHFFFAOYSA-N
-compound:Q105127551,Compound,Tauroside D,,,,,,,,,,JGNKEDAWBHVCHY-VCCIMKKOSA-N
-compound:Q105140089,Compound,,,,,,,,,,,KEOITPILCOILGM-IPOPOHETSA-N
-compound:Q105140097,Compound,Sapindoside A,,,,,,,,,,KEOITPILCOILGM-UHFFFAOYSA-N
-compound:Q105143172,Compound,,,,,,,,,,,KMSBNWQKGSLQFA-FVQPYGJLSA-N
-compound:Q105143174,Compound,"10-[4,5-Dihydroxy-6-(hydroxymethyl)-3-(3,4,5-trihydroxy-6-methyloxan-2-yl)oxyoxan-2-yl]oxy-9-(hydroxymethyl)-2,2,6a,6b,9,12a-hexamethyl-1,3,4,5,6,6a,7,8,8a,10,11,12,13,14b-tetradecahydropicene-4a-carboxylic acid",,,,,,,,,,KMSBNWQKGSLQFA-UHFFFAOYSA-N
-compound:Q105147198,Compound,Cauloside F,,,,,,,,,,KWXBKEINOHVSGJ-FBCAOFFQSA-N
-compound:Q105175216,Compound,,,,,,,,,,,MYVNIRXXBZQJLZ-UHFFFAOYSA-N
-compound:Q105175217,Compound,,,,,,,,,,,MYVNIRXXBZQJLZ-ZHEUBHLBSA-N
-compound:Q105179632,Compound,,,,,,,,,,,NHWXLQPHNIUEFJ-UHFFFAOYSA-N
-compound:Q105179633,Compound,,,,,,,,,,,NHWXLQPHNIUEFJ-XSFOBXPPSA-N
-compound:Q105184845,Compound,Staunoside A,,,,,,,,,,NRVVDCANHAKYCV-INVBGFSGSA-N
-compound:Q105186393,Compound,eleutheroside M,,,,,,,,,,NVSLBOBPSCMMSO-UHFFFAOYSA-N
-compound:Q105190213,Compound,,,,,,,,,,,OEEIXDVEDJTQPJ-CNPWXMHRSA-N
-compound:Q105190214,Compound,,,,,,,,,,,OEEIXDVEDJTQPJ-UHFFFAOYSA-N
-compound:Q105200756,Compound,,,,,,,,,,,OVJNJRGKGRKYIY-IHTSAJPJSA-N
-compound:Q105200759,Compound,,,,,,,,,,,OVJNJRGKGRKYIY-UHFFFAOYSA-N
-compound:Q105215545,Compound,,,,,,,,,,,PVNXMFDNBHBTQH-UHFFFAOYSA-N
-compound:Q105215546,Compound,,,,,,,,,,,PVNXMFDNBHBTQH-WZJLZQBYSA-N
-compound:Q105228036,Compound,"(4aS,6aR,6aS,6bR,8aS,9R,10S,12aR,14bS)-9-(hydroxymethyl)-2,2,6a,6b,9,12a-hexamethyl-10-[(2S,3R,4S,5S)-3,4,5-trihydroxyoxan-2-yl]oxy-1,3,4,5,6,6a,7,8,8a,10,11,12,13,14b-tetradecahydropicene-4a-carboxylic acid",,,,,,,,,,QUBNLZCADIYAFW-IQLUPVJSSA-N
-compound:Q105236377,Compound,,,,,,,,,,,RHHSFOQSESHVRS-UHFFFAOYSA-N
-compound:Q105236379,Compound,,,,,,,,,,,RHHSFOQSESHVRS-ZJSHWQRDSA-N
-compound:Q105238121,Compound,Scheffleraside II,,,,,,,,,,RJWVNQDEFVAPCR-UAOABQJCSA-N
-compound:Q105238122,Compound,,,,,,,,,,,RJWVNQDEFVAPCR-UHFFFAOYSA-N
-compound:Q105247572,Compound,"Olean-12-en-28-oic acid, 3-[[2-O-(6-deoxy-alpha-L-mannopyranosyl)-alpha-L-arabinopyranosyl]oxy]-23-hydroxy-, O-6-deoxy-alpha-L-mannopyranosyl-(1.fwdarw.4)-O-beta-D-glucopyranosyl-(1.fwdarw.6)-beta-D-glucopyranosyl ester, (3beta,4alpha)-",,,,,,,,,,RYHDIBJJJRNDSX-PCYDYEHUSA-N
-compound:Q105247578,Compound,hederacoside C,,,,,,,,,,RYHDIBJJJRNDSX-UHFFFAOYSA-N
-compound:Q105264454,Compound,3-O-alpha-L-Arabinopyranosylechinocystic acid,,,,,,,,,,SZXCDOOFLYYOCZ-HDYQOPGWSA-N
-compound:Q105264455,Compound,"5-Hydroxy-2,2,6a,6b,9,9,12a-heptamethyl-10-(3,4,5-trihydroxyoxan-2-yl)oxy-1,3,4,5,6,6a,7,8,8a,10,11,12,13,14b-tetradecahydropicene-4a-carboxylic acid",,,,,,,,,,SZXCDOOFLYYOCZ-UHFFFAOYSA-N
-compound:Q105287771,Compound,Helixoside A,,,,,,,,,,VKICMPRVQHZPRV-XGUXQMSSSA-N
-compound:Q105290863,Compound,,,,,,,,,,,VPMAVMNCCCVJSK-CXGCXQJASA-N
-compound:Q105301876,Compound,,,,,,,,,,,WCMJLEULXWUCRF-OLTREEDVSA-N
-compound:Q105301881,Compound,,,,,,,,,,,WCMJLEULXWUCRF-XUJGWIJLSA-N
-compound:Q105306407,Compound,"(9S,10R)-9,10-Epoxy-1-heptadecene-4,6-diyne-3-one",,,,,,,,,,WIONCQLWGYLTME-SJORKVTESA-N
-compound:Q105306758,Compound,"(3S,9Z,11Z)-heptadeca-1,9,11-trien-4,6-diyn-3-ol",,,,,,,,,,WJFSPRQRDLHNOE-JBDKYTPXSA-N
-compound:Q105311014,Compound,"10-[4,5-Dihydroxy-3-(3,4,5-trihydroxy-6-methyloxan-2-yl)oxyoxan-2-yl]oxy-5-hydroxy-2,2,6a,6b,9,9,12a-heptamethyl-1,3,4,5,6,6a,7,8,8a,10,11,12,13,14b-tetradecahydropicene-4a-carboxylic acid",,,,,,,,,,WQVNDHHTUJYLTJ-UHFFFAOYSA-N
-compound:Q105311015,Compound,,,,,,,,,,,WQVNDHHTUJYLTJ-XDNDNJDCSA-N
-compound:Q105330289,Compound,Glycoside L-F2,,,,,,,,,,XLRCLQVFCBYALB-UHFFFAOYSA-N
-compound:Q105330290,Compound,,,,,,,,,,,XLRCLQVFCBYALB-XMQPJTDOSA-N
-compound:Q105345640,Compound,Hederasaponin F,,,,,,,,,,YAWJHQZYFGHLSY-VYEWMGKISA-N
-compound:Q105351015,Compound,,,,,,,,,,,YNMWBVNUVVDDPQ-OJIOAXDUSA-N
-compound:Q105351696,Compound,Helixoside B,,,,,,,,,,YPIHCZNMLNJVSW-NMEUZNJHSA-N
-compound:Q105368748,Compound,,,,,,,,,,,YYMHTAGTVKFQOP-KPFPMFHISA-N
-compound:Q105368752,Compound,,,,,,,,,,,YYMHTAGTVKFQOP-UHFFFAOYSA-N
-compound:Q105371033,Compound,,,,,,,,,,,ZCCWQTVZGNRCJQ-UHFFFAOYSA-N
-compound:Q105371035,Compound,,,,,,,,,,,ZCCWQTVZGNRCJQ-XZRDZOFRSA-N
-compound:Q105375324,Compound,3beta-(alpha-L-Arabinopyranosyloxy)-16alpha-hydroxyoleana-12-ene-28-oic acid 6-O-(4-O-alpha-L-rhamnopyranosyl-beta-D-glucopyranosyl)-beta-D-glucopyranosyl ester,,,,,,,,,,ZGMSGGSISLPGEC-SEQZVPSZSA-N
-compound:Q105375325,Compound,,,,,,,,,,,ZGMSGGSISLPGEC-UHFFFAOYSA-N
-compound:Q105385314,Compound,,,,,,,,,,,ZWYKDDVVXUXZHA-UHFFFAOYSA-N
-compound:Q105385316,Compound,,,,,,,,,,,ZWYKDDVVXUXZHA-VRVJSPLRSA-N
 compound:Q5358809,Compound,α-elemene,,,,,,,,,,QDUJKDRUFBJYSQ-OAHLLOKOSA-N
 compound:Q27155096,Compound,Cnidilin,,,,,,,,,,NNDOCYLWULORAM-UHFFFAOYSA-N
 compound:Q27266299,Compound,senkyunolide A,,,,,,,,,,ZPIKVDODKLJKIN-NSHDSACASA-N
@@ -17653,6 +17498,7 @@ compound:Q105150231,Compound,1-isothiocyanato-7-(methylsulfanyl)heptane,,,,,,,,,
 compound:Q105185930,Compound,rhamnazin 3-glucoside,,,,,,,,,,NULDUMWEBSEHPR-VCODSRCESA-N
 compound:Q105208904,Compound,rhamnetin 3-glucoside,,,,,,,,,,PHEWILLIAJUBQE-IFGFCIQDSA-N
 compound:Q105309961,Compound,Rhamnazin 3-sophoroside,,,,,,,,,,WPIJGCCJUFCJAE-UHFFFAOYSA-N
+compound:Q24817453,Compound,cosmene,,,,,,,,,,HPZWSJQQCJZBBG-LQPGMRSMSA-N
 compound:Q27295184,Compound,otosenine,,,,,,,,,,CZQLULNMKQAIQL-GZSSMBGUSA-N
 compound:Q27894336,Compound,jaconine,,,,,,,,,,CKPJPJSVQMEGBC-YLFNNMARSA-N
 compound:Q82109716,Compound,"1,3,5,7-Octatetraene, 2,6-dimethyl-",,,,,,,,,,HPZWSJQQCJZBBG-UHFFFAOYSA-N
@@ -18016,13 +17862,19 @@ compound:Q105233168,Compound,"[(1aR,4S,4aS,7S,7aS,7bR)-1,1,4,7-tetramethyl-2,3,4
 compound:Q105238313,Compound,"3-isopropyl-3-methylcyclohexa-1,5-dien-1-ol",,,,,,,,,,RKCYNTWBUKXVLX-UHFFFAOYSA-N
 compound:Q105240613,Compound,(6S)-3-isopropyl-6-methylcyclohex-2-en-1-one,,,,,,,,,,RLYSXAZAJUMULG-QMMMGPOBSA-N
 compound:Q115947111,Compound,"Docosa-13,16-dienoic acid",,,,,,,,,,HVGRZDASOHMCSK-UHFFFAOYSA-N
+compound:Q410052,Compound,lactucopicrin,,,,,,,,,,QCDLLIUTDGNCPO-AEMJNJESSA-N
+compound:Q6469057,Compound,lactucin,,,,,,,,,,VJQAFLAZRVKAKM-VZLIPTOUSA-N
 compound:Q18344140,Compound,Methyl alpha-galactoside,,,,,,,,,,HOVAGTYPODGVJG-PZRMXXKTSA-N
+compound:Q27105128,Compound,"11beta,13-dihydrolactucin",,,,,,,,,,ZHZZKRDEPZMPLJ-WLVQVHLUSA-N
 compound:Q27105623,Compound,8-Deoxylactucin,,,,,,,,,,NIYXMGSLECQTQT-BPNCWPANSA-N
+compound:Q27107162,Compound,Lactupicrin,,,,,,,,,,UMVSOHBRAQTGQI-XGARDCMYSA-N
 compound:Q27145501,Compound,kaempferol 7-O-glucuronide,,,,,,,,,,HKMMHEQNCQNUNN-JENRNSKYSA-N
 compound:Q27162444,Compound,"11beta,13-dihydro-8-deoxylactucin",,,,,,,,,,SNIFBMIPCYBVSS-LMVZTGKYSA-N
+compound:Q27162448,Compound,"11beta,13-dihydrolactucopicrin",,,,,,,,,,ICJJPTZLMALYBH-ZUQDHHQASA-N
 compound:Q67879878,Compound,ethyl-4-hydroxyphenylacetate,,,,,,,,,,HYUPPKVFCGIMDB-UHFFFAOYSA-N
 compound:Q72443356,Compound,2-Bibenzylcarboxylic acid,,,,,,,,,,IOHPVZBSOKLVMN-UHFFFAOYSA-N
 compound:Q82123173,Compound,Magnolialide,,,,,,,,,,STUGAIDUQVESQE-WJNVRWDZSA-N
+compound:Q100145894,Compound,"(3aS,4R,9aR,9bS)-4-hydroxy-9-(hydroxymethyl)-6-methyl-3-methylidene-4,5,9a,9b-tetrahydro-3aH-azuleno[4,5-b]furan-2,7-dione",,,,,,,,,,VJQAFLAZRVKAKM-GJQVQUKXSA-N
 compound:Q104251033,Compound,"[9-(hydroxymethyl)-6-methyl-3-methylidene-2,7-dioxo-4,5,9a,9b-tetrahydro-3aH-azuleno[4,5-b]furan-4-yl] 2-(4-hydroxyphenyl)acetate",,,,,,,,,,UMVSOHBRAQTGQI-UHFFFAOYSA-N
 compound:Q104399403,Compound,Isololiolide,,,,,,,,,,XEVQXKKKAVVSMW-CPCISQLKSA-N
 compound:Q104399754,Compound,Crepidiaside B,,,,,,,,,,BUHZTPLXMFRPCK-CKCUUXPSSA-N
@@ -18072,6 +17924,7 @@ compound:Q105350749,Compound,"6,8,11-epi-Desacetylmatricarin",,,,,,,,,,YMUOZXZDD
 compound:Q105364987,Compound,Delphinidin 3-(6''-malonylglucoside)-5-malonylglucoside,,,,,,,,,,YUUVWWMPUDXXPV-ZPVYDSMFSA-O
 compound:Q105373420,Compound,"(3S,3aS,4R,9aR,9bS)-4-hydroxy-3,6-dimethyl-9-[[(2S,3S,4R,5R,6S)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxymethyl]-3,3a,4,5,9a,9b-hexahydroazuleno[4,5-b]furan-2,7-dione",,,,,,,,,,ZEMSXERQBUSFBA-LADYHFTCSA-N
 compound:Q105373425,Compound,"4-Hydroxy-3,6-dimethyl-9-[[3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxymethyl]-3,3a,4,5,9a,9b-hexahydroazuleno[4,5-b]furan-2,7-dione",,,,,,,,,,ZEMSXERQBUSFBA-UHFFFAOYSA-N
+compound:Q105373427,Compound,Cichorioside B,,,,,,,,,,ZEMSXERQBUSFBA-YNZHIRHJSA-N
 compound:Q105376047,Compound,2-(3-methylbut-1-en-1-yl)-3H-purin-6-amine,,,,,,,,,,ZHVWMZSTIUJLTP-UHFFFAOYSA-N
 compound:Q105376197,Compound,"4-Hydroxy-9-(hydroxymethyl)-3,6-dimethyl-3,3a,4,5,9a,9b-hexahydroazuleno[4,5-b]furan-2,7-dione",,,,,,,,,,ZHZZKRDEPZMPLJ-UHFFFAOYSA-N
 compound:Q105376199,Compound,"(3S,3aR,4R,9aS,9bR)-4-hydroxy-9-(hydroxymethyl)-3,6-dimethyl-3,3a,4,5,9a,9b-hexahydroazuleno[4,5-b]furan-2,7-dione",,,,,,,,,,ZHZZKRDEPZMPLJ-URUFXOQFSA-N
@@ -18086,6 +17939,7 @@ compound:Q27158365,Compound,dihydroconiferyl alcohol glucoside,,,,,,,,,,QFYFLJZB
 compound:Q76296967,Compound,"(2E,4E)-hexadeca-2,4-dienoic acid",,,,,,,,,,OOJGMLFHAQOYIL-SQIWNDBBSA-N
 compound:Q76506709,Compound,"4,11,13,15-Tetrahydroridentin B",,,,,,,,,,GAPZIAIPNAGPQZ-UIUPBXLSSA-N
 compound:Q82645026,Compound,"Dodeca-2,4,6-trienoic acid",,,,,,,,,,QFQUMHBUJBZOBZ-UHFFFAOYSA-N
+compound:Q83127413,Compound,Lettucenin A,,,,,,,,,,PATCUDSVUMFCMB-UHFFFAOYSA-N
 compound:Q103785909,Compound,docos-2-enoic acid,,,,,,,,,,ATNNLHXCRAAGJS-UHFFFAOYSA-N
 compound:Q104253478,Compound,(2E)-docos-2-enoic acid,,,,,,,,,,ATNNLHXCRAAGJS-QZQOTICOSA-N
 compound:Q104253479,Compound,"(2E,4E)-heptadeca-2,4-dienoic acid",,,,,,,,,,UINYXDFNICMOQJ-ZBMVRHCNSA-N
@@ -18138,6 +17992,7 @@ compound:Q27116399,Compound,taleranol,,,,,,,,,,DWTTZBARDOXEAM-JSGCOSHPSA-N
 compound:Q27116793,Compound,"(10E,12E)-octadeca-10,12-dienoic acid",,,,,,,,,,GKJZMAHZJGSBKD-UHFFFAOYSA-N
 compound:Q27117708,Compound,"9,11,13-octadecatrienoic acid",,,,,,,,,,CUXYLFPMQMFGPL-UHFFFAOYSA-N
 compound:Q27131340,Compound,hept-2-enal,,,,,,,,,,NDFKTBCGKNOHPJ-UHFFFAOYSA-N
+compound:Q27137333,Compound,luteolin-4'-O-beta-D-glucopyranoside,,,,,,,,,,UHNXUSWGOJMEFO-QNDFHXLGSA-N
 compound:Q27145772,Compound,(+)-epicatechin-3-O-gallate,,,,,,,,,,LSHVYAFMTMFKBA-FPOVZHCZSA-N
 compound:Q27166309,Compound,17-Hydroxyandrost-4-en-3-one,,,,,,,,,,MUMGGOZAMZWBJJ-UHFFFAOYSA-N
 compound:Q27167000,Compound,"13-Methyl-6,7,8,9,11,12,14,15,16,17-decahydrocyclopenta[a]phenanthrene-3,17-diol",,,,,,,,,,VOXZDWNPVJITMN-UHFFFAOYSA-N
@@ -18444,6 +18299,23 @@ compound:Q105034293,Compound,"4-[2-O-(D-Apio-beta-D-furanosyl)-3-O-(alpha-L-rham
 compound:Q105211938,Compound,"4-Hydroxy-7,8-(methylenedioxy)-9-(6-hydroxy-1,3-benzodioxole-5-yl)naphtho[2,3-c]furan-1(3H)-one",,,,,,,,,,PNHNOLIAAROUDP-UHFFFAOYSA-N
 compound:Q105214382,Compound,"4-(alpha-L-Rhamnopyranosyloxy)-7,8-(methylenedioxy)-9-(6-hydroxy-1,3-benzodioxole-5-yl)naphtho[2,3-c]furan-1(3H)-one",,,,,,,,,,PSTGGCDDWXYQLC-LOFOQUNOSA-N
 compound:Q110081243,Compound,"6-[2-(3,4-Dihydroxyphenyl)-5,7-dihydroxy-4-oxochromen-3-yl]oxy-5-[3-(3,4-dihydroxyphenyl)prop-2-enoyloxy]-3,4-dihydroxyoxane-2-carboxylic acid",,,,,,,,,,OWFPENLVOZPLQP-UHFFFAOYSA-N
+compound:Q104253439,Compound,"{[(E)-(2-phenyl-1-{[3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]sulfanyl}ethylidene)amino]oxy}sulfonic acid",,,,,,,,,,QQGLQYQXUKHWPX-XNTDXEJSSA-N
+compound:Q104917993,Compound,"(2R,3S,4S,5R,6S)-2-(hydroxymethyl)-6-[4-(1H-imidazol-2-ylmethyl)-2-methoxyphenoxy]oxane-3,4,5-triol",,,,,,,,,,ASPNXCICLVYQCJ-USACIQFYSA-N
+compound:Q104917994,Compound,Semilepidinoside B,,,,,,,,,,ASPNXCICLVYQCJ-UVLCOCDESA-N
+compound:Q104937451,Compound,"[(2S,3R,6R)-3-ethyl-6-[(3S,8S,9S,10R,13R,14S,17R)-3-hydroxy-10,13-dimethyl-2,3,4,7,8,9,11,12,14,15,16,17-dodecahydro-1H-cyclopenta[a]phenanthren-17-yl]-2-methylheptyl] benzoate",,,,,,,,,,BJZQJLWLEFGCBH-RXEQDNJCSA-N
+compound:Q105018890,Compound,Lepidine C,,,,,,,,,,GTJSRUGILPIENS-UHFFFAOYSA-N
+compound:Q105134552,Compound,"(E,4R,5S,8R,12S)-5-hydroxy-4,8,12-trimethyl-1-(2,6,6-trimethylcyclohexen-1-yl)pentadec-1-en-7-one",,,,,,,,,,JSSNFOHEHRIBDT-YVFVYJCDSA-N
+compound:Q105139069,Compound,Lepidine D,,,,,,,,,,KDBJPLXCURQBOE-UHFFFAOYSA-N
+compound:Q105157951,Compound,"(E,6S,10R,13R,14S,18S)-2,6,10,14,18-pentamethylicos-15-ene-2,13-diol",,,,,,,,,,LVOIAUYYMRCVLX-CDVIFZHFSA-N
+compound:Q105204707,Compound,"(4S,8R,12R)-13-hept-6-enoxy-4,8,12-trimethyl-13-oxotridecanoic acid",,,,,,,,,,PASMASQJCDKBJK-QHAWAJNXSA-N
+compound:Q105205460,Compound,"(2S,3R,4S)-3,4-dihydroxy-2-[(2S,3R,4R,5R,6S)-2,4,5-trihydroxy-6-methyloxan-3-yl]oxy-3,4-dihydro-2H-pyran-6-carboxylic acid",,,,,,,,,,PBUKNNGDHZLXKG-VGTJAOMCSA-N
+compound:Q105215662,Compound,Semilepidinoside A,,,,,,,,,,PVXWBKJKWJZGQJ-DZQJYWQESA-N
+compound:Q105224917,Compound,2-[3-hydroxy-5-(1H-imidazol-2-ylmethyl)phenoxy]-4-(1H-imidazol-2-ylmethyl)phenol,,,,,,,,,,QOJGTWLFQCAXLE-UHFFFAOYSA-N
+compound:Q105243445,Compound,Lepidine B,,,,,,,,,,RQNSAUQJLRAUMV-UHFFFAOYSA-N
+compound:Q105267235,Compound,Lepidine E,,,,,,,,,,TYCLBPSZSGTWCX-UHFFFAOYSA-N
+compound:Q105304868,Compound,1-Vanilloylglucose,,,,,,,,,,WGSQZAKTMBFXLJ-BLJJELEKSA-N
+compound:Q105339231,Compound,Lepidine F,,,,,,,,,,XQANLWORMFUCPG-UHFFFAOYSA-N
+compound:Q105346915,Compound,2-(3-(2-((1H-Imidazol-2-yl)methyl)-6-methoxyphenoxy)benzyl)-1H-imidazole,,,,,,,,,,YDQJXVYGARVLRT-UHFFFAOYSA-N
 compound:Q27264168,Compound,samarcandin,,,,,,,,,,WNANPKYNOALKIV-XARGLDOUSA-N
 compound:Q27271205,Compound,farnesiferol a,,,,,,,,,,FCWYNTDTQPCVPG-WTMJVXIESA-N
 compound:Q104396417,Compound,"(1S,2R,4S)-1,7,7-trimethylbicyclo[2.2.1]heptan-2-yl 4-hydroxy-3-methoxybenzoate",,,,,,,,,,KTOAGBIQQPGNIR-WBHUJUFNSA-N
@@ -18502,6 +18374,7 @@ compound:Q27106936,Compound,intermedine,,,,,,,,,,SFVVQRJOGUKCEG-OPQSFPLASA-N
 compound:Q27108366,Compound,Symlandine,,,,,,,,,,MVWPTZQHBOWRTF-QKJMJVMDSA-N
 compound:Q27108367,Compound,symphytine,,,,,,,,,,MVWPTZQHBOWRTF-SMLWLWDZSA-N
 compound:Q27132912,Compound,symphytine N-oxide,,,,,,,,,,MTHHNSCIBYQVSB-FMYLHMKPSA-N
+compound:Q27137714,Compound,cauloside D,,,,,,,,,,UEHILKCNLIKLEV-LXABABOZSA-N
 compound:Q27149735,Compound,Acetylintermedine,,,,,,,,,,RKDOFSJTBIDAHX-CYHLAULCSA-N
 compound:Q27149737,Compound,Acetyllycopsamine,,,,,,,,,,RKDOFSJTBIDAHX-OFSOMGBPSA-N
 compound:Q27266347,Compound,myoscorpine,,,,,,,,,,MVWPTZQHBOWRTF-MVEITQORSA-N
@@ -18915,39 +18788,6 @@ compound:Q105246575,Compound,"13,28-Epoxyoleanane-3beta,16alpha,22alpha,23-tetro
 compound:Q105259347,Compound,"(2R,8S,9R,10R,13R,14S,16R,17R)-17-[(E,2S)-2,6-dihydroxy-6-methyl-3-oxohept-4-en-2-yl]-2,16-dihydroxy-4,4,9,13,14-pentamethyl-2,7,8,10,12,15,16,17-octahydro-1H-cyclopenta[a]phenanthrene-3,11-dione",,,,,,,,,,SRPHMISUTWFFKJ-UYOOCETRSA-N
 compound:Q105344093,Compound,,,,,,,,,,,XXLVGUAGYYLXSJ-CJZVTGFSSA-N
 compound:Q105346115,Compound,desglucoanagalloside B,,,,,,,,,,YBYIAPOSRNODNJ-CSYCFBBXSA-N
-compound:Q410405,Compound,4-phenyl-2-butanone,,,,,,,,,,AKGGYBADQZYZPD-UHFFFAOYSA-N
-compound:Q15424773,Compound,rotundone,,,,,,,,,,NUWMTBMCSQWPDG-SDDRHHMPSA-N
-compound:Q15632756,Compound,anisylacetone,,,,,,,,,,PCBSXBYCASFXTM-UHFFFAOYSA-N
-compound:Q27105386,Compound,2-(4-Methoxyphenethyl)chromone,,,,,,,,,,ZQBJPQZBIGVILA-UHFFFAOYSA-N
-compound:Q27106650,Compound,Flindersiachromone,,,,,,,,,,VNZNWFQJBFLELF-UHFFFAOYSA-N
-compound:Q82887296,Compound,"1,2,3,4,6,7,8,8a-Octahydro-alpha,alpha,8,8a-tetramethylnaphthalene-2-methanol",,,,,,,,,,MQWIFDHBNGIVPO-UHFFFAOYSA-N
-compound:Q83015410,Compound,"4H-1-Benzopyran-4-one, 6-methoxy-2-(2-(4-methoxyphenyl)ethyl)-",,,,,,,,,,RQDQHEBGEUXELB-UHFFFAOYSA-N
-compound:Q83098705,Compound,"3H-Naphtho(1,8-bc)furan-3,8(4H)-dione, 5,5a,6,7-tetrahydro-7-methyl-5-(1-methylethyl)-, (5R,5aR,7S)-",,,,,,,,,,ITOFWMRNIIFZKF-IVZWLZJFSA-N
-compound:Q104375346,Compound,alpha-Vetispirene,,,,,,,,,,KEVTZKPBXQTBSV-HIFRSBDPSA-N
-compound:Q104375349,Compound,beta-Agarofuran,,,,,,,,,,XWTXUKLVEPDOQT-SNPRPXQTSA-N
-compound:Q104375350,Compound,"(5R,10R)-10-Methyl-6-methylene-2-(propan-2-ylidene)spiro[4.5]dec-7-ene",,,,,,,,,,CSRZVTLTICSDRH-HIFRSBDPSA-N
-compound:Q104375738,Compound,alpha-Agarofuran,,,,,,,,,,ZLQADKTVJQXDIG-SNPRPXQTSA-N
-compound:Q104375739,Compound,(-)-prezizaanol,,,,,,,,,,IJVXAOHQRPSJDV-HPYVJYLESA-N
-compound:Q104375740,Compound,Jinkohol II,,,,,,,,,,RJTVRURTSNYWOY-KSFQGOMNSA-N
-compound:Q104375742,Compound,Epoxybulnesene,,,,,,,,,,OQZCYVPJJHEMSP-MDKBLUTQSA-N
-compound:Q104375743,Compound,Sinenofuranol,,,,,,,,,,YNRKDVOAXYELOW-WBGPXRNDSA-N
-compound:Q104375744,Compound,Oxo-agarospirol,,,,,,,,,,OKBGEROEGQDLFK-BQELKBSMSA-N
-compound:Q104399164,Compound,cleomiscosin D,,,,,,,,,,IXSZNNRKGDOXQI-YJBOKZPZSA-N
-compound:Q104402779,Compound,"(3R,4aR,5S)-4a,5-dimethyl-3-prop-1-en-2-yl-3,4,5,6,7,8-hexahydronaphthalen-2-one",,,,,,,,,,DIZRSLUNVNGBPA-NJZAAPMLSA-N
-compound:Q104667265,Compound,"2-[(2R,8aR)-8,8a-dimethyl-2,3,4,6,7,8-hexahydro-1H-naphthalen-2-yl]propan-2-ol",,,,,,,,,,MQWIFDHBNGIVPO-IIWDCPNDSA-N
-compound:Q104971380,Compound,Agarotetrol,,,,,,,,,,CWMIROLCTHMEEO-JJXSEGSLSA-N
-compound:Q104971382,Compound,Isoagarotetrol,,,,,,,,,,CWMIROLCTHMEEO-XUWVNRHRSA-N
-compound:Q105032282,Compound,"2-((3-(4-Hydroxy-3-methoxyphenyl)-1-oxo-2-propenyl)oxy)-1,3-propanediyl docosanoate",,,,,,,,,,HQKOKDBCUSEPCE-LIIAXHHNSA-N
-compound:Q105091190,Compound,"(6,10,10-Trimethyl-11-oxatricyclo[7.2.1.01,5]dodecan-2-yl)methanol",,,,,,,,,,ABYYDYWFVSHNAX-UHFFFAOYSA-N
-compound:Q105145866,Compound,"[(2S,7R)-2,6,6-trimethyl-7-tricyclo[6.2.1.01,5]undecanyl]methanol",,,,,,,,,,KTMJGGMQCFLMFK-KRKIACFUSA-N
-compound:Q105189389,Compound,7-hydroxy-8-methoxy-2-(2-phenylethyl)chromen-4-one,,,,,,,,,,OCIFCZABKJEWMJ-UHFFFAOYSA-N
-compound:Q105228825,Compound,7-hydroxy-2-(2-phenylethyl)chromen-4-one,,,,,,,,,,QVPPGYBSJQCGTN-UHFFFAOYSA-N
-compound:Q105238730,Compound,2-(3-Methoxy-4-hydroxyphenethyl)-6-methoxychromone,,,,,,,,,,RKQVUUSDXYBSJQ-UHFFFAOYSA-N
-compound:Q105279253,Compound,"(1S,2S,6R,10S,11R,13S,14R,15R)-13-(acetyloxy)-1,6-dihydroxy-8-(hydroxymethyl)-4,12,12,15-tetramethyl-5-oxotetracyclo[8.5.0.0²,⁶.0¹¹,¹³]pentadeca-3,8-dien-14-yl (2E,4E,6E)-deca-2,4,6-trienoate",,,,,,,,,,UUDRJPRIBMGADE-YNOQIDMFSA-N
-compound:Q105287026,Compound,Agarol,,,,,,,,,,VIULXZNWHKRQPB-KSQLKPTDSA-N
-compound:Q105308726,Compound,"2-[(2R)-4a,8-dimethyl-2,3,4,5,6,7-hexahydro-1H-naphthalen-2-yl]propan-2-ol",,,,,,,,,,WMOPMQRJLLIEJV-KEKZHRQWSA-N
-compound:Q105347180,Compound,"2-[(1S,8S)-1,8-dimethyl-1,2,3,4,6,7,8,8a-octahydronaphthalen-2-yl]propan-2-ol",,,,,,,,,,YEDSHUOBTRDKLW-YWBBTBBSSA-N
-compound:Q105373169,Compound,2-(4-Hydroxyphenethyl)-6-hydroxychromone,,,,,,,,,,ZEEYITCRNXWBJA-UHFFFAOYSA-N
 compound:Q408788,Compound,xanthosine,,,,,,,,,,UBORTCNDUKBEOP-UUOKFMHZSA-N
 compound:Q411478,Compound,fluconazole,,,,,,,,,,RFHAOTPXVQNOHP-UHFFFAOYSA-N
 compound:Q5893392,Compound,hecogenin,,,,,,,,,,QOLRLLFJMZLYQJ-LOBDNJQFSA-N
@@ -19235,6 +19075,8 @@ compound:Q105264602,Compound,,,,,,,,,,,TTZPUSOGVHGOKQ-SRHAGNETSA-N
 compound:Q105289959,Compound,"[(2R,3R,4S,5S,6R)-2-[[(2R,3R,4S,5R,6S)-6-[2-(3,4-dihydroxyphenyl)-5,7-dihydroxy-4-oxochromen-3-yl]oxy-3,4,5-trihydroxyoxan-2-yl]methoxy]-4,5-dihydroxy-6-(hydroxymethyl)oxan-3-yl] acetate",,,,,,,,,,VNVDVLIGXKINBU-VCIQGIGISA-N
 compound:Q104253570,Compound,Otosenine 12-acetate,,,,,,,,,,RNNVXCSFOWGBQP-DIOQTCHZSA-N
 compound:Q115952460,Compound,"[6-hydroxy-7-(hydroxymethyl)-2,3,5,6,7,8-hexahydro-1H-pyrrolizin-1-yl] 2-methyl-3-oxobutanoate",,,,,,,,,,UEASBNMLRVSIRE-UHFFFAOYSA-N
+compound:Q27108536,Compound,glucozaluzanin c,,,,,,,,,,OIOLZODVFMMERF-GHSWTDDMSA-N
+compound:Q104402655,Compound,Macrocliniside A,,,,,,,,,,ARJUJAMZTUUZNZ-NJQUUYHGSA-N
 compound:Q104985285,Compound,"(3aS,6E,9R,10E,11aR)-6,10-dimethyl-3-methylidene-9-[(2R,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxy-3a,4,5,8,9,11a-hexahydrocyclodeca[b]furan-2-one",,,,,,,,,,DMRCRRQHOSAUMP-FSSXDESHSA-N
 compound:Q104985287,Compound,Picriside C,,,,,,,,,,DMRCRRQHOSAUMP-QQZWNZOASA-N
 compound:Q105000968,Compound,"(3S,3aS,5aS,8S,9bS)-3,5a,9-trimethyl-8-[(2R,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxy-3,3a,4,5,6,7,8,9b-octahydrobenzo[g][1]benzofuran-2-one",,,,,,,,,,FTCASOKOHIRYPL-TUYPHWTQSA-N
@@ -19483,6 +19325,126 @@ compound:Q105378755,Compound,"(1R)-1,2alpha-Dimethyl-1alpha-[2-(2-oxo-2,5-dihydr
 compound:Q105382571,Compound,"(4aS,7R,8R,8aS)-8-[2-[(2S)-2-methoxy-5-oxo-2H-furan-4-yl]ethyl]-4,7,8-trimethyl-1,2,5,6,7,8a-hexahydronaphthalene-4a-carboxylic acid",,,,,,,,,,ZSKQNYQQCWYYSU-WTPAXMCGSA-N
 compound:Q105005545,Compound,"[(2R,3R,4S,5R,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl] (1E,3S)-3-hydroxy-3-phenyl-N-sulfooxypropanimidothioate",,,,,,,,,,GAPDDBFHNYHZIS-QWPCBLMSSA-N
 compound:Q105268223,Compound,"[(E)-[(3S)-3-phenyl-1-{[(2R,3R,4R,5R,6S)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]sulfanyl}-3-{[(2R,3R,4R,5R)-3,4,5-trihydroxyoxan-2-yl]oxy}propylidene]amino]oxysulfonic acid",,,,,,,,,,TZJUOXNQZNCHSG-NZCVDIKMSA-N
+compound:Q5175227,Compound,costunolide,,,,,,,,,,HRYLQFBHBWLLLL-AHNJNIBGSA-N
+compound:Q27107159,Compound,lactucaxanthin,,,,,,,,,,BIPAHAFBQLWRMC-SUOWZELTSA-N
+compound:Q82990981,Compound,"11beta,13-Dihydro-santamarin",,,,,,,,,,DGIMMEWTLSCNGO-DMLGPZFASA-N
+compound:Q104251034,Compound,Lactuside A,,,,,,,,,,TZXUUTQEICXCOH-RYGBUWAXSA-N
+compound:Q104376036,Compound,germanicol acetate,,,,,,,,,,FKMDSFSBFAGDCK-SPFANWNTSA-N
+compound:Q104390349,Compound,costunolide,,,,,,,,,,HRYLQFBHBWLLLL-BOHUOVHSSA-N
+compound:Q104397505,Compound,Dihydrosantamarin,,,,,,,,,,DGIMMEWTLSCNGO-XBDPKTDKSA-N
+compound:Q104917370,Compound,"(3aS,5R,6aR,8S,9aR,9bS)-5-hydroxy-3,6,9-trimethylidene-8-[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxy-3a,4,5,6a,7,8,9a,9b-octahydroazuleno[4,5-b]furan-2-one",,,,,,,,,,ARJUJAMZTUUZNZ-AZVRUGFFSA-N
+compound:Q104939286,Compound,"(3aS,6aR,9R,9aS,9bS)-9-(hydroxymethyl)-3,6-dimethylidene-9-[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxy-3a,4,5,6a,7,8,9a,9b-octahydroazuleno[4,5-b]furan-2-one",,,,,,,,,,BOKMNGMJRJLOCJ-BQOOUUMFSA-N
+compound:Q104986940,Compound,"(3S,3aS,5aR,6R,9R,9aS,9bS)-9-hydroxy-3,5a,9-trimethyl-6-[(2R,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxy-3a,4,5,6,7,8,9a,9b-octahydro-3H-benzo[g][1]benzofuran-2-one",,,,,,,,,,DQHHPAKUNFZVIQ-ALMOYXMRSA-N
+compound:Q105004945,Compound,"(3S,3abeta,6abeta,9abeta,9balpha)-3beta,9beta-Dimethyl-5beta,8alpha-dihydroxy-6-methylenedecahydroazuleno[4,5-b]furan-2(3H)-one",,,,,,,,,,FZHVZHPJLXWJIZ-FXBRUWNDSA-N
+compound:Q105011057,Compound,"9alpha-Hydroxy-11beta,13-dihydrozaluzanin C",,,,,,,,,,GLMKTMOFCGDFFQ-XPLKHYSGSA-N
+compound:Q105025894,Compound,"[(3aR,4R,9aR,9bS)-6-methyl-3-methylidene-2,7-dioxo-9-[[(2R,3S,4S,5S,6S)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxymethyl]-4,5,9a,9b-tetrahydro-3aH-azuleno[4,5-b]furan-4-yl] 2-(4-hydroxyphenyl)acetate",,,,,,,,,,HCOZTDACWSVSLP-JTZNOEJASA-N
+compound:Q105028062,Compound,"[(3S,3aS,5aR,6R,9aS,9bS)-6-hydroxy-3,5a-dimethyl-2-oxo-3,3a,4,5,6,7,9a,9b-octahydrobenzo[g][1]benzofuran-9-yl]methyl 2-(4-methoxyphenyl)acetate",,,,,,,,,,HGXKRNRXAGDTHR-RQGNXEPMSA-N
+compound:Q105032898,Compound,"(3aR,6E,10E,11aR)-6,10-dimethyl-3-methylidene-3a,4,5,8,9,11a-hexahydrocyclodeca[b]furan-2-one",,,,,,,,,,HRYLQFBHBWLLLL-QJAKHLMASA-N
+compound:Q105146108,Compound,"Cyclodeca[b]furan-2(3H)-one, 3a,4,5,8,9,11a-hexahydro-9-hydroxy-6-(hydroxymethyl)-3,10-dimethyl-, [3S-(3R*,3aR*,6Z,9R*,10E,11aR*)]-",,,,,,,,,,KUERQAIAYCRGOB-DOGNWQSSSA-N
+compound:Q105146110,Compound,"(3S,3aR,6Z,9R,10E,11aS)-9-hydroxy-6-(hydroxymethyl)-3,10-dimethyl-3a,4,5,8,9,11a-hexahydro-3H-cyclodeca[b]furan-2-one",,,,,,,,,,KUERQAIAYCRGOB-PIOXYOOTSA-N
+compound:Q105146467,Compound,"(3S,3aS,6Z,9S,10E,11aS)-9-hydroxy-3,10-dimethyl-2-oxo-3a,4,5,8,9,11a-hexahydro-3H-cyclodeca[b]furan-6-carbaldehyde",,,,,,,,,,KVDCMKYALKIZID-DOGNWQSSSA-N
+compound:Q105146468,Compound,"(3S,3aS,6E,9S,10E,11aR)-9-hydroxy-3,10-dimethyl-2-oxo-3a,4,5,8,9,11a-hexahydro-3H-cyclodeca[b]furan-6-carbaldehyde",,,,,,,,,,KVDCMKYALKIZID-PSNZUKABSA-N
+compound:Q105146470,Compound,"(3S,3aS,6E,9S,10E,11aS)-9-hydroxy-3,10-dimethyl-2-oxo-3a,4,5,8,9,11a-hexahydro-3H-cyclodeca[b]furan-6-carbaldehyde",,,,,,,,,,KVDCMKYALKIZID-YOBAHCRPSA-N
+compound:Q105149341,Compound,"3-methyl-6,9-dimethylidene-8-[3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxy-3a,4,5,6a,7,8,9a,9b-octahydro-3H-azuleno[4,5-b]furan-2-one",,,,,,,,,,LBJIOPYQHNZVLF-UHFFFAOYSA-N
+compound:Q105192638,Compound,"(3aS,6aR,8S,9aR,9bS)-3,6,9-trimethylidene-8-[(2S,3R,4S,5R,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxy-3a,4,5,6a,7,8,9a,9b-octahydroazuleno[4,5-b]furan-2-one",,,,,,,,,,OIOLZODVFMMERF-BHFFZQNCSA-N
+compound:Q105205513,Compound,"(3S,3aS,6S,6aR,9aR,9bS)-6-hydroxy-6-(hydroxymethyl)-3-methyl-9-methylidene-3a,4,5,6a,7,8,9a,9b-octahydro-3H-azuleno[4,5-b]furan-2-one",,,,,,,,,,PBXKFMXJVNEHCU-MRWSCNBVSA-N
+compound:Q105212039,Compound,9alpha-Hydroxyzaluzalin C,,,,,,,,,,PNMKDWVKEBNNFG-XQZGEAEESA-N
+compound:Q105242925,Compound,"(3S)-6alpha-(beta-D-Glucopyranosyloxy)-3abeta,6,6abeta,7,8,9,9abeta,9balpha-octahydro-6-(hydroxymethyl)-3beta-methyl-9-methyleneazuleno[4,5-b]furan-2(3H)-one",,,,,,,,,,RPQTUGURKSFZTM-MHMJNRRMSA-N
+compound:Q105268475,Compound,"(3S,3aS,6E,9R,10E,11aS)-3,10-dimethyl-2-oxo-9-[(2R,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxy-3a,4,5,8,9,11a-hexahydro-3H-cyclodeca[b]furan-6-carbaldehyde",,,,,,,,,,TZXUUTQEICXCOH-GZKCVXLASA-N
+compound:Q105268478,Compound,"(3S,3aS,6E,9S,10E,11aR)-3,10-dimethyl-2-oxo-9-[(2R,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxy-3a,4,5,8,9,11a-hexahydro-3H-cyclodeca[b]furan-6-carbaldehyde",,,,,,,,,,TZXUUTQEICXCOH-XWHBQGKBSA-N
+compound:Q105351857,Compound,Lactuside B,,,,,,,,,,YPUAPUZIURIYPB-BJQNQQTFSA-N
+compound:Q105351861,Compound,"(3S,3aS,6E,9S,10E,11aR)-6-(hydroxymethyl)-3,10-dimethyl-9-[(2R,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxy-3a,4,5,8,9,11a-hexahydro-3H-cyclodeca[b]furan-2-one",,,,,,,,,,YPUAPUZIURIYPB-XWHBQGKBSA-N
+compound:Q105383871,Compound,"(3S,3aS,5R,9aS,9bS)-3,6,9-trimethyl-5-[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxy-3,3a,4,5,9a,9b-hexahydroazuleno[4,5-b]furan-2,7-dione",,,,,,,,,,ZUNQUEPUGDYLCG-ASGNGTQASA-N
+compound:Q105383874,Compound,Lactuside C,,,,,,,,,,ZUNQUEPUGDYLCG-NHDJOBCSSA-N
+compound:Q110080581,Compound,"2-[(4-hydroxy-6-methyl-3-methylidene-2,7-dioxo-4,5,9a,9b-tetrahydro-3aH-azuleno[8,7-b]furan-9-yl)methoxy]-2-oxoacetic acid",,,,,,,,,,LMOXWYJMYLUOMS-UHFFFAOYSA-N
+compound:Q115951672,Compound,,,,,,,,,,,KUERQAIAYCRGOB-NOYQSMGQSA-N
+compound:Q27108357,Compound,sulfuretin,,,,,,,,,,RGNXWPVNPFAADO-NSIKDUERSA-N
+compound:Q76305011,Compound,1-(2-Hydroxy-4-methoxyphenyl)-3-(4-methoxyphenyl)-2-propen-1-one,,,,,,,,,,OAAPAFSEMHJNTF-BJMVGYQFSA-N
+compound:Q105188557,Compound,"6'-Hydroxy-4,4'-dimethoxychalcone",,,,,,,,,,OAAPAFSEMHJNTF-UHFFFAOYSA-N
+compound:Q105235972,Compound,sulfuretin,,,,,,,,,,RGNXWPVNPFAADO-UHFFFAOYSA-N
+compound:Q76085451,Compound,hellebrigenin,,,,,,,,,,TVKPTWJPKVSGJB-XHCIOXAKSA-N
+compound:Q82941973,Compound,"14-Hydroxy-3-oxobufa-20,22-dienolide",,,,,,,,,,YHPFWEDUGHFFTA-UHFFFAOYSA-N
+compound:Q104403426,Compound,"(1R,3aS,5aS,7S,9aS,11aR)-7-{[(2R,4R,5R)-3,4-dihydroxy-6-methyl-5-{[(2S,4R,5S)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxy}oxan-2-yl]oxy}-3a,5a-dihydroxy-11a-methyl-1-(6-oxopyran-3-yl)-dodecahydro-1H-cyclopenta[a]phenanthrene-9a-carbaldehyde",,,,,,,,,,DCSLTSSPIJWEJN-IMBGTWCNSA-N
+compound:Q105030961,Compound,CID 44584382,,,,,,,,,,HNNFRQFXBWSJBX-MTUTWWBMSA-N
+compound:Q110185733,Compound,Hellebrin,,,,,,,,,,DCSLTSSPIJWEJN-YRFFWODSSA-N
+compound:Q27105597,Compound,7-Epiloganic acid,,,,,,,,,,JNNGEAWILNVFFD-DXNVVGTLSA-N
+compound:Q27151384,Compound,Forsythin,,,,,,,,,,KFFCKOBAHMGTMW-LGQRSHAYSA-N
+compound:Q104253146,Compound,"(2S,3S,4S,5R,6R)-2-[4-[(3S,3aR,6S,6aR)-3-(3,4-dimethoxyphenyl)-1,3,3a,4,6,6a-hexahydrofuro[3,4-c]furan-6-yl]-2-methoxyphenoxy]-6-(hydroxymethyl)oxane-3,4,5-triol",,,,,,,,,,KFFCKOBAHMGTMW-REXVRNFISA-N
+compound:Q105235684,Compound,"methyl (4R,5E,6S)-4-[2-[2-(3,4-dihydroxyphenyl)ethoxy]-2-oxoethyl]-5-ethylidene-6-[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxy-4H-pyran-3-carboxylate",,,,,,,,,,RFWGABANNQMHMZ-ZQNIJKSFSA-N
+compound:Q104986846,Compound,"5-hydroxy-2-(4-hydroxyphenyl)-7-[(2S,3R,4S,5R,6S)-3,4,5-trihydroxy-6-methyloxan-2-yl]oxy-3-[(2S,3S,4S,5S)-3,4,5-trihydroxyoxan-2-yl]oxychromen-4-one",,,,,,,,,,DQBVFTJNUYZVQL-FCYXVNGCSA-N
+compound:Q105215196,Compound,"Kaempferol-3,7-O-bis-alpha-L-rhamnoside",,,,,,,,,,PUPKKEQDLNREIM-KPQJDSDZSA-N
+compound:Q105306110,Compound,"5-hydroxy-2-(4-hydroxyphenyl)-3-[(2S,3R,4S,5R,6S)-3,4,5-trihydroxy-6-methyloxan-2-yl]oxy-7-[(2S,3S,4S,5S)-3,4,5-trihydroxyoxan-2-yl]oxychromen-4-one",,,,,,,,,,WIALSWOBTZTJMW-FCYXVNGCSA-N
+compound:Q3050386,Compound,emetine,,,,,,,,,,AUVVAXYIELKVAI-CKBKHPSWSA-N
+compound:Q27133812,Compound,acutoside A,,,,,,,,,,LEQCLUFJRGKLOA-WLMDKFIXSA-N
+compound:Q27137931,Compound,30-norhederagenin,,,,,,,,,,FKUBIEWSGBVADJ-VZBPFLCRSA-N
+compound:Q27258775,Compound,cauloside g,,,,,,,,,,SRSSAQMYMNLZFL-IYZIRETKSA-N
+compound:Q27276893,Compound,dipsacoside b,,,,,,,,,,GFPLPBCJRRNZHM-ICUGHKHQSA-N
+compound:Q82941528,Compound,Hederoside B,,,,,,,,,,CCDRPBGPIXPGRW-RNYXGUFRSA-N
+compound:Q83002196,Compound,"beta-D-Glucopyranosiduronic acid, (3beta,4alpha)-17-carboxy-23-hydroxy-28-norolean-12-en-3-yl",,,,,,,,,,DYFUVQSGLMQLRX-ALBXZGMBSA-N
+compound:Q104391965,Compound,"10-(2,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,22,24,26,28-Docosahydroxynonacosoxy)-9-(hydroxymethyl)-2,2,6a,6b,9,12a-hexamethyl-1,3,4,5,6,6a,7,8,8a,10,11,12,13,14b-tetradecahydropicene-4a-carboxylic acid",,,,,,,,,,PGHRFWJRZHZTQN-UHFFFAOYSA-N
+compound:Q104402787,Compound,hederagenin-3-O-beta-D-glucopyranoside,,,,,,,,,,CCDRPBGPIXPGRW-DLQTVUGOSA-N
+compound:Q104667835,Compound,hederacoside D,,,,,,,,,,UEHILKCNLIKLEV-UHFFFAOYSA-N
+compound:Q104888519,Compound,"9-(Hydroxymethyl)-2,2,6a,6b,9,12a-hexamethyl-10-(3,4,5-trihydroxyoxan-2-yl)oxy-1,3,4,5,6,6a,7,8,8a,10,11,12,13,14b-tetradecahydropicene-4a-carboxylic acid",,,,,,,,,,QUBNLZCADIYAFW-UHFFFAOYSA-N
+compound:Q104909651,Compound,Didehydrofalcarinol,,,,,,,,,,ADKVNLJOJPLERM-GMBPKHMRSA-N
+compound:Q104909653,Compound,"(3S,9Z,11Z)-heptadeca-1,9,11,16-tetraen-4,6-diyn-3-ol",,,,,,,,,,ADKVNLJOJPLERM-JBDKYTPXSA-N
+compound:Q104953169,Compound,"(4aS,6aR,6aS,6bR,8aS,9R,10S,12aR,14bS)-9-(hydroxymethyl)-2,2,6a,6b,9,12a-hexamethyl-10-[(2R,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxy-1,3,4,5,6,6a,7,8,8a,10,11,12,13,14b-tetradecahydropicene-4a-carboxylic acid",,,,,,,,,,CCDRPBGPIXPGRW-QOBSNSOZSA-N
+compound:Q104971683,Compound,,,,,,,,,,,CWYUSFMWQKCWDK-AAVGEHTMSA-N
+compound:Q104971684,Compound,,,,,,,,,,,CWYUSFMWQKCWDK-UHFFFAOYSA-N
+compound:Q104991356,Compound,"6-[[8a-Carboxy-4-(hydroxymethyl)-4,6a,6b,11,11,14b-hexamethyl-1,2,3,4a,5,6,7,8,9,10,12,12a,14,14a-tetradecahydropicen-3-yl]oxy]-3,4,5-trihydroxyoxane-2-carboxylic acid",,,,,,,,,,DYFUVQSGLMQLRX-UHFFFAOYSA-N
+compound:Q105004394,Compound,,,,,,,,,,,FYBHGBVHRPQYQC-GWIVOYSISA-N
+compound:Q105007691,Compound,Glycoside L-G3;Tauroside G3,,,,,,,,,,GFPLPBCJRRNZHM-UHFFFAOYSA-N
+compound:Q105031883,Compound,CID 15127236,,,,,,,,,,HPTCFCREEHCWMI-GTOFXWBISA-N
+compound:Q105035759,Compound,"2,2,6a,6b,9,9,12a-Heptamethyl-10-(3,4,5-trihydroxyoxan-2-yl)oxy-1,3,4,5,6,6a,7,8,8a,10,11,12,13,14b-tetradecahydropicene-4a-carboxylic acid",,,,,,,,,,HZLWUYJLOIAQFC-UHFFFAOYSA-N
+compound:Q105036394,Compound,"10-[4,5-Dihydroxy-3-(3,4,5-trihydroxy-6-methyloxan-2-yl)oxyoxan-2-yl]oxy-2,2,6a,6b,9,9,12a-heptamethyl-1,3,4,5,6,6a,7,8,8a,10,11,12,13,14b-tetradecahydropicene-4a-carboxylic acid",,,,,,,,,,IBAJNOZMACNWJD-UHFFFAOYSA-N
+compound:Q105120478,Compound,Momordin Ib,,,,,,,,,,IUCHKMAZAWJNBJ-UHFFFAOYSA-N
+compound:Q105127551,Compound,Tauroside D,,,,,,,,,,JGNKEDAWBHVCHY-VCCIMKKOSA-N
+compound:Q105140089,Compound,,,,,,,,,,,KEOITPILCOILGM-IPOPOHETSA-N
+compound:Q105140097,Compound,Sapindoside A,,,,,,,,,,KEOITPILCOILGM-UHFFFAOYSA-N
+compound:Q105143172,Compound,,,,,,,,,,,KMSBNWQKGSLQFA-FVQPYGJLSA-N
+compound:Q105143174,Compound,"10-[4,5-Dihydroxy-6-(hydroxymethyl)-3-(3,4,5-trihydroxy-6-methyloxan-2-yl)oxyoxan-2-yl]oxy-9-(hydroxymethyl)-2,2,6a,6b,9,12a-hexamethyl-1,3,4,5,6,6a,7,8,8a,10,11,12,13,14b-tetradecahydropicene-4a-carboxylic acid",,,,,,,,,,KMSBNWQKGSLQFA-UHFFFAOYSA-N
+compound:Q105147198,Compound,Cauloside F,,,,,,,,,,KWXBKEINOHVSGJ-FBCAOFFQSA-N
+compound:Q105175216,Compound,,,,,,,,,,,MYVNIRXXBZQJLZ-UHFFFAOYSA-N
+compound:Q105175217,Compound,,,,,,,,,,,MYVNIRXXBZQJLZ-ZHEUBHLBSA-N
+compound:Q105179632,Compound,,,,,,,,,,,NHWXLQPHNIUEFJ-UHFFFAOYSA-N
+compound:Q105179633,Compound,,,,,,,,,,,NHWXLQPHNIUEFJ-XSFOBXPPSA-N
+compound:Q105184845,Compound,Staunoside A,,,,,,,,,,NRVVDCANHAKYCV-INVBGFSGSA-N
+compound:Q105186393,Compound,eleutheroside M,,,,,,,,,,NVSLBOBPSCMMSO-UHFFFAOYSA-N
+compound:Q105190213,Compound,,,,,,,,,,,OEEIXDVEDJTQPJ-CNPWXMHRSA-N
+compound:Q105190214,Compound,,,,,,,,,,,OEEIXDVEDJTQPJ-UHFFFAOYSA-N
+compound:Q105200756,Compound,,,,,,,,,,,OVJNJRGKGRKYIY-IHTSAJPJSA-N
+compound:Q105200759,Compound,,,,,,,,,,,OVJNJRGKGRKYIY-UHFFFAOYSA-N
+compound:Q105215545,Compound,,,,,,,,,,,PVNXMFDNBHBTQH-UHFFFAOYSA-N
+compound:Q105215546,Compound,,,,,,,,,,,PVNXMFDNBHBTQH-WZJLZQBYSA-N
+compound:Q105228036,Compound,"(4aS,6aR,6aS,6bR,8aS,9R,10S,12aR,14bS)-9-(hydroxymethyl)-2,2,6a,6b,9,12a-hexamethyl-10-[(2S,3R,4S,5S)-3,4,5-trihydroxyoxan-2-yl]oxy-1,3,4,5,6,6a,7,8,8a,10,11,12,13,14b-tetradecahydropicene-4a-carboxylic acid",,,,,,,,,,QUBNLZCADIYAFW-IQLUPVJSSA-N
+compound:Q105236377,Compound,,,,,,,,,,,RHHSFOQSESHVRS-UHFFFAOYSA-N
+compound:Q105236379,Compound,,,,,,,,,,,RHHSFOQSESHVRS-ZJSHWQRDSA-N
+compound:Q105238121,Compound,Scheffleraside II,,,,,,,,,,RJWVNQDEFVAPCR-UAOABQJCSA-N
+compound:Q105238122,Compound,,,,,,,,,,,RJWVNQDEFVAPCR-UHFFFAOYSA-N
+compound:Q105247572,Compound,"Olean-12-en-28-oic acid, 3-[[2-O-(6-deoxy-alpha-L-mannopyranosyl)-alpha-L-arabinopyranosyl]oxy]-23-hydroxy-, O-6-deoxy-alpha-L-mannopyranosyl-(1.fwdarw.4)-O-beta-D-glucopyranosyl-(1.fwdarw.6)-beta-D-glucopyranosyl ester, (3beta,4alpha)-",,,,,,,,,,RYHDIBJJJRNDSX-PCYDYEHUSA-N
+compound:Q105247578,Compound,hederacoside C,,,,,,,,,,RYHDIBJJJRNDSX-UHFFFAOYSA-N
+compound:Q105264454,Compound,3-O-alpha-L-Arabinopyranosylechinocystic acid,,,,,,,,,,SZXCDOOFLYYOCZ-HDYQOPGWSA-N
+compound:Q105264455,Compound,"5-Hydroxy-2,2,6a,6b,9,9,12a-heptamethyl-10-(3,4,5-trihydroxyoxan-2-yl)oxy-1,3,4,5,6,6a,7,8,8a,10,11,12,13,14b-tetradecahydropicene-4a-carboxylic acid",,,,,,,,,,SZXCDOOFLYYOCZ-UHFFFAOYSA-N
+compound:Q105287771,Compound,Helixoside A,,,,,,,,,,VKICMPRVQHZPRV-XGUXQMSSSA-N
+compound:Q105290863,Compound,,,,,,,,,,,VPMAVMNCCCVJSK-CXGCXQJASA-N
+compound:Q105301876,Compound,,,,,,,,,,,WCMJLEULXWUCRF-OLTREEDVSA-N
+compound:Q105301881,Compound,,,,,,,,,,,WCMJLEULXWUCRF-XUJGWIJLSA-N
+compound:Q105306407,Compound,"(9S,10R)-9,10-Epoxy-1-heptadecene-4,6-diyne-3-one",,,,,,,,,,WIONCQLWGYLTME-SJORKVTESA-N
+compound:Q105306758,Compound,"(3S,9Z,11Z)-heptadeca-1,9,11-trien-4,6-diyn-3-ol",,,,,,,,,,WJFSPRQRDLHNOE-JBDKYTPXSA-N
+compound:Q105311014,Compound,"10-[4,5-Dihydroxy-3-(3,4,5-trihydroxy-6-methyloxan-2-yl)oxyoxan-2-yl]oxy-5-hydroxy-2,2,6a,6b,9,9,12a-heptamethyl-1,3,4,5,6,6a,7,8,8a,10,11,12,13,14b-tetradecahydropicene-4a-carboxylic acid",,,,,,,,,,WQVNDHHTUJYLTJ-UHFFFAOYSA-N
+compound:Q105311015,Compound,,,,,,,,,,,WQVNDHHTUJYLTJ-XDNDNJDCSA-N
+compound:Q105330289,Compound,Glycoside L-F2,,,,,,,,,,XLRCLQVFCBYALB-UHFFFAOYSA-N
+compound:Q105330290,Compound,,,,,,,,,,,XLRCLQVFCBYALB-XMQPJTDOSA-N
+compound:Q105345640,Compound,Hederasaponin F,,,,,,,,,,YAWJHQZYFGHLSY-VYEWMGKISA-N
+compound:Q105351015,Compound,,,,,,,,,,,YNMWBVNUVVDDPQ-OJIOAXDUSA-N
+compound:Q105351696,Compound,Helixoside B,,,,,,,,,,YPIHCZNMLNJVSW-NMEUZNJHSA-N
+compound:Q105368748,Compound,,,,,,,,,,,YYMHTAGTVKFQOP-KPFPMFHISA-N
+compound:Q105368752,Compound,,,,,,,,,,,YYMHTAGTVKFQOP-UHFFFAOYSA-N
+compound:Q105371033,Compound,,,,,,,,,,,ZCCWQTVZGNRCJQ-UHFFFAOYSA-N
+compound:Q105371035,Compound,,,,,,,,,,,ZCCWQTVZGNRCJQ-XZRDZOFRSA-N
+compound:Q105375324,Compound,3beta-(alpha-L-Arabinopyranosyloxy)-16alpha-hydroxyoleana-12-ene-28-oic acid 6-O-(4-O-alpha-L-rhamnopyranosyl-beta-D-glucopyranosyl)-beta-D-glucopyranosyl ester,,,,,,,,,,ZGMSGGSISLPGEC-SEQZVPSZSA-N
+compound:Q105375325,Compound,,,,,,,,,,,ZGMSGGSISLPGEC-UHFFFAOYSA-N
+compound:Q105385314,Compound,,,,,,,,,,,ZWYKDDVVXUXZHA-UHFFFAOYSA-N
+compound:Q105385316,Compound,,,,,,,,,,,ZWYKDDVVXUXZHA-VRVJSPLRSA-N
 compound:Q67880071,Compound,sabinyl acetate,,,,,,,,,,PBWRFXQNNGSAQG-UHFFFAOYSA-N
 compound:Q104996213,Compound,"9-Ethoxy-3,4-dihydroxy-11,11-dimethyl-5-propan-2-yl-16-oxatetracyclo[6.6.2.01,10.02,7]hexadeca-2,4,6-trien-15-one",,,,,,,,,,FJMGWJZYOIMNBF-UHFFFAOYSA-N
 compound:Q105035308,Compound,"4-hydroxy-9,9-dimethyl-6-oxo-3-propan-2-yl-7,8,10,10a-tetrahydro-6aH-benzo[c]chromene-1,10-dicarbaldehyde",,,,,,,,,,HYGRYNBYOVHMAO-UHFFFAOYSA-N
@@ -20333,6 +20295,7 @@ compound:Q74411698,Compound,(-)-5-epi-eremophilene,,,,,,,,,,QEBNYNLSCGVZOH-GUTXK
 compound:Q77373922,Compound,Trans-3-Methylthioacrylic acid,,,,,,,,,,RCZLOQQOUWHMIS-NSCUHMNNSA-N
 compound:Q77382245,Compound,"eudesma-5,11-diene",,,,,,,,,,MZWGOWHEHPSPES-GZBFAFLISA-N
 compound:Q104388529,Compound,Retrorsine oxide,,,,,,,,,,IDIMIWQPUHURPV-BJODLBMNSA-N
+compound:Q104402779,Compound,"(3R,4aR,5S)-4a,5-dimethyl-3-prop-1-en-2-yl-3,4,5,6,7,8-hexahydronaphthalen-2-one",,,,,,,,,,DIZRSLUNVNGBPA-NJZAAPMLSA-N
 compound:Q104910424,Compound,"(4aR,5R,8aR,9aR)-3,4a,5-trimethyl-4,5,6,7,8,8a,9,9a-octahydrobenzo[f][1]benzofuran-2-one",,,,,,,,,,AEQDXSFIHGWHDV-ZTYOMDHBSA-N
 compound:Q104943755,Compound,Pethybrene,,,,,,,,,,BPSJFUIWVOWJNO-UNQGMJICSA-N
 compound:Q104945903,Compound,"[(4aR,5S,7R,8aR,9aR)-3,4a,5-trimethyl-2-oxo-4,5,6,7,8,8a,9,9a-octahydrobenzo[f][1]benzofuran-7-yl] (E)-2-methylbut-2-enoate",,,,,,,,,,BTWJKKIMLXVHOF-HXYGGUEJSA-N

@@ -7469,10 +7469,6 @@ Elettaria cardamomum,Q27105290,(R)-(+)-alpha-terpineol,WUOACPNHFRMFPN-VIFPVBQESA
 Elettaria cardamomum,Q27109437,alpha-terpineol,WUOACPNHFRMFPN-UHFFFAOYSA-N,CHEMBL449810
 Elettaria cardamomum,Q27126989,(6E)-(-)-nerolidol,FQTLCLSUCSAZDY-GOFCXVBSSA-N,
 Elettaria cardamomum,Q64224715,(1R)-endo-(+)-fenchol,IAIHUHQCLTYTSF-OYNCUSHFSA-N,CHEMBL3188732
-Aristolochia rotunda,Q2548975,aristolochic acid ii,MEEXETVZNQYRSP-UHFFFAOYSA-N,CHEMBL602280
-Aristolochia rotunda,Q21099362,aristolochic acid,BBFQZRXNYIEMAW-UHFFFAOYSA-N,CHEMBL93353
-Aristolochia rotunda,Q72443760,Aristolactam I,MXOKGWUJNGEKBH-UHFFFAOYSA-N,
-Aristolochia rotunda,Q105179256,Hayatine,NGZXDRGWBULKFA-UHFFFAOYSA-N,
 Vitex agnus-castus,Q26963,progesterone,RJKFOVLPORLFTN-LEKSSAKUSA-N,CHEMBL103
 Vitex agnus-castus,Q99374,(E)-p-coumaric acid,NGSWKAQJJWESNS-ZZXKWVIFSA-N,CHEMBL66879
 Vitex agnus-castus,Q113820,heptyl alcohol,BBMCTIGTTCKYKF-UHFFFAOYSA-N,CHEMBL273459
@@ -24276,42 +24272,6 @@ Typha angustifolia,Q105220999,Isorhamnetin-3-O-neohespeidoside,QHLKSZBFIJJREC-SP
 Typha angustifolia,Q105349384,"(7R,9R,10S)-nonacosane-7,9,10-triol",YJPSPAUZXUUWRY-SSBOKUKZSA-N,
 Typha angustifolia,Q110197070,"2-hydroxy-N-[3-hydroxy-1-[3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxynonadeca-4,13-dien-2-yl]nonadecanamide",VCFUQALXQWHRFB-UHFFFAOYSA-N,
 Typha angustifolia,Q110197711,"N-[3,4-dihydroxy-1-[3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxynonadec-8-en-2-yl]-2-hydroxytricosanamide",YDXLBYDQHCMQBS-UHFFFAOYSA-N,
-Lepidium sativum,Q193572,salicylic acid,YGSDEFSMJLZEOE-UHFFFAOYSA-N,CHEMBL424
-Lepidium sativum,Q207688,oleic acid,ZQPPMHVWECSIRJ-KTKRTIGZSA-N,CHEMBL8659
-Lepidium sativum,Q256502,alpha-linolenic acid,DTOSIQBPPRVQHS-PDBXOOCHSA-N,CHEMBL8739
-Lepidium sativum,Q393336,kaempferol,IYRMWMYZSQPJKC-UHFFFAOYSA-N,CHEMBL150
-Lepidium sativum,Q407426,linoleic acid,OYHQOLUKZRVURQ-HZJYTTRNSA-N,CHEMBL267476
-Lepidium sativum,Q409478,quercetin,REFJWTPEDVJJIY-UHFFFAOYSA-N,CHEMBL50
-Lepidium sativum,Q411310,hesperetin,AIONOLUJZLIMTK-AWEZNQCLSA-N,CHEMBL399121
-Lepidium sativum,Q413531,erucic acid,DPUOLQHDNGRHBS-KTKRTIGZSA-N,CHEMBL1173380
-Lepidium sativum,Q415011,luteolin,IQPNAANSBPBGFQ-UHFFFAOYSA-N,CHEMBL151
-Lepidium sativum,Q416138,isorhamnetin,IZQSVPBOUDKVDZ-UHFFFAOYSA-N,CHEMBL379064
-Lepidium sativum,Q424567,apigenin,KZNIFHPLKGYRTM-UHFFFAOYSA-N,CHEMBL28
-Lepidium sativum,Q18341725,benzyl isothiocyanate,MDKCFLQDBWCQCV-UHFFFAOYSA-N,CHEMBL55285
-Lepidium sativum,Q27286664,elaidolinolenic acid,DTOSIQBPPRVQHS-IUQGRGSQSA-N,
-Lepidium sativum,Q63399038,"[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl] (1E)-2-phenyl-N-sulfooxyethanimidothioate",QQGLQYQXUKHWPX-BXLHIMNRSA-N,
-Lepidium sativum,Q104253439,"{[(E)-(2-phenyl-1-{[3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]sulfanyl}ethylidene)amino]oxy}sulfonic acid",QQGLQYQXUKHWPX-XNTDXEJSSA-N,
-Lepidium sativum,Q104393825,Syringoylglucose,QCIGTAPXKGNROR-GDYWFKHXSA-N,
-Lepidium sativum,Q104917993,"(2R,3S,4S,5R,6S)-2-(hydroxymethyl)-6-[4-(1H-imidazol-2-ylmethyl)-2-methoxyphenoxy]oxane-3,4,5-triol",ASPNXCICLVYQCJ-USACIQFYSA-N,
-Lepidium sativum,Q104917994,Semilepidinoside B,ASPNXCICLVYQCJ-UVLCOCDESA-N,
-Lepidium sativum,Q104937451,"[(2S,3R,6R)-3-ethyl-6-[(3S,8S,9S,10R,13R,14S,17R)-3-hydroxy-10,13-dimethyl-2,3,4,7,8,9,11,12,14,15,16,17-dodecahydro-1H-cyclopenta[a]phenanthren-17-yl]-2-methylheptyl] benzoate",BJZQJLWLEFGCBH-RXEQDNJCSA-N,
-Lepidium sativum,Q105018890,Lepidine C,GTJSRUGILPIENS-UHFFFAOYSA-N,
-Lepidium sativum,Q105134552,"(E,4R,5S,8R,12S)-5-hydroxy-4,8,12-trimethyl-1-(2,6,6-trimethylcyclohexen-1-yl)pentadec-1-en-7-one",JSSNFOHEHRIBDT-YVFVYJCDSA-N,
-Lepidium sativum,Q105136971,Vanillic acid glucoside,JYFOSWJYZIVJPO-UHFFFAOYSA-N,
-Lepidium sativum,Q105139069,Lepidine D,KDBJPLXCURQBOE-UHFFFAOYSA-N,
-Lepidium sativum,Q105143996,"(3R,4S,5R,6R)-3,4,5,6,7-pentahydroxy-1-(4-hydroxyphenyl)heptane-1,2-dione",KOUKJYNKOCFWNE-JBYGLJPXSA-N,
-Lepidium sativum,Q105157951,"(E,6S,10R,13R,14S,18S)-2,6,10,14,18-pentamethylicos-15-ene-2,13-diol",LVOIAUYYMRCVLX-CDVIFZHFSA-N,
-Lepidium sativum,Q105204707,"(4S,8R,12R)-13-hept-6-enoxy-4,8,12-trimethyl-13-oxotridecanoic acid",PASMASQJCDKBJK-QHAWAJNXSA-N,
-Lepidium sativum,Q105205460,"(2S,3R,4S)-3,4-dihydroxy-2-[(2S,3R,4R,5R,6S)-2,4,5-trihydroxy-6-methyloxan-3-yl]oxy-3,4-dihydro-2H-pyran-6-carboxylic acid",PBUKNNGDHZLXKG-VGTJAOMCSA-N,
-Lepidium sativum,Q105209351,"[3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl] N-sulfooxybut-3-enimidothioate",PHZOWSSBXJXFOR-UHFFFAOYSA-N,
-Lepidium sativum,Q105215662,Semilepidinoside A,PVXWBKJKWJZGQJ-DZQJYWQESA-N,
-Lepidium sativum,Q105224917,2-[3-hydroxy-5-(1H-imidazol-2-ylmethyl)phenoxy]-4-(1H-imidazol-2-ylmethyl)phenol,QOJGTWLFQCAXLE-UHFFFAOYSA-N,
-Lepidium sativum,Q105243445,Lepidine B,RQNSAUQJLRAUMV-UHFFFAOYSA-N,
-Lepidium sativum,Q105267235,Lepidine E,TYCLBPSZSGTWCX-UHFFFAOYSA-N,
-Lepidium sativum,Q105304868,1-Vanilloylglucose,WGSQZAKTMBFXLJ-BLJJELEKSA-N,
-Lepidium sativum,Q105339231,Lepidine F,XQANLWORMFUCPG-UHFFFAOYSA-N,
-Lepidium sativum,Q105346915,2-(3-(2-((1H-Imidazol-2-yl)methyl)-6-methoxyphenoxy)benzyl)-1H-imidazole,YDQJXVYGARVLRT-UHFFFAOYSA-N,
-Lepidium sativum,Q110185018,benzyl glucosinolate,QQGLQYQXUKHWPX-LPUQOGTASA-N,
 Rhinanthus minor,Q418014,aucubin,RJWJHRPNHPHBRN-FKVJWERZSA-N,CHEMBL514882
 Rhinanthus minor,Q72493344,Mussaenoside,XBGJTRDIWPEIMG-DUMNYRKASA-N,
 Rhinanthus minor,Q104252333,Shanzhiside methyl ester,KKSYAZCUYVRKML-IRDZEPHTSA-N,
@@ -28334,275 +28294,6 @@ Hypericum androsaemum,Q104399340,Cudraxanthone K,ABSJXNDYIGTGCH-UHFFFAOYSA-N,
 Hypericum androsaemum,Q104667232,"1-Ethenyl-1,2-dimethyl-4-propan-2-ylidene-2-prop-1-en-2-ylcyclohexane",DUCIYIHTTCVNJA-UHFFFAOYSA-N,
 Hypericum androsaemum,Q105274879,"2-(3,4-dihydroxyphenyl)-5,7-dihydroxy-3-[(2S,3R,4S,5R)-3,4,5-trihydroxyoxan-2-yl]oxy-2,3-dihydrochromen-4-one",UKSPRKDZNYSFRL-PXOCLKCNSA-N,
 Hypericum androsaemum,Q105340785,"1,3,6,7-Tetrahydroxy-8-prenylxanthone",XRUKGBABAGTMIR-UHFFFAOYSA-N,
-Lactuca sativa,Q121802,beta-sitosterol,KZJWDPNRJALLNS-VJSFXXLFSA-N,
-Lactuca sativa,Q127060,folic acid,OVBPIULPVIDEAO-LBPRGKRZSA-N,CHEMBL1622
-Lactuca sativa,Q142871,alpha carotene (stereochemistry specified),ANVAOWXLWRTKGA-NTXLUARGSA-N,
-Lactuca sativa,Q199678,vitamin C,CIWBSHSKHKDKBQ-JLAZNSOCSA-N,CHEMBL196
-Lactuca sativa,Q306135,β-carotene,OENHQHLEOONYIE-JLTXGRSLSA-N,CHEMBL1293
-Lactuca sativa,Q392062,cryptoxanthin,DMASLKHVQRHNES-FKKUPVFPSA-N,
-Lactuca sativa,Q393336,kaempferol,IYRMWMYZSQPJKC-UHFFFAOYSA-N,CHEMBL150
-Lactuca sativa,Q393339,epigallocatechin gallate,WMBWREPUVVBILR-WIYYLYMNSA-N,CHEMBL297453
-Lactuca sativa,Q409366,lupeol,MQYXUWHLBZFQQO-QGTGJCAVSA-N,CHEMBL289191
-Lactuca sativa,Q409439,tryptamine,APJYDQYYACXCRM-UHFFFAOYSA-N,CHEMBL6640
-Lactuca sativa,Q409478,quercetin,REFJWTPEDVJJIY-UHFFFAOYSA-N,CHEMBL50
-Lactuca sativa,Q410052,lactucopicrin,QCDLLIUTDGNCPO-AEMJNJESSA-N,
-Lactuca sativa,Q411310,hesperetin,AIONOLUJZLIMTK-AWEZNQCLSA-N,CHEMBL399121
-Lactuca sativa,Q415007,(+)-catechin,PFTAWBLQPZVEMU-DZGCQCFKSA-N,CHEMBL311498
-Lactuca sativa,Q415011,luteolin,IQPNAANSBPBGFQ-UHFFFAOYSA-N,CHEMBL151
-Lactuca sativa,Q415945,phytol,BOTWFXYSPFMFNR-PYDDKJGSSA-N,CHEMBL3039479
-Lactuca sativa,Q416138,isorhamnetin,IZQSVPBOUDKVDZ-UHFFFAOYSA-N,CHEMBL379064
-Lactuca sativa,Q418374,naringenin,FTVWIRXFELQLPI-ZDUSSCGKSA-N,CHEMBL9352
-Lactuca sativa,Q421964,(E)-chlorogenic acid,CWVRJTMFETXNAD-JUHZACGLSA-N,CHEMBL284616
-Lactuca sativa,Q422067,lutein,KBPHJBAIARWVSC-RGZFRNHPSA-N,CHEMBL1979448
-Lactuca sativa,Q424567,apigenin,KZNIFHPLKGYRTM-UHFFFAOYSA-N,CHEMBL28
-Lactuca sativa,Q928965,trigonelline,WWNNZCOKKKDOPX-UHFFFAOYSA-N,CHEMBL350675
-Lactuca sativa,Q951449,myricetin,IKMDFBPHZNJCSN-UHFFFAOYSA-N,CHEMBL164
-Lactuca sativa,Q1668551,parietin,FFWOKTFYGVYKIR-UHFFFAOYSA-N,CHEMBL42624
-Lactuca sativa,Q2501558,α-amyrin,FSLPMRQHCOLESF-SFMCKYFRSA-N,CHEMBL455357
-Lactuca sativa,Q3388802,(+)-pinoresinol,HGXBRUKMWQGOIE-AFHBHXEDSA-N,CHEMBL487611
-Lactuca sativa,Q3604508,chrysophanol,LQGUBLBATBMXHT-UHFFFAOYSA-N,CHEMBL41092
-Lactuca sativa,Q4284467,matairesinol,MATGKVZWFZHCLI-LSDHHAIUSA-N,CHEMBL425148
-Lactuca sativa,Q4348178,emodin,RHMXXJGYXNZAPX-UHFFFAOYSA-N,CHEMBL289277
-Lactuca sativa,Q4413253,secoisolariciresinol,PUETUDUXMCLALY-HOTGVXAUSA-N,CHEMBL368347
-Lactuca sativa,Q5175227,costunolide,HRYLQFBHBWLLLL-AHNJNIBGSA-N,CHEMBL86416
-Lactuca sativa,Q5382492,Epicatechin gallate,LSHVYAFMTMFKBA-TZIWHRDSSA-N,CHEMBL36327
-Lactuca sativa,Q6469057,lactucin,VJQAFLAZRVKAKM-VZLIPTOUSA-N,CHEMBL521177
-Lactuca sativa,Q6489358,lariciresinol,MHXCIKYXNYCMHY-AUSJPIAWSA-N,CHEMBL518421
-Lactuca sativa,Q7247551,procyanidin B1,XFZJEEAOWLFHDH-UKWJTHFESA-N,CHEMBL504937
-Lactuca sativa,Q7247552,(+)-procyanidin B2,XFZJEEAOWLFHDH-NFJBMHMQSA-N,CHEMBL38714
-Lactuca sativa,Q7247553,procyanidin B3,XFZJEEAOWLFHDH-AVFWISQGSA-N,CHEMBL501490
-Lactuca sativa,Q7247555,(-)-procyanidin B4,XFZJEEAOWLFHDH-VUGKQVTMSA-N,CHEMBL447373
-Lactuca sativa,Q7247556,procyanidin C1,MOJZMWJRUKIQGL-XILRTYJMSA-N,CHEMBL290632
-Lactuca sativa,Q7247561,procyanidin B8,GMISZFQPFDAPGI-JJYFIROESA-N,CHEMBL451115
-Lactuca sativa,Q15410900,sitogluside,NPJICTMALKLTFW-OFUAXYCQSA-N,CHEMBL506678
-Lactuca sativa,Q23050136,(−)-epicatechin,PFTAWBLQPZVEMU-UKRRQHHQSA-N,CHEMBL583912
-Lactuca sativa,Q27104976,lupeol acetate,ODSSDTBFHAYYMD-YOJQYFTNSA-N,CHEMBL453802
-Lactuca sativa,Q27105128,"11beta,13-dihydrolactucin",ZHZZKRDEPZMPLJ-WLVQVHLUSA-N,
-Lactuca sativa,Q27106168,cichoriin,WNBCMONIPIJTSB-TVKJYDDYSA-N,
-Lactuca sativa,Q27107159,lactucaxanthin,BIPAHAFBQLWRMC-SUOWZELTSA-N,
-Lactuca sativa,Q27107162,Lactupicrin,UMVSOHBRAQTGQI-XGARDCMYSA-N,
-Lactuca sativa,Q27108380,taraxasterol,XWMMEBCFHUKHEX-CWFQSGEHSA-N,
-Lactuca sativa,Q27108536,glucozaluzanin c,OIOLZODVFMMERF-GHSWTDDMSA-N,CHEMBL490212
-Lactuca sativa,Q27108621,β-amyrin,JFSHUTJDVKUMTJ-QHPUVITPSA-N,CHEMBL455098
-Lactuca sativa,Q27131918,germanicol,QMUXVPRGNJLGRT-PNTWTTAKSA-N,CHEMBL2023103
-Lactuca sativa,Q27135678,(9Z)-β-carotene,OENHQHLEOONYIE-BVZAMQQESA-N,
-Lactuca sativa,Q27162448,"11beta,13-dihydrolactucopicrin",ICJJPTZLMALYBH-ZUQDHHQASA-N,
-Lactuca sativa,Q27166249,"2-Methyl-3-(3,7,11,15-tetramethylhexadec-2-enyl)-1,4-naphthoquinone",MBWXNTAXLNYFJB-UHFFFAOYSA-N,
-Lactuca sativa,Q51617505,(-)-epigallocatechin,XMOCLSLCDHWDHP-IUODEOHRSA-N,
-Lactuca sativa,Q72479982,(+)-gallocatechin,XMOCLSLCDHWDHP-SWLSCSKDSA-N,
-Lactuca sativa,Q82990981,"11beta,13-Dihydro-santamarin",DGIMMEWTLSCNGO-DMLGPZFASA-N,
-Lactuca sativa,Q83127413,Lettucenin A,PATCUDSVUMFCMB-UHFFFAOYSA-N,
-Lactuca sativa,Q100145894,"(3aS,4R,9aR,9bS)-4-hydroxy-9-(hydroxymethyl)-6-methyl-3-methylidene-4,5,9a,9b-tetrahydro-3aH-azuleno[4,5-b]furan-2,7-dione",VJQAFLAZRVKAKM-GJQVQUKXSA-N,
-Lactuca sativa,Q104251034,Lactuside A,TZXUUTQEICXCOH-RYGBUWAXSA-N,
-Lactuca sativa,Q104252257,,DQVGVYRSVYCJRR-AXRVZGOCSA-N,
-Lactuca sativa,Q104376036,germanicol acetate,FKMDSFSBFAGDCK-SPFANWNTSA-N,
-Lactuca sativa,Q104390349,costunolide,HRYLQFBHBWLLLL-BOHUOVHSSA-N,
-Lactuca sativa,Q104392842,"(1R)-4-[(1E,3E,5E,7E,9E,11E,13E,15E,17E)-18-[(1R)-4-hydroxy-2,6,6-trimethylcyclohex-2-en-1-yl]-3,7,12,16-tetramethyloctadeca-1,3,5,7,9,11,13,15,17-nonaenyl]-3,5,5-trimethylcyclohex-3-en-1-ol",KBPHJBAIARWVSC-RTIVXWJOSA-N,
-Lactuca sativa,Q104397505,Dihydrosantamarin,DGIMMEWTLSCNGO-XBDPKTDKSA-N,
-Lactuca sativa,Q104402655,Macrocliniside A,ARJUJAMZTUUZNZ-NJQUUYHGSA-N,
-Lactuca sativa,Q104917370,"(3aS,5R,6aR,8S,9aR,9bS)-5-hydroxy-3,6,9-trimethylidene-8-[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxy-3a,4,5,6a,7,8,9a,9b-octahydroazuleno[4,5-b]furan-2-one",ARJUJAMZTUUZNZ-AZVRUGFFSA-N,
-Lactuca sativa,Q104939286,"(3aS,6aR,9R,9aS,9bS)-9-(hydroxymethyl)-3,6-dimethylidene-9-[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxy-3a,4,5,6a,7,8,9a,9b-octahydroazuleno[4,5-b]furan-2-one",BOKMNGMJRJLOCJ-BQOOUUMFSA-N,
-Lactuca sativa,Q104986940,"(3S,3aS,5aR,6R,9R,9aS,9bS)-9-hydroxy-3,5a,9-trimethyl-6-[(2R,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxy-3a,4,5,6,7,8,9a,9b-octahydro-3H-benzo[g][1]benzofuran-2-one",DQHHPAKUNFZVIQ-ALMOYXMRSA-N,
-Lactuca sativa,Q105004945,"(3S,3abeta,6abeta,9abeta,9balpha)-3beta,9beta-Dimethyl-5beta,8alpha-dihydroxy-6-methylenedecahydroazuleno[4,5-b]furan-2(3H)-one",FZHVZHPJLXWJIZ-FXBRUWNDSA-N,
-Lactuca sativa,Q105011057,"9alpha-Hydroxy-11beta,13-dihydrozaluzanin C",GLMKTMOFCGDFFQ-XPLKHYSGSA-N,
-Lactuca sativa,Q105011901,"(2R,3R)-2-(3,4-dihydroxyphenyl)-6-[(2R,3S,4S)-2-(3,4-dihydroxyphenyl)-3,5,7-trihydroxy-3,4-dihydro-2H-chromen-4-yl]-3,4-dihydro-2H-chromene-3,5,7-triol",GMISZFQPFDAPGI-OSYQBESMSA-N,
-Lactuca sativa,Q105025894,"[(3aR,4R,9aR,9bS)-6-methyl-3-methylidene-2,7-dioxo-9-[[(2R,3S,4S,5S,6S)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxymethyl]-4,5,9a,9b-tetrahydro-3aH-azuleno[4,5-b]furan-4-yl] 2-(4-hydroxyphenyl)acetate",HCOZTDACWSVSLP-JTZNOEJASA-N,
-Lactuca sativa,Q105028062,"[(3S,3aS,5aR,6R,9aS,9bS)-6-hydroxy-3,5a-dimethyl-2-oxo-3,3a,4,5,6,7,9a,9b-octahydrobenzo[g][1]benzofuran-9-yl]methyl 2-(4-methoxyphenyl)acetate",HGXKRNRXAGDTHR-RQGNXEPMSA-N,
-Lactuca sativa,Q105032898,"(3aR,6E,10E,11aR)-6,10-dimethyl-3-methylidene-3a,4,5,8,9,11a-hexahydrocyclodeca[b]furan-2-one",HRYLQFBHBWLLLL-QJAKHLMASA-N,
-Lactuca sativa,Q105146108,"Cyclodeca[b]furan-2(3H)-one, 3a,4,5,8,9,11a-hexahydro-9-hydroxy-6-(hydroxymethyl)-3,10-dimethyl-, [3S-(3R*,3aR*,6Z,9R*,10E,11aR*)]-",KUERQAIAYCRGOB-DOGNWQSSSA-N,
-Lactuca sativa,Q105146110,"(3S,3aR,6Z,9R,10E,11aS)-9-hydroxy-6-(hydroxymethyl)-3,10-dimethyl-3a,4,5,8,9,11a-hexahydro-3H-cyclodeca[b]furan-2-one",KUERQAIAYCRGOB-PIOXYOOTSA-N,
-Lactuca sativa,Q105146467,"(3S,3aS,6Z,9S,10E,11aS)-9-hydroxy-3,10-dimethyl-2-oxo-3a,4,5,8,9,11a-hexahydro-3H-cyclodeca[b]furan-6-carbaldehyde",KVDCMKYALKIZID-DOGNWQSSSA-N,
-Lactuca sativa,Q105146468,"(3S,3aS,6E,9S,10E,11aR)-9-hydroxy-3,10-dimethyl-2-oxo-3a,4,5,8,9,11a-hexahydro-3H-cyclodeca[b]furan-6-carbaldehyde",KVDCMKYALKIZID-PSNZUKABSA-N,
-Lactuca sativa,Q105146470,"(3S,3aS,6E,9S,10E,11aS)-9-hydroxy-3,10-dimethyl-2-oxo-3a,4,5,8,9,11a-hexahydro-3H-cyclodeca[b]furan-6-carbaldehyde",KVDCMKYALKIZID-YOBAHCRPSA-N,
-Lactuca sativa,Q105149341,"3-methyl-6,9-dimethylidene-8-[3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxy-3a,4,5,6a,7,8,9a,9b-octahydro-3H-azuleno[4,5-b]furan-2-one",LBJIOPYQHNZVLF-UHFFFAOYSA-N,
-Lactuca sativa,Q105183052,3beta-(alpha-D-Glucopyranosyloxy)stigmasta-5-ene,NPJICTMALKLTFW-KUENWNPSSA-N,
-Lactuca sativa,Q105192638,"(3aS,6aR,8S,9aR,9bS)-3,6,9-trimethylidene-8-[(2S,3R,4S,5R,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxy-3a,4,5,6a,7,8,9a,9b-octahydroazuleno[4,5-b]furan-2-one",OIOLZODVFMMERF-BHFFZQNCSA-N,
-Lactuca sativa,Q105205513,"(3S,3aS,6S,6aR,9aR,9bS)-6-hydroxy-6-(hydroxymethyl)-3-methyl-9-methylidene-3a,4,5,6a,7,8,9a,9b-octahydro-3H-azuleno[4,5-b]furan-2-one",PBXKFMXJVNEHCU-MRWSCNBVSA-N,
-Lactuca sativa,Q105212039,9alpha-Hydroxyzaluzalin C,PNMKDWVKEBNNFG-XQZGEAEESA-N,
-Lactuca sativa,Q105242407,"3-[[(2R,3S,4R,5R,6S)-6-[2-(3,4-dihydroxyphenyl)-5,7-dihydroxychromenylium-3-yl]oxy-3,4,5-trihydroxyoxan-2-yl]methoxy]-3-oxopropanoic acid",ROQLTZUOXIQBDO-PGDPNNLMSA-O,
-Lactuca sativa,Q105242925,"(3S)-6alpha-(beta-D-Glucopyranosyloxy)-3abeta,6,6abeta,7,8,9,9abeta,9balpha-octahydro-6-(hydroxymethyl)-3beta-methyl-9-methyleneazuleno[4,5-b]furan-2(3H)-one",RPQTUGURKSFZTM-MHMJNRRMSA-N,
-Lactuca sativa,Q105245096,Prodelphinidin B,RTEDIEITOBJPNI-UHFFFAOYSA-N,
-Lactuca sativa,Q105268475,"(3S,3aS,6E,9R,10E,11aS)-3,10-dimethyl-2-oxo-9-[(2R,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxy-3a,4,5,8,9,11a-hexahydro-3H-cyclodeca[b]furan-6-carbaldehyde",TZXUUTQEICXCOH-GZKCVXLASA-N,
-Lactuca sativa,Q105268478,"(3S,3aS,6E,9S,10E,11aR)-3,10-dimethyl-2-oxo-9-[(2R,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxy-3a,4,5,8,9,11a-hexahydro-3H-cyclodeca[b]furan-6-carbaldehyde",TZXUUTQEICXCOH-XWHBQGKBSA-N,
-Lactuca sativa,Q105351857,Lactuside B,YPUAPUZIURIYPB-BJQNQQTFSA-N,
-Lactuca sativa,Q105351861,"(3S,3aS,6E,9S,10E,11aR)-6-(hydroxymethyl)-3,10-dimethyl-9-[(2R,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxy-3a,4,5,8,9,11a-hexahydro-3H-cyclodeca[b]furan-2-one",YPUAPUZIURIYPB-XWHBQGKBSA-N,
-Lactuca sativa,Q105373427,Cichorioside B,ZEMSXERQBUSFBA-YNZHIRHJSA-N,
-Lactuca sativa,Q105383871,"(3S,3aS,5R,9aS,9bS)-3,6,9-trimethyl-5-[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxy-3,3a,4,5,9a,9b-hexahydroazuleno[4,5-b]furan-2,7-dione",ZUNQUEPUGDYLCG-ASGNGTQASA-N,
-Lactuca sativa,Q105383874,Lactuside C,ZUNQUEPUGDYLCG-NHDJOBCSSA-N,
-Lactuca sativa,Q110080581,"2-[(4-hydroxy-6-methyl-3-methylidene-2,7-dioxo-4,5,9a,9b-tetrahydro-3aH-azuleno[8,7-b]furan-9-yl)methoxy]-2-oxoacetic acid",LMOXWYJMYLUOMS-UHFFFAOYSA-N,
-Lactuca sativa,Q110184368,,REFBLEJUPUPWLM-UHFFFAOYSA-N,
-Lactuca sativa,Q115948653,"cis-b,b-Carotene",OENHQHLEOONYIE-KBPBZLIPSA-N,
-Lactuca sativa,Q115948655,"(3R,3'R,15-cis)-b,b-Carotene-3,3'-diol",JKQXZKUSFCKOGQ-PWPFSTEPSA-N,
-Lactuca sativa,Q115951672,,KUERQAIAYCRGOB-NOYQSMGQSA-N,
-Bidens tripartita,Q407426,linoleic acid,OYHQOLUKZRVURQ-HZJYTTRNSA-N,CHEMBL267476
-Bidens tripartita,Q415011,luteolin,IQPNAANSBPBGFQ-UHFFFAOYSA-N,CHEMBL151
-Bidens tripartita,Q416196,umbelliferone,ORHBXUUXSCNDEV-UHFFFAOYSA-N,CHEMBL51628
-Bidens tripartita,Q423357,eugenol,RRAFCDWBNXTKKO-UHFFFAOYSA-N,CHEMBL42710
-Bidens tripartita,Q2317288,luteoloside,PEFNSGRTCBGNAN-QNDFHXLGSA-N,CHEMBL233929
-Bidens tripartita,Q2472366,scopoletin,RODXRVNMMDRFIK-UHFFFAOYSA-N,CHEMBL71851
-Bidens tripartita,Q3058018,esculetin,ILEDWLMCKZNDJK-UHFFFAOYSA-N,CHEMBL244743
-Bidens tripartita,Q5002498,butein,AYMYWHCQALZEGT-ORCRQEGFSA-N,CHEMBL128000
-Bidens tripartita,Q24817453,cosmene,HPZWSJQQCJZBBG-LQPGMRSMSA-N,
-Bidens tripartita,Q26777005,(3Z)-β-ocimene,IHPKGUQCSIINRJ-NTMALXAHSA-N,
-Bidens tripartita,Q27108357,sulfuretin,RGNXWPVNPFAADO-NSIKDUERSA-N,CHEMBL490355
-Bidens tripartita,Q27164063,"1-(2,4-Dihydroxyphenyl)-3-(3,4-dihydroxyphenyl)-2-propen-1-one",AYMYWHCQALZEGT-UHFFFAOYSA-N,
-Bidens tripartita,Q76305011,1-(2-Hydroxy-4-methoxyphenyl)-3-(4-methoxyphenyl)-2-propen-1-one,OAAPAFSEMHJNTF-BJMVGYQFSA-N,
-Bidens tripartita,Q105188557,"6'-Hydroxy-4,4'-dimethoxychalcone",OAAPAFSEMHJNTF-UHFFFAOYSA-N,
-Bidens tripartita,Q105207078,"2-(3,4-dihydroxyphenyl)-5-hydroxy-7-[(2R,3S,4R,5R,6S)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxychromen-4-one",PEFNSGRTCBGNAN-RQUKQETFSA-N,
-Bidens tripartita,Q105235972,sulfuretin,RGNXWPVNPFAADO-UHFFFAOYSA-N,
-Helleborus odorus,Q421294,protoanemonin,RNYZJZKPGHQTJR-UHFFFAOYSA-N,
-Helleborus odorus,Q423338,20-hydroxyecdysone,NKDFYOWSKOHCCO-YPVLXUMRSA-N,CHEMBL224128
-Helleborus odorus,Q76085451,hellebrigenin,TVKPTWJPKVSGJB-XHCIOXAKSA-N,
-Helleborus odorus,Q82941973,"14-Hydroxy-3-oxobufa-20,22-dienolide",YHPFWEDUGHFFTA-UHFFFAOYSA-N,
-Helleborus odorus,Q104403426,"(1R,3aS,5aS,7S,9aS,11aR)-7-{[(2R,4R,5R)-3,4-dihydroxy-6-methyl-5-{[(2S,4R,5S)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxy}oxan-2-yl]oxy}-3a,5a-dihydroxy-11a-methyl-1-(6-oxopyran-3-yl)-dodecahydro-1H-cyclopenta[a]phenanthrene-9a-carbaldehyde",DCSLTSSPIJWEJN-IMBGTWCNSA-N,
-Helleborus odorus,Q105030961,CID 44584382,HNNFRQFXBWSJBX-MTUTWWBMSA-N,
-Helleborus odorus,Q110185733,Hellebrin,DCSLTSSPIJWEJN-YRFFWODSSA-N,
-Phillyrea latifolia,Q358968,coniferin,SFLMUHDGSQZDOW-FAOXUISGSA-N,CHEMBL459056
-Phillyrea latifolia,Q402625,oleuropein,RFWGABANNQMHMZ-ZCHJGGQASA-N,CHEMBL1911053
-Phillyrea latifolia,Q409478,quercetin,REFJWTPEDVJJIY-UHFFFAOYSA-N,CHEMBL50
-Phillyrea latifolia,Q411426,verbascoside,FBSKJMQYURKNSU-ZLSOWSIRSA-N,CHEMBL231853
-Phillyrea latifolia,Q415011,luteolin,IQPNAANSBPBGFQ-UHFFFAOYSA-N,CHEMBL151
-Phillyrea latifolia,Q416260,ursolic acid,WCGUUGGRBIKTOS-GPOJBZKASA-N,CHEMBL169
-Phillyrea latifolia,Q418628,oleanolic acid,MIJYXULNPSFWEK-GTOFXWBISA-N,CHEMBL168
-Phillyrea latifolia,Q424567,apigenin,KZNIFHPLKGYRTM-UHFFFAOYSA-N,CHEMBL28
-Phillyrea latifolia,Q891785,eleutheroside B,QJVXKWHHAMZTBY-GCPOEHJPSA-N,CHEMBL250872
-Phillyrea latifolia,Q2317288,luteoloside,PEFNSGRTCBGNAN-QNDFHXLGSA-N,CHEMBL233929
-Phillyrea latifolia,Q2858304,apigetrin,KMOUJOKENFFTPU-QNDFHXLGSA-N,CHEMBL487017
-Phillyrea latifolia,Q7404463,salidroside,ILRCGYURZSFMEG-RKQHYHRCSA-N,CHEMBL465208
-Phillyrea latifolia,Q23055215,Apigenin 7-rutinoside,FKIYLTVJPDLUDL-SLNHTJRHSA-N,CHEMBL454778
-Phillyrea latifolia,Q27105597,7-Epiloganic acid,JNNGEAWILNVFFD-DXNVVGTLSA-N,
-Phillyrea latifolia,Q27137333,luteolin-4'-O-beta-D-glucopyranoside,UHNXUSWGOJMEFO-QNDFHXLGSA-N,CHEMBL459822
-Phillyrea latifolia,Q27151384,Forsythin,KFFCKOBAHMGTMW-LGQRSHAYSA-N,
-Phillyrea latifolia,Q27269447,ligstroside,GMQXOLRKJQWPNB-MVVLSVRYSA-N,CHEMBL1086877
-Phillyrea latifolia,Q72507279,Secoxyloganin,MQLSOVRLZHTATK-PEYNGXJCSA-N,
-Phillyrea latifolia,Q104253146,"(2S,3S,4S,5R,6R)-2-[4-[(3S,3aR,6S,6aR)-3-(3,4-dimethoxyphenyl)-1,3,3a,4,6,6a-hexahydrofuro[3,4-c]furan-6-yl]-2-methoxyphenoxy]-6-(hydroxymethyl)oxane-3,4,5-triol",KFFCKOBAHMGTMW-REXVRNFISA-N,
-Phillyrea latifolia,Q104391252,"methyl (4S,5E,6R)-5-ethylidene-4-[2-[2-(4-hydroxyphenyl)ethoxy]-2-oxoethyl]-6-[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxy-4H-pyran-3-carboxylate",GMQXOLRKJQWPNB-OETWDZMNSA-N,
-Phillyrea latifolia,Q104392505,Secologanoside,RGTONEMDTVVDMY-GRTPNEQMSA-N,
-Phillyrea latifolia,Q104667373,(5Z)-oleuropein,RFWGABANNQMHMZ-WLFYAOHHSA-N,
-Phillyrea latifolia,Q105032211,8-Epikingisidic acid,HQEBQNGGKFIFBW-SDESGXHJSA-N,
-Phillyrea latifolia,Q105115402,"(2R,3S,4S,5R,6S)-2-(hydroxymethyl)-6-[2-(4-hydroxyphenyl)ethoxy]oxane-3,4,5-triol",ILRCGYURZSFMEG-RGDJUOJXSA-N,
-Phillyrea latifolia,Q105235684,"methyl (4R,5E,6S)-4-[2-[2-(3,4-dihydroxyphenyl)ethoxy]-2-oxoethyl]-5-ethylidene-6-[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxy-4H-pyran-3-carboxylate",RFWGABANNQMHMZ-ZQNIJKSFSA-N,
-Asplenium trichomanes,Q142871,alpha carotene (stereochemistry specified),ANVAOWXLWRTKGA-NTXLUARGSA-N,
-Asplenium trichomanes,Q169337,zeaxanthin,JKQXZKUSFCKOGQ-QAYBQHTQSA-N,CHEMBL2359248
-Asplenium trichomanes,Q392062,cryptoxanthin,DMASLKHVQRHNES-FKKUPVFPSA-N,
-Asplenium trichomanes,Q422067,lutein,KBPHJBAIARWVSC-RGZFRNHPSA-N,CHEMBL1979448
-Asplenium trichomanes,Q607883,violaxanthin,SZCBXWMUOPQSOX-WVJDLNGLSA-N,
-Asplenium trichomanes,Q2479965,rhodoxanthin,VWXMLZQUDPCJPL-ZDHAIZATSA-N,
-Asplenium trichomanes,Q27103135,taraxanthin,DYUUPIKEWLHQGQ-FJOIUHRLSA-N,
-Asplenium trichomanes,Q104253037,"(6S,7Ar)-2-[(2E,4E,6E,8E,10E,12E,14E,16E)-17-[(4R)-4-hydroxy-2,6,6-trimethylcyclohexen-1-yl]-6,11,15-trimethylheptadeca-2,4,6,8,10,12,14,16-octaen-2-yl]-4,4,7a-trimethyl-2,5,6,7-tetrahydro-1-benzofuran-6-ol",IFYMEZNJCAQUME-HHBFRJADSA-N,
-Asplenium trichomanes,Q104986846,"5-hydroxy-2-(4-hydroxyphenyl)-7-[(2S,3R,4S,5R,6S)-3,4,5-trihydroxy-6-methyloxan-2-yl]oxy-3-[(2S,3S,4S,5S)-3,4,5-trihydroxyoxan-2-yl]oxychromen-4-one",DQBVFTJNUYZVQL-FCYXVNGCSA-N,
-Asplenium trichomanes,Q105215196,"Kaempferol-3,7-O-bis-alpha-L-rhamnoside",PUPKKEQDLNREIM-KPQJDSDZSA-N,
-Asplenium trichomanes,Q105306110,"5-hydroxy-2-(4-hydroxyphenyl)-3-[(2S,3R,4S,5R,6S)-3,4,5-trihydroxy-6-methyloxan-2-yl]oxy-7-[(2S,3S,4S,5S)-3,4,5-trihydroxyoxan-2-yl]oxychromen-4-one",WIALSWOBTZTJMW-FCYXVNGCSA-N,
-Hedera helix,Q158348,RRR-alpha-tocopherol,GVJHHUAWPYXKBD-IEOSBIPESA-N,CHEMBL47
-Hedera helix,Q188017,L-tyrosine,OUYCCCASQSFEME-QMMMGPOBSA-N,CHEMBL925
-Hedera helix,Q207688,oleic acid,ZQPPMHVWECSIRJ-KTKRTIGZSA-N,CHEMBL8659
-Hedera helix,Q393336,kaempferol,IYRMWMYZSQPJKC-UHFFFAOYSA-N,CHEMBL150
-Hedera helix,Q407857,rutin,IKGXIBQEEMLURG-NVPNHPEKSA-N,CHEMBL226335
-Hedera helix,Q409478,quercetin,REFJWTPEDVJJIY-UHFFFAOYSA-N,CHEMBL50
-Hedera helix,Q413192,panaxynol,UGJAEDFOKNAMQD-QXPKXGMISA-N,CHEMBL71260
-Hedera helix,Q414116,trans-caffeic acid,QAIPRVGONGVQAS-DUXPYHPUSA-N,CHEMBL145
-Hedera helix,Q418599,"3,4-dihydroxybenzoic acid",YQUVCSBJEUQKSH-UHFFFAOYSA-N,CHEMBL37537
-Hedera helix,Q421964,(E)-chlorogenic acid,CWVRJTMFETXNAD-JUHZACGLSA-N,CHEMBL284616
-Hedera helix,Q483745,L-leucine,ROHFNLRQFUQHCH-YFKPBYRVSA-N,CHEMBL291962
-Hedera helix,Q483752,L-valine,KZSNJWFQEVHDMF-BYPYZUCNSA-N,CHEMBL43068
-Hedera helix,Q484940,L-isoleucine,AGPKZVBTJJNPAG-WHFBIAKZSA-N,CHEMBL1233584
-Hedera helix,Q620730,glycine,DHMQDGOQFOQNFH-UHFFFAOYSA-N,CHEMBL773
-Hedera helix,Q2080732,petroselinic acid,CNVZJPUDSLNTQU-SEYXRHQNSA-N,CHEMBL3139878
-Hedera helix,Q3050386,emetine,AUVVAXYIELKVAI-CKBKHPSWSA-N,CHEMBL50588
-Hedera helix,Q4811191,Astragalin,JPUKWEQWGBDDQB-QSOFNFLRSA-N,CHEMBL233930
-Hedera helix,Q5697238,hederagenin,PGOYMURMZNDHNS-MYPRUECHSA-N,CHEMBL486400
-Hedera helix,Q6992128,neochlorogenic acid,CWVRJTMFETXNAD-NXLLHMKUSA-N,CHEMBL249450
-Hedera helix,Q20035886,L-proline,ONIBWKKTOPOVIA-BYPYZUCNSA-N,CHEMBL54922
-Hedera helix,Q23058965,nictoflorin,RTATXGUCZHCSNG-QHWHWDPRSA-N,CHEMBL498879
-Hedera helix,Q25105925,α-hederin,KEOITPILCOILGM-LLJOFIFVSA-N,CHEMBL447565
-Hedera helix,Q26841253,D-phenylalanine,COLNVLDHVKWLRT-MRVPVSSYSA-N,CHEMBL379630
-Hedera helix,Q27102199,2-carboxy-D-arabinitol,XONDRGRALZTVKD-ZMIZWQJLSA-N,
-Hedera helix,Q27104421,calenduloside E,IUCHKMAZAWJNBJ-RCYXVVTDSA-N,CHEMBL446866
-Hedera helix,Q27106601,Falcarinone,UQEBOJRXTNLPKZ-KHPPLWFESA-N,CHEMBL1973480
-Hedera helix,Q27106835,hederagenin 3-O-arabinoside,QUBNLZCADIYAFW-RITZIESXSA-N,CHEMBL452911
-Hedera helix,Q27108632,beta-Hederin,IBAJNOZMACNWJD-HVUPOBLPSA-N,CHEMBL502407
-Hedera helix,Q27133812,acutoside A,LEQCLUFJRGKLOA-WLMDKFIXSA-N,CHEMBL504527
-Hedera helix,Q27137710,kalopanaxsaponin b,RYHDIBJJJRNDSX-MCGLQMIESA-N,CHEMBL1910840
-Hedera helix,Q27137714,cauloside D,UEHILKCNLIKLEV-LXABABOZSA-N,CHEMBL538919
-Hedera helix,Q27137931,30-norhederagenin,FKUBIEWSGBVADJ-VZBPFLCRSA-N,CHEMBL1081326
-Hedera helix,Q27155051,"(3S,9Z)-1,9-Heptadecadiene-4,6-diyn-3-ol",UGJAEDFOKNAMQD-MQNTZWLQSA-N,CHEMBL368712
-Hedera helix,Q27258775,cauloside g,SRSSAQMYMNLZFL-IYZIRETKSA-N,CHEMBL550487
-Hedera helix,Q27276893,dipsacoside b,GFPLPBCJRRNZHM-ICUGHKHQSA-N,
-Hedera helix,Q29519883,L-Asparagine,DCXYFEDJOCDNAF-REOHCLBHSA-N,CHEMBL58832
-Hedera helix,Q50380051,(R)-rosmarinic acid,DOUMFZQKYFQNTF-WUTVXBCWSA-N,CHEMBL324842
-Hedera helix,Q63398496,"2-(3,4-dihydroxyphenyl)-5,7-dihydroxy-3-[(2S,3R,4R,5R,6S)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxychromen-4-one",OVSQVDMCBVZWGM-LVWULRLVSA-N,
-Hedera helix,Q82134949,phenyl-Alanine,XWKAVQKJQBISOL-ZETCQYMHSA-N,
-Hedera helix,Q82941528,Hederoside B,CCDRPBGPIXPGRW-RNYXGUFRSA-N,
-Hedera helix,Q83002196,"beta-D-Glucopyranosiduronic acid, (3beta,4alpha)-17-carboxy-23-hydroxy-28-norolean-12-en-3-yl",DYFUVQSGLMQLRX-ALBXZGMBSA-N,
-Hedera helix,Q104250275,Covi-ox,GVJHHUAWPYXKBD-IHMCZWCLSA-N,
-Hedera helix,Q104252118,(Z)-falcarinol,UGJAEDFOKNAMQD-SXSDINLZSA-N,
-Hedera helix,Q104391960,Hederasaponin B,NVSLBOBPSCMMSO-BVLVEXITSA-N,
-Hedera helix,Q104391965,"10-(2,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,22,24,26,28-Docosahydroxynonacosoxy)-9-(hydroxymethyl)-2,2,6a,6b,9,12a-hexamethyl-1,3,4,5,6,6a,7,8,8a,10,11,12,13,14b-tetradecahydropicene-4a-carboxylic acid",PGHRFWJRZHZTQN-UHFFFAOYSA-N,
-Hedera helix,Q104402787,hederagenin-3-O-beta-D-glucopyranoside,CCDRPBGPIXPGRW-DLQTVUGOSA-N,
-Hedera helix,Q104667835,hederacoside D,UEHILKCNLIKLEV-UHFFFAOYSA-N,
-Hedera helix,Q104888519,"9-(Hydroxymethyl)-2,2,6a,6b,9,12a-hexamethyl-10-(3,4,5-trihydroxyoxan-2-yl)oxy-1,3,4,5,6,6a,7,8,8a,10,11,12,13,14b-tetradecahydropicene-4a-carboxylic acid",QUBNLZCADIYAFW-UHFFFAOYSA-N,
-Hedera helix,Q104909651,Didehydrofalcarinol,ADKVNLJOJPLERM-GMBPKHMRSA-N,
-Hedera helix,Q104909653,"(3S,9Z,11Z)-heptadeca-1,9,11,16-tetraen-4,6-diyn-3-ol",ADKVNLJOJPLERM-JBDKYTPXSA-N,
-Hedera helix,Q104953169,"(4aS,6aR,6aS,6bR,8aS,9R,10S,12aR,14bS)-9-(hydroxymethyl)-2,2,6a,6b,9,12a-hexamethyl-10-[(2R,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxy-1,3,4,5,6,6a,7,8,8a,10,11,12,13,14b-tetradecahydropicene-4a-carboxylic acid",CCDRPBGPIXPGRW-QOBSNSOZSA-N,
-Hedera helix,Q104971683,,CWYUSFMWQKCWDK-AAVGEHTMSA-N,
-Hedera helix,Q104971684,,CWYUSFMWQKCWDK-UHFFFAOYSA-N,
-Hedera helix,Q104991356,"6-[[8a-Carboxy-4-(hydroxymethyl)-4,6a,6b,11,11,14b-hexamethyl-1,2,3,4a,5,6,7,8,9,10,12,12a,14,14a-tetradecahydropicen-3-yl]oxy]-3,4,5-trihydroxyoxane-2-carboxylic acid",DYFUVQSGLMQLRX-UHFFFAOYSA-N,
-Hedera helix,Q105004394,,FYBHGBVHRPQYQC-GWIVOYSISA-N,
-Hedera helix,Q105007691,Glycoside L-G3;Tauroside G3,GFPLPBCJRRNZHM-UHFFFAOYSA-N,
-Hedera helix,Q105031883,CID 15127236,HPTCFCREEHCWMI-GTOFXWBISA-N,
-Hedera helix,Q105035758,"(4aS,6aR,6aS,6bR,8aR,10S,12aR,14bS)-2,2,6a,6b,9,9,12a-heptamethyl-10-[(2S,3R,4S,5S)-3,4,5-trihydroxyoxan-2-yl]oxy-1,3,4,5,6,6a,7,8,8a,10,11,12,13,14b-tetradecahydropicene-4a-carboxylic acid",HZLWUYJLOIAQFC-HRDZKRTASA-N,
-Hedera helix,Q105035759,"2,2,6a,6b,9,9,12a-Heptamethyl-10-(3,4,5-trihydroxyoxan-2-yl)oxy-1,3,4,5,6,6a,7,8,8a,10,11,12,13,14b-tetradecahydropicene-4a-carboxylic acid",HZLWUYJLOIAQFC-UHFFFAOYSA-N,
-Hedera helix,Q105036394,"10-[4,5-Dihydroxy-3-(3,4,5-trihydroxy-6-methyloxan-2-yl)oxyoxan-2-yl]oxy-2,2,6a,6b,9,9,12a-heptamethyl-1,3,4,5,6,6a,7,8,8a,10,11,12,13,14b-tetradecahydropicene-4a-carboxylic acid",IBAJNOZMACNWJD-UHFFFAOYSA-N,
-Hedera helix,Q105120478,Momordin Ib,IUCHKMAZAWJNBJ-UHFFFAOYSA-N,
-Hedera helix,Q105127551,Tauroside D,JGNKEDAWBHVCHY-VCCIMKKOSA-N,
-Hedera helix,Q105140089,,KEOITPILCOILGM-IPOPOHETSA-N,
-Hedera helix,Q105140097,Sapindoside A,KEOITPILCOILGM-UHFFFAOYSA-N,
-Hedera helix,Q105143172,,KMSBNWQKGSLQFA-FVQPYGJLSA-N,
-Hedera helix,Q105143174,"10-[4,5-Dihydroxy-6-(hydroxymethyl)-3-(3,4,5-trihydroxy-6-methyloxan-2-yl)oxyoxan-2-yl]oxy-9-(hydroxymethyl)-2,2,6a,6b,9,12a-hexamethyl-1,3,4,5,6,6a,7,8,8a,10,11,12,13,14b-tetradecahydropicene-4a-carboxylic acid",KMSBNWQKGSLQFA-UHFFFAOYSA-N,
-Hedera helix,Q105147198,Cauloside F,KWXBKEINOHVSGJ-FBCAOFFQSA-N,
-Hedera helix,Q105175216,,MYVNIRXXBZQJLZ-UHFFFAOYSA-N,
-Hedera helix,Q105175217,,MYVNIRXXBZQJLZ-ZHEUBHLBSA-N,
-Hedera helix,Q105179632,,NHWXLQPHNIUEFJ-UHFFFAOYSA-N,
-Hedera helix,Q105179633,,NHWXLQPHNIUEFJ-XSFOBXPPSA-N,
-Hedera helix,Q105184845,Staunoside A,NRVVDCANHAKYCV-INVBGFSGSA-N,
-Hedera helix,Q105186393,eleutheroside M,NVSLBOBPSCMMSO-UHFFFAOYSA-N,
-Hedera helix,Q105190213,,OEEIXDVEDJTQPJ-CNPWXMHRSA-N,
-Hedera helix,Q105190214,,OEEIXDVEDJTQPJ-UHFFFAOYSA-N,
-Hedera helix,Q105200756,,OVJNJRGKGRKYIY-IHTSAJPJSA-N,
-Hedera helix,Q105200759,,OVJNJRGKGRKYIY-UHFFFAOYSA-N,
-Hedera helix,Q105207513,"(4aR,5R,6aR,6aS,6bR,8aR,10S,12aR,14bS)-5-hydroxy-2,2,6a,6b,9,9,12a-heptamethyl-10-sulfooxy-1,3,4,5,6,6a,7,8,8a,10,11,12,13,14b-tetradecahydropicene-4a-carboxylic acid",PEYMPFXFOUIQGT-VUYAZHOMSA-N,
-Hedera helix,Q105215545,,PVNXMFDNBHBTQH-UHFFFAOYSA-N,
-Hedera helix,Q105215546,,PVNXMFDNBHBTQH-WZJLZQBYSA-N,
-Hedera helix,Q105228036,"(4aS,6aR,6aS,6bR,8aS,9R,10S,12aR,14bS)-9-(hydroxymethyl)-2,2,6a,6b,9,12a-hexamethyl-10-[(2S,3R,4S,5S)-3,4,5-trihydroxyoxan-2-yl]oxy-1,3,4,5,6,6a,7,8,8a,10,11,12,13,14b-tetradecahydropicene-4a-carboxylic acid",QUBNLZCADIYAFW-IQLUPVJSSA-N,
-Hedera helix,Q105236377,,RHHSFOQSESHVRS-UHFFFAOYSA-N,
-Hedera helix,Q105236379,,RHHSFOQSESHVRS-ZJSHWQRDSA-N,
-Hedera helix,Q105238121,Scheffleraside II,RJWVNQDEFVAPCR-UAOABQJCSA-N,
-Hedera helix,Q105238122,,RJWVNQDEFVAPCR-UHFFFAOYSA-N,
-Hedera helix,Q105247572,"Olean-12-en-28-oic acid, 3-[[2-O-(6-deoxy-alpha-L-mannopyranosyl)-alpha-L-arabinopyranosyl]oxy]-23-hydroxy-, O-6-deoxy-alpha-L-mannopyranosyl-(1.fwdarw.4)-O-beta-D-glucopyranosyl-(1.fwdarw.6)-beta-D-glucopyranosyl ester, (3beta,4alpha)-",RYHDIBJJJRNDSX-PCYDYEHUSA-N,
-Hedera helix,Q105247578,hederacoside C,RYHDIBJJJRNDSX-UHFFFAOYSA-N,
-Hedera helix,Q105264454,3-O-alpha-L-Arabinopyranosylechinocystic acid,SZXCDOOFLYYOCZ-HDYQOPGWSA-N,
-Hedera helix,Q105264455,"5-Hydroxy-2,2,6a,6b,9,9,12a-heptamethyl-10-(3,4,5-trihydroxyoxan-2-yl)oxy-1,3,4,5,6,6a,7,8,8a,10,11,12,13,14b-tetradecahydropicene-4a-carboxylic acid",SZXCDOOFLYYOCZ-UHFFFAOYSA-N,
-Hedera helix,Q105287771,Helixoside A,VKICMPRVQHZPRV-XGUXQMSSSA-N,
-Hedera helix,Q105290863,,VPMAVMNCCCVJSK-CXGCXQJASA-N,
-Hedera helix,Q105301876,,WCMJLEULXWUCRF-OLTREEDVSA-N,
-Hedera helix,Q105301881,,WCMJLEULXWUCRF-XUJGWIJLSA-N,
-Hedera helix,Q105306407,"(9S,10R)-9,10-Epoxy-1-heptadecene-4,6-diyne-3-one",WIONCQLWGYLTME-SJORKVTESA-N,
-Hedera helix,Q105306758,"(3S,9Z,11Z)-heptadeca-1,9,11-trien-4,6-diyn-3-ol",WJFSPRQRDLHNOE-JBDKYTPXSA-N,
-Hedera helix,Q105311014,"10-[4,5-Dihydroxy-3-(3,4,5-trihydroxy-6-methyloxan-2-yl)oxyoxan-2-yl]oxy-5-hydroxy-2,2,6a,6b,9,9,12a-heptamethyl-1,3,4,5,6,6a,7,8,8a,10,11,12,13,14b-tetradecahydropicene-4a-carboxylic acid",WQVNDHHTUJYLTJ-UHFFFAOYSA-N,
-Hedera helix,Q105311015,,WQVNDHHTUJYLTJ-XDNDNJDCSA-N,
-Hedera helix,Q105330289,Glycoside L-F2,XLRCLQVFCBYALB-UHFFFAOYSA-N,
-Hedera helix,Q105330290,,XLRCLQVFCBYALB-XMQPJTDOSA-N,
-Hedera helix,Q105345640,Hederasaponin F,YAWJHQZYFGHLSY-VYEWMGKISA-N,
-Hedera helix,Q105351015,,YNMWBVNUVVDDPQ-OJIOAXDUSA-N,
-Hedera helix,Q105351696,Helixoside B,YPIHCZNMLNJVSW-NMEUZNJHSA-N,
-Hedera helix,Q105368748,,YYMHTAGTVKFQOP-KPFPMFHISA-N,
-Hedera helix,Q105368752,,YYMHTAGTVKFQOP-UHFFFAOYSA-N,
-Hedera helix,Q105371033,,ZCCWQTVZGNRCJQ-UHFFFAOYSA-N,
-Hedera helix,Q105371035,,ZCCWQTVZGNRCJQ-XZRDZOFRSA-N,
-Hedera helix,Q105375324,3beta-(alpha-L-Arabinopyranosyloxy)-16alpha-hydroxyoleana-12-ene-28-oic acid 6-O-(4-O-alpha-L-rhamnopyranosyl-beta-D-glucopyranosyl)-beta-D-glucopyranosyl ester,ZGMSGGSISLPGEC-SEQZVPSZSA-N,
-Hedera helix,Q105375325,,ZGMSGGSISLPGEC-UHFFFAOYSA-N,
-Hedera helix,Q105385314,,ZWYKDDVVXUXZHA-UHFFFAOYSA-N,
-Hedera helix,Q105385316,,ZWYKDDVVXUXZHA-VRVJSPLRSA-N,
 Petroselinum crispum,Q14982,methanol,OKKJLVBELUTLKV-UHFFFAOYSA-N,CHEMBL14688
 Petroselinum crispum,Q15779,toluene,YXFVVABEGXRONW-UHFFFAOYSA-N,CHEMBL9113
 Petroselinum crispum,Q19414,(±)-3-carene,BQOFWKZOCNGFEC-UHFFFAOYSA-N,CHEMBL506854
@@ -31616,6 +31307,42 @@ Scolymus hispanicus,Q63398496,"2-(3,4-dihydroxyphenyl)-5,7-dihydroxy-3-[(2S,3R,4
 Scolymus hispanicus,Q104252693,Isochlorogensaure,CWVRJTMFETXNAD-PNQZTZQXSA-N,
 Scolymus hispanicus,Q105139992,"5,7-Dihydroxy-2-(3-hydroxy-4-methoxyphenyl)-3-(((2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-((((2R,3R,4R,5R,6S)-3,4,5-trihydroxy-6-methyltetrahydro-2H-pyran-2-yl)oxy)methyl)tetrahydro-2H-pyran-2-yl)oxy)-4H-chromen-4-one",KEIZXGINFPDITQ-GEBJFKNCSA-N,
 Scolymus hispanicus,Q110081243,"6-[2-(3,4-Dihydroxyphenyl)-5,7-dihydroxy-4-oxochromen-3-yl]oxy-5-[3-(3,4-dihydroxyphenyl)prop-2-enoyloxy]-3,4-dihydroxyoxane-2-carboxylic acid",OWFPENLVOZPLQP-UHFFFAOYSA-N,
+Lepidium sativum,Q193572,salicylic acid,YGSDEFSMJLZEOE-UHFFFAOYSA-N,CHEMBL424
+Lepidium sativum,Q207688,oleic acid,ZQPPMHVWECSIRJ-KTKRTIGZSA-N,CHEMBL8659
+Lepidium sativum,Q256502,alpha-linolenic acid,DTOSIQBPPRVQHS-PDBXOOCHSA-N,CHEMBL8739
+Lepidium sativum,Q393336,kaempferol,IYRMWMYZSQPJKC-UHFFFAOYSA-N,CHEMBL150
+Lepidium sativum,Q407426,linoleic acid,OYHQOLUKZRVURQ-HZJYTTRNSA-N,CHEMBL267476
+Lepidium sativum,Q409478,quercetin,REFJWTPEDVJJIY-UHFFFAOYSA-N,CHEMBL50
+Lepidium sativum,Q411310,hesperetin,AIONOLUJZLIMTK-AWEZNQCLSA-N,CHEMBL399121
+Lepidium sativum,Q413531,erucic acid,DPUOLQHDNGRHBS-KTKRTIGZSA-N,CHEMBL1173380
+Lepidium sativum,Q415011,luteolin,IQPNAANSBPBGFQ-UHFFFAOYSA-N,CHEMBL151
+Lepidium sativum,Q416138,isorhamnetin,IZQSVPBOUDKVDZ-UHFFFAOYSA-N,CHEMBL379064
+Lepidium sativum,Q424567,apigenin,KZNIFHPLKGYRTM-UHFFFAOYSA-N,CHEMBL28
+Lepidium sativum,Q18341725,benzyl isothiocyanate,MDKCFLQDBWCQCV-UHFFFAOYSA-N,CHEMBL55285
+Lepidium sativum,Q27286664,elaidolinolenic acid,DTOSIQBPPRVQHS-IUQGRGSQSA-N,
+Lepidium sativum,Q63399038,"[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl] (1E)-2-phenyl-N-sulfooxyethanimidothioate",QQGLQYQXUKHWPX-BXLHIMNRSA-N,
+Lepidium sativum,Q104253439,"{[(E)-(2-phenyl-1-{[3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]sulfanyl}ethylidene)amino]oxy}sulfonic acid",QQGLQYQXUKHWPX-XNTDXEJSSA-N,
+Lepidium sativum,Q104393825,Syringoylglucose,QCIGTAPXKGNROR-GDYWFKHXSA-N,
+Lepidium sativum,Q104917993,"(2R,3S,4S,5R,6S)-2-(hydroxymethyl)-6-[4-(1H-imidazol-2-ylmethyl)-2-methoxyphenoxy]oxane-3,4,5-triol",ASPNXCICLVYQCJ-USACIQFYSA-N,
+Lepidium sativum,Q104917994,Semilepidinoside B,ASPNXCICLVYQCJ-UVLCOCDESA-N,
+Lepidium sativum,Q104937451,"[(2S,3R,6R)-3-ethyl-6-[(3S,8S,9S,10R,13R,14S,17R)-3-hydroxy-10,13-dimethyl-2,3,4,7,8,9,11,12,14,15,16,17-dodecahydro-1H-cyclopenta[a]phenanthren-17-yl]-2-methylheptyl] benzoate",BJZQJLWLEFGCBH-RXEQDNJCSA-N,
+Lepidium sativum,Q105018890,Lepidine C,GTJSRUGILPIENS-UHFFFAOYSA-N,
+Lepidium sativum,Q105134552,"(E,4R,5S,8R,12S)-5-hydroxy-4,8,12-trimethyl-1-(2,6,6-trimethylcyclohexen-1-yl)pentadec-1-en-7-one",JSSNFOHEHRIBDT-YVFVYJCDSA-N,
+Lepidium sativum,Q105136971,Vanillic acid glucoside,JYFOSWJYZIVJPO-UHFFFAOYSA-N,
+Lepidium sativum,Q105139069,Lepidine D,KDBJPLXCURQBOE-UHFFFAOYSA-N,
+Lepidium sativum,Q105143996,"(3R,4S,5R,6R)-3,4,5,6,7-pentahydroxy-1-(4-hydroxyphenyl)heptane-1,2-dione",KOUKJYNKOCFWNE-JBYGLJPXSA-N,
+Lepidium sativum,Q105157951,"(E,6S,10R,13R,14S,18S)-2,6,10,14,18-pentamethylicos-15-ene-2,13-diol",LVOIAUYYMRCVLX-CDVIFZHFSA-N,
+Lepidium sativum,Q105204707,"(4S,8R,12R)-13-hept-6-enoxy-4,8,12-trimethyl-13-oxotridecanoic acid",PASMASQJCDKBJK-QHAWAJNXSA-N,
+Lepidium sativum,Q105205460,"(2S,3R,4S)-3,4-dihydroxy-2-[(2S,3R,4R,5R,6S)-2,4,5-trihydroxy-6-methyloxan-3-yl]oxy-3,4-dihydro-2H-pyran-6-carboxylic acid",PBUKNNGDHZLXKG-VGTJAOMCSA-N,
+Lepidium sativum,Q105209351,"[3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl] N-sulfooxybut-3-enimidothioate",PHZOWSSBXJXFOR-UHFFFAOYSA-N,
+Lepidium sativum,Q105215662,Semilepidinoside A,PVXWBKJKWJZGQJ-DZQJYWQESA-N,
+Lepidium sativum,Q105224917,2-[3-hydroxy-5-(1H-imidazol-2-ylmethyl)phenoxy]-4-(1H-imidazol-2-ylmethyl)phenol,QOJGTWLFQCAXLE-UHFFFAOYSA-N,
+Lepidium sativum,Q105243445,Lepidine B,RQNSAUQJLRAUMV-UHFFFAOYSA-N,
+Lepidium sativum,Q105267235,Lepidine E,TYCLBPSZSGTWCX-UHFFFAOYSA-N,
+Lepidium sativum,Q105304868,1-Vanilloylglucose,WGSQZAKTMBFXLJ-BLJJELEKSA-N,
+Lepidium sativum,Q105339231,Lepidine F,XQANLWORMFUCPG-UHFFFAOYSA-N,
+Lepidium sativum,Q105346915,2-(3-(2-((1H-Imidazol-2-yl)methyl)-6-methoxyphenoxy)benzyl)-1H-imidazole,YDQJXVYGARVLRT-UHFFFAOYSA-N,
+Lepidium sativum,Q110185018,benzyl glucosinolate,QQGLQYQXUKHWPX-LPUQOGTASA-N,
 Thymus serpyllum,Q725,chromium,VYZAMTAEIAYCRO-UHFFFAOYSA-N,
 Thymus serpyllum,Q408883,thymol,MGSRCZKZVOBKFT-UHFFFAOYSA-N,CHEMBL29411
 Thymus serpyllum,Q414116,trans-caffeic acid,QAIPRVGONGVQAS-DUXPYHPUSA-N,CHEMBL145
@@ -32683,46 +32410,6 @@ Lysimachia arvensis,Q105259347,"(2R,8S,9R,10R,13R,14S,16R,17R)-17-[(E,2S)-2,6-di
 Lysimachia arvensis,Q105342846,pelargonidin inner salt,XVFMGWDSJLBXDZ-UHFFFAOYSA-N,
 Lysimachia arvensis,Q105344093,,XXLVGUAGYYLXSJ-CJZVTGFSSA-N,
 Lysimachia arvensis,Q105346115,desglucoanagalloside B,YBYIAPOSRNODNJ-CSYCFBBXSA-N,
-Aquilaria malaccensis,Q410405,4-phenyl-2-butanone,AKGGYBADQZYZPD-UHFFFAOYSA-N,CHEMBL1490851
-Aquilaria malaccensis,Q417362,ferulic acid,KSEBMYQBYZTDHS-HWKANZROSA-N,CHEMBL32749
-Aquilaria malaccensis,Q422590,behenic acid,UKMSUNONTOPOIO-UHFFFAOYSA-N,CHEMBL1173474
-Aquilaria malaccensis,Q5613309,alpha-guaiene,ADIDQIZBYUABQK-RWMBFGLXSA-N,
-Aquilaria malaccensis,Q15424773,rotundone,NUWMTBMCSQWPDG-SDDRHHMPSA-N,
-Aquilaria malaccensis,Q15632756,anisylacetone,PCBSXBYCASFXTM-UHFFFAOYSA-N,CHEMBL3184371
-Aquilaria malaccensis,Q27105386,2-(4-Methoxyphenethyl)chromone,ZQBJPQZBIGVILA-UHFFFAOYSA-N,
-Aquilaria malaccensis,Q27106650,Flindersiachromone,VNZNWFQJBFLELF-UHFFFAOYSA-N,CHEMBL481060
-Aquilaria malaccensis,Q27132629,delta-guaiene,YHAJBLWYOIUHHM-GUTXKFCHSA-N,
-Aquilaria malaccensis,Q67879768,caryophylene oxide,NVEQFIOZRFFVFW-UHFFFAOYSA-N,
-Aquilaria malaccensis,Q82887296,"1,2,3,4,6,7,8,8a-Octahydro-alpha,alpha,8,8a-tetramethylnaphthalene-2-methanol",MQWIFDHBNGIVPO-UHFFFAOYSA-N,
-Aquilaria malaccensis,Q83015410,"4H-1-Benzopyran-4-one, 6-methoxy-2-(2-(4-methoxyphenyl)ethyl)-",RQDQHEBGEUXELB-UHFFFAOYSA-N,
-Aquilaria malaccensis,Q83098705,"3H-Naphtho(1,8-bc)furan-3,8(4H)-dione, 5,5a,6,7-tetrahydro-7-methyl-5-(1-methylethyl)-, (5R,5aR,7S)-",ITOFWMRNIIFZKF-IVZWLZJFSA-N,
-Aquilaria malaccensis,Q104254579,Agarospirol,ICWHTQRTTHCUHW-NFAWXSAZSA-N,
-Aquilaria malaccensis,Q104375346,alpha-Vetispirene,KEVTZKPBXQTBSV-HIFRSBDPSA-N,
-Aquilaria malaccensis,Q104375349,beta-Agarofuran,XWTXUKLVEPDOQT-SNPRPXQTSA-N,
-Aquilaria malaccensis,Q104375350,"(5R,10R)-10-Methyl-6-methylene-2-(propan-2-ylidene)spiro[4.5]dec-7-ene",CSRZVTLTICSDRH-HIFRSBDPSA-N,
-Aquilaria malaccensis,Q104375738,alpha-Agarofuran,ZLQADKTVJQXDIG-SNPRPXQTSA-N,
-Aquilaria malaccensis,Q104375739,(-)-prezizaanol,IJVXAOHQRPSJDV-HPYVJYLESA-N,
-Aquilaria malaccensis,Q104375740,Jinkohol II,RJTVRURTSNYWOY-KSFQGOMNSA-N,
-Aquilaria malaccensis,Q104375742,Epoxybulnesene,OQZCYVPJJHEMSP-MDKBLUTQSA-N,
-Aquilaria malaccensis,Q104375743,Sinenofuranol,YNRKDVOAXYELOW-WBGPXRNDSA-N,
-Aquilaria malaccensis,Q104375744,Oxo-agarospirol,OKBGEROEGQDLFK-BQELKBSMSA-N,
-Aquilaria malaccensis,Q104399164,cleomiscosin D,IXSZNNRKGDOXQI-YJBOKZPZSA-N,
-Aquilaria malaccensis,Q104402779,"(3R,4aR,5S)-4a,5-dimethyl-3-prop-1-en-2-yl-3,4,5,6,7,8-hexahydronaphthalen-2-one",DIZRSLUNVNGBPA-NJZAAPMLSA-N,
-Aquilaria malaccensis,Q104667265,"2-[(2R,8aR)-8,8a-dimethyl-2,3,4,6,7,8-hexahydro-1H-naphthalen-2-yl]propan-2-ol",MQWIFDHBNGIVPO-IIWDCPNDSA-N,
-Aquilaria malaccensis,Q104971380,Agarotetrol,CWMIROLCTHMEEO-JJXSEGSLSA-N,
-Aquilaria malaccensis,Q104971382,Isoagarotetrol,CWMIROLCTHMEEO-XUWVNRHRSA-N,
-Aquilaria malaccensis,Q105032282,"2-((3-(4-Hydroxy-3-methoxyphenyl)-1-oxo-2-propenyl)oxy)-1,3-propanediyl docosanoate",HQKOKDBCUSEPCE-LIIAXHHNSA-N,
-Aquilaria malaccensis,Q105091190,"(6,10,10-Trimethyl-11-oxatricyclo[7.2.1.01,5]dodecan-2-yl)methanol",ABYYDYWFVSHNAX-UHFFFAOYSA-N,
-Aquilaria malaccensis,Q105145866,"[(2S,7R)-2,6,6-trimethyl-7-tricyclo[6.2.1.01,5]undecanyl]methanol",KTMJGGMQCFLMFK-KRKIACFUSA-N,
-Aquilaria malaccensis,Q105170311,Valerianol,MQWIFDHBNGIVPO-KYOSRNDESA-N,
-Aquilaria malaccensis,Q105189389,7-hydroxy-8-methoxy-2-(2-phenylethyl)chromen-4-one,OCIFCZABKJEWMJ-UHFFFAOYSA-N,
-Aquilaria malaccensis,Q105228825,7-hydroxy-2-(2-phenylethyl)chromen-4-one,QVPPGYBSJQCGTN-UHFFFAOYSA-N,
-Aquilaria malaccensis,Q105238730,2-(3-Methoxy-4-hydroxyphenethyl)-6-methoxychromone,RKQVUUSDXYBSJQ-UHFFFAOYSA-N,
-Aquilaria malaccensis,Q105279253,"(1S,2S,6R,10S,11R,13S,14R,15R)-13-(acetyloxy)-1,6-dihydroxy-8-(hydroxymethyl)-4,12,12,15-tetramethyl-5-oxotetracyclo[8.5.0.0²,⁶.0¹¹,¹³]pentadeca-3,8-dien-14-yl (2E,4E,6E)-deca-2,4,6-trienoate",UUDRJPRIBMGADE-YNOQIDMFSA-N,
-Aquilaria malaccensis,Q105287026,Agarol,VIULXZNWHKRQPB-KSQLKPTDSA-N,
-Aquilaria malaccensis,Q105308726,"2-[(2R)-4a,8-dimethyl-2,3,4,5,6,7-hexahydro-1H-naphthalen-2-yl]propan-2-ol",WMOPMQRJLLIEJV-KEKZHRQWSA-N,
-Aquilaria malaccensis,Q105347180,"2-[(1S,8S)-1,8-dimethyl-1,2,3,4,6,7,8,8a-octahydronaphthalen-2-yl]propan-2-ol",YEDSHUOBTRDKLW-YWBBTBBSSA-N,
-Aquilaria malaccensis,Q105373169,2-(4-Hydroxyphenethyl)-6-hydroxychromone,ZEEYITCRNXWBJA-UHFFFAOYSA-N,
 Tribulus terrestris,Q33495,vanillin,MWOOGOJBHIARFG-UHFFFAOYSA-N,CHEMBL13883
 Tribulus terrestris,Q121802,beta-sitosterol,KZJWDPNRJALLNS-VJSFXXLFSA-N,
 Tribulus terrestris,Q229970,4-hydroxybenzoic acid,FJKROLUGYXJWQN-UHFFFAOYSA-N,CHEMBL441343
@@ -33811,6 +33498,275 @@ Solidago virgaurea,Q105382571,"(4aS,7R,8R,8aS)-8-[2-[(2S)-2-methoxy-5-oxo-2H-fur
 Sesamoides interrupta,Q104962394,"[(2S,3R,4R,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl] (1Z)-3-phenyl-N-sulfooxypropanimidothioate",CKIJIGYDFNXSET-WUEWZUKVSA-N,
 Sesamoides interrupta,Q105005545,"[(2R,3R,4S,5R,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl] (1E,3S)-3-hydroxy-3-phenyl-N-sulfooxypropanimidothioate",GAPDDBFHNYHZIS-QWPCBLMSSA-N,
 Sesamoides interrupta,Q105268223,"[(E)-[(3S)-3-phenyl-1-{[(2R,3R,4R,5R,6S)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]sulfanyl}-3-{[(2R,3R,4R,5R)-3,4,5-trihydroxyoxan-2-yl]oxy}propylidene]amino]oxysulfonic acid",TZJUOXNQZNCHSG-NZCVDIKMSA-N,
+Lactuca sativa,Q121802,beta-sitosterol,KZJWDPNRJALLNS-VJSFXXLFSA-N,
+Lactuca sativa,Q127060,folic acid,OVBPIULPVIDEAO-LBPRGKRZSA-N,CHEMBL1622
+Lactuca sativa,Q142871,alpha carotene (stereochemistry specified),ANVAOWXLWRTKGA-NTXLUARGSA-N,
+Lactuca sativa,Q199678,vitamin C,CIWBSHSKHKDKBQ-JLAZNSOCSA-N,CHEMBL196
+Lactuca sativa,Q306135,β-carotene,OENHQHLEOONYIE-JLTXGRSLSA-N,CHEMBL1293
+Lactuca sativa,Q392062,cryptoxanthin,DMASLKHVQRHNES-FKKUPVFPSA-N,
+Lactuca sativa,Q393336,kaempferol,IYRMWMYZSQPJKC-UHFFFAOYSA-N,CHEMBL150
+Lactuca sativa,Q393339,epigallocatechin gallate,WMBWREPUVVBILR-WIYYLYMNSA-N,CHEMBL297453
+Lactuca sativa,Q409366,lupeol,MQYXUWHLBZFQQO-QGTGJCAVSA-N,CHEMBL289191
+Lactuca sativa,Q409439,tryptamine,APJYDQYYACXCRM-UHFFFAOYSA-N,CHEMBL6640
+Lactuca sativa,Q409478,quercetin,REFJWTPEDVJJIY-UHFFFAOYSA-N,CHEMBL50
+Lactuca sativa,Q410052,lactucopicrin,QCDLLIUTDGNCPO-AEMJNJESSA-N,
+Lactuca sativa,Q411310,hesperetin,AIONOLUJZLIMTK-AWEZNQCLSA-N,CHEMBL399121
+Lactuca sativa,Q415007,(+)-catechin,PFTAWBLQPZVEMU-DZGCQCFKSA-N,CHEMBL311498
+Lactuca sativa,Q415011,luteolin,IQPNAANSBPBGFQ-UHFFFAOYSA-N,CHEMBL151
+Lactuca sativa,Q415945,phytol,BOTWFXYSPFMFNR-PYDDKJGSSA-N,CHEMBL3039479
+Lactuca sativa,Q416138,isorhamnetin,IZQSVPBOUDKVDZ-UHFFFAOYSA-N,CHEMBL379064
+Lactuca sativa,Q418374,naringenin,FTVWIRXFELQLPI-ZDUSSCGKSA-N,CHEMBL9352
+Lactuca sativa,Q421964,(E)-chlorogenic acid,CWVRJTMFETXNAD-JUHZACGLSA-N,CHEMBL284616
+Lactuca sativa,Q422067,lutein,KBPHJBAIARWVSC-RGZFRNHPSA-N,CHEMBL1979448
+Lactuca sativa,Q424567,apigenin,KZNIFHPLKGYRTM-UHFFFAOYSA-N,CHEMBL28
+Lactuca sativa,Q928965,trigonelline,WWNNZCOKKKDOPX-UHFFFAOYSA-N,CHEMBL350675
+Lactuca sativa,Q951449,myricetin,IKMDFBPHZNJCSN-UHFFFAOYSA-N,CHEMBL164
+Lactuca sativa,Q1668551,parietin,FFWOKTFYGVYKIR-UHFFFAOYSA-N,CHEMBL42624
+Lactuca sativa,Q2501558,α-amyrin,FSLPMRQHCOLESF-SFMCKYFRSA-N,CHEMBL455357
+Lactuca sativa,Q3388802,(+)-pinoresinol,HGXBRUKMWQGOIE-AFHBHXEDSA-N,CHEMBL487611
+Lactuca sativa,Q3604508,chrysophanol,LQGUBLBATBMXHT-UHFFFAOYSA-N,CHEMBL41092
+Lactuca sativa,Q4284467,matairesinol,MATGKVZWFZHCLI-LSDHHAIUSA-N,CHEMBL425148
+Lactuca sativa,Q4348178,emodin,RHMXXJGYXNZAPX-UHFFFAOYSA-N,CHEMBL289277
+Lactuca sativa,Q4413253,secoisolariciresinol,PUETUDUXMCLALY-HOTGVXAUSA-N,CHEMBL368347
+Lactuca sativa,Q5175227,costunolide,HRYLQFBHBWLLLL-AHNJNIBGSA-N,CHEMBL86416
+Lactuca sativa,Q5382492,Epicatechin gallate,LSHVYAFMTMFKBA-TZIWHRDSSA-N,CHEMBL36327
+Lactuca sativa,Q6469057,lactucin,VJQAFLAZRVKAKM-VZLIPTOUSA-N,CHEMBL521177
+Lactuca sativa,Q6489358,lariciresinol,MHXCIKYXNYCMHY-AUSJPIAWSA-N,CHEMBL518421
+Lactuca sativa,Q7247551,procyanidin B1,XFZJEEAOWLFHDH-UKWJTHFESA-N,CHEMBL504937
+Lactuca sativa,Q7247552,(+)-procyanidin B2,XFZJEEAOWLFHDH-NFJBMHMQSA-N,CHEMBL38714
+Lactuca sativa,Q7247553,procyanidin B3,XFZJEEAOWLFHDH-AVFWISQGSA-N,CHEMBL501490
+Lactuca sativa,Q7247555,(-)-procyanidin B4,XFZJEEAOWLFHDH-VUGKQVTMSA-N,CHEMBL447373
+Lactuca sativa,Q7247556,procyanidin C1,MOJZMWJRUKIQGL-XILRTYJMSA-N,CHEMBL290632
+Lactuca sativa,Q7247561,procyanidin B8,GMISZFQPFDAPGI-JJYFIROESA-N,CHEMBL451115
+Lactuca sativa,Q15410900,sitogluside,NPJICTMALKLTFW-OFUAXYCQSA-N,CHEMBL506678
+Lactuca sativa,Q23050136,(−)-epicatechin,PFTAWBLQPZVEMU-UKRRQHHQSA-N,CHEMBL583912
+Lactuca sativa,Q27104976,lupeol acetate,ODSSDTBFHAYYMD-YOJQYFTNSA-N,CHEMBL453802
+Lactuca sativa,Q27105128,"11beta,13-dihydrolactucin",ZHZZKRDEPZMPLJ-WLVQVHLUSA-N,
+Lactuca sativa,Q27106168,cichoriin,WNBCMONIPIJTSB-TVKJYDDYSA-N,
+Lactuca sativa,Q27107159,lactucaxanthin,BIPAHAFBQLWRMC-SUOWZELTSA-N,
+Lactuca sativa,Q27107162,Lactupicrin,UMVSOHBRAQTGQI-XGARDCMYSA-N,
+Lactuca sativa,Q27108380,taraxasterol,XWMMEBCFHUKHEX-CWFQSGEHSA-N,
+Lactuca sativa,Q27108536,glucozaluzanin c,OIOLZODVFMMERF-GHSWTDDMSA-N,CHEMBL490212
+Lactuca sativa,Q27108621,β-amyrin,JFSHUTJDVKUMTJ-QHPUVITPSA-N,CHEMBL455098
+Lactuca sativa,Q27131918,germanicol,QMUXVPRGNJLGRT-PNTWTTAKSA-N,CHEMBL2023103
+Lactuca sativa,Q27135678,(9Z)-β-carotene,OENHQHLEOONYIE-BVZAMQQESA-N,
+Lactuca sativa,Q27162448,"11beta,13-dihydrolactucopicrin",ICJJPTZLMALYBH-ZUQDHHQASA-N,
+Lactuca sativa,Q27166249,"2-Methyl-3-(3,7,11,15-tetramethylhexadec-2-enyl)-1,4-naphthoquinone",MBWXNTAXLNYFJB-UHFFFAOYSA-N,
+Lactuca sativa,Q51617505,(-)-epigallocatechin,XMOCLSLCDHWDHP-IUODEOHRSA-N,
+Lactuca sativa,Q72479982,(+)-gallocatechin,XMOCLSLCDHWDHP-SWLSCSKDSA-N,
+Lactuca sativa,Q82990981,"11beta,13-Dihydro-santamarin",DGIMMEWTLSCNGO-DMLGPZFASA-N,
+Lactuca sativa,Q83127413,Lettucenin A,PATCUDSVUMFCMB-UHFFFAOYSA-N,
+Lactuca sativa,Q100145894,"(3aS,4R,9aR,9bS)-4-hydroxy-9-(hydroxymethyl)-6-methyl-3-methylidene-4,5,9a,9b-tetrahydro-3aH-azuleno[4,5-b]furan-2,7-dione",VJQAFLAZRVKAKM-GJQVQUKXSA-N,
+Lactuca sativa,Q104251034,Lactuside A,TZXUUTQEICXCOH-RYGBUWAXSA-N,
+Lactuca sativa,Q104252257,,DQVGVYRSVYCJRR-AXRVZGOCSA-N,
+Lactuca sativa,Q104376036,germanicol acetate,FKMDSFSBFAGDCK-SPFANWNTSA-N,
+Lactuca sativa,Q104390349,costunolide,HRYLQFBHBWLLLL-BOHUOVHSSA-N,
+Lactuca sativa,Q104392842,"(1R)-4-[(1E,3E,5E,7E,9E,11E,13E,15E,17E)-18-[(1R)-4-hydroxy-2,6,6-trimethylcyclohex-2-en-1-yl]-3,7,12,16-tetramethyloctadeca-1,3,5,7,9,11,13,15,17-nonaenyl]-3,5,5-trimethylcyclohex-3-en-1-ol",KBPHJBAIARWVSC-RTIVXWJOSA-N,
+Lactuca sativa,Q104397505,Dihydrosantamarin,DGIMMEWTLSCNGO-XBDPKTDKSA-N,
+Lactuca sativa,Q104402655,Macrocliniside A,ARJUJAMZTUUZNZ-NJQUUYHGSA-N,
+Lactuca sativa,Q104917370,"(3aS,5R,6aR,8S,9aR,9bS)-5-hydroxy-3,6,9-trimethylidene-8-[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxy-3a,4,5,6a,7,8,9a,9b-octahydroazuleno[4,5-b]furan-2-one",ARJUJAMZTUUZNZ-AZVRUGFFSA-N,
+Lactuca sativa,Q104939286,"(3aS,6aR,9R,9aS,9bS)-9-(hydroxymethyl)-3,6-dimethylidene-9-[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxy-3a,4,5,6a,7,8,9a,9b-octahydroazuleno[4,5-b]furan-2-one",BOKMNGMJRJLOCJ-BQOOUUMFSA-N,
+Lactuca sativa,Q104986940,"(3S,3aS,5aR,6R,9R,9aS,9bS)-9-hydroxy-3,5a,9-trimethyl-6-[(2R,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxy-3a,4,5,6,7,8,9a,9b-octahydro-3H-benzo[g][1]benzofuran-2-one",DQHHPAKUNFZVIQ-ALMOYXMRSA-N,
+Lactuca sativa,Q105004945,"(3S,3abeta,6abeta,9abeta,9balpha)-3beta,9beta-Dimethyl-5beta,8alpha-dihydroxy-6-methylenedecahydroazuleno[4,5-b]furan-2(3H)-one",FZHVZHPJLXWJIZ-FXBRUWNDSA-N,
+Lactuca sativa,Q105011057,"9alpha-Hydroxy-11beta,13-dihydrozaluzanin C",GLMKTMOFCGDFFQ-XPLKHYSGSA-N,
+Lactuca sativa,Q105011901,"(2R,3R)-2-(3,4-dihydroxyphenyl)-6-[(2R,3S,4S)-2-(3,4-dihydroxyphenyl)-3,5,7-trihydroxy-3,4-dihydro-2H-chromen-4-yl]-3,4-dihydro-2H-chromene-3,5,7-triol",GMISZFQPFDAPGI-OSYQBESMSA-N,
+Lactuca sativa,Q105025894,"[(3aR,4R,9aR,9bS)-6-methyl-3-methylidene-2,7-dioxo-9-[[(2R,3S,4S,5S,6S)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxymethyl]-4,5,9a,9b-tetrahydro-3aH-azuleno[4,5-b]furan-4-yl] 2-(4-hydroxyphenyl)acetate",HCOZTDACWSVSLP-JTZNOEJASA-N,
+Lactuca sativa,Q105028062,"[(3S,3aS,5aR,6R,9aS,9bS)-6-hydroxy-3,5a-dimethyl-2-oxo-3,3a,4,5,6,7,9a,9b-octahydrobenzo[g][1]benzofuran-9-yl]methyl 2-(4-methoxyphenyl)acetate",HGXKRNRXAGDTHR-RQGNXEPMSA-N,
+Lactuca sativa,Q105032898,"(3aR,6E,10E,11aR)-6,10-dimethyl-3-methylidene-3a,4,5,8,9,11a-hexahydrocyclodeca[b]furan-2-one",HRYLQFBHBWLLLL-QJAKHLMASA-N,
+Lactuca sativa,Q105146108,"Cyclodeca[b]furan-2(3H)-one, 3a,4,5,8,9,11a-hexahydro-9-hydroxy-6-(hydroxymethyl)-3,10-dimethyl-, [3S-(3R*,3aR*,6Z,9R*,10E,11aR*)]-",KUERQAIAYCRGOB-DOGNWQSSSA-N,
+Lactuca sativa,Q105146110,"(3S,3aR,6Z,9R,10E,11aS)-9-hydroxy-6-(hydroxymethyl)-3,10-dimethyl-3a,4,5,8,9,11a-hexahydro-3H-cyclodeca[b]furan-2-one",KUERQAIAYCRGOB-PIOXYOOTSA-N,
+Lactuca sativa,Q105146467,"(3S,3aS,6Z,9S,10E,11aS)-9-hydroxy-3,10-dimethyl-2-oxo-3a,4,5,8,9,11a-hexahydro-3H-cyclodeca[b]furan-6-carbaldehyde",KVDCMKYALKIZID-DOGNWQSSSA-N,
+Lactuca sativa,Q105146468,"(3S,3aS,6E,9S,10E,11aR)-9-hydroxy-3,10-dimethyl-2-oxo-3a,4,5,8,9,11a-hexahydro-3H-cyclodeca[b]furan-6-carbaldehyde",KVDCMKYALKIZID-PSNZUKABSA-N,
+Lactuca sativa,Q105146470,"(3S,3aS,6E,9S,10E,11aS)-9-hydroxy-3,10-dimethyl-2-oxo-3a,4,5,8,9,11a-hexahydro-3H-cyclodeca[b]furan-6-carbaldehyde",KVDCMKYALKIZID-YOBAHCRPSA-N,
+Lactuca sativa,Q105149341,"3-methyl-6,9-dimethylidene-8-[3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxy-3a,4,5,6a,7,8,9a,9b-octahydro-3H-azuleno[4,5-b]furan-2-one",LBJIOPYQHNZVLF-UHFFFAOYSA-N,
+Lactuca sativa,Q105183052,3beta-(alpha-D-Glucopyranosyloxy)stigmasta-5-ene,NPJICTMALKLTFW-KUENWNPSSA-N,
+Lactuca sativa,Q105192638,"(3aS,6aR,8S,9aR,9bS)-3,6,9-trimethylidene-8-[(2S,3R,4S,5R,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxy-3a,4,5,6a,7,8,9a,9b-octahydroazuleno[4,5-b]furan-2-one",OIOLZODVFMMERF-BHFFZQNCSA-N,
+Lactuca sativa,Q105205513,"(3S,3aS,6S,6aR,9aR,9bS)-6-hydroxy-6-(hydroxymethyl)-3-methyl-9-methylidene-3a,4,5,6a,7,8,9a,9b-octahydro-3H-azuleno[4,5-b]furan-2-one",PBXKFMXJVNEHCU-MRWSCNBVSA-N,
+Lactuca sativa,Q105212039,9alpha-Hydroxyzaluzalin C,PNMKDWVKEBNNFG-XQZGEAEESA-N,
+Lactuca sativa,Q105242407,"3-[[(2R,3S,4R,5R,6S)-6-[2-(3,4-dihydroxyphenyl)-5,7-dihydroxychromenylium-3-yl]oxy-3,4,5-trihydroxyoxan-2-yl]methoxy]-3-oxopropanoic acid",ROQLTZUOXIQBDO-PGDPNNLMSA-O,
+Lactuca sativa,Q105242925,"(3S)-6alpha-(beta-D-Glucopyranosyloxy)-3abeta,6,6abeta,7,8,9,9abeta,9balpha-octahydro-6-(hydroxymethyl)-3beta-methyl-9-methyleneazuleno[4,5-b]furan-2(3H)-one",RPQTUGURKSFZTM-MHMJNRRMSA-N,
+Lactuca sativa,Q105245096,Prodelphinidin B,RTEDIEITOBJPNI-UHFFFAOYSA-N,
+Lactuca sativa,Q105268475,"(3S,3aS,6E,9R,10E,11aS)-3,10-dimethyl-2-oxo-9-[(2R,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxy-3a,4,5,8,9,11a-hexahydro-3H-cyclodeca[b]furan-6-carbaldehyde",TZXUUTQEICXCOH-GZKCVXLASA-N,
+Lactuca sativa,Q105268478,"(3S,3aS,6E,9S,10E,11aR)-3,10-dimethyl-2-oxo-9-[(2R,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxy-3a,4,5,8,9,11a-hexahydro-3H-cyclodeca[b]furan-6-carbaldehyde",TZXUUTQEICXCOH-XWHBQGKBSA-N,
+Lactuca sativa,Q105351857,Lactuside B,YPUAPUZIURIYPB-BJQNQQTFSA-N,
+Lactuca sativa,Q105351861,"(3S,3aS,6E,9S,10E,11aR)-6-(hydroxymethyl)-3,10-dimethyl-9-[(2R,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxy-3a,4,5,8,9,11a-hexahydro-3H-cyclodeca[b]furan-2-one",YPUAPUZIURIYPB-XWHBQGKBSA-N,
+Lactuca sativa,Q105373427,Cichorioside B,ZEMSXERQBUSFBA-YNZHIRHJSA-N,
+Lactuca sativa,Q105383871,"(3S,3aS,5R,9aS,9bS)-3,6,9-trimethyl-5-[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxy-3,3a,4,5,9a,9b-hexahydroazuleno[4,5-b]furan-2,7-dione",ZUNQUEPUGDYLCG-ASGNGTQASA-N,
+Lactuca sativa,Q105383874,Lactuside C,ZUNQUEPUGDYLCG-NHDJOBCSSA-N,
+Lactuca sativa,Q110080581,"2-[(4-hydroxy-6-methyl-3-methylidene-2,7-dioxo-4,5,9a,9b-tetrahydro-3aH-azuleno[8,7-b]furan-9-yl)methoxy]-2-oxoacetic acid",LMOXWYJMYLUOMS-UHFFFAOYSA-N,
+Lactuca sativa,Q110184368,,REFBLEJUPUPWLM-UHFFFAOYSA-N,
+Lactuca sativa,Q115948653,"cis-b,b-Carotene",OENHQHLEOONYIE-KBPBZLIPSA-N,
+Lactuca sativa,Q115948655,"(3R,3'R,15-cis)-b,b-Carotene-3,3'-diol",JKQXZKUSFCKOGQ-PWPFSTEPSA-N,
+Lactuca sativa,Q115951672,,KUERQAIAYCRGOB-NOYQSMGQSA-N,
+Bidens tripartita,Q407426,linoleic acid,OYHQOLUKZRVURQ-HZJYTTRNSA-N,CHEMBL267476
+Bidens tripartita,Q415011,luteolin,IQPNAANSBPBGFQ-UHFFFAOYSA-N,CHEMBL151
+Bidens tripartita,Q416196,umbelliferone,ORHBXUUXSCNDEV-UHFFFAOYSA-N,CHEMBL51628
+Bidens tripartita,Q423357,eugenol,RRAFCDWBNXTKKO-UHFFFAOYSA-N,CHEMBL42710
+Bidens tripartita,Q2317288,luteoloside,PEFNSGRTCBGNAN-QNDFHXLGSA-N,CHEMBL233929
+Bidens tripartita,Q2472366,scopoletin,RODXRVNMMDRFIK-UHFFFAOYSA-N,CHEMBL71851
+Bidens tripartita,Q3058018,esculetin,ILEDWLMCKZNDJK-UHFFFAOYSA-N,CHEMBL244743
+Bidens tripartita,Q5002498,butein,AYMYWHCQALZEGT-ORCRQEGFSA-N,CHEMBL128000
+Bidens tripartita,Q24817453,cosmene,HPZWSJQQCJZBBG-LQPGMRSMSA-N,
+Bidens tripartita,Q26777005,(3Z)-β-ocimene,IHPKGUQCSIINRJ-NTMALXAHSA-N,
+Bidens tripartita,Q27108357,sulfuretin,RGNXWPVNPFAADO-NSIKDUERSA-N,CHEMBL490355
+Bidens tripartita,Q27164063,"1-(2,4-Dihydroxyphenyl)-3-(3,4-dihydroxyphenyl)-2-propen-1-one",AYMYWHCQALZEGT-UHFFFAOYSA-N,
+Bidens tripartita,Q76305011,1-(2-Hydroxy-4-methoxyphenyl)-3-(4-methoxyphenyl)-2-propen-1-one,OAAPAFSEMHJNTF-BJMVGYQFSA-N,
+Bidens tripartita,Q105188557,"6'-Hydroxy-4,4'-dimethoxychalcone",OAAPAFSEMHJNTF-UHFFFAOYSA-N,
+Bidens tripartita,Q105207078,"2-(3,4-dihydroxyphenyl)-5-hydroxy-7-[(2R,3S,4R,5R,6S)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxychromen-4-one",PEFNSGRTCBGNAN-RQUKQETFSA-N,
+Bidens tripartita,Q105235972,sulfuretin,RGNXWPVNPFAADO-UHFFFAOYSA-N,
+Helleborus odorus,Q421294,protoanemonin,RNYZJZKPGHQTJR-UHFFFAOYSA-N,
+Helleborus odorus,Q423338,20-hydroxyecdysone,NKDFYOWSKOHCCO-YPVLXUMRSA-N,CHEMBL224128
+Helleborus odorus,Q76085451,hellebrigenin,TVKPTWJPKVSGJB-XHCIOXAKSA-N,
+Helleborus odorus,Q82941973,"14-Hydroxy-3-oxobufa-20,22-dienolide",YHPFWEDUGHFFTA-UHFFFAOYSA-N,
+Helleborus odorus,Q104403426,"(1R,3aS,5aS,7S,9aS,11aR)-7-{[(2R,4R,5R)-3,4-dihydroxy-6-methyl-5-{[(2S,4R,5S)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxy}oxan-2-yl]oxy}-3a,5a-dihydroxy-11a-methyl-1-(6-oxopyran-3-yl)-dodecahydro-1H-cyclopenta[a]phenanthrene-9a-carbaldehyde",DCSLTSSPIJWEJN-IMBGTWCNSA-N,
+Helleborus odorus,Q105030961,CID 44584382,HNNFRQFXBWSJBX-MTUTWWBMSA-N,
+Helleborus odorus,Q110185733,Hellebrin,DCSLTSSPIJWEJN-YRFFWODSSA-N,
+Phillyrea latifolia,Q358968,coniferin,SFLMUHDGSQZDOW-FAOXUISGSA-N,CHEMBL459056
+Phillyrea latifolia,Q402625,oleuropein,RFWGABANNQMHMZ-ZCHJGGQASA-N,CHEMBL1911053
+Phillyrea latifolia,Q409478,quercetin,REFJWTPEDVJJIY-UHFFFAOYSA-N,CHEMBL50
+Phillyrea latifolia,Q411426,verbascoside,FBSKJMQYURKNSU-ZLSOWSIRSA-N,CHEMBL231853
+Phillyrea latifolia,Q415011,luteolin,IQPNAANSBPBGFQ-UHFFFAOYSA-N,CHEMBL151
+Phillyrea latifolia,Q416260,ursolic acid,WCGUUGGRBIKTOS-GPOJBZKASA-N,CHEMBL169
+Phillyrea latifolia,Q418628,oleanolic acid,MIJYXULNPSFWEK-GTOFXWBISA-N,CHEMBL168
+Phillyrea latifolia,Q424567,apigenin,KZNIFHPLKGYRTM-UHFFFAOYSA-N,CHEMBL28
+Phillyrea latifolia,Q891785,eleutheroside B,QJVXKWHHAMZTBY-GCPOEHJPSA-N,CHEMBL250872
+Phillyrea latifolia,Q2317288,luteoloside,PEFNSGRTCBGNAN-QNDFHXLGSA-N,CHEMBL233929
+Phillyrea latifolia,Q2858304,apigetrin,KMOUJOKENFFTPU-QNDFHXLGSA-N,CHEMBL487017
+Phillyrea latifolia,Q7404463,salidroside,ILRCGYURZSFMEG-RKQHYHRCSA-N,CHEMBL465208
+Phillyrea latifolia,Q23055215,Apigenin 7-rutinoside,FKIYLTVJPDLUDL-SLNHTJRHSA-N,CHEMBL454778
+Phillyrea latifolia,Q27105597,7-Epiloganic acid,JNNGEAWILNVFFD-DXNVVGTLSA-N,
+Phillyrea latifolia,Q27137333,luteolin-4'-O-beta-D-glucopyranoside,UHNXUSWGOJMEFO-QNDFHXLGSA-N,CHEMBL459822
+Phillyrea latifolia,Q27151384,Forsythin,KFFCKOBAHMGTMW-LGQRSHAYSA-N,
+Phillyrea latifolia,Q27269447,ligstroside,GMQXOLRKJQWPNB-MVVLSVRYSA-N,CHEMBL1086877
+Phillyrea latifolia,Q72507279,Secoxyloganin,MQLSOVRLZHTATK-PEYNGXJCSA-N,
+Phillyrea latifolia,Q104253146,"(2S,3S,4S,5R,6R)-2-[4-[(3S,3aR,6S,6aR)-3-(3,4-dimethoxyphenyl)-1,3,3a,4,6,6a-hexahydrofuro[3,4-c]furan-6-yl]-2-methoxyphenoxy]-6-(hydroxymethyl)oxane-3,4,5-triol",KFFCKOBAHMGTMW-REXVRNFISA-N,
+Phillyrea latifolia,Q104391252,"methyl (4S,5E,6R)-5-ethylidene-4-[2-[2-(4-hydroxyphenyl)ethoxy]-2-oxoethyl]-6-[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxy-4H-pyran-3-carboxylate",GMQXOLRKJQWPNB-OETWDZMNSA-N,
+Phillyrea latifolia,Q104392505,Secologanoside,RGTONEMDTVVDMY-GRTPNEQMSA-N,
+Phillyrea latifolia,Q104667373,(5Z)-oleuropein,RFWGABANNQMHMZ-WLFYAOHHSA-N,
+Phillyrea latifolia,Q105032211,8-Epikingisidic acid,HQEBQNGGKFIFBW-SDESGXHJSA-N,
+Phillyrea latifolia,Q105115402,"(2R,3S,4S,5R,6S)-2-(hydroxymethyl)-6-[2-(4-hydroxyphenyl)ethoxy]oxane-3,4,5-triol",ILRCGYURZSFMEG-RGDJUOJXSA-N,
+Phillyrea latifolia,Q105235684,"methyl (4R,5E,6S)-4-[2-[2-(3,4-dihydroxyphenyl)ethoxy]-2-oxoethyl]-5-ethylidene-6-[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxy-4H-pyran-3-carboxylate",RFWGABANNQMHMZ-ZQNIJKSFSA-N,
+Asplenium trichomanes,Q142871,alpha carotene (stereochemistry specified),ANVAOWXLWRTKGA-NTXLUARGSA-N,
+Asplenium trichomanes,Q169337,zeaxanthin,JKQXZKUSFCKOGQ-QAYBQHTQSA-N,CHEMBL2359248
+Asplenium trichomanes,Q392062,cryptoxanthin,DMASLKHVQRHNES-FKKUPVFPSA-N,
+Asplenium trichomanes,Q422067,lutein,KBPHJBAIARWVSC-RGZFRNHPSA-N,CHEMBL1979448
+Asplenium trichomanes,Q607883,violaxanthin,SZCBXWMUOPQSOX-WVJDLNGLSA-N,
+Asplenium trichomanes,Q2479965,rhodoxanthin,VWXMLZQUDPCJPL-ZDHAIZATSA-N,
+Asplenium trichomanes,Q27103135,taraxanthin,DYUUPIKEWLHQGQ-FJOIUHRLSA-N,
+Asplenium trichomanes,Q104253037,"(6S,7Ar)-2-[(2E,4E,6E,8E,10E,12E,14E,16E)-17-[(4R)-4-hydroxy-2,6,6-trimethylcyclohexen-1-yl]-6,11,15-trimethylheptadeca-2,4,6,8,10,12,14,16-octaen-2-yl]-4,4,7a-trimethyl-2,5,6,7-tetrahydro-1-benzofuran-6-ol",IFYMEZNJCAQUME-HHBFRJADSA-N,
+Asplenium trichomanes,Q104986846,"5-hydroxy-2-(4-hydroxyphenyl)-7-[(2S,3R,4S,5R,6S)-3,4,5-trihydroxy-6-methyloxan-2-yl]oxy-3-[(2S,3S,4S,5S)-3,4,5-trihydroxyoxan-2-yl]oxychromen-4-one",DQBVFTJNUYZVQL-FCYXVNGCSA-N,
+Asplenium trichomanes,Q105215196,"Kaempferol-3,7-O-bis-alpha-L-rhamnoside",PUPKKEQDLNREIM-KPQJDSDZSA-N,
+Asplenium trichomanes,Q105306110,"5-hydroxy-2-(4-hydroxyphenyl)-3-[(2S,3R,4S,5R,6S)-3,4,5-trihydroxy-6-methyloxan-2-yl]oxy-7-[(2S,3S,4S,5S)-3,4,5-trihydroxyoxan-2-yl]oxychromen-4-one",WIALSWOBTZTJMW-FCYXVNGCSA-N,
+Hedera helix,Q158348,RRR-alpha-tocopherol,GVJHHUAWPYXKBD-IEOSBIPESA-N,CHEMBL47
+Hedera helix,Q188017,L-tyrosine,OUYCCCASQSFEME-QMMMGPOBSA-N,CHEMBL925
+Hedera helix,Q207688,oleic acid,ZQPPMHVWECSIRJ-KTKRTIGZSA-N,CHEMBL8659
+Hedera helix,Q393336,kaempferol,IYRMWMYZSQPJKC-UHFFFAOYSA-N,CHEMBL150
+Hedera helix,Q407857,rutin,IKGXIBQEEMLURG-NVPNHPEKSA-N,CHEMBL226335
+Hedera helix,Q409478,quercetin,REFJWTPEDVJJIY-UHFFFAOYSA-N,CHEMBL50
+Hedera helix,Q413192,panaxynol,UGJAEDFOKNAMQD-QXPKXGMISA-N,CHEMBL71260
+Hedera helix,Q414116,trans-caffeic acid,QAIPRVGONGVQAS-DUXPYHPUSA-N,CHEMBL145
+Hedera helix,Q418599,"3,4-dihydroxybenzoic acid",YQUVCSBJEUQKSH-UHFFFAOYSA-N,CHEMBL37537
+Hedera helix,Q421964,(E)-chlorogenic acid,CWVRJTMFETXNAD-JUHZACGLSA-N,CHEMBL284616
+Hedera helix,Q483745,L-leucine,ROHFNLRQFUQHCH-YFKPBYRVSA-N,CHEMBL291962
+Hedera helix,Q483752,L-valine,KZSNJWFQEVHDMF-BYPYZUCNSA-N,CHEMBL43068
+Hedera helix,Q484940,L-isoleucine,AGPKZVBTJJNPAG-WHFBIAKZSA-N,CHEMBL1233584
+Hedera helix,Q620730,glycine,DHMQDGOQFOQNFH-UHFFFAOYSA-N,CHEMBL773
+Hedera helix,Q2080732,petroselinic acid,CNVZJPUDSLNTQU-SEYXRHQNSA-N,CHEMBL3139878
+Hedera helix,Q3050386,emetine,AUVVAXYIELKVAI-CKBKHPSWSA-N,CHEMBL50588
+Hedera helix,Q4811191,Astragalin,JPUKWEQWGBDDQB-QSOFNFLRSA-N,CHEMBL233930
+Hedera helix,Q5697238,hederagenin,PGOYMURMZNDHNS-MYPRUECHSA-N,CHEMBL486400
+Hedera helix,Q6992128,neochlorogenic acid,CWVRJTMFETXNAD-NXLLHMKUSA-N,CHEMBL249450
+Hedera helix,Q20035886,L-proline,ONIBWKKTOPOVIA-BYPYZUCNSA-N,CHEMBL54922
+Hedera helix,Q23058965,nictoflorin,RTATXGUCZHCSNG-QHWHWDPRSA-N,CHEMBL498879
+Hedera helix,Q25105925,α-hederin,KEOITPILCOILGM-LLJOFIFVSA-N,CHEMBL447565
+Hedera helix,Q26841253,D-phenylalanine,COLNVLDHVKWLRT-MRVPVSSYSA-N,CHEMBL379630
+Hedera helix,Q27102199,2-carboxy-D-arabinitol,XONDRGRALZTVKD-ZMIZWQJLSA-N,
+Hedera helix,Q27104421,calenduloside E,IUCHKMAZAWJNBJ-RCYXVVTDSA-N,CHEMBL446866
+Hedera helix,Q27106601,Falcarinone,UQEBOJRXTNLPKZ-KHPPLWFESA-N,CHEMBL1973480
+Hedera helix,Q27106835,hederagenin 3-O-arabinoside,QUBNLZCADIYAFW-RITZIESXSA-N,CHEMBL452911
+Hedera helix,Q27108632,beta-Hederin,IBAJNOZMACNWJD-HVUPOBLPSA-N,CHEMBL502407
+Hedera helix,Q27133812,acutoside A,LEQCLUFJRGKLOA-WLMDKFIXSA-N,CHEMBL504527
+Hedera helix,Q27137710,kalopanaxsaponin b,RYHDIBJJJRNDSX-MCGLQMIESA-N,CHEMBL1910840
+Hedera helix,Q27137714,cauloside D,UEHILKCNLIKLEV-LXABABOZSA-N,CHEMBL538919
+Hedera helix,Q27137931,30-norhederagenin,FKUBIEWSGBVADJ-VZBPFLCRSA-N,CHEMBL1081326
+Hedera helix,Q27155051,"(3S,9Z)-1,9-Heptadecadiene-4,6-diyn-3-ol",UGJAEDFOKNAMQD-MQNTZWLQSA-N,CHEMBL368712
+Hedera helix,Q27258775,cauloside g,SRSSAQMYMNLZFL-IYZIRETKSA-N,CHEMBL550487
+Hedera helix,Q27276893,dipsacoside b,GFPLPBCJRRNZHM-ICUGHKHQSA-N,
+Hedera helix,Q29519883,L-Asparagine,DCXYFEDJOCDNAF-REOHCLBHSA-N,CHEMBL58832
+Hedera helix,Q50380051,(R)-rosmarinic acid,DOUMFZQKYFQNTF-WUTVXBCWSA-N,CHEMBL324842
+Hedera helix,Q63398496,"2-(3,4-dihydroxyphenyl)-5,7-dihydroxy-3-[(2S,3R,4R,5R,6S)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxychromen-4-one",OVSQVDMCBVZWGM-LVWULRLVSA-N,
+Hedera helix,Q82134949,phenyl-Alanine,XWKAVQKJQBISOL-ZETCQYMHSA-N,
+Hedera helix,Q82941528,Hederoside B,CCDRPBGPIXPGRW-RNYXGUFRSA-N,
+Hedera helix,Q83002196,"beta-D-Glucopyranosiduronic acid, (3beta,4alpha)-17-carboxy-23-hydroxy-28-norolean-12-en-3-yl",DYFUVQSGLMQLRX-ALBXZGMBSA-N,
+Hedera helix,Q104250275,Covi-ox,GVJHHUAWPYXKBD-IHMCZWCLSA-N,
+Hedera helix,Q104252118,(Z)-falcarinol,UGJAEDFOKNAMQD-SXSDINLZSA-N,
+Hedera helix,Q104391960,Hederasaponin B,NVSLBOBPSCMMSO-BVLVEXITSA-N,
+Hedera helix,Q104391965,"10-(2,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,22,24,26,28-Docosahydroxynonacosoxy)-9-(hydroxymethyl)-2,2,6a,6b,9,12a-hexamethyl-1,3,4,5,6,6a,7,8,8a,10,11,12,13,14b-tetradecahydropicene-4a-carboxylic acid",PGHRFWJRZHZTQN-UHFFFAOYSA-N,
+Hedera helix,Q104402787,hederagenin-3-O-beta-D-glucopyranoside,CCDRPBGPIXPGRW-DLQTVUGOSA-N,
+Hedera helix,Q104667835,hederacoside D,UEHILKCNLIKLEV-UHFFFAOYSA-N,
+Hedera helix,Q104888519,"9-(Hydroxymethyl)-2,2,6a,6b,9,12a-hexamethyl-10-(3,4,5-trihydroxyoxan-2-yl)oxy-1,3,4,5,6,6a,7,8,8a,10,11,12,13,14b-tetradecahydropicene-4a-carboxylic acid",QUBNLZCADIYAFW-UHFFFAOYSA-N,
+Hedera helix,Q104909651,Didehydrofalcarinol,ADKVNLJOJPLERM-GMBPKHMRSA-N,
+Hedera helix,Q104909653,"(3S,9Z,11Z)-heptadeca-1,9,11,16-tetraen-4,6-diyn-3-ol",ADKVNLJOJPLERM-JBDKYTPXSA-N,
+Hedera helix,Q104953169,"(4aS,6aR,6aS,6bR,8aS,9R,10S,12aR,14bS)-9-(hydroxymethyl)-2,2,6a,6b,9,12a-hexamethyl-10-[(2R,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxy-1,3,4,5,6,6a,7,8,8a,10,11,12,13,14b-tetradecahydropicene-4a-carboxylic acid",CCDRPBGPIXPGRW-QOBSNSOZSA-N,
+Hedera helix,Q104971683,,CWYUSFMWQKCWDK-AAVGEHTMSA-N,
+Hedera helix,Q104971684,,CWYUSFMWQKCWDK-UHFFFAOYSA-N,
+Hedera helix,Q104991356,"6-[[8a-Carboxy-4-(hydroxymethyl)-4,6a,6b,11,11,14b-hexamethyl-1,2,3,4a,5,6,7,8,9,10,12,12a,14,14a-tetradecahydropicen-3-yl]oxy]-3,4,5-trihydroxyoxane-2-carboxylic acid",DYFUVQSGLMQLRX-UHFFFAOYSA-N,
+Hedera helix,Q105004394,,FYBHGBVHRPQYQC-GWIVOYSISA-N,
+Hedera helix,Q105007691,Glycoside L-G3;Tauroside G3,GFPLPBCJRRNZHM-UHFFFAOYSA-N,
+Hedera helix,Q105031883,CID 15127236,HPTCFCREEHCWMI-GTOFXWBISA-N,
+Hedera helix,Q105035758,"(4aS,6aR,6aS,6bR,8aR,10S,12aR,14bS)-2,2,6a,6b,9,9,12a-heptamethyl-10-[(2S,3R,4S,5S)-3,4,5-trihydroxyoxan-2-yl]oxy-1,3,4,5,6,6a,7,8,8a,10,11,12,13,14b-tetradecahydropicene-4a-carboxylic acid",HZLWUYJLOIAQFC-HRDZKRTASA-N,
+Hedera helix,Q105035759,"2,2,6a,6b,9,9,12a-Heptamethyl-10-(3,4,5-trihydroxyoxan-2-yl)oxy-1,3,4,5,6,6a,7,8,8a,10,11,12,13,14b-tetradecahydropicene-4a-carboxylic acid",HZLWUYJLOIAQFC-UHFFFAOYSA-N,
+Hedera helix,Q105036394,"10-[4,5-Dihydroxy-3-(3,4,5-trihydroxy-6-methyloxan-2-yl)oxyoxan-2-yl]oxy-2,2,6a,6b,9,9,12a-heptamethyl-1,3,4,5,6,6a,7,8,8a,10,11,12,13,14b-tetradecahydropicene-4a-carboxylic acid",IBAJNOZMACNWJD-UHFFFAOYSA-N,
+Hedera helix,Q105120478,Momordin Ib,IUCHKMAZAWJNBJ-UHFFFAOYSA-N,
+Hedera helix,Q105127551,Tauroside D,JGNKEDAWBHVCHY-VCCIMKKOSA-N,
+Hedera helix,Q105140089,,KEOITPILCOILGM-IPOPOHETSA-N,
+Hedera helix,Q105140097,Sapindoside A,KEOITPILCOILGM-UHFFFAOYSA-N,
+Hedera helix,Q105143172,,KMSBNWQKGSLQFA-FVQPYGJLSA-N,
+Hedera helix,Q105143174,"10-[4,5-Dihydroxy-6-(hydroxymethyl)-3-(3,4,5-trihydroxy-6-methyloxan-2-yl)oxyoxan-2-yl]oxy-9-(hydroxymethyl)-2,2,6a,6b,9,12a-hexamethyl-1,3,4,5,6,6a,7,8,8a,10,11,12,13,14b-tetradecahydropicene-4a-carboxylic acid",KMSBNWQKGSLQFA-UHFFFAOYSA-N,
+Hedera helix,Q105147198,Cauloside F,KWXBKEINOHVSGJ-FBCAOFFQSA-N,
+Hedera helix,Q105175216,,MYVNIRXXBZQJLZ-UHFFFAOYSA-N,
+Hedera helix,Q105175217,,MYVNIRXXBZQJLZ-ZHEUBHLBSA-N,
+Hedera helix,Q105179632,,NHWXLQPHNIUEFJ-UHFFFAOYSA-N,
+Hedera helix,Q105179633,,NHWXLQPHNIUEFJ-XSFOBXPPSA-N,
+Hedera helix,Q105184845,Staunoside A,NRVVDCANHAKYCV-INVBGFSGSA-N,
+Hedera helix,Q105186393,eleutheroside M,NVSLBOBPSCMMSO-UHFFFAOYSA-N,
+Hedera helix,Q105190213,,OEEIXDVEDJTQPJ-CNPWXMHRSA-N,
+Hedera helix,Q105190214,,OEEIXDVEDJTQPJ-UHFFFAOYSA-N,
+Hedera helix,Q105200756,,OVJNJRGKGRKYIY-IHTSAJPJSA-N,
+Hedera helix,Q105200759,,OVJNJRGKGRKYIY-UHFFFAOYSA-N,
+Hedera helix,Q105207513,"(4aR,5R,6aR,6aS,6bR,8aR,10S,12aR,14bS)-5-hydroxy-2,2,6a,6b,9,9,12a-heptamethyl-10-sulfooxy-1,3,4,5,6,6a,7,8,8a,10,11,12,13,14b-tetradecahydropicene-4a-carboxylic acid",PEYMPFXFOUIQGT-VUYAZHOMSA-N,
+Hedera helix,Q105215545,,PVNXMFDNBHBTQH-UHFFFAOYSA-N,
+Hedera helix,Q105215546,,PVNXMFDNBHBTQH-WZJLZQBYSA-N,
+Hedera helix,Q105228036,"(4aS,6aR,6aS,6bR,8aS,9R,10S,12aR,14bS)-9-(hydroxymethyl)-2,2,6a,6b,9,12a-hexamethyl-10-[(2S,3R,4S,5S)-3,4,5-trihydroxyoxan-2-yl]oxy-1,3,4,5,6,6a,7,8,8a,10,11,12,13,14b-tetradecahydropicene-4a-carboxylic acid",QUBNLZCADIYAFW-IQLUPVJSSA-N,
+Hedera helix,Q105236377,,RHHSFOQSESHVRS-UHFFFAOYSA-N,
+Hedera helix,Q105236379,,RHHSFOQSESHVRS-ZJSHWQRDSA-N,
+Hedera helix,Q105238121,Scheffleraside II,RJWVNQDEFVAPCR-UAOABQJCSA-N,
+Hedera helix,Q105238122,,RJWVNQDEFVAPCR-UHFFFAOYSA-N,
+Hedera helix,Q105247572,"Olean-12-en-28-oic acid, 3-[[2-O-(6-deoxy-alpha-L-mannopyranosyl)-alpha-L-arabinopyranosyl]oxy]-23-hydroxy-, O-6-deoxy-alpha-L-mannopyranosyl-(1.fwdarw.4)-O-beta-D-glucopyranosyl-(1.fwdarw.6)-beta-D-glucopyranosyl ester, (3beta,4alpha)-",RYHDIBJJJRNDSX-PCYDYEHUSA-N,
+Hedera helix,Q105247578,hederacoside C,RYHDIBJJJRNDSX-UHFFFAOYSA-N,
+Hedera helix,Q105264454,3-O-alpha-L-Arabinopyranosylechinocystic acid,SZXCDOOFLYYOCZ-HDYQOPGWSA-N,
+Hedera helix,Q105264455,"5-Hydroxy-2,2,6a,6b,9,9,12a-heptamethyl-10-(3,4,5-trihydroxyoxan-2-yl)oxy-1,3,4,5,6,6a,7,8,8a,10,11,12,13,14b-tetradecahydropicene-4a-carboxylic acid",SZXCDOOFLYYOCZ-UHFFFAOYSA-N,
+Hedera helix,Q105287771,Helixoside A,VKICMPRVQHZPRV-XGUXQMSSSA-N,
+Hedera helix,Q105290863,,VPMAVMNCCCVJSK-CXGCXQJASA-N,
+Hedera helix,Q105301876,,WCMJLEULXWUCRF-OLTREEDVSA-N,
+Hedera helix,Q105301881,,WCMJLEULXWUCRF-XUJGWIJLSA-N,
+Hedera helix,Q105306407,"(9S,10R)-9,10-Epoxy-1-heptadecene-4,6-diyne-3-one",WIONCQLWGYLTME-SJORKVTESA-N,
+Hedera helix,Q105306758,"(3S,9Z,11Z)-heptadeca-1,9,11-trien-4,6-diyn-3-ol",WJFSPRQRDLHNOE-JBDKYTPXSA-N,
+Hedera helix,Q105311014,"10-[4,5-Dihydroxy-3-(3,4,5-trihydroxy-6-methyloxan-2-yl)oxyoxan-2-yl]oxy-5-hydroxy-2,2,6a,6b,9,9,12a-heptamethyl-1,3,4,5,6,6a,7,8,8a,10,11,12,13,14b-tetradecahydropicene-4a-carboxylic acid",WQVNDHHTUJYLTJ-UHFFFAOYSA-N,
+Hedera helix,Q105311015,,WQVNDHHTUJYLTJ-XDNDNJDCSA-N,
+Hedera helix,Q105330289,Glycoside L-F2,XLRCLQVFCBYALB-UHFFFAOYSA-N,
+Hedera helix,Q105330290,,XLRCLQVFCBYALB-XMQPJTDOSA-N,
+Hedera helix,Q105345640,Hederasaponin F,YAWJHQZYFGHLSY-VYEWMGKISA-N,
+Hedera helix,Q105351015,,YNMWBVNUVVDDPQ-OJIOAXDUSA-N,
+Hedera helix,Q105351696,Helixoside B,YPIHCZNMLNJVSW-NMEUZNJHSA-N,
+Hedera helix,Q105368748,,YYMHTAGTVKFQOP-KPFPMFHISA-N,
+Hedera helix,Q105368752,,YYMHTAGTVKFQOP-UHFFFAOYSA-N,
+Hedera helix,Q105371033,,ZCCWQTVZGNRCJQ-UHFFFAOYSA-N,
+Hedera helix,Q105371035,,ZCCWQTVZGNRCJQ-XZRDZOFRSA-N,
+Hedera helix,Q105375324,3beta-(alpha-L-Arabinopyranosyloxy)-16alpha-hydroxyoleana-12-ene-28-oic acid 6-O-(4-O-alpha-L-rhamnopyranosyl-beta-D-glucopyranosyl)-beta-D-glucopyranosyl ester,ZGMSGGSISLPGEC-SEQZVPSZSA-N,
+Hedera helix,Q105375325,,ZGMSGGSISLPGEC-UHFFFAOYSA-N,
+Hedera helix,Q105385314,,ZWYKDDVVXUXZHA-UHFFFAOYSA-N,
+Hedera helix,Q105385316,,ZWYKDDVVXUXZHA-VRVJSPLRSA-N,
 Salvia rosmarinus,Q155667,beta-Tocopherol,WGVKWNUPNGFDFJ-DQCZWYHMSA-N,
 Salvia rosmarinus,Q417362,ferulic acid,KSEBMYQBYZTDHS-HWKANZROSA-N,CHEMBL32749
 Salvia rosmarinus,Q420043,isoeugenol,BJIOGJUNALELMI-UHFFFAOYSA-N,CHEMBL445206

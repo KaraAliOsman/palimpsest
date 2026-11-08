@@ -12,7 +12,7 @@ from . import figures
 from .leads import rank_leads
 from .modern import (add_metrics, conditional_logit, group_summary, logit_fixed_effects,
                      poisson_rate_ratios, within_taxon_wilcoxon)
-from .persistence import taxon_claims, transmission_test
+from .persistence import size_strata, taxon_claims, transmission_test
 
 
 def _jsonable(o):
@@ -52,11 +52,17 @@ def run_analysis(n_perm: int = 10000) -> dict:
     tcc = tc.assign(concept_id=tc.concept_id.map(cat_of)).groupby(["taxon", "concept_id"]).agg(
         dsc=("dsc", "max"), cul=("cul", "max")).reset_index()
     sens["category_level"] = transmission_test(tcc, n_perm=2000)
+    # stricter nulls requested in review: plants with long entries in both herbals
+    # (size strata) and related plants with shared chemistry (same family)
+    sens["size_stratified"] = transmission_test(tc, n_perm=5000, strata=size_strata(tc))
+    fam = mt[mt.taxon != ""].drop_duplicates("taxon").set_index("taxon").family.to_dict()
+    sens["within_family"] = transmission_test(tc, n_perm=5000, strata=fam)
     per_concept = trans["per_concept"].merge(concepts[["concept_id", "label", "category"]], on="concept_id")
     per_concept.sort_values("both", ascending=False).to_csv(TABLES / "transmission_by_concept.csv", index=False)
 
     # --- 2. modern evidence
     ev = pd.read_csv(PROCESSED / "evidence_pairs.csv")
+    ev = ev[ev.taxon.isin(set(tc.taxon))]
     N = int(ev.N.iloc[0])
     pairs = ev.merge(tc[["taxon", "concept_id", "n_dsc", "n_cul", "dsc", "cul"]],
                      on=["taxon", "concept_id"], how="left")
@@ -79,6 +85,8 @@ def run_analysis(n_perm: int = 10000) -> dict:
         "logit_fixed_effects": logit_fixed_effects(p),
         # secondary specifications
         "poisson_offset_only": poisson_rate_ratios(p, fixed_effects=False),
+        # intensity once studied: among pairs with >= 1 co-mentioning paper
+        "poisson_given_studied": poisson_rate_ratios(p[p.pair > 0]),
         "conditional_logit": conditional_logit(p),
         "wilcoxon_within_taxon": within_taxon_wilcoxon(p),
     }
@@ -96,7 +104,18 @@ def run_analysis(n_perm: int = 10000) -> dict:
     ti_path = PROCESSED / "taxon_info.csv"
     ti = pd.read_csv(ti_path) if ti_path.exists() else pd.DataFrame({"taxon": []})
     adverse = claims[claims.polarity == "adverse"].merge(mt[["monograph_id", "taxon"]], on="monograph_id")
-    leads, leads_all = rank_leads(pairs, ti.drop(columns=[c for c in ("taxon_total",) if c in ti.columns]),
+    # a lead must be supported by a chapter about the plant itself in BOTH herbals,
+    # not only by a product chapter (e.g. bird-lime, a wine or an oil)
+    kind = dict(zip(mt.monograph_id, mt.kind))
+
+    def plant_side(ids):
+        return any(kind.get(i) == "plant" for i in str(ids).split(";") if i)
+
+    ok = {(r.taxon, r.concept_id) for r in tc.itertuples()
+          if plant_side(r.dsc_monographs) and plant_side(r.cul_monographs)}
+    in_ok = pd.Series([(t, c) in ok for t, c in zip(pairs.taxon, pairs.concept_id)], index=pairs.index)
+    lead_pairs = pairs[(pairs.group != "both") | in_ok]
+    leads, leads_all = rank_leads(lead_pairs, ti.drop(columns=[c for c in ("taxon_total",) if c in ti.columns]),
                                   set(adverse.taxon) - {""})
     lab = concepts[["concept_id", "label", "category"]]
     leads = leads.merge(lab, on="concept_id", how="left")
