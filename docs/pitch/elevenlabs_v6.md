@@ -56,6 +56,9 @@ These are hypotheses — not medical advice.
 Everything is open. Scrape the page and watch sixteen centuries peel away.
 Read the Greek and the English side by side, trace any claim to the papers behind it — or ask an AI assistant, through our open MCP server.
 
+**V10b — Where they grow (≈ 6 s)**
+And see where every plant grows today — its native range, where it was introduced, and where it is recorded.
+
 **V11 — Who it is for (≈ 12 s)**
 For historians, a measure of how knowledge travels.
 For drug discovery, an explainable shortlist.
@@ -65,8 +68,8 @@ For medicine, the evidence — and its limits — in one place.
 Palimpsest.
 The older layer still shows through.
 
-*(Optional V08b, only if the time-machine test holds — I will confirm the sentence once the result is in:)*
-*And looking back from twenty ten, the herbals predicted where research would go next.*
+**V08b — Prediction (≈ 7 s) — CONFIRMED, record it (OR 2.77 from the 2010 cut-off)**
+And looking back from twenty ten, the herbals predicted where research would go next.
 
 ## Pronunciation
 Dioscorides → *dee-oss-KOR-ih-deez* · Culpeper → *KUL-pep-er* · Palimpsest → *PAL-imp-sest* · MCP → *M-C-P*
