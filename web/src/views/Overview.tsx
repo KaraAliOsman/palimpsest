@@ -12,6 +12,65 @@ function clip(q: string, max = 170): string {
   return `${q.slice(0, cut > max * 0.6 ? cut : max).replace(/[,;·.\s]+$/, "")} …`;
 }
 
+/** Verbatim from texts.json: the opening of "dsc:3.23" and one sentence of "cul:327-wormwood".
+ *  Inlined so the overview never pulls the 2.7 MB texts file just to draw its cover. */
+const GRC_323 = "ἀψίνθιον· γνώριμος ἡ πόα. ἐστι δὲ αὐτοῦ βέλτιον τὸ ἐν Πόντῳ καὶ Καππαδοκίᾳ γεννώμενον ἐν ὄρει τῳ καλουμένῳ Ταύρῳ. δύναμιν δὲ ἔχει στυπτικήν, θερμαντικήν, ἀποκαθαρτικὴν τῶν ἐνηρεικότων στομάχῳ καὶ κοιλίᾳ χολωδῶν. ἐστι δὲ καὶ οὐρητικὸν καὶ ἀκραίπαλον προπινόμενον, καὶ πρὸς ἐμπνευματώσεις δὲ ἁρμόζει καὶ κοιλίας καὶ στομάχου ἀλγήματα πινόμενον μετὰ σεσέλεως ἢ νάρδου Κελτικῆς, καὶ ἀνορεξίας καὶ ἰκτερικούς θεραπεύει τὸ ἀπόβρεγμα αὐτοῦ ἢ τὸ ἀφέψημα καθʼ ἑκάστην ἡμέραν λαμβανόμενον εἰς πλῆθος κυάθων τριῶν.";
+const CUL_327 = "The sun never shone upon a better herb for the yellow jaundice than this.";
+
+/** The cover: three hands on one leaf. The Greek is the scraped under-text, Culpeper writes over it, the binomial over both. */
+function Palimpsest({ slug }: { slug?: string }) {
+  return (
+    <figure className="ps" aria-labelledby="ps-cap">
+      <div className="ps-sheet fibre" aria-hidden="true">
+        <span className="ps-folio ps-folio--top">fol. iii.23</span>
+        <p className="ps-grc" lang="grc">{GRC_323} {GRC_323}</p>
+        <div className="ps-over">
+          <p className="ps-cul"><span className="ps-hand">Culpeper, 1653</span>{CUL_327}</p>
+          <p className="ps-mod">
+            <span className="ps-hand">Accepted name, 2026</span>
+            <span className="ps-binomial">Artemisia absinthium</span>
+            <span className="ps-gloss">L. · Asteraceae · wormwood</span>
+          </p>
+        </div>
+        <span className="ps-folio ps-folio--foot">ἀψίνθιον · Dsc. iii.23</span>
+      </div>
+      <figcaption id="ps-cap" className="ps-cap">
+        <span className="smcp">Three layers of one leaf.</span> Dioscorides’ Greek for wormwood (<i>De materia medica</i> 3.23) lies under Culpeper’s English and the modern name.{" "}
+        {slug && <a href={href(`/plant/${slug}`)}>Read wormwood</a>}
+      </figcaption>
+    </figure>
+  );
+}
+
+const ROMAN = ["i", "ii", "iii", "iv", "v", "vi"];
+
+/** The four headline findings from summary.json, set as one ruled band. */
+function ResultsBand({ summary }: { summary: Summary }) {
+  const items = asArray<NonNullable<Summary["headline"]>[number]>(summary.headline).filter((h) => h && (h.value !== undefined || h.label)).slice(0, 4);
+  return (
+    <section className="results" aria-labelledby="results-h">
+      <div className="container">
+        <div className="results-head">
+          <h2 id="results-h">What the two herbals share, tested against chance</h2>
+          <p><a href={href("/evidence")}>See the charts and the models</a></p>
+        </div>
+        {items.length ? (
+          <ol className="results-list">
+            {items.map((h, i) => (
+              <li key={i}>
+                <span className="results-n" aria-hidden="true">{ROMAN[i]}.</span>
+                <span className="results-value">{h.value ?? ""}</span>
+                <span className="results-label">{h.label}</span>
+                {h.detail ? <span className="results-detail">{h.detail}</span> : null}
+              </li>
+            ))}
+          </ol>
+        ) : <p className="results-empty">The headline findings arrive with the pipeline export.</p>}
+      </div>
+    </section>
+  );
+}
+
 const CONF: Record<string, string> = { high: "high confidence", medium: "medium confidence", low: "low confidence" };
 
 function Leaf({ lead, status, cmap, entry }: { lead: Lead | null; status: string; cmap: Map<string, Concept>; entry: PlantIndex | undefined }) {
@@ -69,7 +128,7 @@ function StageRuler({ summary }: { summary: Summary }) {
     <section className="stage-section" aria-labelledby="s1">
       <div className="container">
         <div className="stage-headblock">
-          <h2 id="s1">I. Two herbals on one ruler</h2>
+          <h2 id="s1"><span className="rubric">I.</span> Two herbals on one ruler</h2>
           <p className="section-lede">A Greek pharmacology of about 60 CE and an English herbal of 1653, read chapter by chapter.</p>
         </div>
         <div className="ruler" role="img" aria-label="Timeline from year 1 to 2026: Dioscorides about 60 CE, Culpeper 1653, the evidence in 2026. 1,593 years separate the herbals; 373 separate Culpeper from today.">
@@ -111,7 +170,7 @@ function StageNames({ summary, example }: { summary: Summary; example: PlantInde
     <section className="stage-section stage-section--well fibre" aria-labelledby="s2">
       <div className="container">
         <div className="stage-headblock">
-          <h2 id="s2">II. Names chained across sixteen centuries</h2>
+          <h2 id="s2"><span className="rubric">II.</span> Names chained across sixteen centuries</h2>
           <p className="section-lede">Every Greek or English name resolves to one accepted binomial, with a stated confidence.</p>
         </div>
         {example ? (
@@ -154,7 +213,7 @@ function StageReading({ summary }: { summary: Summary }) {
     <section className="stage-section" aria-labelledby="s3">
       <div className="container">
         <div className="stage-headblock">
-          <h2 id="s3">III. Indications mapped to MeSH</h2>
+          <h2 id="s3"><span className="rubric">III.</span> Indications mapped to MeSH</h2>
           <p className="section-lede">Lexicons find each indication; blind hand annotation{n ? ` of ${n} monographs per herbal` : ""} checks them.</p>
         </div>
         <table className="ledger ledger--scores">
@@ -178,31 +237,6 @@ function StageReading({ summary }: { summary: Summary }) {
   );
 }
 
-function StageFindings({ summary }: { summary: Summary }) {
-  const items = asArray<NonNullable<Summary["headline"]>[number]>(summary.headline).filter((h) => h && (h.value !== undefined || h.label)).slice(0, 4);
-  return (
-    <section className="stage-section stage-section--ruled" aria-labelledby="s4">
-      <div className="container">
-        <div className="stage-headblock">
-          <h2 id="s4">IV. Agreement tested against chance</h2>
-          <p className="section-lede">Culpeper against Dioscorides plant by plant, then both against today’s papers. <a href={href("/evidence")}>See the charts</a></p>
-        </div>
-        {items.length ? (
-          <ol className="findings">
-            {items.map((h, i) => (
-              <li key={i}>
-                <span className="finding-value">{h.value ?? ""}</span>
-                <span className="finding-label">{h.label}</span>
-                {h.detail ? <span className="finding-detail">{h.detail}</span> : <span />}
-              </li>
-            ))}
-          </ol>
-        ) : <p className="muted">The headline findings arrive with the pipeline export.</p>}
-      </div>
-    </section>
-  );
-}
-
 function StageLeads({ leads, cmap, bySlug }: { leads: Lead[]; cmap: Map<string, Concept>; bySlug: Map<string, PlantIndex> }) {
   const [q, setQ] = useState("");
   const submit = (e: FormEvent) => { e.preventDefault(); go(href("/plants", { q: q.trim() })); };
@@ -210,7 +244,7 @@ function StageLeads({ leads, cmap, bySlug }: { leads: Lead[]; cmap: Map<string, 
     <section className="stage-section stage-section--close" aria-labelledby="s5">
       <div className="container">
         <div className="stage-headblock">
-          <h2 id="s5">V. What survives is a list of leads</h2>
+          <h2 id="s5"><span className="rubric">V.</span> What survives is a list of leads</h2>
           <p className="section-lede">Pairs both herbals name and modern literature has barely touched, ranked for testing.</p>
         </div>
         {leads.length > 0 && (
@@ -269,8 +303,8 @@ export function Overview() {
       <section className="hero container" aria-labelledby="page-title">
         <div className="hero-text">
           <h1 id="page-title" className="hero-head" tabIndex={-1}>
+            <span className="hero-main">Did the old herbals know <em>something?</em></span>
             <span className="hero-pre">Two thousand years, one question.</span>
-            <span className="hero-main">Did the old herbals know something?</span>
           </h1>
           <p className="lead">Dioscorides’ Greek and Culpeper’s English, read together and tested against modern evidence.</p>
           <div className="actions">
@@ -278,12 +312,21 @@ export function Overview() {
             <a className="btn btn--quiet" href={href("/leads")}>Read the leads</a>
           </div>
         </div>
-        <Leaf lead={top} status={leads.status} cmap={cmap} entry={top ? byTaxon.get(top.taxon) : undefined} />
+        <Palimpsest slug={example?.slug ?? byTaxon.get("Artemisia absinthium")?.slug} />
       </section>
+      <ResultsBand summary={s} />
       <StageRuler summary={s} />
       <StageNames summary={s} example={example} />
       <StageReading summary={s} />
-      <StageFindings summary={s} />
+      <section className="stage-section stage-section--leaf" aria-labelledby="s4">
+        <div className="container leaf-stage">
+          <div className="stage-headblock">
+            <h2 id="s4"><span className="rubric">IV.</span> The first lead, in three hands</h2>
+            <p className="section-lede">The pair ranked first: what Dioscorides wrote, what Culpeper repeated, and how little has been tested since.</p>
+          </div>
+          <Leaf lead={top} status={leads.status} cmap={cmap} entry={top ? byTaxon.get(top.taxon) : undefined} />
+        </div>
+      </section>
       <StageLeads leads={sorted} cmap={cmap} bySlug={byTaxon} />
     </>
   );
