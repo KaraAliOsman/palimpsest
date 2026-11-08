@@ -7,6 +7,7 @@ import { CategoryBars, Forest, FoldDots, MatchedDumbbell, NullHistogram, type Ma
 import { Caution, Empty, ErrorState, Skeleton } from "../components/ui";
 import { SurvivalFlow } from "../charts/SurvivalFlow";
 import { TestsLedger, TimeMachine } from "../components/Extras";
+import { GeoOverview } from "../components/GeoOverview";
 
 const TONE: Record<string, Tone> = { unclaimed: "ref", dsc_only: "dsc", cul_only: "cul", persistent: "both", both: "both" };
 const LABEL: Record<string, string> = { dsc_only: "Dioscorides only", cul_only: "Culpeper only", both: "Both herbals", persistent: "Both herbals" };
@@ -77,6 +78,7 @@ export function Findings() {
             <li><a href={href("/findings", null, "odds")}>Odds ratios</a></li>
             <li><a href={href("/findings", null, "intensity")}>Once studied</a></li>
             <li><a href={href("/findings", null, "categories")}>What each herbal treats</a></li>
+            <li><a href={href("/findings", null, "geography")}>Where the plants grow</a></li>
             <li><a href={href("/findings", null, "flow")}>Every claim, followed</a></li>
           </ol>
         </nav>
@@ -141,6 +143,14 @@ export function Findings() {
                 </table>
               )}
             </div>
+          </section>
+
+          <section className="fig fig--plain" id="geography" aria-labelledby="geo-t">
+            <div className="fig-head">
+              <h2 id="geo-t" className="fig-title">Where these medicines come from</h2>
+              <p className="fig-take">Each herbal’s species, placed where Kew’s World Checklist records them growing wild. Both draw on one Mediterranean–European flora, but Culpeper’s reaches north: over half his plants are native to Britain, and many more grow there only as introductions. Turn the globe, or pick a region from the list.</p>
+            </div>
+            <GeoOverview />
           </section>
 
           <section className="fig fig--plain" id="flow" aria-labelledby="flow-t">

@@ -1,0 +1,83 @@
+{
+ "generated": "2026-11-08",
+ "denominators": {
+  "dsc": 462,
+  "cul": 312,
+  "both": 138
+ },
+ "east_mediterranean": [
+  "GRC",
+  "KRI",
+  "EAI",
+  "TUE",
+  "TUR",
+  "CYP",
+  "LBS",
+  "PAL",
+  "EGY"
+ ],
+ "peak": {
+  "dsc": {
+   "code": "TUR",
+   "name": "Turkey",
+   "n": 335
+  },
+  "cul": {
+   "code": "YUG",
+   "name": "Former Yugoslavia",
+   "n": 258
+  },
+  "both": {
+   "code": "TUR",
+   "name": "Turkey",
+   "n": 108
+  }
+ },
+ "insights": [
+  {
+   "id": "dsc_east_med",
+   "k": 368,
+   "n": 462,
+   "pct": 80,
+   "compare": {
+    "label": "Culpeper",
+    "k": 257,
+    "n": 312,
+    "pct": 82
+   },
+   "text": "80% of Dioscorides' plants (368 of 462 species) are native to the eastern Mediterranean; so are 82% of Culpeper's: both herbals draw on one Mediterranean-European flora.",
+   "definition": "Native in at least one of: Greece (GRC), Kriti (KRI), East Aegean Is. (EAI), Turkey-in-Europe (TUE), Turkey (TUR), Cyprus (CYP), Lebanon-Syria (LBS), Palestine (PAL), Egypt (EGY)."
+  },
+  {
+   "id": "cul_britain",
+   "k": 176,
+   "n": 312,
+   "pct": 56,
+   "compare": {
+    "label": "Dioscorides",
+    "k": 120,
+    "n": 462,
+    "pct": 26
+   },
+   "text": "56% of Culpeper's plants (176 of 312 species) are native to Britain, against 26% of Dioscorides'.",
+   "definition": "Native in WGSRPD Great Britain (GRB)."
+  },
+  {
+   "id": "cul_introduced_britain",
+   "k": 123,
+   "n": 312,
+   "pct": 39,
+   "examples": [
+    "ruta-graveolens",
+    "iris-germanica",
+    "malva-sylvestris",
+    "laurus-nobilis",
+    "sinapis-alba",
+    "ficus-carica"
+   ],
+   "absent": 13,
+   "text": "123 of Culpeper's 312 plants grow in Britain only as introductions; 13 more are not recorded there at all.",
+   "definition": "WCVP status introduced in Great Britain (GRB) and not native there, which includes ancient introductions (archaeophytes); 'not recorded' = no GRB row."
+  }
+ ]
+}

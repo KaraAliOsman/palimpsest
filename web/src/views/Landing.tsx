@@ -12,6 +12,7 @@ import { Arch, Caution, CopyButton, Kbd, Skeleton, TierMeter, isMac } from "../c
 import { useInView } from "../charts/kit";
 import INLINE from "../generated/inline.json";
 
+const GeoOverview = lazy(() => import("../components/GeoOverview").then((m) => ({ default: m.GeoOverview })));
 const SurvivalFlow = lazy(() => import("../charts/SurvivalFlow").then((m) => ({ default: m.SurvivalFlow })));
 
 type Era = "all" | "dsc" | "cul" | "now";
@@ -191,6 +192,21 @@ function FlowSection() {
         {seen ? (
           <Suspense fallback={<Skeleton rows={8} label="Drawing the flow" />}><SurvivalFlow /></Suspense>
         ) : <div className="flow-placeholder" aria-hidden="true" />}
+      </div>
+    </section>
+  );
+}
+
+/* ------------------------------------------------------------------ where the plants grow (lazy) */
+
+function GeoSection() {
+  const [ref, seen] = useInView<HTMLElement>();
+  return (
+    <section className="geo-sec" aria-labelledby="geo-title" ref={ref}>
+      <div className="wrap">
+        {seen ? (
+          <Suspense fallback={<Skeleton rows={6} label="Drawing the globe" />}><GeoOverview compact /></Suspense>
+        ) : <div className="geo-placeholder" aria-hidden="true" />}
       </div>
     </section>
   );
@@ -486,6 +502,7 @@ export function Landing({ onSearch }: { onSearch: () => void }) {
     <div className="landing">
       <Hero onSearch={onSearch} />
       <Findings />
+      <GeoSection />
       <HowToRead />
       <FlowSection />
       <Ways />

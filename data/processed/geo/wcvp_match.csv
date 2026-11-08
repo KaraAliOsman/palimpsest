@@ -1,0 +1,693 @@
+taxon,rank,gbif_key,method,wcvp_id,wcvp_name,wcvp_authors,wcvp_rank,powo_id,via,n_native,n_introduced
+Ruta graveolens,species,3190382,accepted,2527408,Ruta graveolens,L.,Species,775099-1,,5,44
+Plantago major,species,3189767,accepted,2569743,Plantago major,L.,Species,321286-2,,102,153
+Peucedanum officinale,species,6026255,accepted,2403662,Peucedanum officinale,L.,Species,846292-1,,19,0
+Iris germanica,species,5298069,accepted,321867,Iris × germanica,L.,Species,438637-1,,1,66
+Potentilla reptans,species,5367273,accepted,2957027,Potentilla reptans,L.,Species,324739-2,,67,31
+Betonica officinalis,species,2927280,accepted,21029,Betonica officinalis,L.,Species,445133-1,,38,3
+Ficus carica,species,5361909,accepted,2809827,Ficus carica,L.,Species,852556-1,,15,84
+Mentha pulegium,species,2927189,accepted,125243,Mentha pulegium,L.,Species,451022-1,,47,15
+Rheum rhaponticum,species,2888866,accepted,2425551,Rheum rhaponticum,L.,Species,696786-1,,1,4
+Brassica oleracea,species,3042845,accepted,2682457,Brassica oleracea,L.,Species,279435-1,,3,92
+Clinopodium nepeta,species,8916040,accepted,43618,Clinopodium nepeta,(L.) Kuntze,Species,445833-1,,29,21
+Ajuga chamaepitys,species,2927080,accepted,5197,Ajuga chamaepitys,(L.) Schreb.,Species,444546-1,,42,2
+Artemisia absinthium,species,3121319,accepted,2909600,Artemisia absinthium,L.,Species,300106-2,,56,119
+Laurus nobilis,species,3034015,accepted,2349094,Laurus nobilis,L.,Species,465049-1,,19,11
+Malva sylvestris,species,3152374,accepted,2504118,Malva sylvestris,L.,Species,561932-1,,62,100
+Marrubium vulgare,species,2927069,accepted,120952,Marrubium vulgare,L.,Species,449990-1,,59,81
+Mentha spicata,species,2927175,accepted,125402,Mentha spicata,L.,Species,451162-1,,41,102
+Sinapis alba,species,3047621,accepted,2476404,Sinapis alba,L.,Species,288952-1,,61,86
+Heracleum sphondylium,species,3034830,accepted,2846164,Heracleum sphondylium,L.,Species,843179-1,,28,23
+Opopanax chironium,species,6027176,accepted,2390877,Opopanax chironium,(L.) W.D.J.Koch,Species,845412-1,,11,0
+Papaver somniferum,species,2888439,accepted,2561497,Papaver somniferum,L.,Species,673724-1,,14,131
+Polygonum aviculare,species,7821030,accepted,2574669,Polygonum aviculare,L.,Species,695422-1,,99,94
+Alkanna tinctoria,species,5341257,accepted,2628546,Alkanna tinctoria,Tausch,Species,112753-1,,28,1
+Artemisia abrotanum,species,8042568,accepted,2922513,Artemisia abrotanum,L.,Species,306365-2,,3,56
+Origanum vulgare,species,2926612,accepted,143954,Origanum vulgare,L.,Species,453395-1,,77,27
+Portulaca oleracea,species,3084719,accepted,2566490,Portulaca oleracea,L.,Species,323270-2,,87,228
+Beta vulgaris,species,8971274,accepted,2675613,Beta vulgaris,L.,Species,164505-1,,44,70
+Hedera helix,species,8351737,accepted,96659,Hedera helix,L.,Species,90723-1,,37,53
+Juglans regia,species,3054368,accepted,2331747,Juglans regia,L.,Species,442427-1,,9,55
+Lysimachia arvensis,species,8184903,accepted,2896568,Lysimachia arvensis,(L.) U.Manns & Anderb.,Species,77100386-1,,80,126
+Melissa officinalis,species,5341501,accepted,124103,Melissa officinalis,L.,Species,450084-1,,30,67
+Prunus domestica,species,7931731,accepted,2959531,Prunus domestica,L.,Species,30221374-2,,2,70
+Teucrium chamaedrys,species,6411747,accepted,202772,Teucrium chamaedrys,L.,Species,460310-1,,37,2
+Umbilicus rupestris,species,7334368,accepted,2446661,Umbilicus rupestris,(Salisb.) Dandy,Species,277005-1,,29,1
+Vicia faba,species,2974832,accepted,2452318,Vicia faba,L.,Species,524737-1,,1,82
+Allium cepa,species,2857697,accepted,295261,Allium cepa,L.,Species,527795-1,,1,82
+Allium sativum,species,2856681,accepted,296499,Allium sativum,L.,Species,528796-1,,6,69
+Asplenium ceterach,species,2650617,accepted,3145781,Asplenium ceterach,L.,Species,17040860-1,,48,0
+Centaurium erythraea,species,5414457,accepted,2708639,Centaurium erythraea,Rafn,Species,326619-2,,57,44
+Foeniculum vulgare,species,3034922,accepted,2813604,Foeniculum vulgare,Mill.,Species,842680-1,,41,136
+Hordeum vulgare,species,2706056,accepted,419563,Hordeum vulgare,L.,Species,405391-1,,26,174
+Inula helenium,species,3148340,accepted,2901737,Inula helenium,L.,Species,225914-1,,20,59
+Iris foetidissima,species,5298765,accepted,321835,Iris foetidissima,L.,Species,438606-1,,13,11
+Morus nigra,species,5361888,accepted,2501426,Morus nigra,L.,Species,854688-1,,1,33
+Origanum majorana,species,2926615,accepted,143853,Origanum majorana,L.,Species,453303-1,,2,22
+Cicer arietinum,species,2947311,accepted,2720549,Cicer arietinum,L.,Species,486336-1,,3,87
+Erysimum cheiri,species,3048203,accepted,2799915,Erysimum × cheiri,(L.) Crantz,Species,283703-1,,1,37
+Isatis tinctoria,species,5374118,accepted,2867046,Isatis tinctoria,L.,Species,285873-1,,11,74
+Meum athamanticum,species,6026490,accepted,2365193,Meum athamanticum,Jacq.,Species,844931-1,,15,6
+Petroselinum crispum,species,7828157,accepted,2898243,Petroselinum crispum,(Mill.) Fuss,Species,60442790-2,,4,109
+Prunus avium,species,3020791,accepted,2917143,Prunus avium,(L.) L.,Species,30093848-2,,37,55
+Ruscus aculeatus,species,2769766,accepted,286704,Ruscus aculeatus,L.,Species,540443-1,,32,4
+Sambucus nigra,species,2888728,accepted,2486519,Sambucus nigra,L.,Species,30122169-2,,40,35
+Vitis vinifera,species,5372392,accepted,2457006,Vitis vinifera,L.,Species,30478388-2,,30,54
+Agrimonia eupatoria,species,3001956,accepted,2907448,Agrimonia eupatoria,L.,Species,316550-2,,60,14
+Anemone coronaria,species,3033261,accepted,2638132,Anemone coronaria,L.,Species,708314-1,,27,2
+Anethum graveolens,species,3034646,accepted,2638934,Anethum graveolens,L.,Species,837530-1,,11,141
+Asarum europaeum,species,7313595,accepted,2654312,Asarum europaeum,L.,Species,302682-2,,31,4
+Asparagus acutifolius,species,2768995,accepted,274916,Asparagus acutifolius,L.,Species,530992-1,,22,0
+Daucus carota,species,3034742,accepted,2757936,Daucus carota,L.,Species,841063-1,,66,121
+Heliotropium europaeum,species,2925767,accepted,2844004,Heliotropium europaeum,L.,Species,116833-1,,46,28
+Lactuca sativa,species,7403263,accepted,2912742,Lactuca sativa,L.,Species,228239-1,,1,124
+Lilium candidum,species,2753090,accepted,280671,Lilium candidum,L.,Species,537512-1,,6,21
+Lysimachia vulgaris,species,3169386,accepted,2492070,Lysimachia vulgaris,L.,Species,701414-1,,54,27
+Populus alba,species,3040233,accepted,2917735,Populus alba,L.,Species,776573-1,,43,55
+Rubia tinctorum,species,2892272,accepted,180430,Rubia tinctorum,L.,Species,765369-1,,29,21
+Symphytum officinale,species,7558421,accepted,2475636,Symphytum officinale,L.,Species,120815-1,,30,64
+Tanacetum parthenium,species,3118430,accepted,2916972,Tanacetum parthenium,(L.) Sch.Bip.,Species,252460-1,,14,136
+Tussilago farfara,species,3149879,accepted,2901763,Tussilago farfara,L.,Species,256904-1,,76,44
+Viola odorata,species,5331181,accepted,2459312,Viola odorata,L.,Species,868828-1,,49,74
+Acanthus mollis,species,5415455,accepted,2615276,Acanthus mollis,L.,Species,44892-1,,12,20
+Asplenium scolopendrium,species,2650669,accepted,2929850,Asplenium scolopendrium,L.,Species,30216020-2,,66,1
+Chelidonium majus,species,5334186,accepted,2716702,Chelidonium majus,L.,Species,303589-2,,63,42
+Cichorium endivia,species,5392243,accepted,3056259,Cichorium endivia,L.,Species,194527-1,,2,8
+Lemna minor,species,2867589,accepted,109308,Lemna minor,L.,Species,526194-1,,173,10
+Lolium temulentum,species,2706242,accepted,422908,Lolium temulentum,L.,Species,407516-1,,70,111
+Marchantia polymorpha,species,2688570,unmatched,,,,,,,0,0
+Myrrhis odorata,species,3034681,accepted,2363724,Myrrhis odorata,(L.) Scop.,Species,845120-1,,8,30
+Ononis spinosa,species,2977149,accepted,2389429,Ononis spinosa,L.,Species,332101-2,,56,13
+Plantago afra,species,7303104,accepted,2556632,Plantago afra,L.,Species,684830-1,,44,9
+Pyrus communis,species,5362573,accepted,2963115,Pyrus communis,L.,Species,30065762-2,,33,63
+Sonchus oleraceus,species,8228544,accepted,2929055,Sonchus oleraceus,L.,Species,250268-1,,73,144
+Triticum aestivum,species,7795888,accepted,448365,Triticum aestivum,L.,Species,332110-2,,8,207
+Ulmus minor,species,5361865,accepted,2448634,Ulmus minor,Mill.,Species,856890-1,,49,17
+Verbena officinalis,species,2925529,accepted,212527,Verbena officinalis,L.,Species,330554-2,,97,59
+Viscum album,species,2889828,accepted,2461327,Viscum album,L.,Species,300881-2,,49,4
+Atriplex hortensis,species,3083761,accepted,2665365,Atriplex hortensis,L.,Species,272934-2,,6,97
+Carum carvi,species,3034714,accepted,2701499,Carum carvi,L.,Species,839677-1,,68,59
+Conium maculatum,species,3034807,accepted,2734165,Conium maculatum,L.,Species,840668-1,,60,99
+Cydonia oblonga,species,5362215,accepted,2921979,Cydonia oblonga,Mill.,Species,724549-1,,6,56
+Galium aparine,species,2913548,accepted,85676,Galium aparine,L.,Species,30007294-2,,80,107
+Galium verum,species,9063248,accepted,87863,Galium verum,L.,Species,750829-1,,77,16
+Glycyrrhiza glabra,species,2965732,accepted,2827728,Glycyrrhiza glabra,L.,Species,496941-1,,34,19
+Hyssopus officinalis,species,5341387,synonym,3304211,Dracocephalum officinale,(L.) Y.P.Chen & B.T.Drew,Species,77333318-1,,23,8
+Juniperus sabina,species,7963890,accepted,377333,Juniperus sabina,L.,Species,30166980-2,,31,3
+Levisticum officinale,species,5371772,accepted,2341672,Levisticum officinale,W.D.J.Koch,Species,844187-1,,2,55
+Lithospermum officinale,species,2926086,accepted,2343333,Lithospermum officinale,L.,Species,118163-1,,62,21
+Persicaria hydropiper,species,8323622,accepted,2572559,Persicaria hydropiper,(L.) Delarbre,Species,77069479-1,,99,63
+Saponaria officinalis,species,3085360,accepted,2484914,Saponaria officinalis,L.,Species,156627-1,,34,98
+Smyrnium olusatrum,species,3034782,accepted,2473605,Smyrnium olusatrum,L.,Species,849121-1,,26,6
+Solanum nigrum,species,9150405,accepted,2915955,Solanum nigrum,L.,Species,30048260-2,,85,75
+Stellaria media,species,5384604,accepted,2481938,Stellaria media,(L.) Vill.,Species,159330-1,,94,148
+Thlaspi arvense,species,3052680,accepted,2437621,Thlaspi arvense,L.,Species,290477-1,,72,90
+Valeriana phu,species,8201823,accepted,2464750,Valeriana phu,L.,Species,860052-1,,1,2
+Achillea millefolium,species,3120060,accepted,2908230,Achillea millefolium,L.,Species,2294-2,,69,72
+Alkekengi officinarum,species,3797084,accepted,2628564,Alkekengi officinarum,Moench,Species,814247-1,,20,38
+Anacyclus pyrethrum,species,3148578,accepted,2922407,Anacyclus pyrethrum,(L.) Lag.,Species,941366-1,,3,5
+Arctium lappa,species,7353729,accepted,2900828,Arctium lappa,L.,Species,178385-1,,80,55
+Cannabis sativa,species,5361880,accepted,2696480,Cannabis sativa,L.,Species,306087-2,,8,171
+Convallaria majalis,species,7459480,accepted,303076,Convallaria majalis,L.,Species,533487-1,,36,40
+Crataegus monogyna,species,9220780,accepted,2921984,Crataegus monogyna,Jacq.,Species,723820-1,,48,40
+Cuscuta epithymum,species,2927518,accepted,485525,Cuscuta epithymum,(L.) L.,Species,267419-1,,57,45
+Dryopteris filix-mas,species,5275132,accepted,2929967,Dryopteris filix-mas,(L.) Schott,Species,30345915-2,,93,3
+Filipendula vulgaris,species,2988069,accepted,2948585,Filipendula vulgaris,Moench,Species,724945-1,,44,6
+Fumaria officinalis,species,5334217,accepted,2815499,Fumaria officinalis,L.,Species,30017594-2,,49,76
+Lepidium latifolium,species,5376692,accepted,2338049,Lepidium latifolium,L.,Species,286262-1,,59,44
+Mercurialis annua,species,3062975,accepted,125710,Mercurialis annua,L.,Species,352179-1,,44,26
+Nasturtium officinale,species,7701037,accepted,2381026,Nasturtium officinale,W.T.Aiton,Species,287534-1,,59,155
+Ocimum basilicum,species,2927096,accepted,136820,Ocimum basilicum,L.,Species,452874-1,,28,102
+Onopordum acanthium,species,3094900,accepted,3043390,Onopordum acanthium,L.,Species,235234-1,,46,54
+Paeonia mascula,species,7155281,accepted,519158,Paeonia mascula,(L.) Mill.,Species,711821-1,,14,3
+Pastinaca sativa,species,8262702,accepted,2403590,Pastinaca sativa,L.,Species,845768-1,,35,101
+Petasites hybridus,species,9490132,accepted,2912815,Petasites hybridus,"(L.) G.Gaertn., B.Mey. & Scherb.",Species,237374-1,,36,2
+Plantago coronopus,species,3189739,accepted,2571444,Plantago coronopus,L.,Species,685048-1,,49,22
+Polypodium vulgare,species,5274951,accepted,2932574,Polypodium vulgare,L.,Species,300720-2,,60,2
+Salvia rosmarinus,species,10902460,accepted,183733,Salvia rosmarinus,Spenn.,Species,457138-1,,19,16
+Senecio vulgaris,species,3108983,accepted,3082278,Senecio vulgaris,L.,Species,248251-1,,77,112
+Acer campestre,species,3189863,accepted,2615447,Acer campestre,L.,Species,781250-1,,31,30
+Acetabularia acetabulum,species,5273029,unmatched,,,,,,,0,0
+Achillea,genus,3119995,genus-union,3133851,Achillea,L.,Genus,60436826-2,190 accepted species,166,60
+Achillea ageratum,species,3120391,accepted,3109591,Achillea ageratum,L.,Species,173792-1,,13,2
+Achillea maritima,species,3120356,accepted,3109998,Achillea maritima,(L.) Ehrend. & Y.P.Guo,Species,77067622-1,,28,1
+Achillea ptarmica,species,3120333,accepted,3109605,Achillea ptarmica,L.,Species,2336-2,,32,35
+Aconitum lycoctonum,species,3033675,accepted,2619019,Aconitum lycoctonum,L.,Species,707564-1,,10,0
+Acorus calamus,species,2873769,accepted,2304,Acorus calamus,L.,Species,84009-1,,1,96
+Adiantum capillus-veneris,species,2651816,accepted,3147345,Adiantum capillus-veneris,L.,Species,325030-2,,162,5
+Aegilops geniculata,species,5289781,accepted,387679,Aegilops geniculata,Roth,Species,384596-1,,31,5
+Aegopodium podagraria,species,3034620,accepted,2623499,Aegopodium podagraria,L.,Species,5849-2,,38,49
+Aeonium arboreum,species,2985682,accepted,2623539,Aeonium arboreum,(L.) Webb & Berthel.,Species,272194-1,,2,17
+Agrostemma githago,species,3085368,accepted,2626726,Agrostemma githago,L.,Species,150316-1,,21,117
+Ajuga reptans,species,2927078,accepted,5385,Ajuga reptans,L.,Species,444664-1,,39,47
+Alchemilla vulgaris,species,7890713,accepted,2940791,Alchemilla vulgaris,L.,Species,721079-1,,26,2
+Alisma plantago-aquatica,species,2865100,accepted,294841,Alisma plantago-aquatica,L.,Species,30019518-2,,96,16
+Alliaria petiolata,species,5376075,accepted,2628680,Alliaria petiolata,(M.Bieb.) Cavara & Grande,Species,1176324-2,,59,44
+Allium,genus,9624496,genus-union,294888,Allium,L.,Genus,30000901-2,1114 accepted species,182,41
+Allium ampeloprasum,species,2856037,accepted,294972,Allium ampeloprasum,L.,Species,332079-2,,31,31
+Allium schoenoprasum,species,2855860,accepted,296525,Allium schoenoprasum,L.,Species,528823-1,,91,15
+Allium scorodoprasum,species,9177060,accepted,296553,Allium scorodoprasum,L.,Species,528834-1,,27,4
+Alnus glutinosa,species,2876213,accepted,6364,Alnus glutinosa,(L.) Gaertn.,Species,30036759-2,,46,27
+Aloe vera,species,2777724,accepted,298116,Aloe vera,(L.) Burm.f.,Species,530017-1,,1,76
+Althaea cannabina,species,3152519,accepted,2631515,Althaea cannabina,L.,Species,558787-1,,29,2
+Althaea officinalis,species,3152520,accepted,2631597,Althaea officinalis,L.,Species,558872-1,,48,23
+Amaranthus,genus,3085074,genus-union,2632636,Amaranthus,L.,Genus,327362-2,105 accepted species,216,116
+Amaranthus blitum,species,8911082,accepted,2632714,Amaranthus blitum,L.,Species,10619-2,,11,164
+Ambrosia maritima,species,7499720,accepted,2922390,Ambrosia maritima,L.,Species,176106-1,,31,8
+Ammi majus,species,3034182,accepted,2633874,Ammi majus,L.,Species,837486-1,,36,61
+Amomum,genus,7434655,genus-union,219155,Amomum,Roxb.,Genus,327296-2,110 accepted species,26,0
+Anacamptis papilionacea,species,2808646,accepted,8590,Anacamptis papilionacea,"(L.) R.M.Bateman, Pridgeon & M.W.Chase",Species,998302-1,,27,0
+Anagyris foetida,species,2946427,accepted,2636165,Anagyris foetida,L.,Species,473968-1,,28,1
+Anchusa azurea,species,5341198,accepted,2636472,Anchusa azurea,Mill.,Species,113203-1,,41,32
+Angelica archangelica,species,5371808,accepted,2638995,Angelica archangelica,L.,Species,837560-1,,23,5
+Anthericum ramosum,species,2773942,accepted,299665,Anthericum ramosum,L.,Species,530637-1,,23,0
+Anthriscus cerefolium,species,5371746,accepted,2641808,Anthriscus cerefolium,(L.) Hoffm.,Species,837913-1,,19,45
+Aphanes arvensis,species,5365013,synonym,2938788,Alchemilla arvensis,(L.) Scop.,Species,720390-1,,33,22
+Apium graveolens,species,5371879,accepted,2644053,Apium graveolens,L.,Species,838067-1,,52,97
+Aquilaria,genus,3233900,genus-union,2644528,Aquilaria,Lam.,Genus,331359-2,21 accepted species,17,0
+Aquilegia vulgaris,species,3033191,accepted,2645045,Aquilegia vulgaris,L.,Species,306409-2,,25,58
+Arbutus unedo,species,2882803,accepted,2646748,Arbutus unedo,L.,Species,326526-1,,20,7
+Argentina anserina,species,5367246,accepted,2941910,Argentina anserina,(L.) Rydb.,Species,721546-1,,111,8
+Arisarum vulgare,species,2867495,accepted,15835,Arisarum vulgare,O.Targ.Tozz.,Species,85902-1,,22,0
+Aristolochia,genus,2873978,genus-union,2651129,Aristolochia,L.,Genus,330834-2,572 accepted species,213,22
+Armoracia rusticana,species,3041022,accepted,2652952,Armoracia rusticana,"G.Gaertn., B.Mey. & Scherb.",Species,278747-1,,2,99
+Artemisia arborescens,species,3120677,accepted,3107652,Artemisia arborescens,L.,Species,179213-1,,18,8
+Artemisia vulgaris,species,3120946,accepted,2922622,Artemisia vulgaris,L.,Species,20812-2,,74,67
+Arum italicum,species,5330661,accepted,16186,Arum italicum,Mill.,Species,86047-1,,29,19
+Arum maculatum,species,5330580,accepted,16240,Arum maculatum,L.,Species,86067-1,,25,1
+Asparagus officinalis,species,2768885,accepted,275197,Asparagus officinalis,L.,Species,531229-1,,31,111
+Asphodelus ramosus,species,2778478,accepted,275588,Asphodelus ramosus,L.,Species,531548-1,,25,0
+Asplenium ruta-muraria,species,2650625,accepted,3145884,Asplenium ruta-muraria,L.,Species,311563-2,,97,0
+Asplenium sagittatum,species,7774915,accepted,3145894,Asplenium sagittatum,(DC.) Bange,Species,17371940-1,,16,0
+Asplenium trichomanes,species,8108066,accepted,3147719,Asplenium trichomanes,L.,Species,310197-2,,101,0
+Aster amellus,species,8133114,accepted,3099441,Aster amellus,L.,Species,331070-2,,28,3
+Astragalus,genus,2933951,genus-union,2657136,Astragalus,L.,Genus,330028-2,3113 accepted species,204,4
+Astragalus glaux,species,5343088,accepted,2659582,Astragalus glaux,L.,Species,477625-1,,8,0
+Astragalus hamosus,species,5342681,accepted,2659753,Astragalus hamosus,L.,Species,477735-1,,41,6
+Astragalus sarcocolla,species,5343610,accepted,2662618,Astragalus sarcocolla,Dymock,Species,479668-1,,1,0
+Athamanta cretensis,species,7607769,accepted,2664669,Athamanta cretensis,L.,Species,838414-1,,7,0
+Atractylis gummifera,species,7449725,synonym,3040137,Chamaeleon gummifer,(L.) Cass.,Species,192416-1,,13,0
+Atriplex halimus,species,3083718,accepted,2665336,Atriplex halimus,L.,Species,163845-1,,32,4
+Atropa belladonna,species,3802655,accepted,2665943,Atropa bella-donna,L.,Species,814358-1,,31,13
+Avena sativa,species,2705290,accepted,397860,Avena sativa,L.,Species,391732-1,,3,203
+Ballota nigra,species,2926894,accepted,19633,Ballota nigra,L.,Species,444976-1,,45,13
+Barbarea vulgaris,species,5708780,accepted,2669712,Barbarea vulgaris,W.T.Aiton,Species,29455-2,,49,63
+Bellis perennis,species,3117424,accepted,2922692,Bellis perennis,L.,Species,184409-1,,54,60
+Berberis vulgaris,species,3033894,accepted,2674612,Berberis vulgaris,L.,Species,328527-2,,33,48
+Berula erecta,species,3034699,accepted,2675185,Berula erecta,(Huds.) Coville,Species,31836-2,,55,2
+Betula pendula,species,5331916,accepted,21582,Betula pendula,Roth,Species,295174-1,,75,16
+Bidens tripartita,species,5391862,accepted,2925725,Bidens tripartita,L.,Species,185293-1,,132,3
+Bistorta officinalis,species,7925535,accepted,2676824,Bistorta officinalis,Delarbre,Species,60430545-2,,58,11
+Bituminaria bituminosa,species,2952882,accepted,2676873,Bituminaria bituminosa,(L.) C.H.Stirt.,Species,908440-1,,30,5
+Bongardia chrysogonum,species,3981547,accepted,2679396,Bongardia chrysogonum,(L.) Spach,Species,107222-1,,18,0
+Borago officinalis,species,2926110,accepted,2679695,Borago officinalis,L.,Species,113618-1,,15,98
+Boswellia sacra,species,8330171,accepted,2680579,Boswellia sacra,Flück.,Species,127065-1,,3,1
+Botrychium lunaria,species,2650165,accepted,3142254,Botrychium lunaria,(L.) Sw.,Species,30021929-2,,84,0
+Brassica cretica,species,3042837,accepted,2682158,Brassica cretica,Lam.,Species,279298-1,,7,3
+Brassica napus,species,3042636,accepted,2682380,Brassica napus,L.,Species,279419-1,,1,140
+Brassica rapa,species,7903057,accepted,2682652,Brassica rapa,L.,Species,279485-1,,20,204
+Bryonia alba,species,2874497,accepted,2684337,Bryonia alba,L.,Species,291541-1,,21,16
+Bryonia cretica,species,2874496,accepted,2684368,Bryonia cretica,L.,Species,291575-1,,30,6
+Bryonia dioica,species,6422396,synonym,2684370,Bryonia cretica subsp. dioica,(Jacq.) Tutin,Subspecies,77200692-1,,21,6
+Bunium ferulaceum,species,3641616,accepted,2686218,Bunium ferulaceum,Sm.,Species,838919-1,,12,0
+Bupleurum rotundifolium,species,3034554,accepted,2687113,Bupleurum rotundifolium,L.,Species,38361-2,,32,39
+Cachrys,genus,6026770,genus-union,2688852,Cachrys,L.,Genus,39758-1,7 accepted species,23,0
+Cachrys libanotis,species,3634812,accepted,2688899,Cachrys libanotis,L.,Species,839537-1,,9,0
+Calendula officinalis,species,5391480,accepted,2910167,Calendula officinalis,L.,Species,187894-1,,1,125
+Calicotome villosa,species,2956364,accepted,2691866,Calicotome villosa,(Poir.) Link,Species,77106062-1,,19,0
+Calystegia sepium,species,2928441,synonym,484934,Convolvulus sepium,L.,Species,30074933-2,,134,17
+Calystegia soldanella,species,7646357,synonym,484985,Convolvulus soldanella,L.,Species,267007-1,,69,0
+Camelina sativa,species,9073641,accepted,2694405,Camelina sativa,(L.) Crantz,Species,279870-1,,33,76
+Campanula,genus,3161935,genus-union,363841,Campanula,L.,Genus,30027807-2,462 accepted species,175,13
+Capparis spinosa,species,6370689,accepted,2697596,Capparis spinosa,L.,Species,146789-1,,65,2
+Capsella bursa-pastoris,species,5375388,accepted,2697999,Capsella bursa-pastoris,(L.) Medik.,Species,30092589-2,,94,145
+Cardamine bulbifera,species,3045931,accepted,2699536,Cardamine bulbifera,(L.) Crantz,Species,280205-1,,31,2
+Cardamine pratensis,species,7972010,accepted,2700274,Cardamine pratensis,L.,Species,45334-2,,75,3
+Cardopatium corymbosum,species,3098511,accepted,3040254,Cardopatium corymbosum,(L.) Pers.,Species,188292-1,,11,0
+Carduus pycnocephalus,species,3114667,accepted,3041131,Carduus pycnocephalus,L.,Species,188996-1,,51,26
+Carthamus lanatus,species,3138230,synonym,3047518,Phonus lanatus,(L.) Hill,Species,237689-1,,40,29
+Carthamus tinctorius,species,3138327,accepted,2900984,Carthamus tinctorius,L.,Species,324467-2,,2,135
+Castanea sativa,species,5333294,accepted,35042,Castanea sativa,Mill.,Species,295349-1,,10,40
+Cedrus libani,species,5284682,accepted,382698,Cedrus libani,A.Rich.,Species,676705-1,,2,3
+Celtis australis,species,2984492,accepted,2708167,Celtis australis,L.,Species,850999-1,,24,9
+Centaurea benedicta,species,3127691,accepted,2926256,Centaurea benedicta,(L.) L.,Species,190024-1,,33,42
+Centaurea calcitrapa,species,3128483,accepted,3048114,Centaurea calcitrapa,L.,Species,330052-2,,35,37
+Centaurea cyanus,species,3089561,accepted,2926089,Centaurea cyanus,L.,Species,190310-1,,11,134
+Centaurea nigra,species,3128225,accepted,3050229,Centaurea nigra,L.,Species,191100-1,,16,36
+Centaurea spinosa,species,3128393,accepted,3050689,Centaurea spinosa,L.,Species,191657-1,,5,0
+Ceratonia siliqua,species,5356354,accepted,2711136,Ceratonia siliqua,L.,Species,485647-1,,20,31
+Cerinthe major,species,2926108,accepted,2712572,Cerinthe major,L.,Species,113825-1,,18,6
+Chamaecrista absus,species,2949868,accepted,2714615,Chamaecrista absus,(L.) H.S.Irwin & Barneby,Species,54310-2,,78,7
+Chamaemelum nobile,species,5391599,accepted,2906828,Chamaemelum nobile,(L.) All.,Species,192489-1,,8,33
+Chamaenerion angustifolium,species,6428353,synonym,2790112,Epilobium angustifolium,L.,Species,92411-2,,136,1
+Chenopodium vulvaria,species,3083932,accepted,2717921,Chenopodium vulvaria,L.,Species,165311-1,,53,29
+Chondrilla juncea,species,8537667,accepted,3056390,Chondrilla juncea,L.,Species,328774-2,,51,22
+Cichorium intybus,species,5392252,accepted,2901597,Cichorium intybus,L.,Species,194533-1,,60,161
+Cinnamomum aromaticum,species,3033982,accepted,2721121,Cinnamomum aromaticum,Nees,Species,463288-1,,2,14
+Cinnamomum tamala,species,9128079,accepted,2721651,Cinnamomum tamala,(Buch.-Ham.) T.Nees & C.H.Eberm.,Species,463718-1,,9,0
+Cinnamomum verum,species,3033987,accepted,2721692,Cinnamomum verum,J.Presl,Species,463752-1,,1,27
+Cionura erecta,species,3572423,accepted,503124,Cionura erecta,(L.) Griseb.,Species,95869-1,,13,1
+Cirsium,genus,3112554,genus-union,3134416,Cirsium,Mill.,Genus,30001899-2,607 accepted species,183,39
+Cirsium heterophyllum,species,3113745,accepted,3041841,Cirsium heterophyllum,(L.) Hill,Species,195465-1,,35,2
+Cirsium tuberosum,species,3112651,accepted,3042667,Cirsium tuberosum,(L.) All.,Species,196145-1,,8,1
+Cistus creticus,species,6438085,accepted,2723343,Cistus creticus,L.,Species,168230-1,,16,4
+Citrullus colocynthis,species,2874622,accepted,2723897,Citrullus colocynthis,(L.) Schrad.,Species,291930-1,,47,23
+Clematis vitalba,species,3033558,accepted,2726964,Clematis vitalba,L.,Species,319145-2,,33,20
+Clinopodium acinos,species,2927118,accepted,43426,Clinopodium acinos,(L.) Kuntze,Species,445709-1,,43,7
+Clinopodium vulgare,species,2926945,accepted,43704,Clinopodium vulgare,L.,Species,61206-2,,57,39
+Cneorum tricoccon,species,7483998,accepted,44137,Cneorum tricoccon,L.,Species,813691-1,,5,1
+Cochlearia officinalis,species,5373276,accepted,2729901,Cochlearia officinalis,L.,Species,281469-1,,13,7
+Colchicum,genus,2739608,genus-union,302745,Colchicum,L.,Genus,24150-1,166 accepted species,78,15
+Commiphora gileadensis,species,3993077,accepted,2733501,Commiphora gileadensis,(L.) C.Chr.,Species,127663-1,,9,0
+Commiphora myrrha,species,3994082,accepted,2733595,Commiphora myrrha,(T.Nees) Engl.,Species,127741-1,,8,0
+Commiphora wightii,species,3992808,accepted,2733729,Commiphora wightii,(Arn.) Bhandari,Species,127856-1,,3,0
+Conopodium majus,species,6026760,accepted,2735379,Conopodium majus,(Gouan) Loret,Species,840717-1,,11,1
+Convolvulus arvensis,species,2928390,accepted,483761,Convolvulus arvensis,L.,Species,265849-1,,95,101
+Convolvulus oleifolius,species,7324411,accepted,484620,Convolvulus oleifolius,Desr.,Species,266655-1,,12,0
+Convolvulus scammonia,species,2928397,accepted,484909,Convolvulus scammonia,L.,Species,266929-1,,7,0
+Coriandrum sativum,species,3034871,accepted,2737546,Coriandrum sativum,L.,Species,840760-1,,10,159
+Coris monspeliensis,species,7290586,accepted,2737610,Coris monspeliensis,L.,Species,700658-1,,15,0
+Cormus domestica,species,3013215,accepted,2943915,Cormus domestica,(L.) Spach,Species,722386-1,,20,9
+Cornus mas,species,3082263,accepted,47432,Cornus mas,L.,Species,271612-1,,20,9
+Coronilla securidaca,species,5349991,accepted,2738025,Coronilla securidaca,L.,Species,487262-1,,21,3
+Corylus avellana,species,2875979,accepted,47841,Corylus avellana,L.,Species,295446-1,,40,11
+Crambe maritima,species,5373533,accepted,2741304,Crambe maritima,L.,Species,281657-1,,20,2
+Crataegus azarolus,species,3013739,accepted,2907721,Crataegus azarolus,L.,Species,324722-2,,22,2
+Cressa cretica,species,7324452,accepted,484870,Cressa cretica,L.,Species,267234-1,,58,0
+Crithmum maritimum,species,3632234,accepted,2742910,Crithmum maritimum,L.,Species,840827-1,,34,1
+Crocus sativus,species,2747430,accepted,327454,Crocus sativus,L.,Species,436688-1,,1,8
+Crucianella monspeliaca,species,8177919,synonym,51670,Crucianella latifolia,L.,Species,747906-1,,21,1
+Cruciata laevipes,species,5338920,accepted,51752,Cruciata laevipes,Opiz,Species,747959-1,,34,4
+Cucumis melo,species,2874570,accepted,2746992,Cucumis melo,L.,Species,292238-1,,32,136
+Cucumis sativus,species,2874569,accepted,2747062,Cucumis sativus,L.,Species,292296-1,,9,66
+Cuminum cyminum,species,3034775,accepted,2747364,Cuminum cyminum,L.,Species,840882-1,,3,30
+Cupressus sempervirens,species,2684030,accepted,383232,Cupressus sempervirens,L.,Species,261974-1,,8,21
+Curcuma longa,species,2757624,accepted,235249,Curcuma longa,L.,Species,796451-1,,1,54
+Cyclamen,genus,3169314,genus-union,2749686,Cyclamen,L.,Genus,32774-1,25 accepted species,33,6
+Cymbopogon schoenanthus,species,2705269,accepted,406274,Cymbopogon schoenanthus,(L.) Spreng.,Species,397010-1,,32,1
+Cynara cardunculus,species,3112364,accepted,2911920,Cynara cardunculus,L.,Species,200876-1,,14,47
+Cynodon dactylon,species,6109637,accepted,406339,Cynodon dactylon,(L.) Pers.,Species,397065-1,,153,135
+Cynoglossum officinale,species,2925815,accepted,2752089,Cynoglossum officinale,L.,Species,115233-1,,40,56
+Cyperus papyrus,species,2716311,accepted,237889,Cyperus papyrus,L.,Species,330934-2,,33,25
+Cyperus rotundus,species,2714818,accepted,238342,Cyperus rotundus,L.,Species,305797-1,,151,87
+Cytisus scoparius,species,5354656,accepted,2754907,Cytisus scoparius,(L.) Link,Species,489963-1,,29,36
+Dalbergia melanoxylon,species,2968897,accepted,2755721,Dalbergia melanoxylon,Guill. & Perr.,Species,490328-1,,28,3
+Danae racemosa,species,5303891,accepted,303930,Danae racemosa,(L.) Moench,Species,533709-1,,4,0
+Daphne gnidium,species,7311306,accepted,2756985,Daphne gnidium,L.,Species,831233-1,,14,0
+Daphne laureola,species,5420853,accepted,2757056,Daphne laureola,L.,Species,831270-1,,20,9
+Daphne oleoides,species,7311536,accepted,2757146,Daphne oleoides,Schreb.,Species,831316-1,,13,0
+Delphinium,genus,3033687,genus-union,2759373,Delphinium,Tourn. ex L.,Genus,328251-2,545 accepted species,153,29
+Descurainia sophia,species,3044318,accepted,2761851,Descurainia sophia,(L.) Webb ex Prantl,Species,78248-2,,76,75
+Dianthus caryophyllus,species,3085420,accepted,2764005,Dianthus caryophyllus,L.,Species,153205-1,,3,16
+Digitalis purpurea,species,5414995,accepted,2768087,Digitalis purpurea,L.,Species,802077-1,,12,80
+Dioscorea communis,species,2755063,accepted,239990,Dioscorea communis,(L.) Caddick & Wilkin,Species,20005752-1,,31,2
+Diplotaxis tenuifolia,species,5376426,accepted,2771347,Diplotaxis tenuifolia,(L.) DC.,Species,1028648-2,,21,60
+Dipsacus fullonum,species,8435025,accepted,2771857,Dipsacus fullonum,L.,Species,319260-1,,35,63
+Dipsacus sativus,species,2888816,accepted,2771888,Dipsacus sativus,(L.) Honck.,Species,319292-1,,3,23
+Dittrichia viscosa,species,3101184,accepted,3113909,Dittrichia viscosa,(L.) Greuter,Species,201893-1,,29,9
+Dolomiaea costus,species,10864861,accepted,3243811,Dolomiaea costus,(Falc.) Kasana & A.K.Pandey,Species,77210782-1,,14,0
+Doronicum,genus,3142941,genus-union,3133704,Doronicum,L.,Genus,329177-2,39 accepted species,54,12
+Draba verna,species,7473187,accepted,2777499,Draba verna,L.,Species,283173-1,,60,55
+Dracaena cinnabari,species,5304574,accepted,304609,Dracaena cinnabari,Balf.f.,Species,534145-1,,1,0
+Dracunculus vulgaris,species,5330001,accepted,64176,Dracunculus vulgaris,Schott,Species,86985-1,,12,4
+Drimia maritima,species,2776790,accepted,305015,Drimia maritima,(L.) Stearn,Species,534538-1,,5,0
+Drosera rotundifolia,species,3191030,accepted,64562,Drosera rotundifolia,L.,Species,319182-2,,111,1
+Dysphania botrys,species,5568428,accepted,2780227,Dysphania botrys,(L.) Mosyakin & Clemants,Species,1076147-2,,43,69
+Ecballium elaterium,species,2874680,accepted,2780660,Ecballium elaterium,(L.) A.Rich.,Species,292573-1,,29,19
+Echinophora tenuifolia,species,5538701,accepted,2783223,Echinophora tenuifolia,L.,Species,841516-1,,3,0
+Echium,genus,2925888,genus-union,2783966,Echium,Tourn. ex L.,Genus,30062099-2,73 accepted species,77,86
+Echium vulgare,species,2925892,accepted,2784423,Echium vulgare,L.,Species,115950-1,,50,75
+Elettaria cardamomum,species,2759871,accepted,243056,Elettaria cardamomum,(L.) Maton,Species,796556-1,,1,8
+Elymus repens,species,5290299,accepted,411505,Elymus repens,(L.) Gould,Species,90320-2,,84,90
+Ephedra distachya,species,2653321,accepted,332906,Ephedra distachya,L.,Species,383381-1,,32,0
+Epimedium alpinum,species,7695021,accepted,2791212,Epimedium alpinum,L.,Species,107260-1,,4,10
+Equisetum,genus,2687913,genus-union,3137410,Equisetum,L.,Genus,30002112-2,41 accepted species,250,3
+Equisetum telmateia,species,2687943,accepted,2930100,Equisetum telmateia,Ehrh.,Species,20007435-1,,49,0
+Erica arborea,species,5333410,accepted,2792636,Erica arborea,L.,Species,328204-1,,32,4
+Eruca vesicaria,species,5375920,accepted,2798757,Eruca vesicaria,(L.) Cav.,Species,1137625-2,,3,0
+Eryngium campestre,species,3034426,accepted,2799168,Eryngium campestre,L.,Species,841701-1,,41,8
+Eryngium maritimum,species,3034391,accepted,2799418,Eryngium maritimum,L.,Species,841903-1,,39,6
+Euphorbia,genus,11397237,genus-union,78175,Euphorbia,L.,Genus,327729-2,2118 accepted species,331,17
+Euphorbia apios,species,3069036,accepted,78391,Euphorbia apios,L.,Species,345624-1,,5,0
+Euphorbia chamaesyce,species,3067869,accepted,78950,Euphorbia chamaesyce,L.,Species,346005-1,,40,11
+Euphorbia lathyris,species,3066965,accepted,80521,Euphorbia lathyris,L.,Species,347072-1,,3,64
+Euphorbia peplis,species,3066482,accepted,81418,Euphorbia peplis,L.,Species,347719-1,,38,0
+Euphorbia peplus,species,3066386,accepted,81421,Euphorbia peplus,L.,Species,347724-1,,56,101
+Euphorbia pithyusa,species,3068684,accepted,81535,Euphorbia pithyusa,L.,Species,347802-1,,9,0
+Euphorbia resinifera,species,3068445,accepted,81881,Euphorbia resinifera,O.Berg,Species,348037-1,,1,1
+Euphorbia spinosa,species,3066151,accepted,82280,Euphorbia spinosa,L.,Species,348329-1,,11,0
+Euphrasia officinalis,species,8106874,accepted,2804277,Euphrasia officinalis,L.,Species,802732-1,,30,4
+Fagus sylvatica,species,2882316,accepted,83891,Fagus sylvatica,L.,Species,305836-2,,26,2
+Ferula,genus,3034682,genus-union,2808299,Ferula,Tourn. ex L.,Genus,30105171-2,230 accepted species,66,4
+Ferula communis,species,8048981,accepted,2808370,Ferula communis,L.,Species,842235-1,,32,1
+Ferula gummosa,species,3034683,accepted,2808445,Ferula gummosa,Boiss.,Species,842298-1,,2,0
+Ferula marmarica,species,3637559,accepted,2808530,Ferula marmarica,Asch. & Taub.,Species,842376-1,,2,0
+Ferula persica,species,6026967,accepted,2808592,Ferula persica,Willd.,Species,842442-1,,2,0
+Fibigia clypeata,species,3051652,accepted,2809290,Fibigia clypeata,(L.) Medik.,Species,284456-1,,17,4
+Ficaria verna,species,9094061,synonym,2523483,Ranunculus ficaria,L.,Species,712703-1,,51,30
+Ficus sycomorus,species,5361921,accepted,2812503,Ficus sycomorus,L.,Species,853797-1,,46,2
+Filago,genus,3115745,genus-union,3133950,Filago,Loefl.,Genus,8937-1,53 accepted species,90,28
+Filago germanica,species,7533148,accepted,3093706,Filago germanica,(L.) Huds.,Species,207886-1,,47,16
+Filipendula ulmaria,species,2987999,accepted,2921975,Filipendula ulmaria,(L.) Maxim.,Species,724943-1,,50,8
+Fomitopsis officinalis,species,2543474,unmatched,,,,,,,0,0
+Fragaria vesca,species,3029817,accepted,2948952,Fragaria vesca,L.,Species,30074127-2,,100,30
+Frangula alnus,species,3039454,accepted,2814031,Frangula alnus,Mill.,Species,717344-1,,49,32
+Frankenia pulverulenta,species,2874692,accepted,2814273,Frankenia pulverulenta,L.,Species,366332-1,,60,14
+Fraxinus excelsior,species,3172358,accepted,369664,Fraxinus excelsior,L.,Species,609009-1,,34,10
+Fraxinus ornus,species,3172347,accepted,369914,Fraxinus ornus,L.,Species,609128-1,,18,7
+Galatella linosyris,species,3091677,accepted,3100186,Galatella linosyris,(L.) Rchb.f.,Species,208467-1,,29,0
+Gentiana lutea,species,3170040,accepted,2820867,Gentiana lutea,L.,Species,368453-1,,16,1
+Gentianella amarella,species,8196434,accepted,2821885,Gentianella amarella,(L.) Börner,Species,108639-2,,83,0
+Geranium molle,species,2891488,accepted,2823621,Geranium molle,L.,Species,373335-1,,57,63
+Geranium robertianum,species,2890668,accepted,2823970,Geranium robertianum,L.,Species,109269-2,,90,32
+Geranium tuberosum,species,2890791,accepted,2824210,Geranium tuberosum,L.,Species,373774-1,,24,0
+Geum urbanum,species,5369652,accepted,2949590,Geum urbanum,L.,Species,725399-1,,51,20
+Gladiolus italicus,species,2749791,accepted,328527,Gladiolus italicus,Mill.,Species,437543-1,,39,3
+Glaucium corniculatum,species,5334188,accepted,2826321,Glaucium corniculatum,(L.) Rudolph,Species,673158-1,,45,25
+Glaucium flavum,species,5334190,accepted,2826358,Glaucium flavum,Crantz,Species,673167-1,,37,22
+Glebionis coronaria,species,7627205,accepted,3112311,Glebionis coronaria,(L.) Cass. ex Spach,Species,1013480-1,,30,55
+Glechoma hederacea,species,2926557,accepted,90109,Glechoma hederacea,L.,Species,447338-1,,46,59
+Globularia alypum,species,7703240,accepted,2826658,Globularia alypum,L.,Species,813050-1,,17,0
+Gratiola officinalis,species,3171915,accepted,2831896,Gratiola officinalis,L.,Species,803505-1,,40,1
+Gymnocarpium dryopteris,species,2650832,accepted,3145601,Gymnocarpium dryopteris,(L.) Newman,Species,17112110-1,,100,0
+Helichrysum sanguineum,species,3131419,accepted,3091827,Helichrysum sanguineum,(L.) Kostel.,Species,213290-1,,3,0
+Helichrysum stoechas,species,3131494,accepted,3091930,Helichrysum stoechas,(L.) Moench,Species,213364-1,,21,1
+Heliotropium supinum,species,2925777,accepted,2844523,Heliotropium supinum,L.,Species,117268-1,,64,2
+Helleborus niger,species,3033107,accepted,2844780,Helleborus niger,L.,Species,711348-1,,5,4
+Helleborus odorus,species,7277077,accepted,2844786,Helleborus odorus,Waldst. & Kit. ex Willd.,Species,711351-1,,5,1
+Hemerocallis fulva,species,2781074,accepted,277643,Hemerocallis fulva,(L.) L.,Species,536335-1,,7,95
+Herniaria glabra,species,3085798,accepted,2846931,Herniaria glabra,L.,Species,434799-1,,54,15
+Hieracium,genus,3134951,genus-union,3133984,Hieracium,L.,Genus,330082-2,4628 accepted species,178,0
+Hippuris vulgaris,species,5372503,accepted,2851597,Hippuris vulgaris,L.,Species,430352-1,,119,0
+Holarrhena pubescens,species,3169748,accepted,99622,Holarrhena pubescens,Wall. ex G.Don,Species,79318-1,,21,4
+Humulus lupulus,species,2984535,accepted,2855039,Humulus lupulus,L.,Species,303502-2,,48,54
+Hyacinthus orientalis,species,2772666,accepted,278658,Hyacinthus orientalis,L.,Species,536789-1,,4,20
+Hylotelephium telephium,species,2985865,accepted,2857008,Hylotelephium telephium,(L.) H.Ohba,Species,274226-1,,42,44
+Hyoscyamus,genus,2928976,genus-union,2857392,Hyoscyamus,Tourn. ex L.,Genus,38391-1,32 accepted species,62,84
+Hyoscyamus albus,species,2928979,accepted,2857395,Hyoscyamus albus,L.,Species,815886-1,,33,10
+Hyoscyamus niger,species,2928978,accepted,2857441,Hyoscyamus niger,L.,Species,815932-1,,23,96
+Hypecoum procumbens,species,8281444,accepted,2857521,Hypecoum procumbens,L.,Species,673252-1,,24,1
+Hypericum,genus,3189452,genus-union,514840,Hypericum,Tourn. ex L.,Genus,30002180-2,533 accepted species,252,7
+Hypericum androsaemum,species,3189525,accepted,514941,Hypericum androsaemum,L.,Species,433187-1,,21,10
+Hypericum empetrifolium,species,8411092,accepted,515400,Hypericum empetrifolium,Willd.,Species,433403-1,,6,0
+Hypericum olympicum,species,8021567,accepted,516175,Hypericum olympicum,L.,Species,433682-1,,5,3
+Hypericum perforatum,species,3189486,accepted,516286,Hypericum perforatum,L.,Species,433719-1,,46,71
+Hypericum tetrapterum,species,6436469,accepted,516767,Hypericum tetrapterum,Fr.,Species,433905-1,,37,3
+Hypericum triquetrifolium,species,3715163,accepted,516828,Hypericum triquetrifolium,Turra,Species,433931-1,,21,0
+Ilex aquifolium,species,5414222,accepted,2860379,Ilex aquifolium,L.,Species,83051-1,,25,18
+Imperatoria ostruthium,species,5538108,synonym,2403688,Peucedanum ostruthium,(L.) W.D.J.Koch,Species,846311-1,,10,17
+Indigofera tinctoria,species,2972043,accepted,2864839,Indigofera tinctoria,L.,Species,500111-1,,31,68
+Iris pseudacorus,species,5298231,accepted,322261,Iris pseudacorus,L.,Species,438992-1,,52,45
+Isopyrum thalictroides,species,5615962,accepted,2867663,Isopyrum thalictroides,L.,Species,711481-1,,15,2
+Jacobaea vulgaris,species,5388602,accepted,3082777,Jacobaea vulgaris,Gaertn.,Species,226649-1,,51,28
+Juncus,genus,2701072,genus-union,314232,Juncus,L.,Genus,30001343-2,372 accepted species,285,3
+Juncus acutus,species,2701632,accepted,314275,Juncus acutus,L.,Species,442636-1,,55,7
+Juniperus communis,species,2684709,accepted,377427,Juniperus communis,L.,Species,30088655-2,,130,1
+Juniperus oxycedrus,species,2684451,accepted,377576,Juniperus oxycedrus,L.,Species,262299-1,,10,0
+Kickxia elatine,species,3170819,accepted,2335431,Kickxia elatine,(L.) Dumort.,Species,804092-1,,50,50
+Kickxia spuria,species,3170817,accepted,2335156,Kickxia spuria,(L.) Dumort.,Species,804122-1,,40,21
+Knautia arvensis,species,2888808,accepted,2334543,Knautia arvensis,(L.) Coult.,Species,319318-1,,40,37
+Lagenaria siceraria,species,2874672,accepted,2342950,Lagenaria siceraria,(Molina) Standl.,Species,134809-2,,22,97
+Lagoecia cuminoides,species,8419745,accepted,2340987,Lagoecia cuminoides,L.,Species,843929-1,,16,1
+Lamium album,species,2926683,accepted,107372,Lamium album,L.,Species,448792-1,,66,22
+Lamium maculatum,species,2926684,accepted,107516,Lamium maculatum,(L.) L.,Species,448886-1,,36,13
+Lathyrus,genus,10356062,genus-union,2352057,Lathyrus,L.,Genus,30005985-2,184 accepted species,196,35
+Lathyrus clymenum,species,5356407,accepted,2350599,Lathyrus clymenum,L.,Species,501647-1,,21,5
+Lavandula angustifolia,species,2927305,accepted,108971,Lavandula angustifolia,Mill.,Species,449008-1,,3,16
+Lavandula stoechas,species,2927303,accepted,109094,Lavandula stoechas,L.,Species,449089-1,,19,3
+Lawsonia inermis,species,5420912,accepted,2353863,Lawsonia inermis,L.,Species,553638-1,,12,68
+Leontice leontopetalum,species,7944367,accepted,2342453,Leontice leontopetalum,L.,Species,107372-1,,15,0
+Leonurus cardiaca,species,5341389,accepted,109505,Leonurus cardiaca,L.,Species,449168-1,,33,63
+Lepidium campestre,species,7703116,accepted,2337827,Lepidium campestre,(L.) W.T.Aiton,Species,286087-1,,28,71
+Lepidium coronopus,species,5376627,accepted,2356176,Lepidium coronopus,(L.) Al-Shehbaz,Species,60433916-2,,45,23
+Lepidium draba,species,5376961,accepted,2342458,Lepidium draba,L.,Species,286156-1,,51,79
+Lepidium graminifolium,species,5376994,accepted,2337784,Lepidium graminifolium,L.,Species,324674-2,,21,7
+Lepidium sativum,species,5376565,accepted,2338547,Lepidium sativum,L.,Species,138141-2,,42,83
+Ligustrum vulgare,species,3172300,accepted,353907,Ligustrum vulgare,L.,Species,610130-1,,30,17
+Limonium vulgare,species,3082322,accepted,2494745,Limonium vulgare,Mill.,Species,687035-1,,9,0
+Linaria vulgaris,species,5415020,accepted,2498895,Linaria vulgaris,Mill.,Species,325777-2,,57,78
+Linum usitatissimum,species,2873861,accepted,2353429,Linum usitatissimum,L.,Species,544772-1,,6,147
+Lobaria pulmonaria,species,5260693,unmatched,,,,,,,0,0
+Lolium perenne,species,2706241,accepted,422848,Lolium perenne,L.,Species,407493-1,,66,144
+Lonicera,genus,2888645,genus-union,2337397,Lonicera,L.,Genus,30006074-2,163 accepted species,174,47
+Lonicera etrusca,species,5334247,accepted,2340158,Lonicera etrusca,Santi,Species,148750-1,,25,8
+Lonicera periclymenum,species,5334277,accepted,2357110,Lonicera periclymenum,L.,Species,149006-1,,20,11
+Lophiolepis ferox,species,12218806,synonym,3041750,Cirsium ferox,(L.) DC.,Species,195343-1,,3,0
+Lupinus albus,species,2964167,accepted,2345432,Lupinus albus,L.,Species,504069-1,,9,33
+Lycium europaeum,species,3797421,accepted,2496714,Lycium europaeum,L.,Species,816435-1,,21,4
+Lycopsis arvensis,species,5341197,synonym,2636464,Anchusa arvensis,(L.) M.Bieb.,Species,113196-1,,33,45
+Lysimachia nummularia,species,3169379,accepted,2493033,Lysimachia nummularia,L.,Species,701260-1,,35,46
+Lythrum salicaria,species,3188736,accepted,2354139,Lythrum salicaria,L.,Species,147990-2,,78,61
+Maianthemum bifolium,species,2769317,accepted,281331,Maianthemum bifolium,(L.) F.W.Schmidt,Species,30042358-2,,53,1
+Malus domestica,species,3001244,accepted,2950597,Malus domestica,(Suckow) Borkh.,Species,726282-1,,8,98
+Malva alcea,species,3152365,accepted,2503573,Malva alcea,L.,Species,561521-1,,25,26
+Mandragora officinarum,species,5341748,accepted,2506563,Mandragora officinarum,L.,Species,816733-1,,3,0
+Matricaria chamomilla,species,8370958,accepted,2906535,Matricaria chamomilla,L.,Species,154715-2,,70,74
+Medicago arabica,species,2965527,accepted,2368658,Medicago arabica,(L.) Huds.,Species,58427-3,,35,55
+Medicago arborea,species,2965379,accepted,2368659,Medicago arborea,L.,Species,506064-1,,9,17
+Medicago sativa,species,9151957,accepted,2369031,Medicago sativa,L.,Species,30234961-2,,16,189
+Melilotus,genus,4924408,genus-union,2367483,Melilotus,(L.) Mill.,Genus,325467-2,25 accepted species,112,127
+Melilotus officinalis,species,8193111,accepted,2367217,Melilotus officinalis,(L.) Lam.,Species,30429323-2,,43,112
+Mentha aquatica,species,2927208,accepted,124366,Mentha aquatica,L.,Species,450192-1,,69,18
+Mercurialis perennis,species,3063016,accepted,125768,Mercurialis perennis,L.,Species,352211-1,,38,3
+Mespilus germanica,species,3031774,synonym,2945635,Crataegus germanica,(L.) Kuntze,Species,723452-1,,6,27
+Mimusops laurifolia,species,2883821,accepted,128512,Mimusops laurifolia,(Forssk.) Friis,Species,909101-1,,7,0
+Misopates orontium,species,3171145,accepted,2506761,Misopates orontium,(L.) Raf.,Species,806149-1,,55,52
+Moringa peregrina,species,3752342,accepted,2501736,Moringa peregrina,(Forssk.) Fiori,Species,584740-1,,13,0
+Muscari comosum,species,2769204,accepted,281521,Muscari comosum,(L.) Mill.,Species,538476-1,,36,18
+Muscarimia muscari,species,2772013,accepted,281129,Muscarimia muscari,(L.) Losinsk.,Species,538623-1,,1,3
+Myosotis,genus,2925668,genus-union,2357448,Myosotis,L.,Genus,30010296-2,168 accepted species,176,30
+Myriophyllum spicatum,species,5361760,accepted,2366673,Myriophyllum spicatum,L.,Species,430465-1,,102,54
+Myrtus communis,species,3180085,accepted,132410,Myrtus communis,L.,Species,599719-1,,32,8
+Narcissus poeticus,species,2858581,accepted,282063,Narcissus poeticus,L.,Species,66165-1,,11,43
+Nardostachys jatamansi,species,4095989,accepted,2382349,Nardostachys jatamansi,(D.Don) DC.,Species,859418-1,,10,0
+Nelumbo nucifera,species,2882449,accepted,2384945,Nelumbo nucifera,Gaertn.,Species,605422-1,,36,26
+Neottia ovata,species,2816250,accepted,134271,Neottia ovata,(L.) Hartm.,Species,645363-1,,54,1
+Nepeta cataria,species,5341499,accepted,134509,Nepeta cataria,L.,Species,452333-1,,45,83
+Nerium oleander,species,3169756,accepted,135196,Nerium oleander,L.,Species,80460-1,,32,69
+Nicotiana rustica,species,2928775,accepted,2382315,Nicotiana rustica,L.,Species,817055-1,,1,89
+Nigella arvensis,species,7278276,accepted,2381639,Nigella arvensis,L.,Species,711626-1,,33,2
+Nigella sativa,species,5371700,accepted,2381679,Nigella sativa,L.,Species,711687-1,,10,32
+Nymphaea alba,species,2882437,accepted,2383355,Nymphaea alba,L.,Species,171158-2,,45,10
+Nymphaea lotus,species,2882429,accepted,2384395,Nymphaea lotus,L.,Species,605604-1,,41,14
+Olea europaea,species,5415040,accepted,355112,Olea europaea,L.,Species,610675-1,,57,22
+Onobrychis,genus,2972544,genus-union,2389110,Onobrychis,Mill.,Genus,30311989-2,210 accepted species,63,39
+Onobrychis viciifolia,species,2972595,accepted,2389633,Onobrychis viciifolia,Scop.,Species,510168-1,,9,61
+Onopordum,genus,3094883,genus-union,3134435,Onopordum,L.,Genus,10278-1,69 accepted species,61,55
+Onosma,genus,2925854,genus-union,2392904,Onosma,L.,Genus,4714-1,248 accepted species,49,0
+Onosma echioides,species,2925855,accepted,2392934,Onosma echioides,(L.) L.,Species,119634-1,,6,0
+Ophioglossum vulgatum,species,2650133,accepted,3142394,Ophioglossum vulgatum,L.,Species,304390-2,,57,0
+Opopanax hispidus,species,3639801,accepted,2390873,Opopanax hispidus,(Friv.) Griseb.,Species,845415-1,,15,0
+Orchis,genus,2849312,genus-union,142183,Orchis,Tourn. ex L.,Genus,30021702-2,61 accepted species,67,0
+Orchis anthropophora,species,2849624,accepted,142231,Orchis anthropophora,(L.) All.,Species,648363-1,,25,0
+Orchis italica,species,2849640,accepted,142690,Orchis italica,Poir.,Species,648750-1,,19,0
+Origanum dictamnus,species,3894972,accepted,143791,Origanum dictamnus,L.,Species,453239-1,,1,0
+Origanum onites,species,2926613,accepted,143884,Origanum onites,L.,Species,453331-1,,5,2
+Origanum sipyleum,species,3893904,accepted,143919,Origanum sipyleum,L.,Species,453365-1,,2,0
+Origanum syriacum,species,6411178,accepted,143930,Origanum syriacum,L.,Species,453375-1,,6,0
+Ornithogalum umbellatum,species,2773448,accepted,283298,Ornithogalum umbellatum,L.,Species,539600-1,,21,60
+Ornithopus perpusillus,species,5358256,accepted,2388060,Ornithopus perpusillus,L.,Species,510863-1,,20,16
+Orobanche crenata,species,3173273,accepted,2396758,Orobanche crenata,Forssk.,Species,662275-1,,32,4
+Oryza sativa,species,2703459,accepted,426698,Oryza sativa,L.,Species,316812-2,,3,138
+Osmunda regalis,species,8049341,accepted,3144290,Osmunda regalis,L.,Species,305721-2,,67,3
+Osyris alba,species,3789029,accepted,2396411,Osyris alba,L.,Species,780497-1,,24,0
+Oxalis acetosella,species,8211958,accepted,2394737,Oxalis acetosella,L.,Species,30012601-2,,59,0
+Paliurus spina-christi,species,5372457,accepted,2544155,Paliurus spina-christi,Mill.,Species,717707-1,,23,7
+Pancratium maritimum,species,2853283,accepted,286099,Pancratium maritimum,L.,Species,66466-1,,28,6
+Panicum miliaceum,species,2705090,accepted,429269,Panicum miliaceum,L.,Species,412217-1,,9,163
+Papaver rhoeas,species,2888443,accepted,2561554,Papaver rhoeas,L.,Species,306058-2,,56,77
+Parietaria judaica,species,5361801,accepted,2546385,Parietaria judaica,L.,Species,854934-1,,49,26
+Parietaria officinalis,species,5361803,accepted,2546423,Parietaria officinalis,L.,Species,854958-1,,23,16
+Paris quadrifolia,species,5295911,accepted,283886,Paris quadrifolia,L.,Species,539724-1,,47,0
+Parnassia palustris,species,3032585,accepted,2559858,Parnassia palustris,L.,Species,792120-1,,95,0
+Paronychia argentea,species,5528747,accepted,2533075,Paronychia argentea,Lam.,Species,434984-1,,25,0
+Peganum harmala,species,3189912,accepted,2548698,Peganum harmala,L.,Species,774545-1,,47,13
+Phalaris aquatica,species,5289746,accepted,433381,Phalaris aquatica,L.,Species,415560-1,,27,44
+Phaseolus vulgaris,species,5350452,accepted,2538166,Phaseolus vulgaris,L.,Species,514191-1,,19,83
+Phillyrea latifolia,species,7325923,accepted,355786,Phillyrea latifolia,L.,Species,610971-1,,23,1
+Phoenix dactylifera,species,6109699,accepted,152659,Phoenix dactylifera,L.,Species,668912-1,,6,51
+Phragmites australis,species,5290149,accepted,433921,Phragmites australis,(Cav.) Trin. ex Steud.,Species,30337627-2,,225,15
+Pilosella officinarum,species,9458333,accepted,2927417,Pilosella officinarum,F.W.Schultz & Sch.Bip.,Species,77133566-1,,38,35
+Pimpinella anisum,species,8080300,accepted,2402426,Pimpinella anisum,L.,Species,846658-1,,4,43
+Pimpinella saxifraga,species,7622278,accepted,2402811,Pimpinella saxifraga,L.,Species,847025-1,,43,31
+Pinus,genus,2684241,genus-union,380659,Pinus,L.,Genus,328247-2,143 accepted species,175,44
+Pinus halepensis,species,5285604,accepted,379872,Pinus halepensis,Mill.,Species,262982-1,,18,10
+Pinus pinea,species,5285165,accepted,380351,Pinus pinea,L.,Species,263221-1,,14,9
+Piper nigrum,species,3086357,accepted,2569664,Piper nigrum,L.,Species,682369-1,,1,40
+Pistacia lentiscus,species,3190583,accepted,2407564,Pistacia lentiscus,L.,Species,70253-1,,23,0
+Pistacia terebinthus,species,3190580,accepted,2407017,Pistacia terebinthus,L.,Species,70274-1,,23,1
+Pistacia vera,species,3190585,accepted,2407011,Pistacia vera,L.,Species,70280-1,,7,10
+Pistia stratiotes,species,2870583,accepted,156674,Pistia stratiotes,L.,Species,317684-2,,128,31
+Plantago albicans,species,8424834,accepted,2556637,Plantago albicans,L.,Species,684840-1,,32,0
+Platanus orientalis,species,3152816,accepted,2570462,Platanus orientalis,L.,Species,685873-1,,15,8
+Polygala,genus,3191366,genus-union,2565888,Polygala,Tourn. ex L.,Genus,330512-2,428 accepted species,179,12
+Polygonatum multiflorum,species,2770022,accepted,284010,Polygonatum multiflorum,(L.) All.,Species,30081981-2,,35,3
+Polygonatum odoratum,species,2770228,accepted,284008,Polygonatum odoratum,(Mill.) Druce,Species,540195-1,,58,0
+Polystichum lonchitis,species,2651113,accepted,3151297,Polystichum lonchitis,(L.) Roth,Species,17414110-1,,78,0
+Polytrichum commune,species,2683084,unmatched,,,,,,,0,0
+Populus nigra,species,3040227,accepted,2917497,Populus nigra,L.,Species,776790-1,,42,37
+Potamogeton crispus,species,5301162,accepted,308529,Potamogeton crispus,L.,Species,323116-2,,100,58
+Potamogeton natans,species,5301147,accepted,308642,Potamogeton natans,L.,Species,208872-2,,126,1
+Potentilla erecta,species,5365576,accepted,2921972,Potentilla erecta,(L.) Raeusch.,Species,60457410-2,,42,3
+Poterium sanguisorba,species,5364245,synonym,2990832,Sanguisorba minor,Scop.,Species,741394-1,,56,52
+Primula veris,species,8377689,accepted,2563733,Primula veris,L.,Species,702751-1,,45,14
+Primula vulgaris,species,5414335,accepted,2563766,Primula vulgaris,Huds.,Species,702779-1,,37,0
+Prunella vulgaris,species,5341297,accepted,166020,Prunella vulgaris,L.,Species,455176-1,,171,21
+Prunus amygdalus,species,3020980,accepted,2917141,Prunus amygdalus,Batsch,Species,60439867-2,,1,37
+Prunus persica,species,8149923,accepted,2901279,Prunus persica,(L.) Batsch,Species,1212858-2,,1,105
+Prunus spinosa,species,3023221,accepted,2921969,Prunus spinosa,L.,Species,730297-1,,46,12
+Pteridium aquilinum,species,5275012,accepted,2931242,Pteridium aquilinum,(L.) Kuhn,Species,17210060-1,,70,2
+Punica granatum,species,5420901,accepted,2536844,Punica granatum,L.,Species,554129-1,,9,76
+Pyrola rotundifolia,species,2888269,accepted,2410818,Pyrola rotundifolia,L.,Species,331846-1,,62,0
+Quercus,genus,2877951,genus-union,171386,Quercus,L.,Genus,325819-2,668 accepted species,163,13
+Quercus infectoria,species,2881010,accepted,173331,Quercus infectoria,G.Olivier,Species,296305-1,,9,0
+Quercus robur,species,2878688,accepted,174750,Quercus robur,L.,Species,304293-2,,41,19
+Ranunculus,genus,3033294,genus-union,2524491,Ranunculus,L.,Genus,30002060-2,1825 accepted species,268,5
+Ranunculus acris,species,3033363,accepted,2524461,Ranunculus acris,L.,Species,712125-1,,53,63
+Raphanus sativus,species,7678610,synonym,2870724,Raphanus raphanistrum subsp. sativus,(L.) Schmalh.,Subspecies,77159305-1,,4,181
+Reseda luteola,species,3040251,accepted,2526079,Reseda luteola,L.,Species,715535-1,,49,41
+Reseda phyteuma,species,3040253,accepted,2526113,Reseda phyteuma,L.,Species,715583-1,,23,5
+Reseda undata,species,7368336,accepted,2525698,Reseda undata,L.,Species,715653-1,,1,1
+Rhamnus lycioides,species,6371380,accepted,2523132,Rhamnus lycioides,L.,Species,718466-1,,10,0
+Rhaponticoides centaurium,species,3128905,accepted,3046588,Rhaponticoides centaurium,(L.) M.V.Agab. & Greuter,Species,70029245-1,,1,0
+Rhinanthus minor,species,3172043,accepted,2900773,Rhinanthus minor,L.,Species,30116962-2,,38,31
+Rhodiola rosea,species,2985688,accepted,2416694,Rhodiola rosea,L.,Species,315148-2,,58,0
+Rhus coriaria,species,3190563,accepted,2422872,Rhus coriaria,L.,Species,70477-1,,31,4
+Ribes uva-crispa,species,2986185,accepted,2426619,Ribes uva-crispa,L.,Species,793052-1,,23,47
+Ricinus communis,species,5380041,accepted,178867,Ricinus communis,L.,Species,355498-1,,3,176
+Roemeria argemone,species,5531435,accepted,2425878,Roemeria argemone,"(L.) C.Morales, R.Mend. & Romero García",Species,962053-1,,34,16
+Rosa,genus,8395064,genus-union,2964569,Rosa,L.,Genus,30002432-2,403 accepted species,171,37
+Rosa canina,species,3002461,accepted,2921968,Rosa canina,L.,Species,731955-1,,56,51
+Rosa gallica,species,3002530,accepted,2969349,Rosa gallica,L.,Species,732569-1,,22,39
+Rubus,genus,2988638,genus-union,2976315,Rubus,L.,Genus,30000199-2,1645 accepted species,269,12
+Rubus fruticosus,species,8436459,accepted,2980303,Rubus fruticosus,L.,Species,736933-1,,19,12
+Rubus idaeus,species,2993094,accepted,2982071,Rubus idaeus,L.,Species,298089-2,,118,12
+Rumex,genus,2888942,genus-union,2425606,Rumex,L.,Genus,328551-2,297 accepted species,256,39
+Rumex acetosa,species,2888951,accepted,2424198,Rumex acetosa,L.,Species,332105-2,,73,30
+Rumex alpinus,species,2888948,accepted,2424141,Rumex alpinus,L.,Species,326377-2,,18,9
+Rumex aquaticus,species,2888992,accepted,2424118,Rumex aquaticus,L.,Species,301511-2,,53,0
+Rumex hydrolapathum,species,7291247,accepted,2424106,Rumex hydrolapathum,Huds.,Species,697202-1,,35,1
+Rumex patientia,species,2889019,accepted,2424661,Rumex patientia,L.,Species,697388-1,,41,61
+Ruscus hypoglossum,species,2769775,accepted,286774,Ruscus hypoglossum,L.,Species,540452-1,,12,2
+Ruscus hypophyllum,species,2769757,accepted,286765,Ruscus hypophyllum,L.,Species,540453-1,,6,8
+Salix,genus,3039576,genus-union,2918656,Salix,L.,Genus,325916-2,694 accepted species,237,22
+Salix alba,species,5372513,accepted,2918804,Salix alba,L.,Species,776974-1,,51,56
+Salvia aethiopis,species,2927030,accepted,181903,Salvia aethiopis,L.,Species,455581-1,,25,3
+Salvia fruticosa,species,6412283,accepted,182683,Salvia fruticosa,Mill.,Species,456249-1,,12,6
+Salvia officinalis,species,2927004,accepted,183353,Salvia officinalis,L.,Species,456833-1,,8,45
+Salvia sclarea,species,2927000,accepted,183819,Salvia sclarea,L.,Species,457210-1,,32,20
+Salvia verbenaca,species,6409706,accepted,184123,Salvia verbenaca,L.,Species,457495-1,,34,30
+Salvia viridis,species,3883959,accepted,184146,Salvia viridis,L.,Species,457515-1,,24,5
+Sambucus ebulus,species,2888722,accepted,2486632,Sambucus ebulus,L.,Species,149315-1,,38,10
+Sanicula europaea,species,6027128,accepted,2480274,Sanicula europaea,L.,Species,847832-1,,44,0
+Santolina chamaecyparissus,species,3125933,accepted,3112244,Santolina chamaecyparissus,L.,Species,241927-1,,2,27
+Sarcopoterium spinosum,species,3001879,accepted,2991032,Sarcopoterium spinosum,(L.) Spach,Species,741428-1,,15,0
+Satureja hortensis,species,2926885,accepted,185680,Satureja hortensis,L.,Species,457680-1,,5,25
+Satureja thymbra,species,3902859,accepted,185996,Satureja thymbra,L.,Species,457833-1,,10,0
+Saxifraga granulata,species,7887000,accepted,2585145,Saxifraga granulata,L.,Species,793749-1,,25,1
+Scabiosa,genus,2888800,genus-union,2593588,Scabiosa,L.,Genus,14326-1,68 accepted species,96,21
+Scandix pecten-veneris,species,3034233,accepted,2479025,Scandix pecten-veneris,L.,Species,848035-1,,53,32
+Scolymus hispanicus,species,5403742,accepted,3056239,Scolymus hispanicus,L.,Species,243010-1,,33,8
+Scorpiurus muricatus,species,5358302,accepted,2591784,Scorpiurus muricatus,L.,Species,518173-1,,35,8
+Scrophularia auriculata,species,3170875,accepted,2586267,Scrophularia auriculata,L.,Species,809039-1,,19,8
+Scrophularia nodosa,species,3170886,accepted,2587382,Scrophularia nodosa,L.,Species,30088899-2,,40,14
+Scrophularia peregrina,species,3170862,accepted,2585720,Scrophularia peregrina,L.,Species,809430-1,,18,5
+Secale cereale,species,2705966,accepted,441740,Secale cereale,L.,Species,421164-1,,1,134
+Sedum,genus,5361975,genus-union,2483149,Sedum,L.,Genus,30001444-2,508 accepted species,162,24
+Sedum album,species,5362008,accepted,2484837,Sedum album,L.,Species,275022-1,,36,28
+Sedum cepaea,species,5690287,accepted,2482941,Sedum cepaea,L.,Species,275208-1,,19,2
+Sempervivum tectorum,species,2985949,accepted,2490030,Sempervivum tectorum,L.,Species,276682-1,,9,22
+Senecio sarracenicus,species,7903764,accepted,3083095,Senecio sarracenicus,L.,Species,247457-1,,26,2
+Serapias,genus,7912241,genus-union,190525,Serapias,L.,Genus,331286-2,51 accepted species,29,1
+Sesamoides interrupta,species,7275917,accepted,2600081,Sesamoides interrupta,(Boreau) G.López,Species,962254-1,,5,1
+Sesamum indicum,species,3172622,accepted,2588550,Sesamum indicum,L.,Species,675971-1,,4,122
+Seseli libanotis,species,3034133,synonym,3259176,Libanotis pyrenaica subsp. pyrenaica,,Subspecies,77225027-1,,27,3
+Seseli tortuosum,species,7904530,accepted,2479246,Seseli tortuosum,L.,Species,848744-1,,22,0
+Setaria italica,species,5289698,accepted,442451,Setaria italica,(L.) P.Beauv.,Species,1207294-2,,2,158
+Sideritis,genus,2926685,genus-union,191044,Sideritis,L.,Genus,21227-1,197 accepted species,46,5
+Silene coronaria,species,5384741,accepted,2488256,Silene coronaria,(L.) Clairv.,Species,60461121-2,,17,56
+Silene gallica,species,5384848,accepted,2488333,Silene gallica,L.,Species,332106-2,,36,83
+Silene latifolia,species,5384805,accepted,2488689,Silene latifolia,Poir.,Species,157647-1,,59,75
+Silene vulgaris,species,9172281,accepted,2487840,Silene vulgaris,(Moench) Garcke,Species,158668-1,,83,65
+Silybum marianum,species,3145214,accepted,2901907,Silybum marianum,(L.) Gaertn.,Species,249211-1,,47,118
+Sinapis arvensis,species,3047598,synonym,3306506,Mutarda arvensis,(L.) D.A.German,Species,77313885-1,,73,108
+Sison amomum,species,3641433,accepted,2473793,Sison amomum,L.,Species,848886-1,,19,1
+Sisymbrium officinale,species,3046890,accepted,2474949,Sisymbrium officinale,(L.) Scop.,Species,289589-1,,55,119
+Sisymbrium polyceratium,species,3046899,accepted,2474624,Sisymbrium polyceratium,L.,Species,289648-1,,18,5
+Sium sisarum,species,3034532,accepted,2473919,Sium sisarum,L.,Species,849059-1,,24,5
+Smilax aspera,species,5295044,accepted,288512,Smilax aspera,L.,Species,541279-1,,43,0
+Smyrnium perfoliatum,species,6027089,accepted,2473607,Smyrnium perfoliatum,L.,Species,849123-1,,26,8
+Solanum dulcamara,species,2932737,accepted,2932815,Solanum dulcamara,L.,Species,285213-2,,83,54
+Solidago virgaurea,species,6446462,accepted,2911230,Solidago virgaurea,L.,Species,249947-1,,60,2
+Sparganium erectum,species,7679536,accepted,266057,Sparganium erectum,L.,Species,836758-1,,61,0
+Spartium junceum,species,5355395,accepted,2597714,Spartium junceum,L.,Species,519057-1,,18,55
+Stachys germanica,species,2927297,accepted,195092,Stachys germanica,L.,Species,459557-1,,32,8
+Stachys glutinosa,species,3882844,accepted,195118,Stachys glutinosa,L.,Species,459571-1,,3,0
+Stachys palustris,species,2927245,accepted,195411,Stachys palustris,L.,Species,459820-1,,50,24
+Staphisagria macrosperma,species,7620156,accepted,2904285,Staphisagria macrosperma,Spach,Species,60456584-2,,19,1
+Stratiotes aloides,species,5329192,accepted,308859,Stratiotes aloides,L.,Species,431936-1,,29,3
+Styrax officinalis,species,5371666,accepted,2581185,Styrax officinalis,L.,Species,327052-2,,11,1
+Succisa pratensis,species,2888811,accepted,2593868,Succisa pratensis,Moench,Species,320331-1,,43,5
+Tamarix,genus,2874694,genus-union,2520266,Tamarix,L.,Genus,326334-2,74 accepted species,87,56
+Tamarix gallica,species,8380575,accepted,2520053,Tamarix gallica,L.,Species,828110-1,,15,30
+Tanacetum balsamita,species,3118254,accepted,3111077,Tanacetum balsamita,L.,Species,249302-2,,6,54
+Tanacetum vulgare,species,3118274,accepted,2929189,Tanacetum vulgare,L.,Species,252568-1,,59,82
+Taraxacum officinale,species,5394163,synonym,2916959,Taraxacum sect. Taraxacum,F.H.Wigg.,Species,254151-1,,51,138
+Taxus baccata,species,5284517,accepted,378626,Taxus baccata,L.,Species,306036-2,,45,2
+Teucrium flavum,species,3887754,accepted,202916,Teucrium flavum,L.,Species,460406-1,,17,1
+Teucrium polium,species,3887764,accepted,203217,Teucrium polium,L.,Species,460631-1,,6,1
+Teucrium scordium,species,7945074,accepted,203381,Teucrium scordium,L.,Species,460713-1,,58,0
+Teucrium scorodonia,species,2926901,accepted,203387,Teucrium scorodonia,L.,Species,460717-1,,21,9
+Thalictrum flavum,species,7509607,accepted,2512664,Thalictrum flavum,L.,Species,302852-2,,41,0
+Thalictrum minus,species,3033129,accepted,2512463,Thalictrum minus,L.,Species,714633-1,,84,0
+Thapsia garganica,species,6026849,synonym,3325713,Elaeoselinum garganicum,"(L.) Gonz.-Toral, Sanna, Nava, Fern.Prieto & Cires",Species,77366853-1,,13,0
+Thymbra capitata,species,5607804,accepted,204339,Thymbra capitata,(L.) Cav.,Species,460817-1,,22,0
+Thymus,genus,2926960,genus-union,204357,Thymus,L.,Genus,30002942-2,370 accepted species,94,25
+Thymus serpyllum,species,6409622,accepted,205442,Thymus serpyllum,L.,Species,30066276-2,,22,0
+Thymus vulgaris,species,5341442,accepted,205645,Thymus vulgaris,L.,Species,461765-1,,4,13
+Tordylium apulum,species,3034902,accepted,2435736,Tordylium apulum,L.,Species,849445-1,,20,3
+Tordylium officinale,species,3633274,accepted,2435641,Tordylium officinale,L.,Species,849478-1,,6,0
+Torminalis glaberrima,species,9410160,synonym,2942149,Aria torminalis,(L.) Beck,Species,721617-1,,30,1
+Trachyspermum ammi,species,3034241,accepted,2438394,Trachyspermum ammi,(L.) Sprague,Species,849765-1,,12,18
+Tragopogon porrifolius,species,5386938,accepted,3075339,Tragopogon porrifolius,L.,Species,256109-1,,25,74
+Tribulus terrestris,species,5421116,accepted,2518835,Tribulus terrestris,L.,Species,873489-1,,123,70
+Trifolium,genus,2973363,genus-union,2440723,Trifolium,Tourn. ex L.,Genus,325471-2,307 accepted species,188,68
+Trifolium arvense,species,5359246,accepted,2440792,Trifolium arvense,L.,Species,522881-1,,60,81
+Trifolium pratense,species,8324121,accepted,2440043,Trifolium pratense,L.,Species,523575-1,,66,124
+Trigonella,genus,2981525,genus-union,2439377,Trigonella,L.,Genus,30107635-2,109 accepted species,69,41
+Trigonella caerulea,species,5360498,accepted,2441503,Trigonella caerulea,(L.) Ser.,Species,523910-1,,1,25
+Trigonella foenum-graecum,species,5360475,accepted,2441407,Trigonella foenum-graecum,L.,Species,523957-1,,4,72
+Tripolium pannonicum,species,3098616,accepted,3101142,Tripolium pannonicum,(Jacq.) Dobrocz.,Species,256563-1,,72,1
+Triticum,genus,2706388,genus-union,448335,Triticum,L.,Genus,30034910-2,6 accepted species,24,195
+Triticum monococcum,species,7883427,accepted,448821,Triticum monococcum,L.,Species,425811-1,,14,13
+Triticum turgidum,species,2706406,accepted,449127,Triticum turgidum,L.,Species,316216-2,,13,70
+Typha angustifolia,species,5289461,accepted,270931,Typha angustifolia,L.,Species,259280-2,,116,2
+Ulex europaeus,species,2951984,accepted,2446722,Ulex europaeus,L.,Species,524298-1,,12,54
+Ulva lactuca,species,5273309,unmatched,,,,,,,0,0
+Urtica dioica,species,7960979,accepted,2448560,Urtica dioica,L.,Species,260630-2,,85,54
+Urtica pilulifera,species,5670646,accepted,2448967,Urtica pilulifera,L.,Species,857823-1,,34,4
+Usnea,genus,2605982,unmatched,,,,,,,0,0
+Vaccinium myrtillus,species,2882833,accepted,2457648,Vaccinium myrtillus,L.,Species,30006039-2,,62,0
+Vachellia nilotica,species,3974744,accepted,2609117,Vachellia nilotica,(L.) P.J.H.Hurter & Mabb.,Species,77089275-1,,52,27
+Valeriana celtica,species,7298940,accepted,2464274,Valeriana celtica,L.,Species,859673-1,,4,1
+Valeriana tuberosa,species,4096119,accepted,2464559,Valeriana tuberosa,L.,Species,860271-1,,23,0
+Veratrum album,species,2742119,accepted,291244,Veratrum album,L.,Species,30192264-2,,28,0
+Verbascum,genus,2928970,genus-union,2454217,Verbascum,L.,Genus,30049308-2,718 accepted species,100,109
+Verbascum thapsus,species,3171949,accepted,2453334,Verbascum thapsus,L.,Species,770183-1,,55,86
+Verbena supina,species,2925492,accepted,212753,Verbena supina,L.,Species,865505-1,,42,6
+Veronica beccabunga,species,3172062,accepted,2454060,Veronica beccabunga,L.,Species,811680-1,,73,22
+Vicia cracca,species,2975287,accepted,2452117,Vicia cracca,L.,Species,30263827-2,,73,39
+Vicia ervilia,species,2974887,accepted,2452274,Vicia ervilia,(L.) Willd.,Species,524727-1,,21,23
+Vicia lens,species,3973001,accepted,2452859,Vicia lens,(L.) Coss. & Germ.,Species,524872-1,,9,90
+Vigna unguiculata,species,2982583,accepted,2452871,Vigna unguiculata,(L.) Walp.,Species,1127257-2,,42,74
+Vinca major,species,3169708,accepted,213165,Vinca major,L.,Species,82697-1,,13,80
+Vinca minor,species,3169707,accepted,213172,Vinca minor,L.,Species,82701-1,,21,64
+Vincetoxicum hirundinaria,species,5414548,accepted,513577,Vincetoxicum hirundinaria,Medik.,Species,102810-1,,38,3
+Vincetoxicum nigrum,species,5414551,accepted,513699,Vincetoxicum nigrum,(L.) Moench,Species,1088174-2,,5,26
+Viola tricolor,species,5331347,accepted,2461201,Viola tricolor,L.,Species,869428-1,,43,91
+Visnaga daucoides,species,5371753,accepted,2457195,Visnaga daucoides,Gaertn.,Species,849956-1,,30,25
+Vitex agnus-castus,species,2925562,accepted,213297,Vitex agnus-castus,L.,Species,865568-1,,34,19
+Withania somnifera,species,2928840,accepted,2465599,Withania somnifera,(L.) Dunal,Species,821709-1,,63,6
+Xanthium strumarium,species,3089154,accepted,2901779,Xanthium strumarium,L.,Species,260893-1,,59,31
+Zingiber officinale,species,2757280,accepted,273361,Zingiber officinale,Roscoe,Species,798372-1,,3,37
+Ziziphora capitata,species,7308818,accepted,215834,Ziziphora capitata,L.,Species,461975-1,,21,2

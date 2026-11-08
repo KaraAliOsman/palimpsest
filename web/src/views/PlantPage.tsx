@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState, type ReactNode } from "react";
+import { lazy, Suspense, useEffect, useMemo, useState, type ReactNode } from "react";
 import {
   asArray, conceptLabel, conceptMap, dscRef, links, recordFile, tierOf, TIER_LABEL, TIER_NOTE, TIERS, useResource, wordAt,
   type Claim, type CodexImage, type Concept, type PlantName, type PlantRecord,
@@ -9,6 +9,8 @@ import { download, SITE, toCSV, today } from "../lib/export";
 import { BASIS_NOTE, srcSet, smallest, useImages } from "../lib/images";
 import { AnnotatedText } from "../components/AnnotatedText";
 import { Arch, Caution, CopyButton, Empty, ErrorState, Ext, Iucn, Skeleton, TierMeter } from "../components/ui";
+
+const RangeMap = lazy(() => import("../charts/RangeMap").then((m) => ({ default: m.RangeMap })));
 
 const CONF: Record<string, string> = { high: "High confidence", medium: "Medium confidence", low: "Low confidence" };
 
@@ -312,6 +314,7 @@ export function PlantPage({ slug, route }: { slug: string; route: Route }) {
               <div><dt>IUCN Red List</dt><dd><Iucn code={p.iucn} /></dd></div>
               <div><dt>GBIF occurrences</dt><dd className="num">{fmt.int(p.gbif_occurrences)}</dd></div>
             </dl>
+            <p className="fact-note"><a href={href(`/plant/${slug}`, null, "where")}>Where it grows</a>: native and introduced range.</p>
             {!p.iucn && <p className="fact-note">No IUCN assessment: “not assessed” is not “not threatened”.</p>}
           </section>
           <section>
@@ -332,6 +335,12 @@ export function PlantPage({ slug, route }: { slug: string; route: Route }) {
           </section>
         </aside>
       </div>
+
+      <section className="where" id="where" aria-labelledby="where-title">
+        <div className="wrap">
+          <Suspense fallback={<Skeleton rows={6} label="Drawing the range" />}><RangeMap slug={slug} taxon={p.taxon} /></Suspense>
+        </div>
+      </section>
     </div>
   );
 }

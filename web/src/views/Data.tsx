@@ -28,11 +28,20 @@ const API = [
   ["graph.json", "Knowledge-graph excerpt for the explorer"],
   ["derived/search.json", "Compact index: one row per taxon and per concept"],
   ["derived/records/artemisia-absinthium.json", "One plant with only its own texts (one file per taxon)"],
+  ["derived/geo/index.json", "Geography: what each geo file holds, match rate, licences, citations"],
+  ["derived/geo/taxa/ruta-graveolens.json", "One plant’s native and introduced range (WCVP), a plain sentence and its GBIF grid"],
+  ["derived/geo/ranges.json", "Every taxon’s native and introduced botanical countries in one file"],
+  ["derived/geo/overview.json", "Per botanical country: species of each herbal native there, top plants, the insights"],
+  ["derived/geo/regions.topo.json", "Botanical-country units drawn from Natural Earth, as TopoJSON (lon/lat, simplified)"],
 ];
+
+interface GeoIndex { match?: { taxa: number; matched: number; species: number; species_matched: number; by_method: Record<string, number>; unmatched: string[] } }
 
 export function Data() {
   const manifest = useResource<{ files: ManifestFile[] }>("derived/manifest.json");
   const summary = useResource<Summary>("summary.json");
+  const geo = useResource<GeoIndex>("derived/geo/index.json");
+  const gm = geo.data?.match;
   const rows = (id: string) => manifest.data?.files.find((f) => f.id === id)?.rows ?? null;
   const nodes = rows("kg-nodes"), edges = rows("kg-edges");
   const bib = `@misc{palimpsest2026,
@@ -95,6 +104,20 @@ python -m pytest -m "not network"`;
         <pre className="code"><code>{`curl -s ${SITE.url}data/derived/records/ruta-graveolens.json | jq '.plant.claims[] | select(.persistent)'`}</code></pre>
       </section>
 
+      <section aria-labelledby="geo-data-title" className="block" id="geo">
+        <h2 id="geo-data-title" className="sec-title">Geography</h2>
+        <p className="sec-lede">Native and introduced ranges come from Kew’s World Checklist of Vascular Plants, at the level of the 369 TDWG “botanical countries”; recorded occurrences come from GBIF. Built by <code>scripts/geo_regions.py</code>, <code>geo_wcvp.py</code>, <code>geo_gbif.py</code> and <code>geo_insights.py</code>; tables in <code>data/processed/geo/</code>.</p>
+        <dl className="lic geo-method">
+          <div><dt>Matching</dt><dd>{gm ? <><span className="num">{fmt.int(gm.matched)}</span> of <span className="num">{fmt.int(gm.taxa)}</span> taxa matched ({fmt.pct(gm.matched / gm.taxa)}); species <span className="num">{fmt.int(gm.species_matched)}</span> of <span className="num">{fmt.int(gm.species)}</span> ({fmt.pct(gm.species_matched / gm.species)}). </> : null}Our GBIF accepted binomial is looked up as an accepted WCVP name, then as a WCVP synonym (homotypic first), then through GBIF synonyms; spelling-only differences (Iris × germanica, Atropa bella-donna) are folded. Genus-rank identifications map the union of their accepted species and are never counted.{gm?.unmatched.length ? <> Unmatched, because WCVP covers vascular plants only: {gm.unmatched.map((t, i) => <span key={t}>{i ? ", " : ""}<i>{t}</i></span>)}.</> : null}</dd></div>
+          <div><dt>Native</dt><dd>A WCVP distribution row with introduced = 0 that is neither extinct nor doubtful. A botanical country with both a native and an introduced row counts as native.</dd></div>
+          <div><dt>Herbal counts</dt><dd>A species is Dioscorides’ if any of his chapters is identified as it, Culpeper’s likewise; it counts once in every botanical country where it is native. The eastern Mediterranean is GRC, KRI, EAI, TUE, TUR, CYP, LBS, PAL and EGY; Britain is GRB.</dd></div>
+          <div><dt>Occurrences</dt><dd>GBIF maps API density tiles (plate carrée, zoom 0) binned by GBIF into 2.8125° squares; each square keeps its centre and record count. Records include cultivated and introduced plants and follow where people collect.</dd></div>
+          <div><dt>Boundaries</dt><dd>Boundaries: <Ext href="https://www.naturalearthdata.com/">Natural Earth</Ext> (public domain); botanical-country units after TDWG WGSRPD (Brummitt 2001), drawn approximately. Each Natural Earth 1:10m admin-1 unit (and each island of a multi-part unit) goes to the WGSRPD unit its interior point falls in, else to the one its ISO code maps to, else the nearest; units whose drawn extent overlaps WGSRPD’s by under 90% are marked approximate in tooltips. Two islets too small for admin-1 are dots. Crosswalk: <code>data/processed/geo/wgsrpd_ne_crosswalk.csv</code>.</dd></div>
+          <div><dt>Licences</dt><dd>WCVP: Govaerts R (ed.). 2026. WCVP: World Checklist of Vascular Plants. Facilitated by the Royal Botanic Gardens, Kew. https://doi.org/10.34885/egs6-cp24 [accessed 04 Jun 2026], licensed under CC BY 3.0. GBIF occurrences CC BY 4.0. Natural Earth public domain.</dd></div>
+        </dl>
+        <pre className="code"><code>{`curl -s ${SITE.url}data/derived/geo/taxa/ruta-graveolens.json | jq '{summary, native, introduced}'`}</code></pre>
+      </section>
+
       <div className="block two-col">
         <section aria-labelledby="cite-title">
           <h2 id="cite-title" className="sec-title">How to cite</h2>
@@ -122,6 +145,7 @@ python -m pytest -m "not network"`;
           <div><dt>Culpeper</dt><dd>Public domain (Project Gutenberg 49513)</dd></div>
           <div><dt>Curated tables and lexicons</dt><dd>CC BY 4.0</dd></div>
           <div><dt>Constituents</dt><dd>CC0 (Wikidata / LOTUS)</dd></div>
+          <div><dt>Plant ranges</dt><dd>CC BY 3.0 (WCVP, Royal Botanic Gardens, Kew); occurrence grid CC BY 4.0 (GBIF)</dd></div>
           <div><dt>Images</dt><dd>Public domain; see <a href={href("/credits")}>credits</a></dd></div>
         </dl>
       </section>

@@ -1,0 +1,46 @@
+{
+ "about": "Geography of the Palimpsest taxa. All codes are WGSRPD level-3 botanical countries.",
+ "generated": "2026-11-08",
+ "match": {
+  "taxa": 692,
+  "matched": 685,
+  "species": 642,
+  "species_matched": 636,
+  "by_method": {
+   "accepted": 615,
+   "genus-union": 49,
+   "synonym": 21,
+   "unmatched": 7
+  },
+  "unmatched": [
+   "Marchantia polymorpha",
+   "Acetabularia acetabulum",
+   "Fomitopsis officinalis",
+   "Lobaria pulmonaria",
+   "Polytrichum commune",
+   "Ulva lactuca",
+   "Usnea"
+  ],
+  "note": "WCVP covers vascular plants only; the unmatched taxa are mosses, liverworts, algae, lichens and fungi."
+ },
+ "files": {
+  "regions.topo.json": "TopoJSON, object 'regions': WGSRPD level-3 units drawn from Natural Earth admin-1 (lon/lat, simplified); properties id, name, l2, l1, lon, lat, approx; 'points' lists units too small to draw",
+  "regions-globe.topo.json": "The same units, coarser (0.4 degree tolerance), for the turning globe",
+  "regions.json": "The 369 units without geometry: id, name, level-2 and level-1 codes and names, label point, approx, iou (overlap of the drawn Natural Earth units with the WGSRPD extent)",
+  "../../../../data/processed/geo/wgsrpd_ne_crosswalk.csv": "In the repository: every Natural Earth admin-1 unit, the WGSRPD level-3 unit it was assigned to and how (location, iso, nearest), with split-off parts",
+  "overview.json": "Per unit: species of Dioscorides, Culpeper and both native there, top plants, and the computed insights",
+  "ranges.json": "Every taxon (by explorer slug): WCVP match method and native / introduced codes",
+  "taxa/<slug>.json": "One taxon: WCVP name and match, native / introduced / doubtful / extinct codes, a plain sentence, and GBIF occurrence counts on a 2.8125-degree grid (cells = [lon, lat, count] at cell centres)"
+ },
+ "licences": {
+  "ranges": "WCVP, CC BY 3.0 (README_WCVP.xlsx in wcvp.zip)",
+  "occurrences": "GBIF, CC BY 4.0",
+  "regions": "Boundaries: Natural Earth (public domain); botanical-country units after TDWG WGSRPD (Brummitt 2001), drawn approximately. Crosswalk: data/processed/geo/wgsrpd_ne_crosswalk.csv"
+ },
+ "cite": [
+  "Govaerts R (ed.). 2026. WCVP: World Checklist of Vascular Plants. Facilitated by the Royal Botanic Gardens, Kew. [WWW document] URL https://doi.org/10.34885/egs6-cp24 [accessed 04 Jun 2026]. Licensed under CC BY 3.0.",
+  "GBIF.org (2026). Occurrence density, GBIF maps API v2, accessed 2026-11-08. CC BY 4.0.",
+  "Boundaries: Natural Earth 1:10m admin-1, v5.1 (public domain); botanical-country units after TDWG WGSRPD (Brummitt RK 2001, World Geographical Scheme for Recording Plant Distributions, ed. 2), drawn approximately."
+ ],
+ "rules": "Species rank only in counts; native = WCVP introduced 0, not extinct, not doubtful; genus-rank taxa map the union of their accepted species."
+}

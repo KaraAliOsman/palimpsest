@@ -1,0 +1,370 @@
+area_code_l3,name,dioscorides,culpeper,both
+ABT,Alberta,10,11,2
+AFG,Afghanistan,120,89,51
+AGE,Argentina Northeast,5,2,1
+AGS,Argentina South,3,1,0
+AGW,Argentina Northwest,3,2,1
+ALA,Alabama,6,8,3
+ALB,Albania,295,227,101
+ALD,Aldabra,3,1,1
+ALG,Algeria,238,148,79
+ALT,Altay,73,106,36
+ALU,Aleutian Is.,5,4,0
+AMU,Amur,27,34,8
+AND,Andaman Is.,7,3,3
+ANG,Angola,21,2,1
+ANT,Antarctica,0,0,0
+ARI,Arizona,15,9,3
+ARK,Arkansas,6,4,2
+ARU,Aruba,1,0,0
+ASC,Ascension,2,1,1
+ASK,Alaska,11,10,2
+ASP,Amsterdam-St.Paul Is.,0,0,0
+ASS,Assam,26,14,5
+ATP,Antipodean Is.,0,0,0
+AUT,Austria,168,208,77
+AZO,Azores,69,58,35
+BAH,Bahamas,1,0,0
+BAL,Baleares,190,107,63
+BAN,Bangladesh,29,8,6
+BEN,Benin,16,1,1
+BER,Bermuda,2,1,1
+BGM,Belgium,140,203,71
+BIS,Bismarck Archipelago,2,1,1
+BKN,Burkina,16,3,2
+BLR,Belarus,109,163,58
+BLT,Baltic States,103,158,54
+BLZ,Belize,3,0,0
+BOL,Bolivia,4,2,1
+BOR,Borneo,4,1,1
+BOT,Botswana,20,2,1
+BOU,Bouvet I.,0,0,0
+BRC,British Columbia,15,13,3
+BRY,Buryatiya,42,66,21
+BUL,Bulgaria,260,230,99
+BUR,Burundi,15,4,3
+BZC,Brazil West-Central,3,1,1
+BZE,Brazil Northeast,4,1,1
+BZL,Brazil Southeast,3,1,1
+BZN,Brazil North,3,0,0
+BZS,Brazil South,4,1,1
+CAB,Cabinda,1,0,0
+CAF,Central African Republic,15,2,1
+CAL,California,15,10,3
+CAY,Cayman Is.,0,0,0
+CBD,Cambodia,11,5,3
+CGS,Chagos Archipelago,2,1,1
+CHA,Chad,34,11,9
+CHC,China South-Central,55,54,25
+CHH,Hainan,19,9,8
+CHI,Inner Mongolia,43,47,17
+CHM,Manchuria,45,46,18
+CHN,China North-Central,59,49,22
+CHQ,Qinghai,35,35,17
+CHS,China Southeast,48,42,23
+CHT,Tibet,39,45,22
+CHX,Xinjiang,74,78,33
+CKI,Cocos (Keeling) Is.,0,0,0
+CLC,Chile Central,4,0,0
+CLM,Colombia,3,1,0
+CLN,Chile North,4,1,1
+CLS,Chile South,4,0,0
+CMN,Cameroon,16,2,1
+CNT,Connecticut,9,12,2
+CNY,Canary Is.,101,53,34
+COL,Colorado,14,12,3
+COM,Comoros,5,1,1
+CON,Congo,11,1,1
+COO,Cook Is.,1,0,0
+COR,Corse,232,181,77
+COS,Costa Rica,2,2,0
+CPI,Central American Pacific Is.,0,0,0
+CPP,Cape Provinces,20,6,3
+CPV,Caprivi Strip,9,0,0
+CRL,Caroline Is.,2,0,0
+CRZ,Crozet Is.,0,0,0
+CTA,Chita,30,42,12
+CTM,Chatham Is.,1,0,0
+CUB,Cuba,2,0,0
+CVI,Cape Verde,29,17,11
+CYP,Cyprus,194,94,62
+CZE,Czechia and Slovakia,155,203,74
+DEL,Delaware,7,6,2
+DEN,Denmark,100,163,54
+DJI,Djibouti,25,6,5
+DOM,Dominican Republic,1,1,0
+DSV,Desventurados Is.,0,0,0
+EAI,East Aegean Is.,220,109,63
+EAS,Easter Is.,1,0,0
+ECU,Ecuador,3,1,0
+EGY,Egypt,114,46,32
+EHM,East Himalaya,44,34,17
+ELS,El Salvador,3,2,1
+EQG,Equatorial Guinea,3,0,0
+ERI,Eritrea,50,12,11
+ETH,Ethiopia,62,22,15
+FAL,Falkland Is.,0,0,0
+FIJ,Fiji,2,0,0
+FIN,Finland,73,121,37
+FLA,Florida,6,3,2
+FOR,Føroyar,18,33,9
+FRA,France,291,254,100
+FRG,French Guiana,2,0,0
+GAB,Gabon,8,1,1
+GAL,Galápagos,2,0,0
+GAM,"Gambia, The",13,1,1
+GEO,Georgia,5,7,2
+GER,Germany,155,217,76
+GGI,Gulf of Guinea Is.,9,2,1
+GHA,Ghana,12,0,0
+GIL,Gilbert Is.,0,0,0
+GNB,Guinea-Bissau,11,1,1
+GNL,Greenland,8,13,3
+GRB,Great Britain,120,176,62
+GRC,Greece,320,232,105
+GST,Gulf States,43,18,15
+GUA,Guatemala,4,3,0
+GUI,Guinea,15,2,1
+GUY,Guyana,2,0,0
+HAI,Haiti,3,1,0
+HAW,Hawaii,3,1,1
+HBI,Howland-Baker Is.,0,0,0
+HMD,Heard-McDonald Is.,0,0,0
+HON,Honduras,5,2,1
+HUN,Hungary,170,197,74
+ICE,Iceland,21,38,12
+IDA,Idaho,11,11,3
+ILL,Illinois,11,11,3
+IND,India,51,21,15
+INI,Indiana,9,11,2
+IOW,Iowa,8,7,1
+IRE,Ireland,84,139,45
+IRK,Irkutsk,45,69,21
+IRN,Iran,222,177,87
+IRQ,Iraq,169,112,66
+ITA,Italy,328,257,105
+IVO,Ivory Coast,16,2,2
+JAM,Jamaica,3,1,0
+JAP,Japan,37,41,12
+JAW,Jawa,7,4,3
+JNF,Juan Fernández Is.,1,0,0
+KAM,Kamchatka,24,28,7
+KAN,Kansas,6,4,2
+KAZ,Kazakhstan,124,137,56
+KEG,Kerguelen,1,1,1
+KEN,Kenya,34,4,3
+KER,Kermadec Is.,1,0,0
+KGZ,Kirgizistan,91,96,40
+KHA,Khabarovsk,30,37,9
+KOR,Korea,40,43,15
+KRA,Krasnoyarsk,58,87,26
+KRI,Kriti,209,102,61
+KRY,Krym,191,191,79
+KTY,Kentucky,7,8,3
+KUR,Kuril Is.,26,29,8
+KUW,Kuwait,22,10,8
+KZN,Kazan-retto,1,0,0
+LAB,Labrador,9,9,2
+LAO,Laos,12,6,4
+LBR,Liberia,7,2,1
+LBS,Lebanon-Syria,260,147,80
+LBY,Libya,174,77,53
+LDV,Laccadive Is.,3,0,0
+LEE,Leeward Is.,1,0,0
+LES,Lesotho,13,4,3
+LIN,Line Is.,0,0,0
+LOU,Louisiana,6,4,2
+LSI,Lesser Sunda Is.,7,1,1
+MAG,Magadan,19,19,5
+MAI,Maine,12,13,3
+MAN,Manitoba,10,9,1
+MAQ,Macquarie Is.,0,0,0
+MAS,Massachusetts,10,12,2
+MAU,Mauritius,5,1,0
+MCI,Mozambique Channel Is.,4,1,1
+MCS,Marcus I.,0,0,0
+MDG,Madagascar,9,1,0
+MDR,Madeira,76,59,34
+MDV,Maldives,4,0,0
+MIC,Michigan,14,14,4
+MIN,Minnesota,12,12,2
+MLI,Mali,21,3,2
+MLW,Malawi,19,2,0
+MLY,Malaya,8,2,2
+MNT,Montana,12,12,3
+MOL,Maluku,4,1,1
+MON,Mongolia,40,53,13
+MOR,Morocco,228,154,76
+MOZ,Mozambique,21,3,1
+MPE,Marion-Prince Edward Is.,0,0,0
+MRN,Marianas,2,0,0
+MRQ,Marquesas,0,0,0
+MRS,Marshall Is.,2,0,0
+MRY,Maryland,10,9,3
+MSI,Mississippi,6,6,2
+MSO,Missouri,7,6,2
+MTN,Mauritania,26,3,3
+MXC,Mexico Central,6,5,1
+MXE,Mexico Northeast,11,9,4
+MXG,Mexico Gulf,6,4,0
+MXI,Mexican Pacific Is.,1,0,0
+MXN,Mexico Northwest,12,6,1
+MXS,Mexico Southwest,8,6,2
+MXT,Mexico Southeast,6,3,1
+MYA,Myanmar,38,21,11
+NAM,Namibia,18,1,1
+NAT,KwaZulu-Natal,20,6,4
+NBR,New Brunswick,12,11,3
+NCA,North Carolina,9,8,2
+NCB,Nicobar Is.,8,3,3
+NCS,North Caucasus,210,206,88
+NDA,North Dakota,10,8,1
+NEB,Nebraska,8,6,1
+NEP,Nepal,54,46,23
+NET,Netherlands,126,193,67
+NEV,Nevada,13,7,2
+NFK,Norfolk Is.,2,0,0
+NFL,Newfoundland,12,11,3
+NGA,Nigeria,18,2,1
+NGR,Niger,21,4,2
+NIC,Nicaragua,3,2,1
+NLA,Netherlands Antilles,2,0,0
+NNS,Nansei-shoto,15,11,5
+NOR,Norway,85,139,43
+NRU,Nauru,1,0,0
+NSC,Nova Scotia,13,12,3
+NSW,New South Wales,10,4,2
+NTA,Northern Territory,10,1,1
+NUE,Niue,1,0,0
+NUN,Nunavut,5,5,0
+NWC,New Caledonia,2,0,0
+NWG,New Guinea,6,3,1
+NWH,New Hampshire,11,12,3
+NWJ,New Jersey,10,11,3
+NWM,New Mexico,14,11,4
+NWT,Northwest Territories,8,7,0
+NWY,New York,16,14,4
+NZN,New Zealand North,2,0,0
+NZS,New Zealand South,2,1,0
+OFS,Free State,15,5,2
+OGA,Ogasawara-shoto,3,1,1
+OHI,Ohio,10,12,2
+OKL,Oklahoma,7,5,3
+OMA,Oman,50,17,13
+ONT,Ontario,14,15,4
+ORE,Oregon,14,12,3
+PAK,Pakistan,124,90,51
+PAL,Palestine,205,96,63
+PAN,Panamá,3,1,0
+PAR,Paraguay,3,1,1
+PEI,Prince Edward I.,9,7,1
+PEN,Pennsylvania,11,12,3
+PER,Peru,7,3,1
+PHI,Philippines,11,7,4
+PHX,Phoenix Is.,0,0,0
+PIT,Pitcairn Is.,1,0,0
+POL,Poland,134,190,67
+POR,Portugal,218,179,78
+PRM,Primorye,33,38,10
+PUE,Puerto Rico,2,0,0
+QLD,Queensland,13,4,3
+QUE,Québec,14,14,3
+REU,Réunion,6,3,2
+RHO,Rhode I.,10,10,3
+ROD,Rodrigues,3,0,0
+ROM,Romania,204,216,84
+RUC,Central European Russia,124,167,64
+RUE,East European Russia,122,152,57
+RUN,North European Russia,69,116,35
+RUS,South European Russia,137,158,65
+RUW,Northwest European Russia,92,148,49
+RWA,Rwanda,15,2,1
+SAK,Sakhalin,32,35,10
+SAM,Samoa,2,0,0
+SAR,Sardegna,240,156,79
+SAS,Saskatchewan,11,9,2
+SAU,Saudi Arabia,85,37,27
+SCA,South Carolina,5,6,2
+SCI,Society Is.,2,0,0
+SCS,South China Sea,5,1,1
+SCZ,Santa Cruz Is.,0,0,0
+SDA,South Dakota,14,9,3
+SEL,Selvagens,15,12,9
+SEN,Senegal,23,1,1
+SEY,Seychelles,3,1,1
+SGE,South Georgia,0,0,0
+SIC,Sicilia,262,173,83
+SIE,Sierra Leone,8,2,1
+SIN,Sinai,90,38,24
+SOA,South Australia,7,3,2
+SOC,Socotra,14,3,3
+SOL,Solomon Is.,2,0,0
+SOM,Somalia,38,5,5
+SPA,Spain,292,239,97
+SRL,Sri Lanka,23,4,4
+SSA,South Sandwich Is.,0,0,0
+STH,St.Helena,2,1,1
+SUD,Sudan,45,13,9
+SUL,Sulawesi,3,1,1
+SUM,Sumatera,5,3,2
+SUR,Suriname,2,0,0
+SVA,Svalbard,5,4,3
+SWC,Southwest Caribbean,0,0,0
+SWE,Sweden,104,163,55
+SWI,Switzerland,166,208,75
+SWZ,Swaziland,16,2,0
+TAI,Taiwan,21,16,11
+TAN,Tanzania,30,4,3
+TAS,Tasmania,6,6,3
+TCI,Turks-Caicos Is.,1,0,0
+TCS,Transcaucasus,228,209,91
+TDC,Tristan da Cunha,2,0,0
+TEN,Tennessee,9,8,3
+TEX,Texas,7,6,3
+THA,Thailand,15,6,4
+TKM,Turkmenistan,116,87,49
+TOG,Togo,13,1,1
+TOK,Tokelau-Manihiki,0,0,0
+TON,Tonga,2,0,0
+TRT,Trinidad-Tobago,2,0,0
+TUA,Tuamotu,1,0,0
+TUB,Tubuai Is.,3,0,0
+TUE,Turkey-in-Europe,237,184,87
+TUN,Tunisia,203,119,64
+TUR,Turkey,335,225,108
+TUV,Tuvalu,0,0,0
+TVA,Tuva,42,61,19
+TVL,Northern Provinces,25,7,4
+TZK,Tadzhikistan,101,92,45
+UGA,Uganda,26,4,3
+UKR,Ukraine,174,203,76
+URU,Uruguay,5,1,1
+UTA,Utah,13,10,3
+UZB,Uzbekistan,106,94,50
+VAN,Vanuatu,2,0,0
+VEN,Venezuela,4,1,0
+VER,Vermont,12,14,3
+VIC,Victoria,8,4,2
+VIE,Vietnam,25,15,9
+VNA,Venezuelan Antilles,1,0,0
+VRG,Virginia,9,8,2
+WAK,Wake I.,1,0,0
+WAL,Wallis-Futuna Is.,1,0,0
+WAS,Washington,14,12,3
+WAU,Western Australia,13,3,3
+WDC,District of Columbia,6,5,2
+WHM,West Himalaya,102,85,46
+WIN,Windward Is.,3,0,0
+WIS,Wisconsin,13,12,3
+WSA,Western Sahara,18,9,8
+WSB,West Siberia,77,108,33
+WVA,West Virginia,9,9,2
+WYO,Wyoming,13,10,3
+XMS,Christmas I.,0,0,0
+YAK,Yakutskiya,40,52,17
+YEM,Yemen,65,27,21
+YUG,Former Yugoslavia,308,258,107
+YUK,Yukon,7,6,0
+ZAI,Zaire,22,4,3
+ZAM,Zambia,23,3,1
+ZIM,Zimbabwe,21,3,1
