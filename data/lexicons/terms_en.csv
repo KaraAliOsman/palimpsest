@@ -1,0 +1,354 @@
+concept_id,pattern,polarity,example,gloss,note
+dyspepsia,\b(?:weak|cold|hot|cool|moist|raw|sour|feeble|weakened|choleric|afflicted|oppressed|over-?heated)\s+(?:\w+\s+)?stomachs?\b,therapeutic,weak stomachs,weak / cold / hot stomach (dyspepsia),Galenic qualities of the stomach; 'weak stomach' = poor digestion (OED stomach n. 1b)
+dyspepsia,"\b(?:strengthen\w*|comfort\w*|warm\w*|cools?|cooling|settles?|fortif\w*|strengthener)\s+(?:\w+\s+){0,2}?(?:the\s+)?stomachs?\b",therapeutic,strengthens the stomach,strengthens / comforts the stomach (stomachic),stomachic tonic; generic but consistently therapeutic
+dyspepsia,"\b(?:pains?|gnawings?|gnawing|heats?|griefs?|diseases?|weakness|infirmities|crudities|sourness|distempers?|sour\s+humour)\s+(?:\w+\s+){0,2}?(?:of|in|at)\s+the\s+stomachs?\b",therapeutic,pains of the stomach,pains / gnawing / heat of the stomach,gnawing of the stomach = epigastric pain
+dyspepsia,\b(?:in)?digestions?\b,therapeutic,digestion,digestion / indigestion,'helps/causes digestion' = digestive
+dyspepsia,\bsurfeit(?:s|ing)?\b(?!\s+by\s+drinking),therapeutic,surfeit,surfeit: indigestion / sickness from over-eating,OED surfeit n. 4: sickness from overeating; 'surfeit by drinking of wine' excluded (-> intoxication)
+dyspepsia,(?<!breed )(?<!by )\bcrudities\b,therapeutic,crudities,crudities: undigested matter in the stomach (indigestion),OED surfeit n. 4: sickness from overeating; 'surfeit by drinking of wine' excluded (-> intoxication)
+dyspepsia,\bgnawings?\s+of\s+the\s+heart,therapeutic,gnawing of the heart,gnawing of the heart = heartburn (cardialgia),OED cardialgia: 'heart' = cardiac orifice of the stomach; heartburn
+dyspepsia,"\b(?:hurt\w*|offen\w*|harm\w*|enemy|prejudicial|troublesome|loathsome)\s+(?:\w+\s+){0,2}?(?:to\s+)?(?:the\s+)?stomachs?\b",adverse,offends the stomach,hurtful / offensive to the stomach,adverse effect on digestion
+diarrhea,\blasks?\b,therapeutic,lasks,"lask: diarrhoea, looseness of the bowels",OED lask n.: looseness of the bowels
+diarrhea,"\bflux(?:es)?\s+(?:\w+\s+){0,2}?(?:of|in)\s+the\s+(?:belly|bowels|stomach)\b",therapeutic,fluxes of the belly,flux of the belly: diarrhoea,flux = abnormal discharge; 'of the belly' fixes diarrhoea
+diarrhea,\blooseness\b|\bscouring\b,therapeutic,scouring,"scouring, looseness: diarrhoea",OED scouring vbl.n. 2: diarrhoea (esp. in cattle)
+diarrhea,"\b(?:binds?|bind|binding)\s+(?:\w+\s+){0,2}?(?:belly|body|bowels)\b",action,bind the belly,"binds the belly (astringent, antidiarrhoeal)",action: astringent
+dysentery,\bbloody[- ]?flux(?:es)?\b,therapeutic,bloody flux,bloody flux: dysentery,OED bloody flux: dysentery
+dysentery,\btenesmus\b,therapeutic,tenesmus,tenesmus: painful straining at stool (dysenteric),OED tenesmus: continual inclination to void the bowels; a dysenteric symptom
+dysentery,"\b(?:excoriations?|ulcers?|ulcerations?)\s+(?:\w+\s+){0,2}?(?:of|in)\s+the\s+(?:bowels|guts|intestines|entrails)\b",therapeutic,ulcers of the bowels,excoriation / ulcers of the bowels (dysenteric ulceration),Galenic dysentery = ulceration of the intestines
+constipation,"\b(?:loosen\w*|loose|opens?|open|opening|moves?|move|moving|soften\w*|purges?|purge|purging|keeps?)\s+(?:\w+\s+){0,2}?(?:belly|bellies|body|bowels)\b",action,purge the body,"purges / opens / loosens the belly: laxative, purgative",action: laxative; 'opens the body' = aperient
+constipation,"\bpurg(?:e|es|eth|ing)\s+(?:(?!head|brain|breast|lungs|reins|womb)\w+\s+){0,3}?(?:choler|phlegm|melancholy|humours|downwards|by\s+(?:the\s+)?stool)\b",action,purges choler,"purges choler, phlegm or melancholy downwards: cathartic",humoral purgation by stool; cathartic action
+constipation,\b(?:solutive|laxative|purgative|cathartic|costive(?:ness)?)\b,action,solutive,"solutive, laxative: aperient; costive = constipated",costive = constipated
+flatulence,"\b(?:expel\w*|break\w*|dissolv\w*|discuss\w*|dispers\w*|dispel\w*|eas\w*|drives?|consum\w*)\s+(?:\w+\s+){0,2}?wind(?:iness|s)?\b",action,expel wind,expels / breaks wind (carminative),action: carminative
+flatulence,"\bwind(?:iness)?\s+(?:\w+\s+){0,3}?(?:in|of)\s+the\s+(?:stomach|belly|bowels|body|guts|sides|spleen)\b",therapeutic,wind in the stomach,wind in the stomach / bowels,
+flatulence,\btroubled\s+with\s+(?:the\s+)?wind\b,therapeutic,troubled with wind,troubled with wind: flatulence,
+flatulence,\b(?:windy|flatulent)\s+(?:meat|food)\b,adverse,windy meat,windy meat: flatulent food (causes wind),adverse: food that breeds wind
+flatulence,\b(?:extremely|somewhat|very|a\s+little|are|less)\s+(?:windy|flatulent)\b,adverse,extremely windy,extremely / somewhat windy: flatulent (causes wind),adverse: food that breeds wind
+colic,\bcholick?s?\b,therapeutic,cholic,"cholic: colic, griping abdominal pain",iliac passion = ileus/severe colic (OED); 'the frets' = infant colic
+colic,\bcolick?s?\b,therapeutic,colic,"colic, wind colic",iliac passion = ileus/severe colic (OED); 'the frets' = infant colic
+colic,\bbelly[- ]?ache\b|\biliac\s+passion|\bthe\s+frets\b,therapeutic,belly-ache,belly-ache; iliac passion (ileus); 'the frets' (infant colic),iliac passion = ileus/severe colic (OED); 'the frets' = infant colic
+colic,\bgrip(?:ings?|es)\b,therapeutic,griping,gripings: colicky abdominal pains,OED griping vbl.n.: colic pains
+colic,"\btorments?\s+(?:\w+\s+){0,2}?(?:of|in)\s+the\s+(?:belly|bowels|guts)\b",therapeutic,torments of the belly,torments of the belly: colic pains,OED griping vbl.n.: colic pains
+colic,\bwringings?\b,therapeutic,wringings,wringings of the belly: colic pains,OED griping vbl.n.: colic pains
+colic,"\bpains?\s+(?:\w+\s+){0,2}?(?:of|in)\s+(?:the|their)\s+(?:belly|bellies|bowels|guts|intestines)\b",therapeutic,pains in the bowels,pains in the belly / bowels,
+nausea_vomiting,(?<!provokes )(?<!provoke )(?<!causes )(?<!cause )(?<!procure )(?<!procures )(?<!strong )\bvomit(?:ing|ings|s)?\b(?!\s+(?:\w+\s+)?(?:of\s+)?blood)(?!\s+and\s+spit),therapeutic,vomiting,stays vomiting / vomits,provoked-vomiting contexts excluded by look-behind; 'vomiting of blood' -> hemorrhage
+nausea_vomiting,"\b(?:provok\w*|caus\w*|procur\w*)\s+(?:\w+\s+){0,1}?vomit\w*",action,provokes vomiting,provokes vomiting: emetic,emetic action; context can be adverse (e.g. fresh alder bark)
+nausea_vomiting,"\bpurg\w*\s+(?:\w+\s+){0,3}?upwards\b",action,purge the body both upwards,purges upwards: emetic ('upwards and downwards'),emetic action; context can be adverse (e.g. fresh alder bark)
+nausea_vomiting,\bcasting\b(?!\s+(?:up\s+)?of\s+blood),therapeutic,casting,casting: vomiting,OED casting vbl.n.: vomiting; qualm: sudden nausea/faintness
+nausea_vomiting,"\bloathings?\b(?!\s+(?:\w+\s+){0,2}?(?:meat|to\s+meat))(?!\s+it\s+brings)",therapeutic,loathings,loathing of the stomach: nausea,OED casting vbl.n.: vomiting; qualm: sudden nausea/faintness
+nausea_vomiting,\bqualms?\b|\bdisposition\s+to\s+vomit,therapeutic,disposition to vomit,disposition to vomit; qualms: nausea,OED casting vbl.n.: vomiting; qualm: sudden nausea/faintness
+helminthiasis,"(?<!ring-)(?<!ring )(?<!breeds )(?<!them from )\bworms?\b(?!\s+in\s+them\b)(?!\s+(?:\w+\s+){0,3}?(?:in|of)\s+(?:the\s+)?ears?\b)(?!\s+(?:that\s+)?(?:breed\w*\s+)?in\s+(?:old|foul|sores|ulcers|putrified|the\s+ears?))",therapeutic,worms,worms (intestinal),excludes ear worms and wound maggots
+helminthiasis,\bbreeds?\s+worms\b,adverse,breeds worms,breeds worms,adverse
+hemorrhoids,\bpiles\b,therapeutic,piles,piles: haemorrhoids,'morrhoids' = aphaeretic form
+hemorrhoids,\bh?(?:æ|ae|e)?morrh?oid\w*,therapeutic,hæmorrhoids,"haemorrhoids (hæmorrhoids, morrhoids)",'morrhoids' = aphaeretic form
+hemorrhoids,"\b(?:falling|fall\w*|clefts?|chops|fistulas?|pains?|inflammations?|itching|swellings?|cankers?|heat)\s+(?:\w+\s+){0,3}?(?:of|in)\s+the\s+(?:seat\s+or\s+)?fundament\b",therapeutic,falling down of the fundament,falling down / fistulas / pains of the fundament (anus),anorectal complaints grouped with piles; includes fistula/prolapse
+appetite_loss,\bappetite\b,therapeutic,appetite,appetite (provokes / restores),orexigenic
+appetite_loss,"\bloathing\s+(?:\w+\s+){0,2}?(?:of|to|unto)\s+(?:their\s+)?meat\b",therapeutic,loathing thereof unto meat,loathing of meat: loss of appetite,OED loathing: disgust for food
+hiccup,\bhic(?:cough|cup|ket)s?\b,therapeutic,hiccough,hiccough: hiccup,
+jaundice,\bjaundice\b,therapeutic,jaundice,"yellow jaundice, black jaundice","yellow and black jaundice both kept here; black jaundice was a melancholic, splenic condition (OED), not necessarily icterus"
+liver_disease,"\b(?:obstructions?|stoppings?|stoppage|stopping|hardness|heats?|inflam\w*|swellings?|diseases?|pains?|griefs?|infirmities|defects?|distempers?|weakness|ulcers?|imposthumes?)\s+(?:\w+\s+){0,3}?(?:of|in)\s+the\s+(?:gall\s+and\s+)?livers?\b",therapeutic,obstructions of the liver,obstructions / heat of the liver,Galenic hepatic complaints
+liver_disease,\b(?:hot|cold|hard|weak|stopped)\s+livers?\b,therapeutic,hot liver,hot / cold / hard liver (Galenic distemper of the liver),liver-grown = enlarged liver (OED)
+liver_disease,\bliver-?grown\b,therapeutic,liver-grown,liver-grown: having an enlarged / indurated liver,liver-grown = enlarged liver (OED)
+liver_disease,"\b(?:strengthen\w*|cool\w*|cleans\w*|comfort\w*|opens?|warms?|temper\w*|refresh\w*)\s+(?:\w+\s+){0,2}?(?:the\s+)?livers?\b",therapeutic,opens obstructions of the liver,opens obstructions of / strengthens the liver,hepatic tonic
+liver_disease,\b(?:obstructions?|stoppings?)\s+of\s+the\s+gall\b,therapeutic,obstructions of the gall,obstructions of the gall,biliary obstruction; no separate gallbladder concept
+liver_disease,"\b(?:prejudicial|hurtful|offensive|enemy)\s+(?:\w+\s+){0,2}?(?:to\s+)?the\s+liver\b",adverse,prejudicial to the liver,prejudicial to the liver,adverse
+spleen_disease,\bspleens?\b(?!-?wort),therapeutic,spleen,"spleen: hardness, swelling, stoppings of the spleen","virtues text only; always morbid (stoppings, hardness, swelling of the spleen)"
+spleen_disease,\bsplenetic\b,therapeutic,splenetic,splenetic: suffering from the spleen,hypochondria = region under the ribs; 'hypochondriac melancholy' seated in the spleen
+spleen_disease,\bhypochondri\w*,therapeutic,hypochondria,hypochondria: region under the ribs (spleen/liver),hypochondria = region under the ribs; 'hypochondriac melancholy' seated in the spleen
+cough,(?<!enemy to those that have the )\bcoughs?\b,therapeutic,cough,"cough, coughs",
+cough,\bcoughing\b,therapeutic,coughing,coughing,
+cough,\bchin[- ]?cough\b,therapeutic,chin-cough,chin-cough: whooping cough (pertussis),OED chin-cough: whooping cough
+cough,\bexpectorat\w*,action,expectorate,expectorates tough phlegm: expectorant,expectorant action
+cough,"\bphlegm\s+(?:\w+\s+){0,4}?(?:of|in|out\s+of|from|upon)\s+the\s+(?:chest|lungs|breast)\b",action,phlegm in the chest,phlegm in / out of the chest or lungs: expectorant,expectorant action
+cough,"\b(?:breast|lungs|chest)\s+(?:\w+\s+){0,3}?of\s+(?:\w+\s+)?phlegm\b",action,breast and lungs of phlegm,cleanses the breast and lungs of phlegm: expectorant,expectorant action
+cough,"\benemy\s+to\s+(?:\w+\s+){0,4}?cough",adverse,enemy to those that have the cough,an enemy to those that have the cough,adverse
+asthma_dyspnea,\bshortness\s+of\s+(?:the\s+)?breath\b,therapeutic,shortness of breath,shortness of breath: dyspnoea,pursy = short-winded (OED)
+asthma_dyspnea,(?<!forbidden to those that are )\bshort[- ]?winded\b,therapeutic,short-winded,short-winded: dyspnoeic,pursy = short-winded (OED)
+asthma_dyspnea,\bwhee[zs]\w*,therapeutic,wheezing,"wheezing, wheesing",pursy = short-winded (OED)
+asthma_dyspnea,\b(?:difficult\w*|hardness)\s+(?:of|in)\s+(?:breath|breathing|fetching),therapeutic,difficulty of breath,difficulty / hardness of breath(ing),pursy = short-winded (OED)
+asthma_dyspnea,\basthma\w*|\bpursy\b|\bcannot\s+fetch\s+their\s+breath,therapeutic,cannot fetch their breath,cannot fetch their breath; pursy; asthma,pursy = short-winded (OED)
+asthma_dyspnea,"\bph?th[iy]si(?:c|ck)s?\b(?!,?\s+or\s+consumption)",therapeutic,phthisicks,phthisic (here: tightness of breath / asthma),"OED phthisic: phthisis, but also (17th c.) asthma / a tight cough; where Culpeper lists it beside, not as, consumption ('phthisicks, and oftentimes consumptions') it is read as asthmatic. Interpretive"
+asthma_dyspnea,"\bforbidden\s+to\s+(?:\w+\s+){0,3}?short[- ]winded",adverse,forbidden to those that are short-winded,forbidden to the short-winded,adverse/contraindication
+pleurisy_pneumonia,\bpleuris\w*,therapeutic,pleurisy,pleurisy,
+pain,\bstit?ch(?:es)?\b,therapeutic,stitches,stitch: sharp pain in the side,"OED stitch: sudden sharp pain, esp. in the side; Culpeper ascribes it to wind or the spleen (1 of 20 hits in a chest context), so mapped to pain, not pleurisy"
+pain,"\bpricking\s+(?:\w+\s+){0,1}?(?:pains?\s+)?(?:of|in)\s+the\s+sides?\b",therapeutic,pricking pains of the sides,pricking pains of the sides,"OED stitch: sudden sharp local pain, esp. in the side; Culpeper ascribes it to wind or the spleen (only 1/20 hits in a chest context), so mapped to pain, not pleurisy"
+pain,\bstiches\b,therapeutic,stiches,stitch (variant spelling stich),"OED stitch: sudden sharp local pain, esp. in the side; Culpeper ascribes it to wind or the spleen (only 1/20 hits in a chest context), so mapped to pain, not pleurisy"
+pleurisy_pneumonia,"\binflam\w*\s+(?:\w+\s+){0,2}?(?:of|in)\s+the\s+lungs\b",therapeutic,inflammation of the lungs,inflammation of the lungs (peripneumonia),peripneumonia
+sore_throat,\bquins(?:y|ey|ies)\b,therapeutic,quinsy,"quinsy, quinsey: suppurative tonsillitis / peritonsillar abscess","OED quinsy (squinancy): inflammation of the throat, esp. suppurative tonsillitis"
+sore_throat,\bsore\s+(?:mouths?\s+(?:and|or)\s+)?throats?\b,therapeutic,sore mouths and throats,sore throat,excludes '... of the throat called the king's evil' (-> scrofula)
+sore_throat,"\b(?:sores?|ulcers?|inflam\w*|swellings?|soreness|heat|diseases?|roughness)\s+(?:\w+\s+){0,4}?(?:of|in|under)\s+the\s+(?:mouth,?\s+(?:and|or)\s+)?(?:throat|jaws)\b(?!,?\s+(?:commonly\s+)?called)",therapeutic,swellings in the throat,swellings / inflammations / ulcers of the throat,excludes '... of the throat called the king's evil' (-> scrofula)
+sore_throat,\balmonds?\s+(?:of|and)\s+(?:the\s+)?throat\b,therapeutic,almonds of the throat,almonds of the throat: tonsils,OED almond n. 3: tonsil; 'falling of the palate' = relaxed uvula
+sore_throat,"\bpal+ate\s+(?:\w+\s+){0,4}?(?:fallen|down|its\s+place)",therapeutic,palate of the mouth in its place,palate fallen down: relaxed / swollen uvula,OED almond n. 3: tonsil; 'falling of the palate' = relaxed uvula
+sore_throat,"\buvula\b|\b(?:falling|fallen)\s+(?:\w+\s+){0,2}?palate\b",therapeutic,falling of the palate,falling of the palate; swelling of the uvula,OED almond n. 3: tonsil; 'falling of the palate' = relaxed uvula
+sore_throat,\bhoarse(?:ness)?\b,therapeutic,hoarseness,hoarseness of the throat / voice,"laryngeal; no separate concept, mapped to sore throat"
+sore_throat,\blost\s+their\s+voice,therapeutic,lost their voice,loss of voice,"laryngeal; no separate concept, mapped to sore throat"
+sore_throat,\bloss\s+of\s+(?:the\s+)?voice,therapeutic,loss of the voice,hoarseness,"laryngeal; no separate concept, mapped to sore throat"
+tuberculosis,\bconsumptions?\b(?!\s+of\s+(?:a|the|one|half|two)\s+(?:\w+\s+)?(?:third|half|part|fourth|moiety)),therapeutic,consumption,"consumption (phthisis), esp. of the lungs","OED consumption 3: wasting disease, esp. pulmonary tuberculosis; 'consumption of a third part' (decoction) excluded"
+tuberculosis,"\bph?th[iy]si(?:c|ck)s?\b(?=,?\s+or\s+consumption)",therapeutic,phthisic,"phthisic, glossed by Culpeper as 'consumption of the lungs'","only where Culpeper glosses it 'phthisic, or consumption (of the lungs)'"
+tuberculosis,"\b(?:ulcers?|ulcerations?|excoriations?)\s+(?:\w+\s+){0,2}?(?:of|in)\s+the\s+lungs\b",therapeutic,ulcer in the lungs,ulcer / excoriation of the lungs (Galenic phthisis),Galenic phthisis = ulcer of the lung
+common_cold,"\brheum(?:s|atic)?\b(?!\s+(?:\w+\s+){0,8}?(?:eyes?|teeth|gums|joints))(?!\s+and\s+watering)(?!\s+(?:unto|upon|into)\s+them)",therapeutic,rheum,"rheum, thin rheums: catarrhal discharge","OED rheum n.1: catarrhal discharge; 'rheumatic' = catarrhal, not modern rheumatism; rheum to eyes/teeth/joints excluded"
+common_cold,\bcatarrhs?\b,therapeutic,catarrhs,catarrh,distillation/defluxion: humour 'distilling' from the brain; eye targets excluded
+common_cold,"\b(?:defluxions?|defluctions?|distillations?)\b(?!\s+(?:\w+\s+){0,6}?(?:eyes?|teeth|gums|joints|sinews|sores|tooth))(?=\s+(?:\w+\s+){0,6}?(?:rheum|head|brain|lungs|nose|humours|chest|breast|stomach))",therapeutic,distillations,distillation / defluxion of rheum from the head: catarrh,humoral 'distillation/defluxion' of rheum from the brain; eye/teeth/joint targets excluded
+common_cold,\bcolds\b,therapeutic,colds,colds,
+diuresis,\b(?:provok\w*|procur\w*|expel\w*|caus\w*|bring\w*|mov\w*|increas\w*|helps?\s+to\s+provoke)\s+(?:the\s+)?urine\b,action,provokes urine,provokes urine: diuretic,action
+diuresis,\bdiuretic\w*|\bmake\s+water\s+abundantly,action,make water abundantly,diuretical; makes water abundantly,action
+diuresis,"\b(?:stoppings?|stoppage|stopping|stopt|suppression)\s+(?:\w+\s+){0,1}?(?:of\s+)?(?:the\s+)?urine\b",therapeutic,stopping of urine,stopping / stoppage of urine: urinary retention,urinary retention
+diuresis,"\burine\s+(?:\w+\s+){0,2}?(?:stopped|stopt)\b|\bcannot\s+make\s+water|\bmake\s+water\s+(?:that|who)\s+(?:are\s+stopped|had\s+it\s+stopt)",therapeutic,cannot make water,cannot make water; urine stopped: retention,urinary retention
+dysuria,\bstrangu\w*,therapeutic,stranguary,"strangury (stranguary): slow, painful urination",OED strangury: slow painful urination
+dysuria,\bdysur\w*,therapeutic,dysuries,dysury: painful urination,OED strangury: slow painful urination
+dysuria,\b(?:heat|sharpness|burning|scalding|difficulty)\s+(?:of|in)\s+(?:the\s+)?(?:urine|making\s+water)\b,therapeutic,difficulty of making water,heat / sharpness of urine; difficulty of making water,
+dysuria,"\bexcoriations?\s+(?:\w+\s+){0,2}?(?:of|in)\s+the\s+urinary",therapeutic,excoriation in the urinary,excoriation of the urinary passages,
+urolithiasis,(?<![-])\bstone\b(?![-])(?<!throw a stone),therapeutic,stone,the stone (urinary calculus),excludes plural 'stones' (fruit stones / testicles) and hyphenated compounds
+urolithiasis,\bgravel\b,therapeutic,gravel,gravel: small urinary concretions,OED gravel n. 3: urinary concretions
+kidney_disease,(?<!running of the )\breins\b,therapeutic,reins,reins: kidneys,OED reins: kidneys; excludes 'running of the reins' (gonorrhoea)
+kidney_disease,\bkidneys?\b(?!-?wort),therapeutic,kidneys,kidneys,
+kidney_disease,\bbladders?\b(?!\s+on\s+the\s+leaves),therapeutic,bladder,bladder,
+kidney_disease,\b(?:cannot|can\s*not)\s+hold\s+(?:their\s+)?water|\burine\s+that\s+passes\s+away\s+too\s+suddenly,therapeutic,cannot hold their water,cannot hold their water: urinary incontinence,no incontinence concept; bladder complaint
+kidney_disease,\bbloody\s+urine,therapeutic,bloody urine,bloody urine: haematuria,Galenic sign of kidney/bladder ulcer
+kidney_disease,\bpissing\s+(?:of\s+)?blood|\bdischarge\s+blood,therapeutic,pissing of blood,pissing of blood: haematuria,Galenic sign of kidney/bladder ulcer
+sexual_function,\b(?:venery|lust|bodily\s+lust|lustful|sperm)\b,action,lust,"provokes / stirs up / abates venery, bodily lust",direction (provokes vs abates) is in the clause; one astrological hit ('the lust of Venus')
+sexual_function,\bvenere?ous\b(?!\s+dreams),action,venerous,venerous qualities (sexual vigour),aphrodisiac or anaphrodisiac action (direction in clause)
+sexual_function,"\b(?:increas\w*|encreas\w*|breed\w*|engender\w*)\s+(?:\w+\s+){0,2}?(?:seed|sperm)\b",action,increase sperm,increases sperm / breeds seed,spermatogenic/aphrodisiac
+sexual_function,\b(?:veneral|venereous|venerous)\s+dreams,therapeutic,venerous dreams,venerous / veneral dreams: erotic dreams with emission,seminal emissions; priapism = continual standing of the yard
+sexual_function,"\bnocturnal\s+pollutions?|\bpollutions\s+in\s+the\s+night|\binvoluntary\s+(?:\w+\s+){0,2}?(?:of\s+)?(?:natural\s+)?seed|\binvoluntary\s+flux\s+of\s+men|\bpriapism|\bstanding\s+of\s+the\s+yard",therapeutic,involuntary course of natural seed,nocturnal pollutions; priapism (continual standing of the yard),seminal emissions; priapism = continual standing of the yard
+sexual_function,"\b(?:dries\s+up|extinguish\w*|spoil\w*)\s+(?:\w+\s+){0,4}?(?:seed|procreation|procreative)\b",adverse,spoil the spirit procreative,dries up the natural seed; spoils the spirit procreative,adverse
+amenorrhea,"\b(?:provok\w*|procur\w*|bring\w*|brought|mov\w*|send\w*|draw\w*|helps?\s+to\s+(?:bring|procure|provoke))\s+(?:(?!stay|stop|restrain)[\w'-]+,?\s+){0,4}?(?:courses|terms)\b",action,provokes women's courses,"provokes / brings down the terms, courses: emmenagogue","emmenagogue action; terms/courses = menses (OED); gap of <=4 words, no stay/stop inside"
+amenorrhea,\bstop(?:ping|pings)\s+of\s+(?:the\s+|their\s+|women's\s+)?(?:courses|terms)|\bhave\s+not\s+their\s+courses|\bgreen[- ]sickness,therapeutic,stoppings of their courses,stoppings of the courses; green-sickness,"green-sickness = chlorosis, 'disease of virgins', attributed to retained menses in early modern doctrine (Lange 1554)"
+menorrhagia,"\b(?:stays?|stayeth|staying|stop|stops|stopt|restrains?|restraining|dry|dries|represses?)\s+(?:(?!provok|procur|bring|draw|mov|send|expel)[\w'-]+,?\s+){0,8}?(?:courses|terms|reds)\b",therapeutic,stay women's courses,"stays / stops women's courses, the terms",gap of <=8 words that may not contain provoke/procure/bring/draw/move/send/expel; all 35 hits read
+menorrhagia,\b(?:immoderate|overflowing|abundance|abounding|overmuch\s+flowing|too\s+much\s+flowing|hot\s+fluxes)\s+(?:of\s+)?(?:the\s+)?(?:flux\s+of\s+)?(?:women's\s+|their\s+|the\s+women's\s+)?(?:courses|terms|reds)\b,therapeutic,abundance of women's courses,immoderate / overflowing flux of the courses,
+menorrhagia,"\b(?:courses|terms)\s+(?:\w+\s+){0,3}?(?:flow|flowing|come|coming)\s+(?:down\s+)?too\b|\bwomen's\s+immoderate\s+courses|\bimmoderate\s+courses\s+of\s+women",therapeutic,immoderate courses of women,courses coming down too much; immoderate courses,
+menorrhagia,\breds\b,therapeutic,reds,the reds: (excessive) menstrual flux,counterpart of 'the whites' in Culpeper ('as well the reds as the whites'): menstrual flux; only in 'stay' contexts
+menorrhagia,\bwomen's\s+(?:fluxes|bloody\s+issues)|\bbloody\s+issues,therapeutic,women's bloody issues,women's bloody issues: menorrhagia,reds = menstrual flux (counterpart of 'whites')
+leukorrhea,\bwhites\b,therapeutic,whites,the whites: leucorrhoea,OED white n.: 'the whites' = leucorrhoea
+labor,\bdead\s+(?:child|children|birth)\b,therapeutic,dead child,expels the dead child / dead birth,"expulsion of a dead foetus; obstetric use, overlaps with abortifacient action"
+labor,\bafter[- ]?birth\b,therapeutic,after-birth,after-birth: placenta,placenta
+labor,\bsecundine\b,therapeutic,secundine,secundine: placenta and membranes,placenta
+labor,"\b(?:speedy|easy|safe|quick)\s+(?:\w+\s+){0,2}?delivery\b",therapeutic,speedy delivery,speedy / easy / safe delivery in childbirth,travail = labour pains; puerperal cleansing
+labor,\bdelivery\s+of\s+(?:the\s+birth|women),therapeutic,delivery of women,delivery of women in childbirth,travail = labour pains; puerperal cleansing
+labor,\btravail\b,therapeutic,travail,travail: labour,travail = labour pains; puerperal cleansing
+labor,\bchild[- ]?(?:birth|bearing)\b,therapeutic,child-birth,"child-birth, child-bearing",travail = labour pains; puerperal cleansing
+labor,"\bcannot\s+be\s+delivered|\bhard\s+labour|\bbrought\s+to\s+bed|\bcleanse\s+(?:\w+\s+){0,2}?after\s+(?:delivery|child)|\bcleansed\s+after\s+child",therapeutic,brought to bed,newly brought to bed; cleansing after delivery; hard labour,travail = labour pains; puerperal cleansing
+abortifacient,"\b(?:caus\w*|procur\w*)\s+(?:\w+\s+){0,2}?(?:abortions?|miscarriages?)\b",adverse,procure abortion,causes / procures abortion,adverse
+abortifacient,\bsuffocates?\s+the\s+birth|\bdelivery\s+before\s+the\s+time|\blabour\s+too\s+soon,adverse,suffocates the birth,suffocates the birth; delivery before the time; labour too soon,adverse
+abortifacient,"\b(?:forbidden|dangerous|not\s+(?:to\s+)?be\s+(?:given|taken|used)|let\s+it\s+not\s+be\s+given|must\s+not)\s+(?:\w+\s+){0,4}?(?:women\s+with\s+child|pregnant|have\s+not\s+gone\s+out\s+their\s+time)",adverse,not to be taken by such as have not gone out their time,not to be given to women with child,contraindication in pregnancy
+abortifacient,\bpregnant\s+women\s+forbear,adverse,pregnant women forbear,let pregnant women forbear,contraindication in pregnancy
+abortifacient,"\b(?:hinders?|stops?|stays?|prevents?|against|retain)\s+(?:\w+\s+){0,2}?(?:abortions?|miscarriages?|the\s+birth)\b",therapeutic,hinders abortion,hinders abortion / stays miscarriage / retains the birth,anti-abortive
+lactation,"\b(?:increas\w*|encreas\w*|breed\w*|procur\w*|caus\w*)\s+(?:\w+\s+){0,3}?milk\b",action,increase milk,increases milk: galactagogue,action
+lactation,\bmilk\s+in\s+nurses,action,milk in nurses,increases milk in nurses,action
+lactation,\bstore\s+of\s+milk\b|(?<!by the )\babundance\s+of\s+milk\b(?!\s+coming)|\bgood\s+for\s+nurses,action,store of milk,procures store / abundance of milk,action
+lactation,\b(?:repress\w*|dry\w*\s+up|dries\s+up)\s+(?:the\s+)?milk\b,action,repress the milk,represses / dries up the milk,antigalactagogue action
+lactation,\bcurdling\s+of\s+(?:their\s+)?milk|\babundance\s+of\s+milk\s+coming|\bby\s+the\s+abundance\s+of\s+milk,therapeutic,curdling of their milk,curdling of milk in the breasts; breasts pained by abundance of milk,engorgement/mastitis
+uterine_disorders,\bthe\s+mother\b(?!\s+of\b),therapeutic,the mother,"the mother: the womb (fits, rising, suffocation, pains of the mother)",OED mother n.1 III: the womb; 'fits / suffocation / rising of the mother' = hysterical passion attributed to the womb. Excludes 'the mother of ...'
+uterine_disorders,\bwombs?\b,therapeutic,womb,womb,uterus; some hits are route of administration (injected into the matrix)
+uterine_disorders,\bmatrix\b,therapeutic,matrix,matrix: womb,uterus; some hits are route of administration (injected into the matrix)
+infertility,\b(?:helps?|further\w*|procur\w*)\s+conception\b,therapeutic,helps conception,helps conception,'the barrenness of Saturn' (astrological) excluded
+infertility,"(?<!causes )(?<!cause )\bbarren(?:ness)?\b(?!\s+of\s+saturn)|\bmakes?\s+(?:\w+\s+){0,2}?fruitful",therapeutic,makes barren women fruitful,makes barren women fruitful; takes away barrenness,'the barrenness of Saturn' (astrological) excluded
+infertility,\bcauses?\s+barrenness|\bcause\s+barrenness,adverse,causes barrenness,causes barrenness,adverse
+contraception,\bhinders?\s+conception\b,action,hinders conception,hinders conception,anti-fertility action; Culpeper frames it as a warning
+headache,(?<!causes )(?<!cause )(?<!causing )(?<!procure )\bhead[- ]?ach\w*,therapeutic,head-ache,head-ache,"megrim = migraine (OED, < hemicrania)"
+headache,\bmegrims?\b,therapeutic,megrim,megrim: migraine,OED megrim < hemicrania: migraine
+headache,"\b(?:pains?|aches?|aching)\s+(?:\w+\s+){0,2}?(?:of|in)\s+(?:the|their)\s+heads?\b",therapeutic,pains in the head,pains in the head,"megrim = migraine (OED, < hemicrania)"
+headache,(?<!procure )\bhead\s+ache\b,therapeutic,head ache,head ache,"megrim = migraine (OED, < hemicrania)"
+headache,"\b(?:caus\w*|procur\w*|breed\w*)\s+(?:\w+\s+){0,3}?head[- ]?ach\w*",adverse,causes head-ache,causes / procures head-ache,adverse
+headache,\bcausing\s+aches\s+and\s+pains\s+therein|\bfumes\s+into\s+the\s+head,adverse,fumes into the head,"fumes into the head, causing aches therein",adverse
+epilepsy,\bfall(?:ing|en)[- ]?sickness\b,therapeutic,falling sickness,falling sickness: epilepsy,OED falling sickness: epilepsy
+insomnia,"\b(?:procur\w*|caus\w*|provok\w*|induc\w*|bring\w*)\s+(?:\w+\s+){0,2}?(?:sleep|rest)\b(?<!troublesome sleep)",action,procure rest,procures rest and sleep: soporific,action; 'causing troublesome sleep' excluded
+insomnia,\bwant\s+of\s+(?:sleep|rest),therapeutic,want of sleep,want of sleep: insomnia,
+insomnia,\bhinders?\s+rest\b,therapeutic,hinders rest,heat that hinders rest and sleep,
+melancholy,\b(?:drives?\s+away|expel\w*|cures?|helps?|against|rids?|removes?|troubled\s+with)\s+(?:all\s+)?(?:\w+\s+)?melanchol(?:y|ic|ick)\b(?!\s+(?:humours?|juice|vapours?|blood|and\s+windy)),therapeutic,troubled with melancholy,drives away / cures melancholy (low spirits),disease sense only; humoral 'melancholy humours' and 'purges melancholy' (black bile) excluded
+melancholy,\bmelancholy\s+(?:diseases|dreams|of\s+the\s+heart)\b,therapeutic,melancholy diseases,"melancholy diseases, melancholy dreams",
+melancholy,\bsadness\b,therapeutic,sadness,sadness,
+melancholy,"\bmakes?\s+(?:\w+\s+){0,3}?merry\b",therapeutic,make a merry,makes the heart merry,
+melancholy,"\bdiseases\s+of\s+melancholy\b|\bpensiveness\b|\bheaviness,?\s+or\s+sadness|\bdull\s+and\s+heavy\s+of\s+spirit",therapeutic,diseases of melancholy,diseases of melancholy; pensiveness; heaviness of spirit,
+anxiety,\bfearful\w*|\btroublesome\s+(?:cares|thoughts)|\bcares\s+and\s+thoughts,therapeutic,fearful,fearful dreams / imaginations; troublesome cares,few attestations; dreams and drink-induced imaginations
+paralysis,\bpals(?:y|ies)\b,therapeutic,palsy,palsy,resolution = slackening/paralysis (OED resolution 9); 'dumb palsy' = aphasia
+paralysis,\bbenumbed,therapeutic,benumbed,benumbed members / sinews,resolution = slackening/paralysis (OED resolution 9); 'dumb palsy' = aphasia
+paralysis,\bpalsied|\bparaly\w*|\bnumbness|\bresolution\s+of\s+the\s+(?:sinews|nerves|tongue|limbs)|\bloss\s+of\s+speech|\btremblings?\b(?!\s+(?:and\s+passions\s+)?of\s+the\s+heart),therapeutic,loss of speech,loss of speech; numbness; palsied members; tremblings,resolution = slackening/paralysis (OED resolution 9); 'dumb palsy' = aphasia
+stroke,\bapoplex\w*,therapeutic,apoplexy,apoplexy: stroke,
+vertigo,\bvertigo\b,therapeutic,vertigo,vertigo,
+vertigo,\bgiddiness,therapeutic,giddiness,giddiness,
+vertigo,"\bdizziness|\bswimmings?\s+(?:\w+\s+){0,2}?(?:in|of)\s+the\s+(?:head|brain)|\bswimmings\s+therein|\bturnings?\s+of\s+the\s+brain",therapeutic,swimmings therein,swimming in the head; turning of the brain; dizziness,
+memory,\bmemory\b,therapeutic,memory,memory,
+memory,\bforgetful\w*|\bdull\s+wits?|\bdullness\s+of\s+(?:the\s+)?(?:mind|senses|spirits?)|\bstupidness,therapeutic,dullness of the spirits,dullness of mind / senses; forgetfulness; dull wits,
+delirium,\bfren[sz]\w*,therapeutic,frenzy,"frenzy: delirium, raving","OED frenzy (phrensy): delirium with fever, madness"
+delirium,\bphren[sz]\w*,therapeutic,phrensy,phrensy (frenzy),OED frenzy: delirium/madness; lethargy: morbid drowsiness (coma) - both under 'Frenzy / lethargy'
+delirium,\blethargy,therapeutic,lethargy,"lethargy: morbid drowsiness, coma",OED lethargy: morbid drowsiness / coma; grouped with frenzy under 'Frenzy / lethargy'
+delirium,\bfrantic,therapeutic,frantic,frantic persons,OED frenzy: delirium/madness; lethargy: morbid drowsiness (coma) - both under 'Frenzy / lethargy'
+delirium,\bdrowsy\s+(?:forgetful\s+)?evil|\blunatic|\bmadness|\bperturbation\s+of\s+the\s+senses|\blose\s+their\s+senses|\bdrowsiness|\bdull\s+and\s+drowsy,therapeutic,drowsiness,drowsy evil; madness; lunatic; loss of senses,OED frenzy: delirium/madness; lethargy: morbid drowsiness (coma) - both under 'Frenzy / lethargy'
+convulsions,\bcramps?\b,therapeutic,cramps,"cramp, cramps",crick = muscular spasm of neck (OED)
+convulsions,\bconvulsions?\b,therapeutic,convulsions,convulsions,crick = muscular spasm of neck (OED)
+convulsions,"\bshrink\w*\s+(?:\w+\s+){0,2}?(?:of\s+)?(?:the\s+)?sinews",therapeutic,shrinking of the sinews,shrinking of the sinews: contracture,crick = muscular spasm of neck (OED)
+convulsions,\bcrick\b,therapeutic,crick,crick in the neck: muscular spasm,crick = muscular spasm of neck (OED)
+convulsions,"\bspasms?\b|\bsinews\s+(?:\w+\s+){0,3}?shrunk|\bshrunk\s+sinews|\bnecks?\s+drawn\s+awry|\bstiff\s+(?:and\s+benumbed\s+)?sinews|\bsinews\s+stiff",therapeutic,stiff and benumbed sinews,stiff sinews,crick = muscular spasm of neck (OED)
+gout,(?<!hip-)(?<!hip )\bgouts?\b(?!-?wort),therapeutic,gout,gout,early-modern 'gout' covered most painful joint swelling; hip-gout and gout-wort excluded
+gout,\bgouty\b,therapeutic,gouty,gouty legs,early-modern 'gout' covered most arthritic pain of the extremities; hip-gout excluded (-> sciatica)
+sciatica,\bsciatic\w*,therapeutic,sciatica,sciatica,OED hip-gout: sciatica
+sciatica,\bhip[- ]?gout,therapeutic,hip-gout,hip-gout: sciatica,OED hip-gout: sciatica
+sciatica,"\b(?:pains?|aches?)\s+(?:\w+\s+){0,2}?(?:of|in)\s+the\s+(?:hips?|huckle\S*|knuckle\S*)",therapeutic,pains of the hips,pains of the hips / huckle-bone,OED hip-gout: sciatica
+joint_pain,\bjoint[- ]?aches?\b,therapeutic,joint-aches,joint-aches,arthralgia
+joint_pain,"\b(?:pains?|aches?|griefs?|diseases?)\s+(?:\w+\s+){0,3}?(?:of|in|by)\s+the\s+(?:hips\s+and\s+)?joints\b",therapeutic,pains of the joints,pains / diseases of the joints,arthralgia
+joint_pain,\b(?:pained|stiff|cold|benumbed)\s+joints,therapeutic,cold joints,cold / pained / benumbed joints,arthralgia
+joint_pain,\bjoints?\s+(?:full\s+of\s+pain|that\s+are\s+stiff)|\blame\s+in\s+their\s+joints,therapeutic,joint full of pain,joints full of pain / stiff; lame in their joints,arthralgia
+bruises,\bbruises\b,therapeutic,bruises,bruises,'bruised' as a preparation verb excluded
+bruises,\bbruised\s+(?:inwardly|by\s+(?:any|a|falls?|blows?))\b,therapeutic,bruised by any,bruised inwardly / by falls,'bruised' as a preparation verb excluded
+bruises,\b(?:that|who|as)\s+(?:are|be|have\s+been)\s+(?:inwardly\s+)?bruised\b,therapeutic,that are bruised,those that are bruised,'bruised' as a preparation verb excluded
+bruises,\bblack\s+and\s+blue,therapeutic,black and blue,black and blue marks / spots (ecchymosis),'bruised' as a preparation verb excluded
+bruises,\b(?:a|any|by)\s+bruise\b|\bcontusions?\b,therapeutic,any bruise,any bruise; contusions,'bruised' as a preparation verb excluded
+bruises,\b(?:congealed|clotted)\s+(?:and\s+congealed\s+)?blood\b,therapeutic,congealed blood,congealed / clotted blood (haematoma),internal bruising
+bruises,"\bfalls?,?\s+(?:or|and)\s+blows?\b",therapeutic,falls or blows,hurts by falls or blows,internal bruising
+bruises,"\bblows?,?\s+(?:or|and)\s+falls?\b",therapeutic,blows or falls,swellings / marks by blows or falls,internal bruising
+bruises,\bout\s+of\s+joint,therapeutic,out of joint,members out of joint (dislocation),dislocation grouped with sprains
+bruises,\bover-?strained|\bdislocations\b,therapeutic,over-strained,over-strained sinews; dislocations,dislocation grouped with sprains
+pain,(?<!griping )\bpains\b(?!\s+(?:and\s+\w+\s+)?(?:of|in|thereof|therein|that|which|by|coming|arising|proceeding|from)\b),therapeutic,pains,pains (unlocalised): analgesic,unlocalised pains only; anaphoric 'eases the pains' counts as analgesic
+pain,(?<![-\w])aches\b(?!\s+(?:of|in)\s+the),therapeutic,aches,aches (unlocalised),OED ache: esp. rheumatic / joint pains when plural; mapped to generic pain
+pain,\b(?:all|any)\s+(?:manner\s+of\s+)?pains\s+(?:of|in)\s+the\s+body,therapeutic,all pains in the body,all pains of the body,only when not localised; OED aches = esp. rheumatic pains
+wounds,(?<!his )\bwounds?\b(?!-?wort)(?!\s+will\s+never),therapeutic,wounds,"wounds (green, fresh, inward, old); wound-herb","green wound = fresh, unhealed wound (OED green adj. 8)"
+wounds,\bsolder\w*,therapeutic,solder,solders the lips of wounds,"green wound = fresh, unhealed wound (OED green adj. 8)"
+wounds,\bclose\w*\s+up\s+the\s+lips,therapeutic,close up the lips,closes up the lips of wounds,"green wound = fresh, unhealed wound (OED green adj. 8)"
+wounds,\b(?:that\s+are|are)\s+wounded\b|\bwounded\s+limbs|\bvulnerar\w*|\bcuts\s+(?:or|and)\s+wounds|\bsinews?\s+(?:that\s+are\s+|when\s+they\s+are\s+)?cut\b,therapeutic,vulnerary,vulnerary; cuts or wounds; cut sinews; wounded limbs,"green wound = fresh, unhealed wound (OED green adj. 8)"
+wounds,\bbad\s+for\s+wounded\b|\bhis\s+wound\s+will\s+never\s+be\s+cured,adverse,bad for wounded,extremely bad for wounded people,adverse (mint)
+wounds,"\b(?:draw\w*|bring\w*)\s+(?:forth|out|away)\s+(?:\w+\s+){0,3}?(?:splinters|thorns|broken\s+bones|arrow)",therapeutic,draws forth splinters,"draws forth splinters, thorns, broken bones",foreign bodies in the flesh
+wounds,\bsplinters\b,therapeutic,splinters,splinters gotten into the flesh,foreign bodies in the flesh
+skin_ulcers,"(?<!venereal )(?<!inward )\bulcers?\b(?!\s+(?:\w+\s+){0,2}?(?:of|in)\s+the\s+(?:mouth|throat|lungs|bladder|kidneys|reins|bowels|guts|intestines|eyes|eyelids|gums|ears|stomach|body))(?!\s+whatsoever\s+within)",therapeutic,ulcers,"ulcers (old, foul, running, fretting)","internal ulcers (inward, of the body, mouth, lungs, bladder, eyes, bowels) excluded"
+skin_ulcers,\bulcerous\b,therapeutic,ulcerous,ulcerous sores,internal / mouth / eye ulcers excluded (own concepts)
+skin_ulcers,"(?<!plague )(?<!plague-)(?<!venereal )\bsores\b(?!\s+(?:\w+\s+){0,1}?in\s+the\s+(?:mouth|throat|ears?|gums))",therapeutic,sores,"sores, running sores",'sore eyes/mouth/throat/breasts' handled elsewhere
+skin_ulcers,\b(?:old|fretting|running|foul|green|corroding)\s+sore\b,therapeutic,fretting sore,old / fretting sore,'sore eyes/mouth/throat/breasts' handled elsewhere
+skin_ulcers,\bcankers?\b(?!\s+(?:and\s+sores\s+)?in\s+the\s+(?:mouth|throat)),therapeutic,cankers,canker: spreading / eating ulcer,"OED canker n. 1: spreading, eating ulcer; in Culpeper not 'cancer'; mouth cankers -> mouth_gums"
+skin_ulcers,\bfistul\w*,therapeutic,fistulas,"fistula, fistulous ulcers",OED canker n. 1: spreading/eating ulcer (not 'cancer' here); gangrene grouped with spreading ulcers
+skin_ulcers,\bgangren\w*,therapeutic,gangrenes,gangrene,OED canker n. 1: spreading/eating ulcer (not 'cancer' here); gangrene grouped with spreading ulcers
+skin_ulcers,\bcankerous\b|\bmortifications?\b|noli\s+me\s+tangere,therapeutic,mortifications,mortification (gangrene); cankerous ulcers; 'noli me tangere',OED canker n. 1: spreading/eating ulcer (not 'cancer' here); gangrene grouped with spreading ulcers
+burns,\bburn(?:s|ings)\b(?!\s+of\s+(?:the\s+)?urine),therapeutic,burnings,burnings,
+burns,\bscald(?:s|ings)\b,therapeutic,scaldings,scaldings,
+burns,\bburnt?\s+(?:with|by)\s+(?:fire|gunpowder|iron),therapeutic,burnt with fire,burnt with fire / gunpowder,
+burns,\bburning\s+(?:with|by)\s+(?:fire|iron|gunpowder),therapeutic,burning by fire,burning by fire / iron,
+burns,\bblisters\s+raised\s+by\s+burning,therapeutic,blisters raised by burning,blisters raised by burnings,
+itch_scabies,"(?<!waterings, )\bitch(?:es|ings?|y)?\b",therapeutic,itch,"itch, itches, itching",OED scab n. 1: skin disease with scabs/itch (scabies)
+itch_scabies,\bscabs?\b,therapeutic,scabs,scabs: scabies / scabby skin,OED scab n. 1: skin disease with scabs/itch (scabies)
+itch_scabies,\bscabb(?:y|iness)\b,therapeutic,scabby,scabby head / skin,OED scab n. 1: skin disease with scabs/itch (scabies)
+itch_scabies,\bmang(?:e|y|iness)\b,therapeutic,manginess,"manginess: mange, scabies",OED scab n. 1: skin disease with scabs/itch (scabies)
+dermatitis,\btett(?:ers?|ors?)\b,therapeutic,tetters,"tetters: vesicular or scaly eruptions (eczema, herpes)","OED tetter: pustular / scaly eruption (eczema, herpes, impetigo)"
+dermatitis,\bscurf\w*,therapeutic,scurf,scurf: scaling of the skin / scalp,"tetter = vesicular/scaly eruption, eczema/herpes (OED); 'wheals' and 'blains' = urticarial/blistering eruptions"
+dermatitis,\bdandr(?:uff|iff),therapeutic,dandriff,dandriff: dandruff,"tetter = vesicular/scaly eruption, eczema/herpes (OED); 'wheals' and 'blains' = urticarial/blistering eruptions"
+dermatitis,\bbreakings?[- ]out,therapeutic,breakings-out,breakings-out of the skin: eruptions,"tetter = vesicular/scaly eruption, eczema/herpes (OED); 'wheals' and 'blains' = urticarial/blistering eruptions"
+dermatitis,\beruptions?\b,therapeutic,eruptions,eruptions of the skin,"tetter = vesicular/scaly eruption, eczema/herpes (OED); 'wheals' and 'blains' = urticarial/blistering eruptions"
+dermatitis,\bw(?:h)?eals\b,therapeutic,wheals,"wheals, weals: urticarial swellings","tetter = vesicular/scaly eruption, eczema/herpes (OED); 'wheals' and 'blains' = urticarial/blistering eruptions"
+dermatitis,\bchops\b,therapeutic,chops,"chops: chaps, fissures of hands and feet","tetter = vesicular/scaly eruption, eczema/herpes (OED); 'wheals' and 'blains' = urticarial/blistering eruptions"
+dermatitis,"\bbreaking\s+out\s+of\s+the\s+skin|\bblains\b|\broughness\s+(?:\w+\s+){0,2}?(?:of\s+)?the\s+skin|\bclefts\b",therapeutic,blains,"blains, roughness of the skin, clefts","tetter = vesicular/scaly eruption, eczema/herpes (OED); 'wheals' and 'blains' = urticarial/blistering eruptions"
+dermatitis,(?<!thereof to )\b(?:raise|draw)\s+blisters\b,adverse,raise blisters,raises / draws blisters (vesicant),adverse: vesicant / irritant contact dermatitis (one hit is deliberate counter-irritation)
+tinea,\bring[- ]?worms?\b,therapeutic,ringworms,ringworm,scald (scall) head = tinea capitis/favus (OED scall n.)
+tinea,\bscald[- ]?heads?\b|\bscald\b(?![-]),therapeutic,scald,scald head: scabby scalp (tinea capitis / favus),"OED scall / scald head: scabby disease of the scalp (tinea, favus)"
+scaly_skin,\blepros(?:y|ies)\b,therapeutic,leprosy,leprosy (lepra),early-modern 'leprosy' covered scaly and disfiguring skin disease (incl. psoriasis); not only Hansen's disease
+scaly_skin,\bleprous\b,therapeutic,leprous,leprous heads,"early-modern 'leprosy' covered scaly skin diseases (psoriasis etc.), not only Hansen's disease"
+alopecia,\bbald\w*,therapeutic,bald,baldness,
+alopecia,"\b(?:falling|shedding|fall\w*)\s+(?:\w+\s+){0,2}?(?:of\s+)?(?:the\s+)?hair\b",therapeutic,falling or shedding of the hair,falling / shedding of the hair,
+alopecia,"\bhair\s+(?:\w+\s+){0,3}?(?:to\s+grow|grow\s+again|from\s+falling)",therapeutic,hair from falling,keeps the hair from falling; causes it to grow,
+alopecia,\bhair\s+fallen,therapeutic,hair fallen,hair fallen,
+warts,\bwarts?\b,therapeutic,warts,warts,
+warts,\bcorns\b(?!\s+of\s+(?:bay\s+)?(?:salt|wheat))|\bworts\s+and\s+corns,therapeutic,worts and corns,warts and corns,
+skin_blemishes,\bfreckles\b,therapeutic,freckles,freckles,morphew = scurfy/discoloured eruption (OED); grouped with cosmetic blemishes by Culpeper
+skin_blemishes,\bsun[- ]?burn\w*,therapeutic,sun-burning,sun-burning: tanning / sunburn,morphew = scurfy/discoloured eruption (OED); grouped with cosmetic blemishes by Culpeper
+skin_blemishes,\bmorphews?\b,therapeutic,morphew,"morphew: scurfy, discoloured skin","OED morphew: leprous or scurfy eruption, discoloration of the skin; Culpeper lists it with freckles and sun-burning (cosmetic)"
+skin_blemishes,"(?<!blue )\b(?:spots|blemish\w*|discolou?r\w*|deformit(?:y|ies))\b(?!\s+(?:\w+\s+){0,2}?(?:eyes?|bruises))",therapeutic,spots,"spots, blemishes, discolourings, deformities of the skin",push = pimple/pustule (OED push n.2)
+skin_blemishes,\bscars\b,therapeutic,scars,scars,push = pimple/pustule (OED push n.2)
+skin_blemishes,\bpimples\b,therapeutic,pimples,pimples,push = pimple/pustule (OED push n.2)
+skin_blemishes,\bpushes\b,therapeutic,pushes,"pushes: pimples, pustules","OED push n.2: a pimple, pustule, boil"
+skin_blemishes,\bpustules\b(?!\s+in\s+the\s+mouth),therapeutic,pustules,pustules,push = pimple/pustule (OED push n.2)
+skin_blemishes,"\b(?:clear\w*|cleans\w*|beautif\w*)\s+(?:\w+\s+){0,2}?(?:the\s+)?(?:skin|face|complexion)\b",therapeutic,cleanses the skin,cleanses / clears the skin or face (cosmetic),cosmetic
+abscess,\bimposthum\w*,therapeutic,imposthumes,imposthume: abscess,imposthume = abscess (OED); felon/whitlow = paronychia
+abscess,\bfelons?\b,therapeutic,felons,"felon: whitlow, paronychia",imposthume = abscess (OED); felon/whitlow = paronychia
+abscess,\bboils\b,therapeutic,boils,boils,imposthume = abscess (OED); felon/whitlow = paronychia
+abscess,\bcarbuncles?\b,therapeutic,carbuncles,carbuncle,imposthume = abscess (OED); felon/whitlow = paronychia
+abscess,\bwhitlows?\b|\bbotch\w*,therapeutic,whitlows,whitlow; botch (boil),imposthume = abscess (OED); felon/whitlow = paronychia
+erysipelas,\banthony'?s\s+fire,therapeutic,anthony's fire,St. Anthony's fire: erysipelas,St Anthony's fire: erysipelas (sometimes ergotism); Culpeper's contexts are hot red skin inflammation
+erysipelas,\bshingles\b,therapeutic,shingles,shingles (herpes zoster),herpes zoster has no concept; mapped to erysipelas because early-modern authors classed zona with erysipelas / ignis sacer. Interpretive
+inflammation,"\binflam+ations?\b(?!\s+(?:\w+\s+){0,2}?(?:of|in)\s+the\s+(?:eyes|throat|lungs|jaws|almonds|liver))",therapeutic,inflammations,inflammations,eye/throat/lung/liver inflammations mapped to organ concepts
+inflammation,"\b(?:hot|red|painful)\s+(?:\w+\s+){0,2}?(?:swellings?|tumou?rs?)\b",therapeutic,hot swellings,hot / red / painful swellings (phlegmone),Galenic phlegmone; breast swellings (mastitis)
+inflammation,\b(?:sore|swollen|hard)\s+breasts,therapeutic,sore breasts,sore / swollen / hard breasts,Galenic phlegmone; breast swellings (mastitis)
+inflammation,"\bswellings?\s+(?:\w+\s+){0,2}?(?:of|in)\s+(?:women's\s+)?breasts|\bhardness\s+of\s+women's\s+breasts|\binflam\w*\s+(?:\w+\s+){0,2}?(?:of|in)\s+(?:women's\s+)?breasts?",therapeutic,swelling of women's breasts,swellings / inflammations / hardness of women's breasts,Galenic phlegmone; breast swellings (mastitis)
+cancer,\bcancers\b,therapeutic,cancers,cancers,plural only; singular 'cancer' in Culpeper is the zodiac sign and is excluded
+cancer,\bhard\s+(?:swellings?|tumou?rs?|wens|knots|lumps)\b,therapeutic,hard swellings,hard swellings / tumours / knots (scirrhus),Galenic scirrhus (hard tumour); concept label 'Cancers / hard tumours' - malignancy not implied
+cancer,\bwens\b,therapeutic,wens,wens: encysted tumours,OED wen: lump / encysted tumour; benign; mapped under 'hard tumours'
+cancer,\bcancerous\b,therapeutic,cancerous,cancerous ulcers,"singular 'cancer' is astrological (sign) in Culpeper and excluded; 'hard swelling' = Galenic scirrhus, not necessarily malignant"
+scrofula,\bking'?s[- ]evil,therapeutic,king's evil,king's evil: scrofula,"OED king's evil: scrofula, touched for by the monarch"
+scrofula,\bscroph\w*,therapeutic,scrophulous,scrophulous habit of body,scrofula (tuberculous cervical lymphadenitis)
+scrofula,"\bkernels?\s+(?:(?:or|and)\s+knots\s+)?(?:\w+\s+){0,2}?(?:in|of|by|about|behind|under)\s+the\s+(?:neck\s+or\s+)?(?:throat|neck|ears?)\b",therapeutic,kernels in the throat,"kernels in / of the throat, neck or ears: swollen glands","OED kernel 7: enlarged gland, swelling; botanical kernels excluded"
+scrofula,"\bkernels\s+that\s+(?:grow|rise)\s+(?:\w+\s+){0,2}?(?:neck|throat|ears)",therapeutic,kernels that rise behind the ears,kernels that rise behind the ears / grow about the neck,"OED kernel 7: enlarged gland, swelling; botanical kernels excluded"
+eye_disease,\bdim(?:ness)?\s+(?:of\s+(?:the\s+)?)?(?:sights?|eyes?|eye-?sight)\b,therapeutic,dimness of sight,dimness of sight,
+eye_disease,\bdim\s+(?:eyes|sights?)\b|\bdull\s+sight\b|\bdullness\s+of\s+sight,therapeutic,dull sight,dull / weak sight,
+eye_disease,"\b(?:clear\w*|sharpen\w*|strengthen\w*|quicken\w*|preserv\w*|restor\w*|fortif\w*|mends?)\s+(?:\w+\s+){0,2}?(?:the\s+)?(?:eye-?sight|sights?|eyes)\b",therapeutic,clear the sight,clears / sharpens / strengthens the sight,
+eye_disease,\bpin\s+(?:and|or)\s+web\b,therapeutic,pin and web,"pin and web: corneal opacity, cataract","OED pin and web: an eye disease, cataract or corneal opacity"
+eye_disease,\bfilms?\b,therapeutic,film,film over the eye,OED pin and web: cataract/leucoma; pearl: corneal opacity
+eye_disease,\bmist(?:s|iness)\b,therapeutic,mists,mists before the eyes,OED pin and web: cataract/leucoma; pearl: corneal opacity
+eye_disease,"\bcloudiness\b|\bmotes\b|(?<!make them )\bblind(?:ness)?\b|\bulcers?\s+(?:\w+\s+){0,2}?(?:of|in)\s+the\s+(?:eyes|eyelids)|\binfirmities\s+of\s+the\s+eyes|\bdefects\s+(?:\w+\s+){0,2}?(?:of|in)\s+the\s+eyes",therapeutic,ulcers that happen in the eyes,ulcers of the eyes; blindness; motes; defects of the eyes,OED pin and web: cataract/leucoma; pearl: corneal opacity
+eye_disease,\bspoil\w*\s+the\s+eye-?sight|\bdazzle\s+the\s+eyes,adverse,spoiling the eye-sight,spoils the eye-sight; dazzles the eyes,adverse
+conjunctivitis,\bsore\s+(?:and\s+\w+\s+)?eyes\b,therapeutic,sore eyes,sore eyes,ophthalmia
+conjunctivitis,"\b(?:redness|inflam\w*|heats?|waterings?|watering|itching|blood[- ]?sh(?:ot|ooting)|imposthumes?|swellings?)\s+(?:\w+\s+){0,3}?(?:of|in)\s+the\s+eyes\b",therapeutic,inflammations of the eyes,redness / inflammations / heat of the eyes,ophthalmia
+conjunctivitis,"\b(?:red|inflamed|watering|running|hot|bloodshot|blood-shot|swollen)\s+(?:\w+\s+){0,2}?eyes\b",therapeutic,watering eyes,red / hot / watering / inflamed eyes,ophthalmia
+conjunctivitis,"\beyes\s+(?:\w+\s+){0,3}?(?:inflamed|red|swollen|blood[- ]shot|do\s+water)\b",therapeutic,eyes that are inflamed,eyes that are inflamed / red,ophthalmia
+conjunctivitis,"\b(?:rheums?|defluxions?|defluctions?|distillations?|humours)\s+(?:\w+\s+){0,5}?(?:into|in|unto|to|upon)\s+the\s+eyes\b",therapeutic,distillations from the brain to the eyes,defluxion of rheum into the eyes,catarrhal ophthalmia
+ear_disease,"\b(?:pains?|noise|noises|singings?|mutterings|inflam\w*|imposthum\w*|sores|ulcers|worms|running)\s+(?:\w+\s+){0,3}?(?:of|in)\s+the\s+ears?\b",therapeutic,pains in the ears,pains / noise / singing / worms in the ears,
+ear_disease,\bdeaf\w*,therapeutic,deafness,deafness,
+ear_disease,\bimposthumed\s+ears|\bears?\s+that\s+(?:run|have)|\bearwigs|\bhearing\s+which\s+is\s+decayed,therapeutic,imposthumed ears,imposthumed / running ears; earwigs; decayed hearing,
+ear_disease,"\binto\s+the\s+ears?\b,?\s+(?:[\w']+,?\s+){0,5}?(?:pains?|noise|singings?|deafness|worms|running|imposthumes?|sores?|inflam\w*|mutterings|foul|matter|heat)\b",therapeutic,"into the ears, eases the pains","dropped into the ears, eases the pains / kills the worms",route of administration + ear complaint in the same clause
+toothache,\btooth[- ]?ach\w*,therapeutic,tooth-ache,tooth-ache,hollow tooth = carious tooth
+toothache,\btooth\s+ache,therapeutic,tooth ache,tooth ache,hollow tooth = carious tooth
+toothache,\b(?:aching|hollow)\s+(?:teeth|tooth)\b,therapeutic,hollow tooth,hollow (carious) or aching tooth,hollow tooth = carious tooth
+toothache,"\bpains?\s+(?:\w+\s+){0,2}?(?:of|in)\s+the\s+(?:gums\s+and\s+)?teeth\b|\bteeth\s+(?:that|when\s+they)\s+ach",therapeutic,teeth that ach,pains in the teeth; teeth that ache,hollow tooth = carious tooth
+mouth_gums,\bsore\s+mouths?\b,therapeutic,sore mouths,sore mouth,canker here = aphthous/oral ulcer
+mouth_gums,"\b(?:sores?|ulcers?|cankers?|pustules|inflam\w*|soreness)\s+(?:\w+\s+){0,3}?(?:of|in)\s+the\s+mouths?\b",therapeutic,ulcers in the mouth,sores / ulcers / cankers in the mouth,canker here = aphthous/oral ulcer
+mouth_gums,\bmouths?\s+(?:and\s+\w+\s+)?that\s+(?:is|are)\s+(?:sore|inflamed)|\bcankers\s+and\s+sores\s+in\s+the\s+mouth,therapeutic,mouth that are sore,mouth that is sore / inflamed,canker here = aphthous/oral ulcer
+mouth_gums,\bgums\b,therapeutic,gums,"gums (sore, spongy, bleeding)",periodontal
+mouth_gums,\bloose\s+teeth,therapeutic,loose teeth,loose teeth,periodontal
+mouth_gums,\bfasten\w*\s+(?:the\s+)?(?:loose\s+)?teeth,therapeutic,fastens loose teeth,fastens loose teeth,periodontal
+mouth_gums,\bteeth\s+that\s+are\s+loose,therapeutic,teeth that are loose,teeth that are loose in the gums,periodontal
+mouth_gums,\bstinking\s+breath,therapeutic,stinking breath,stinking breath: halitosis,halitosis
+mouth_gums,\broughness\s+of\s+the\s+tongue,therapeutic,roughness of the tongue,roughness of the tongue,halitosis
+mouth_gums,\bill[- ]savou?red\s+breath,therapeutic,ill-savoured breath,ill-savoured breath,halitosis
+nosebleed,"\b(?:bleed\w*|blood)\s+(?:\w+\s+){0,3}?(?:at|of|from)\s+(?:the\s+)?(?:mouth,?\s+(?:or|and)\s+(?:the\s+)?)?nose\b",therapeutic,bleeding at the nose,bleeding at the nose (and mouth),epistaxis
+edema_dropsy,\bdrops(?:y|ies)\b,therapeutic,dropsy,"dropsy, dropsies",OED dropsy: oedema/ascites
+edema_dropsy,\bhydrop\w*,therapeutic,hydropick,hydropic (dropsical),OED dropsy: oedema/ascites
+heart,\bswoon\w*,therapeutic,swoonings,swoonings: syncope,passion of the heart = palpitation / cardiac distress (OED)
+heart,\bfaint(?:ing|ings|ness)\b(?!\s+(?:or\s+\w+\s+)?appetite),therapeutic,fainting,"faintings, fainting spirits",passion of the heart = palpitation / cardiac distress (OED)
+heart,\bpassions?\s+of\s+the\s+heart,therapeutic,passions of the heart,passions of the heart: palpitations,"OED passion of the heart: palpitation, cardiac distress"
+heart,\btremblings?\s+(?:and\s+passions\s+)?of\s+the\s+heart,therapeutic,trembling of the heart,trembling of the heart,passion of the heart = palpitation / cardiac distress (OED)
+heart,"\b(?:comfort\w*|strengthen\w*|cheer\w*|reviv\w*|fortif\w*|refresh\w*|defend\w*|preserv\w*|succour\w*)\s+(?:\w+\s+){0,3}?(?:the\s+)?heart\b",therapeutic,comforts the heart,comforts / strengthens / defends the heart,cordial = heart-strengthening
+heart,\bcordials?\b,therapeutic,cordial,cordial: heart-strengthening,cordial = heart-strengthening
+heart,\bhurts\s+the\s+heart,adverse,hurts the heart,hurts the heart,adverse (saffron in excess)
+hemorrhage,"\bbleedings?\b(?!\s+(?:\w+\s+){0,3}?(?:at|of|from)\s+(?:the\s+)?(?:mouth,?\s+(?:or|and)\s+)?nose)(?!\s+of\s+the\s+(?:piles|gums|haemorrhoids|hæmorrhoids))",therapeutic,bleeding,bleeding (inward / outward / of wounds),nose/piles/gums bleeding excluded
+hemorrhage,"\b(?:stay\w*|stop\w*|stanch\w*|staunch\w*|restrain\w*)\s+(?:(?!spit|vomit|pissing)\w+\s+){0,2}?blood\b",therapeutic,stay fluxes of blood,stays / stanches blood,haemostatic
+hemorrhage,\bflux(?:es)?\s+of\s+blood\b,therapeutic,fluxes of blood,fluxes of blood,haemostatic
+hemorrhage,\bvomit\w*\s+(?:of\s+)?blood|\bcasting\s+of\s+blood|\bburst\w*\s+(?:of\s+)?(?:a\s+)?veins?,therapeutic,vomiting blood,vomiting / casting of blood; bursting a vein,haemostatic
+hemoptysis,\bspit\w*\s+(?:or\s+\w+\s+)?(?:of\s+|forth\s+)?blood\b,therapeutic,spitting of blood,spitting of blood,
+fever,(?<!quartan )(?<!tertian )(?<!tertain )\bagues?\b,therapeutic,agues,agues: intermittent fevers,ague = intermittent fever; quartan/tertian agues go to malaria and are excluded here
+fever,\bfevers?\b,therapeutic,fevers,fevers,ague = intermittent fever; quotidian kept as fever (not specifically malarial); quartan/tertian -> malaria
+fever,\bhot\s+fits,therapeutic,hot fits,hot fits of agues,ague = intermittent fever; quotidian kept as fever (not specifically malarial); quartan/tertian -> malaria
+fever,\bquotidian,therapeutic,quotidian,quotidian ague (daily fever),daily intermittent fever; not specifically malarial (could be P. falciparum or other fevers)
+fever,\bfeverish|\bhectic\b,therapeutic,hectic,hectic fever; feverish persons,ague = intermittent fever; quotidian kept as fever (not specifically malarial); quartan/tertian -> malaria
+malaria,\bquartans?\b,therapeutic,quartan,quartan ague (fever every fourth day),quartan periodicity characteristic of P. malariae
+malaria,\btert[ai][ai]?ns?\b,therapeutic,tertian,tertian ague (fever every third day),includes Culpeper's spelling 'tertain'; tertian periodicity characteristic of P. vivax
+malaria,\b(?:third|fourth)[- ]day\s+ague,therapeutic,third day ague,third-day ague: tertian,periodic fevers characteristic of P. malariae / P. vivax
+plague,\bplagues?\b,therapeutic,plague,plague,'pestilential' may include other epidemic fevers (typhus)
+plague,\bpestil\w*,therapeutic,pestilential,"pestilence, pestilential fevers / sores",'pestilential' may include other epidemic fevers (typhus)
+plague,\bpestif\w*|\binfection\s+of\s+the\s+plague,therapeutic,infection of the plague,infection of the plague; pestiferous sores,'pestilential' may include other epidemic fevers (typhus)
+syphilis,(?<!small-)(?<!small )\bpox\b,therapeutic,pox,the (French) pox: syphilis,small-pox excluded; in Culpeper 'the pox' alone = French pox
+syphilis,\bfrench\s+disease,therapeutic,french disease,French disease: syphilis,Culpeper's 'antivenereal' = remedy for the pox; small-pox excluded
+syphilis,\banti-?vener\w*,therapeutic,antivenereal,antivenereal: remedy against the pox,"Culpeper's 'antivenereal/antivenerean' = remedy against the French pox, not an anaphrodisiac"
+syphilis,\bvenereal\s+sores|\bveneral\s+heat,therapeutic,veneral heat,veneral heat of the reins in the French pox; venereal sores,Culpeper's 'antivenereal' = remedy for the pox; small-pox excluded
+scurvy,\bscurvy\b(?![- ]grass)(?!\s+humours),therapeutic,scurvy,scurvy,
+scurvy,\bscorbut\w*,therapeutic,scorbutic,scorbutic habit of body,
+scurvy,"\bbreed\w*\s+(?:\w+\s+){0,2}?scurvy",adverse,breed but scurvy,breed scurvy humours (adverse),adverse
+poisoning,\bpoisons?\b(?!\s+of\s+(?:any\s+)?(?:serpents?|vipers?|adders?|scorpions?|venomous|spiders?)),therapeutic,poison,resists / expels poison,general alexipharmic
+poisoning,\bantidotes?\b,therapeutic,antidote,antidote,general alexipharmic
+poisoning,\bcounter[- ]?poisons?\b,therapeutic,counter-poison,counter-poison,general alexipharmic
+poisoning,\bpoisonous\s+(?:\w+\s+)?(?:herbs?|medicines?|mushrooms?|qualities),therapeutic,poisonous herbs,poisonous herbs / qualities,general alexipharmic
+poisoning,\bdeadly\s+poisons?,therapeutic,deadly poison,deadly poison,general alexipharmic
+poisoning,\bvenoms?\b(?!\s+of\s+(?:any\s+|other\s+)?(?:poisonous|venomous|creatures|serpents?|vipers?|adders?|scorpions?)),therapeutic,venom,venom (poison in general),early-modern 'venom' = poison in general; specific animal venoms -> envenomation
+poisoning,"\b(?:taken|eaten|taking)\s+(?:\w+\s+){0,2}?(?:hemlock|henbane|opium|wolf-?bane|nightshade|mandrake|mushrooms|toad-?stools)",therapeutic,taking wolf-bane,"those that have taken wolf-bane, henbane, opium",antidote to plant poisons
+envenomation,\bven[eo]mous\b,therapeutic,venomous,venomous beasts / creatures,
+envenomation,\bvenom\s+of\s+(?:any\s+)?(?:poisonous|serpents?|vipers?|adders?|scorpions?),therapeutic,venom of serpents,venom of serpents / scorpions,
+envenomation,\bpoison\s+of\s+(?:any\s+)?(?:serpents?|vipers?|adders?|scorpions?|spiders?),therapeutic,poison of any serpent,poison of any serpent,
+envenomation,"\b(?:bit(?:ing|ings)|sting(?:ing|ings|s))\s+(?:of|by)\b(?!\s+(?:\w+\s+){0,2}?(?:nettles|mad\s+dogs?))",therapeutic,biting of,"biting / stinging of (serpents, scorpions, beasts)",bites by mad dogs excluded (-> rabies)
+envenomation,"\b(?:bitten|stung)\b(?!\s+(?:\w+\s+){0,3}?(?:nettles|mad\s+dogs?))",therapeutic,bitten,bitten or stung,bites by mad dogs excluded (-> rabies)
+envenomation,(?<!under the )\b(?:serpents?|vipers?|scorpions?|adders?|snakes?|wasps?|hornets?|spiders?)\b(?!'s),therapeutic,serpents,"serpents, vipers, adders, scorpions, wasps",excludes possessives (adder's tongue) and 'under the scorpion' (zodiac)
+rabies,\bmad\s+dogs?\b,therapeutic,mad dogs,biting of a mad dog: rabies,rabies
+intoxication,\bdrunkenness\b|\bdrunk\s+with\s+(?:too\s+much\s+)?wine|\bsober\s+again|\byourself\s+drunk|\bstupid\s+and\s+drunk|\bsurfeit\s+by\s+drinking|\bexcessive\s+drinking|\bgive\s+themselves\s+much\s+to\s+drinking,therapeutic,surfeit by drinking,drunkenness; surfeit by drinking of wine,'drunk' as participle of drink is excluded
+lice,\blice\b,therapeutic,lice,lice,lousy evil = phthiriasis (OED)
+lice,\blousy\b|\bnits\b|(?<!like )\bfleas\b|\bvermin\b,therapeutic,fleas,"nits, fleas, vermin, the lousy evil",fleas are not lice; concept label is 'Lice & vermin'

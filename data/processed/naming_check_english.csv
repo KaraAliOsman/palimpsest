@@ -1,0 +1,327 @@
+monograph_id,taxon,confidence,heading,agree
+cul:001-amara-dulcis,Solanum dulcamara,high,Amara Dulcis,False
+cul:002-all-heal,Opopanax chironium,medium,All-Heal,True
+cul:003-alkanet,Alkanna tinctoria,medium,Alkanet,True
+cul:004-adders-tongue-or-serpents-tongue,Ophioglossum vulgatum,high,Adder’S Tongue Or Serpent’S Tongue,True
+cul:005-agrimony,Agrimonia eupatoria,high,Agrimony,True
+cul:006-water-agrimony,Bidens tripartita,high,Water Agrimony,True
+cul:007-alehoof-or-ground-ivy,Glechoma hederacea,high,"Alehoof, Or Ground-Ivy",True
+cul:008-alexander,Smyrnium olusatrum,high,Alexander,False
+cul:009-the-black-alder-tree,Frangula alnus,high,The Black Alder-Tree,True
+cul:010-the-common-alder-tree,Alnus glutinosa,high,The Common Alder-Tree,True
+cul:011-angelica,Angelica archangelica,high,Angelica,True
+cul:012-amaranthus,Amaranthus,medium,Amaranthus,False
+cul:013-anemone,Anemone coronaria,medium,Anemone,True
+cul:014-garden-arrach,Atriplex hortensis,high,Garden Arrach,True
+cul:015-arrach-wild-and-stinking,Chenopodium vulvaria,high,"Arrach, Wild And Stinking",True
+cul:016-archangel,Lamium album,high,Archangel,False
+cul:017-arssmart,Persicaria hydropiper,high,Arssmart,False
+cul:018-asarabacca,Asarum europaeum,high,Asarabacca,True
+cul:019-asparagus-sparagus-or-sperage,Asparagus officinalis,high,"Asparagus, Sparagus, Or Sperage",True
+cul:020-prickly-asparagus-or-sperage,Asparagus acutifolius,low,"Prickly Asparagus, Or Sperage",True
+cul:021-ash-tree,Fraxinus excelsior,high,Ash Tree,False
+cul:022-avens-called-also-colewort-and-herb-bone,Geum urbanum,high,"Avens, Called Also Colewort, And Herb Bonet",True
+cul:023-balm,Melissa officinalis,high,Balm,True
+cul:024-barberry,Berberis vulgaris,high,Barberry,True
+cul:025-barley,Hordeum vulgare,high,Barley,True
+cul:026-garden-bazil-or-sweet-bazil,Ocimum basilicum,high,"Garden Bazil, Or Sweet Bazil",False
+cul:027-the-bay-tree,Laurus nobilis,high,The Bay Tree,False
+cul:028-beans,Vicia faba,high,Beans,False
+cul:029-french-beans,Phaseolus vulgaris,high,French Beans,True
+cul:030-ladies-bed-straw,Galium verum,high,Ladies Bed-Straw,False
+cul:031-beets,Beta vulgaris,high,Beets,False
+cul:032-water-betony,Scrophularia auriculata,high,Water Betony,True
+cul:033-wood-betony,Betonica officinalis,high,Wood Betony,True
+cul:034-the-beech-tree,Fagus sylvatica,high,The Beech Tree,True
+cul:035-bilberries-called-by-some-whorts-and-who,Vaccinium myrtillus,high,"Bilberries, Called By Some Whorts, And Whortle-Berries",False
+cul:036-bifoil-or-twablade,Neottia ovata,high,Bifoil Or Twablade,False
+cul:037-the-birch-tree,Betula pendula,medium,The Birch Tree,True
+cul:038-birds-foot,Ornithopus perpusillus,medium,Bird’S Foot,True
+cul:039-bishops-weed,Ammi majus,medium,Bishop’S-Weed,True
+cul:040-bistort-or-snakeweed,Bistorta officinalis,high,"Bistort, Or Snakeweed",True
+cul:041-one-blade,Maianthemum bifolium,high,One-Blade,False
+cul:042-the-bramble-or-black-berry-bush,Rubus fruticosus,high,"The Bramble, Or Black-Berry Bush",True
+cul:043-blites,Amaranthus blitum,low,Blites,False
+cul:044-borage-and-bugloss,Borago officinalis,high,Borage And Bugloss,True
+cul:045-blue-bottle,Centaurea cyanus,high,Blue-Bottle,True
+cul:046-brank-ursine,Acanthus mollis,high,Brank Ursine,False
+cul:047-briony-or-wild-vine,Bryonia dioica,high,"Briony, Or Wild Vine",False
+cul:048-brook-lime-or-water-pimpernel,Veronica beccabunga,high,"Brook Lime, Or Water-Pimpernel",True
+cul:049-butchers-broom,Ruscus aculeatus,high,Butcher’S Broom,True
+cul:050-broom-and-broom-rape,Cytisus scoparius,high,"Broom, And Broom-Rape",True
+cul:051-bucks-horn-plantain,Plantago coronopus,high,Buck’S-Horn Plantain,True
+cul:052-bucks-horn,Lepidium coronopus,medium,Buck’S Horn,False
+cul:053-bugle,Ajuga reptans,high,Bugle,True
+cul:054-burnet,Poterium sanguisorba,high,Burnet,True
+cul:055-the-butter-bur-or-petasitis,Petasites hybridus,high,"The Butter-Bur, Or Petasitis",False
+cul:056-the-burdock,Arctium lappa,medium,The Burdock,True
+cul:057-cabbages-and-coleworts,Brassica oleracea,high,Cabbages And Coleworts,False
+cul:058-the-sea-coleworts,Crambe maritima,high,The Sea Coleworts,False
+cul:059-calamint-or-mountain-mint,Clinopodium nepeta,medium,"Calamint, Or Mountain-Mint",True
+cul:060-camomile,Chamaemelum nobile,medium,Camomile,False
+cul:061-water-caltrops,Potamogeton crispus,low,Water-Caltrops,False
+cul:062-campion-wild,Silene latifolia,high,"Campion, Wild",True
+cul:063-carduus-benedictus,Centaurea benedicta,high,Carduus Benedictus,False
+cul:064-carrots,Daucus carota,high,Carrots,False
+cul:065-carraway,Carum carvi,high,Carraway,False
+cul:066-celandine,Chelidonium majus,high,Celandine,True
+cul:067-the-lesser-celandine-usually-known-by-th,Ficaria verna,high,"The Lesser Celandine, Usually Known By The Name Of Pilewort And Fogwort",True
+cul:068-the-ordinary-small-centaury,Centaurium erythraea,high,The Ordinary Small Centaury,True
+cul:069-the-cherry-tree,Prunus avium,medium,The Cherry-Tree,True
+cul:070-winter-cherries,Alkekengi officinarum,high,Winter-Cherries,True
+cul:071-chervil,Anthriscus cerefolium,high,Chervil,True
+cul:072-sweet-chervil-or-sweet-cicely,Myrrhis odorata,high,"Sweet Chervil, Or Sweet Cicely",True
+cul:073-chesnut-tree,Castanea sativa,high,Chesnut Tree,False
+cul:074-earth-chesnuts,Conopodium majus,medium,Earth Chesnuts,False
+cul:075-chickweed,Stellaria media,high,Chickweed,True
+cul:076-chick-pease-or-cicers,Cicer arietinum,high,"Chick-Pease, Or Cicers",True
+cul:077-five-fingered-grass,Potentilla reptans,high,Five-Fingered Grass,True
+cul:078-cives,Allium schoenoprasum,high,Cives,True
+cul:079-clary-or-more-properly-clear-eye,Salvia sclarea,high,"Clary, Or More Properly Clear-Eye",True
+cul:080-wild-clary,Salvia verbenaca,high,Wild Clary,True
+cul:081-cleavers,Galium aparine,high,Cleavers,True
+cul:082-clowns-woods,Stachys palustris,high,Clown’S Woods,False
+cul:083-cocks-head-red-fitching-or-medick-fetch,Onobrychis viciifolia,high,"Cock’S Head, Red Fitching, Or Medick Fetch",False
+cul:084-columbines,Aquilegia vulgaris,high,Columbines,False
+cul:085-coltsfoot,Tussilago farfara,high,Coltsfoot,True
+cul:086-comfrey,Symphytum officinale,high,Comfrey,True
+cul:087-coralwort,Cardamine bulbifera,high,Coralwort,False
+cul:088-costmary-or-alcost-or-balsam-herb,Tanacetum balsamita,high,"Costmary, Or Alcost, Or Balsam Herb",True
+cul:089-cudweed-or-cottonweed,Filago germanica,medium,"Cudweed, Or Cottonweed",True
+cul:090-cowslips-or-peagles,Primula veris,high,"Cowslips, Or Peagles",False
+cul:091-crabs-claws,Stratiotes aloides,high,Crab’S Claws,False
+cul:092-black-cresses,Diplotaxis tenuifolia,low,Black Cresses,False
+cul:093-sciatica-cresses,Lepidium graminifolium,low,Sciatica Cresses,False
+cul:094-water-cresses,Nasturtium officinale,high,Water Cresses,False
+cul:095-crosswort,Cruciata laevipes,high,Crosswort,True
+cul:096-crowfoot,Ranunculus acris,medium,Crowfoot,True
+cul:097-cuckow-point,Arum maculatum,high,Cuckow-Point,False
+cul:098-cucumbers,Cucumis sativus,high,Cucumbers,False
+cul:099-daisies,Bellis perennis,high,Daisies,False
+cul:100-dandelion-vulgarly-called-piss-a-beds,Taraxacum officinale,high,"Dandelion, Vulgarly Called Piss-A-Beds",True
+cul:101-darnel,Lolium temulentum,high,Darnel,True
+cul:102-dill,Anethum graveolens,high,Dill,True
+cul:103-devils-bit,Succisa pratensis,high,Devil’S-Bit,True
+cul:104-dock,Rumex,high,Dock,True
+cul:105-dodder-of-thyme-epithymum-and-other-dodd,Cuscuta epithymum,high,"Dodder Of Thyme, Epithymum, And Other Dodders",True
+cul:106-dogs-grass-or-cough-grass,Elymus repens,high,"Dog’S-Grass, Or Cough Grass",True
+cul:107-doves-foot-or-cranes-bill,Geranium molle,medium,"Dove’S-Foot, Or Crane’S-Bill",True
+cul:108-ducks-meat,Lemna minor,high,Duck’S Meat,False
+cul:109-down-or-cotton-thistle,Onopordum acanthium,high,"Down, Or Cotton-Thistle",True
+cul:110-dragons,Dracunculus vulgaris,high,Dragons,False
+cul:111-the-elder-tree,Sambucus nigra,high,The Elder Tree,True
+cul:112-the-dwarf-elder,Sambucus ebulus,high,The Dwarf-Elder,True
+cul:113-the-elm-tree,Ulmus minor,medium,The Elm Tree,False
+cul:114-endive,Cichorium endivia,high,Endive,True
+cul:115-elecampane,Inula helenium,high,Elecampane,True
+cul:116-eringo-or-sea-holly,Eryngium maritimum,high,"Eringo, Or Sea-Holly",True
+cul:117-eyebright,Euphrasia officinalis,high,Eyebright,True
+cul:118-fern,Dryopteris filix-mas,medium,Fern,True
+cul:119-osmond-royal-or-water-fern,Osmunda regalis,high,"Osmond Royal, Or Water Fern",True
+cul:120-feverfew-or-featherfew,Tanacetum parthenium,high,Feverfew Or Featherfew,True
+cul:121-fennel,Foeniculum vulgare,high,Fennel,True
+cul:122-sow-fennel-or-hogs-fennel,Peucedanum officinale,high,"Sow-Fennel, Or Hog’S-Fennel",True
+cul:123-fig-wort-or-throat-wort,Scrophularia nodosa,high,"Fig-Wort, Or Throat-Wort",False
+cul:124-filipendula-or-drop-wort,Filipendula vulgaris,high,"Filipendula, Or Drop-Wort",False
+cul:125-the-fig-tree,Ficus carica,high,The Fig-Tree,False
+cul:126-the-yellow-water-flag-or-flower-de-luce,Iris pseudacorus,high,"The Yellow Water-Flag, Or Flower-De-Luce",True
+cul:127-flax-weed-or-toad-flax,Linaria vulgaris,high,"Flax-Weed, Or Toad-Flax",False
+cul:128-flea-wort,Plantago afra,medium,Flea-Wort,False
+cul:129-flux-weed,Descurainia sophia,high,Flux-Weed,False
+cul:130-flower-de-luce,Iris germanica,medium,Flower-De-Luce,False
+cul:131-fluellin-or-lluellin,Kickxia spuria,medium,"Fluellin, Or Lluellin",True
+cul:132-fox-glove,Digitalis purpurea,high,Fox-Glove,False
+cul:133-fumitory,Fumaria officinalis,high,Fumitory,True
+cul:134-the-furze-bush,Ulex europaeus,high,The Furze Bush,True
+cul:135-garlick,Allium sativum,high,Garlick,False
+cul:136-gentian-felwort-or-baldmony,Gentianella amarella,medium,"Gentian, Felwort, Or Baldmony",True
+cul:137-clove-gilliflowers,Dianthus caryophyllus,high,Clove Gilliflowers,True
+cul:138-germander,Teucrium chamaedrys,high,Germander,True
+cul:139-stinking-gladwin,Iris foetidissima,high,Stinking Gladwin,True
+cul:140-golden-rod,Solidago virgaurea,high,Golden Rod,False
+cul:141-gout-wort-or-herb-gerrard,Aegopodium podagraria,high,"Gout-Wort, Or Herb Gerrard",True
+cul:142-gromel,Lithospermum officinale,high,Gromel,False
+cul:143-gooseberry-bush,Ribes uva-crispa,high,Gooseberry Bush,True
+cul:144-winter-green,Pyrola rotundifolia,medium,Winter-Green,False
+cul:145-groundsel,Senecio vulgaris,high,Groundsel,True
+cul:146-hearts-ease,Viola tricolor,high,Heart’S-Ease,True
+cul:147-artichokes,Cynara cardunculus,high,Artichokes,False
+cul:148-harts-tongue,Asplenium scolopendrium,high,Hart’S-Tongue,True
+cul:149-hazel-nut,Corylus avellana,high,Hazel-Nut,True
+cul:150-hawk-weed,Hieracium,low,Hawk-Weed,False
+cul:151-hawthorn,Crataegus monogyna,high,Hawthorn,True
+cul:152-hemlock,Conium maculatum,high,Hemlock,True
+cul:153-hemp,Cannabis sativa,high,Hemp,True
+cul:154-henbane,Hyoscyamus niger,high,Henbane,True
+cul:155-hedge-hyssop,Gratiola officinalis,medium,Hedge Hyssop,True
+cul:156-black-hellebore,Helleborus niger,high,Black Hellebore,True
+cul:157-herb-robert,Geranium robertianum,high,Herb Robert,True
+cul:158-herb-true-love-or-one-berry,Paris quadrifolia,high,"Herb True-Love, Or One-Berry",True
+cul:159-hyssop,Hyssopus officinalis,high,Hyssop,True
+cul:160-hops,Humulus lupulus,high,Hops,True
+cul:161-horehound,Marrubium vulgare,high,Horehound,True
+cul:162-horsetail,Equisetum telmateia,medium,Horsetail,True
+cul:163-houseleek-or-sengreen,Sempervivum tectorum,high,Houseleek Or Sengreen,True
+cul:164-hounds-tongue,Cynoglossum officinale,high,Hound’S Tongue,True
+cul:165-holly-holm-or-hulver-bush,Ilex aquifolium,high,"Holly, Holm, Or Hulver Bush",True
+cul:166-st-johns-wort,Hypericum perforatum,high,St. John’S Wort,True
+cul:167-ivy,Hedera helix,high,Ivy,False
+cul:168-juniper-bush,Juniperus communis,high,Juniper Bush,True
+cul:169-kidneywort-or-wall-pennyroyal-or-wall-pe,Umbilicus rupestris,high,"Kidneywort, Or Wall Pennyroyal, Or Wall Pennywort",True
+cul:170-knapweed,Centaurea nigra,medium,Knapweed,True
+cul:171-knotgrass,Polygonum aviculare,high,Knotgrass,True
+cul:173-lavender,Lavandula angustifolia,high,Lavender,True
+cul:174-lavender-cotton,Santolina chamaecyparissus,high,Lavender-Cotton,True
+cul:175-ladies-smock-or-cuckow-flower,Cardamine pratensis,high,"Ladies-Smock, Or Cuckow-Flower",True
+cul:176-lettuce,Lactuca sativa,high,Lettuce,True
+cul:177-water-lily,Nymphaea alba,high,Water Lily,True
+cul:178-lily-of-the-valley,Convallaria majalis,high,Lily Of The Valley,True
+cul:179-white-lilies,Lilium candidum,high,White Lilies,False
+cul:180-liquorice,Glycyrrhiza glabra,high,Liquorice,True
+cul:181-liverwort,Marchantia polymorpha,medium,Liverwort,True
+cul:182-loosestrife-or-willow-herb,Lysimachia vulgaris,high,Loosestrife Or Willow-Herb,True
+cul:183-loosestrife-with-spiked-heads-of-flowers,Lythrum salicaria,high,"Loosestrife, With Spiked Heads Of Flowers",True
+cul:184-lovage,Levisticum officinale,high,Lovage,True
+cul:185-lungwort,Lobaria pulmonaria,high,Lungwort,True
+cul:186-madder,Rubia tinctorum,high,Madder,True
+cul:187-maiden-hair,Asplenium trichomanes,high,Maiden Hair,False
+cul:188-wall-rue-or-white-maiden-hair,Asplenium ruta-muraria,high,"Wall Rue, Or, White Maiden-Hair",True
+cul:189-golden-maiden-hair,Polytrichum commune,medium,Golden Maiden Hair,True
+cul:190-mallows-and-marshmallows,Malva sylvestris,high,Mallows And Marshmallows,False
+cul:191-maple-tree,Acer campestre,medium,Maple Tree,True
+cul:192-wind-marjoram,Origanum vulgare,high,Wind Marjoram,True
+cul:193-sweet-marjoram,Origanum majorana,high,Sweet Marjoram,True
+cul:194-marigolds,Calendula officinalis,high,Marigolds,False
+cul:195-masterwort,Imperatoria ostruthium,high,Masterwort,True
+cul:196-sweet-maudlin,Achillea ageratum,high,Sweet Maudlin,False
+cul:197-the-medlar,Mespilus germanica,high,The Medlar,True
+cul:198-mellilot-or-kings-claver,Melilotus officinalis,high,"Mellilot, Or King’S Claver",False
+cul:199-french-and-dog-mercury,Mercurialis annua,high,French And Dog Mercury,True
+cul:200-dog-mercury,Mercurialis perennis,high,Dog Mercury,True
+cul:201-mint,Mentha spicata,high,Mint,True
+cul:202-misselto,Viscum album,high,Misselto,False
+cul:203-moneywort-or-herb-twopence,Lysimachia nummularia,high,"Moneywort, Or Herb Twopence",True
+cul:204-moonwort,Botrychium lunaria,high,Moonwort,True
+cul:206-motherwort,Leonurus cardiaca,high,Motherwort,True
+cul:207-mouse-ear,Pilosella officinarum,high,Mouse-Ear,True
+cul:208-mugwort,Artemisia vulgaris,high,Mugwort,True
+cul:209-the-mulberry-tree,Morus nigra,high,The Mulberry-Tree,True
+cul:210-mullein,Verbascum thapsus,high,Mullein,True
+cul:211-mustard,Sinapis alba,medium,Mustard,True
+cul:212-the-hedge-mustard,Sisymbrium officinale,high,The Hedge-Mustard,True
+cul:213-nailwort-or-whitlow-grass,Draba verna,high,"Nailwort, Or Whitlow-Grass",True
+cul:214-nep-or-catmint,Nepeta cataria,high,"Nep, Or Catmint",True
+cul:215-nettles,Urtica dioica,high,Nettles,False
+cul:216-nightshade,Solanum nigrum,high,Nightshade,True
+cul:217-the-oak,Quercus robur,high,The Oak,False
+cul:218-oats,Avena sativa,high,"Oats,",True
+cul:219-one-blade,Maianthemum bifolium,high,One Blade,False
+cul:220-orchis,Orchis,medium,Orchis,False
+cul:221-onions,Allium cepa,high,Onions,False
+cul:222-orpine,Hylotelephium telephium,high,Orpine,True
+cul:223-parsley,Petroselinum crispum,high,Parsley,True
+cul:224-parsley-piert-or-parsley-break-stone,Aphanes arvensis,high,"Parsley Piert, Or Parsley Break Stone",True
+cul:225-parsnips,Pastinaca sativa,high,Parsnips,False
+cul:226-cow-parsnips,Heracleum sphondylium,high,Cow Parsnips,False
+cul:227-the-peach-tree,Prunus persica,high,The Peach Tree,True
+cul:228-the-pear-tree,Pyrus communis,high,The Pear Tree,True
+cul:229-pellitory-of-spain,Anacyclus pyrethrum,high,Pellitory Of Spain,True
+cul:230-pellitory-of-the-wall,Parietaria judaica,medium,Pellitory Of The Wall,True
+cul:231-pennyroyal,Mentha pulegium,high,Pennyroyal,True
+cul:232-male-and-female-peony,Paeonia mascula,high,Male And Female Peony,True
+cul:233-pepperwort-or-dittander,Lepidium latifolium,high,"Pepperwort, Or Dittander",True
+cul:234-periwinkle,Vinca minor,high,Periwinkle,True
+cul:235-st-peters-wort,Hypericum tetrapterum,medium,St. Peter’S Wort,True
+cul:236-pimpernel,Lysimachia arvensis,high,Pimpernel,True
+cul:237-ground-pine-or-chamepitys,Ajuga chamaepitys,high,"Ground Pine, Or Chamepitys",True
+cul:238-plantain,Plantago major,high,Plantain,True
+cul:239-plums,Prunus domestica,high,Plums,False
+cul:240-polypody-of-the-oak,Polypodium vulgare,high,Polypody Of The Oak,True
+cul:241-the-poplar-tree,Populus alba,high,The Poplar Tree,True
+cul:242-poppy,Papaver somniferum,high,Poppy,True
+cul:243-purslain,Portulaca oleracea,high,Purslain,True
+cul:244-primroses,Primula vulgaris,high,Primroses,False
+cul:245-privet,Ligustrum vulgare,high,Privet,True
+cul:246-queen-of-the-meadows-meadow-sweet-or-mea,Filipendula ulmaria,high,"Queen Of The Meadows, Meadow Sweet, Or Mead Sweet",True
+cul:247-the-quince-tree,Cydonia oblonga,high,The Quince Tree,True
+cul:248-raddish-or-horse-raddish,Armoracia rusticana,high,"Raddish, Or Horse-Raddish",True
+cul:249-ragwort,Jacobaea vulgaris,high,Ragwort,True
+cul:250-rattle-grass,Rhinanthus minor,medium,Rattle Grass,True
+cul:251-rest-harrow-or-cammock,Ononis spinosa,high,"Rest Harrow, Or Cammock",False
+cul:252-rocket,Diplotaxis tenuifolia,medium,Rocket,True
+cul:253-winter-rocket-or-cresses,Barbarea vulgaris,high,"Winter-Rocket, Or Cresses",True
+cul:254-roses,Rosa,medium,Roses,True
+cul:255-rosa-solis-or-sun-dew,Drosera rotundifolia,high,"Rosa Solis, Or Sun Dew",False
+cul:256-rosemary,Salvia rosmarinus,high,Rosemary,True
+cul:257-rhubarb-or-rephontic,Rheum rhaponticum,medium,"Rhubarb, Or Rephontic",True
+cul:258-garden-patience-or-monks-rhubarb,Rumex patientia,high,"Garden-Patience, Or Monk’S Rhubarb",True
+cul:259-great-round-leaved-dock-or-bastard-rhuba,Rumex alpinus,medium,"Great Round-Leaved Dock, Or Bastard Rhubarb",True
+cul:260-meadow-rue,Thalictrum flavum,high,Meadow-Rue,True
+cul:261-garden-rue,Ruta graveolens,high,Garden-Rue,False
+cul:262-rupture-wort,Herniaria glabra,high,Rupture-Wort,True
+cul:263-rushes,Juncus,low,Rushes,True
+cul:264-rye,Secale cereale,high,Rye,False
+cul:265-saffron,Crocus sativus,high,Saffron,True
+cul:266-sage,Salvia officinalis,high,Sage,True
+cul:267-wood-sage,Teucrium scorodonia,high,Wood-Sage,True
+cul:268-solomons-seal,Polygonatum multiflorum,high,Solomon’S Seal,True
+cul:269-samphire,Crithmum maritimum,high,Samphire,True
+cul:270-sanicle,Sanicula europaea,high,Sanicle,True
+cul:271-saracens-confound-or-saracens-woundwort,Senecio sarracenicus,medium,"Saracen’S Confound, Or Saracen’S Woundwort",True
+cul:272-sauce-alone-or-jack-by-the-hedge-side,Alliaria petiolata,high,"Sauce-Alone, Or Jack-By-The-Hedge-Side",True
+cul:273-winter-and-summer-savoury,Satureja hortensis,high,Winter And Summer Savoury,True
+cul:274-savine,Juniperus sabina,high,Savine,False
+cul:275-the-common-white-saxifrage,Saxifraga granulata,high,The Common White Saxifrage,True
+cul:276-burnet-saxifrage,Pimpinella saxifraga,high,Burnet Saxifrage,True
+cul:277-scabious-three-sorts,Knautia arvensis,high,"Scabious, Three Sorts",True
+cul:278-scurvygrass,Cochlearia officinalis,high,Scurvygrass,True
+cul:279-self-heal,Prunella vulgaris,high,Self-Heal,True
+cul:280-the-service-tree,Torminalis glaberrima,medium,The Service-Tree,True
+cul:281-shepherds-purse,Capsella bursa-pastoris,high,Shepherd’S Purse,True
+cul:282-smallage,Apium graveolens,high,Smallage,False
+cul:283-sopewort-or-bruisewort,Saponaria officinalis,high,"Sopewort, Or Bruisewort",False
+cul:284-sorrel,Rumex acetosa,high,Sorrel,True
+cul:285-wood-sorrel,Oxalis acetosella,high,Wood Sorrel,True
+cul:286-sow-thistle,Sonchus oleraceus,high,Sow Thistle,True
+cul:287-southern-wood,Artemisia abrotanum,high,Southern Wood,True
+cul:288-spignel-or-spikenard,Meum athamanticum,high,"Spignel, Or Spikenard",True
+cul:289-spleenwort-ceterach-or-hearts-tongue,Asplenium ceterach,high,"Spleenwort, Ceterach, Or Heart’S Tongue",False
+cul:290-star-thistle,Centaurea calcitrapa,high,Star Thistle,True
+cul:291-strawberries,Fragaria vesca,high,Strawberries,False
+cul:292-succory-or-chicory,Cichorium intybus,high,"Succory, Or Chicory",True
+cul:293-stone-crop-prick-madam-or-small-houselee,Sedum album,low,"Stone-Crop, Prick-Madam, Or Small-Houseleek",False
+cul:294-english-tobacco,Nicotiana rustica,high,English Tobacco,True
+cul:295-the-tamarisk-tree,Tamarix gallica,medium,The Tamarisk Tree,True
+cul:296-garden-tansy,Tanacetum vulgare,high,Garden Tansy,True
+cul:297-wild-tansy-or-silver-weed,Argentina anserina,high,"Wild Tansy, Or Silver Weed",True
+cul:298-thistles,Cirsium,low,Thistles,True
+cul:299-the-melancholy-thistle,Cirsium heterophyllum,high,The Melancholy Thistle,True
+cul:300-our-ladys-thistle,Silybum marianum,high,Our Lady’S Thistle,True
+cul:301-the-woollen-or-cotton-thistle,Onopordum acanthium,high,"The Woollen, Or, Cotton Thistle",True
+cul:302-the-fullers-thistle-or-teasle,Dipsacus sativus,high,"The Fuller’S Thistle, Or Teasle",True
+cul:303-treacle-mustard,Thlaspi arvense,medium,Treacle Mustard,True
+cul:304-mithridate-mustard,Lepidium campestre,low,Mithridate Mustard,False
+cul:305-the-black-thorn-or-sloe-bush,Prunus spinosa,high,"The Black Thorn, Or Sloe-Bush",True
+cul:306-thorough-wax-or-thorough-leaf,Bupleurum rotundifolium,high,"Thorough Wax, Or Thorough Leaf",False
+cul:307-thyme,Thymus vulgaris,high,Thyme,True
+cul:308-wild-thyme-or-mother-of-thyme,Thymus serpyllum,medium,"Wild Thyme, Or Mother Of Thyme",True
+cul:309-tormentil-or-septfoil,Potentilla erecta,high,"Tormentil, Or Septfoil",True
+cul:310-turnsole-or-heliotropium,Heliotropium europaeum,high,"Turnsole, Or Heliotropium",True
+cul:311-meadow-trefoil-or-honeysuckles,Trifolium pratense,high,"Meadow Trefoil, Or Honeysuckles",True
+cul:312-heart-trefoil,Medicago arabica,medium,Heart Trefoil,True
+cul:313-pearl-trefoil,Trifolium,low,Pearl Trefoil,False
+cul:314-tustan-or-park-leaves,Hypericum androsaemum,high,"Tustan, Or Park Leaves",False
+cul:315-garden-valerian,Valeriana phu,high,Garden Valerian,True
+cul:316-vervain,Verbena officinalis,high,Vervain,True
+cul:317-the-vine,Vitis vinifera,high,The Vine,True
+cul:318-violets,Viola odorata,high,Violets,False
+cul:319-vipers-bugloss,Echium vulgare,high,Viper’S Bugloss,True
+cul:320-wall-flowers-or-winter-gilli-flowers,Erysimum cheiri,high,"Wall Flowers, Or Winter Gilli-Flowers",False
+cul:321-the-wallnut-tree,Juglans regia,high,The Wallnut Tree,False
+cul:322-wold-weld-or-dyers-weed,Reseda luteola,high,"Wold, Weld, Or Dyer’S Weed",True
+cul:323-wheat,Triticum aestivum,high,Wheat,True
+cul:324-the-willow-tree,Salix,medium,The Willow Tree,True
+cul:325-woad,Isatis tinctoria,high,Woad,True
+cul:326-woodbine-or-honey-suckles,Lonicera periclymenum,high,"Woodbine, Or Honey-Suckles",True
+cul:327-wormwood,Artemisia absinthium,high,Wormwood,True
+cul:328-yarrow-called-nose-bleed-milfoil-and-tho,Achillea millefolium,high,"Yarrow, Called Nose-Bleed, Milfoil And Thousand-Leal",True

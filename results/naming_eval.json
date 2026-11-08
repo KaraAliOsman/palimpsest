@@ -1,0 +1,21 @@
+{
+  "greek": {
+    "n_checked": 270,
+    "agreement": 0.6370370370370371,
+    "agreement_by_confidence": {
+      "high": 0.642,
+      "low": 0.647,
+      "medium": 0.625
+    }
+  },
+  "english": {
+    "n_checked": 326,
+    "agreement": 0.7208588957055214,
+    "agreement_by_confidence": {
+      "high": 0.726,
+      "low": 0.273,
+      "medium": 0.8
+    }
+  },
+  "gbif_resolution_rate": 0.9915522703273495
+}

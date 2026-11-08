@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+*.egg-info/
+# API response cache (re-creatable; summarised in data/processed/)
+data/cache/
+# Web
+web/node_modules/
+web/dist/
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+.claude/settings.local.json
+# local tool artefacts
+web/.hallmark/
+.claude/

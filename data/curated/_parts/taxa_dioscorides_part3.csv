@@ -1,0 +1,157 @@
+monograph_id,headword,kind,scientific_name,rank,confidence,alternatives,common_name_en,note
+dsc:3.143,ἐρυθρόδανον ἐρευθέδανον,plant,Rubia tinctorum,species,high,Rubia peregrina,madder,"Red dye root, wild and cultivated kinds; standard identification (Berendes, Beck)."
+dsc:3.144,λογχῖτις,plant,Serapias,genus,medium,Serapias vomeracea;Serapias lingua,tongue orchid,Flowers like gaping comic masks with a white tongue-like lip: tongue orchid; species debated.
+dsc:3.145,λογχῖτις ἑτέρα τραχεῖα,plant,Polystichum lonchitis,species,low,,holly fern,"Fern like scolopendrion but rougher and more divided; holly fern traditional, uncertain."
+dsc:3.146,ἀολθαία,plant,Althaea officinalis,species,high,,marsh mallow,"Wild mallow with round downy leaves, also called ebiskos (hibiscus); standard identification."
+dsc:3.147,ἀλκαίας,plant,Malva alcea,species,medium,Malva moschata,vervain mallow,Wild mallow with leaves cut like hiera botane; Berendes/Beck Malva alcea.
+dsc:3.148,κάνναβις,plant,Cannabis sativa,species,high,,hemp,"Rope-fibre plant with ash-like, ill-smelling leaves; uncontroversial."
+dsc:3.149,ἡ δὲ ἀγρία,plant,Althaea cannabina,species,medium,,hemp-leaved marsh mallow,"Wild 'hemp' with hemp-like leaves, reddish flowers, althaia-like root; Berendes Althaea cannabina."
+dsc:3.150,ἀνάγυρος,plant,Anagyris foetida,species,high,,stinking bean trefoil,Foetid shrub; name kept by Linnaean genus; standard identification.
+dsc:3.151,κηπαία,plant,Sedum cepaea,species,low,,pink stonecrop,Purslane-like herb with darker leaves; identification rests largely on the name; description too brief.
+dsc:3.152,ἄλισμα,plant,Alisma plantago-aquatica,species,medium,Damasonium alisma,water plantain,"Plantain-like leaves, thyrse of white flowers, watery places; Alisma and Damasonium both proposed."
+dsc:3.153,ῤνοβρυχίς,plant,Onobrychis,genus,medium,Onobrychis viciifolia;Onobrychis caput-galli,sainfoin,"Lentil-like leaves, purple flower, moist untilled ground; genus named from it, species uncertain."
+dsc:3.154,ὑπερικόν,plant,Hypericum triquetrifolium,species,medium,Hypericum perforatum;Hypericum empetrifolium,wavy-leaved St John's wort,"Rue-like leaves, resin-scented black seed; Berendes H. crispum (=triquetrifolium); H. perforatum also proposed."
+dsc:3.155,ἄσκυρον,plant,Hypericum,genus,medium,Hypericum perforatum;Hypericum olympicum,St John's wort,"Larger hypericum, yellow flowers, fruit staining fingers blood-red; species uncertain."
+dsc:3.156,ἀνδρόσαιμον,plant,Hypericum,genus,medium,Hypericum perfoliatum;Hypericum androsaemum,tutsan,Shrubby hypericum with wine-red juice and resinous smell; species debated.
+dsc:3.157,κόρις,plant,Hypericum empetrifolium,species,low,Hypericum coris,heath-leaved St John's wort,"Heath-like red leaves, called hypericum; H. coris named from it, H. empetrifolium fits Greece."
+dsc:3.158,χαμαίπιτυς,plant,Ajuga chamaepitys,species,high,Ajuga iva,ground pine,"Creeping pine-scented herb; three kinds described: first A. chamaepitys, others subsp. chia and A. iva."
+dsc:4.1,κέστρον τὸ καλούμενον,plant,Betonica officinalis,species,high,,betony,Roman vettonica named in the text; standard identification.
+dsc:4.2,βρεττανική,plant,Rumex aquaticus,species,low,Rumex hydrolapathum,water dock,"Dark, hairy, astringent dock-like leaves; Pliny's britannica, usually a water dock; uncertain."
+dsc:4.3,Λυσιμάχειος,plant,Lysimachia vulgaris,species,medium,Lythrum salicaria,yellow loosestrife,"Willow-like leaves, purple or golden flowers, wet places; probably conflates Lysimachia and Lythrum."
+dsc:4.4,πολύγονον ἄρρεν,plant,Polygonum aviculare,species,high,,knotgrass,"Male polygonon, many-jointed creeping herb; standard identification."
+dsc:4.5,πολύγονον θῆλυ,plant,Hippuris vulgaris,species,low,Equisetum,mare's-tail,"Single reed-like stem, trumpet-like joints, pine-like whorls, by water; Hippuris or Equisetum proposed."
+dsc:4.6,πολυγόνατον,plant,Polygonatum odoratum,species,medium,Polygonatum multiflorum,Solomon's seal,Mountain plant with bay-like leaves; Solomon's seal (named from it).
+dsc:4.7,κληματίς,plant,Vinca major,species,medium,Vinca minor;Vinca herbacea,greater periwinkle,Bay- or myrtle-like leaves on trailing stems; periwinkle per Berendes/Beck.
+dsc:4.8,Πολεμώνιον,plant,,unknown,low,Polemonium caeruleum,polemonium,"Unidentified; Linnaeus's Polemonium borrows the name only, description does not clearly fit."
+dsc:4.9,σύμφυτον πετραῖον,plant,Coris monspeliensis,species,low,,Montpellier coris,"Woody fragrant rock plant, origanum-like branches, thyme-like heads, reddish root; uncertain."
+dsc:4.10,σύμφυτον ἄλλο,plant,Symphytum officinale,species,medium,Symphytum bulbosum;Symphytum tuberosum,comfrey,"Hairy angular hollow stem, decurrent leaves, yellowish flowers, itchy hairs; comfrey."
+dsc:4.11,ὁλόστεον,plant,Plantago albicans,species,low,Holosteum umbellatum;Plantago bellardii,holosteon,Tiny herb with coronopus-like leaves and hair-thin root; Plantago proposed; Holosteum shares the name only.
+dsc:4.12,στοιβῆς ὁ καρπὸς,plant,Sarcopoterium spinosum,species,medium,,thorny burnet,"Stoibe of Greek authors, astringent; usual identification; chapter gives uses only."
+dsc:4.13,κλύμενον,plant,Lathyrus clymenum,species,low,Scorpiurus muricatus,Spanish vetchling,"Square bean-like stem, plantain-like leaves, pods curling like octopus arms; Lathyrus or Scorpiurus proposed."
+dsc:4.14,περικλύμενον,plant,Lonicera etrusca,species,medium,Lonicera caprifolium;Lonicera periclymenum,Etruscan honeysuckle,"Twining shrub with perfoliate leaves bearing berries; honeysuckle, Greek species likely."
+dsc:4.15,τρίβολος,plant,Tribulus terrestris,species,high,Trapa natans,puncture vine,"Land kind is Tribulus terrestris; the aquatic kind is water chestnut, Trapa."
+dsc:4.16,λειμώνιον,plant,Limonium vulgare,species,low,Limonium,sea lavender,"Beet-like leaves, lily-like stem with red astringent fruit, meadows and marshes; Limonium traditional, uncertain."
+dsc:4.17,λαγώπουν,plant,Trifolium arvense,species,medium,,hare's-foot clover,"Hare's-foot, astringent; usual identification; chapter gives uses only."
+dsc:4.18,μήδιον,plant,Campanula,genus,low,Michauxia campanuloides,bellflower,"Large round purple flowers, 3-cubit stem, shady rocky places; campanulaceous plant proposed, uncertain."
+dsc:4.19,ἐπιμήδιον,plant,Epimedium alpinum,species,low,Epimedium pubigerum,barrenwort,"Ivy-like leaves, said flowerless, antifertility root; Epimedium named from it, identification uncertain."
+dsc:4.20,ξιφίον,plant,Gladiolus italicus,species,medium,Gladiolus communis,field gladiolus,"Sword-shaped iris-like leaves, cornfield plant; Mediterranean gladiolus."
+dsc:4.21,σπαργάνιον,plant,Sparganium erectum,species,medium,,branched bur-reed,"Xiphion-like narrower leaves, spherical burs on the stem; bur-reed."
+dsc:4.22,ξυρίς,plant,Iris foetidissima,species,high,,stinking iris,"Wild iris, Roman gladiolus; standard identification."
+dsc:4.23,ἄγχουσα,plant,Alkanna tinctoria,species,high,,dyer's alkanet,Anchusa with red dye root; standard identification.
+dsc:4.24,ἄγχουσα ἑτέρα,plant,Onosma,genus,low,Alkanna orientalis;Anchusa undulata,onosma,"Smaller rough-leaved anchusa, purple-red flowers, red roots, sandy places; borage family, species uncertain."
+dsc:4.25,ἐστι δὲ καὶ,plant,Boraginaceae,family,low,,alkanet (third kind),"Smaller anchusa with red fruit, said to kill snakes; unidentified borage-family plant."
+dsc:4.26,λυκαψός,plant,Lycopsis arvensis,species,medium,,small bugloss,"Lykapsos, long rough lettuce-like leaves; field bugloss Lycopsis (Anchusa) arvensis, traditional."
+dsc:4.27,ἔχιον,plant,Echium,genus,medium,Echium italicum;Echium plantagineum;Echium vulgare,viper's bugloss,"Rough narrow leaves, seed like a viper's head; Echium certain, species uncertain."
+dsc:4.28,ὠκιμοειδές,plant,Silene gallica,species,low,Saponaria ocymoides,small-flowered catchfly,"Basil-like leaves, henbane-like capsules with black seed; Caryophyllaceae, species debated."
+dsc:4.29,ἄγρωστις,plant,Cynodon dactylon,species,medium,Elymus repens,Bermuda grass,"Creeping jointed grass with sweet jointed roots, cattle fodder; Bermuda or couch grass."
+dsc:4.30,καλαμάγρωστις,plant,Poaceae,family,low,Calamagrostis epigejos;Sorghum halepense,reed grass,"Larger agrostis, poisonous to cattle (Babylon); unidentified grass."
+dsc:4.31,ἡ δὲ ἐν τῷ Παρνασσῷ ἄγρωστις γεννωμένη πολυκλαδωτέρα ἐστί,plant,Parnassia palustris,species,low,,grass of Parnassus,"Parnassian 'agrostis' with ivy-like leaves, white fragrant flower; Linnaean Parnassia named from it, uncertain."
+dsc:4.32,ἡ δὲ ἐν,plant,Poaceae,family,low,,kinna grass,Cilician grass called kinna that bloats cattle; unidentified.
+dsc:4.33,σιδηρῖτις,plant,Sideritis,genus,medium,Sideritis romana;Sideritis syriaca,ironwort,"Horehound-like leaves, square stems, whorls with black seed; wound herb; species uncertain."
+dsc:4.34,ἄλλη σιδηρῖτις,plant,,unknown,low,,ironwort (second kind),"Fern-like long-stalked leaves, spherical rough seed heads; unidentified."
+dsc:4.35,ἔτι καὶ ἑτέρα,plant,,unknown,low,,ironwort (third kind),"Krateuas' Herakleia on walls and vineyards, coriander-like leaves, small red flowers; unidentified."
+dsc:4.36,καλοῦσί τινες καὶ,plant,Achillea,genus,medium,Achillea millefolium;Achillea tomentosa,yarrow,"Achilleios sideritis: finely cut leaves, round umbel-like head, wound herb; yarrow."
+dsc:4.37,βάτος,plant,Rubus,genus,high,Rubus sanctus;Rubus ulmifolius,bramble,Common bramble; Greek species probably Rubus sanctus/ulmifolius.
+dsc:4.38,βάτος Ἰδαία,plant,Rubus idaeus,species,high,,raspberry,"Idaean bramble, much softer with small spines; raspberry."
+dsc:4.39,ἑλξίνη,plant,Convolvulus arvensis,species,medium,Fallopia convolvulus;Calystegia sepium,field bindweed,"Small ivy-like leaves, long twining shoots in hedges, vineyards, grain; bindweed."
+dsc:4.40,ἐλατίνη,plant,Kickxia elatine,species,medium,Kickxia spuria,sharp-leaved fluellen,"Like helxine but smaller, rounder, hairy leaves; fluellen (Linaria elatine)."
+dsc:4.41,Εὐπατόριος,plant,Agrimonia eupatoria,species,high,,agrimony,"Single woody hairy stem, divided leaves, burred seed; agrimony."
+dsc:4.42,πεντέφθλλον,plant,Potentilla reptans,species,high,,creeping cinquefoil,Five-leaved herb; standard identification.
+dsc:4.43,φοῖνιξ,plant,Lolium perenne,species,low,Hordeum murinum,perennial ryegrass,"Barley-like leaves, darnel-like spike, in fields and on new roofs; ryegrass or wall barley proposed."
+dsc:4.44,Ἰδαία ῥίζα,plant,Ruscus hypophyllum,species,low,Ruscus hypoglossum,Idaean root,"Leaves like butcher's broom with flowering outgrowths; Ruscus suggested, uncertain."
+dsc:4.45,Ῥοδία ῥίζα,plant,Rhodiola rosea,species,high,,roseroot,Macedonian root smelling of roses when rubbed; roseroot.
+dsc:4.46,ἵππουρις,plant,Equisetum,genus,high,Equisetum telmateia;Equisetum arvense,horsetail,"Hollow jointed stems with whorls, wet places; horsetail."
+dsc:4.47,ἔστι δὲ καὶ,plant,Equisetum,genus,medium,Equisetum arvense;Equisetum palustre,horsetail,"Second hippouris with shorter, whiter, softer 'hair'; another horsetail."
+dsc:4.48,κόκκος βαφική,animal,,unknown,high,,kermes,"Kermes scale insect (Kermes vermilio) on Quercus coccifera, taken by Dioscorides for a shrub's berries."
+dsc:4.49,τρὰγιον,plant,,unknown,low,,tragion,"Cretan shrub like lentisk, smaller, with gum-like juice; unidentified."
+dsc:4.50,τράγιον ἄλλο,plant,,unknown,low,,tragion (second kind),"Scolopendrion-like leaves smelling of goat in autumn, white radish-like root; unidentified."
+dsc:4.51,τράγος,plant,Ephedra distachya,species,medium,Ephedra fragilis,joint pine,Leafless seaside shrublet with red berry-like clusters; Ephedra.
+dsc:4.52,σχοίνου ἑλείας τὸ,plant,Juncus acutus,species,medium,Scirpoides holoschoenus;Juncus maritimus,sharp rush,Oxyschoinos and holoschoinos marsh rushes; sharp rush and round-headed club-rush.
+dsc:4.53,λειχὴν ὁ ἐπὶ τῶν πετρῶν,plant,Marchantia polymorpha,species,medium,,common liverwort,"Moss-like growth on wet rocks, used for lichen (skin); liverwort (Berendes)."
+dsc:4.54,παρωνυχία,plant,Paronychia argentea,species,low,Draba verna,silver nailwort,"Small rock plant like peplos, cures whitlows; Paronychia or Draba proposed."
+dsc:4.55,χρυσοκόμη οἱ δὲ,plant,Galatella linosyris,species,medium,,goldilocks aster,Span-high stem with golden hyssop-like corymb; Chrysocoma/Linosyris traditional.
+dsc:4.56,χρυσόγονον,plant,Bongardia chrysogonum,species,medium,Leontice leontopetalum,bongardia,"Tuberous root red inside, black outside, mullein-like flower; Bongardia named from it."
+dsc:4.57,ἑλίχρυσον ἢ χρυσάνθεμον,plant,Helichrysum stoechas,species,medium,Helichrysum italicum;Helichrysum orientale,everlasting,Golden everlasting used to crown images; Helichrysum.
+dsc:4.58,ἀγήρατον,plant,Achillea ageratum,species,medium,,sweet yarrow,Low origanum-like herb with umbel of golden 'bubble' flowers; sweet yarrow.
+dsc:4.59,περιστέριον,plant,Verbena officinalis,species,medium,,vervain,Upright peristereon of watery places with cut whitish leaves; vervain (Berendes).
+dsc:4.60,ἱερὰ βοτάνη,plant,Verbena supina,species,low,Verbena officinalis,prostrate vervain,"Hiera botane: angular jointed stems, oak-like leaves; vervain; species split between 4.59/4.60 debated."
+dsc:4.61,ἀστράγαλος,plant,Lathyrus,genus,low,Lathyrus digitatus;Astragalus,astragalus,"Chickpea-like leaves, small purple flowers, horn-like intertwined roots (Pheneos); Orobus/Lathyrus proposed."
+dsc:4.62,ὑάκινθος,plant,Hyacinthus orientalis,species,low,Muscari comosum;Scilla bifolia,hyacinth,Bulbous plant with span-high stem and bent purple-flowered head; classical hyacinth disputed.
+dsc:4.63,μήκων ῥοιάς,plant,Papaver rhoeas,species,high,,corn poppy,"Rhoeas, quickly sheds its petals, in fields; corn poppy."
+dsc:4.64,μήκων,plant,Papaver somniferum,species,high,Papaver rhoeas,opium poppy,"Garden poppy, source of opion and mekonion; opium poppy."
+dsc:4.65,μήκων κερατῖτις,plant,Glaucium flavum,species,high,,yellow horned poppy,Horned seaside poppy with white hairy leaves; yellow horned poppy.
+dsc:4.66,μήκων ἀφρώδης,plant,Silene vulgaris,species,low,,bladder campion,Small white 'foamy' plant with emetic seed; Silene proposed (Berendes); uncertain.
+dsc:4.67,ὑπήκοον,plant,Hypecoum procumbens,species,medium,,procumbent hypecoum,"Grain-field weed with rue-like leaves, poppy-like juice; Hypecoum."
+dsc:4.68,ὑοσκύαμος,plant,Hyoscyamus,genus,high,Hyoscyamus albus;Hyoscyamus niger;Hyoscyamus aureus,henbane,Three henbanes by flower colour; the preferred white kind is H. albus.
+dsc:4.69,ψύλλιον,plant,Plantago afra,species,high,Plantago arenaria,psyllium,Fleawort; Plantago psyllium (=P. afra).
+dsc:4.70,στρύχνον κηπαῖον,plant,Solanum nigrum,species,high,,black nightshade,Edible garden strychnos; black nightshade.
+dsc:4.71,ἔστι δὲ καὶ,plant,Alkekengi officinarum,species,high,,winter cherry,Halikakkabon with fruit in a bladder-like husk; winter cherry (Physalis alkekengi).
+dsc:4.72,στρύχνον ὑπνωτικόν,plant,Withania somnifera,species,high,,ashwagandha,"Sleep-inducing strychnos with red fruit in husk; Withania (Berendes, Beck)."
+dsc:4.73,στρύχνον μανικόν,plant,Atropa belladonna,species,low,Datura metel,deadly nightshade,Madness-causing strychnos; belladonna and Datura proposed; identity debated.
+dsc:4.74,δορύκνιον,plant,Convolvulus oleifolius,species,low,Convolvulus dorycnium;Lotus hirsutus,dorycnium,"Olive-like shrub on coastal rocks, rough leaves, white flower; Convolvulus and legume candidates."
+dsc:4.75,μανδραγόρας,plant,Mandragora officinarum,species,high,,mandrake,"Male and female mandrake; female often called M. autumnalis, which GBIF sinks into M. officinarum."
+dsc:4.76,ἀκόνιτον,plant,Doronicum,genus,medium,Doronicum pardalianches;Doronicum orientale;Aconitum anthora,leopard's bane,Pardalianches with cyclamen-like leaves and scorpion-tail root; Doronicum (Berendes).
+dsc:4.77,ἀκόνιτον ἕτερον,plant,Aconitum lycoctonum,species,medium,Aconitum napellus,wolfsbane,Lykoktonon from the Vestini mountains of Italy; Aconitum.
+dsc:4.78,κώνειον,plant,Conium maculatum,species,high,,hemlock,"Jointed fennel-like stem, heavy smell; poison hemlock."
+dsc:4.79,σμῖλαξ,plant,Taxus baccata,species,high,,yew,Romans call it taxus; fir-like tree; yew.
+dsc:4.80,ἀπόκυνον,plant,Cionura erecta,species,low,Periploca graeca;Cynanchum acutum,dog's-bane,"Pliant rods, heavy-smelling ivy-like leaves, milky juice, bean-like pods, kills dogs; Cynanchum erectum of Berendes (now Cionura)."
+dsc:4.81,ν ήριον,plant,Nerium oleander,species,high,,oleander,Rhododendron/rhododaphne with almond-like leaves; oleander.
+dsc:4.82,μυκήτων διαφορὰ δισσή,fungus,,unknown,high,,mushrooms,General chapter on edible and poisonous mushrooms; no single taxon.
+dsc:4.83,Κολχικόν,plant,Colchicum,genus,high,Colchicum autumnale;Colchicum variegatum,meadow saffron,Autumn-flowering poisonous bulb of Colchis and Messenia; Colchicum.
+dsc:4.84,ἐφήμερον,plant,Convallaria majalis,species,low,Polygonatum multiflorum,lily of the valley,"Ephemeron/wild iris with lily-like leaves, small white flowers, woods; Convallaria proposed."
+dsc:4.85,ἑλξίνη,plant,Parietaria officinalis,species,medium,Parietaria judaica,pellitory-of-the-wall,Parthenion/helxine; pellitory; Greek plant likely P. judaica.
+dsc:4.86,ἀ ἀλσίνη,plant,Stellaria media,species,medium,Stellaria nemorum,chickweed,Mouse-ear-leaved low herb of shady groves smelling of cucumber; chickweed.
+dsc:4.87,φακὸς ὁ ἐπὶ,plant,Lemna minor,species,high,,duckweed,Lentil-like growth on stagnant water; duckweed.
+dsc:4.88,ἀείζῳον μέγα,plant,Aeonium arboreum,species,medium,Sempervivum tectorum,tree houseleek,"Large evergreen succulent, scarred stems, tongue-shaped leaves; Sempervivum arboreum (Berendes)."
+dsc:4.89,ἀείζῳον τὸ μικρόν,plant,Sedum,genus,medium,Petrosedum amplexicaule;Petrosedum rupestre,stonecrop,"Small aeizoon on walls, rocks, tombs, with umbel of small flowers; stonecrop."
+dsc:4.90,δοκεῖ δὲ τρίτον,plant,Sedum,genus,low,Sedum stellatum;Sedum acre,stonecrop,"Telephion/illecebra: broader hairy purslane-like leaves, acrid; Sedum proposed."
+dsc:4.91,κοτυληδών,plant,Umbilicus rupestris,species,high,Umbilicus horizontalis,navelwort,Cup-shaped round leaves on short stalk; navelwort.
+dsc:4.92,ἔστι δὲ καὶ,plant,Crassulaceae,family,low,,navelwort (second kind),Rosette of fleshy tongue-like leaves like great aeizoon; unidentified succulent.
+dsc:4.93,ἀκαλήφη,plant,Urtica pilulifera,species,medium,Urtica urens;Urtica dioica,Roman nettle,"Two nettles; wilder kind with flax-like seed is U. pilulifera, other U. urens."
+dsc:4.94,γαλήοψις,plant,Scrophularia peregrina,species,low,Lamium maculatum;Ballota nigra,nettle-leaved figwort,"Nettle-like, foul-smelling, thin purple flowers, in hedges; Scrophularia or Lamium proposed."
+dsc:4.95,γάλιον,plant,Galium verum,species,high,,lady's bedstraw,"Galion, curdles milk; lady's bedstraw."
+dsc:4.96,ἡριγέρων,plant,Senecio vulgaris,species,medium,,groundsel,Erigeron 'early old man' with pappus; groundsel.
+dsc:4.97,θαλίητρον,plant,Thalictrum minus,species,medium,,lesser meadow-rue,"Coriander-like leaves, rue-thick stem; meadow-rue."
+dsc:4.98,βρύον θαλάσσιον,plant,Ulva lactuca,species,medium,,sea lettuce,"Thin, lettuce-like, stemless growth on seaside stones; green alga Ulva."
+dsc:4.99,φῦκος θαλάσσιον,plant,,unknown,low,Roccella phycopsis,seaweed,Several marine algae; Cretan red kind used as rouge possibly orchil lichen Roccella.
+dsc:4.100,ποταμογείτων,plant,Potamogeton natans,species,medium,,broad-leaved pondweed,Beet-like leaf rising a little above water; pondweed.
+dsc:4.101,στρατιώτης ὁ ἐπὶ τῶν ὑδάτων φυόμενος,plant,Pistia stratiotes,species,medium,Stratiotes aloides,water lettuce,Rootless floating plant with aeizoon-like leaves; water lettuce.
+dsc:4.102,στρατιώτης ὁ χιλιόφυλλος,plant,Achillea millefolium,species,medium,Achillea ligustica,yarrow,Thousand-leaved 'soldier' wound herb with feathery leaves; yarrow.
+dsc:4.103,φλόμος,plant,Verbascum,genus,high,Verbascum thapsus;Verbascum sinuatum;Phlomis lychnitis,mullein,"Several white and black phlomos kinds; mullein, Phlomis among the wild kinds."
+dsc:4.104,Αἰθιοπίς,plant,Salvia aethiopis,species,medium,,Mediterranean sage,"Woolly phlomos-like leaves, square stem; Salvia aethiopis named from it."
+dsc:4.105,ἄρκτιον,plant,,unknown,low,Arctium minus;Verbascum,arktion,"Phlomos-like rounder hairier leaves, sweet white root, cumin-like seed; unidentified."
+dsc:4.106,ἄρκιον,plant,Arctium lappa,species,medium,Arctium minus,greater burdock,Large gourd-like leaves (prosopis/arkeion); burdock.
+dsc:4.107,πετασῖτις,plant,Petasites hybridus,species,medium,,butterbur,Large hat-like leaf on a stalk like a mushroom; butterbur.
+dsc:4.108,ἐπιπακτίς,plant,,unknown,low,Epipactis helleborine,helleborine,"Small shrublet with tiny leaves, antidote; unidentified; orchid Epipactis takes the name only."
+dsc:4.109,καπνὸς ὁ ἐν ταῖς κριθαῖς φυόμενος,plant,Fumaria officinalis,species,medium,Fumaria capreolata,fumitory,"Kapnos among barley, coriander-like; fumitory."
+dsc:4.110,λωτὸς ὁ ἐν,plant,Trigonella caerulea,species,low,Melilotus;Lotus corniculatus,blue fenugreek,"Garden 'lotus' called trifolion; clover-like legume, species uncertain."
+dsc:4.111,λωτὸς ἄγριος,plant,Trigonella,genus,low,Melilotus,wild lotus,Libyan clover-like legume with fenugreek-like seed; Trigonella or Melilotus.
+dsc:4.112,κύτισος,plant,Medicago arborea,species,medium,,tree medick,White shrub with fenugreek/trefoil-like leaves; tree medick (Berendes).
+dsc:4.113,λωτὸς ὁ ἐν Αἰγύπτῳ γεννώμενος ἐν τῷ ὕδατι τῶν πεδίων ἐπικλυσθέντων,plant,Nymphaea lotus,species,high,Nymphaea nouchali,Egyptian white lotus,"Egyptian water lotus of flooded plains, poppy-like seed head; Nymphaea lotus."
+dsc:4.114,μυριόφυλλον,plant,Myriophyllum spicatum,species,medium,,spiked water milfoil,"Single tender stem, fennel-like leaves, marshes; water milfoil."
+dsc:4.115,μυρρίς,plant,Myrrhis odorata,species,medium,,sweet cicely,"Hemlock-like plant with fragrant, sweet edible root; sweet cicely."
+dsc:4.116,μύαγρον,plant,Camelina sativa,species,medium,Myagrum perfoliatum,gold-of-pleasure,"Madder-like leaves, oily fenugreek-like seed; Camelina (Berendes)."
+dsc:4.117,ὀνάγρα,plant,Chamaenerion angustifolium,species,low,Epilobium hirsutum;Nerium oleander,rosebay willowherb,"Tall shrub, almond-like leaves, large rose-like flowers, wine-scented root; Epilobium proposed."
+dsc:4.118,κρίσσιον,plant,Asteraceae,family,low,Cirsium;Carduus,thistle,"Soft spiny stem, bugloss-like spiny leaves, purple-tipped pappose heads; unidentified thistle."
+dsc:4.119,ἀ στὴρ Ἀττικός,plant,Aster amellus,species,medium,Pallenis spinosa,Italian aster,Star-like flower with yellow centre like anthemis; Aster amellus.
+dsc:4.120,ἰσόπυρον,plant,Isopyrum thalictroides,species,low,Fumaria,isopyrum,"Tendril-tipped leaf, anise-like leaves, seeds tasting like nigella; uncertain."
+dsc:4.121,ἴον,plant,Viola odorata,species,high,,sweet violet,Purple fragrant ion with ivy-like leaves; sweet violet.
+dsc:4.122,κακκαλία,plant,,unknown,low,Adenostyles alliariae,kakalia,"Large white leaves, bryony-like flower, mountains; unidentified (Cacalia traditional)."
+dsc:4.123,βούνιον,plant,Bunium ferulaceum,species,low,Bunium bulbocastanum,bunium,"Square stem, celery-like finely cut leaves, dill-like flowers; Apiaceae, species uncertain."
+dsc:4.124,ψευδοβούνιον,plant,Apiaceae,family,low,Pimpinella cretica,false bunium,Cretan palm-high plant with bunium-like leaves; unidentified Apiaceae.
+dsc:4.125,χαμαίκισσος,plant,,unknown,low,Glechoma hederacea,chamaikissos,"Wheat-like leaves, small white bitter flowers; ground-ivy traditional but description does not fit."
+dsc:4.126,χαμαιπεύκη ποιεῖ πρὸς,plant,,unknown,low,,chamaipeuke,One-line chapter (for lumbago); unidentifiable.
+dsc:4.127,βούγλωσσον,plant,Anchusa azurea,species,medium,,large blue alkanet,Phlomos-like rough prostrate leaves; Anchusa italica (=azurea).
+dsc:4.128,φύτευμα,plant,Reseda phyteuma,species,low,,corn mignonette,"Strouthion-like leaves, many perforated fruits, love charm; Reseda phyteuma named from it."
+dsc:4.129,ὑπόγλωσσον,plant,Ruscus hypoglossum,species,medium,,spineless butcher's broom,Myrtle-like 'leaves' with tongue-like outgrowths; Ruscus hypoglossum.
+dsc:4.130,ἀντίρρινον,plant,Misopates orontium,species,medium,Antirrhinum majus,weasel's snout,"Wild lychnis-like plant, seed pod like a calf's snout; snapdragon."
+dsc:4.131,κατανάγκη ἡ μέν,plant,Astragalus hamosus,species,low,Ornithopus compressus;Catananche caerulea,katananke,Two kinds; dried pods curve like a kite's claws; legume such as Astragalus hamosus proposed.
+dsc:4.132,τριπόλιον,plant,Tripolium pannonicum,species,medium,,sea aster,Tidal seashore plant; sea aster (Aster tripolium).
+dsc:4.133,κῆμος,plant,Filago,genus,low,,cudweed,Tiny woolly herb with fruit hidden in downy heads; cudweed proposed.
+dsc:4.134,ἀδίαντον,plant,Adiantum capillus-veneris,species,high,,maidenhair fern,Coriander-like leaflets that shed water; maidenhair fern.
+dsc:5.1,ἀμπέλου οἰνοφόρου τὰ,plant,Vitis vinifera,species,high,,grapevine,"Cultivated wine vine, leaves and tendrils; grapevine."
+dsc:5.2,ἄμπελος ἀγρία διττή,plant,Vitis vinifera,species,medium,,wild grapevine,Two wild vines; wild grape (Vitis vinifera subsp. sylvestris).
+dsc:5.3,σταφυλή᾿ ἡ μὲν,plant,Vitis vinifera,species,high,,grapes,Fresh and stored grapes and raisins; fruit of the grapevine.
+dsc:5.4,ο ἰνάνθη καλεῖται,product,Vitis vinifera,species,high,,oenanthe (vine flower),"Flowering clusters of wild vine, dried and stored; Vitis vinifera."
+dsc:5.5,ὀμφάκιον,product,Vitis vinifera,species,high,,omphacium (verjuice),Juice of unripe grapes pressed before the Dog Star.
+dsc:5.6,οἶνοι,product,Vitis vinifera,species,high,,wine,Wines in general; product of the grapevine.

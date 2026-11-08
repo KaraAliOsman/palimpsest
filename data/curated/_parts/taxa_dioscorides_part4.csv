@@ -1,0 +1,156 @@
+monograph_id,headword,kind,scientific_name,rank,confidence,alternatives,common_name_en,note
+dsc:5.7,ὁ δὲ καλούμενος,product,,unknown,high,,melitites (honeyed must wine),"Must fermented with honey and salt; multi-ingredient, no single plant source beyond grape."
+dsc:5.8,οἰνόμελι δὲ διαφέρει,product,,unknown,high,,oenomel (wine with honey),Old austere wine mixed with honey; multi-ingredient preparation.
+dsc:5.9,μελίκρατον δὲ τὴν,product,,unknown,high,,melicrate (honey-water),"Honey mixed with water, boiled or unboiled; bee product, no plant source."
+dsc:5.10,ὕδωρ τὴν μὲν,other,,unknown,high,,water,General discussion of drinking waters by source and quality.
+dsc:5.11,θαλάττιον ὕδωρ δριμύ,mineral,,unknown,high,,sea water,"Sea water used for baths, enemas and fomentations; saline substance."
+dsc:5.12,θαλασσόμελι δοκεῖ καθαίρειν,product,,unknown,high,,thalassomel (sea water with honey),Boiled sea water with honey (2:1); multi-ingredient preparation.
+dsc:5.13,ὄξος ψύχει καὶ,product,Vitis vinifera,species,high,,vinegar,Wine vinegar; product of the grapevine.
+dsc:5.14,ὀ ξύμελι σκευάζεται οὕτω,product,,unknown,high,,oxymel,"Vinegar, sea salt, honey and water boiled together; multi-ingredient."
+dsc:5.15,ὀξάλμη ὠφελεῖ καταντλουμένη,product,,unknown,high,,oxalme (vinegar brine),Vinegar with brine; multi-ingredient preparation.
+dsc:5.16,θυμοξάλμῃ ἐχρῶντο οἱ,product,Thymbra capitata,species,medium,,thyme oxalme,"Eponymous main ingredient thymos (Thymbra capitata) with salt, barley meal, rue, pennyroyal, vinegar; multi-ingredient."
+dsc:5.17,τὸ δὲ σκιλλητικὸν,product,Drimia maritima,species,high,,squill vinegar,Vinegar of white skilla (sea squill); standard identification.
+dsc:5.18,ὁ δὲ ἀπὸ τῆς σκίλλης ρἶνος γίνεται οὕτω,product,Drimia maritima,species,high,,squill wine,Wine of dried sea squill (skilla).
+dsc:5.19,οἱ δὲ διὰ θαλάττης οἶνοι ποικίλως σκευάζονται,product,,unknown,high,,wines with sea water,Grape must/raisins mixed with sea water; defined by non-plant additive.
+dsc:5.20,ὁ μὲν οὖν κυδωνί ίτης,product,Cydonia oblonga,species,high,,quince wine,Kydonites/melites from quince (melon kydonion).
+dsc:5.21,καὶ μηλόμελι δέ,product,Cydonia oblonga,species,high,,quince honey (melomeli),Quinces preserved in honey.
+dsc:5.22,ὑδρόμηλον δὲ σκευάζεται,product,Cydonia oblonga,species,high,,hydromelon (quince-honey water),Quince honey diluted with water.
+dsc:5.23,ὀ μφακόμελι δὲ σκευάζεται τὸν τρόπον τοῦτον,product,Vitis vinifera,species,high,,omphacomel (unripe-grape honey),Juice of unripe grapes (omphax) with honey.
+dsc:5.24,ἀπίτης σκευάζεται ὁμοίως,product,Pyrus communis,species,high,Ceratonia siliqua;Mespilus germanica;Cormus domestica,pear wine,"Pear wine; also wines of carob (keration), medlar (mespilon) and service-berry (oa)."
+dsc:5.25,ρἰνάνθινος δὲ σκευάζεται οὕτως,product,Vitis vinifera,species,medium,,oenanthe wine (wild vine flowers),"Dried flowers of wild vine (oinanthe), i.e. Vitis vinifera subsp. sylvestris."
+dsc:5.26,ῥοίτης δὲ οἶνος σκευάζεται οὕτως,product,Punica granatum,species,high,,pomegranate wine,Juice of seedless pomegranates (rhoa).
+dsc:5.27,ῥοδίτης δὲ οὕτω σκευάζεται,product,Rosa,genus,medium,Rosa gallica;Rosa × damascena,rose wine,Dried roses (rhodon) in must; ancient rose usually read as Rosa gallica/damascena group.
+dsc:5.28,μυρτίτην δὲ δεῖ,product,Myrtus communis,species,high,,myrtle-berry wine,Juice of ripe black myrtle berries (myrta).
+dsc:5.29,μυρσινίης δὲ σκευάζεται οὕτω,product,Myrtus communis,species,high,,myrtle wine,"Branches, leaves and berries of black myrtle (myrsine)."
+dsc:5.30,καὶ ὁ σχίνινος δὲ ἐοικότως τῷ μυρσινίτῃ σκευάζεται,product,Pistacia lentiscus,species,high,Pistacia terebinthus,mastic-tree wine,Schinos (lentisk) wine; terebinth (terminthos) wine made likewise.
+dsc:5.31,φοινικίτης,product,Phoenix dactylifera,species,high,,date wine,Wine of ripe dates (phoinikes).
+dsc:5.32,καὶ ὁ τροχίτης,product,Ficus carica,species,high,,fig wine,"Trochites/sykites from dried black figs, made in Cyprus."
+dsc:5.33,σκευάζεται καὶ ὁ,product,Ficus sycomorus,species,high,,sycamore-fig wine,Wine from sykomora (sycamore fig).
+dsc:5.34,ὁ δὲ ῥητινίτης κατὰ τὰ ἔθνη σκευάζεται ποικίλως,product,Pinus,genus,medium,Pinus nigra,resinated wine,"Wine with peuke (pine) resin, Galatia; pine species uncertain."
+dsc:5.35,στροβιλίτης δὲ σκευάζεται,product,Pinus pinea,species,medium,,pine-cone wine,Fresh crushed strobiloi (pine cones) in must; strobilos usually stone pine.
+dsc:5.36,ὁ δὲ κέδρινος,product,Juniperus oxycedrus,species,medium,Juniperus communis;Cupressus sempervirens;Laurus nobilis;Pinus;Abies,"cedar, juniper, cypress, laurel, pine and fir wood wines","Several wood wines; first kedros (prickly juniper); arkeuthos, kyparissos, daphne, pitys, elate."
+dsc:5.37,κεδρίτης δὲ γίνεται οὕτω,product,Cedrus libani,species,medium,Juniperus oxycedrus,cedar-pitch wine,"Kedria (cedar pitch) in must; Dsc 1.77 big kedros often read as Lebanon cedar, debated."
+dsc:5.38,ο ἶνος πισσίτης σκευάζεται διὰ πίσσης ὑγρᾶς καὶ γλεύκους,product,Pinus,genus,medium,,pitch wine,Liquid pitch (pissa hygra) from pines in must; species unspecified.
+dsc:5.39,ἀψινθίτης δὲ ποικίλως σκευάζεται,product,Artemisia absinthium,species,high,Artemisia pontica,wormwood wine,Apsinthion = wormwood; standard identification.
+dsc:5.40,ὑσσωπίτης δὲ ὁ,product,Hyssopus officinalis,species,medium,Origanum syriacum,hyssop wine,"Cilician hyssopos; usually Hyssopus officinalis, some read Origanum syriacum."
+dsc:5.41,καὶ ὁ χαμαιδρυίτης,product,Teucrium chamaedrys,species,high,,germander wine,Chamaidrys = wall germander; standard identification.
+dsc:5.42,σκευάζεται καὶ ὁ,product,Lavandula stoechas,species,high,,stoechas wine,Stoichas = French lavender; standard identification.
+dsc:5.43,γίνεται καὶ ὄξος,product,Lavandula stoechas,species,high,,stoechas vinegar,Vinegar steeped with stoichas herb.
+dsc:5.44,γίνεται δὲ καὶ,product,Betonica officinalis,species,high,,betony wine,Kestros psychotrophos = betony; standard identification.
+dsc:5.45,τραγοριγανίτης,product,Lamiaceae,family,low,Clinopodium graveolens;Satureja thymbra,tragoriganum wine,"Tragoriganos (goat-marjoram) disputed: Thymus graveolens, Satureja thymbra and others proposed; only family defensible."
+dsc:5.46,οἶνος διὰ βουνίου,product,Bunium ferulaceum,species,low,Bunium bulbocastanum,bunium wine,Bounion (Dsc 4.123) tentatively Bunium ferulaceum; identification uncertain.
+dsc:5.47,δικταμνίτης,product,Origanum dictamnus,species,high,,dittany wine,Diktamnon = Cretan dittany; standard identification.
+dsc:5.48,ὁ διὰ πρασίου,product,Marrubium vulgare,species,high,,horehound wine,Prasion = white horehound; standard identification.
+dsc:5.49,θυμίτης,product,Thymbra capitata,species,medium,,thyme wine,Thymos usually Thymbra capitata (Coridothymus capitatus).
+dsc:5.50,θυμβρίτης ὁμοίως σκευάζεται,product,Satureja thymbra,species,medium,,savory wine,"Thymbra = savory, usually Satureja thymbra."
+dsc:5.51,οἶνος ὀριγανίτης διʼ,product,Origanum vulgare,species,medium,Origanum onites,Heracleotic origanum wine,"Origanon Herakleotikon = O. heracleoticum, now Origanum vulgare subsp. hirtum."
+dsc:5.52,οἶνος καλαμινθίτης,product,Clinopodium nepeta,species,medium,Mentha pulegium;Artemisia abrotanum;Artemisia arborescens,"calamint, pennyroyal and southernwood wines","Kalaminthe (calamint), glechon (pennyroyal), abrotonon (southernwood) wines made like thyme wine."
+dsc:5.53,οἶνος κονυζίτης ὁμοίως σκευάζεται,product,Dittrichia viscosa,species,medium,Dittrichia graveolens;Pulicaria dysenterica,fleabane wine,"Konyza; larger kind usually Dittrichia (Inula) viscosa, smaller D. graveolens."
+dsc:5.54,οἶνος ἀρωματίτης οὕτως σκευάζεται,product,,unknown,high,,aromatic wine,"Multi-ingredient: palm, aspalathos, calamus, Celtic nard and other aromatics."
+dsc:5.55,σκευάζεται δὲ οἶνος,product,,unknown,high,,wine for catarrhs,"Multi-ingredient: myrrh, white pepper, iris, dill in wine."
+dsc:5.56,ὁ δὲ νεκταρίτης,product,Inula helenium,species,high,,elecampane wine (nectarites),Nektarites from helenion (elecampane); standard identification.
+dsc:5.57,ὁ δὲ διὰ Συριακῆς νάρδου καὶ Κελτικῆς καὶ μαλαβάθρου σκευάζεται οὕτως,product,,unknown,high,,nard and malabathrum wine,"Multi-ingredient: Syrian nard (Nardostachys), Celtic nard (Valeriana celtica), malabathron; variant with akoron."
+dsc:5.58,ἀσαρίτης,product,Asarum europaeum,species,high,,asarum wine,Asaron = asarabacca; standard identification.
+dsc:5.59,ὁ διὰ τῆς ἀγρίας νάρδου,product,Asarum europaeum,species,low,Valeriana tuberosa,wild nard wine,"Dsc 1.10 gives 'wild nard' as synonym of asaron, but separate chapter from asarites; uncertain."
+dsc:5.60,δαυκίτης,product,Athamanta cretensis,species,medium,Daucus carota,daucus wine,Daukos root; Dsc's chief (Cretan) daukos usually Athamanta cretensis.
+dsc:5.61,ἐλελισφακίτης ὁμοίως,product,Salvia fruticosa,species,medium,Salvia officinalis;Salvia pomifera,sage wine,Elelisphakos usually Greek sage Salvia fruticosa (S. triloba).
+dsc:5.62,πανακίτης,product,Opopanax hispidus,species,medium,Opopanax chironium,panax wine,Panax (Herakleion) source of opopanax; usually Opopanax hispidus/chironium.
+dsc:5.63,ἀκορίτης δὲ καὶ ὁ ἀπὸ γλυκυρρίζης σκευάζεται ὁμοίως,product,Acorus calamus,species,medium,Iris pseudacorus;Glycyrrhiza glabra,acorus and liquorice wines,Akoron (sweet flag; some read Iris pseudacorus) and glykyrrhiza (liquorice) wines.
+dsc:5.64,σελινίτης,product,Apium graveolens,species,high,,celery-seed wine,Selinon (garden) seed = celery; standard identification.
+dsc:5.65,καὶ μαραθίτης δὲ,product,Foeniculum vulgare,species,high,Anethum graveolens;Petroselinum crispum,"fennel, dill and parsley wines","Marathon (fennel), anethon (dill), petroselinon wines made alike."
+dsc:5.66,σκεύαζεται καὶ δι᾿,product,,unknown,high,,wine with flower of salt,Wine with halos anthos (saline efflorescence); non-plant additive.
+dsc:5.67,γίνεται δὲ καὶ φθόριος ἐμβρύων οἶνος,product,Helleborus,genus,medium,Ecballium elaterium;Convolvulus scammonia,abortifacient wine,"Vines planted with hellebore, wild cucumber or scammony; hellebore kind unspecified."
+dsc:5.68,θυμελαίτης,product,Daphne gnidium,species,high,,thymelaea wine,Thymelaia = Daphne gnidium; standard identification.
+dsc:5.69,χαμελαίτης,product,Cneorum tricoccon,species,medium,,chamelaea wine,Chamelaia usually Cneorum tricoccon (spurge-olive).
+dsc:5.70,χαμαιπιτύινος ὁμοίως σκευάζεται,product,Ajuga chamaepitys,species,high,,ground-pine wine,Chamaipitys = ground-pine; standard identification.
+dsc:5.71,μανδραγορίτης,product,Mandragora officinarum,species,high,,mandrake wine,Root bark of mandragoras; Mediterranean mandrake.
+dsc:5.72,ἐλλεβορίτης,product,Helleborus odorus,species,medium,Helleborus orientalis;Helleborus niger,black hellebore wine,"Black helleboros; Greek plant usually H. cyclophyllus, now H. odorus subsp. cyclophyllus; formerly read H. niger."
+dsc:5.73,σκαμμωνίτης,product,Convolvulus scammonia,species,high,,scammony wine,Skammonia root = scammony; standard identification.
+dsc:5.74,καδμεία ἀρίστη μέν,mineral,,unknown,high,,cadmia (furnace calamine),Zinc-oxide-rich furnace deposit from copper smelting (Cyprian botryitis etc.).
+dsc:5.75,πομφόλυξ σποδίου εἰδικῶς διαφέρει,mineral,,unknown,high,,pompholyx (zinc oxide),Pompholyx/spodos: zinc oxide flue deposits from smelting.
+dsc:5.76,ὁ δὲ κεκαυμένος,mineral,,unknown,high,,burnt copper,Roasted copper (copper oxides).
+dsc:5.77,χαλκοῦ δὲ ἄνθος,mineral,,unknown,medium,,flower of copper,Copper oxide flakes formed when molten copper is quenched.
+dsc:5.78,λεπὶς δὲ ἡ μὲν ἐκ τῶν Κυπρίων μετάλλων παχεῖα,mineral,,unknown,high,,copper scale,Hammer scale of copper (helitis); copper oxide flakes.
+dsc:5.79,ἰὸν δὲ τὸν ξυστὸν οὕτως σκευαστέον,mineral,,unknown,high,,verdigris,Ios xystos: copper acetate made with vinegar.
+dsc:5.80,ἰὸς δὲ σιδήρου,mineral,,unknown,high,,iron rust,Iron oxide rust.
+dsc:5.81,σκευάζεται καὶ ὁ πεπλυμένος μόλυβδος τὸν τρόπον τοῦτον,mineral,,unknown,high,,washed lead,Lead ground with water in a lead mortar (lead/lead oxides).
+dsc:5.82,σκωρία δὲ μολύβδου,mineral,,unknown,high,,lead slag,Slag of lead smelting.
+dsc:5.83,καὶ ὁ μολυβδοειδὴς δὲ λίθος ἀνάλογον ἔχει τὴν δύναμιν τῇ σκωρίᾳ,mineral,,unknown,low,,lead-like stone,"Molybdoeides lithos; unidentified lead-bearing stone, perhaps galena."
+dsc:5.84,στίβι δὲ κράτιστόν,mineral,,unknown,high,,stibium (stibnite),Stibi/larbason: antimony sulfide (stibnite).
+dsc:5.85,μολύβδαινα δέ ἐστιν,mineral,,unknown,medium,,molybdaena (lead ore/oxide),"Molybdaina: litharge-like lead material, native or from smelting; galena or lead oxide."
+dsc:5.86,ἡ δὲ τοῦ,mineral,,unknown,high,,silver slag,Helkysma: slag of silver smelting.
+dsc:5.87,λιθάργυρος,mineral,,unknown,high,,litharge,Lithargyros: lead monoxide from silver/lead refining.
+dsc:5.88,ψιμύθιον δὲ γίνεται οὕτως,mineral,,unknown,high,,white lead (ceruse),Psimythion: basic lead carbonate made with vinegar.
+dsc:5.89,χρυσοκόλλα δὲ διαφέρει ἡ Ἀρμενιακή,mineral,,unknown,medium,,chrysocolla (malachite),"Armenian chrysokolla, deep leek-green; usually malachite."
+dsc:5.90,Ἀρμένιον,mineral,,unknown,medium,,Armenian blue (azurite),"Armenion: blue copper mineral, usually azurite."
+dsc:5.91,κύανος γεννᾶται μὲν,mineral,,unknown,medium,,kyanos (blue pigment),Kyanos from Cyprian copper mines; azurite (some lapis lazuli/Egyptian blue).
+dsc:5.92,τοῦ δὲ λεγομένου,product,Indigofera tinctoria,species,medium,Isatis tinctoria,indigo,Indikon: 'foam of Indian reeds' = indigo; second kind is dyers' scum from vats.
+dsc:5.93,ὦχραν δὲ λημπτέον,mineral,,unknown,high,,ochre,Ochra: yellow iron-oxide earth.
+dsc:5.94,κιννάβαρι οἴονταί τινες τὸ αὐτὸ ὑπάρχειν τῷ καλουμένῳ μινίῳ πλανώμενοι,product,Dracaena cinnabari,species,low,,cinnabaris (dragon's blood?),"Distinguished from Spanish minium (true cinnabar); costly Libyan kinnabari 'thought dragon's blood', often read as Dracaena resin; debated."
+dsc:5.95,καὶ ὑδράργυρος δὲ,mineral,,unknown,high,,quicksilver (mercury),Hydrargyros prepared from minium (cinnabar).
+dsc:5.96,μίλτος Σινωπικὴ κρατίστη,mineral,,unknown,high,,Sinopian red earth,Miltos Sinopike: red iron-oxide ochre.
+dsc:5.97,ἡ δὲ Λημνία,mineral,,unknown,high,,Lemnian earth,Sealed medicinal clay from Lemnos (terra sigillata).
+dsc:5.98,χαλκανθὲν τῷ μὲν γένει ἓν καὶ τὸ αὐτὸ ὑπάρχει,mineral,,unknown,high,,chalcanthum (vitriol),Chalkanthon: copper/iron sulfate (blue vitriol).
+dsc:5.99,χαλκῖτιν προκριτέον τὴν,mineral,,unknown,medium,,chalcitis,Copper-iron sulfate ore/weathering product.
+dsc:5.100,μίσυ παραλημπτέον τὸ,mineral,,unknown,low,,misy,"Golden, yellow iron sulfate from Cyprus; exact mineral debated (e.g. copiapite)."
+dsc:5.101,μελαντηρία ἡ μέν,mineral,,unknown,medium,,melanteria,Black iron-sulfate efflorescence at copper mine mouths.
+dsc:5.102,τὸ δὲ σῶρι ἔνιοι ὑπέλαβον εἶναι μελαντηρίαν πλανώμενοι,mineral,,unknown,low,,sory,"Sory: impure, foul-smelling sulfate mineral; exact identity uncertain."
+dsc:5.103,τοῦ δὲ διφρυγοῦς τρία οἰητέον εἴδη,mineral,,unknown,medium,,diphryges,"Roasted copper ore residue/slag, three kinds."
+dsc:5.104,ἀρσενικὸν κατὰ τὰ,mineral,,unknown,high,,orpiment,Arsenikon: yellow arsenic sulfide (orpiment).
+dsc:5.105,σανδαράκην δὲ προκριτέον,mineral,,unknown,high,,realgar,Sandarake: red arsenic sulfide (realgar).
+dsc:5.106,στυπτηρίας δὲ σχεδὸν πᾶν εἶδος ἐπὶ τῶν αὐτῶν ἐν τῇ Αἰγύπτῳ μετάλλων εὐρίσκεται,mineral,,unknown,medium,,alum (stypteria),Egyptian stypteria: alum and related astringent sulfates.
+dsc:5.107,θεῖον δὲ ἄριστον,mineral,,unknown,high,,sulfur,Theion: native sulfur.
+dsc:5.108,κίσηριν δὲ προκριτέον,mineral,,unknown,high,,pumice,Kiseris: pumice.
+dsc:5.109,τῶν δὲ ἁλῶν,mineral,,unknown,high,,salt,Hales: rock and sea salt kinds.
+dsc:5.110,ἁλὸς ἄχνη ἐπίψημά,mineral,,unknown,high,,salt foam,Halos achne: foamy salt deposit on rocks.
+dsc:5.111,ἅλμη τὴν αὐτὴν,mineral,,unknown,high,,brine,Halme: brine.
+dsc:5.112,ἄνθος δὲ ἁλὸς,mineral,,unknown,low,,flower of salt (Nile),"Saffron-coloured, fetid saline scum on Nile lakes; possibly microbial; identity uncertain."
+dsc:5.113,νίτρον δὲ προκριτέον,mineral,,unknown,high,,natron,Nitron: natural sodium carbonate (natron).
+dsc:5.114,τρύγα δὲ παραλημπτέον,product,Vitis vinifera,species,high,,wine lees,"Tryx: lees of old wine, also burnt."
+dsc:5.115,ἄσβεστος δὲ γίνεται μὲν οὕτως,mineral,,unknown,high,,quicklime,Asbestos (titanos): lime from burnt whelk shells or stones.
+dsc:5.116,γύψος δύναμιν ἔχει,mineral,,unknown,high,,gypsum,Gypsos: gypsum/plaster.
+dsc:5.117,τέφρα κληματίνη δύναμιν,product,Vitis vinifera,species,high,,vine-twig ash,Tephra klematine: ash of vine shoots.
+dsc:5.118,τοῦ δὲ ἀλκυονίου πέντε γνωστέον εἴδη ὑπάρχειν,animal,,unknown,medium,,alcyonium (sea-foam),"Five kinds of marine sponge-like organisms (sponges, bryozoans, soft corals)."
+dsc:5.119,ὁ δὲ προσαγορευόμενος,other,,unknown,low,,adarces,"Salty crust on reeds in Galatian marshes ('lake alcyonium'); mineral or organic, unidentified."
+dsc:5.120,τῶν δὲ σπόγγων,animal,,unknown,high,,sponges,"Bath sponges (Spongia spp.), male and female kinds."
+dsc:5.121,τὸ δὲ κουράλιον,animal,,unknown,high,,red coral,"Kouralion/lithodendron: red coral, Corallium rubrum."
+dsc:5.122,καὶ τὸ καλούμενον,animal,,unknown,medium,,black coral (antipathes),"Black branching coral, order Antipatharia."
+dsc:5.123,λίθος Φρύγιος,mineral,,unknown,low,,Phrygian stone,Dyers' stone from Cappadocia; identity uncertain.
+dsc:5.124,Ἄσσιον δὲ λίθον,mineral,,unknown,medium,,Assian stone,Light porous stone of Assos (volcanic tuff) and its saline efflorescence.
+dsc:5.125,πυρίτης λίθος εἰδός,mineral,,unknown,high,,pyrites,Copper-bearing pyrites (pyrite/chalcopyrite).
+dsc:5.126,αἱματίτης δὲ λίθος,mineral,,unknown,high,,haematite,Haimatites: haematite iron ore.
+dsc:5.127,σχιστὸς δὲ λίθος,mineral,,unknown,medium,,schistos stone,Iberian saffron-coloured fissile stone; fibrous haematite/limonite.
+dsc:5.128,τοῦ δὲ γαγάτου προκριτέον τὸν ταχέως ἐξαπτόμενον καὶ ἀσφαλτίζοντα ἐν τῇ ὀσμῇ,mineral,,unknown,high,,jet,"Gagates: jet (lignite), bitumen-smelling when burnt."
+dsc:5.129,ὁ δὲ λεγόμενος,mineral,,unknown,low,,Thracian stone,"Burns with water, quenched by oil, like gagates; bituminous mineral, uncertain."
+dsc:5.130,τοῦ δὲ μαγνήτου,mineral,,unknown,high,,magnetite (lodestone),Magnes: lodestone attracting iron.
+dsc:5.131,ὁ δὲ Ἀραβικὸς,mineral,,unknown,low,,Arabian stone; galactites,"Ivory-like stone, unidentified; chapter text also contains galaktites (5.132, milk-stone)."
+dsc:5.133,ὁ δὲ μελιτίτης,mineral,,unknown,low,,melitites stone,Like galaktites but sweet-juiced; unidentified.
+dsc:5.134,λίθος μόροχθος,mineral,,unknown,low,,morochthos stone,Soft Egyptian stone used to whiten linen; perhaps steatite or fuller's earth.
+dsc:5.135,λίθος ἀλαβαστρίτης ὁ,mineral,,unknown,medium,,alabaster (onyx),Alabastrites/onyx: calcite alabaster.
+dsc:5.136,λίθος ὁ καλούμενος,mineral,,unknown,low,,thyites stone,"Greenish, jasper-like Ethiopian stone; unidentified."
+dsc:5.137,ὁ δὲ Ἰουδαικὸς,mineral,,unknown,medium,,Judaic stone,"Lapis judaicus: acorn-shaped ribbed stones, usually fossil sea-urchin spines."
+dsc:5.138,λίθος ἀμίαν τος,mineral,,unknown,high,,amiantus (asbestos),Fibrous Cypriot stone woven into cloth: asbestos.
+dsc:5.139,λίθος σάπφειρος δοκεῖ ὠφελεῖν σκορπιοπλήκτους πινόμενος,mineral,,unknown,high,,sapphirus (lapis lazuli),Ancient sappheiros is lapis lazuli.
+dsc:5.140,λίθος Μεμφίτης εὑρίσκεται,mineral,,unknown,low,,Memphite stone,Egyptian pebble said to anaesthetise before surgery; unidentified.
+dsc:5.141,λίθος σεληνίτης,mineral,,unknown,medium,,selenite,"White, transparent, light Arabian stone: selenite (crystalline gypsum)."
+dsc:5.142,λίθος ἴασπις,mineral,,unknown,medium,,jasper,"Iaspis: several coloured kinds (jaspers, chalcedonies)."
+dsc:5.143,λίθος ὀφίτης,mineral,,unknown,high,,ophites (serpentine),Snake-spotted stone: serpentinite.
+dsc:5.144,λίθοι οἱ ἐν,mineral,,unknown,medium,,sponge stones,Concretions found in sponges.
+dsc:5.145,ἡ δὲ λιθοκόλλα,product,,unknown,high,,stone glue (lithocolla),Marble or Parian stone mixed with bull glue; multi-ingredient.
+dsc:5.146,λίθος ὀστρακίτης ὅμοιός,mineral,,unknown,low,,ostracites stone,Shell-like fissile laminated stone; unidentified.
+dsc:5.147,σμύρις λίθος ἐστίν,mineral,,unknown,high,,emery,Smyris: emery used by gem engravers.
+dsc:5.148,ἄμμος ἡ παρὰ,mineral,,unknown,high,,sand,Sun-heated seashore sand.
+dsc:5.149,ἀκόνης Ναξίας τὸ,mineral,,unknown,high,,Naxian whetstone,Grindings of iron on Naxian whetstone (emery).
+dsc:5.150,λίθος γεώδης στύφει,mineral,,unknown,low,,earthy stone (geodes),Lithos geodes; unidentified earthy stone.
+dsc:5.151,γῆ δὲ πᾶσα,mineral,,unknown,high,,medicinal earth,General properties of earths used in medicine.
+dsc:5.152,τῆς μὲν οὖν Ἑρετριάδος γῆς ἡ μέν τίς ἐστι λευκὴ ἐπιτεταμένως ἡ δὲ σποδοειδής,mineral,,unknown,high,,Eretrian earth,"Clay from Eretria, white and ash-coloured kinds."
+dsc:5.153,τῆς δὲ Σαμίας,mineral,,unknown,high,,Samian earth,White clay from Samos.
+dsc:5.154,εὑρίσκεται δέ τις,mineral,,unknown,medium,,Samian stone,Stone in Samian earth used by goldsmiths for polishing.
+dsc:5.155,καὶ τῆς Χίας,mineral,,unknown,high,,Chian earth,White clay from Chios.
+dsc:5.156,τῆς δὲ Κιμωλίας,mineral,,unknown,high,,Cimolian earth,Cimolian earth (fuller's earth) from Kimolos.
+dsc:5.157,ἡ δὲ λεγομένη,mineral,,unknown,medium,,pnigitis earth,Clay resembling Eretrian earth; unlocated.
+dsc:5.158,ὄστρακα δὲ τὰ,mineral,,unknown,high,,oven potsherds,Fired clay sherds from ovens.
+dsc:5.159,ἡ δὲ Μηλία,mineral,,unknown,high,,Melian earth,Earth from Melos.
+dsc:5.160,τῆς δὲ ἀμπελίτιδος,mineral,,unknown,high,,ampelitis earth,"Black bituminous earth (pharmakitis) of Seleucia, used on vines."
+dsc:5.161,ἀσβόλη,product,,unknown,high,,soot (lampblack),Painters' soot from glassworks.
+dsc:5.162,μέλαν,product,,unknown,high,,writing ink,"Soot with gum, bull glue and chalkanthon; multi-ingredient."

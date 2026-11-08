@@ -1,0 +1,89 @@
+{
+ "generated": "2026-11-08T03:58:11Z",
+ "counts": {
+  "dsc_chapters": 822,
+  "cul_monographs": 328,
+  "taxa": 693,
+  "taxa_shared": 133,
+  "claims": 10299,
+  "claims_dsc": 5150,
+  "claims_cul": 5149,
+  "concepts": 85,
+  "persistent_pairs": 628,
+  "pairs_queried": 13102,
+  "compounds": 18534
+ },
+ "headline": [
+  {
+   "value": "2.7×",
+   "label": "Culpeper (1653) repeats Dioscorides' (c. 60 CE) indication for the same plant this many times more often than chance",
+   "detail": "628 shared plant–indication claims vs 236 expected; label-permutation p < 0.0001, 133 shared species"
+  },
+  {
+   "value": "45%",
+   "label": "of indications claimed by both herbals have ≥1 modern paper co-mentioning plant and indication",
+   "detail": "vs 23% for unclaimed indications of the same plants"
+  },
+  {
+   "value": "OR 2.5",
+   "label": "odds that modern research has looked at an indication both herbals claimed, vs. unclaimed indications of the same plants",
+   "detail": "logit with indication fixed effects and plant research volume, cluster-robust 95% CI 1.8–3.4; but persistent claims do not attract more papers once studied (Poisson RR n.s.) — the gap the leads target"
+  },
+  {
+   "value": "60",
+   "label": "persistent but under-studied plant–indication pairs ranked as research leads",
+   "detail": "≤4 co-mentioning papers; hypotheses for laboratory follow-up, not medical advice"
+  }
+ ],
+ "extraction_eval": {
+  "dioscorides": {
+   "precision": 0.8783783783783784,
+   "recall": 0.8333333333333334,
+   "f1": 0.855263157894737,
+   "n_monographs": 50,
+   "precision_ci": [
+    0.8302699826107813,
+    0.9151864310865191
+   ],
+   "recall_ci": [
+    0.7801516715233933,
+    0.8816357556536129
+   ]
+  },
+  "culpeper": {
+   "precision": 0.9030172413793104,
+   "recall": 0.9010752688172043,
+   "f1": 0.9020452099031218,
+   "n_monographs": 50,
+   "precision_ci": [
+    0.8772727272727273,
+    0.9288705183234742
+   ],
+   "recall_ci": [
+    0.8736754385964913,
+    0.9281335769613922
+   ]
+  }
+ },
+ "naming_eval": {
+  "greek": {
+   "n_checked": 270,
+   "agreement": 0.6370370370370371,
+   "agreement_by_confidence": {
+    "high": 0.642,
+    "low": 0.647,
+    "medium": 0.625
+   }
+  },
+  "english": {
+   "n_checked": 326,
+   "agreement": 0.7208588957055214,
+   "agreement_by_confidence": {
+    "high": 0.726,
+    "low": 0.273,
+    "medium": 0.8
+   }
+  },
+  "gbif_resolution_rate": 0.9915522703273495
+ }
+}

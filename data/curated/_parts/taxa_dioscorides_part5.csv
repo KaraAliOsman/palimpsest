@@ -1,0 +1,101 @@
+monograph_id,headword,kind,scientific_name,rank,confidence,alternatives,common_name_en,note
+dsc:1.67,βδέλλιον,product,Commiphora wightii,species,medium,Commiphora africana,bdellium,Gum-resin ('tear') of an Arabian tree; bdellium usually equated with guggul (C. wightii) or African bdellium; source species debated.
+dsc:1.68,λίβανος,product,Boswellia sacra,species,high,Boswellia serrata,frankincense,Frankincense from Arabia 'libanotophoros': Boswellia sacra; Indian libanos possibly B. serrata.
+dsc:1.69,πίτυς,plant,Pinus halepensis,species,medium,Pinus nigra;Pinus pinea;Pinus brutia,pine,"Pitys and the related peuke (pines); pitys usually Aleppo pine, peuke black pine; strobilos = stone pine. Genus Pinus certain."
+dsc:1.70,σχῖνος,plant,Pistacia lentiscus,species,high,,"mastic tree, lentisk","Astringent shrub whose resin (schinine, mastiche) is best from Chios: mastic tree (standard)."
+dsc:1.71,τέρμινθος,plant,Pistacia terebinthus,species,high,,terebinth,Terebinth tree with edible fruit and resin; standard identification.
+dsc:1.72,πίσσα,product,Pinus,genus,high,Pinus nigra;Pinus halepensis,pitch,Liquid and dry pitch drawn from the resinous wood of peuke and pitys (pines).
+dsc:1.73,ἄσφαλτος,mineral,,unknown,high,,"bitumen, asphalt","Natural bitumen; Judaean (Dead Sea) best, also Phoenicia, Sidon, Babylon."
+dsc:1.74,κυπάρισσος,plant,Cupressus sempervirens,species,high,,Mediterranean cypress,Standard identification; leaves and green cones ('sphairia') used.
+dsc:1.75,ἄρκευθος,plant,Juniperus oxycedrus,species,medium,Juniperus drupacea;Juniperus communis;Juniperus macrocarpa,juniper,Large and small arkeuthos; berries hazelnut- to bean-sized. Prickly juniper usual; large kind possibly J. drupacea.
+dsc:1.76,βράθυ,plant,Juniperus sabina,species,high,Juniperus excelsa;Juniperus foetidissima,savin,"Cypress-like, heavy-smelling, low spreading; abortifacient: savin (standard). Second, tamarisk-leaved kind uncertain."
+dsc:1.77,κέδρος,plant,Cedrus libani,species,medium,Juniperus excelsa;Juniperus oxycedrus,cedar,"Large tree yielding kedria (cedar pitch, embalming); small spiny kedros with juniper-like berries is a Juniperus."
+dsc:1.78,δάφνη,plant,Laurus nobilis,species,high,,bay laurel,Narrow- and broad-leaved daphne are both bay laurel; standard identification.
+dsc:1.79,πλάτανος,plant,Platanus orientalis,species,high,,oriental plane,Plane tree native to Greece; standard identification.
+dsc:1.80,μελία,plant,Fraxinus ornus,species,medium,Fraxinus angustifolia;Fraxinus excelsior,ash,Melia is ash; Greek species most likely manna ash or narrow-leaved ash.
+dsc:1.81,λεύκη,plant,Populus alba,species,high,,white poplar,"Leuke = white poplar, paired with aigeiros (black poplar); standard."
+dsc:1.82,μάκιρ,plant,Holarrhena pubescens,species,low,Ailanthus excelsa;Myristica fragrans,macir bark,"Thick yellowish astringent bark from 'barbarian' lands, for dysentery; identity uncertain (kurchi bark proposed; medieval confusion with mace)."
+dsc:1.83,αἴγειρος,plant,Populus nigra,species,high,,black poplar,Aigeiros = black poplar; resin and Eridanus amber legend mentioned.
+dsc:1.84,πτελέα,plant,Ulmus minor,species,high,Ulmus glabra,elm,Ptelea = elm; field elm the common Mediterranean species.
+dsc:1.85,κάλαμος,plant,Phragmites australis,species,medium,Arundo donax,reed,Several reeds listed; medicinal root is of phragmites (common reed); donax/Cyprian reed = giant cane.
+dsc:1.86,πάπυρος,plant,Cyperus papyrus,species,high,,papyrus,Plant from which paper (chartes) is made; standard.
+dsc:1.87,μυρίκη,plant,Tamarix,genus,high,Tamarix tetrandra;Tamarix aphylla;Tamarix nilotica,tamarisk,Wild tamarisk by lakes; cultivated Egyptian/Syrian kind with gall-like 'fruit' probably T. aphylla. Species not determinable.
+dsc:1.88,ἐρείκη,plant,Erica arborea,species,medium,Erica manipuliflora,tree heath,Bushy tamarisk-like shrub visited by bees for poor honey; heath (tree heath standard).
+dsc:1.89,ἀκακαλλίς,plant,Chamaecrista absus,species,low,,akakallis,"Seed of an Egyptian shrub used in eye-salves; Fraas/Berendes proposed Cassia absus (chaksu seed), speculative."
+dsc:1.90,ῥάμνος,plant,Lycium europaeum,species,low,Rhamnus lycioides;Rhamnus saxatilis,box-thorn / buckthorn,"Thorny hedge shrub with oblong soft fleshy leaves, three kinds; Lycium europaeum or Rhamnus spp. proposed."
+dsc:1.91,ἅλιμον,plant,Atriplex halimus,species,high,,"shrubby orache, sea purslane","Spineless coastal hedge shrub with olive-like broader leaves, eaten boiled: Atriplex halimus (standard)."
+dsc:1.92,παλίουρος,plant,Paliurus spina-christi,species,high,,Christ's thorn,Well-known spiny shrub with oily seed; standard identification.
+dsc:1.93,ὀξυάκανθα,plant,Crataegus monogyna,species,medium,Pyracantha coccinea;Crataegus laevigata,hawthorn,"Pear-like very spiny small tree, red myrtle-sized fruit with stones: hawthorn; synonym pyrakantha suggests firethorn for some."
+dsc:1.94,κυνόσβατος,plant,Rosa canina,species,medium,Rosa sempervirens,dog rose,"Tree-like thorny shrub, white flower, oblong red fruit woolly inside: wild rose (dog rose standard)."
+dsc:1.95,κύπρος,plant,Lawsonia inermis,species,high,,henna,"Olive-like leaves, white fragrant clustered flowers, best from Ascalon and Canopus: henna (standard)."
+dsc:1.96,φιλύρα,plant,Phillyrea latifolia,species,medium,Phillyrea angustifolia,mock privet,"Olive-like broader darker leaves, black sweetish clustered fruit; not lime-tree: Phillyrea (Berendes)."
+dsc:1.97,κίσθος,plant,Cistus creticus,species,medium,Cistus salviifolius;Cytinus hypocistis;Cistus ladanifer,rock rose,Male purple-flowered and female white-flowered cistus; also hypocistis (Cytinus) and ledon yielding ladanum.
+dsc:1.98,ἔβενος,plant,Dalbergia melanoxylon,species,medium,Diospyros ebenum,ebony,Best ebony Ethiopian (African blackwood); Indian kind with streaks is Diospyros ebony.
+dsc:1.99,ῥόδα,plant,Rosa gallica,species,medium,Rosa × damascena,rose,Rose petals for juice and pastilles; ancient garden rose usually read as R. gallica/damascena group.
+dsc:1.100,λύκιον,product,Rhamnus lycioides,species,low,Berberis aristata;Berberis lycium;Rhamnus petiolaris,lycium (extract),Extract of a thorny box-leaved shrub from Cappadocia/Lycia (Rhamnus spp.); Indian lycium from Berberis.
+dsc:1.101,ἀκακία,product,Vachellia nilotica,species,high,,acacia juice,Juice from pods of an Egyptian thorny tree with white flowers and lupin-like pods: Acacia (Vachellia) nilotica.
+dsc:1.102,ἀμόργη,product,Olea europaea,species,high,,amurca (olive-oil lees),Watery dregs of pressed olives boiled down.
+dsc:1.103,ἄγνος,plant,Vitex agnus-castus,species,high,,chaste tree,"Agnos or lygos: riverside shrub, olive-like leaves, purple/white flowers; standard."
+dsc:1.104,ἰτέα,plant,Salix alba,species,medium,Salix fragilis,willow,"Itea = willow; species not specified, white willow usual reading."
+dsc:1.105,ἀγριελαία,plant,Olea europaea,species,high,Olea europaea subsp. cuspidata,wild olive,"Wild olive (kotinos, var. sylvestris), with olive oils and 'Ethiopian olive' tear."
+dsc:1.106,δρῦς,plant,Quercus,genus,high,Quercus coccifera;Quercus ilex;Castanea sativa,oak,"All oaks (drys, phegos, prinos); Sardian acorns (kastaneia) are chestnuts."
+dsc:1.107,κηκίς,product,Quercus infectoria,species,medium,,oak gall,"Oak galls; best omphakitis (small, knobby, unperforated) = Aleppo galls of Q. infectoria."
+dsc:1.108,ῥοῦς,plant,Rhus coriaria,species,high,,Sicilian sumac,"Culinary rhous from the tanners' sumac shrub, serrate leaves, clustered fruit; standard."
+dsc:1.109,φοῖνιξ,plant,Phoenix dactylifera,species,high,,date palm,"Egyptian dates (phoinikobalanoi, karyotides); standard."
+dsc:1.110,ῥόα,plant,Punica granatum,species,high,,pomegranate,"Pomegranate fruit, rind (sidia), flowers (kytinoi), roots; standard."
+dsc:1.111,βαλαύστιον,plant,Punica granatum,species,high,,balaustine (wild pomegranate flower),Flower of wild pomegranate; standard.
+dsc:1.112,μυρσίνη,plant,Myrtus communis,species,high,,myrtle,"Cultivated myrtle, black and white kinds; standard."
+dsc:1.113,κεράσια,plant,Prunus avium,species,medium,Prunus cerasus,cherry,Cherries and cherry-tree gum; sweet or sour cherry not distinguished.
+dsc:1.114,κεράτια,plant,Ceratonia siliqua,species,high,,carob,Carob pods; standard.
+dsc:1.115,μηλέα,plant,Malus domestica,species,medium,Cydonia oblonga;Prunus persica;Prunus armeniaca;Citrus medica,apple,"Apple trees generally, especially quince; also Persian (peach), Armenian (apricot) and Median apples (citron)."
+dsc:1.116,ἄπιος,plant,Pyrus communis,species,high,Pyrus spinosa,pear,Many kinds of pear; achras = wild pear (P. spinosa).
+dsc:1.117,λωτός,plant,Celtis australis,species,medium,Ziziphus lotus,nettle tree,"Large 'lotus tree', sweet fruit bigger than pepper, wood yellows hair: Celtis australis (Berendes); Ziziphus lotus alternative."
+dsc:1.118,μέσπιλον,plant,Crataegus azarolus,species,medium,Mespilus germanica,azarole,Thorny aronia with small three-stoned apple-like fruit = azarole; Italian second kind (setanion) = medlar.
+dsc:1.119,κρανία,plant,Cornus mas,species,high,,cornelian cherry,"Olive-like oblong fruit turning yellow/waxy, edible, astringent; standard."
+dsc:1.120,οὖα,plant,Sorbus domestica,species,high,,service tree (sorb),Oua (sorbs) dried for diarrhoea; standard.
+dsc:1.121,κοκκυμηλέα,plant,Prunus domestica,species,high,Prunus spinosa,plum,Plum tree; Damascene dried plums; wild plums also mentioned.
+dsc:1.122,κόμαρος,plant,Arbutus unedo,species,high,,strawberry tree,Thin-barked tree with stoneless 'memaikyla' fruit; standard.
+dsc:1.123,ἀμυγδάλη,plant,Prunus dulcis,species,high,,almond,Bitter and sweet almonds; standard.
+dsc:1.124,πιστάκια,plant,Pistacia vera,species,high,,pistachio,Syrian pistachios; standard.
+dsc:1.125,κάρυα βασιλικά,plant,Juglans regia,species,high,,walnut,Royal or Persian nuts = walnut; standard.
+dsc:1.126,μορέα,plant,Morus nigra,species,high,,black mulberry,Morea or sykaminon: mulberry (black mulberry in antiquity); standard.
+dsc:1.127,συκόμορον,plant,Ficus sycomorus,species,high,,sycamore fig,"Large fig-like tree with mulberry-like leaves, fruit scraped to ripen; standard."
+dsc:1.128,σῦκα,plant,Ficus carica,species,high,,fig,"Fresh and dried figs, wild-fig sap, fig-wood lye; standard."
+dsc:1.129,περσαία,plant,Mimusops laurifolia,species,medium,,persea,"Egyptian tree with edible fruit, esp. Thebaid: Egyptian persea (Mimusops), not avocado; poison legend."
+dsc:2.106,κύαμος Αἰγύπτιος,plant,Nelumbo nucifera,species,high,,sacred lotus,"Pond plant with hat-like leaf, rose flower, wasp-nest seed head (kiborion), root kolokasion; standard."
+dsc:2.107,φακός,plant,Lens culinaris,species,high,,lentil,Lentil; standard.
+dsc:2.108,ὄροβος,plant,Vicia ervilia,species,high,,bitter vetch,Narrow-leaved small plant with podded seed yielding orobinon flour; standard.
+dsc:2.109,θέρμος,plant,Lupinus albus,species,high,Lupinus angustifolius,white lupin,Cultivated lupin; smaller wild lupin also mentioned.
+dsc:2.110,γογγύλη,plant,Brassica rapa,species,high,,turnip,"Turnip root, sprouts, seed; a wild gongyle is also described."
+dsc:2.111,βουνιάς,plant,Brassica napus,species,medium,Brassica rapa,"navew, rape","Bounias, a turnip-like root vegetable: navew (Brassica napus) per standard glossaries."
+dsc:2.112,ῥαφανίς,plant,Raphanus sativus,species,high,Armoracia rusticana;Raphanus raphanistrum,radish,Garden radish; wild radish (horseradish per some) also treated.
+dsc:2.113,σίσαρον,plant,Sium sisarum,species,medium,Pastinaca sativa,skirret,"Known root vegetable eaten boiled; skirret per standard glossaries, parsnip alternative."
+dsc:2.114,λάπαθον,plant,Rumex,genus,high,Rumex patientia;Rumex conglomeratus;Rumex acetosa;Rumex acetosella,"dock, sorrel","Four kinds: marsh oxylapathon, garden, small wild, and oxalis (sorrel); all docks."
+dsc:2.115,ἱππολάπαθον,plant,Rumex hydrolapathum,species,low,Rumex aquaticus;Rumex patientia,great water dock,'Horse-dock': a large dock of marshes; species uncertain.
+dsc:2.116,λαμψάνη,plant,Sinapis arvensis,species,low,Lapsana communis;Raphanus raphanistrum,charlock,"Wild pot-herb more nourishing than dock; glossed charlock (LSJ), Linnaeus' Lapsana borrowed the name."
+dsc:2.117,βλίτον,plant,Amaranthus blitum,species,medium,,"blite, purple amaranth",Bland pot-herb without drug action; blite (Amaranthus blitum) standard.
+dsc:2.118,μολόχη,plant,Malva sylvestris,species,medium,Malva nicaeensis;Alcea rosea,mallow,Garden and wild mallow; common mallow usual reading.
+dsc:2.119,ἀνδράφαξυς,plant,Atriplex hortensis,species,high,Atriplex patula,garden orache,Wild and garden orache eaten boiled; standard.
+dsc:2.120,κράμβη ἥμερος,plant,Brassica oleracea,species,high,,cabbage,Cultivated cabbage; standard.
+dsc:2.121,κράμβη ἀγρία,plant,Brassica cretica,species,medium,Brassica oleracea,wild cabbage,"Coastal cliff cabbage, whiter, hairier, bitter: Aegean wild Brassica (B. cretica) or wild B. oleracea."
+dsc:2.122,κράμβη θαλασσία,plant,Calystegia soldanella,species,high,,sea bindweed,"Kidney-shaped leaves on reddish ivy-like shoots, milky salty sap, strongly purgative: sea bindweed (standard)."
+dsc:2.123,σεῦτλον,plant,Beta vulgaris,species,high,,"beet, chard",Black and white beet; standard.
+dsc:2.124,ἀνδράχνη,plant,Portulaca oleracea,species,high,,purslane,Cooling astringent pot-herb; standard.
+dsc:2.125,ἀσπάραγος πετραῖος,plant,Asparagus acutifolius,species,medium,Asparagus aphyllus;Asparagus officinalis,wild asparagus,Rock or prickly asparagus (myakanthos): spiny wild Mediterranean asparagus.
+dsc:2.126,ἀρνόγλωσσον,plant,Plantago major,species,high,Plantago lanceolata,plantain,Two kinds: greater plantain and small narrow-leaved (ribwort); standard.
+dsc:2.127,σίον,plant,Berula erecta,species,medium,Sium latifolium;Helosciadium nodiflorum,water parsnip,Aquatic umbellifer with hipposelinon-like aromatic leaves; Sium angustifolium (Berula) per Berendes.
+dsc:2.128,σισύμβριον,plant,Nasturtium officinale,species,high,,watercress,"Aquatic herb tasting like kardamon, called kardamine: watercress (standard)."
+dsc:2.129,κρῆθμον,plant,Crithmum maritimum,species,high,,rock samphire,"Seashore rock plant with fleshy salty leaves, pickled; standard."
+dsc:2.130,κορωνόπους,plant,Plantago coronopus,species,medium,Lepidium coronopus,buck's-horn plantain,"Prostrate herb with cut leaves, eaten boiled: buck's-horn plantain usual reading."
+dsc:2.131,σόγχος,plant,Sonchus oleraceus,species,high,Sonchus asper,sow-thistle,Two kinds: spinier (S. asper) and tender edible (S. oleraceus); standard.
+dsc:2.132,σέρις,plant,Cichorium endivia,species,medium,Cichorium intybus,"endive, chicory",Wild seris (pikris) and two garden kinds: endive and chicory group.
+dsc:2.133,χονδρίλη,plant,Chondrilla juncea,species,medium,,rush skeletonweed,Chicory-like slender plant with mastic-like gum on stems; second kind unidentified.
+dsc:2.134,κολόκυνθα ἐδώδιμος,plant,Lagenaria siceraria,species,high,,bottle gourd,Edible kolokynthe of antiquity is the bottle gourd (Cucurbita is American).
+dsc:2.135,σίκυς ἥμερος,plant,Cucumis melo,species,medium,Cucumis sativus,snake melon / cucumber; melon,Janick & Paris 2007: classical sikys mostly snake/chate melon (traditionally cucumber); pepon (melon) also treated.
+dsc:2.136,θρίδαξ ἥμερος,plant,Lactuca sativa,species,high,Lactuca serriola;Lactuca virosa,lettuce,Garden lettuce; wild lettuce with opium-like latex also treated.
+dsc:2.137,γιγγίδιον,plant,Visnaga daucoides,species,low,Daucus carota,gingidion,Wild-carrot-like bitter Syrian/Cilician pot-herb; equated with Daucus gingidium/Ammi visnaga; uncertain.
+dsc:2.138,σκάνδιξ,plant,Scandix pecten-veneris,species,high,Scandix australis,shepherd's-needle,Wild bitter pot-herb eaten raw or boiled; standard.
+dsc:2.139,καυκαλίς,plant,Tordylium apulum,species,low,Daucus carota;Orlaya grandiflora;Caucalis platycarpos,kaukalis,"Span-high hairy umbellifer, fennel-like leaves, white fragrant umbel, eaten; modern Greek kafkalithra = Tordylium apulum; uncertain."
+dsc:2.140,εὔζωμον,plant,Eruca vesicaria,species,high,,"rocket, arugula",Aphrodisiac salad herb and seed; standard.
+dsc:2.141,ὤκιμον,plant,Ocimum basilicum,species,high,,basil,Basil; standard.
+dsc:2.142,ὀροβάγχη,plant,Orobanche crenata,species,medium,Phelipanche ramosa,broomrape,"Leafless reddish parasitic stem choking pulses, eaten like asparagus: broomrape (O. crenata on legumes)."

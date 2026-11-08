@@ -1,0 +1,157 @@
+monograph_id,headword,kind,scientific_name,rank,confidence,alternatives,common_name_en,note
+dsc:1.1,ἶρις Ἰλλυρική,plant,Iris germanica,species,medium,Iris pallida,"orris, Illyrian iris","Berendes/Beck: Illyrian orris; sword-like leaves, variously coloured flowers, fragrant rhizome. Exact species debated (I. germanica/pallida)."
+dsc:1.2,ἄκορον,plant,Acorus calamus,species,medium,Iris pseudacorus,sweet flag,"Berendes/Gunther: sweet flag; iris-like narrow leaves, knotty aromatic creeping rhizome. Some propose Iris pseudacorus."
+dsc:1.3,μῆον Ἀθαμαντικόν,plant,Meum athamanticum,species,high,,"spignel, baldmoney",Standard identification; Linnaean epithet derives from Dioscorides' 'Athamantic meon'.
+dsc:1.4,κύπερος,plant,Cyperus rotundus,species,medium,Cyperus longus,"nutsedge, galingale","Leek-like leaves, triangular stem, black fragrant olive-like tubers; C. rotundus or C. longus per Berendes/Beck."
+dsc:1.5,κύπερος Ἰνδικός,plant,Curcuma longa,species,high,,turmeric,"Indian 'cyperus' like ginger, saffron-yellow and bitter when chewed: turmeric (Berendes, Beck)."
+dsc:1.6,καρδάμωμον,plant,Elettaria cardamomum,species,medium,Amomum subulatum,cardamom,"Traditional identification as cardamom; stated origins (Commagene, Armenia) make the ancient source debated."
+dsc:1.7,νάρδος Ἰνδική καὶ Συριακή,plant,Nardostachys jatamansi,species,high,,spikenard,"Indian and 'Syrian' nard are both spikenard rhizomes traded via different routes (Berendes, Beck)."
+dsc:1.8,νάρδος Κελτική,plant,Valeriana celtica,species,high,,Celtic nard,Alpine 'saliunca' of Liguria and Istria: Valeriana celtica (standard).
+dsc:1.9,νάρδος ὀρεινή,plant,Valeriana tuberosa,species,medium,,mountain nard,"Berendes: Valeriana tuberosa; black fragrant asphodel-like root tubers. Description defective (no flower), so debated."
+dsc:1.10,ἄσαρον,plant,Asarum europaeum,species,high,,asarabacca,"Ivy-like rounded leaves, flower between leaves at root, fragrant rootlets: asarabacca (standard)."
+dsc:1.11,φοῦ,plant,Valeriana phu,species,medium,Valeriana dioscoridis;Valeriana officinalis,"phu, garden valerian",Pontic valerian with fetid nard-like root; Linnaeus named V. phu after it; V. dioscoridis also proposed.
+dsc:1.12,μαλάβαθρον,plant,Cinnamomum tamala,species,medium,,"malabathrum, Indian bay leaf",Malabathrum leaf of Indian trade is generally identified with Cinnamomum tamala; Dioscorides' account partly fabulous.
+dsc:1.13,κασσία,plant,Cinnamomum aromaticum,species,medium,Cinnamomum verum,cassia,Aromatic bark traded via Arabia; usually equated with Chinese cassia (syn. C. cassia); ancient source debated.
+dsc:1.14,κιννάμωμον,plant,Cinnamomum verum,species,medium,Cinnamomum aromaticum,cinnamon,Several trade grades of cinnamon; identity of ancient cinnamomum versus modern cinnamon remains debated.
+dsc:1.15,ἄμωμον,plant,Amomum,genus,low,Amomum subulatum,amomum,"Woody cluster-like aromatic from Armenia/Media/Pontus; identity long disputed, genus Amomum conventional."
+dsc:1.16,κόστος,plant,Dolomiaea costus,species,high,,costus root,"Arabian, Indian and Syrian costus: aromatic root of costus (standard; syn. Saussurea costus, S. lappa)."
+dsc:1.17,σχοῖνος,plant,Cymbopogon schoenanthus,species,medium,,"camel grass, ginger grass",Aromatic rush from Libya/Arabia/Nabataea used in unguents; camel grass per Berendes/Beck.
+dsc:1.18,κάλαμος ἀρωματικός,plant,Acorus calamus,species,low,Cymbopogon martini,sweet flag / aromatic reed,Traditionally sweet flag; jointed culm with cobweb-like pith suggests an Indian aromatic grass. Debated.
+dsc:1.19,βάλσαμον,plant,Commiphora gileadensis,species,high,,balm of Gilead,"Judaean balsam tree (opobalsamum, xylobalsamum, carpobalsamum): Commiphora gileadensis (standard)."
+dsc:1.20,ἀσπάλαθος,plant,Calicotome villosa,species,low,Genista acanthoclada;Alhagi maurorum,"aspalathus, spiny broom","Spiny woody shrub of Nisyros/Rhodes/Syria used by perfumers; spiny broom often proposed, identity uncertain."
+dsc:1.21,βρύον,fungus,Usnea,genus,low,Evernia prunastri;Pseudevernia furfuracea,"tree lichen, tree moss","Fragrant growth on cedar, white poplar and oak: epiphytic lichens (Berendes: Usnea, Parmelia)."
+dsc:1.22,ἀγάλλοχον,plant,Aquilaria malaccensis,species,high,,"aloeswood, agarwood",Fragrant spotted wood from India/Arabia used as incense: agarwood (syn. Aquilaria agallocha).
+dsc:1.23,νάσκαφθον,plant,,unknown,low,,naskaphthon (aromatic bark),Unidentified Indian aromatic bark resembling mulberry-fig bark; no secure identification.
+dsc:1.24,κάγκαμον,product,,unknown,low,,kankamon (aromatic gum),Unidentified myrrh-like tear of an Arabian tree used as incense; source not securely identified.
+dsc:1.25,κῦφι,product,,unknown,high,,kyphi (Egyptian incense),Multi-ingredient Egyptian temple incense compound; no single source taxon.
+dsc:1.26,κρόκος,plant,Crocus sativus,species,high,,saffron,Corycian saffron stigmas; standard identification.
+dsc:1.27,κροκόμαγμα,product,Crocus sativus,species,medium,,crocomagma (saffron unguent residue),Pressed residue of saffron unguent (multi-ingredient); mapped to eponymous saffron.
+dsc:1.28,ἑλένιον,plant,Inula helenium,species,high,,elecampane,"Standard identification (Berendes, Beck); large rough leaves, yellow flowers, aromatic root."
+dsc:1.29,ἑλένιον Αἰγύπτιον,plant,,unknown,low,,Egyptian helenium,Crateuas' Egyptian prostrate seaside herb with lentil-like leaves; no accepted identification.
+dsc:1.30,ἔλαιον,product,Olea europaea,species,high,,olive oil,"Olive oil, especially omphacinum from unripe olives."
+dsc:1.31,ἐλαιόμελι,product,Olea europaea,species,low,,olive honey (exudate),Sweet thick exudate from olive trunks at Palmyra per Dioscorides; nature of the product uncertain.
+dsc:1.32,κίκινον ἔλαιον,product,Ricinus communis,species,high,,castor oil,Oil pressed from kroton (castor) seeds; standard.
+dsc:1.33,ἀμυγδάλινον ἔλαιον,product,Prunus amygdalus,species,high,,almond oil,Oil of bitter almonds (metopion); syn. Prunus dulcis.
+dsc:1.34,βαλάνινον ἔλαιον,product,Moringa peregrina,species,medium,Moringa oleifera,ben oil,"Oil of balanos myrepsike (ben nut), generally Moringa peregrina."
+dsc:1.35,ὑοσκυάμινον ἔλαιον,product,Hyoscyamus albus,species,medium,Hyoscyamus niger,henbane oil,Oil from white henbane seed; white seed indicates Hyoscyamus albus.
+dsc:1.36,ἔλαιον διὰ κνιδίου κόκκου,product,Daphne gnidium,species,high,,oil of Cnidian berry,Cnidian berry (kokkos knidios) is the fruit of Daphne gnidium (standard).
+dsc:1.37,ῥαφάνινον ἔλαιον,product,Raphanus sativus,species,high,,radish-seed oil,Oil from radish seed.
+dsc:1.38,σινάπινον ἔλαιον,product,Sinapis alba,species,medium,Brassica nigra,mustard oil,Oil from mustard seed; ancient sinapi includes white and black mustard.
+dsc:1.39,μυρσίνινον ἔλαιον,product,Myrtus communis,species,high,,myrtle oil,Oil from tender leaves of black myrtle.
+dsc:1.40,δάφνινον ἔλαιον,product,Laurus nobilis,species,high,,bay-laurel oil,Oil from ripe laurel berries.
+dsc:1.41,σχίνινον ἔλαιον,product,Pistacia lentiscus,species,high,,lentisk oil,Oil from ripe fruit of schinos (lentisk).
+dsc:1.42,μαστίχινον ἔλαιον,product,Pistacia lentiscus,species,high,,mastic oil,Oil made from mastic resin of lentisk.
+dsc:1.43,ῥόδινον,product,Rosa,genus,high,Rosa gallica,rose oil,Rose petals steeped in oil with aromatic stypsis; rose species not specified.
+dsc:1.44,ἐλάτινον,product,Phoenix dactylifera,species,medium,Abies cephalonica,elatinum oil,"Elate here likely the date-palm spathe (cf. Diosc. 1.109, astringent like rose oil); fir less likely."
+dsc:1.45,μήλινον,product,Cydonia oblonga,species,high,,quince oil,Oil perfumed by quinces (kydonia mela) laid over it.
+dsc:1.46,οἰνάνθινον,product,Vitis vinifera,species,high,,vine-flower oil,"Oil of oenanthe, the fragrant flower of the (wild) grapevine."
+dsc:1.47,τήλινον,product,Trigonella foenum-graecum,species,high,,fenugreek oil,Fenugreek (telis) oil with calamus and cyperus.
+dsc:1.48,σαμψούχινον,product,Origanum majorana,species,medium,,marjoram oil (sampsuchinum),Multi-herb oil named after sampsuchon (marjoram); mapped to eponymous ingredient.
+dsc:1.49,ὠκίμινον,product,Ocimum basilicum,species,high,,basil oil,Oil steeped with basil (okimon) leaves.
+dsc:1.50,ἁβροτόνινον,product,Artemisia abrotanum,species,medium,,southernwood oil,Oil of abrotonon (southernwood); species-level identity of abrotonon slightly debated.
+dsc:1.51,ἀνήθινον,product,Anethum graveolens,species,high,,dill oil,Oil steeped with dill flowers.
+dsc:1.52,σούσινον,product,Lilium candidum,species,high,,lily oil (susinum),Susinum/leirinon: oil of white lily flowers with aromatics.
+dsc:1.53,ναρκίσσινον,product,Narcissus poeticus,species,medium,Narcissus tazetta,narcissus oil,Oil perfumed with narcissus flowers; species uncertain.
+dsc:1.54,κρόκινον,product,Crocus sativus,species,high,,saffron oil (crocinum),Oil perfumed with saffron.
+dsc:1.55,κύπρινον,product,Lawsonia inermis,species,high,,henna oil (cyprinum),"Oil of kypros flowers (henna), standard identification."
+dsc:1.56,ἴρινον,product,Iris germanica,species,medium,Iris pallida,orris oil (irinum),Oil perfumed with Illyrian iris root.
+dsc:1.57,γλεύκινον,product,Vitis vinifera,species,medium,,must oil (gleucinum),Multi-ingredient oil prepared with grape must; mapped to eponymous ingredient.
+dsc:1.58,ἀμαράκινον,product,Origanum majorana,species,medium,,marjoram unguent (amaracinum),Amarakon equals sampsuchon (marjoram) per Diosc. 3.39; multi-ingredient unguent.
+dsc:1.59,μετώπιον,product,Ferula gummosa,species,medium,,metopion (galbanum unguent),Egyptian multi-ingredient unguent named for galbanum (metopion tree); mapped to galbanum source.
+dsc:1.60,στακτή,product,Commiphora myrrha,species,medium,,stacte (liquid myrrh),Oily fraction of fresh myrrh.
+dsc:1.61,κιναμώμινον,product,Cinnamomum verum,species,medium,,cinnamon unguent,Multi-ingredient unguent named after cinnamon; ancient cinnamon identity debated.
+dsc:1.62,νάρδινον μύρον,product,Nardostachys jatamansi,species,medium,,nard unguent,Multi-ingredient unguent named after spikenard.
+dsc:1.63,μαλαβάθρινον,product,Cinnamomum tamala,species,medium,,malabathrum unguent,Unguent like nardinum with malabathrum leaf; mapped to eponymous ingredient.
+dsc:1.64,σμύρνα,product,Commiphora myrrha,species,high,,myrrh,Gum-resin of an Arabian thorny tree: myrrh (standard).
+dsc:1.65,σμύρνα Βοιωτιακή,plant,,unknown,low,,Boeotian myrrh,Cut root of an unnamed Boeotian tree smelling of myrrh; unidentified.
+dsc:1.66,στύραξ,product,Styrax officinalis,species,high,Liquidambar orientalis,storax,Resin of a quince-like tree from Pisidia/Cilicia: Styrax officinalis (standard).
+dsc:2.1,ἐχῖνος θαλάσσιος,animal,,unknown,high,,sea urchin,"Sea urchin (Echinoidea, e.g. Paracentrotus lividus)."
+dsc:2.2,ἐχῖνος χερσαῖος,animal,,unknown,high,,hedgehog,Land hedgehog (Erinaceus).
+dsc:2.3,ἱππόκαμπος,animal,,unknown,high,,seahorse,"Seahorse (Hippocampus), burnt to ash."
+dsc:2.4,πορφύρα,animal,,unknown,high,,purple shell (murex),"Purple-dye murex shells (Muricidae), burnt."
+dsc:2.5,μύακες,animal,,unknown,medium,,mussels,"Pontic mussels (probably Mytilus), burnt; acts like whelks (kerykes)."
+dsc:2.6,τελλῖναι,animal,,unknown,medium,,"tellins, wedge clams",Small bivalves (probably Donax trunculus).
+dsc:2.7,πορφύρας πώματα,animal,,unknown,high,,murex opercula,Opercula (lids) of purple-dye snails.
+dsc:2.8,ὄνυξ,animal,,unknown,medium,,"onyx (shell operculum, blatta byzantina)",Operculum of a shellfish from Indian lakes; the later 'blatta byzantina' incense.
+dsc:2.9,κοχλίας χερσαῖος,animal,,unknown,high,,land snail,Land snail (Helix and allies).
+dsc:2.10,καρκίνοι ποτάμιοι,animal,,unknown,high,,river crabs,"Freshwater crabs (Potamon), burnt to ash."
+dsc:2.11,σκορπίος χερσαῖος,animal,,unknown,high,,scorpion,"Land scorpion, applied to its own sting."
+dsc:2.12,σκορπίος θαλάσσιος,animal,,unknown,medium,,scorpionfish,"Sea scorpion: scorpionfish (Scorpaena), gall used."
+dsc:2.13,δράκων θαλάσσιος,animal,,unknown,medium,,greater weever,"Sea dragon: weever fish (Trachinus draco), applied to its own sting."
+dsc:2.14,σκολόπενδρα θαλασσία,animal,,unknown,low,,sea scolopendra,"Marine 'centipede', probably a bristle worm (Polychaeta); uncertain."
+dsc:2.15,νάρκη θαλασσία,animal,,unknown,high,,electric ray,Torpedo ray applied for chronic headache.
+dsc:2.16,ἔχιδνα,animal,,unknown,high,,viper,Viper flesh (Vipera spp.).
+dsc:2.17,γῆρας ὄφεως,animal,,unknown,high,,snake slough,Shed skin of snakes.
+dsc:2.18,λαγωὸς θαλάσσιος,animal,,unknown,medium,,sea hare,"Sea hare, like a small squid: probably Aplysia."
+dsc:2.19,λαγωὸς χερσαῖος,animal,,unknown,high,,hare,"Land hare (Lepus europaeus): brain, rennet etc."
+dsc:2.20,τρυγὼν θαλασσία,animal,,unknown,high,,stingray,Stingray spine (Dasyatis pastinaca).
+dsc:2.21,σηπία,animal,,unknown,high,,cuttlefish,"Cuttlefish (Sepia officinalis): ink, cuttlebone."
+dsc:2.22,τρίγλα,animal,,unknown,high,,red mullet,Red mullet (Mullus).
+dsc:2.23,ὄρχις ἱπποποτάμου,animal,,unknown,high,,hippopotamus testicle,Dried hippopotamus testicle against snakebite.
+dsc:2.24,κάστορος ὄρχις,animal,,unknown,high,,castoreum (beaver),"Beaver (Castor fiber) 'testicle', i.e. castoreum sacs."
+dsc:2.25,γαλῆ κατοικίδιος,animal,,unknown,medium,,weasel,"Domestic weasel (probably Mustela nivalis), dried and burnt."
+dsc:2.26,βάτραχοι,animal,,unknown,high,,frogs,Frogs boiled as antidote to reptile bites.
+dsc:2.27,σίλουρος,animal,,unknown,medium,,"sheatfish, catfish",Silurus: catfish (Silurus glanis or Nile catfish).
+dsc:2.28,σμαρίς,animal,,unknown,medium,,picarel,"Salted picarel (Spicara smaris), head burnt."
+dsc:2.29,μαινίς,animal,,unknown,medium,,blotched picarel,"Maenis (Spicara maena), head burnt."
+dsc:2.30,κωβιός,animal,,unknown,high,,goby,Fresh goby (Gobiidae).
+dsc:2.31,ὠμοτάριχος,product,,unknown,high,,salted tuna,Salted tuna flesh (Thunnus thynnus).
+dsc:2.32,γάρος,product,,unknown,high,,"garum, fish sauce",Fermented fish/meat brine sauce; animal-derived preparation.
+dsc:2.33,ζωμὸς ἰχθύων,product,,unknown,high,,fish broth,Broth of young fish; animal-derived preparation.
+dsc:2.34,κόρεις,animal,,unknown,high,,bedbugs,Bed bugs (Cimex lectularius).
+dsc:2.35,ὄνοι,animal,,unknown,high,,"woodlice, pill bugs",Many-footed creatures under water jars that roll up: woodlice (Oniscidea).
+dsc:2.36,σίλφη,animal,,unknown,medium,,bakery cockroach / beetle,Silphe found in bakeries: probably cockroach (Blatta orientalis).
+dsc:2.37,πνεύμων θαλάσσιος,animal,,unknown,medium,,jellyfish (sea lung),Sea lung: a jellyfish (e.g. Rhizostoma pulmo).
+dsc:2.38,"πνεύμων χοίρειος, ἄρνειος, ἄρκειος",animal,,unknown,high,,"pig, lamb and bear lung","Lungs of pig, lamb and bear applied to chafing."
+dsc:2.39,πνεύμων ἀλώπεκος,animal,,unknown,high,,fox lung,Dried fox lung for asthma; fox fat.
+dsc:2.40,ἧπαρ ὄνειον,animal,,unknown,high,,donkey liver,Roasted donkey liver for epilepsy.
+dsc:2.41,αἰδοῖον ἐλάφου,animal,,unknown,high,,stag's penis,Male red deer genitals against viper bites.
+dsc:2.42,ὄνυχες ὄνων,animal,,unknown,high,,donkey hooves,Burnt donkey hooves.
+dsc:2.43,λειχῆνες ἵππων,animal,,unknown,high,,horse chestnuts (callosities),Horny callosities on horses' legs (chestnuts).
+dsc:2.44,ὄνυχες αἰγῶν,animal,,unknown,high,,goat hooves,Burnt goat hooves for alopecia.
+dsc:2.45,ἧπαρ αἰγός,animal,,unknown,high,,goat liver,Juice of roasted goat liver for night blindness.
+dsc:2.46,ἧπαρ κάπρου,animal,,unknown,high,,boar liver,Wild boar liver against reptile bites.
+dsc:2.47,ἧπαρ κυνὸς λυσσῶντος,animal,,unknown,high,,rabid dog's liver,Liver of the rabid dog eaten against hydrophobia.
+dsc:2.48,δέρματα παλαιὰ κασσυμάτων,product,,unknown,high,,old shoe leather,Burnt old leather from shoes; animal-derived.
+dsc:2.49,ἀλεκτορίδες,animal,,unknown,high,,hens,Domestic hens split open and applied warm.
+dsc:2.50,ᾠόν,animal,,unknown,high,,egg,"Hen's egg (yolk, white, shell)."
+dsc:2.51,τέττιγες,animal,,unknown,high,,cicadas,Roasted cicadas for bladder pains.
+dsc:2.52,ἀκρίδες,animal,,unknown,high,,locusts,Locusts/grasshoppers fumigated.
+dsc:2.53,φήνη,animal,,unknown,medium,,ossifrage (bearded vulture),Bird called ossifragus by Romans: probably bearded vulture (Gypaetus barbatus).
+dsc:2.54,κορυδαλλός,animal,,unknown,high,,crested lark,Small bird with peacock-like crest: crested lark (Galerida cristata).
+dsc:2.55,αἴθυια,animal,,unknown,low,,aithyia (seabird),"Diving seabird (shearwater, cormorant or duck); uncertain."
+dsc:2.56,χελιδών,animal,,unknown,high,,swallow,Swallow chicks (Hirundo rustica).
+dsc:2.57,ἐλέφαντος ὀδούς,animal,,unknown,high,,ivory,Ivory filings (elephant tusk).
+dsc:2.58,ἀστράγαλος ὑός,animal,,unknown,high,,pig knucklebone,Burnt pig astragalus.
+dsc:2.59,ἐλάφου κέρας,animal,,unknown,high,,deer antler (hartshorn),Burnt and washed red deer antler.
+dsc:2.60,κάμπαι,animal,,unknown,medium,,caterpillars,Caterpillars on vegetables (probably cabbage white larvae).
+dsc:2.61,κανθαρίδες,animal,,unknown,high,,blister beetles,"Cantharides from wheat: blister beetles (Meloidae, e.g. Mylabris, Lytta)."
+dsc:2.62,σαλαμάνδρα,animal,,unknown,high,,salamander,Spotted lizard-like animal: fire salamander (Salamandra salamandra).
+dsc:2.63,ἀράχνη,animal,,unknown,medium,,spider,Spider called holkos or lykos: probably a wolf spider (Lycosidae).
+dsc:2.64,σαύρα,animal,,unknown,high,,lizard,Lizard head and blood.
+dsc:2.65,σήψ (καὶ σκίγκος),animal,,unknown,medium,,seps lizard; skink,"Seps 'Chalcidic lizard' (Chalcides); chapter text also contains skink (Scincus scincus, ch. 66)."
+dsc:2.67,γῆς ἔντερα,animal,,unknown,high,,earthworms,Earthworms (Lumbricidae) applied to severed sinews.
+dsc:2.68,μυγαλῆ,animal,,unknown,high,,shrew,"Shrew (Crocidura), applied to its own bite."
+dsc:2.69,μύες κατοικίδιοι,animal,,unknown,high,,house mice,House mice (Mus musculus) split open.
+dsc:2.70,γάλα,animal,,unknown,high,,milk,"Milk in general (cow, goat, sheep, ass, etc.)."
+dsc:2.71,τυρός,product,,unknown,high,,cheese,Fresh and aged cheese; dairy preparation.
+dsc:2.72,βούτυρον,product,,unknown,high,,butter,Butter from the fattest milk; dairy preparation.
+dsc:2.73,ἔρια οἰσυπηρά,animal,,unknown,high,,greasy wool,Unwashed sheep's wool.
+dsc:2.74,οἴσυπος,product,,unknown,high,,"oesypum (wool grease, lanolin)",Fat extracted from greasy wool: crude lanolin.
+dsc:2.75,πιτύα λαγωοῦ,animal,,unknown,high,,hare rennet,Rennet of the hare.
+dsc:2.76,στέαρ,animal,,unknown,high,,animal fat,"Fats of goose, hen, pig, bear, etc."
+dsc:2.77,μυελός,animal,,unknown,high,,marrow,"Bone marrow of deer, calf, bull, goat, sheep."
+dsc:2.78,χολή,animal,,unknown,high,,bile,Animal gall/bile and its storage.
+dsc:2.79,αἷμα,animal,,unknown,high,,blood,"Blood of goose, kid, duck, pigeon, etc."
+dsc:2.80,ἀπόπατος βοός,animal,,unknown,high,,cow dung,Dung of grazing cattle; chapter covers other dungs.
+dsc:2.81,οὖρον ἀνθρώπου,animal,,unknown,high,,human urine,Human urine (and other urines).
+dsc:2.82,μέλι,animal,,unknown,high,,honey,Bee honey (Apis mellifera product); Attic Hymettian best.
+dsc:2.83,κηρός,animal,,unknown,high,,beeswax,Beeswax (Apis mellifera product).
+dsc:2.84,πρόπολις,animal,,unknown,high,,propolis,Bee glue (Apis mellifera product).
+dsc:2.85,πυροί,plant,Triticum aestivum,species,medium,Triticum durum,wheat,Pyros: free-threshing wheat; bread and durum wheat not distinguished in the text.
+dsc:2.86,κριθή,plant,Hordeum vulgare,species,high,,barley,Barley (standard); includes barley water (ptisane).
+dsc:2.87,ζῦθος,product,Hordeum vulgare,species,high,,zythos (barley beer),Beer made from barley.
+dsc:2.88,κοῦρμι,product,Hordeum vulgare,species,high,,curmi (barley beer),"Barley drink used instead of wine (Iberia, Britain)."
+dsc:2.89,ζέα,plant,Triticum monococcum,species,medium,Triticum turgidum subsp. dicoccum;Triticum aestivum subsp. spelta,einkorn and emmer,"Two kinds: 'simple' (one grain, einkorn) and 'dikokkos' (two grains per husk, emmer)."
+dsc:2.90,κρίμνον,product,Triticum,genus,medium,,krimnon (coarse wheat meal),Coarse meal of zea and wheat; porridge base.
+dsc:2.91,ὀλύρα,plant,Triticum,genus,low,Triticum turgidum subsp. dicoccum;Triticum monococcum,olyra (hulled wheat),"Same kind as zea but less nourishing; hulled wheat, usually emmer or einkorn."

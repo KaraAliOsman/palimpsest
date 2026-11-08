@@ -1,0 +1,329 @@
+monograph_id,headword,kind,scientific_name,rank,confidence,alternatives,common_name_en,note
+cul:001-amara-dulcis,Amara Dulcis,plant,Solanum dulcamara,species,high,,Bittersweet,"Names Bitter-sweet, Woody Night-shade, Felon-wort; standard identification."
+cul:002-all-heal,All-Heal,plant,Opopanax chironium,species,medium,,Opopanax,"Hercules's All-heal / Opopane-wort; pinnate hairy leaves, tall stalk, yellow umbels fit Opopanax chironium."
+cul:003-alkanet,Alkanet,plant,Alkanna tinctoria,species,medium,Anchusa officinalis;Pentaglottis sempervirens,Dyer's alkanet,Orchanet/Spanish bugloss/Enchusa = dye-root Alkanna tinctoria; Culpeper's English localities suggest confusion with a native borage.
+cul:004-adders-tongue-or-serpents-tongue,Adder’S Tongue Or Serpent’S Tongue,plant,Ophioglossum vulgatum,species,high,,Adder's-tongue fern,Single leaf with tongue-like spike; standard identification.
+cul:005-agrimony,Agrimony,plant,Agrimonia eupatoria,species,high,Agrimonia procera,Agrimony,Standard identification of herbal agrimony.
+cul:006-water-agrimony,Water Agrimony,plant,Bidens tripartita,species,high,,Trifid bur-marigold,"Purple stalk, brownish-yellow rayless heads, seeds sticking to wool fit Bidens tripartita (water hemp agrimony)."
+cul:007-alehoof-or-ground-ivy,"Alehoof, Or Ground-Ivy",plant,Glechoma hederacea,species,high,,Ground-ivy,Alehoof = ground-ivy; standard identification.
+cul:008-alexander,Alexander,plant,Smyrnium olusatrum,species,high,,Alexanders,Standard identification of alexanders.
+cul:009-the-black-alder-tree,The Black Alder-Tree,plant,Frangula alnus,species,high,,Alder buckthorn,Black alder of herbals = alder buckthorn with purgative bark; standard identification.
+cul:010-the-common-alder-tree,The Common Alder-Tree,plant,Alnus glutinosa,species,high,,Common alder,Common alder tree; standard identification.
+cul:011-angelica,Angelica,plant,Angelica archangelica,species,high,Angelica sylvestris,Garden angelica,Garden angelica of the herbals; wild angelica a possible alternative.
+cul:012-amaranthus,Amaranthus,plant,Amaranthus,genus,medium,Amaranthus caudatus;Amaranthus hypochondriacus,Amaranth,Garden 'Flower Gentle/Velvet Flower' with red tufts and shining black seed; species uncertain.
+cul:013-anemone,Anemone,plant,Anemone coronaria,species,medium,Anemone hortensis,Poppy anemone,"Garden windflowers sown by florists, not described; 17th-century garden anemones mainly A. coronaria and A. hortensis."
+cul:014-garden-arrach,Garden Arrach,plant,Atriplex hortensis,species,high,,Garden orache,Garden arrach = garden orache; standard identification.
+cul:015-arrach-wild-and-stinking,"Arrach, Wild And Stinking",plant,Chenopodium vulvaria,species,high,,Stinking goosefoot,Wild stinking arrach smelling of rotten fish; standard identification.
+cul:016-archangel,Archangel,plant,Lamium album,species,high,Lamium purpureum;Lamium galeobdolon,White dead-nettle,"Archangel = dead-nettles; white, red and yellow kinds (yellow = L. galeobdolon)."
+cul:017-arssmart,Arssmart,plant,Persicaria hydropiper,species,high,Persicaria maculosa,Water-pepper,Hot arssmart = water-pepper; mild/dead arssmart = P. maculosa.
+cul:018-asarabacca,Asarabacca,plant,Asarum europaeum,species,high,,Asarabacca,Standard identification.
+cul:019-asparagus-sparagus-or-sperage,"Asparagus, Sparagus, Or Sperage",plant,Asparagus officinalis,species,high,,Asparagus,Garden asparagus; standard identification.
+cul:020-prickly-asparagus-or-sperage,"Prickly Asparagus, Or Sperage",plant,Asparagus acutifolius,species,low,Asparagus officinalis,Wild asparagus,"Heading = Mediterranean prickly sperage (A. acutifolius), but the wild Gloucestershire locality suggests feral A. officinalis."
+cul:021-ash-tree,Ash Tree,plant,Fraxinus excelsior,species,high,,Ash,Standard identification.
+cul:022-avens-called-also-colewort-and-herb-bone,"Avens, Called Also Colewort, And Herb Bonet",plant,Geum urbanum,species,high,Geum rivale,Wood avens,Avens / herb bennet; standard identification.
+cul:023-balm,Balm,plant,Melissa officinalis,species,high,,Lemon balm,Standard identification.
+cul:024-barberry,Barberry,plant,Berberis vulgaris,species,high,,Barberry,Standard identification.
+cul:025-barley,Barley,plant,Hordeum vulgare,species,high,,Barley,Standard identification.
+cul:026-garden-bazil-or-sweet-bazil,"Garden Bazil, Or Sweet Bazil",plant,Ocimum basilicum,species,high,,Basil,Garden or sweet basil; standard identification.
+cul:027-the-bay-tree,The Bay Tree,plant,Laurus nobilis,species,high,,Bay laurel,Standard identification.
+cul:028-beans,Beans,plant,Vicia faba,species,high,,Broad bean,Garden beans of 17th-century England; standard identification.
+cul:029-french-beans,French Beans,plant,Phaseolus vulgaris,species,high,,French bean,Kidney/French bean; standard identification.
+cul:030-ladies-bed-straw,Ladies Bed-Straw,plant,Galium verum,species,high,,Lady's bedstraw,Standard identification.
+cul:031-beets,Beets,plant,Beta vulgaris,species,high,,Beet,White and red beets; standard identification.
+cul:032-water-betony,Water Betony,plant,Scrophularia auriculata,species,high,,Water figwort,"Brown-wort; square stalks, by water-courses; = Scrophularia aquatica of older floras."
+cul:033-wood-betony,Wood Betony,plant,Betonica officinalis,species,high,,Betony,Wood betony; standard identification.
+cul:034-the-beech-tree,The Beech Tree,plant,Fagus sylvatica,species,high,,Beech,Standard identification.
+cul:035-bilberries-called-by-some-whorts-and-who,"Bilberries, Called By Some Whorts, And Whortle-Berries",plant,Vaccinium myrtillus,species,high,Vaccinium vitis-idaea,Bilberry,Bilberries/whortleberries; standard identification.
+cul:036-bifoil-or-twablade,Bifoil Or Twablade,plant,Neottia ovata,species,high,,Common twayblade,Bifoil/twayblade orchid with paired leaves; standard identification.
+cul:037-the-birch-tree,The Birch Tree,plant,Betula pendula,species,medium,Betula pubescens,Silver birch,Drooping branches suggest silver birch; downy birch not distinguished in 17th century.
+cul:038-birds-foot,Bird’S Foot,plant,Ornithopus perpusillus,species,medium,Ornithopus sativus,Bird's-foot,Small heath legume with jointed claw-like pods; larger whitish-red second sort uncertain.
+cul:039-bishops-weed,Bishop’S-Weed,plant,Ammi majus,species,medium,Trachyspermum ammi,Bishop's-weed,"Wild at Greenhithe, white umbels, cut leaves: Ammi majus; apothecaries' Ammi seed often Trachyspermum ammi."
+cul:040-bistort-or-snakeweed,"Bistort, Or Snakeweed",plant,Bistorta officinalis,species,high,,Common bistort,Bistort/snakeweed; standard identification.
+cul:041-one-blade,One-Blade,plant,Maianthemum bifolium,species,high,,May lily,One-blade (Unifolium) of the herbalists; standard identification.
+cul:042-the-bramble-or-black-berry-bush,"The Bramble, Or Black-Berry Bush",plant,Rubus fruticosus,species,high,,Bramble,"Bramble/blackberry, aggregate species."
+cul:043-blites,Blites,plant,Amaranthus blitum,species,low,Amaranthus cruentus;Amaranthus retroflexus,Purple amaranth,"White and red blites (Blitum) with beet-like leaves and tufted heads; usually referred to Amaranthus, species uncertain."
+cul:044-borage-and-bugloss,Borage And Bugloss,plant,Borago officinalis,species,high,Anchusa officinalis;Helminthotheca echioides,Borage,Borage and bugloss (Anchusa officinalis); 'Langue de Boeuf' with dandelion-like yellow heads = bristly oxtongue.
+cul:045-blue-bottle,Blue-Bottle,plant,Centaurea cyanus,species,high,,Cornflower,Blue-bottle = cornflower; standard identification.
+cul:046-brank-ursine,Brank Ursine,plant,Acanthus mollis,species,high,,Bear's breech,Bear's-breech/Acanthus nursed in gardens; white hooded flowers; standard identification.
+cul:047-briony-or-wild-vine,"Briony, Or Wild Vine",plant,Bryonia dioica,species,high,Dioscorea communis,White bryony,White briony described (vine-like leaves); black briony (Tamus) = Dioscorea communis.
+cul:048-brook-lime-or-water-pimpernel,"Brook Lime, Or Water-Pimpernel",plant,Veronica beccabunga,species,high,,Brooklime,Standard identification.
+cul:049-butchers-broom,Butcher’S Broom,plant,Ruscus aculeatus,species,high,,Butcher's-broom,Standard identification.
+cul:050-broom-and-broom-rape,"Broom, And Broom-Rape",plant,Cytisus scoparius,species,high,Orobanche rapum-genistae,Broom,Broom; broom-rape parasitic on it = Orobanche rapum-genistae.
+cul:051-bucks-horn-plantain,Buck’S-Horn Plantain,plant,Plantago coronopus,species,high,,Buck's-horn plantain,Standard identification.
+cul:052-bucks-horn,Buck’S Horn,plant,Lepidium coronopus,species,medium,Plantago coronopus,Swine-cress,"Swine-cresses; trailing, small jagged leaves, whitish clustered flowers on dry ground fit swine-cress."
+cul:053-bugle,Bugle,plant,Ajuga reptans,species,high,,Bugle,Standard identification.
+cul:054-burnet,Burnet,plant,Poterium sanguisorba,species,high,Sanguisorba officinalis,Salad burnet,Garden burnet = salad burnet (Sanguisorba minor); the described great wild burnet = Sanguisorba officinalis.
+cul:055-the-butter-bur-or-petasitis,"The Butter-Bur, Or Petasitis",plant,Petasites hybridus,species,high,,Butterbur,Standard identification.
+cul:056-the-burdock,The Burdock,plant,Arctium lappa,species,medium,Arctium minus,Greater burdock,Great burdock/Personata; lesser burdock equally common in England and not distinguished.
+cul:057-cabbages-and-coleworts,Cabbages And Coleworts,plant,Brassica oleracea,species,high,,Cabbage,Cabbages and coleworts; standard identification.
+cul:058-the-sea-coleworts,The Sea Coleworts,plant,Crambe maritima,species,high,,Sea kale,"Thick wrinkled greyish leaves, white four-petalled flowers, Kent and Essex coasts fit sea kale."
+cul:059-calamint-or-mountain-mint,"Calamint, Or Mountain-Mint",plant,Clinopodium nepeta,species,medium,Clinopodium menthifolium;Clinopodium acinos,Lesser calamint,Small hoary pungent mint-like herb with pale bluish flowers on dry heaths; calamint group.
+cul:060-camomile,Camomile,plant,Chamaemelum nobile,species,medium,Matricaria chamomilla,Roman chamomile,"Not described; common English camomile usually Chamaemelum nobile, but Matricaria possible."
+cul:061-water-caltrops,Water-Caltrops,plant,Potamogeton crispus,species,low,Potamogeton lucens;Trapa natans,Curled pondweed,"Names belong to Trapa natans, said absent; the two described English kinds are pondweeds (Potamogeton)."
+cul:062-campion-wild,"Campion, Wild",plant,Silene latifolia,species,high,Silene dioica,White campion,Wild white campion described; red wild campion = Silene dioica.
+cul:063-carduus-benedictus,Carduus Benedictus,plant,Centaurea benedicta,species,high,,Blessed thistle,Carduus benedictus; standard identification.
+cul:064-carrots,Carrots,plant,Daucus carota,species,high,,Carrot,Standard identification.
+cul:065-carraway,Carraway,plant,Carum carvi,species,high,,Caraway,Standard identification.
+cul:066-celandine,Celandine,plant,Chelidonium majus,species,high,,Greater celandine,Standard identification.
+cul:067-the-lesser-celandine-usually-known-by-th,"The Lesser Celandine, Usually Known By The Name Of Pilewort And Fogwort",plant,Ficaria verna,species,high,,Lesser celandine,Pilewort; standard identification.
+cul:068-the-ordinary-small-centaury,The Ordinary Small Centaury,plant,Centaurium erythraea,species,high,,Common centaury,Small centaury; standard identification.
+cul:069-the-cherry-tree,The Cherry-Tree,plant,Prunus avium,species,medium,Prunus cerasus,Wild cherry,"Orchard cherries, sweet and sour, not described; sweet = P. avium, sour = P. cerasus."
+cul:070-winter-cherries,Winter-Cherries,plant,Alkekengi officinarum,species,high,,Chinese lantern,Winter cherry = Physalis alkekengi; standard identification.
+cul:071-chervil,Chervil,plant,Anthriscus cerefolium,species,high,,Chervil,Standard identification.
+cul:072-sweet-chervil-or-sweet-cicely,"Sweet Chervil, Or Sweet Cicely",plant,Myrrhis odorata,species,high,,Sweet cicely,Standard identification.
+cul:073-chesnut-tree,Chesnut Tree,plant,Castanea sativa,species,high,,Sweet chestnut,Standard identification.
+cul:074-earth-chesnuts,Earth Chesnuts,plant,Conopodium majus,species,medium,Bunium bulbocastanum,Pignut,"Earth-nuts / pig-nuts known to every child; English pignut, though Latin bulbocastanum name points to Bunium."
+cul:075-chickweed,Chickweed,plant,Stellaria media,species,high,,Chickweed,Standard identification.
+cul:076-chick-pease-or-cicers,"Chick-Pease, Or Cicers",plant,Cicer arietinum,species,high,,Chickpea,Standard identification.
+cul:077-five-fingered-grass,Five-Fingered Grass,plant,Potentilla reptans,species,high,,Creeping cinquefoil,Five-fingered grass = cinquefoil; standard identification.
+cul:078-cives,Cives,plant,Allium schoenoprasum,species,high,,Chives,Standard identification.
+cul:079-clary-or-more-properly-clear-eye,"Clary, Or More Properly Clear-Eye",plant,Salvia sclarea,species,high,,Clary sage,Garden clary; standard identification.
+cul:080-wild-clary,Wild Clary,plant,Salvia verbenaca,species,high,,Wild clary,Standard identification.
+cul:081-cleavers,Cleavers,plant,Galium aparine,species,high,,Cleavers,Standard identification.
+cul:082-clowns-woods,Clown’S Woods,plant,Stachys palustris,species,high,,Marsh woundwort,Clown's woundwort (Gerard); standard identification.
+cul:083-cocks-head-red-fitching-or-medick-fetch,"Cock’S Head, Red Fitching, Or Medick Fetch",plant,Onobrychis viciifolia,species,high,,Sainfoin,Cock's head/medick fetch with pale reddish spikes and rough flat pods; standard identification.
+cul:084-columbines,Columbines,plant,Aquilegia vulgaris,species,high,,Columbine,Standard identification.
+cul:085-coltsfoot,Coltsfoot,plant,Tussilago farfara,species,high,,Coltsfoot,Standard identification.
+cul:086-comfrey,Comfrey,plant,Symphytum officinale,species,high,,Comfrey,Standard identification.
+cul:087-coralwort,Coralwort,plant,Cardamine bulbifera,species,high,,Coralroot,"Toothwort/Dentaria with axillary bulbils, knobbed creeping root, Mayfield Sussex; fits coralroot."
+cul:088-costmary-or-alcost-or-balsam-herb,"Costmary, Or Alcost, Or Balsam Herb",plant,Tanacetum balsamita,species,high,,Costmary,Standard identification.
+cul:089-cudweed-or-cottonweed,"Cudweed, Or Cottonweed",plant,Filago germanica,species,medium,Gnaphalium sylvaticum;Logfia minima,Common cudweed,Common cudweed of dry sandy ground with brownish-yellow flowers among narrow woolly leaves; several cudweeds included.
+cul:090-cowslips-or-peagles,"Cowslips, Or Peagles",plant,Primula veris,species,high,,Cowslip,Standard identification.
+cul:091-crabs-claws,Crab’S Claws,plant,Stratiotes aloides,species,high,,Water soldier,"Fresh-water soldier/water sengreen, Lincolnshire fens; standard identification."
+cul:092-black-cresses,Black Cresses,plant,Diplotaxis tenuifolia,species,low,Diplotaxis muralis;Sisymbrium irio;Brassica nigra,Perennial wall-rocket,Speculative: yellow-flowered crucifer with deeply cut leaves on walls and rubbish around London; not otherwise identifiable.
+cul:093-sciatica-cresses,Sciatica Cresses,plant,Lepidium graminifolium,species,low,Iberis amara;Lepidium campestre,Tall pepperwort,Speculative: herbalists' Iberis/sciatica cress; two white-flowered wayside crucifers with sharp seed.
+cul:094-water-cresses,Water Cresses,plant,Nasturtium officinale,species,high,,Watercress,Standard identification.
+cul:095-crosswort,Crosswort,plant,Cruciata laevipes,species,high,,Crosswort,Standard identification.
+cul:096-crowfoot,Crowfoot,plant,Ranunculus acris,species,medium,Ranunculus bulbosus;Ranunculus repens,Meadow buttercup,"Many crowfoots; the most common, with acrid blistering leaves and bright yellow flowers, fits R. acris."
+cul:097-cuckow-point,Cuckow-Point,plant,Arum maculatum,species,high,,Lords-and-ladies,Cuckoo-pint; standard identification.
+cul:098-cucumbers,Cucumbers,plant,Cucumis sativus,species,high,,Cucumber,Standard identification.
+cul:099-daisies,Daisies,plant,Bellis perennis,species,high,Leucanthemum vulgare,Daisy,"Not described; common daisy, with the greater (ox-eye) daisy possibly included."
+cul:100-dandelion-vulgarly-called-piss-a-beds,"Dandelion, Vulgarly Called Piss-A-Beds",plant,Taraxacum officinale,species,high,,Dandelion,Standard identification (aggregate).
+cul:101-darnel,Darnel,plant,Lolium temulentum,species,high,,Darnel,Standard identification.
+cul:102-dill,Dill,plant,Anethum graveolens,species,high,,Dill,Standard identification.
+cul:103-devils-bit,Devil’S-Bit,plant,Succisa pratensis,species,high,,Devil's-bit scabious,Standard identification.
+cul:104-dock,Dock,plant,Rumex,genus,high,Rumex sanguineus;Rumex crispus;Rumex obtusifolius,Dock,All docks treated together; red dock/bloodwort and yellow dock named.
+cul:105-dodder-of-thyme-epithymum-and-other-dodd,"Dodder Of Thyme, Epithymum, And Other Dodders",plant,Cuscuta epithymum,species,high,Cuscuta europaea,Dodder,Dodder of thyme (Epithymum); other dodders included.
+cul:106-dogs-grass-or-cough-grass,"Dog’S-Grass, Or Cough Grass",plant,Elymus repens,species,high,,Couch grass,Dog's-grass/couch grass; standard identification.
+cul:107-doves-foot-or-cranes-bill,"Dove’S-Foot, Or Crane’S-Bill",plant,Geranium molle,species,medium,Geranium columbinum;Geranium dissectum,Dove's-foot crane's-bill,Small cranesbill with very small red flowers; dove's-foot usually G. molle.
+cul:108-ducks-meat,Duck’S Meat,plant,Lemna minor,species,high,Lemna trisulca,Common duckweed,Duck's meat = duckweed; standard identification.
+cul:109-down-or-cotton-thistle,"Down, Or Cotton-Thistle",plant,Onopordum acanthium,species,high,,Cotton thistle,Standard identification.
+cul:110-dragons,Dragons,plant,Dracunculus vulgaris,species,high,,Dragon arum,Garden 'dragons' with snake-like mottled stalks; standard identification.
+cul:111-the-elder-tree,The Elder Tree,plant,Sambucus nigra,species,high,,Elder,Standard identification.
+cul:112-the-dwarf-elder,The Dwarf-Elder,plant,Sambucus ebulus,species,high,,Dwarf elder,Standard identification.
+cul:113-the-elm-tree,The Elm Tree,plant,Ulmus minor,species,medium,Ulmus glabra,Field elm,"Common English elm (U. procera, now in U. minor), not described; wych elm also widespread."
+cul:114-endive,Endive,plant,Cichorium endivia,species,high,,Endive,Standard identification.
+cul:115-elecampane,Elecampane,plant,Inula helenium,species,high,,Elecampane,Standard identification.
+cul:116-eringo-or-sea-holly,"Eringo, Or Sea-Holly",plant,Eryngium maritimum,species,high,,Sea holly,Standard identification.
+cul:117-eyebright,Eyebright,plant,Euphrasia officinalis,species,high,,Eyebright,Common eyebright (aggregate); standard identification.
+cul:118-fern,Fern,plant,Dryopteris filix-mas,species,medium,Pteridium aquilinum;Athyrium filix-femina,Male fern,Male and female fern treated together; herbalists' female fern usually bracken.
+cul:119-osmond-royal-or-water-fern,"Osmond Royal, Or Water Fern",plant,Osmunda regalis,species,high,,Royal fern,Standard identification.
+cul:120-feverfew-or-featherfew,Feverfew Or Featherfew,plant,Tanacetum parthenium,species,high,,Feverfew,Standard identification.
+cul:121-fennel,Fennel,plant,Foeniculum vulgare,species,high,,Fennel,Standard identification.
+cul:122-sow-fennel-or-hogs-fennel,"Sow-Fennel, Or Hog’S-Fennel",plant,Peucedanum officinale,species,high,,Hog's fennel,Standard identification.
+cul:123-fig-wort-or-throat-wort,"Fig-Wort, Or Throat-Wort",plant,Scrophularia nodosa,species,high,,Common figwort,Standard identification.
+cul:124-filipendula-or-drop-wort,"Filipendula, Or Drop-Wort",plant,Filipendula vulgaris,species,high,,Dropwort,Standard identification.
+cul:125-the-fig-tree,The Fig-Tree,plant,Ficus carica,species,high,,Fig,Standard identification.
+cul:126-the-yellow-water-flag-or-flower-de-luce,"The Yellow Water-Flag, Or Flower-De-Luce",plant,Iris pseudacorus,species,high,,Yellow iris,Standard identification.
+cul:127-flax-weed-or-toad-flax,"Flax-Weed, Or Toad-Flax",plant,Linaria vulgaris,species,high,,Common toadflax,Standard identification.
+cul:128-flea-wort,Flea-Wort,plant,Plantago afra,species,medium,Plantago arenaria,Psyllium,"Flea-like shining seed in chaffy heads, garden-grown; Psyllium; second seaside sort uncertain."
+cul:129-flux-weed,Flux-Weed,plant,Descurainia sophia,species,high,,Flixweed,Flux-weed (Sophia chirurgorum); standard identification.
+cul:130-flower-de-luce,Flower-De-Luce,plant,Iris germanica,species,medium,Iris pallida,Bearded iris,"Garden flower-de-luce, not described; flaggy and dwarf kinds; orris iris most likely."
+cul:131-fluellin-or-lluellin,"Fluellin, Or Lluellin",plant,Kickxia spuria,species,medium,Kickxia elatine,Round-leaved fluellen,First sort with roundish leaves; second with eared leaves = sharp-leaved fluellen (K. elatine).
+cul:132-fox-glove,Fox-Glove,plant,Digitalis purpurea,species,high,,Foxglove,Standard identification.
+cul:133-fumitory,Fumitory,plant,Fumaria officinalis,species,high,,Common fumitory,Standard identification.
+cul:134-the-furze-bush,The Furze Bush,plant,Ulex europaeus,species,high,,Gorse,Standard identification.
+cul:135-garlick,Garlick,plant,Allium sativum,species,high,,Garlic,Standard identification.
+cul:136-gentian-felwort-or-baldmony,"Gentian, Felwort, Or Baldmony",plant,Gentianella amarella,species,medium,Gentianella germanica;Gentianella campestris;Gentiana pneumonanthe;Gentiana lutea,Autumn gentian,"English felwort (purple, Kent chalk) fits Gentianella; imported gentian root is Gentiana lutea."
+cul:137-clove-gilliflowers,Clove Gilliflowers,plant,Dianthus caryophyllus,species,high,,Carnation,Standard identification.
+cul:138-germander,Germander,plant,Teucrium chamaedrys,species,high,,Wall germander,Standard identification.
+cul:139-stinking-gladwin,Stinking Gladwin,plant,Iris foetidissima,species,high,,Stinking iris,Standard identification.
+cul:140-golden-rod,Golden Rod,plant,Solidago virgaurea,species,high,,Goldenrod,Standard identification.
+cul:141-gout-wort-or-herb-gerrard,"Gout-Wort, Or Herb Gerrard",plant,Aegopodium podagraria,species,high,,Ground elder,Standard identification.
+cul:142-gromel,Gromel,plant,Lithospermum officinale,species,high,,Common gromwell,Standard identification.
+cul:143-gooseberry-bush,Gooseberry Bush,plant,Ribes uva-crispa,species,high,,Gooseberry,Standard identification.
+cul:144-winter-green,Winter-Green,plant,Pyrola rotundifolia,species,medium,Pyrola minor;Orthilia secunda,Round-leaved wintergreen,"Pear-like leaves, open star-like fragrant white flowers, northern woods; Pyrola."
+cul:145-groundsel,Groundsel,plant,Senecio vulgaris,species,high,,Groundsel,Standard identification.
+cul:146-hearts-ease,Heart’S-Ease,plant,Viola tricolor,species,high,,Wild pansy,Standard identification.
+cul:147-artichokes,Artichokes,plant,Cynara cardunculus,species,high,,Globe artichoke,Garden artichoke (Cynara scolymus = C. cardunculus); standard identification.
+cul:148-harts-tongue,Hart’S-Tongue,plant,Asplenium scolopendrium,species,high,,Hart's-tongue fern,Standard identification.
+cul:149-hazel-nut,Hazel-Nut,plant,Corylus avellana,species,high,,Hazel,Standard identification.
+cul:150-hawk-weed,Hawk-Weed,plant,Hieracium,genus,low,Crepis biennis;Picris hieracioides;Hypochaeris radicata,Hawkweed,Several sorts; runcinate basal leaves and rough branched stalk fit Crepis or Picris as well as Hieracium.
+cul:151-hawthorn,Hawthorn,plant,Crataegus monogyna,species,high,Crataegus laevigata,Hawthorn,Standard identification.
+cul:152-hemlock,Hemlock,plant,Conium maculatum,species,high,,Hemlock,Standard identification.
+cul:153-hemp,Hemp,plant,Cannabis sativa,species,high,,Hemp,Standard identification.
+cul:154-henbane,Henbane,plant,Hyoscyamus niger,species,high,,Henbane,Standard identification.
+cul:155-hedge-hyssop,Hedge Hyssop,plant,Gratiola officinalis,species,medium,Scutellaria minor,Hedge hyssop,"Italian garden kind = Gratiola; described wild English sorts (purple, spotted, bogs) fit Scutellaria minor."
+cul:156-black-hellebore,Black Hellebore,plant,Helleborus niger,species,high,Helleborus foetidus;Helleborus viridis,Christmas rose,"Christmas-herb/flowers = H. niger; bear's-foot and setterwort names also cover H. foetidus, H. viridis."
+cul:157-herb-robert,Herb Robert,plant,Geranium robertianum,species,high,,Herb Robert,Standard identification.
+cul:158-herb-true-love-or-one-berry,"Herb True-Love, Or One-Berry",plant,Paris quadrifolia,species,high,,Herb Paris,Herb true-love/one-berry; standard identification.
+cul:159-hyssop,Hyssop,plant,Hyssopus officinalis,species,high,,Hyssop,Standard identification.
+cul:160-hops,Hops,plant,Humulus lupulus,species,high,,Hop,Standard identification.
+cul:161-horehound,Horehound,plant,Marrubium vulgare,species,high,,White horehound,Standard identification.
+cul:162-horsetail,Horsetail,plant,Equisetum telmateia,species,medium,Equisetum arvense;Equisetum hyemale,Great horsetail,'Great horsetail' with asparagus-like fertile shoots; many kinds treated together.
+cul:163-houseleek-or-sengreen,Houseleek Or Sengreen,plant,Sempervivum tectorum,species,high,,Houseleek,Standard identification.
+cul:164-hounds-tongue,Hound’S Tongue,plant,Cynoglossum officinale,species,high,,Hound's-tongue,Standard identification.
+cul:165-holly-holm-or-hulver-bush,"Holly, Holm, Or Hulver Bush",plant,Ilex aquifolium,species,high,,holly,Holly/hulver is the standard English name for Ilex aquifolium; Culpeper gives no description.
+cul:166-st-johns-wort,St. John’S Wort,plant,Hypericum perforatum,species,high,,perforate St John's-wort,"Common St John's wort; pellucid-dotted opposite leaves, yellow star flowers."
+cul:167-ivy,Ivy,plant,Hedera helix,species,high,,common ivy,Climbing on trees and church walls; the only native English ivy.
+cul:168-juniper-bush,Juniper Bush,plant,Juniperus communis,species,high,,common juniper,Common juniper bush; berries used medicinally.
+cul:169-kidneywort-or-wall-pennyroyal-or-wall-pe,"Kidneywort, Or Wall Pennyroyal, Or Wall Pennywort",plant,Umbilicus rupestris,species,high,,navelwort,Peltate saucer-like leaves on walls: wall pennywort/navelwort.
+cul:170-knapweed,Knapweed,plant,Centaurea nigra,species,medium,Centaurea scabiosa,common knapweed,"Common knapweed; scaly heads, purple florets; slightly torn leaves could also suggest greater knapweed."
+cul:171-knotgrass,Knotgrass,plant,Polygonum aviculare,species,high,,common knotgrass,Knotgrass is the standard name for Polygonum aviculare.
+cul:172-ladies-mantle,Ladies’ Mantle,plant,Alchemilla vulgaris,species,high,Alchemilla xanthochlora,lady's mantle,Round pleated lobed leaves: Alchemilla vulgaris aggregate.
+cul:173-lavender,Lavender,plant,Lavandula angustifolia,species,high,Lavandula latifolia,lavender,Garden lavender of English gardens.
+cul:174-lavender-cotton,Lavender-Cotton,plant,Santolina chamaecyparissus,species,high,,cotton lavender,Lavender-cotton is the standard name of Santolina chamaecyparissus.
+cul:175-ladies-smock-or-cuckow-flower,"Ladies-Smock, Or Cuckow-Flower",plant,Cardamine pratensis,species,high,,cuckooflower,Meadow plant with pinnate leaves; lady's smock/cuckoo-flower.
+cul:176-lettuce,Lettuce,plant,Lactuca sativa,species,high,,lettuce,Garden salad lettuce.
+cul:177-water-lily,Water Lily,plant,Nymphaea alba,species,high,Nuphar lutea,white water-lily,"Covers white and yellow water lilies; main white kind Nymphaea alba, yellow Nuphar lutea."
+cul:178-lily-of-the-valley,Lily Of The Valley,plant,Convallaria majalis,species,high,,lily of the valley,"Creeping root, white bell flowers, red berries."
+cul:179-white-lilies,White Lilies,plant,Lilium candidum,species,high,,Madonna lily,White garden lily of 17th-century England is Lilium candidum.
+cul:180-liquorice,Liquorice,plant,Glycyrrhiza glabra,species,high,,liquorice,Pinnate ash-like leaves; English-grown liquorice root.
+cul:181-liverwort,Liverwort,plant,Marchantia polymorpha,species,medium,Peltigera canina,common liverwort,Flat thallus on damp shady ground with small stalked star-like heads (receptacles) fits Marchantia.
+cul:182-loosestrife-or-willow-herb,Loosestrife Or Willow-Herb,plant,Lysimachia vulgaris,species,high,,yellow loosestrife,"Common yellow loosestrife, tall with leaves in pairs or whorls."
+cul:183-loosestrife-with-spiked-heads-of-flowers,"Loosestrife, With Spiked Heads Of Flowers",plant,Lythrum salicaria,species,high,,purple loosestrife,"Square stalks, long spikes of flowers; purple loosestrife."
+cul:184-lovage,Lovage,plant,Levisticum officinale,species,high,,lovage,"Large winged leaves like smallage, hollow stalks; garden lovage."
+cul:185-lungwort,Lungwort,fungus,Lobaria pulmonaria,species,high,,tree lungwort,Broad greyish leafy 'moss' on oaks and beeches without flowers: the lichen Lobaria pulmonaria.
+cul:186-madder,Madder,plant,Rubia tinctorum,species,high,Rubia peregrina,madder,"Garden madder: rough square trailing stems, whorled leaves."
+cul:187-maiden-hair,Maiden Hair,plant,Asplenium trichomanes,species,high,Adiantum capillus-veneris,maidenhair spleenwort,Black brittle stalks with small round leaflets: English 'common maidenhair' = Asplenium trichomanes.
+cul:188-wall-rue-or-white-maiden-hair,"Wall Rue, Or, White Maiden-Hair",plant,Asplenium ruta-muraria,species,high,,wall-rue,Wall rue/white maidenhair is Asplenium ruta-muraria.
+cul:189-golden-maiden-hair,Golden Maiden Hair,plant,Polytrichum commune,species,medium,Polytrichum juniperinum,common haircap moss,"Hair-like leaves and golden capsule in a husk, in bogs/heaths: haircap moss."
+cul:190-mallows-and-marshmallows,Mallows And Marshmallows,plant,Malva sylvestris,species,high,Althaea officinalis,common mallow,"Common mallow plus marshmallow (Althaea officinalis), both described."
+cul:191-maple-tree,Maple Tree,plant,Acer campestre,species,medium,Acer pseudoplatanus,field maple,No description; field maple is the native English maple.
+cul:192-wind-marjoram,Wind Marjoram,plant,Origanum vulgare,species,high,,wild marjoram,"Called Origanum, wild or field marjoram."
+cul:193-sweet-marjoram,Sweet Marjoram,plant,Origanum majorana,species,high,Origanum onites,sweet marjoram,Garden sweet marjoram; pot marjoram mentioned (O. onites).
+cul:194-marigolds,Marigolds,plant,Calendula officinalis,species,high,,pot marigold,Garden marigold of English herbals is Calendula officinalis.
+cul:195-masterwort,Masterwort,plant,Imperatoria ostruthium,species,high,,masterwort,"Common masterwort with ternate leaves; GBIF-accepted name, syn. Peucedanum ostruthium."
+cul:196-sweet-maudlin,Sweet Maudlin,plant,Achillea ageratum,species,high,,sweet maudlin,"Yellow tansy-like flower heads, narrow toothed leaves: sweet maudlin."
+cul:197-the-medlar,The Medlar,plant,Mespilus germanica,species,high,,medlar,Medlar tree described; five-petalled white flowers.
+cul:198-mellilot-or-kings-claver,"Mellilot, Or King’S Claver",plant,Melilotus officinalis,species,high,Melilotus altissimus,ribbed melilot,Yellow scented trefoil flowers: melilot/King's claver.
+cul:199-french-and-dog-mercury,French And Dog Mercury,plant,Mercurialis annua,species,high,,annual mercury,"French mercury, annual and branched, is Mercurialis annua."
+cul:200-dog-mercury,Dog Mercury,plant,Mercurialis perennis,species,high,,dog's mercury,"Dog mercury, unbranched stalks, woodland."
+cul:201-mint,Mint,plant,Mentha spicata,species,high,,spearmint,Spear or heart mint explicitly described.
+cul:202-misselto,Misselto,plant,Viscum album,species,high,,mistletoe,Woody parasite with paired leaves on tree branches.
+cul:203-moneywort-or-herb-twopence,"Moneywort, Or Herb Twopence",plant,Lysimachia nummularia,species,high,,creeping-Jenny,Creeping stems with paired round leaves: moneywort/herb twopence.
+cul:204-moonwort,Moonwort,plant,Botrychium lunaria,species,high,,moonwort,Single divided leaf with fertile spike: moonwort fern.
+cul:205-mosses,Mosses,plant,,unknown,low,,mosses,Unspecified ground moss (bryophytes) and tree moss (epiphytic mosses/lichens); no description given.
+cul:206-motherwort,Motherwort,plant,Leonurus cardiaca,species,high,,motherwort,"Square stalk, lobed leaves, whorled flowers: motherwort."
+cul:207-mouse-ear,Mouse-Ear,plant,Pilosella officinarum,species,high,,mouse-ear hawkweed,"Stoloniferous hairy rosette, milky sap, single pale yellow head."
+cul:208-mugwort,Mugwort,plant,Artemisia vulgaris,species,high,,mugwort,"Leaves dark green above, white beneath; tall stalks."
+cul:209-the-mulberry-tree,The Mulberry-Tree,plant,Morus nigra,species,high,Morus alba,black mulberry,Mulberry grown in 17th-century England was the black mulberry.
+cul:210-mullein,Mullein,plant,Verbascum thapsus,species,high,,great mullein,"Common white mullein with woolly leaves, tall stalk."
+cul:211-mustard,Mustard,plant,Sinapis alba,species,medium,Brassica nigra,white mustard,Rough beaked pods with round yellowish seed fit white mustard; black mustard also possible.
+cul:212-the-hedge-mustard,The Hedge-Mustard,plant,Sisymbrium officinale,species,high,,hedge mustard,"Tough branched stalk, runcinate leaves: hedge mustard."
+cul:213-nailwort-or-whitlow-grass,"Nailwort, Or Whitlow-Grass",plant,Draba verna,species,high,,common whitlowgrass,Tiny annual with small white flowers: whitlow grass.
+cul:214-nep-or-catmint,"Nep, Or Catmint",plant,Nepeta cataria,species,high,,catmint,"Garden nep/catmint, hoary square stalks."
+cul:215-nettles,Nettles,plant,Urtica dioica,species,high,Urtica urens,common nettle,Stinging nettles; both common and small nettle covered.
+cul:216-nightshade,Nightshade,plant,Solanum nigrum,species,high,,black nightshade,Common nightshade with basil-like leaves and black berries.
+cul:217-the-oak,The Oak,plant,Quercus robur,species,high,Quercus petraea,pedunculate oak,English oak; no description.
+cul:218-oats,"Oats,",plant,Avena sativa,species,high,,oat,Cultivated oats.
+cul:219-one-blade,One Blade,plant,Maianthemum bifolium,species,high,,May lily,"One/two ribbed leaves, white star flowers: one-blade."
+cul:220-orchis,Orchis,plant,Orchis,genus,medium,Orchis mascula;Anacamptis morio,orchids,"Tuberous orchids collectively (dog-stones, satyrion); only roots described."
+cul:221-onions,Onions,plant,Allium cepa,species,high,,onion,Garden onion.
+cul:222-orpine,Orpine,plant,Hylotelephium telephium,species,high,,orpine,"Fleshy leaves, tufted flowers, tuberous roots: orpine."
+cul:223-parsley,Parsley,plant,Petroselinum crispum,species,high,,parsley,Garden parsley.
+cul:224-parsley-piert-or-parsley-break-stone,"Parsley Piert, Or Parsley Break Stone",plant,Aphanes arvensis,species,high,,parsley-piert,Small prostrate plant with parsley-like leaves: parsley piert.
+cul:225-parsnips,Parsnips,plant,Pastinaca sativa,species,high,,wild parsnip,Garden and wild parsnip; wild described.
+cul:226-cow-parsnips,Cow Parsnips,plant,Heracleum sphondylium,species,high,,hogweed,Large rough pinnate leaves; cow parsnip is hogweed.
+cul:227-the-peach-tree,The Peach Tree,plant,Prunus persica,species,high,,peach,Peach tree described.
+cul:228-the-pear-tree,The Pear Tree,plant,Pyrus communis,species,high,,pear,Pear trees.
+cul:229-pellitory-of-spain,Pellitory Of Spain,plant,Anacyclus pyrethrum,species,high,Achillea ptarmica,pellitory of Spain,"Single flower white above, reddish beneath; English wild sort described is sneezewort."
+cul:230-pellitory-of-the-wall,Pellitory Of The Wall,plant,Parietaria judaica,species,medium,Parietaria officinalis,pellitory-of-the-wall,"Reddish brittle stems on walls; British species is P. judaica, older texts say P. officinalis."
+cul:231-pennyroyal,Pennyroyal,plant,Mentha pulegium,species,high,,pennyroyal,"Common pennyroyal, creeping mint."
+cul:232-male-and-female-peony,Male And Female Peony,plant,Paeonia mascula,species,high,Paeonia officinalis,peony,Male peony (entire leaflets) = P. mascula; female = P. officinalis.
+cul:233-pepperwort-or-dittander,"Pepperwort, Or Dittander",plant,Lepidium latifolium,species,high,,dittander,"Broad bluish leaves, white flowers, tall: dittander."
+cul:234-periwinkle,Periwinkle,plant,Vinca minor,species,high,Vinca major,lesser periwinkle,"Trailing rooting stems, small shiny leaves, pale blue flowers in woods."
+cul:235-st-peters-wort,St. Peter’S Wort,plant,Hypericum tetrapterum,species,medium,Hypericum hirsutum;Hypericum maculatum,square-stalked St John's-wort,"Square stalks, larger and with few dots, damp places; Ascyron of herbals."
+cul:236-pimpernel,Pimpernel,plant,Lysimachia arvensis,species,high,,scarlet pimpernel,"Square trailing stalks, sessile paired leaves, single flowers: scarlet pimpernel."
+cul:237-ground-pine-or-chamepitys,"Ground Pine, Or Chamepitys",plant,Ajuga chamaepitys,species,high,,ground-pine,"Low hairy plant with three-cleft leaves, pine scent: Chamaepitys."
+cul:238-plantain,Plantain,plant,Plantago major,species,high,Plantago lanceolata,greater plantain,Common plantain of paths and meadows.
+cul:239-plums,Plums,plant,Prunus domestica,species,high,,plum,Plums.
+cul:240-polypody-of-the-oak,Polypody Of The Oak,plant,Polypodium vulgare,species,high,,common polypody,Winged fronds on oaks: polypody of the oak.
+cul:241-the-poplar-tree,The Poplar Tree,plant,Populus alba,species,high,Populus nigra,white poplar,White and black poplar both described.
+cul:242-poppy,Poppy,plant,Papaver somniferum,species,high,Papaver rhoeas,opium poppy,White and black garden poppies = P. somniferum; corn rose = P. rhoeas.
+cul:243-purslain,Purslain,plant,Portulaca oleracea,species,high,,purslane,Garden purslane salad herb.
+cul:244-primroses,Primroses,plant,Primula vulgaris,species,high,Primula veris,primrose,Primroses.
+cul:245-privet,Privet,plant,Ligustrum vulgare,species,high,,wild privet,Common privet for arbours and topiary.
+cul:246-queen-of-the-meadows-meadow-sweet-or-mea,"Queen Of The Meadows, Meadow Sweet, Or Mead Sweet",plant,Filipendula ulmaria,species,high,,meadowsweet,"Reddish stalks, elm-like pinnate leaves: meadowsweet."
+cul:247-the-quince-tree,The Quince Tree,plant,Cydonia oblonga,species,high,,quince,Quince tree described.
+cul:248-raddish-or-horse-raddish,"Raddish, Or Horse-Raddish",plant,Armoracia rusticana,species,high,Raphanus sativus,horseradish,Horse-radish described; garden radish (Raphanus sativus) only named.
+cul:249-ragwort,Ragwort,plant,Jacobaea vulgaris,species,high,,common ragwort,St James-wort/staggerwort with torn leaves: common ragwort.
+cul:250-rattle-grass,Rattle Grass,plant,Rhinanthus minor,species,medium,Pedicularis sylvatica;Pedicularis palustris,yellow rattle,Yellow rattle (cock's-comb leaves) and red rattle (lousewort) both described.
+cul:251-rest-harrow-or-cammock,"Rest Harrow, Or Cammock",plant,Ononis spinosa,species,high,,spiny restharrow,Woody twigs armed with short sharp thorns: restharrow (GBIF includes O. repens as subsp. procurrens).
+cul:252-rocket,Rocket,plant,Diplotaxis tenuifolia,species,medium,Eruca vesicaria,perennial wall-rocket,"Wild rocket with finely cut leaves, yellow flowers, long pods; garden rocket omitted."
+cul:253-winter-rocket-or-cresses,"Winter-Rocket, Or Cresses",plant,Barbarea vulgaris,species,high,,winter-cress,Winter-rocket/winter cresses with lyrate leaves.
+cul:254-roses,Roses,plant,Rosa,genus,medium,Rosa gallica;Rosa canina;Rosa × damascena;Rosa × alba,roses,"Garden roses (red, white, damask) and briar roses collectively."
+cul:255-rosa-solis-or-sun-dew,"Rosa Solis, Or Sun Dew",plant,Drosera rotundifolia,species,high,,round-leaved sundew,"Round leaves with red glandular hairs, moist in heat: sundew."
+cul:256-rosemary,Rosemary,plant,Salvia rosmarinus,species,high,,rosemary,Garden rosemary.
+cul:257-rhubarb-or-rephontic,"Rhubarb, Or Rephontic",plant,Rheum rhaponticum,species,medium,Rheum rhabarbarum,rhapontic rhubarb,Garden-grown rhubarb in England with huge round sour leaves: rhapontic.
+cul:258-garden-patience-or-monks-rhubarb,"Garden-Patience, Or Monk’S Rhubarb",plant,Rumex patientia,species,high,,patience dock,Garden patience/monk's rhubarb is Rumex patientia.
+cul:259-great-round-leaved-dock-or-bastard-rhuba,"Great Round-Leaved Dock, Or Bastard Rhubarb",plant,Rumex alpinus,species,medium,,monk's rhubarb,"Large round leaves, yellow root resembling rhubarb: alpine dock."
+cul:260-meadow-rue,Meadow-Rue,plant,Thalictrum flavum,species,high,,common meadow-rue,"Yellow stringy creeping root, divided leaves: meadow rue."
+cul:261-garden-rue,Garden-Rue,plant,Ruta graveolens,species,high,,common rue,"Garden rue, herb of grace."
+cul:262-rupture-wort,Rupture-Wort,plant,Herniaria glabra,species,high,Herniaria hirsuta,smooth rupturewort,"Prostrate thready branches, tiny yellowish flowers: rupturewort."
+cul:263-rushes,Rushes,plant,Juncus,genus,low,Juncus effusus;Schoenoplectus lacustris,rushes,Bulrushes and soft rushes collectively; no description.
+cul:264-rye,Rye,plant,Secale cereale,species,high,,rye,Rye grain.
+cul:265-saffron,Saffron,plant,Crocus sativus,species,high,,saffron crocus,Saffron.
+cul:266-sage,Sage,plant,Salvia officinalis,species,high,,common sage,Garden sage.
+cul:267-wood-sage,Wood-Sage,plant,Teucrium scorodonia,species,high,,wood sage,"Wood-sage with hoary square stalks, sage-like leaves."
+cul:268-solomons-seal,Solomon’S Seal,plant,Polygonatum multiflorum,species,high,Polygonatum odoratum,Solomon's-seal,Arching stalk with alternate leaves like lily of the valley.
+cul:269-samphire,Samphire,plant,Crithmum maritimum,species,high,,rock samphire,Rock samphire explicitly described.
+cul:270-sanicle,Sanicle,plant,Sanicula europaea,species,high,,sanicle,Palmately lobed glossy leaves: wood sanicle.
+cul:271-saracens-confound-or-saracens-woundwort,"Saracen’S Confound, Or Saracen’S Woundwort",plant,Senecio sarracenicus,species,medium,Solidago virgaurea,broad-leaved ragwort,"Man-high, willow-like toothed leaves, yellow star flowers: Solidago saracenica of herbals."
+cul:272-sauce-alone-or-jack-by-the-hedge-side,"Sauce-Alone, Or Jack-By-The-Hedge-Side",plant,Alliaria petiolata,species,high,,garlic mustard,"Jack-by-the-hedge with nettle-shaped leaves, white flowers."
+cul:273-winter-and-summer-savoury,Winter And Summer Savoury,plant,Satureja hortensis,species,high,Satureja montana,summer savory,Summer (S. hortensis) and winter (S. montana) savory.
+cul:274-savine,Savine,plant,Juniperus sabina,species,high,,savin,"Savine, evergreen garden shrub."
+cul:275-the-common-white-saxifrage,The Common White Saxifrage,plant,Saxifraga granulata,species,high,,meadow saxifrage,Small reddish bulbils (kernels) at the root: white meadow saxifrage.
+cul:276-burnet-saxifrage,Burnet Saxifrage,plant,Pimpinella saxifraga,species,high,Pimpinella major,burnet-saxifrage,Burnet saxifrage with white umbels; greater sort is P. major.
+cul:277-scabious-three-sorts,"Scabious, Three Sorts",plant,Knautia arvensis,species,high,Scabiosa columbaria;Succisa pratensis,field scabious,Common field scabious with pale blue heads; smaller sort likely S. columbaria.
+cul:278-scurvygrass,Scurvygrass,plant,Cochlearia officinalis,species,high,Cochlearia anglica,common scurvygrass,English scurvygrass with long-stalked fleshy leaves.
+cul:279-self-heal,Self-Heal,plant,Prunella vulgaris,species,high,,selfheal,"Self-heal, prunel, carpenter's herb."
+cul:280-the-service-tree,The Service-Tree,plant,Torminalis glaberrima,species,medium,Cormus domestica,wild service tree,No description; fruit eaten mellow like medlars; native English service tree (syn. Sorbus torminalis).
+cul:281-shepherds-purse,Shepherd’S Purse,plant,Capsella bursa-pastoris,species,high,,shepherd's-purse,Shepherd's purse.
+cul:282-smallage,Smallage,plant,Apium graveolens,species,high,,wild celery,Smallage is wild celery.
+cul:283-sopewort-or-bruisewort,"Sopewort, Or Bruisewort",plant,Saponaria officinalis,species,high,,soapwort,"Creeping jointed roots, plantain-like ribbed leaves: soapwort."
+cul:284-sorrel,Sorrel,plant,Rumex acetosa,species,high,,common sorrel,Ordinary sorrel of gardens and fields.
+cul:285-wood-sorrel,Wood Sorrel,plant,Oxalis acetosella,species,high,,wood-sorrel,Trefoil leaves notched at the ends: wood sorrel.
+cul:286-sow-thistle,Sow Thistle,plant,Sonchus oleraceus,species,high,Sonchus asper,smooth sow-thistle,Sow thistles.
+cul:287-southern-wood,Southern Wood,plant,Artemisia abrotanum,species,high,,southernwood,Southernwood.
+cul:288-spignel-or-spikenard,"Spignel, Or Spikenard",plant,Meum athamanticum,species,high,,spignel,"Hair-fine leaves, aromatic root: spignel/baldmoney."
+cul:289-spleenwort-ceterach-or-hearts-tongue,"Spleenwort, Ceterach, Or Heart’S Tongue",plant,Asplenium ceterach,species,high,,rustyback,"Fronds lobed to midrib, rusty scales beneath, on walls: Ceterach."
+cul:290-star-thistle,Star Thistle,plant,Centaurea calcitrapa,species,high,,red star-thistle,Star thistle with spreading branches.
+cul:291-strawberries,Strawberries,plant,Fragaria vesca,species,high,,wild strawberry,Strawberries.
+cul:292-succory-or-chicory,"Succory, Or Chicory",plant,Cichorium intybus,species,high,,chicory,Garden and wild succory with blue flowers.
+cul:293-stone-crop-prick-madam-or-small-houselee,"Stone-Crop, Prick-Madam, Or Small-Houseleek",plant,Sedum album,species,low,Sedum acre;Petrosedum rupestre,white stonecrop,"Trailing stonecrop on walls and roofs; cooling, harmless virtues suggest S. album, not hot wall-pepper."
+cul:294-english-tobacco,English Tobacco,plant,Nicotiana rustica,species,high,,wild tobacco,"English tobacco, smaller than the Indian kind."
+cul:295-the-tamarisk-tree,The Tamarisk Tree,plant,Tamarix gallica,species,medium,Tamarix africana,French tamarisk,No description; tamarisk of western Europe.
+cul:296-garden-tansy,Garden Tansy,plant,Tanacetum vulgare,species,high,,tansy,Garden tansy.
+cul:297-wild-tansy-or-silver-weed,"Wild Tansy, Or Silver Weed",plant,Argentina anserina,species,high,,silverweed,Wild tansy/silverweed.
+cul:298-thistles,Thistles,plant,Cirsium,genus,low,Carduus;Cirsium vulgare;Cirsium arvense,thistles,Many English thistles treated collectively without description.
+cul:299-the-melancholy-thistle,The Melancholy Thistle,plant,Cirsium heterophyllum,species,high,,melancholy thistle,"Hoary stalk, weakly prickly leaves, single head."
+cul:300-our-ladys-thistle,Our Lady’S Thistle,plant,Silybum marianum,species,high,,milk thistle,White-veined prickly leaves: our lady's thistle.
+cul:301-the-woollen-or-cotton-thistle,"The Woollen, Or, Cotton Thistle",plant,Onopordum acanthium,species,high,,cotton thistle,"Woolly prickly leaves, crimson florets; duplicates Down or Cotton Thistle entry."
+cul:302-the-fullers-thistle-or-teasle,"The Fuller’S Thistle, Or Teasle",plant,Dipsacus sativus,species,high,Dipsacus fullonum,fuller's teasel,Clothworkers' teasel with hooked bracts; wild teasel also described.
+cul:303-treacle-mustard,Treacle Mustard,plant,Thlaspi arvense,species,medium,Lepidium campestre,field penny-cress,"Round notched pouches, entire leaves, white flowers, garlic smell."
+cul:304-mithridate-mustard,Mithridate Mustard,plant,Lepidium campestre,species,low,Thlaspi arvense,field pepperwort,"Taller biennial, smaller round pouches, sharper taste; names applied to both species."
+cul:305-the-black-thorn-or-sloe-bush,"The Black Thorn, Or Sloe-Bush",plant,Prunus spinosa,species,high,,blackthorn,Blackthorn/sloe.
+cul:306-thorough-wax-or-thorough-leaf,"Thorough Wax, Or Thorough Leaf",plant,Bupleurum rotundifolium,species,high,,thorow-wax,Perfoliate bluish leaves: thorough-wax.
+cul:307-thyme,Thyme,plant,Thymus vulgaris,species,high,,garden thyme,Garden thyme.
+cul:308-wild-thyme-or-mother-of-thyme,"Wild Thyme, Or Mother Of Thyme",plant,Thymus serpyllum,species,medium,Thymus praecox;Thymus pulegioides,wild thyme,"Wild/mother of thyme; British plants mostly T. praecox, historically T. serpyllum."
+cul:309-tormentil-or-septfoil,"Tormentil, Or Septfoil",plant,Potentilla erecta,species,high,,tormentil,Like cinquefoil but with stalkless leaves: tormentil/septfoil.
+cul:310-turnsole-or-heliotropium,"Turnsole, Or Heliotropium",plant,Heliotropium europaeum,species,high,,European heliotrope,"Greater turnsole: hoary annual, white flowers on curled spike, Mediterranean."
+cul:311-meadow-trefoil-or-honeysuckles,"Meadow Trefoil, Or Honeysuckles",plant,Trifolium pratense,species,high,Trifolium repens,red clover,Meadow trefoil; red and white honeysuckles.
+cul:312-heart-trefoil,Heart Trefoil,plant,Medicago arabica,species,medium,,spotted medick,Leaf with heart-shaped flesh-coloured spot fits spotted medick.
+cul:313-pearl-trefoil,Pearl Trefoil,plant,Trifolium,genus,low,Trifolium repens,clover,Common trefoil with white pearl-like leaf spot; no further description.
+cul:314-tustan-or-park-leaves,"Tustan, Or Park Leaves",plant,Hypericum androsaemum,species,high,,tutsan,"Tutsan, park leaves."
+cul:315-garden-valerian,Garden Valerian,plant,Valeriana phu,species,high,,garden valerian,"Garden valerian with entire then pinnate leaves, thick root above ground."
+cul:316-vervain,Vervain,plant,Verbena officinalis,species,high,,vervain,Common vervain with square branched stalks.
+cul:317-the-vine,The Vine,plant,Vitis vinifera,species,high,,grape vine,Vine.
+cul:318-violets,Violets,plant,Viola odorata,species,high,Viola riviniana,sweet violet,Tame and wild violets.
+cul:319-vipers-bugloss,Viper’S Bugloss,plant,Echium vulgare,species,high,,viper's bugloss,Rough prickly stalks; viper's bugloss.
+cul:320-wall-flowers-or-winter-gilli-flowers,"Wall Flowers, Or Winter Gilli-Flowers",plant,Erysimum cheiri,species,high,,wallflower,Single yellow wild wallflowers on walls.
+cul:321-the-wallnut-tree,The Wallnut Tree,plant,Juglans regia,species,high,,walnut,Walnut tree.
+cul:322-wold-weld-or-dyers-weed,"Wold, Weld, Or Dyer’S Weed",plant,Reseda luteola,species,high,,weld,"Dyer's weed, rosette of narrow leaves."
+cul:323-wheat,Wheat,plant,Triticum aestivum,species,high,Triticum turgidum,bread wheat,All kinds of wheat; main one bread wheat.
+cul:324-the-willow-tree,The Willow Tree,plant,Salix,genus,medium,Salix alba;Salix fragilis,willows,Willows collectively; no description.
+cul:325-woad,Woad,plant,Isatis tinctoria,species,high,,woad,"Woad, bluish plantain-like leaves."
+cul:326-woodbine-or-honey-suckles,"Woodbine, Or Honey-Suckles",plant,Lonicera periclymenum,species,high,,honeysuckle,Woodbine/honeysuckle.
+cul:327-wormwood,Wormwood,plant,Artemisia absinthium,species,high,Artemisia maritima;Artemisia pontica,wormwood,Common wormwood main; sea wormwood and Roman wormwood also treated.
+cul:328-yarrow-called-nose-bleed-milfoil-and-tho,"Yarrow, Called Nose-Bleed, Milfoil And Thousand-Leal",plant,Achillea millefolium,species,high,,yarrow,Yarrow/milfoil.

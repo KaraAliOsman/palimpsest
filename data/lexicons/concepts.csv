@@ -1,0 +1,86 @@
+concept_id,label,category,mesh_label,epmc_terms,mesh_id,mesh_ui_label
+dyspepsia,Stomach complaints / dyspepsia,Digestive,Dyspepsia,dyspepsia|indigestion|gastritis|gastric ulcer|peptic ulcer|gastroprotective,D004415,Dyspepsia
+diarrhea,Diarrhoea / flux,Digestive,Diarrhea,diarrhea|diarrhoea|antidiarrheal|antidiarrhoeal,D003967,Diarrhea
+dysentery,Dysentery / bloody flux,Digestive,Dysentery,dysentery|shigellosis|amoebiasis|bloody diarrhea,D004403,Dysentery
+constipation,Constipation / purging,Digestive,Constipation,constipation|laxative|purgative|cathartic,D003248,Constipation
+flatulence,Flatulence / wind,Digestive,Flatulence,flatulence|carminative|bloating|meteorism,D005414,Flatulence
+colic,Colic / gripes,Digestive,Colic,colic|abdominal cramps|spasmolytic|antispasmodic,D003085,Colic
+nausea_vomiting,Nausea & vomiting,Digestive,Vomiting,nausea|vomiting|antiemetic|emesis,D014839,Vomiting
+helminthiasis,Intestinal worms,Digestive,Helminthiasis,anthelmintic|helminth|nematode|tapeworm|ascaris|vermifuge,D006373,Helminthiasis
+hemorrhoids,Haemorrhoids / piles,Digestive,Hemorrhoids,hemorrhoids|haemorrhoids|piles,D006484,Hemorrhoids
+appetite_loss,Loss of appetite,Digestive,Anorexia,appetite|anorexia|orexigenic,D000855,Anorexia
+hiccup,Hiccup,Digestive,Hiccup,hiccup|hiccups|singultus,D006606,Hiccup
+jaundice,Jaundice,Hepatobiliary,Jaundice,jaundice|icterus|hyperbilirubinemia|cholestasis,D007565,Jaundice
+liver_disease,Liver complaints,Hepatobiliary,Liver Diseases,hepatoprotective|hepatitis|liver disease|liver injury|hepatotoxicity|fatty liver,D008107,Liver Diseases
+spleen_disease,Spleen complaints,Hepatobiliary,Splenic Diseases,spleen|splenomegaly|splenic,D013158,Splenic Diseases
+cough,Cough,Respiratory,Cough,cough|antitussive|expectorant,D003371,Cough
+asthma_dyspnea,Asthma / shortness of breath,Respiratory,Asthma,asthma|dyspnea|dyspnoea|bronchospasm|bronchodilator,D001249,Asthma
+pleurisy_pneumonia,Pleurisy / chest inflammation,Respiratory,Pleurisy,pleurisy|pleuritis|pneumonia|lung inflammation,D010998,Pleurisy
+sore_throat,Sore throat / quinsy,Respiratory,Pharyngitis,pharyngitis|tonsillitis|sore throat|peritonsillar,D010612,Pharyngitis
+tuberculosis,Consumption / phthisis,Respiratory,Tuberculosis,tuberculosis|mycobacterium tuberculosis|antitubercular,D014376,Tuberculosis
+common_cold,Catarrh / colds,Respiratory,Common Cold,common cold|rhinitis|catarrh|upper respiratory tract infection|sinusitis,D003139,Common Cold
+diuresis,Urine stoppage / diuretic,Urinary,Diuresis,diuretic|diuresis|urinary retention|urine output,D004231,Diuresis
+urolithiasis,Stone & gravel,Urinary,Urolithiasis,urolithiasis|kidney stone|renal calculi|nephrolithiasis|urinary calculi|antiurolithiatic,D052878,Urolithiasis
+dysuria,Strangury / painful urination,Urinary,Dysuria,dysuria|strangury|urinary tract infection|cystitis,D053159,Dysuria
+kidney_disease,Kidney & bladder complaints,Urinary,Kidney Diseases,nephroprotective|kidney disease|nephritis|renal injury|bladder,D007674,Kidney Diseases
+sexual_function,Venery / sexual function,Reproductive,"Sexual Dysfunction, Physiological",aphrodisiac|erectile dysfunction|libido|sexual function|anaphrodisiac,D012735,"Sexual Dysfunction, Physiological"
+amenorrhea,Provokes menses (emmenagogue),Women's health,Amenorrhea,amenorrhea|amenorrhoea|emmenagogue|menstruation|oligomenorrhea,D000568,Amenorrhea
+menorrhagia,Excess menstrual bleeding,Women's health,Menorrhagia,menorrhagia|heavy menstrual bleeding|abnormal uterine bleeding,D008595,Menorrhagia
+leukorrhea,The whites (leucorrhoea),Women's health,Leukorrhea,leukorrhea|leucorrhoea|vaginal discharge|vaginitis,D007973,Leukorrhea
+labor,Childbirth / afterbirth,Women's health,"Labor, Obstetric",labor induction|labour induction|parturition|uterotonic|oxytocic|placenta,D007743,"Labor, Obstetric"
+abortifacient,Abortifacient / miscarriage,Women's health,"Abortion, Induced",abortifacient|abortion|miscarriage|embryotoxic,D000028,"Abortion, Induced"
+lactation,Breast milk,Women's health,Lactation,galactagogue|lactation|breast milk,D007774,Lactation
+uterine_disorders,Womb complaints,Women's health,Uterine Diseases,uterine|uterus|endometriosis|uterine prolapse,D014591,Uterine Diseases
+infertility,Barrenness / conception,Women's health,Infertility,infertility|fertility|conception,D007246,Infertility
+contraception,Contraception,Women's health,Contraception,contraceptive|antifertility|contraception,D003267,Contraception
+headache,Headache / megrim,Neurological,Headache,headache|migraine|cephalalgia,D006261,Headache
+epilepsy,Falling sickness,Neurological,Epilepsy,epilepsy|anticonvulsant|seizure|antiepileptic,D004827,Epilepsy
+insomnia,Sleeplessness / soporific,Neurological,Sleep Initiation and Maintenance Disorders,insomnia|sedative|hypnotic|sleep,D007319,Sleep Initiation and Maintenance Disorders
+melancholy,Melancholy / low spirits,Mental health,Depression,depression|antidepressant|melancholia|mood,D003863,Depression
+anxiety,Fear / disturbed mind,Mental health,Anxiety,anxiety|anxiolytic,D001007,Anxiety
+paralysis,Palsy,Neurological,Paralysis,paralysis|palsy|paresis|neuropathy,D010243,Paralysis
+stroke,Apoplexy,Neurological,Stroke,stroke|apoplexy|cerebral ischemia,D020521,Stroke
+vertigo,Vertigo / dizziness,Neurological,Vertigo,vertigo|dizziness,D014717,Vertigo
+memory,Memory / dull wits,Neurological,Memory Disorders,memory|cognitive|dementia|alzheimer,D008569,Memory Disorders
+delirium,Frenzy / lethargy,Neurological,Delirium,delirium|lethargy|frenzy|psychosis,D003693,Delirium
+convulsions,Cramps / convulsions,Neurological,Spasm,spasm|cramp|convulsion|muscle relaxant,D013035,Spasm
+gout,Gout,Musculoskeletal,Gout,gout|hyperuricemia|uric acid,D006073,Gout
+sciatica,Sciatica / hip pain,Musculoskeletal,Sciatica,sciatica|sciatic|lumbar radiculopathy,D012585,Sciatica
+joint_pain,Joint pains / arthritis,Musculoskeletal,Arthralgia,arthritis|arthralgia|joint pain|rheumatism|osteoarthritis,D018771,Arthralgia
+bruises,Bruises / falls / sprains,Musculoskeletal,Contusions,contusion|bruise|sprain|hematoma,D003288,Contusions
+pain,Pain / anodyne,Pain,Pain,analgesic|antinociceptive|pain|anodyne,D010146,Pain
+wounds,Wounds,Skin & wounds,Wound Healing,wound healing|wound|vulnerary,D014945,Wound Healing
+skin_ulcers,Ulcers & sores,Skin & wounds,Skin Ulcer,skin ulcer|ulcer healing|leg ulcer|chronic wound|sores,D012883,Skin Ulcer
+burns,Burns,Skin & wounds,Burns,burn|burns|scald,D002056,Burns
+itch_scabies,Itch / scabies,Skin & wounds,Pruritus,pruritus|itch|scabies|antipruritic,D011537,Pruritus
+dermatitis,Tetters / eczema / scurf,Skin & wounds,Eczema,eczema|dermatitis|dandruff|seborrheic,D004485,Eczema
+tinea,Ringworm,Skin & wounds,Tinea,tinea|ringworm|dermatophyte|antifungal,D014005,Tinea
+scaly_skin,Lepra / scaly skin,Skin & wounds,Psoriasis,psoriasis|lepra|scaly skin|leprosy,D011565,Psoriasis
+alopecia,Hair loss,Skin & wounds,Alopecia,alopecia|hair loss|hair growth,D000505,Alopecia
+warts,Warts & corns,Skin & wounds,Warts,wart|warts|verruca|corn,D014860,Warts
+skin_blemishes,Freckles / spots / sunburn,Skin & wounds,Hyperpigmentation,freckles|hyperpigmentation|melasma|skin whitening|sunburn,D017495,Hyperpigmentation
+abscess,Boils / imposthumes / felons,Skin & wounds,Abscess,abscess|boil|furuncle|carbuncle|whitlow|paronychia,D000038,Abscess
+erysipelas,St Anthony's fire / erysipelas,Skin & wounds,Erysipelas,erysipelas|cellulitis,D004886,Erysipelas
+inflammation,Inflammations / hot swellings,Inflammation,Inflammation,anti-inflammatory|inflammation|edema inhibition,D007249,Inflammation
+eye_disease,Eye complaints / dim sight,Eye/ear/mouth,Eye Diseases,eye disease|vision|cataract|ophthalmic|retina,D005128,Eye Diseases
+conjunctivitis,Ophthalmia / sore eyes,Eye/ear/mouth,Conjunctivitis,conjunctivitis|ophthalmia|eye inflammation|keratitis,D003231,Conjunctivitis
+ear_disease,Ear-ache / running ears,Eye/ear/mouth,Ear Diseases,otitis|earache|ear pain|ear infection|tinnitus,D004427,Ear Diseases
+toothache,Toothache,Eye/ear/mouth,Toothache,toothache|dental pain|odontalgia|dental caries,D014098,Toothache
+mouth_gums,Mouth sores / gums,Eye/ear/mouth,Mouth Diseases,stomatitis|gingivitis|periodontitis|mouth ulcer|oral mucositis|aphthous,D009059,Mouth Diseases
+nosebleed,Nose-bleeding,Cardiovascular & blood,Epistaxis,epistaxis|nosebleed|nose bleed,D004844,Epistaxis
+edema_dropsy,Dropsy,Cardiovascular & blood,Edema,edema|oedema|dropsy|ascites|fluid retention,D004487,Edema
+heart,Heart complaints / swooning,Cardiovascular & blood,Heart Diseases,cardioprotective|heart failure|cardiac|palpitation|arrhythmia,D006331,Heart Diseases
+hemorrhage,Bleeding / staunching blood,Cardiovascular & blood,Hemorrhage,hemostatic|haemostatic|bleeding|hemorrhage|haemorrhage,D006470,Hemorrhage
+hemoptysis,Spitting blood,Cardiovascular & blood,Hemoptysis,hemoptysis|haemoptysis,D006469,Hemoptysis
+fever,Fevers / agues,Fever & infection,Fever,fever|antipyretic|pyrexia,D005334,Fever
+malaria,Quartan & tertian agues,Fever & infection,Malaria,malaria|plasmodium|antimalarial|antiplasmodial,D008288,Malaria
+plague,Plague / pestilence,Fever & infection,Plague,plague|yersinia pestis|epidemic,D010930,Plague
+syphilis,French pox,Fever & infection,Syphilis,syphilis|treponema,D013587,Syphilis
+envenomation,Venomous bites & stings,Toxicology,Bites and Stings,snakebite|snake venom|antivenom|scorpion sting|envenomation|antivenom,D001733,Bites and Stings
+poisoning,Poisons / antidote,Toxicology,Poisoning,poisoning|antidote|detoxification|toxicity protection,D011041,Poisoning
+rabies,Mad-dog bite,Toxicology,Rabies,rabies|lyssavirus,D011818,Rabies
+intoxication,Drunkenness / hangover,Toxicology,Alcoholic Intoxication,hangover|alcohol intoxication|ethanol-induced,D000435,Alcoholic Intoxication
+cancer,Cancers / hard tumours,Oncology,Neoplasms,cancer|tumor|tumour|antitumor|anticancer|cytotoxic|carcinoma,D009369,Neoplasms
+scrofula,King's evil / struma,Oncology,"Tuberculosis, Lymph Node",scrofula|lymphadenitis|goiter|goitre|struma,D014388,"Tuberculosis, Lymph Node"
+scurvy,Scurvy,Metabolic,Scurvy,scurvy|vitamin c deficiency|ascorbic acid deficiency,D012614,Scurvy
+lice,Lice & vermin,Parasites,Lice Infestations,lice|pediculosis|pediculicidal|insecticidal,D010373,Lice Infestations

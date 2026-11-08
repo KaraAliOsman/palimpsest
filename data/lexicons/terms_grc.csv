@@ -1,0 +1,312 @@
+concept_id,pattern,polarity,example,gloss,note
+dyspepsia,(?<![α-ω])στομαχικ,therapeutic,στομαχικοῖς,for those with stomach complaints (στομαχικοί),LSJ στομαχικός 'suffering in the stomach'; dat./acc. pl. = patients
+dyspepsia,(?<![α-ω])ευστομαχ,therapeutic,εὐστόμαχος,good for the stomach (εὐστόμαχος),dietetic property; εὔστομος 'pleasant to the taste' is not matched
+dyspepsia,(?<![α-ω])κακοστομαχ,adverse,κακοστόμαχος,bad for the stomach (κακοστόμαχος),standard warning formula
+dyspepsia,(?<![α-ω])(?:ανατρεπ|αναλυτικ|κακωτικ|βλαπτ|πολεμι)\w*[^\w.;·]+(?:\w+[^\w.;·]+)?(?:του[^\w.;·]+|τησ[^\w.;·]+)?στομαχ,adverse,ἀναλυτικὸν στομάχου,upsets / harms the stomach,ἀνατρεπτικὸν στομάχου
+dyspepsia,(?<![α-ω])(?:πον|αλγ|δηγμ|φλεγμον|εγκαυσ|ατονι|ελκωσ|ναυσι)\w*[^\w.;·]+(?:\w+[^\w.;·]+)?(?:του[^\w.;·]+)?στομαχ,therapeutic,δηγμοὺς στομάχου,pain / gnawing / heat / atony of the stomach,"δηγμὸς στομάχου = gnawing pain, not a bite"
+dyspepsia,"(?<![α-ω])στομαχ(?:ου|ον|ω|οισ)(?![α-ω])(?:[^\w.;·]+\w+){0,1}?[^\w.;·]+(?:πον|αλγ|δηγμ|φλεγμ|καυσ|πυρ|ρευματ|αναλελυ|ασθεν|ατον|εκλυ|ελκ)",therapeutic,στομάχῳ καυσουμένῳ,stomach painful / burning / fluxing / relaxed,"στομάχῳ πυρουμένῳ, στόμαχον ῥευματιζόμενον"
+dyspepsia,(?<![α-ω])(?:ωφελ|ρωννυ|τονοι|ευτον|αποκαθαιρ|αναλαμβαν)\w*[^\w.;·]+(?:\w+[^\w.;·]+)?(?:τον[^\w.;·]+)?στομαχ,therapeutic,ὠφελεῖ δὲ στόμαχον,benefits / braces the stomach,
+dyspepsia,(?<![α-ω])(?:απεψ|δυσπεψ|βραδυπεψ|δυσπεπτου|βραδυπεπτου),therapeutic,βραδυπεψίας,indigestion; those who digest badly,ἀπεψία; δυσπεπτέω (verb: the patients) — contrast adj. δύσπεπτος
+dyspepsia,(?<![α-ω])δυσπεπτ(?:οσ|ον)(?![α-ω]),adverse,δύσπεπτος,hard to digest (δύσπεπτος),dietetic warning; neuter pl. δύσπεπτα excluded (also of abscesses slow to ripen)
+dyspepsia,(?<![α-ω])καρδιωγμ,therapeutic,καρδιωγμοῖς,heartburn (καρδιωγμός),LSJ: heartburn; καρδία = cardiac orifice of the stomach
+diarrhea,"(?<![α-ω])κοιλι(?:αν|ασ|α|αισ)(?![α-ω])\w*(?:[^\w.;·]+\w+){0,3}?[^\w.;·]+(?:ιστη\w*|ιστα\w*|εφιστ\w*|επεχ(?!ομεν)\w*|εφεκτ\w*|ισχ(?:ει|ουσι|ειν)|στελλ\w*|σταλτ\w*|στατικ\w*|στεγν\w*|καταστελλ\w*)",therapeutic,κοιλίαν ἵστησι,binds / checks the bowels,κοιλίαν ἵστησι / στέλλει / ἐπέχει = antidiarrhoeal
+diarrhea,"(?<![α-ω])(?:ιστησιν?|ιστασι|στελλει|στελλουσι|επεχει|ισχει|σταλτικ\w*|στεγνωτικ\w*|εφεκτικ\w*|στατικ\w*)\w*(?:[^\w.;·]+\w+){0,3}?[^\w.;·]+κοιλι",therapeutic,ἵστησι κοιλίαν,checks ... the bowels,verb before object
+diarrhea,(?<![α-ω])κοιλι\w*[^\w.;·]+(?:\w+[^\w.;·]+)?(?:ρευματιζ|ρεουσ|ρυσ),therapeutic,κοιλίας ῥύσιν,flowing / fluxing bowel,"κοιλία ῥευματιζομένη, κοιλιακαὶ ῥύσεις"
+diarrhea,(?<![α-ω])ρευμα\w*[^\w.;·]+(?:τησ[^\w.;·]+)?κοιλι,therapeutic,ῥεῦμα κοιλίας,fluxes of the bowel,κοιλίας ῥεύματα
+diarrhea,(?<![α-ω])κοιλιακ,therapeutic,κοιλιακοῖς,coeliac affection (κοιλιακοί),"ancient κοιλιακὴ διάθεσις = chronic diarrhoea (Aretaeus), not modern coeliac disease"
+diarrhea,(?<![α-ω])διαρρο,therapeutic,διάρροιαν,"diarrhoea (διάρροια, διαρροιζόμενοι)",
+diarrhea,(?<![α-ω])χολερ,therapeutic,χολέραν,cholera (χολέρα),ancient χολέρα = acute vomiting and purging
+diarrhea,(?<![α-ω])(?:ταρασσ\w*|ταρακτικ\w*)[^\w.;·]+(?:\w+[^\w.;·]+)?(?:την[^\w.;·]+)?κοιλι,adverse,ταράσσει κοιλίαν,disturbs the bowels,κοιλίαν ταράσσει = causes looseness
+diarrhea,(?<![α-ω])κοιλι\w*[^\w.;·]+(?:\w+[^\w.;·]+)?(?:\w+[^\w.;·]+)?(?:ταρακτ|ταρασσ),adverse,κοιλίας ταρακτικόν,disturbing the bowels,κοιλίας ταρακτικός
+dysentery,(?<![α-ω])δυσεντερ,therapeutic,δυσεντερικοῖς,dysentery (δυσεντερία),
+dysentery,(?<![α-ω])τεινεσμ,therapeutic,τεινεσμῶν,tenesmus (τεινεσμός),cardinal sign of dysentery
+constipation,"(?<![α-ω])κοιλι(?:αν|ασ|α)(?![α-ω])\w*(?:[^\w.;·]+\w+){0,2}?[^\w.;·]+(?:λυ|μαλα|υπαγ|υπαξ|καθαιρ|κιν|ευλυτ|υπακτ|υπομαλ|μαλακτ)",action,κοιλίαν λύει,loosens / moves the bowels (laxative),κοιλίαν λύει / μαλάσσει / κινεῖ
+constipation,"(?<![α-ω])(?:λυει|λυουσι|μαλασσει|μαλαττει|υπομαλαττει|υπαγει|κινει|μαλακτικ\w*|υπακτικ\w*|λυτικ\w*|καθαρτικ\w*)\w*(?:[^\w.;·]+\w+){0,2}?[^\w.;·]+(?:την[^\w.;·]+)?(?:κατω[^\w.;·]+)?κοιλι\w*(?![α-ω])(?![^\w.;·]+(?:τε[^\w.;·]+|δε[^\w.;·]+)?(?:ιστη\w*|ιστα\w*|εφιστ\w*|επεχ(?!ομεν)\w*|εφεκτ\w*|ισχ(?:ει|ουσι|ειν)|στελλ\w*|σταλτ\w*|στατικ\w*|στεγν\w*|καταστελλ\w*))",action,μαλάσσει κοιλίαν,loosens ... the bowels,"verb before object; excluded when a binding verb follows (ἐμέτους κινεῖ, κοιλίαν τε ἐπέχει)"
+constipation,(?<![α-ω])ευκοιλι,action,εὐκοίλιος,loosening the bowels (εὔκοιλιος),dietetic property
+constipation,(?<![α-ω])κατα[^\w.;·]+κοιλι\w*(?![α-ω])(?![^\w.;·]+(?:\w+[^\w.;·]+)?ρευμ),action,κατὰ κοιλίαν,purges downwards (κατὰ κοιλίαν),ἄγει κατὰ κοιλίαν χολώδη; τὰ κατὰ κοιλίαν ῥεύματα excluded
+constipation,(?<![α-ω])κατω[^\w.;·]+(?:\w+[^\w.;·]+)?(?:καθαιρ|καθαρσ|υπα|αγ)|(?<![α-ω])καθαιρ\w*[^\w.;·]+(?:δε[^\w.;·]+|τε[^\w.;·]+)?(?:την[^\w.;·]+)?κατω(?![α-ω]),action,κάτω καθαίρει,purges downwards (κάτω καθαίρει),
+constipation,(?<![α-ω])σκληροκοιλι,therapeutic,σκληροκοιλίοις,costive (σκληροκοίλιος),
+flatulence,(?<![α-ω])(?:εμ)?πνευματωσ,therapeutic,ἐμπνευματώσεις,flatulence (ἐμπνευμάτωσις),usually 'relieves'
+flatulence,(?<![α-ω])(?:εμ)?πνευματουμεν,therapeutic,πνευματουμένοις,those troubled by wind,
+flatulence,(?<![α-ω])(?:εμ)?πνευματωτικ,adverse,πνευματωτικός,wind-producing (πνευματωτικός),dietetic warning
+flatulence,(?<![α-ω])(?:εμ)?πνευματωδ,adverse,πνευματώδεις,flatulent (πνευματώδης),dietetic warning
+flatulence,(?<![α-ω])φυσ(?:ωδ|ητικ),adverse,φυσώδης,flatulent (φυσώδης),dietetic warning
+flatulence,(?<![α-ω])πνευματων[^\w.;·]+γεννητικ,adverse,πνευμάτων γεννητική,generates wind,
+flatulence,(?<![α-ω])πνευματων[^\w.;·]+(?:διαλυτ|διαφορ|κινητ|εκκριτ|διαδρομ|λυτ)|(?<![α-ω])(?:διαλυτ|διαφορ|εκκριτ)\w*[^\w.;·]+(?:\w+[^\w.;·]+)?(?:πνευματ|φυσων),therapeutic,ἐκκριτικὴν φυσῶν,disperses wind,πνεύματα also 'breath'; restricted to dispersal verbs
+flatulence,(?<![α-ω])ερυγ,action,ἐρυγὰς,provokes belching (ἐρυγή),carminative
+colic,(?<![α-ω])στροφ(?:ουσ|οισ|ων|ασ|ουμεν\w*)(?![α-ω]),therapeutic,στρόφους,gripes (στρόφοι),LSJ στρόφος 'colic'
+colic,(?<![α-ω])ειλε(?:ωδ\w*|ουσ|οισ|ου|ω)(?![α-ω]),therapeutic,εἰλεώδεσι,ileus (εἰλεός),
+colic,(?<![α-ω])κωλικ,therapeutic,κωλικῶν,colic (κωλικοί),
+nausea_vomiting,"(?<![α-ω])(?:ιστησ\w*|ιστα\w*|παυ\w*|στελλ\w*|επεχ\w*|στατικ\w*|ευθετ\w*|καταστελλ\w*)[^\w.;·]+(?:\w+[^\w.;·]+){0,2}?(?:τουσ[^\w.;·]+(?:\w+[^\w.;·]+)?)?εμετ(?:ουσ|ον|ων)(?![α-ω])(?![^\w.;·]+αιματ)",therapeutic,ἵστησι δὲ καὶ ἐμέτους,stops vomiting,ἔμετος αἵματος (haematemesis) excluded
+nausea_vomiting,"(?<![α-ω])εμετ(?:ουσ|ον|ων)(?![α-ω])\w*(?:[^\w.;·]+\w+){0,3}?[^\w.;·]+(?:στατικ|ιστη|παυ)",therapeutic,ἐμέτους ἵστησιν,vomiting ... checks,
+nausea_vomiting,"(?<![α-ω])(?:κιν\w*|ποιει|ποιητικ\w*)[^\w.;·]+(?:\w+[^\w.;·]+){0,2}?εμετ|(?<![α-ω])εμετ\w*[^\w.;·]+(?:\w+[^\w.;·]+)?(?:συντονωσ[^\w.;·]+)?κιν",action,ἐμέτους κινεῖ,provokes vomiting (emetic),ἐμέτους κινεῖ
+nausea_vomiting,(?<![α-ω])εμετ(?:ικ|ηρι|οποι),action,ἐμετικόν,"emetic (ἐμετικός, ἐμετήριον)",
+nausea_vomiting,(?<![α-ω])ναυ[τσ]ι(?:α|ασ|αισ|ωδ\w*)(?![α-ω])(?![^\w.;·]+ποιητικ),therapeutic,ναυτία,nausea (ναυτία),ναυσία is a TEI/itacistic variant
+nausea_vomiting,(?<![α-ω])ναυ[τσ]ι\w*[^\w.;·]+ποιητικ,adverse,ναυτίας ποιητικόν,causing nausea (ναυτίας ποιητικόν),
+nausea_vomiting,(?<![α-ω])(?:καθαιρ\w*|καθαρσ\w*|αγ\w*|ποθ\w*|πινομεν\w*)[^\w.;·]+(?:δε[^\w.;·]+)?(?:την[^\w.;·]+)?ανω(?![α-ω])|(?<![α-ω])ανω[^\w.;·]+(?:τε[^\w.;·]+)?και[^\w.;·]+(?:την[^\w.;·]+)?κατω(?![α-ω])[^\w.;·]+(?:\w+[^\w.;·]+)?(?:καθαιρ|καθαρσ),action,καθαίρει ἄνω,purges upwards (emetic),ἄνω καὶ κάτω καθαίρει
+helminthiasis,(?<![α-ω])ελμ(?:ινθ|ιν|εισ|ινσ),therapeutic,ἕλμινθας,intestinal worms (ἕλμινθες),"incl. στρογγύλαι (roundworm), πλατεῖαι (tapeworm)"
+helminthiasis,(?<![α-ω])ασκαριδ,therapeutic,ἀσκαρίδας,ascarides (threadworms),
+hemorrhoids,(?<![α-ω])αιμορροιδ,therapeutic,αἱμορροίδας,haemorrhoids (αἱμορροΐδες),
+hemorrhoids,(?<![α-ω])κονδυλωμ,therapeutic,κονδυλώματα,anal condylomata (κονδυλώματα),usually περὶ δακτύλιον; perianal swellings
+hemorrhoids,(?<![α-ω])(?:περι|κατα|εν)[^\w.;·]+(?:τον[^\w.;·]+|τω[^\w.;·]+)?δακτυλι(?:ον|ω)(?![α-ω]),therapeutic,ἐν δακτυλίῳ,(complaints) about the anus (δακτύλιος),"fissures, inflammations, ulcers of the anus; nearest concept"
+appetite_loss,(?<![α-ω])ορεξ,therapeutic,ὄρεξιν,appetite (ὄρεξις),ὄρεξιν ποιεῖ; some hits are adverse (ἀποστρέφων ὄρεξιν)
+appetite_loss,(?<![α-ω])ανορε(?:ξ|κτ),therapeutic,ἀνορεξίαν,"loss of appetite (ἀνορεξία, ἀνόρεκτοι)",
+hiccup,(?<![α-ω])λυγμ,therapeutic,λυγμούς,hiccup (λυγμός),
+jaundice,(?<![α-ω])ικτερ,therapeutic,ἴκτερον,"jaundice (ἴκτερος, ἰκτερικοί)",
+liver_disease,(?<![α-ω])ηπατ(?:ικ\w*|οσ|ι|ων|αρ)(?![α-ω]),therapeutic,ἡπατικοῖς,liver patients / the liver (ἡπατικοί),ἡπατίζων 'liver-coloured' excluded; a few hits are animal livers used as drugs
+spleen_disease,(?<![α-ω])σπλην(?:α|ασ|ι|οσ|ικ\w*|ων|αρι\w*)(?![α-ω]),therapeutic,σπλῆνα,the spleen / spleen patients (σπληνικοί),σπλήνιον (compress; plant name) excluded
+cough,(?<![α-ω])βη(?:χ(?!ιον)|σσ|ττ),therapeutic,βῆχας,"cough (βήξ, βήσσοντες)",plant name βήχιον excluded; Attic βήττοντες included
+cough,"(?<![α-ω])αναγ\w*\w*(?:[^\w.;·]+\w+){0,3}?[^\w.;·]+(?:εκ|απο)[^\w.;·]+(?:του[^\w.;·]+|τησ[^\w.;·]+)?(?:θωρακ|πνευμον)|(?<![α-ω])(?:εκ|απο)[^\w.;·]+(?:του[^\w.;·]+)?(?:θωρακ|πνευμον)\w*\w*(?:[^\w.;·]+\w+){0,2}?[^\w.;·]+αναγ",action,ἐκ θώρακος ἀνάγει,brings up (phlegm) from the chest (expectorant),τὰ ἐκ θώρακος ἀνάγει
+asthma_dyspnea,(?<![α-ω])ασθμ,therapeutic,ἀσθματικοῖς,"asthma (ἆσθμα, ἀσθματικοί)",
+asthma_dyspnea,(?<![α-ω])[οα]ρθοπν,therapeutic,ὀρθόπνοιαν,orthopnoea (ὀρθόπνοια),ἀρθόπνοια is a TEI typo
+asthma_dyspnea,(?<![α-ω])δυσπνο,therapeutic,δύσπνοιαν,dyspnoea (δύσπνοια),
+pleurisy_pneumonia,(?<![α-ω])πλευριτ,therapeutic,πλευριτικοῖς,"pleurisy (πλευρῖτις, πλευριτικοί)",
+pleurisy_pneumonia,(?<![α-ω])περιπνευμ,therapeutic,περιπνευμονικοῖς,peripneumonia (περιπνευμονία),
+pleurisy_pneumonia,(?<![α-ω])(?:πον|αλγ|οδυν)\w*[^\w.;·]+(?:\w+[^\w.;·]+)?πλευρ|(?<![α-ω])πλευρ(?:ασ|ων|ου|αν|ον|ω|α)(?![α-ω])[^\w.;·]+(?:\w+[^\w.;·]+)?(?:πον|αλγ|οδυν),therapeutic,πλευρᾶς πόνον,pain in the side,"πλευρᾶς ἄλγημα, classical sign of pleurisy"
+pleurisy_pneumonia,(?<![α-ω])εμπυ(?:ικ\w*|οισ|ουσ|οι|οσ)(?![α-ω]),therapeutic,ἐμπυικοῖς,empyema patients (ἐμπυϊκοί),pus in the chest; ἔμπυρρος 'reddish' excluded
+sore_throat,(?<![α-ω])συναγχ,therapeutic,συναγχικοῖς,"quinsy (συνάγχη, συναγχικοί)",
+sore_throat,(?<![α-ω])παρισθμ,therapeutic,παρίσθμια,tonsils / tonsillitis (παρίσθμια),
+sore_throat,(?<![α-ω])βραγχ,therapeutic,βράγχους,hoarseness (βράγχος),
+sore_throat,(?<![α-ω])κιονιδ,therapeutic,κιονίδα,(relaxed) uvula (κιονίς),
+sore_throat,(?<![α-ω])(?:τραχυ(?:τητ|σμ)\w*|δασυσμ\w*)[^\w.;·]+(?:\w+[^\w.;·]+)?(?:τησ[^\w.;·]+)?(?:αρτηρι|φωνησ)|(?<![α-ω])αρτηρι\w*[^\w.;·]+(?:\w+[^\w.;·]+)?τραχυ,therapeutic,ἀρτηρίαν τραχύτητας,roughness of the windpipe (hoarseness),ἀρτηρία = trachea
+sore_throat,(?<![α-ω])αποκοπ\w*[^\w.;·]+(?:\w+[^\w.;·]+)?φωνησ|(?<![α-ω])φωνησ[^\w.;·]+αποκοπ,therapeutic,ἀποκοπὴν φωνῆς,loss of voice (φωνῆς ἀποκοπή),
+tuberculosis,(?<![α-ω])φθισ(?:ικ|ιν|ει|εωσ),therapeutic,φθισικοῖς,consumptives (φθισικοί),
+tuberculosis,(?<![α-ω])φθινωδ,therapeutic,φθινώδεσιν,wasting (φθινώδεις),
+tuberculosis,(?<![α-ω])(?:ελκ\w*[^\w.;·]+(?:\w+[^\w.;·]+)?(?:του[^\w.;·]+)?πνευμον|πνευμον\w*[^\w.;·]+(?:\w+[^\w.;·]+)?ελκ),therapeutic,πνεύμονι ἕλκη,ulceration of the lung,ancient model of phthisis
+common_cold,(?<![α-ω])κορυζ,therapeutic,κορύζας,coryza (κόρυζα),
+common_cold,(?<![α-ω])οζαιν,therapeutic,ὀζαίνας,ozaena (fetid nasal discharge),≈ atrophic rhinitis; nearest concept
+common_cold,(?<![α-ω])καταρρ(?:ουσ|ου|ω|οισ|ουν|οι|οσ)(?![α-ω]),therapeutic,κατάρρους,catarrh (κατάρρους),καταρροφέω 'gulp down' excluded
+diuresis,(?<![α-ω])(?:δι)?ουρητικ,action,οὐρητικόν,"diuretic (οὐρητικός, διουρητικός)",
+diuresis,"(?<![α-ω])ουρ(?:α|ων)(?![α-ω])\w*(?:[^\w.;·]+\w+){0,2}?[^\w.;·]+(?:αγ(?:ει|ουσι|ουσιν|ον|οντα|ουσα|ειν|ωγ\w*)|κιν(?:ει|ουσι|ουσιν|ειν|ουν|ητικ\w*)|κατασπ\w*|επισπ\w*|προτρεπ\w*|εκκαλ\w*|προκλητ\w*|εκβαλ\w*|εκβολ\w*|εκκρ\w*|εξαγ\w*)|(?<![α-ω])(?:αγ(?:ει|ουσι|ουσιν|ον|οντα|ουσα|ειν|ωγ\w*)|κιν(?:ει|ουσι|ουσιν|ειν|ουν|ητικ\w*)|κατασπ\w*|επισπ\w*|προτρεπ\w*|εκκαλ\w*|προκλητ\w*|εκβαλ\w*|εκβολ\w*|εκκρ\w*|εξαγ\w*)\w*(?:[^\w.;·]+\w+){0,3}?[^\w.;·]+ουρ(?:α|ων)(?![α-ω])",action,οὖρα κινεῖ,moves the urine,οὖρα κινεῖ / ἄγει (οὐρά 'tail' does not collocate)
+diuresis,(?<![α-ω])(?:ουρησιν|εξουρ\w*)(?![α-ω]),action,οὔρησιν,"urination (οὔρησις, ἐξουρεῖν)",
+urolithiasis,"(?<![α-ω])λιθ(?:ουσ|ων|ον|οισ|ου|οι)(?![α-ω])\w*(?:[^\w.;·]+\w+){0,3}?[^\w.;·]+θρυπτ|(?<![α-ω])θρυπτ\w*\w*(?:[^\w.;·]+\w+){0,3}?[^\w.;·]+λιθ",therapeutic,λίθους θρύπτει,breaks up stones (λίθους θρύπτει),"λίθος alone too ambiguous (mineral headwords, book 5)"
+urolithiasis,(?<![α-ω])λιθι(?:ω|ασ),therapeutic,λιθιῶντας,"stone patients, lithiasis (λιθιῶντες, λιθίασις)",
+urolithiasis,(?<![α-ω])λιθοτομ,therapeutic,λιθοτομηθέντων,those cut for the stone (λιθοτομηθέντες),
+urolithiasis,(?<![α-ω])θρυπτικ,therapeutic,θρυπτικήν,lithontriptic (θρυπτικός),
+dysuria,(?<![α-ω])δυσουρ,therapeutic,δυσουροῦσι,"dysuria (δυσουρία, δυσουροῦντες)",
+dysuria,(?<![α-ω])στραγγουρ,therapeutic,στραγγουρίας,strangury (στραγγουρία),
+kidney_disease,(?<![α-ω])(?<!ομοια )(?<!ομοιον )(?<!ομοιοσ )νεφρ(?:ιτ\w*|ουσ|ων|οισ|ου|οι)(?![α-ω]),therapeutic,νεφριτικοῖς,kidneys / nephritics (νεφριτικοί),νεφριαῖον (kidney fat) and 'kidney-shaped' excluded; some hits adverse (νεφροῖς ἄθετον)
+kidney_disease,(?<![α-ω])κυστ(?:ιν|εωσ|ει|ιδοσ)(?![α-ω]),therapeutic,κύστιν,bladder (κύστις),some hits are stones in the bladder or warnings; κύστιδα (a container) excluded
+kidney_disease,"(?<![α-ω])(?:κυστ|νεφρ)\w*[^\w.;·]+(?:\w+[^\w.;·]+){0,2}?(?:αθετ|βλαπτ|κακ|πολεμ)|(?<![α-ω])(?:αθετ|βλαπτ|κακοι|κακωτικ)\w*[^\w.;·]+(?:\w+[^\w.;·]+){0,3}?(?:κυστ|νεφρ)",adverse,κύστει ἄθετος,harmful to bladder / kidneys,κύστει ἄθετος
+sexual_function,(?<![α-ω])αφροδισι,action,ἀφροδίσια,venery (ἀφροδίσια),aphrodisiac (παρορμᾷ) or anaphrodisiac
+sexual_function,(?<![α-ω])συνουσι,action,συνουσίαν,sexual intercourse (συνουσία),aphrodisiac or anaphrodisiac (ἀποστρέφει)
+sexual_function,(?<![α-ω])γον(?:ην|ησ)(?![α-ω]),action,γονήν,semen (γονή),γονὴν σβέννυσι: anaphrodisiac
+sexual_function,(?<![α-ω])ονειρω(?:γμ|ττ),therapeutic,ὀνειρωγμούς,nocturnal emissions (ὀνειρωγμός),
+amenorrhea,"(?<![α-ω])(?:εμμ?ην|καταμην)\w*\w*(?:[^\w.;·]+\w+){0,4}?[^\w.;·]+(?:αγ(?:ει|ουσι|ουσιν|ον|οντα|ουσα|ειν|ωγ\w*)|κιν(?:ει|ουσι|ουσιν|ειν|ουν|ητικ\w*)|κατασπ\w*|επισπ\w*|προτρεπ\w*|εκκαλ\w*|προκλητ\w*|εκβαλ\w*|εκβολ\w*|εκκρ\w*|εξαγ\w*)",action,ἔμμηνα ἄγει,brings on the menses (emmenagogue),ἔμμηνα ἄγει / κινεῖ / κατασπᾷ
+amenorrhea,"(?<![α-ω])(?:αγ(?:ει|ουσι|ουσιν|ον|οντα|ουσα|ειν|ωγ\w*)|κιν(?:ει|ουσι|ουσιν|ειν|ουν|ητικ\w*)|κατασπ\w*|επισπ\w*|προτρεπ\w*|εκκαλ\w*|προκλητ\w*|εκβαλ\w*|εκβολ\w*|εκκρ\w*|εξαγ\w*)\w*(?:[^\w.;·]+\w+){0,4}?[^\w.;·]+(?:εμμ?ην|καταμην)\w*(?![α-ω])(?![^\w.;·]+(?:\w+[^\w.;·]+)?(?:ιστη\w*|ιστα\w*|εφιστ\w*|επεχ(?!ομεν)\w*|εφεκτ\w*|ισχ(?:ει|ουσι|ειν)|στελλ\w*|σταλτ\w*|στατικ\w*|στεγν\w*|καταστελλ\w*))",action,ἄγει δὲ καὶ ἔμμηνα,brings on ... the menses,verb before object; excluded when a staunching verb follows
+amenorrhea,(?<![α-ω])(?:εμμ?ην|καταμην)\w*[^\w.;·]+(?:\w+[^\w.;·]+)?(?:επισχεσ|επεχομεν|ισχομεν)|(?<![α-ω])επισχεσ\w*[^\w.;·]+(?:\w+[^\w.;·]+)?(?:εμμ?ην|καταμην),therapeutic,ἔμμηνα ἐπεχόμενα,suppressed menses (ἐμμήνων ἐπίσχεσις),
+amenorrhea,(?<![α-ω])αιμαγωγ,action,αἱμαγωγός,"drawing blood (αἱμαγωγός), i.e. emmenagogue",
+menorrhagia,"(?<![α-ω])(?:εμμ?ην|καταμην)\w*(?![α-ω])(?:[^\w.;·,]+\w+){0,1}?[^\w.;·,]+(?:ιστη\w*|ιστα\w*|εφιστ\w*|επεχ(?!ομεν)\w*|εφεκτ\w*|ισχ(?:ει|ουσι|ειν)|στελλ\w*|σταλτ\w*|στατικ\w*|στεγν\w*|καταστελλ\w*)|(?<![α-ω])(?:ιστη\w*|ιστα\w*|εφιστ\w*|επεχ(?!ομεν)\w*|εφεκτ\w*|ισχ(?:ει|ουσι|ειν)|στελλ\w*|σταλτ\w*|στατικ\w*|στεγν\w*|καταστελλ\w*)(?:[^\w.;·,]+\w+){0,2}?[^\w.;·,]+(?:εμμ?ην|καταμην)\w*(?![α-ω])(?![^\w.;·]+(?:\w+[^\w.;·]+)?(?:αγ(?:ει|ουσι|ουσιν|ον|οντα|ουσα|ειν|ωγ\w*)|κιν(?:ει|ουσι|ουσιν|ειν|ουν|ητικ\w*)|κατασπ\w*|επισπ\w*|προτρεπ\w*|εκκαλ\w*|προκλητ\w*|εκβαλ\w*|εκβολ\w*|εκκρ\w*|εξαγ\w*))",therapeutic,ἔμμηνα ἐφ ίστησι,checks the menses,comma-bounded; passive ἐπεχόμενα (= amenorrhoea) excluded
+menorrhagia,(?<![α-ω])ρου(?:ν|σ)(?![α-ω])[^\w.;·]+(?:\w+[^\w.;·]+)?(?:γυ\w?αικει|ερυθρ)|(?<![α-ω])(?:γυναικει|ερυθρ)\w*[^\w.;·]+ρου(?:ν|σ)(?![α-ω]),therapeutic,ῥοῦν γυναικεῖον,the female (red) flux (ῥοῦς γυναικεῖος),unqualified ῥοῦς γυναικεῖος may include white discharge; D. groups it with haemorrhages
+menorrhagia,(?<![α-ω])(?:ρυσ|αιμορραγ|ρευματισμ)\w*[^\w.;·]+(?:\w+[^\w.;·]+)?(?:την[^\w.;·]+|τασ[^\w.;·]+)?(?:εκ|απο)[^\w.;·]+(?:τησ[^\w.;·]+)?(?:μητρ|υστερ)|(?<![α-ω])(?:εκ|απο)[^\w.;·]+(?:τησ[^\w.;·]+)?(?:μητρ|υστερ)\w*[^\w.;·]+(?:\w+[^\w.;·]+)?(?:ρυσ|αιμορραγ),therapeutic,ἐκ μήτρας ῥύσεις,fluxes / haemorrhage from the womb,
+leukorrhea,(?<![α-ω])λευκ\w*[^\w.;·]+(?:\w+[^\w.;·]+)?ρου(?:ν|σ)(?![α-ω])|(?<![α-ω])ρου(?:ν|σ)(?![α-ω])[^\w.;·]+(?:\w+[^\w.;·]+)?λευκ,therapeutic,λευκὸν ῥοῦν,the white flux (λευκὸς ῥοῦς),
+labor,"(?<![α-ω])δευτερ(?:α|ασ|ων)(?![α-ω])\w*(?:[^\w.;·]+\w+){0,3}?[^\w.;·]+(?:αγ(?:ει|ουσι|ουσιν|ον|οντα|ουσα|ειν|ωγ\w*)|κιν(?:ει|ουσι|ουσιν|ειν|ουν|ητικ\w*)|κατασπ\w*|επισπ\w*|προτρεπ\w*|εκκαλ\w*|προκλητ\w*|εκβαλ\w*|εκβολ\w*|εκκρ\w*|εξαγ\w*)|(?<![α-ω])(?:αγ(?:ει|ουσι|ουσιν|ον|οντα|ουσα|ειν|ωγ\w*)|κιν(?:ει|ουσι|ουσιν|ειν|ουν|ητικ\w*)|κατασπ\w*|επισπ\w*|προτρεπ\w*|εκκαλ\w*|προκλητ\w*|εκβαλ\w*|εκβολ\w*|εκκρ\w*|εξαγ\w*)\w*(?:[^\w.;·]+\w+){0,4}?[^\w.;·]+δευτερ(?:α|ασ|ων)(?![α-ω])",action,δεύτερα ἐπισπᾶται,brings away the afterbirth (δεύτερα),δεύτερα also 'second'; a verb of expulsion is required
+labor,(?<![α-ω])(?:καθαιρ\w*|αποκαθαιρ\w*)[^\w.;·]+(?:τα[^\w.;·]+|τασ[^\w.;·]+)?(?:εκ|απο)[^\w.;·]+τοκετ|(?<![α-ω])(?:εκ|απο)[^\w.;·]+τοκετ\w*[^\w.;·]+(?:\w+[^\w.;·]+)?(?:καθαιρ|αποκαθαιρ|δυσκαθαρτ|μη[^\w.;·]+καθαιρ),therapeutic,ἐκ τοκετῶν καθαίρει,cleansing after childbirth (ἐκ τοκετοῦ καθαίρει),post-partum purgation (lochia); puerperal breast complaints go to lactation
+lactation,"(?<![α-ω])μαστ\w*\w*(?:[^\w.;·]+\w+){0,3}?[^\w.;·]+τοκετ|(?<![α-ω])(?:σπαργ\w*|χονδρι\w*)[^\w.;·]+(?:\w+[^\w.;·]+)?μαστ|(?<![α-ω])μαστ(?:ουσ|ων|οισ)(?![α-ω])[^\w.;·]+(?:\w+[^\w.;·]+)?(?:σπαργ|χονδρι|επαιρ)",therapeutic,μαστούς χονδριῶντας,puerperal / engorged breasts (μαστοὶ σπαργῶντες),breast engorgement and post-partum mastitis; nearest concept
+labor,(?<![α-ω])ωκυτοκ,therapeutic,ὠκυτόκιος,hastening birth (ὠκυτόκιος),
+labor,(?<![α-ω])δυστοκ,therapeutic,δυστοκούσαις,difficult labour (δυστοκία),
+labor,(?<![α-ω])λοχ(?:ει|ι),therapeutic,λοχεῖα,lochia (λοχεῖα),
+labor,(?<![α-ω])εμβρυ\w*[^\w.;·]+(?:\w+[^\w.;·]+)?(?:νεκρ|τεθνηκ)|(?<![α-ω])(?:νεκρ|τεθνηκ)\w*[^\w.;·]+(?:\w+[^\w.;·]+)?εμβρυ,action,τεθνηκότα ἔμβρυα,expels the dead foetus,"obstetric, not abortion"
+abortifacient,"(?<![α-ω])(?<!νεκρα )(?<!νεκρον )(?<!νεκρων )(?<!τεθνηκοσ )(?<!τεθνηκοτα )(?<!τεθνηκοτων )εμβρυ\w*(?![α-ω])(?![^\w.;·]+(?:\w+[^\w.;·]+)?(?:νεκρ|τεθνηκ))\w*(?:[^\w.;·]+\w+){0,4}?[^\w.;·]+(?:(?:αγ(?:ει|ουσι|ουσιν|ον|οντα|ουσα|ειν|ωγ\w*)|κιν(?:ει|ουσι|ουσιν|ειν|ουν|ητικ\w*)|κατασπ\w*|επισπ\w*|προτρεπ\w*|εκκαλ\w*|προκλητ\w*|εκβαλ\w*|εκβολ\w*|εκκρ\w*|εξαγ\w*)|φθειρ\w*|εκτινασσ\w*|αναιρ\w*|κτειν\w*)",action,ἔμβρυα φθείρει,expels / destroys the embryo,ἔμβρυα κατασπᾷ / φθείρει; dead-foetus contexts excluded
+abortifacient,"(?<![α-ω])(?:(?:αγ(?:ει|ουσι|ουσιν|ον|οντα|ουσα|ειν|ωγ\w*)|κιν(?:ει|ουσι|ουσιν|ειν|ουν|ητικ\w*)|κατασπ\w*|επισπ\w*|προτρεπ\w*|εκκαλ\w*|προκλητ\w*|εκβαλ\w*|εκβολ\w*|εκκρ\w*|εξαγ\w*)|φθειρ\w*|εκτινασσ\w*|εκβολ\w*)\w*(?:[^\w.;·]+\w+){0,4}?[^\w.;·]+(?<!νεκρα )(?<!νεκρον )(?<!νεκρων )(?<!τεθνηκοσ )(?<!τεθνηκοτα )(?<!τεθνηκοτων )εμβρυ\w*(?![α-ω])(?![^\w.;·]+(?:\w+[^\w.;·]+)?(?:νεκρ|τεθνηκ))",action,ἄγει καὶ ἔμβρυα,expels ... the embryo,verb before object
+abortifacient,(?<![α-ω])φθορι(?:οσ|ον|α|οισ)(?![α-ω]),action,φθόριος,abortive (φθόριος; τὰ φθόρια),
+abortifacient,(?<![α-ω])εκτιτρωσκ,action,ἐκτιτρώσκει,causes miscarriage (ἐκτιτρώσκει),
+abortifacient,(?<![α-ω])εκτρωσμ,action,ἐκτρωσμούς,miscarriages (ἐκτρωσμοί),
+lactation,"(?<![α-ω])γαλα(?:κτοσ|κτι)?(?![α-ω])\w*(?:[^\w.;·]+\w+){0,2}?[^\w.;·]+(?:κατασπ|αγ(?:ει|ουσι|ωγ)|κιν|γενν|πληθ|σβενν|αποκοπ|ξηραιν|επισπ|αυξ|προκλητ)",action,γάλα κατασπᾷ,draws down / produces / dries up milk,γάλα κατασπᾷ (galactagogue); γάλα σβέννυσι (antigalactic)
+lactation,"(?<![α-ω])(?:κατασπ|γεννητικ|πληθυντικ|αγωγ|γαλακτοποι|επισπ|προκλητικ)\w*\w*(?:[^\w.;·]+\w+){0,2}?[^\w.;·]+γαλα(?:κτοσ|κτι)?(?![α-ω])",action,κατασπᾷ δὲ καὶ γάλα,producing milk,verb before object
+uterine_disorders,(?<![α-ω])υστερικ,therapeutic,ὑστερικὰς,hysterical suffocation (πνὶξ ὑστερική),uterine 'suffocation'
+uterine_disorders,(?<![α-ω])(?:υστερ(?:ασ|αν|αισ|ων)|μητρ(?:α|ασ|αν|αισ|ων))(?![α-ω]),therapeutic,ὑστέρας,"the womb (ὑστέρα, μήτρα)","generic womb affections (hardness, inflammation, prolapse, ulcers)"
+uterine_disorders,(?<![α-ω])εν[^\w.;·]+(?:τη[^\w.;·]+)?υστερα(?![α-ω])|(?<![α-ω])υστερα(?![α-ω])[^\w.;·]+(?:ρευματιζ|πολεμ|ελκ),therapeutic,ἐν ὑστέρᾳ,in the womb,ὕστερα 'later' excluded by context
+infertility,(?<![α-ω])συλλη[μ]?ψ,therapeutic,συλλήψει,conception (σύλληψις),aids conception
+contraception,(?<![α-ω])ατοκι,action,ἀτόκιον,contraceptive (ἀτόκιον),
+contraception,(?<![α-ω])ασυλλη,action,ἀσυλλημψίαν,prevents conception (ἀσυλληψία),
+contraception,(?<![α-ω])αγον(?:ουσ|οσ|ια\w*)(?![α-ω]),action,ἀγόνους,"making sterile (ἄγονος, ἀγονία)",participle ἄγον excluded
+headache,(?<![α-ω])κεφαλαλγ(?:ι|ου|ικ)\w*(?![α-ω])(?![^\w.;·]+(?:\w+[^\w.;·]+)?(?:\w+[^\w.;·]+)?ποιητικ),therapeutic,κεφαλαλγίας,"headache (κεφαλαλγία, κεφαλαλγοῦντες)",adjectival κεφαλαλγής and κεφαλαλγίας ποιητικός (adverse) excluded
+headache,(?<![α-ω])κεφαλαλγ(?:εσ|εισ|η|ησ)(?![α-ω])|(?<![α-ω])κεφαλαλγι\w*[^\w.;·]+(?:\w+[^\w.;·]+)?(?:\w+[^\w.;·]+)?ποιητικ,adverse,κεφαλαλγεῖς,causing headache (κεφαλαλγής),dietetic warning
+headache,(?<![α-ω])(?:πον|αλγ|οδυν|βαρ)\w*[^\w.;·]+(?:\w+[^\w.;·]+)?(?:τησ[^\w.;·]+)?κεφαλ(?:ησ|ην|η)(?![α-ω])|(?<![α-ω])κεφαλ(?:ησ|ην|η)(?![α-ω])[^\w.;·]+(?:\w+[^\w.;·]+)?(?:πον|αλγ|οδυν|βαρ),therapeutic,κεφαλῆς ἀλγήματα,pain / heaviness of the head,
+headache,(?<![α-ω])καρηβαρ,adverse,καρηβαρικός,causing heaviness of the head (καρηβαρικός),
+epilepsy,(?<![α-ω])επιλη(?:μ)?(?:πτ|ψ),therapeutic,ἐπιλημπτικοῖς,epileptics (ἐπιλη(μ)πτικοί),Wellmann prints the -μπτ- spelling
+insomnia,(?<![α-ω])υπν(?:οποι|ωτικ),action,ὑπνοποιόν,"soporific (ὑπνωτικός, ὑπνοποιός)",
+insomnia,(?<![α-ω])καρωτικ,action,καρωτικόν,stupefying (καρωτικός),may be an adverse effect (κάρος)
+insomnia,(?<![α-ω])υπν(?:ον|ουσ)(?![α-ω])[^\w.;·]+(?:\w+[^\w.;·]+)?(?:επαγ|ποι|κιν|φερ|αγ),action,ὕπνον ποιεῖ,induces sleep (ὕπνον ποιεῖ),
+insomnia,(?<![α-ω])αγρυπν,therapeutic,ἀγρυπνούντων,sleeplessness (ἀγρυπνία),
+insomnia,(?<![α-ω])δυσονειρ|(?<![α-ω])ταραχωδ\w*[^\w.;·]+(?:\w+[^\w.;·]+)?(?:\w+[^\w.;·]+)?ενυπνι|(?<![α-ω])ενυπνι\w*[^\w.;·]+(?:\w+[^\w.;·]+)?ταραχωδ,adverse,δυσόνειρος,causing troubled dreams (δυσόνειρος),nearest concept (sleep disturbance)
+melancholy,(?<![α-ω])μελαγχολ,therapeutic,μελαγχολικούς,melancholics (μελαγχολικοί),humoral 'black-bile' sufferers
+paralysis,(?<![α-ω])(?:παραλυ(?:τικ|σ)|παραλελυμεν),therapeutic,παραλυτικοῖς,paralytics (παραλυτικοί),
+paralysis,(?<![α-ω])τρομ(?:ουσ|οισ|ωδ\w*)(?![α-ω]),therapeutic,τρόμους,tremors (τρόμοι),nearest concept 'palsy'
+stroke,(?<![α-ω])αποπληκτ,therapeutic,ἀποπλήκτους,apoplectics (ἀπόπληκτοι),
+vertigo,(?<![α-ω])σκοτωμ,therapeutic,σκοτωματικοῖς,dizziness (σκοτωματικοί),
+vertigo,(?<![α-ω])σκοτοδιν,therapeutic,σκοτοδινιῶντας,giddiness (σκοτοδινιῶντες),
+memory,(?<![α-ω])απηλιθιωμεν,therapeutic,ἀπηλιθιωμένους,the dull-witted (ἀπηλιθιωμένοι),LSJ ἀπηλιθιόω 'make foolish'
+delirium,(?<![α-ω])ληθαργ,therapeutic,ληθαργικῶν,lethargy (λήθαργος),
+delirium,(?<![α-ω])φρενιτ,therapeutic,φρενιτικῶν,phrenitis (φρενῖτις),
+delirium,(?<![α-ω])μαινομεν,therapeutic,μαινομένους,the mad (μαινόμενοι),
+delirium,(?<![α-ω])μανιωδ,adverse,μανιώδης,maddening (μανιώδης),μανικός (plant epithet) excluded
+delirium,(?<![α-ω])εκστασ,adverse,ἔκστασιν,ecstasis (ἔκστασις),
+delirium,(?<![α-ω])φαντασι,adverse,φαντασίας,hallucinations (φαντασίαι),
+delirium,(?<![α-ω])(?:κιν|ταρασσ|ταραττ|υποταρ)\w*[^\w.;·]+(?:την[^\w.;·]+)?διανοι,adverse,κινεῖ τὴν διάνοιαν,disturbs the mind (ταράσσει τὴν διάνοιαν),concept 'anxiety' (disturbed mind) is an alternative reading
+convulsions,(?<![α-ω])σπασμ(?:οι|οισ|ουσ|ων|ωδ\w*)(?![α-ω]),therapeutic,σπασμοῖς,convulsions (σπασμοί),
+convulsions,(?<![α-ω])σπασματ|(?<![α-ω])σπασμασ,therapeutic,σπάσματα,"spasms, strains (σπάσματα)",LSJ σπάσμα 'convulsion; also sprain'; paired with ῥήγματα it often means muscle strain
+convulsions,(?<![α-ω])οπισθοτον,therapeutic,ὀπισθοτονικοῖς,opisthotonus (ὀπισθότονος),
+convulsions,(?<![α-ω])σπωμεν,therapeutic,σπωμένοις,those convulsed (σπώμενοι),
+gout,(?<![α-ω])(?:ποδαγρ|χειραγρ),therapeutic,ποδαγρικοῖς,gout (ποδάγρα),
+sciatica,(?<![α-ω])ισχιαδ,therapeutic,ἰσχιαδικοῖς,sciatica (ἰσχιάς),
+sciatica,(?<![α-ω])ισχι(?:ων|ασιν?)(?![α-ω]),therapeutic,ἰσχίων,hip pains (ἰσχία),
+sciatica,(?<![α-ω])οσφυ,therapeutic,ὀσφύος,loin pain (ὀσφύος ἄλγημα),lumbago; nearest concept
+joint_pain,(?<![α-ω])αρθριτ,therapeutic,ἀρθριτικοῖς,arthritis (ἀρθρῖτις),
+joint_pain,"(?<![α-ω])αρθρ(?:ων|α|οισ|ον)(?![α-ω])\w*(?:[^\w.;·]+\w+){0,2}?[^\w.;·]+(?:πον|αλγ|φλεγμ|οιδ|ρευματ|κεχαλασ|σηπεδ)|(?<![α-ω])(?:πον|αλγ|οδυν|φλεγμον|ρευματ|σηπεδον)\w*\w*(?:[^\w.;·]+\w+){0,2}?[^\w.;·]+αρθρ",therapeutic,ἄρθρων ἀλγήματα,pains / swellings of the joints,
+bruises,(?<![α-ω])υπωπ,therapeutic,ὑπώπια,"black eyes, bruises under the eye (ὑπώπια)",
+bruises,(?<![α-ω])πελιωμ,therapeutic,πελιώματα,livid bruises (πελιώματα),
+bruises,(?<![α-ω])μωλωπ,therapeutic,μώλωπάς,weals (μώλωπες),
+bruises,(?<![α-ω])θλασ(?:μ|ε),therapeutic,θλάσματα,contusions (θλάσματα),
+bruises,(?<![α-ω])ρηγμ,therapeutic,ῥήγματα,"ruptures, strains (ῥήγματα)",internal ruptures of muscle/vessels (Galen); nearest concept
+bruises,(?<![α-ω])στρεμμ,therapeutic,στρέμματα,sprains (στρέμματα),
+bruises,(?<![α-ω])καταγμ,therapeutic,κατάγματα,fractures (κατάγματα),
+bruises,(?<![α-ω])πτωμα,therapeutic,πτώματα,falls (πτώματα),
+pain,(?<![α-ω])ανωδυν,therapeutic,ἀνωδύνοις,anodyne (ἀνώδυνος),
+pain,(?<![α-ω])περιωδυν,therapeutic,περιωδυνίας,violent pain (περιωδυνία),
+pain,(?<![α-ω])οδυν(?:ην|ασ|αισ|ησ|ων)(?![α-ω]),therapeutic,ὀδύνας,pain (ὀδύνη),often qualified by an organ
+pain,(?<![α-ω])αλγηδον,therapeutic,ἀλγηδόνας,pain (ἀλγηδών),
+pain,(?<![α-ω])αναισθησ,therapeutic,ἀναισθησίαν,insensibility for surgery (ἀναισθησία),mandrake; anaesthetic action
+wounds,(?<![α-ω])τραυμα,therapeutic,τραύματα,wounds (τραύματα),incl. τραυματικός 'vulnerary'
+wounds,(?<![α-ω])εναιμ,therapeutic,ἐναίμων,fresh bloody wounds (ἔναιμα),
+wounds,(?<![α-ω])νεοτρωτ,therapeutic,νεότρωτα,fresh wounds (νεότρωτα),
+wounds,(?<![α-ω])κολλητικ,therapeutic,κολλητικὴν,"agglutinant, closing wounds (κολλητικός)",
+wounds,(?<![α-ω])απουλ,action,ἀπουλοῖ,cicatrising (ἀπουλοῖ),of wounds and ulcers
+skin_ulcers,(?<![α-ω])(?:ελκ(?:η|εσιν?|οσ|ουσ|ων|ωσ\w*|ωδ\w*|ωμ\w*)|(?:η|ει)λκωμεν\w*)(?![α-ω]),therapeutic,ἕλκη,"ulcers (ἕλκη, ἑλκώσεις)","ἕλκω 'draw' (ἑλκυ-, ἕλκει) excluded; ἑλκῶν/ἕλκων homograph rare"
+skin_ulcers,(?<![α-ω])ελκωτικ,adverse,ἑλκωτικήν,ulcerating (ἑλκωτικός),caustic property
+skin_ulcers,(?<![α-ω])νομ(?:ασ|ων|αισ)(?![α-ω]),therapeutic,νομὰς,spreading ulcers (νομαί),νομή 'pasture' excluded
+skin_ulcers,(?<![α-ω])φαγεδαιν,therapeutic,φαγεδαινικὰ,phagedaenic ulcers,
+skin_ulcers,(?<![α-ω])γαγγραιν,therapeutic,γαγγραίνας,gangrene (γάγγραινα),
+skin_ulcers,(?<![α-ω])σηπεδον,therapeutic,σηπεδόνας,putrefying sores (σηπεδόνες),
+skin_ulcers,(?<![α-ω])υπερσαρκ,therapeutic,ὑπερσαρκοῦντα,proud flesh (ὑπερσαρκώματα),
+skin_ulcers,(?<![α-ω])κοιλωματ,therapeutic,κοιλώματα,hollow ulcers (κοιλώματα),
+skin_ulcers,(?<![α-ω])συριγγ(?:ασ|ων|ιοισ)(?![α-ω]),therapeutic,σύριγγας,fistulae (σύριγγες),
+burns,(?<![α-ω])πυρικαυ,therapeutic,πυρίκαυτα,burns (πυρίκαυτα),
+burns,(?<![α-ω])κατακαυμ,therapeutic,κατακαύματα,burns (κατακαύματα),
+itch_scabies,(?<![α-ω])κνησμ,therapeutic,κνησμοὺς,itching (κνησμός),
+itch_scabies,(?<![α-ω])ψωρ(?:α|ασ|αν|αισ|ων|ικ\w*|ιασ\w*|ιω\w*)(?![α-ω]),therapeutic,ψώρας,"itch, scabies (ψώρα)","LSJ ψώρα 'itch, mange'; ψωρώδης (of drugs) excluded"
+dermatitis,(?<![α-ω])λειχην,therapeutic,λειχῆνας,"lichen, tetter (λειχήν)",
+dermatitis,(?<![α-ω])ερπητ,therapeutic,ἕρπητας,"herpes, spreading eruption (ἕρπης)",
+dermatitis,(?<![α-ω])εξανθημ,therapeutic,ἐξανθήματα,eruptions (ἐξανθήματα),
+dermatitis,(?<![α-ω])εκζε(?:μ|σμ),therapeutic,ἐκζέματα,pustular eruptions (ἐκζέματα),
+dermatitis,(?<![α-ω])παρατριμμ,therapeutic,παρατρίμματα,chafing (παρατρίμματα),
+dermatitis,(?<![α-ω])φλυκτ,therapeutic,φλυκταινοῦσθαι,blisters (φλύκταιναι),
+dermatitis,(?<![α-ω])αχωρ,therapeutic,ἀχῶρας,scurf of the scalp (ἀχῶρες),could also be tinea capitis
+dermatitis,(?<![α-ω])πιτυρια,therapeutic,πιτυριάσεσι,dandruff (πιτυρίασις),
+dermatitis,(?<![α-ω])(?:αχωρ\w*|σμηχ\w*|αποσμ\w*)[^\w.;·]+(?:\w+[^\w.;·]+)?πιτυρ(?:α|ων)(?![α-ω])|(?<![α-ω])πιτυρ(?:α|ων)(?![α-ω])[^\w.;·]+(?:και[^\w.;·]+)?(?:αχωρ|ψωρ|εξανθ),therapeutic,πίτυρα καὶ ἀχῶρας,"dandruff (πίτυρα, with ἀχῶρες)",πίτυρα also 'bran'; only with scalp-disease words
+scaly_skin,(?<![α-ω])λεπρ,therapeutic,λέπρας,lepra (scaly skin),"Greek λέπρα ≈ psoriasis-like scaling, not Hansen's disease"
+scaly_skin,(?<![α-ω])αλφ(?:ουσ|ων|οσ|ον|οι)(?![α-ω]),therapeutic,ἀλφούς,alphos (white scaly patches),ἄλφιτα 'barley groats' excluded
+scaly_skin,(?<![α-ω])ελεφαντι(?:ασ|ωσ|ωντ),therapeutic,ἐλεφαντιῶντας,elephantiasis (ἐλεφαντίασις),lepromatous leprosy
+alopecia,(?<![α-ω])αλωπεκι,therapeutic,ἀλωπεκίας,alopecia (ἀλωπεκία),ἀλώπηξ 'fox' excluded
+alopecia,(?<![α-ω])(?:τριχορρο|τριχοφυ)|(?<![α-ω])(?:ρεουσ|απορρε|πιπτουσ)\w*[^\w.;·]+(?:\w+[^\w.;·]+)?τριχ|(?<![α-ω])τριχ\w*[^\w.;·]+(?:\w+[^\w.;·]+)?(?:αναφυ|ρεουσ|απορρε|πιπτουσ),therapeutic,τρίχας ῥεούσας,falling hair; hair growth,
+warts,(?<![α-ω])μυρμηκι,therapeutic,μυρμηκίας,warts (μυρμηκίαι),
+warts,(?<![α-ω])ακροχορδ,therapeutic,ἀκροχορδόνας,pedunculated warts (ἀκροχορδόνες),
+warts,(?<![α-ω])θυμουσ(?![α-ω]),therapeutic,θύμους,warty growths (θύμοι),θύμος 'thyme' vs 'wart': only acc. pl. kept
+warts,(?<![α-ω])τυλ(?:ουσ|οι|ων|ωδ\w*)(?![α-ω]),therapeutic,τύλους,calluses (τύλοι),
+warts,(?<![α-ω])ηλουσ(?![α-ω]),therapeutic,ἥλους,corns (ἧλοι),ἧλος also 'nail'
+skin_blemishes,(?<![α-ω])εφηλ,therapeutic,ἔφηλιν,freckles (ἐφηλίδες),
+skin_blemishes,(?<![α-ω])(?<!ουδε )(?<!κιρρασ και )σπιλ(?:ουσ|ων|ον|οι)(?![α-ω])(?![^\w.;·]+(?:ομοιωσ|εχοντ|εμπλε)),therapeutic,σπίλους,spots (σπίλοι),"descriptive 'spotted' (leaves, stones) excluded"
+skin_blemishes,(?<![α-ω])ιονθ,therapeutic,ἰόνθους,pimples (ἴονθοι),
+skin_blemishes,(?<![α-ω])φακουσ(?![α-ω]),therapeutic,φακούς,lentigines (φακοί),not lentils in this case-form
+skin_blemishes,(?<![α-ω])ουλ(?:ασ|ων)(?![α-ω])[^\w.;·]+(?:\w+[^\w.;·]+)?(?:μελαιν|λευκαιν|ομοχρο)|(?<![α-ω])(?:μελαιν|λευκαιν|ομοχρο)\w*[^\w.;·]+(?:\w+[^\w.;·]+)?(?:τασ[^\w.;·]+)?(?:μελαιν\w*[^\w.;·]+)?ουλ(?:ασ|ων)(?![α-ω]),therapeutic,οὐλὰς μελαίνας,recolours scars (cosmetic),οὐλαί 'scars' (not οὖλα 'gums')
+skin_blemishes,(?<![α-ω])(?:αποκαθαιρ|σμηχ|αποσμηχ|στιλβ|λαμπρυν)\w*[^\w.;·]+(?:\w+[^\w.;·]+)?(?:το[^\w.;·]+)?προσωπ|(?<![α-ω])(?:εν[^\w.;·]+)?προσωπ(?:ον|ω)(?![α-ω])[^\w.;·]+(?:\w+[^\w.;·]+)?(?:αποκαθαιρ|σμηχ|στιλβ|επιχρ),therapeutic,πρόσωπον σμήχει,cleanses / brightens the face,cosmetic
+abscess,(?<![α-ω])φυμα(?:τ\w*|σιν?)?(?![α-ω]),therapeutic,φύματα,"tumours, inflamed swellings (φύματα)",
+abscess,(?<![α-ω])αποστημ,therapeutic,ἀποστήματα,abscesses (ἀποστήματα),
+abscess,(?<![α-ω])παρωτιδ,therapeutic,παρωτίδας,parotid swellings (παρωτίδες),
+abscess,(?<![α-ω])δοθιην,therapeutic,δοθιῆνας,boils (δοθιῆνες),
+abscess,(?<![α-ω])φυγεθλ,therapeutic,φύγεθλα,inflamed glands (φύγεθλα),
+abscess,(?<![α-ω])παρωνυχ,therapeutic,παρωνυχίας,whitlows (παρωνυχίαι),
+abscess,(?<![α-ω])βουβων,therapeutic,βουβώνων,"buboes, inguinal swellings (βουβῶνες)",
+abscess,(?<![α-ω])επινυκτιδ,therapeutic,ἐπινυκτίδας,night-pustules (ἐπινυκτίδες),
+abscess,(?<![α-ω])κηρια(?![α-ω]),therapeutic,κηρία,honeycomb boils (κηρία),Celsus 'favus': multi-headed boil; κηρία 'honeycombs' rare in these lists
+abscess,(?<![α-ω])(?<!επ' )(?<!επ )(?<!επι )(?<!εισ )(?<!επι τουσ )(?<!πεπυρωμενουσ )(?<!διαπυρουσ )(?<!διαπυρων )(?<!λοιπον )ανθρακ(?:ασ|ων|εσ)(?![α-ω])(?![^\w.;·]+(?:πεπυρωμ|διαπυρ|εντιθ|ζωπυρ|επιτεθ|καιον|καιεσθ|απερει|πεπωμασ)),therapeutic,ἄνθρακας,carbuncles (ἄνθρακες),ἄνθρακες also 'coals': ἐπ' ἀνθράκων and firing contexts excluded
+abscess,(?<![α-ω])πυοποι,action,πυοποιόν,"maturative, brings to suppuration (πυοποιός)",
+erysipelas,(?<![α-ω])ερυσιπελ,therapeutic,ἐρυσιπέλατα,erysipelas,
+inflammation,(?<![α-ω])φλεγμ(?:ον|αιν),therapeutic,φλεγμονὰς,inflammations (φλεγμοναί),φλέγμα 'phlegm' excluded
+inflammation,(?<![α-ω])αφλεγμαντ,therapeutic,ἀφλέγμαντα,preventing inflammation (ἀφλέγμαντος),
+inflammation,(?<![α-ω])οιδ(?:ημ|ουντ|αιν),therapeutic,οἰδήματα,swellings (οἰδήματα),local swelling; cf. edema_dropsy
+eye_disease,(?<![α-ω])[οα]φθαλμ,therapeutic,ὀφθαλμῶν,the eyes; eye-salves (ὀφθαλμικά),generic; OCR variant αφθαλμ- included
+eye_disease,(?<![α-ω])αμβλυωπ,therapeutic,ἀμβλυωπίας,dim sight (ἀμβλυωπία),
+eye_disease,(?<![α-ω])αχλυ,therapeutic,ἀχλῦς,mist on the eye (ἀχλύς),
+eye_disease,(?<![α-ω])λευκωμ,therapeutic,λευκώματα,leucoma (λεύκωμα),
+eye_disease,(?<![α-ω])νεφελι,therapeutic,νεφέλια,corneal cloud (νεφέλιον),
+eye_disease,(?<![α-ω])υποχυ,therapeutic,ὑποχύσεις,cataract (ὑπόχυσις),
+eye_disease,(?<![α-ω])νυκταλωπ,therapeutic,νυκτάλωπας,night-blindness (νυκτάλωψ),
+eye_disease,(?<![α-ω])τραχωμ,therapeutic,τραχώματα,trachoma (τράχωμα),
+eye_disease,(?<![α-ω])σταφυλωμ,therapeutic,σταφυλώματα,staphyloma (σταφύλωμα),
+eye_disease,(?<![α-ω])οξυδερκ,therapeutic,ὀξυδερκίαν,sharp-sighted (ὀξυδερκής),promotes keen sight
+eye_disease,(?<![α-ω])επισκοτ,therapeutic,ἐπισκοτοῦντα,things darkening the pupils (τὰ ἐπισκοτοῦντα ταῖς κόραις),
+eye_disease,(?<![α-ω])αιγιλωπια,therapeutic,αἰγιλώπια,lachrymal fistula (αἰγιλώπια),plant αἰγίλωψ excluded
+eye_disease,(?<![α-ω])αργεμ(?!ων),therapeutic,ἄργεμα,"argema, corneal ulcer (ἄργεμα)",ἀργεμώνη (plant) excluded
+eye_disease,(?<![α-ω])βλεφαρ,therapeutic,βλέφαρα,eyelids (βλέφαρα),
+conjunctivitis,(?<![α-ω])[οα]φθαλμι(?:α|ασ|αισ|αν|ων|ωντ\w*)(?![α-ω]),therapeutic,ὀφθαλμίας,ophthalmia (ὀφθαλμία),
+conjunctivitis,"(?<![α-ω])φλεγμον\w*\w*(?:[^\w.;·]+\w+){0,3}?[^\w.;·]+[οα]φθαλμ|(?<![α-ω])[οα]φθαλμ\w*\w*(?:[^\w.;·]+\w+){0,2}?[^\w.;·]+φλεγμ",therapeutic,ὀφθαλμῶν φλεγμονὰς,inflammation of the eyes,
+conjunctivitis,"(?<![α-ω])ρευμ\w*\w*(?:[^\w.;·]+\w+){0,2}?[^\w.;·]+[οα]φθαλμ|(?<![α-ω])[οα]φθαλμ\w*[^\w.;·]+(?:\w+[^\w.;·]+)?ρευμ",therapeutic,ὀφθαλμοῖς ῥεύματα,fluxes of the eyes,
+ear_disease,(?<![α-ω])ωταλγ,therapeutic,ὠταλγίας,earache (ὠταλγία),
+ear_disease,(?<![α-ω])δυσηκο,therapeutic,δυσηκοίαν,hardness of hearing (δυσηκοΐα),
+ear_disease,(?<![α-ω])συριγμ,therapeutic,συριγμούς,whistling in the ears (συριγμοί),
+ear_disease,(?<![α-ω])ηχ(?:ουσ|οισ|οι)(?![α-ω]),therapeutic,ἤχους,ringing in the ears (ἦχοι),
+ear_disease,(?<![α-ω])(?<!μυοσ )ωτ(?:α|ων|οσ|ι)(?![α-ω])|(?<![α-ω])ωσιν?(?![α-ω]),therapeutic,ὦτα,the ears (ὦτα),plant name μυὸς ὦτα excluded; pot-handles (οὖς) occur rarely
+toothache,(?<![α-ω])οδονταλγ,therapeutic,ὀδονταλγίας,toothache (ὀδονταλγία),
+toothache,(?<![α-ω])οδοντιασ,therapeutic,ὀδοντιάσεις,teething (ὀδοντίασις),
+toothache,"(?<![α-ω])οδοντ(?:ων|ασ|οσ|α|ι|εσ)(?![α-ω])\w*(?:[^\w.;·]+\w+){0,2}?[^\w.;·]+(?:πον|αλγ|κιν|σαλευ|σειο|κοιλ|τρημ|θρυπτ|βρωμ)|(?<![α-ω])(?:πον|αλγ|οδυν)\w*[^\w.;·]+(?:\w+[^\w.;·]+)?οδοντ",therapeutic,ὀδόντος πόνον,pain of the teeth; loose / hollow teeth,
+mouth_gums,(?<![α-ω])αφθ(?:ασ|αι|αισ|ων)(?![α-ω]),therapeutic,ἄφθας,aphthae (mouth ulcers),OCR αφθαλμ- and ἄφθονος excluded
+mouth_gums,(?<![α-ω])ουλ(?:α|οισ)(?![α-ω]),therapeutic,οὖλα,the gums (οὖλα),
+mouth_gums,"(?<![α-ω])στοματ(?:οσ|ι|α)?(?![α-ω])[^\w.;·]+(?:\w+[^\w.;·]+)?(?:ελκ|νομ|σηπ|δυσωδ|αφθ|φλεγμ)|(?<![α-ω])(?:ελκ|νομ|σηπ|δυσωδ|αφθ|φλεγμ)\w*[^\w.;·]+(?:\w+[^\w.;·]+){0,2}?(?:εν[^\w.;·]+)?(?:τω[^\w.;·]+)?στοματ|(?<![α-ω])στοματικ",therapeutic,στόματι ἕλκη,ulcers / sores / bad odour of the mouth; mouth-remedies,
+nosebleed,"(?<![α-ω])(?:αιμορραγ\w*|αιμ(?:α|ατοσ))\w*(?:[^\w.;·]+\w+){0,3}?[^\w.;·]+(?:μυκτηρ|ρινων|ρινοσ)|(?<![α-ω])(?:μυκτηρ|ρινων|ρινοσ)\w*[^\w.;·]+(?:\w+[^\w.;·]+)?αιμ",therapeutic,μυκτήρων αἱμορραγίας,bleeding from the nostrils,αἷμα διὰ ῥινῶν ἄγει (errhine) is a rare false hit
+edema_dropsy,(?<![α-ω])υδ(?:ρωπ|ρωψ|ερι|ερω),therapeutic,ὑδρωπικοῖς,"dropsy (ὕδρωψ, ὑδρωπικοί)",
+edema_dropsy,(?<![α-ω])λευκοφλεγματ,therapeutic,λευκοφλεγματίας,leucophlegmatia (anasarca),
+heart,(?<![α-ω])καρδιακ,therapeutic,καρδιακῶν,the cardiac affection (καρδιακοί),ancient fainting/sweating syndrome
+heart,(?<![α-ω])λ[ε]?ιποθυμ,therapeutic,λειποθυμιῶν,fainting (λειποθυμία),
+heart,(?<![α-ω])σφυγμ,therapeutic,σφυγμῶν,(restores) the pulse (σφυγμοί),
+hemorrhage,(?<![α-ω])αιμορραγ,therapeutic,αἱμορραγίας,haemorrhage (αἱμορραγία),includes nasal and uterine bleeding
+hemorrhage,"(?<![α-ω])αιμ(?:α|ατοσ|ατα)(?![α-ω])\w*(?:[^\w.;·]+\w+){0,2}?[^\w.;·]+(?:ιστη\w*|ιστα\w*|εφιστ\w*|επεχ(?!ομεν)\w*|εφεκτ\w*|ισχ(?:ει|ουσι|ειν)|στελλ\w*|σταλτ\w*|στατικ\w*|στεγν\w*|καταστελλ\w*)|(?<![α-ω])(?:ιστησιν?|επεχει|ισχει|στελλει|σταλτικ\w*)\w*(?:[^\w.;·]+\w+){0,2}?[^\w.;·]+αιμ(?:α|ατοσ)(?![α-ω])",therapeutic,ἵστησι καὶ αἵματος,staunches blood,
+hemorrhage,(?<![α-ω])ισχαιμ,therapeutic,ἴσχαιμος,styptic (ἴσχαιμος),
+hemorrhage,(?<![α-ω])αιμασσομεν,therapeutic,αἱμασσόμενα,bleeding (gums) (αἱμασσόμενα),"descriptive αἱμάσσοντα ('as if bloodying the fingers', of a dye) excluded"
+hemorrhage,(?<![α-ω])αιμορροουντ,therapeutic,αἱμορροοῦντα,bleeding (αἱμορροοῦντα),
+hemoptysis,(?<![α-ω])αιμοπτ,therapeutic,αἱμοπτυικοῖς,spitting of blood (αἱμοπτυϊκοί),
+hemoptysis,(?<![α-ω])αιματ\w*[^\w.;·]+(?:\w+[^\w.;·]+)?(?:αναγωγ|πτυσ|εμετ)|(?<![α-ω])(?:αναγωγ|πτυσ|εμετ)\w*[^\w.;·]+(?:\w+[^\w.;·]+)?(?:του[^\w.;·]+)?αιματ,therapeutic,αἵματος ἀναγωγὰς,bringing up / spitting of blood,αἵματος ἀναγωγή; ἔμετος αἵματος (haematemesis) included
+fever,(?<![α-ω])(?<!διχα )(?<!χωρισ )(?<!εν τε )πυρετ(?:ουσ|ων|οισ|ου)(?![α-ω])(?![^\w.;·]+(?:δε[^\w.;·]+)?(?:μεθ|δι|μετ|μετα|συν|εν)(?![α-ω])),therapeutic,πυρετοῖς,fevers (πυρετοί),"excluded: ἀπύρετοι, διχὰ πυρετοῦ, warnings ἐν τε πυρετοῖς, and the vehicle formula (πυρέσσουσι δὲ μεθ' ὕδατος); participles πυρέσσοντες dropped (mostly vehicle contrasts)"
+fever,(?<![α-ω])ριγ(?:η|οσ|ουσιν?|ει|ουντ\w*|εσιν?)(?![α-ω]),therapeutic,ῥίγη,rigors (ῥίγη),
+fever,(?<![α-ω])ηπιαλ,therapeutic,ἠπιάλοις,ague with shivering (ἠπίαλος),
+fever,(?<![α-ω])φρικ(?:ια|ιασ|αισ|ασ)(?![α-ω]),therapeutic,φρικία,shivering fits (φρικία),
+malaria,(?<![α-ω])τεταρται,therapeutic,τεταρταίῳ,quartan fever (τεταρταῖος),
+malaria,(?<![α-ω])τριται,therapeutic,τριταίῳ,tertian fever (τριταῖος),
+malaria,(?<![α-ω])αμφημεριν,therapeutic,ἀμφημερινῶν,quotidian fever (ἀμφημερινός),
+malaria,(?<![α-ω])περιοδ(?!υν),therapeutic,περιόδους,periodic fevers (περίοδοι),περιωδυνία excluded; περίοδος can be the cycle itself
+plague,(?<![α-ω])λοιμ,therapeutic,λοιμικαῖς,pestilence (λοιμικαὶ διαθέσεις),
+envenomation,(?<![α-ω])θηρι(?:ο|σδ)δηκτ,therapeutic,θηριοδήκτοις,bitten by wild beasts (θηριόδηκτοι),the commonest formula; θηρισδδηκτ- is a TEI typo
+envenomation,(?<![α-ω])ερπετοδηκτ,therapeutic,ἑρπετοδήκτοις,snake-bitten (ἑρπετόδηκτοι),
+envenomation,(?<![α-ω])εχ[ιε]οδηκτ,therapeutic,ἐχεοδήκτοις,viper-bitten (ἐχιόδηκτοι),
+envenomation,(?<![α-ω])ασπιδοδηκτ,therapeutic,ἀσπιδοδήκτους,asp-bitten (ἀσπιδόδηκτοι),
+envenomation,(?<![α-ω])κροκοδειλοδηκτ,therapeutic,κροκοδειλοδήκτοις,crocodile-bitten,
+envenomation,(?<![α-ω])φαλαγγιοδηκτ,therapeutic,φαλαγγιοδήκτοις,spider-bitten (φαλαγγιόδηκτοι),
+envenomation,(?<![α-ω])σκορπιοπληκτ,therapeutic,σκορπιοπλήκτοις,scorpion-stung (σκορπιόπληκτοι),
+envenomation,(?<![α-ω])θηριοδηγμ,therapeutic,θηριοδήγματα,bites of beasts (θηριοδήγματα),
+envenomation,(?<![α-ω])κυνοδηκτ,therapeutic,κυνόδηκτα,dog-bitten (κυνόδηκτοι),MeSH Bites and Stings includes dog bites
+envenomation,(?<![α-ω])ιοβολ,therapeutic,ἰοβόλων,venomous creatures (ἰοβόλα),
+envenomation,(?<![α-ω])θηριακ,therapeutic,θηριακὰς,theriac (θηριακὴ ἀντίδοτος),indirect: ingredient of anti-venom compounds
+envenomation,"(?<![α-ω])(?:θηρι|ερπετ|εχι|εχεω|εχιδν|ασπιδ|κεραστ|πρηστηρ|δρακοντ|μυγαλ)\w*\w*(?:[^\w.;·]+\w+){0,3}?[^\w.;·]+(?:δηγμ|πληγ|δηξ|πληξ)|(?<![α-ω])(?:δηγμ|πληγ)\w*\w*(?:[^\w.;·]+\w+){0,3}?[^\w.;·]+(?:θηρι|ερπετ|εχι|εχεω|εχιδν|ασπιδ|κεραστ|πρηστηρ|δρακοντ|μυγαλ)",therapeutic,ἑρπετῶν δήγματα,"bites of beasts, snakes, vipers, shrews",
+envenomation,"(?<![α-ω])(?:σκορπι|φαλαγγ|τρυγον|σφηκ|μελισσ|σκολοπενδρ)\w*\w*(?:[^\w.;·]+\w+){0,3}?[^\w.;·]+(?:δηγμ|πληγ|δηξ|πληξ)|(?<![α-ω])(?:δηγμ|πληγ)\w*\w*(?:[^\w.;·]+\w+){0,3}?[^\w.;·]+(?:σκορπι|φαλαγγ|τρυγον|σφηκ|μελισσ)",therapeutic,σκορπίου πληγήν,"stings / bites of scorpions, spiders, sting-rays, wasps, bees",
+envenomation,(?<![α-ω])(?:θηρι|ερπετ|σκορπι|φαλαγγ)\w*[^\w.;·]+(?:\w+[^\w.;·]+)?(?:διωκ|φυγαδ|απελαυν|αποδιωκ)|(?<![α-ω])(?:διωκ|φυγαδ|αποδιωκ)\w*[^\w.;·]+(?:\w+[^\w.;·]+)?(?:τα[^\w.;·]+)?(?:θηρι|ερπετ|σκορπι),action,ἑρπετὰ διώκει,drives away snakes / beasts (repellent),prophylactic fumigation
+poisoning,(?<![α-ω])θανασιμ,therapeutic,θανάσιμα,deadly poisons (τὰ θανάσιμα),
+poisoning,(?<![α-ω])αντιφαρμακ,therapeutic,ἀντιφάρμακον,antidote (ἀντιφάρμακον),
+poisoning,(?<![α-ω])αλεξιφαρμ,therapeutic,ἀλεξιφάρμακα,protective against poisons (ἀλεξιφάρμακον),
+poisoning,(?<![α-ω])δηλητηρ,therapeutic,δηλητήρια,noxious drugs (δηλητήρια),
+poisoning,(?<![α-ω])αντιπασχ,therapeutic,ἀντιπάσχει,counteracts (a poison) (ἀντιπάσχει),
+poisoning,(?<![α-ω])πεπωκ,therapeutic,πεπωκόσι,those who have drunk (a poison) (πεπωκότες),
+poisoning,(?<![α-ω])(?:προσ|υπο)[^\w.;·]+(?:\w+[^\w.;·]+)?(?:τουσ[^\w.;·]+)?(?:μυκη[τσ]|ιξι|τοξικ|κωνει|ακονιτ|εφημερ|υοσκυαμ|ψιμυθ|γυψ|κανθαριδ|βουπρηστ|σαλαμανδρ|πιτυοκαμπ|δορυκνι|λαγω|μηκωνι|ταυρει|βδελλ),therapeutic,ὑπὸ μυκήτων,"against mushrooms, ixias, arrow-poison, hemlock, aconite, etc.",named poisons after πρός / ὑπό
+rabies,(?<![α-ω])λυσσ,therapeutic,λυσσῶντος,"mad-dog bite, rabies (λυσσόδηκτοι, λύσσα)",
+rabies,(?<![α-ω])υδροφοβ,therapeutic,ὑδροφόβᾳ,hydrophobia,
+intoxication,(?<![α-ω])(?:α)?κραιπαλ,therapeutic,ἀκραίπαλός,hangover (κραιπάλη; ἀκραίπαλος 'preventing it'),
+intoxication,(?<![α-ω])(?:μεθ(?:η|ησ|ην)(?![α-ω])|μεθυσκ),adverse,μέθης,drunkenness (μέθη),elided μεθ' (μετά) excluded
+cancer,(?<![α-ω])καρκιν(?:ωμ|ωδ),therapeutic,καρκινώδη,"cancers, carcinomatous ulcers (καρκινώματα)",καρκίνοι 'crabs' excluded
+cancer,(?<![α-ω])σκιρρ,therapeutic,σκιρρώματα,scirrhous indurations (σκιρρώματα),
+cancer,(?<![α-ω])θηριωμ,therapeutic,θηριωμάτων,malignant ulcers (θηριώματα),
+scrofula,(?<![α-ω])χοιραδ,therapeutic,χοιράδας,scrofulous glands (χοιράδες),
+scrofula,(?<![α-ω])βρογχοκηλ,therapeutic,βρογχοκηλῶν,goitre (βρογχοκήλη),
+lice,(?<![α-ω])φθειρ(?:ασ|εσ|ιασ\w*|ιωσ\w*|ιαν|ιωντ\w*)(?![α-ω]),therapeutic,φθεῖρας,"lice (φθεῖρες, φθειρίασις)",verb φθείρει 'destroys' excluded
+lice,(?<![α-ω])κονιδ,therapeutic,κονίδας,nits (κονίδες),
+lice,(?<![α-ω])κωνωπ,action,κώνωπας,gnats (repelled),
+lice,(?<![α-ω])ψυλλουσ(?![α-ω]),action,ψύλλους,fleas (killed),ψύλλιον (psyllium) and 'flea-like' (ψύλλοις ἐοικός) excluded

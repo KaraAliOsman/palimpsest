@@ -1,0 +1,252 @@
+monograph_id,concept_id,polarity,evidence,annotator_note
+dsc:1.3,kidney_disease,therapeutic,τὰ στεγνὰ περὶ κύστιν καὶ νεφροὺς πάθη παρηγοροῦσι,obstructive bladder/kidney affections
+dsc:1.3,dysuria,therapeutic,δυσουρίαις ἁρμόζουσι,
+dsc:1.3,flatulence,therapeutic,στομάχου τε ἐμπνευματώσεσι καὶ στρόφοις,inflation of the stomach
+dsc:1.3,colic,therapeutic,στομάχου τε ἐμπνευματώσεσι καὶ στρόφοις,στρόφοι = gripes
+dsc:1.3,uterine_disorders,therapeutic,ὑστερικαῖς τε διαθέσεσι καὶ ἄρθρων πόνοις,
+dsc:1.3,joint_pain,therapeutic,ὑστερικαῖς τε διαθέσεσι καὶ ἄρθρων πόνοις,
+dsc:1.3,common_cold,therapeutic,θώρακί τε ῥευματιζομένῳ σὺν μέλιτι λεῖαι ἀντὶ ἐκλεικτοῦ βοηθοῦσιν,"catarrhal chest, given as linctus; arguably cough"
+dsc:1.3,amenorrhea,action,αἷμά τε ἄγουσι δι᾿ ἐμμήνων ἀποζεσθεῖσαι εἰς ἐγκάθισμα,emmenagogue (sitz-bath)
+dsc:1.3,diuresis,action,παιδίων δὲ καταπλασθέντος τοῦ ἐφηβαίου οὖρα ἄγουσιν,poultice on children's pubes
+dsc:1.3,headache,adverse,ἔστι δὲ καὶ κεφαλαλγὲς πλεῖον ἢ δεῖ πινόμενον,headache in excess dose
+dsc:1.12,diuresis,action,διουρητικωτέρα μέντοι καὶ εὐστομαχωτέρα ἐστὶν ἡ τοῦ μαλαβάθρου δύναμις,more diuretic than nard; chapter otherwise inherits nard's virtues by cross-reference (not coded)
+dsc:1.12,dyspepsia,therapeutic,διουρητικωτέρα μέντοι καὶ εὐστομαχωτέρα ἐστὶν ἡ τοῦ μαλαβάθρου δύναμις,εὐστόμαχος = good for the stomach
+dsc:1.12,conjunctivitis,therapeutic,πρὸς τὰς ὀφθαλμικὰς φλεγμονὰς ἁρμόζει ἀναζεσθὲν ἐν οἴνῳ,ophthalmic φλεγμοναί; site-specific; not double-coded as generic inflammation
+dsc:1.26,diuresis,action,καὶ ἡ ῥίζα δὲ αὐτοῦ πινομένη σὺν γλυκεῖ οὖρα κινεῖ,also δύναμιν ... οὐρητικήν (crocus itself)
+dsc:1.26,skin_blemishes,therapeutic,παρέχει τε εὔχροιαν,gives good complexion (cosmetic); weak mapping
+dsc:1.26,intoxication,therapeutic,ἀκραίπαλός ἐστι μετὰ γλυκέος πινόμενος,prevents crapulence
+dsc:1.26,conjunctivitis,therapeutic,ῥεῦμά τε ὀφθαλμῶν ἐπιχριόμενος καὶ ἐγχριόμενος στέλλει σὺν γάλακτι γυναικείῳ,eye flux; could be eye_disease
+dsc:1.26,uterine_disorders,therapeutic,καταπλάσμασι τοῖς πρὸς μήτραν καὶ δακτύλιον,ingredient of pessaries/plasters for womb and anus
+dsc:1.26,sexual_function,action,παρίστησι δὲ καὶ πρὸς ἀφροδίσια,aphrodisiac
+dsc:1.26,erysipelas,therapeutic,τάς τε ἐρυσιπελατώδεις φλεγμονὰς πραύνει καταχριόμενος,site-specific; not double-coded as generic inflammation
+dsc:1.26,ear_disease,therapeutic,καὶ εἰς τὰς ὠ τικὰς χρησιμεύει,ear remedies (OCR split ὠ τικάς)
+dsc:1.26,poisoning,adverse,φασὶ δὲ καὶ ἀναιρετικὸν αὐτὸν εἶναι μεθ᾿ ὕδατος πινόμενον πλῆθος δραχμῶν τριῶν,lethal at 3 drachms (reported); πεπτική not coded
+dsc:2.13,envenomation,therapeutic,ἴαμά ἐστι πρὸς τὴν ἐκ τῆς ἀκάνθης αὑτοῦ πληγήν,remedy for its own spine-sting
+dsc:2.17,ear_disease,therapeutic,βοήθημά ἐστιν ὠταλγίας ἐγχεόμενον,
+dsc:2.17,toothache,therapeutic,ὀδονταλγίας διακλυζόμενον,
+dsc:2.17,eye_disease,therapeutic,μίσγουσι δὲ αὐτὸ καὶ εἰς ὀφθαλμικὰς δυνάμεις,"ingredient of eye remedies, unspecified"
+dsc:2.26,envenomation,therapeutic,βάτρακοι ἀντιφάρμακόν εἰσιν ἑρπετῶν πάντων,
+dsc:2.26,abscess,therapeutic,πρὸς τὰς χρονίους τῶν τενόντων ἀποστάσεις,chronic abscessions of tendons; uncertain
+dsc:2.26,hemorrhage,therapeutic,καέντες δὲ ἐπίπαστοι αἱμορρμγίαν στέλλουσι,OCR αἱμορρμγίαν
+dsc:2.26,alopecia,therapeutic,ἀλωπεκίας θεραπεύουσι σύν πίσσῃ ὑγρᾷ καταχριόμενοι,
+dsc:2.26,eye_disease,therapeutic,κωλύει τάς ἐκτιλθείσας ἀπὸ τῶν βλεφάρμων τρίχας φύεσθαι,"stops plucked eyelashes regrowing (trichiasis, implicit)"
+dsc:2.26,toothache,therapeutic,ὠφελοῦσι καὶ ὀδονταλγίας συνεψόμενοι ὕδατι καὶ ὄξει,
+dsc:2.27,constipation,action,σίλουρος νεαρὸς βιβρωσκόμενος τρόφιμος καὶ εὐκοίλιος,εὐκοίλιος = loosens the bowels (dietetic)
+dsc:2.27,dysentery,therapeutic,ἡ ἐξ αὐτοῦ δὲ ἅλμη ἁρμόζει ἐν ἀρχῇ δυσεντερικοῖς εἰς ἐγκάθισμα,
+dsc:2.27,sciatica,therapeutic,ἐγκλυζομένη δὲ ἰσχιαδικοὺς θεραπεύει,brine as clyster
+dsc:2.27,NONE,therapeutic,καταπλασθεῖσα δὲ ἡ σὰρξ τοῦ ταριχηροῦ σιλούρου σκόλοπας ἀνάγει,draws out splinters; also clears windpipe/voice (ἀρτηρίαν καθαίρει): no concept
+dsc:2.35,dysuria,therapeutic,ποθέντες σὺν οἴνῳ βοηθοῦσι δυσουρίᾳ καὶ ἰκτέρῳ,
+dsc:2.35,jaundice,therapeutic,ποθέντες σὺν οἴνῳ βοηθοῦσι δυσουρίᾳ καὶ ἰκτέρῳ,
+dsc:2.35,sore_throat,therapeutic,διαχρισθέντες δὲ μετὰ μέλιτος συναγχικοῖς βοηθοῦσι,συνάγχη = quinsy
+dsc:2.35,ear_disease,therapeutic,πρὸς ὠταλγίαν δὲ λεῖοι σὺν ῥοδίνῳ θερμανθέντες,
+dsc:2.40,epilepsy,therapeutic,ἐσθιόμενον ὁπτὸν ἐπιλημπτικοὺς ὠφελεῖ,
+dsc:2.48,burns,therapeutic,καταπασσόμενα πυρίκαυτα καὶ παρατρίμματα καὶ τὰ ἐξ ὑποδημάτων θλίμματα θεραπεύει,
+dsc:2.48,skin_ulcers,therapeutic,καταπασσόμενα πυρίκαυτα καὶ παρατρίμματα καὶ τὰ ἐξ ὑποδημάτων θλίμματα θεραπεύει,chafings and shoe-galls; could be bruises
+dsc:2.56,epilepsy,therapeutic,περιάψας βραχίονι ἢ τραχήλῳ ἐτιλημπτικοὺς ὠφελήσεις,amulet of swallow-stones; OCR ἐτιλημπτικούς
+dsc:2.56,eye_disease,therapeutic,ὥσπερ αἱ συκαλλίδες ῤξυωπίας εἰσὶ φάρμακον,sharpens sight (OCR ῤξυωπίας); also ὀξυδερκίαν ποιεῖ
+dsc:2.56,sore_throat,therapeutic,ἁρμόζει δὲ καὶ ἐπὶ συναγχικῶν διαχριομένη καὶ πρὸς σταφυλῆς καὶ παρισθμίων φλεγμονάς,"quinsy, uvula and tonsil φλεγμοναί; site-specific; not double-coded as generic inflammation"
+dsc:2.80,inflammation,therapeutic,πρόσφατος ἐπιτεθεῖσα φλεγμονάς τάς ἐκ τραυμάτων πραύνει,cow dung; also παρωτίδες (not separately coded)
+dsc:2.80,sciatica,therapeutic,καὶ ἐπὶ ἰσχιαδικῶν δὲ ἡ διʼ αὐτῶν καῦσις ὠφελίμως παραλαμβάνεται,goat-dung cautery; also cow-dung fomentation
+dsc:2.80,scrofula,therapeutic,σὺν ὄξει δὲ καταπλασθεῖσα χοιράδας καὶ σκληρώματα διαλύει καὶ φύγεθλα,χοιράδες; also pigeon dung
+dsc:2.80,cancer,therapeutic,σὺν ὄξει δὲ καταπλασθεῖσα χοιράδας καὶ σκληρώματα διαλύει καὶ φύγεθλα,σκληρώματα = indurations/hard swellings; weak
+dsc:2.80,abscess,therapeutic,ἄνθρακάς τε περιρρήττει σύν μέλιτι καὶ λινοσπέρμῳ,carbuncles (pigeon dung); also φύγεθλα
+dsc:2.80,uterine_disorders,therapeutic,βόλβιτον ὑστέραν προπεπτωκυῖαν ὑπομιώμενον ἀποκαθίστησι,"prolapsed womb, fumigation"
+dsc:2.80,lice,action,διώκει δὲ καὶ κώνωπας θυμιαθέν,fumigant repels gnats; 'vermin' only loosely
+dsc:2.80,jaundice,therapeutic,πινόμεναι σὺν οἴνῳ ἴκτερον ἀποκαθαίρουσι,
+dsc:2.80,amenorrhea,action,σύν ἀρώματι δὲ ποθεῖσαι ἔμμηνα κινοῦσι καὶ ἔμβρυα ἐκβάλλουσι,
+dsc:2.80,abortifacient,action,σύν ἀρώματι δὲ ποθεῖσαι ἔμμηνα κινοῦσι καὶ ἔμβρυα ἐκβάλλουσι,also vulture dung (ἔμβρυα ἐκτινάσσειν)
+dsc:2.80,menorrhagia,therapeutic,προστεθεῖσαι ἐν ἐρίῳ ῥοῦν γυναικεῖον ἐπέχουσι,ῥοῦς γυναικεῖος = female flux; could be leukorrhea
+dsc:2.80,hemorrhage,therapeutic,τὰς ἄλλας δὲ αἱμορραγίας σῦν ὄξει στέλλουσι,also horse/ass dung
+dsc:2.80,alopecia,therapeutic,καεῖσαι δὲ ἀλωπεκίας θεραπεύουσι μετʼ ὄξους ἢ ὀξυμέλιτος καταχριόμεναι,also mouse dung
+dsc:2.80,gout,therapeutic,σὺν ὀξυγγίῳ δὲ καταπλασσόμεναι ποδαγρικοὺς ὠφελοῦσιν,
+dsc:2.80,envenomation,therapeutic,ἐπιτίθενται πρὸς ἑρπετῶν δήγματα καὶ ἕρπητας καὶ ἐρυσιπέλατα καὶ παρωτίδας,also scorpion stings (ass dung)
+dsc:2.80,dermatitis,therapeutic,ἐπιτίθενται πρὸς ἑρπετῶν δήγματα καὶ ἕρπητας καὶ ἐρυσιπέλατα καὶ παρωτίδας,ἕρπητες = spreading eruptions (tetters)
+dsc:2.80,erysipelas,therapeutic,ἐπιτίθενται πρὸς ἑρπετῶν δήγματα καὶ ἕρπητας καὶ ἐρυσιπέλατα καὶ παρωτίδας,
+dsc:2.80,warts,therapeutic,"σῦν ὄξει καταπλασθεῖσα ἐπινυκτίδας, ἥλους, θύμους, ἀκροχορδόνας ἰᾶται","corns, thymi, acrochordons; ἐπινυκτίδες not coded"
+dsc:2.80,burns,therapeutic,σὺν ἐλαίῳ λεανθεῖσα πυρίκαυτα θεραπεύει,also sheep dung
+dsc:2.80,hemoptysis,therapeutic,μεθʼ ὕδατος ἢ οἴνου ποθεῖσα αἵματος ἀναγωγὴν ἴσχει,ἀναγωγὴ αἵματος = bringing up blood
+dsc:2.80,pain,therapeutic,χρόνιον ἄλγημα πλευράς πραύνει,chronic side pain; could be pleurisy_pneumonia
+dsc:2.80,bruises,therapeutic,ῥήγματα δὲ καὶ σπάσματα μετʼ ὄξους στρέμματα δὲ θεραπεύει,"ruptures, strains, sprains; σπάσματα could be cramps"
+dsc:2.80,poisoning,therapeutic,πλὴν ἰδίως πρὸς μύκητας θανασίμους καὶ κόλου ἀλγήματα ἁρμόζει,deadly mushrooms (hen dung)
+dsc:2.80,colic,therapeutic,πλὴν ἰδίως πρὸς μύκητας θανασίμους καὶ κόλου ἀλγήματα ἁρμόζει,κόλου ἀλγήματα = colic
+dsc:2.80,epilepsy,therapeutic,πελαργοῦ δὲ σῦν ὕδατι ποθεῖσα ἐπιλημπτικοῖς ἁρμόζειν πεπίστευται,stork dung; reported belief
+dsc:2.80,urolithiasis,therapeutic,σὺν λιβανωτῷ δὲ καὶ οἰνομέλιτι πινομένη λίθους ἐκκρίνει,mouse dung
+dsc:2.80,constipation,action,προστιθέμενα δὲ παιδίοις τὰ μυόχοδᾶ κοιλίαν πρὸς ἔκκρισιν ἐρεθίζει,mouse-dung suppository for children
+dsc:2.80,diarrhea,therapeutic,"ξηρὰ πινομένη μεθʼ ὕδατος ἢ οἴνου, κοιλίαν ἐφίστησιν",dog dung
+dsc:2.80,wounds,therapeutic,ἀφλέγμαντα μετὰ τοῦ παρακολλᾶν φυλάττει τὰ τραύματα,human dung
+dsc:2.80,sore_throat,therapeutic,ξηρὰ δὲ μετὰ μέλιτος διαχριομένη ἐπὶ συναγχικῶν βοηθεῖν παραδέδοται,human dung
+dsc:2.80,skin_blemishes,therapeutic,ἁρμόζει ἐπὶ τῶν γυναικῶν πρὸς εὔχροιαν καὶ στίλβωσιν τοῦ προσώπου,cosmetic (land-crocodile dung)
+dsc:3.46,eye_disease,therapeutic,ἁρμόζον πρὸς ἀμβλυωπίας μετά μέλιτος λεαινόμενον,dim sight
+dsc:3.59,dyspepsia,therapeutic,"εὐστόμαχον, καὶ τούτου μᾶλλον τὸ Αἰθιοπικόν",
+dsc:3.59,colic,therapeutic,ἁρμόζουσαν πρὸς στρόφους καὶ ἐμπνευματώσεις ἐγκλυζόμενον ἑφθὸν σὺν ἐλαίῳ,
+dsc:3.59,flatulence,therapeutic,ἁρμόζουσαν πρὸς στρόφους καὶ ἐμπνευματώσεις ἐγκλυζόμενον ἑφθὸν σὺν ἐλαίῳ,
+dsc:3.59,asthma_dyspnea,therapeutic,καὶ ὀρθοπνοῖκοῖς σὺν ὀξυκράτῳ,orthopnoea
+dsc:3.59,envenomation,therapeutic,θηριοδήκτοις δὲ σύν οἴνῳ,
+dsc:3.59,inflammation,therapeutic,διδύμων τε φλεγμοναῖς ἀρήγει σὺν σταφίδι,testicular inflammation
+dsc:3.59,menorrhagia,therapeutic,ἐπέχει δὲ καὶ ῥοῦν γυναικεῖον,female flux; could be leukorrhea
+dsc:3.59,nosebleed,therapeutic,τὰς ἐκ μυκτήρων αἱμορραγίας σύν ὄξει λεῖον προσενεχθέν,site-specific; not double-coded as generic hemorrhage
+dsc:3.59,skin_blemishes,action,τρέπει δὲ καὶ χρῶτα ἐπὶ τὸ ὠχρότερον πινόμενόν τε καὶ ἐγχριόμενον,induces pallor; cosmetic vs side-effect polarity unclear
+dsc:3.75,jaundice,therapeutic,"δύναμιν δὲ ἔχει θερμαντικήν, ἰκτέρου ἰατικήν",
+dsc:3.88,scaly_skin,therapeutic,καὶ εἰς τὰς λεπρικὰς δυνάμεις,ingredient of remedies for lepra
+dsc:3.88,wounds,therapeutic,εὐθετεῖ δὲ εἴς τε τὰς κεφαλικὰς ἐμπλάστρους,"κεφαλικαὶ ἔμπλαστροι = plasters for head wounds/fractures (Galenic), not headache; uncertain"
+dsc:3.88,NONE,therapeutic,εἰς τετάνωθρα τῶν προσώπων,face-smoothing (anti-wrinkle) cosmetics: no concept
+dsc:3.125,NONE,therapeutic,"λέγεται δὲ τὸ ἀρρενογόνον ποθὲν ἀρσενοτοκεῖν, τὸ δὲ θηλυγόνον θηλυτοκεῖν","sex-selection of offspring, after Crateuas, doubted by D.; arguably infertility"
+dsc:3.130,dyspepsia,therapeutic,"πικρὸν γευσαμένῳ, εὐστόμαχον ποθέν",
+dsc:3.130,poisoning,therapeutic,μείγνυται δὲ καὶ ἀντιδότοις,ingredient of antidotes
+dsc:3.130,contraception,action,σύν μέλιτι δὲ προστεθὲν πρὸ τῆς μείξεως ἀτόκιον εἶναι δοκεῖ,pessary before intercourse; hedged (δοκεῖ)
+dsc:3.147,dysentery,therapeutic,πινόμεναι δυσεντερίαν καὶ ῥήγματα ἰῶνται,
+dsc:3.147,bruises,therapeutic,πινόμεναι δυσεντερίαν καὶ ῥήγματα ἰῶνται,ῥήγματα = ruptures/torn muscles
+dsc:3.152,poisoning,therapeutic,πρὸς λαγωὸν θαλάσσιον καὶ φρῦνον καὶ ὄπιον,"sea-hare, toad, opium"
+dsc:3.152,colic,therapeutic,παύει καὶ στρόφους καὶ δυσεντερίαν,
+dsc:3.152,dysentery,therapeutic,παύει καὶ στρόφους καὶ δυσεντερίαν,
+dsc:3.152,convulsions,therapeutic,ἁρμόζει καὶ σπάσμασι καὶ πρὸς τὰ ὑστερικὰ πάθη,σπάσματα: spasms (or strains)
+dsc:3.152,uterine_disorders,therapeutic,ἁρμόζει καὶ σπάσμασι καὶ πρὸς τὰ ὑστερικὰ πάθη,
+dsc:3.152,diarrhea,therapeutic,ἡ δὲ πόα ἵστησι κοιλίαν καὶ ἔμμηνα κινεῖ,
+dsc:3.152,amenorrhea,action,ἡ δὲ πόα ἵστησι κοιλίαν καὶ ἔμμηνα κινεῖ,
+dsc:3.152,inflammation,therapeutic,οἰδήματα καταπλασθεῖσα πραΰνει,οἰδήματα = swellings
+dsc:3.158,jaundice,therapeutic,πινόμενα μετʼ οἴνου ἐπὶ ἡμέρας ἑπτὰ ἴκτερον θεραπεύει,
+dsc:3.158,sciatica,therapeutic,ἐπὶ δὲ ἡμέρας τεσσαράκοντα ἰσχιάδα ἰᾶται,
+dsc:3.158,liver_disease,therapeutic,δίδοται δὲ καὶ ἡπατικοῖς καὶ δυσουροῦσι καὶ νεφριτικοῖς,
+dsc:3.158,dysuria,therapeutic,δίδοται δὲ καὶ ἡπατικοῖς καὶ δυσουροῦσι καὶ νεφριτικοῖς,
+dsc:3.158,kidney_disease,therapeutic,δίδοται δὲ καὶ ἡπατικοῖς καὶ δυσουροῦσι καὶ νεφριτικοῖς,
+dsc:3.158,colic,therapeutic,ἰδίως ἁρμόζοντα καὶ στροφουμένοις,
+dsc:3.158,poisoning,therapeutic,πρὸς ἀκόνιτον ποτίζοντες τὸ ἀφέψημα,aconite; also used ὡς ἀντιδότῳ
+dsc:3.158,constipation,action,σὺν σύκοις καὶ ἀντὶ καταποτίου διδομένη μαλάσσει κοιλίαν,also purges (καθαίρει) with lepis and resin
+dsc:3.158,uterine_disorders,therapeutic,ἄγει δὲ καὶ τὰ ἀπὸ ὑστέρας προστεθεῖσα σὺν μέλιτι,draws out uterine matter (lochia/afterbirth?); could be labor or amenorrhea
+dsc:3.158,cancer,therapeutic,διαφορεῖ καὶ σκληρίας μαστῶν,breast indurations; weak
+dsc:3.158,wounds,therapeutic,καὶ τραύματα κολλᾷ,
+dsc:3.158,dermatitis,therapeutic,ἕρπητας ἐπέχει μετά μέλιτος καταπλασσομένη,ἕρπητες = spreading eruptions
+dsc:4.21,envenomation,therapeutic,δίδοται δὲ ἡ ῥίζα καὶ ὁ καρπὸς σὺν οἴνῳ θηριοδήκτοις,
+dsc:4.29,wounds,therapeutic,ταύτης ἡ ῥίζα καταπλασσομένη λεία τραύματα κολλᾷ,
+dsc:4.29,colic,therapeutic,ποιεῖ πρὸς στρόφους καὶ δυσουρίας,
+dsc:4.29,dysuria,therapeutic,ποιεῖ πρὸς στρόφους καὶ δυσουρίας,
+dsc:4.29,kidney_disease,therapeutic,δυσουρίας καὶ τὰ περὶ κύστιν ἕλκη,bladder ulcers (not skin_ulcers)
+dsc:4.29,urolithiasis,therapeutic,καὶ λίθους θρύπτει,
+dsc:4.38,conjunctivitis,therapeutic,ὀφθαλμῶν φλεγμοναῖς περιχριόμενον βοηθεῖ,site-specific; not double-coded as generic inflammation; chapter also inherits virtues of βάτος by cross-reference (not coded)
+dsc:4.38,erysipelas,therapeutic,ἐρυσιπέλατα σβέννυσι,
+dsc:4.38,dyspepsia,therapeutic,στομαχικοῖς δὲ μεθ᾿ ὕδατος ἐν ποτῷ δίδοται,
+dsc:4.45,headache,therapeutic,χρησιμεύει δὲ ἐπὶ τῶν κεφαλαλγούντων,
+dsc:4.50,dysentery,therapeutic,ἥτις βοηθεῖ δυσεντερικοῖς ὠμή τε καὶ ἑφθὴ ἐσθιομένη,
+dsc:4.58,diuresis,action,ὑποθυμιωμένη οὖρα ἄγειν καὶ τὰ περὶ ὑστέραν μαλάττειν,fumigation
+dsc:4.58,uterine_disorders,therapeutic,ὑποθυμιωμένη οὖρα ἄγειν καὶ τὰ περὶ ὑστέραν μαλάττειν,softens uterine hardness
+dsc:4.79,diarrhea,adverse,ἄνθρωποι δὲ προσενεγκάμενοι διαρροίαις περιπίπτουσι,
+dsc:4.79,poisoning,adverse,"τοὺς ὑποκαθίσαντας ἡ κοιμηθέντας βλάπτεσθαι, πολλάκις δὲ καὶ θνήσκειν",shade harmful/lethal; birds choke on berries
+dsc:4.81,poisoning,adverse,ὄνων καὶ ἡμιόνων καὶ τῶν πλείστων τετραπόδων φθαρτικήν,lethal to animals
+dsc:4.81,envenomation,therapeutic,ἀνθρώπων δὲ σῳστικὴν πινόμενα σὺν οἴνῳ πρὸς θηρίων δήγματα,
+dsc:4.103,diarrhea,therapeutic,τῶν μὲν οὖν πρώτων δύο ἡ ῥίζα στυπτική· ὅθεν διαρροιζομένοις,
+dsc:4.103,bruises,therapeutic,ῥήγμασι καὶ σπάσμασι καὶ θλάσμασι καὶ βηχὶ παλαιᾷ ἀρήγει,"θλάσματα = bruises; also ruptures, strains"
+dsc:4.103,cough,therapeutic,ῥήγμασι καὶ σπάσμασι καὶ θλάσμασι καὶ βηχὶ παλαιᾷ ἀρήγει,chronic cough
+dsc:4.103,toothache,therapeutic,ὀδονταλγίαν τε πραΰνει διακλυζόμενον,
+dsc:4.103,inflammation,therapeutic,ἐν ὕδατι πρὸς οἰδήματα καὶ ὀφθαλμῶν φλεγμονὰς καταπλάσσεται,οἰδήματα = swellings
+dsc:4.103,conjunctivitis,therapeutic,ἐν ὕδατι πρὸς οἰδήματα καὶ ὀφθαλμῶν φλεγμονὰς καταπλάσσεται,site-specific; not double-coded as generic
+dsc:4.103,skin_ulcers,therapeutic,πρὸς σφακελίζοντα ἕλκη σὺν μέλιτι ἢ οἴνῳ,gangrenous ulcers
+dsc:4.103,wounds,therapeutic,σὺν δὲ ὄξει τραύματα θεραπεύει,
+dsc:4.103,envenomation,therapeutic,καὶ σκορπιοπλήκτοις βοηθεῖ,
+dsc:4.103,burns,therapeutic,τὰ δὲ τῆς ἀγρίας φύλλα πυρικαύτων ἐστὶ κατάπλασμα,hair dye and moth-trap uses not coded
+dsc:4.105,toothache,therapeutic,ὀδονταλγίας διακρατούμενα πραύνει,
+dsc:4.105,burns,therapeutic,καὶ πυρικαύτων καὶ χιμέτλης ἐστὶ κατάντλημα,
+dsc:4.105,sciatica,therapeutic,πίνεται δὲ καὶ πρὸς ἰσχιάδα καὶ δυσουρίαν ἐν οἴνῳ,
+dsc:4.105,dysuria,therapeutic,πίνεται δὲ καὶ πρὸς ἰσχιάδα καὶ δυσουρίαν ἐν οἴνῳ,
+dsc:4.105,NONE,therapeutic,καὶ πυρικαύτων καὶ χιμέτλης ἐστὶ κατάντλημα,χίμετλα (chilblains): no concept
+dsc:4.124,colic,therapeutic,στρόφους καὶ στραγγουρίας καὶ πλευρᾶς ἀλγήματα θεραπεύειν,
+dsc:4.124,dysuria,therapeutic,στρόφους καὶ στραγγουρίας καὶ πλευρᾶς ἀλγήματα θεραπεύειν,strangury
+dsc:4.124,pain,therapeutic,στρόφους καὶ στραγγουρίας καὶ πλευρᾶς ἀλγήματα θεραπεύειν,side pains; could be pleurisy_pneumonia
+dsc:4.124,scrofula,therapeutic,διαφορεῖ καὶ χοιράδας μετὰ ἁλῶν καὶ οἴνου,
+dsc:4.133,sexual_function,action,φασὶ δʼ αὐτὴν εὐχρηστεῖν εἰς φίλτρα,love-philtres; reported (φασί)
+dsc:5.7,fever,therapeutic,δίδοται μὲν ἐν χρονίοις πυρετοῖς,chronic fevers
+dsc:5.7,dyspepsia,therapeutic,τοῖς ἀσθενῆ τὸν στόμαχον ἔχουσιν,also στόμαχον ἀποκαθαίρει
+dsc:5.7,constipation,action,ὑπομαλάττει γάρ τὴν κοιλίαν,
+dsc:5.7,diuresis,action,"οὖρα κινεῖ, στόμαχον ἀποκαθαίρει",
+dsc:5.7,joint_pain,therapeutic,ἁρμόζει καὶ ἀρθριτικοῖς καὶ νεφριτικοῖς,ἀρθριτικοί may include gout
+dsc:5.7,kidney_disease,therapeutic,ἁρμόζει καὶ ἀρθριτικοῖς καὶ νεφριτικοῖς,
+dsc:5.7,headache,therapeutic,καὶ τοῖς ἀσθενῆ τὴν κεφαλὴν ἔχουσι,those 'weak in the head'; weak mapping
+dsc:5.11,dyspepsia,adverse,"θαλάττιον ὕδωρ δριμύ, θερμαντικόν, κακοστόμαχον",
+dsc:5.11,constipation,action,δίδοται δὲ καὶ πρὸς κάθαρσιν καθʼ ἑαυτὴν,"purge; also κοιλίας ταρακτικόν, ἄγον φλέγμα"
+dsc:5.11,colic,therapeutic,καὶ πρὸς στρόφους θερμόν,
+dsc:5.11,itch_scabies,therapeutic,ψώρας τε καὶ κνησμῶν καὶ λειχήνων καὶ κονίδων,
+dsc:5.11,dermatitis,therapeutic,ψώρας τε καὶ κνησμῶν καὶ λειχήνων καὶ κονίδων,λειχῆνες = tetters
+dsc:5.11,lice,therapeutic,ψώρας τε καὶ κνησμῶν καὶ λειχήνων καὶ κονίδων,κονίδες = nits
+dsc:5.11,lactation,therapeutic,μαστῶν σπαργώντων κατάντλημα,engorged breasts
+dsc:5.11,bruises,therapeutic,διαφορεῖ καὶ πελιώματα πυριώμενον,livid bruises
+dsc:5.11,envenomation,therapeutic,"πρὸς τὰ τῶν θηρίων δήγματα, ὅσα τρόμους καὶ ψυγμοὺς ἐπιφέρει",
+dsc:5.11,edema_dropsy,therapeutic,ὑπατμιζόμενον δὲ θερμὸν ὑδρωπικοὺς καὶ κεφαλαλγίας καὶ δυσηκοίας παραιτεῖται,
+dsc:5.11,headache,therapeutic,ὑπατμιζόμενον δὲ θερμὸν ὑδρωπικοὺς καὶ κεφαλαλγίας καὶ δυσηκοίας παραιτεῖται,
+dsc:5.11,ear_disease,therapeutic,ὑπατμιζόμενον δὲ θερμὸν ὑδρωπικοὺς καὶ κεφαλαλγίας καὶ δυσηκοίας παραιτεῖται,δυσηκοία = hardness of hearing
+dsc:5.11,NONE,therapeutic,ἁρμόζον τοῖς περὶ νεῦρα πάθεσι καὶ χιμέτλοις πρὸ τοῦ ἑλκωθῆναι,"sinew affections, chilblains, chronic cachexia: no concept"
+dsc:5.41,convulsions,therapeutic,"ἁρμόζων σπασμοῖς, ἰκτέροις",
+dsc:5.41,jaundice,therapeutic,"ἁρμόζων σπασμοῖς, ἰκτέροις",
+dsc:5.41,uterine_disorders,therapeutic,ὑστερῶν πνευματώσεσι,inflation of the womb
+dsc:5.41,dyspepsia,therapeutic,"ὑστερῶν πνευματώσεσι, βραδυπεψίαις",βραδυπεψία = slow digestion
+dsc:5.41,edema_dropsy,therapeutic,ὕδρωπι ἀρχομένῳ,incipient dropsy
+dsc:5.49,dyspepsia,therapeutic,"ἁρμόζει πρὸς δυσπεψίας, ἀνορεξίας",
+dsc:5.49,appetite_loss,therapeutic,"ἁρμόζει πρὸς δυσπεψίας, ἀνορεξίας",
+dsc:5.49,pain,therapeutic,"νεύρων, πόνους ὑποχονδρίων",pains of sinews and hypochondria; weak
+dsc:5.49,envenomation,therapeutic,πρὸς ἰοβόλα τὰ ψύχοντα καὶ πήττοντα,
+dsc:5.49,NONE,therapeutic,φρίκας χειμερινάς,winter shiverings; not mapped to fever
+dsc:5.53,envenomation,therapeutic,ἔστι δὲ πάντων μᾶλλον θηριακός,θηριακός = against venomous beasts
+dsc:5.63,pleurisy_pneumonia,therapeutic,ποιοῦσι δὲ πρὸς πλευράν καὶ θώρακα,"side and chest complaints, unspecified"
+dsc:5.63,diuresis,action,κινοῦντες καὶ οὔρησιν,
+dsc:5.64,appetite_loss,action,ποιεῖ δὲ ὄρεξιν,orexigenic
+dsc:5.64,dyspepsia,therapeutic,καὶ στομαχικοῖς δὲ ἁρμόζει καὶ δυσουροῦσιν,
+dsc:5.64,dysuria,therapeutic,καὶ στομαχικοῖς δὲ ἁρμόζει καὶ δυσουροῦσιν,
+dsc:5.64,asthma_dyspnea,therapeutic,ἐστι δὲ καὶ εὔπνους,εὔπνους = eases breathing (or 'fragrant'); uncertain
+dsc:5.89,skin_blemishes,therapeutic,δύναμιν δὲ ἔχει ἡ χρυσοκόλλα σμηκτικὴν οὐλῶν,cleanses scars (οὐλαί; cf. οὔλων 'gums' in 5.108); weak
+dsc:5.89,skin_ulcers,therapeutic,κατασταλτικὴν σαρκωμάτων καὶ ἀνακαθαρτικήν,represses fleshy excrescences (proud flesh); weak
+dsc:5.89,nausea_vomiting,action,ἔστι δὲ καὶ τῶν ἔμετον κινούντων καὶ ἀναιρεῖν δυναμένων,emetic
+dsc:5.89,poisoning,adverse,ἔστι δὲ καὶ τῶν ἔμετον κινούντων καὶ ἀναιρεῖν δυναμένων,can kill
+dsc:5.99,eye_disease,therapeutic,τετυλωμένα βλέφαρα καὶ τραχέα ἀποτήκουσα,"callous, rough eyelids; also cleanses canthi"
+dsc:5.99,erysipelas,therapeutic,"ποιεῖ δὲ καὶ πρὸς ἐρυσιπέλατα, ἕρπητας",
+dsc:5.99,dermatitis,therapeutic,"ποιεῖ δὲ καὶ πρὸς ἐρυσιπέλατα, ἕρπητας",ἕρπητες = spreading eruptions
+dsc:5.99,menorrhagia,therapeutic,αἱμορραγίας τὰς ἐξ ὑστέρας καὶ μυκτήρων σὺν πράσου χυλῷ,uterine haemorrhage; site-specific; not double-coded as generic hemorrhage
+dsc:5.99,nosebleed,therapeutic,αἱμορραγίας τὰς ἐξ ὑστέρας καὶ μυκτήρων σὺν πράσου χυλῷ,site-specific; not double-coded as generic hemorrhage
+dsc:5.99,mouth_gums,therapeutic,ξηρὰ δὲ πρός τε ἐπουλίδας καὶ νομὰς καὶ παρίσθμια,ἐπουλίδες = gum excrescences
+dsc:5.99,skin_ulcers,therapeutic,ξηρὰ δὲ πρός τε ἐπουλίδας καὶ νομὰς καὶ παρίσθμια,νομαί = spreading ulcers; also fistulae (σύριγγας)
+dsc:5.99,sore_throat,therapeutic,ξηρὰ δὲ πρός τε ἐπουλίδας καὶ νομὰς καὶ παρίσθμια,παρίσθμια = tonsil inflammation
+dsc:5.106,eye_disease,therapeutic,τῶν ἐπισκοτούντων ταῖς κόραις ἀποκαθαρτικήν,dimness of pupils; also eyelid fleshy growths
+dsc:5.106,hemorrhage,therapeutic,ἴσχουσι δὲ καὶ σηπεδόνας καὶ αἱμορραγίας,
+dsc:5.106,skin_ulcers,therapeutic,μετὰ κηκίδος ἴσης κεκαυμένης πρὸς φαγεδαινικά,"phagedaenic ulcers; also νομαί, σηπεδόνες"
+dsc:5.106,mouth_gums,therapeutic,"οὖλά τε πλαδῶντα στέλλουσι, καὶ ὀδόντας σειομένους κρατύνουσι","also ἄφθαι, ἐπουλίδες, mouth"
+dsc:5.106,ear_disease,therapeutic,καὶ ῥεύματα ἐν ὠσὶ σὺν πολυγόνου χυλῷ,running ears
+dsc:5.106,scaly_skin,therapeutic,λέπραις δὲ ἁρμόζουσι σὺν κράμβης χυλῷ,also ὄνυξι λεπροῖς
+dsc:5.106,itch_scabies,therapeutic,ἢ σὺν μέλιτι ἑψηθεῖσαι καὶ κνησμοῖς,
+dsc:5.106,dermatitis,therapeutic,πιτυριάσεσι δὲ σὺν ὄρρῷ,πιτυρίασις = scurf
+dsc:5.106,lice,therapeutic,κονίδων τε καὶ φθειρῶν,
+dsc:5.106,burns,therapeutic,καὶ πυρικαύτων σὺν ὕδατι καταχριόμεναι βοήθημα,
+dsc:5.106,inflammation,therapeutic,οἰδήμασί τε καὶ μασχαλῶν καὶ βουβώνων δυσωδίαις κατάχριστοι,οἰδήματα = swellings
+dsc:5.106,amenorrhea,action,πρὸς δὲ ἔμμηνα καὶ πρὸς ἀσυλλημψίαν συνεργεῖ,literally 'aids the menses' in a contraceptive/abortive cluster; astringent alum might instead check menses; uncertain
+dsc:5.106,contraception,action,πρὸς ἀσυλλημψίαν συνεργεῖ πρὸ τῆς συνόδου παρατεθεῖσα τῷ στόματι τῆς ὑστέρας,
+dsc:5.106,abortifacient,action,τῷ στόματι τῆς ὑστέρας καὶ ἔμβρυα ἐκτινάσσει,
+dsc:5.106,sore_throat,therapeutic,ἐπουλίσι τε καὶ σταφυλαῖς καὶ παρισθμίοις ἐπιτήδειοι,"uvula, tonsils"
+dsc:5.106,NONE,therapeutic,καὶ χιμέτλαις σὺν ὕδατι καταιονούμεναι,"chilblains, axillary/inguinal odour, nail pterygia, genitals: no concept"
+dsc:5.108,mouth_gums,therapeutic,δύναμιν δὲ ἔχει στυπτικήν τε καὶ σμηκτικὴν οὔλων,cleanses gums; also teeth (dentifrice)
+dsc:5.108,eye_disease,therapeutic,ἀποκαθαρτικὴν τῶν ἐπισκοτούντων ταῖς κόραις μετὰ τοῦ θερμαίνειν,
+dsc:5.108,skin_ulcers,therapeutic,πληρωτικήν τε ἑλκῶν καὶ κατουλωτικήν,fills and cicatrises ulcers
+dsc:5.108,NONE,therapeutic,σώματος εἰς ψίλωσιν τριχῶν,depilatory (not an alopecia remedy)
+dsc:5.109,skin_ulcers,therapeutic,πρὸς φαγεδαίνας σὺν ἀλφίτῳ κεκαυμένοι καταπλάσσονται,also σηπεδόνων ἐφεκτικοί
+dsc:5.109,itch_scabies,therapeutic,καὶ κνησμοὺς δὲ παύουσι μετʼ ἐλαίου καὶ ὄξους,"also ψῶραι, σμήξεσι ψωρικαῖς"
+dsc:5.109,eye_disease,therapeutic,στέλλουσι καὶ τὰς ἐν ὀφθαλμοῖς ὑπεροχὰς καὶ πτερύγια τήκουσι,
+dsc:5.109,edema_dropsy,therapeutic,πρὸς τὰ οἰδήματα τῶν ὑδρωπικῶν,
+dsc:5.109,pain,therapeutic,πυρία τε ἡ διʼ αὐτῶν ἐν σακκίοις πραυντικὴ ἀλγημάτων,
+dsc:5.109,scaly_skin,therapeutic,ὁμοίως καὶ λέπρας καὶ λειχῆνας καὶ ψώρας,
+dsc:5.109,dermatitis,therapeutic,ὁμοίως καὶ λέπρας καὶ λειχῆνας καὶ ψώρας,λειχῆνες; also ἕρπητες
+dsc:5.109,sore_throat,therapeutic,συναγχικούς τε κουφίζουσι σὺν μέλιτι καὶ ὄξει,"also παρίσθμια, κιονίδες"
+dsc:5.109,mouth_gums,therapeutic,καὶ ἄφθας καὶ οὔλων πλάδον,
+dsc:5.109,abscess,therapeutic,δοθιῆνας διαφοροῦσι καὶ ὄρχεων οἰδήματα,boils
+dsc:5.109,inflammation,therapeutic,δοθιῆνας διαφοροῦσι καὶ ὄρχεων οἰδήματα,testicular swellings
+dsc:5.109,envenomation,therapeutic,θηριοδήκτοις τε βοηθοῦσι,also crocodile bites
+dsc:5.109,bruises,therapeutic,καὶ πρὸς ὑπώπια προσώπου σὺν μέλιτι,black eyes; also στρέμματα (sprains)
+dsc:5.109,poisoning,therapeutic,πρὸς ὀποῦ μήκωνος πόσιν καὶ πρὸς μύκητας ἐν ὀξυμέλιτι πινόμενοι,"opium, mushrooms"
+dsc:5.109,burns,therapeutic,πρὸς δὲ πυρίκαυτα σὺν ἐλαίῳ ἐπιτεθέντες οὐκ ἐῶσι φλυκταινοῦσθαι,
+dsc:5.109,gout,therapeutic,ποδαγρικοῖς τε ὁμοίως ἐπιτίθενται,
+dsc:5.109,ear_disease,therapeutic,πρὸς ὠταλγίας τε σὺν ὄξει,
+dsc:5.109,erysipelas,therapeutic,ἐρυσιπέλατά τε καὶ ἕρπητας ἴσχουσι μετ᾿ ὄξους,
+dsc:5.109,NONE,therapeutic,κόπου λυτήριοι σὺν ἐλαίῳ συγχριόμενοι,relieves fatigue; clyster ingredient (κλυσμοῖς εὔθετοι) not coded
+dsc:5.125,eye_disease,therapeutic,ἀποκαθαρτικὴν τῶν ἐπισκοτούντων ταῖς κόραις,
+dsc:5.125,cancer,therapeutic,διαφορητικήν τε καὶ πεπαντικὴν σκληρωμάτων ἀναλημφθεὶς ῥητίνῃ,indurations; weak
+dsc:5.125,skin_ulcers,therapeutic,καταστέλλει δὲ καὶ τὰ ὑπερσαρκοῦντα,represses proud flesh; weak
+dsc:5.130,constipation,action,δύναμιν δὲ ἔχει πάχους ἀγωγὸν διδόμενος μετὰ μελικράτου,"purges thick humour, route unspecified; weak"
+dsc:5.139,envenomation,therapeutic,λίθος σάπφειρος δοκεῖ ὠφελεῖν σκορπιοπλήκτους πινόμενος,
+dsc:5.139,eye_disease,therapeutic,τὰς ἐν ὀφθαλμοῖς ὑπεροχὸς καὶ σταφυλώματα καὶ φλυκταίνας στέλλει,OCR ὑπεροχός; also ruptured membranes
+dsc:5.139,NONE,therapeutic,πίνεται δὲ καὶ πρὸς τὰς ἐντὸς ἑλκώσεις,internal ulcerations: no concept
+dsc:5.140,pain,action,ἐπὶ τῶν μελλόντων τέμνεσθαι καίεσθαι τόπων ἀκίνδυνον ἀναισθησίαν ἐπιφέρειν,"surgical anaesthetic (reported, ἱστορεῖται)"
+dsc:5.155,skin_blemishes,therapeutic,ἔτι δὲ εὔχρουν τὸ πρόσωπον καὶ ὅλον τὸ σῶμα ἀποτελεῖ,cosmetic; also inherits virtues of Samian earth (not coded)

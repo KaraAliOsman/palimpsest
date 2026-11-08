@@ -1,0 +1,157 @@
+monograph_id,headword,kind,scientific_name,rank,confidence,alternatives,common_name_en,note
+dsc:2.92,ἀθήρα δὲ ἐκ,product,Triticum,genus,medium,Triticum turgidum;Triticum aestivum;Triticum monococcum,athera (hulled-wheat gruel),"Gruel of finely ground zea: hulled wheat, emmer (T. turgidum subsp. dicoccum) or spelt (T. aestivum subsp. spelta); debated."
+dsc:2.93,τράγος τὸ σχῆμα,product,Triticum,genus,medium,Triticum turgidum;Triticum aestivum,tragos (wheat groats),"Groats like chondros but chaffier, from zea: emmer or spelt (T. aestivum subsp. spelta); debated."
+dsc:2.94,βρόμος κάλαμός ἐστι,plant,Avena sativa,species,high,Avena sterilis,oat,Bromos: reed-like cereal with wheat-like leaves and nodes; standard identification oat.
+dsc:2.95,ὄρυζα τῶν σιτηρῶν,plant,Oryza sativa,species,high,,rice,"Cereal of marshy places; rice, uncontroversial."
+dsc:2.96,ὁ δὲ χονδρος,product,Triticum turgidum,species,medium,Triticum aestivum,chondros (emmer groats),"Groats from 'dikokkos zea', i.e. two-grained emmer (T. turgidum subsp. dicoccum); spelt (T. aestivum subsp. spelta) possible."
+dsc:2.97,κέγχρος ἀτροφωτέρα τῶν,plant,Panicum miliaceum,species,high,,broomcorn millet,Kenchros = common millet; standard identification.
+dsc:2.98,καὶ ἡ ἔλυμος,plant,Setaria italica,species,medium,Sorghum bicolor,foxtail millet,"Elymos/meline, a millet-like cereal; usually identified as foxtail millet."
+dsc:2.99,σήσαμον κακοστόμαχον καὶ,plant,Sesamum indicum,species,high,,sesame,Sesamon = sesame; uncontroversial.
+dsc:2.100,αἶπα ἡ γινομένη,plant,Lolium temulentum,species,high,,darnel,Aira growing among wheat = darnel; standard identification.
+dsc:2.101,ἄμμλον ὠνόμασται διὰ τὸ χωρὶς μύλου κατασκευάζεσθαι,product,Triticum aestivum,species,medium,,wheat starch (amylon),Starch made without milling from 'setanios' wheat by soaking and treading; soft wheat assumed.
+dsc:2.102,καὶ τὸ ἐκ,product,Trigonella foenum-graecum,species,high,,fenugreek meal,"Meal of telis (synonyms boukeras, aigokeras) = fenugreek; uncontroversial."
+dsc:2.103,καὶ τὸ λινόσπεπμον,plant,Linum usitatissimum,species,high,,linseed,"Linosperm (flax seed), same virtues as fenugreek; uncontroversial."
+dsc:2.104,ἐρέβινθος ὁ ἥμερος,plant,Cicer arietinum,species,high,,chickpea,Erebinthos hemeros = cultivated chickpea; uncontroversial.
+dsc:2.105,κύαμος Ἑλλην ικὸς,plant,Vicia faba,species,high,,broad bean,Kyamos Hellenikos = Greek (broad) bean; uncontroversial.
+dsc:3.1,ἀγαρικόν,fungus,Fomitopsis officinalis,species,high,,agarikon (larch polypore),Spongy silphium-like 'root'; standard identification larch polypore (Berendes: Lärchenschwamm).
+dsc:3.2,ῥᾶ,plant,Rheum rhaponticum,species,medium,Rheum ribes,rhapontic rhubarb,Rha from beyond the Bosporus; Berendes 'Rhapontik'; exact Rheum species debated.
+dsc:3.3,γεντιανή,plant,Gentiana lutea,species,high,,great yellow gentian,Named after Illyrian king Gentius; Berendes Enzian; standard G. lutea.
+dsc:3.4,ἀριστολοχεία,plant,Aristolochia rotunda,species,high,Aristolochia fontanesii;Aristolochia clematitis,round birthwort,"Round (female), long (male), klematitis kinds: A. rotunda, A. longa L. (GBIF: A. fontanesii), A. clematitis."
+dsc:3.5,γλυκύρριζα,plant,Glycyrrhiza glabra,species,medium,Glycyrrhiza echinata,liquorice,Sweet root; burr-like fruit heads described fit G. echinata; G. glabra usual identification.
+dsc:3.6,κενταύρειον τὸ μέγα,plant,Rhaponticoides centaurium,species,medium,,great centaury,"Walnut-like leaves, tall stem, red root; standard Centaurea centaurium (now Rhaponticoides)."
+dsc:3.7,κενταύρειον τὸ λεπτὸν,plant,Centaurium erythraea,species,high,,common centaury,"Small centaury, hypericum-like, of moist places; uncontroversial."
+dsc:3.8,χαμαιλέων λευκός,plant,Atractylis gummifera,species,high,,pine thistle (white chamaeleon),Ixine birdlime found at the roots; standard Atractylis (Carlina) gummifera.
+dsc:3.9,ὁ δὲ μέλας,plant,Cardopatium corymbosum,species,medium,,black chamaeleon,"Berendes: Carthamus corymbosus L. (= Cardopatium corymbosum); umbel-like spiny inflorescence, black root."
+dsc:3.10,κροκοδείλεον,plant,Carduus pycnocephalus,species,low,,krokodeilion (a thistle),"Like black chamaeleon, cress-scented root; Berendes Carduus pycnocephalus; tentative."
+dsc:3.11,δίψακος,plant,Dipsacus fullonum,species,high,,wild teasel,Leaf-cups collecting water; Berendes Dipsacus silvestris (= D. fullonum).
+dsc:3.12,ἄκανθα λευκή,plant,Lophiolepis ferox,species,low,Picnomon acarna;Onopordum acanthium,white thorn (a thistle),"Sea-urchin-like spiny head, purple flowers; Berendes Cnicus ferox (= Cirsium/Lophiolepis ferox), others Cnicus acarna; uncertain."
+dsc:3.13,ἄκανθα Ἀραβική,plant,Onopordum,genus,low,,Arabian thorn,Berendes: not determined; Sprengel tentatively Onopordon arabicum; only virtues given.
+dsc:3.14,σκόλυμος,plant,Scolymus hispanicus,species,medium,Scolymus maculatus,golden thistle,"Spiny head, edible root and shoots; Berendes S. maculatus; artichoke rejected."
+dsc:3.15,ποτίρριον,plant,Astragalus,genus,low,Sarcopoterium spinosum,poterion,"Woolly spiny shrub like tragacanth, gummy roots; Sprengel Astragalus poterium; others Sarcopoterium spinosum."
+dsc:3.16,ἀκάνθιον,plant,Onopordum acanthium,species,medium,Onopordum illyricum,cotton thistle,Cobweb-like down gathered as wool; Berendes Onopordon acanthium (perhaps O. illyricum).
+dsc:3.17,ἄκανθος,plant,Acanthus mollis,species,high,Acanthus spinosus,bear's breech,"Akanthos/paideros of gardens, broad glossy leaves; standard A. mollis."
+dsc:3.18,ἀνωνίς,plant,Ononis spinosa,species,high,,spiny restharrow,Berendes Ononis antiquorum (now O. spinosa subsp. antiquorum).
+dsc:3.19,λευκάκανθα,plant,Cirsium tuberosum,species,low,Centaurea dalmatica,leukakantha,"Only cyperus-like bitter root described; Sprengel Cirsium tuberosum, Fraas Centaurea dalmatica."
+dsc:3.20,τραγάκανθα,plant,Astragalus,genus,medium,Astragalus gummifer;Astragalus creticus,tragacanth,Spiny shrub whose cut root yields gum tragacanth; Berendes: Astragalus species.
+dsc:3.21,ἡρύγγη,plant,Eryngium campestre,species,high,,field eryngo,Spiny plant with edible young leaves; standard E. campestre.
+dsc:3.22,ἀλόη,plant,Aloe vera,species,medium,Aloe perryi,aloe,"Squill-like fleshy leaves, bitter juice from India/Arabia; A. vera usual, Socotrine A. perryi possible."
+dsc:3.23,ἀψίνθιον,plant,Artemisia absinthium,species,high,Artemisia pontica;Artemisia maritima,wormwood,Pontic/Cappadocian wormwood; chapter adds seriphon (sea wormwood).
+dsc:3.24,ἁβρότονον,plant,Artemisia abrotanum,species,medium,Artemisia arborescens;Santolina chamaecyparissus,southernwood,"Male and female kinds; male usually A. abrotanum, female debated."
+dsc:3.25,ὔσσωπος,plant,Origanum syriacum,species,low,Hyssopus officinalis,hyssop (ancient),"Not described; Sprengel/Fraas Origanum syriacum/smyrnaeum, Lenz Hyssopus officinalis (rare in Greece)."
+dsc:3.26,στοιχάς,plant,Lavandula stoechas,species,high,,French lavender,From the Stoechades islands off Marseille; Berendes L. stoechas.
+dsc:3.27,ὀρίγανος Ἡρακλεωτική,plant,Origanum vulgare,species,medium,Origanum onites,Greek oregano,Berendes Origanum heracleoticum (= O. vulgare subsp. hirtum).
+dsc:3.28,ἡ δὲ ὀνῖτις,plant,Origanum onites,species,medium,,pot marjoram,"Whiter, more hyssop-like leaves; usual O. onites; Berendes 'Origanum creticum'."
+dsc:3.29,ἡ δὲ ἀγριορίγανος,plant,Origanum vulgare,species,medium,,wild marjoram,"Berendes Origanum vulgare var. album; dill-like umbels, white flowers."
+dsc:3.30,τραγορίγανος,plant,Stachys glutinosa,species,low,Micromeria juliana,tragoriganos,Sticky broad-leaved kind: Sprengel Stachys glutinosa; slender kind Satureja juliana (Fraas); uncertain.
+dsc:3.31,γλήχων,plant,Mentha pulegium,species,high,,pennyroyal,"Glechon, well-known herb; uncontroversial."
+dsc:3.32,δίκταμνον,plant,Origanum dictamnus,species,high,Pseudodictamnus mediterraneus,dittany of Crete,Cretan herb like pennyroyal; chapter adds pseudodiktamnon.
+dsc:3.33,ἐλελίσφακον,plant,Salvia fruticosa,species,medium,Salvia officinalis,Greek sage,"Elelisphakon: long shrub, square twigs, rough whitish fragrant leaves; Greek sage."
+dsc:3.34,ἡδύοσμον,plant,Mentha spicata,species,medium,Mentha longifolia,spearmint,"Hedyosmon/minthe, garden mint; spearmint usual identification."
+dsc:3.35,καλαμίνθη,plant,Clinopodium nepeta,species,low,Mentha longifolia,calamint,Three kinds; Berendes: two Mentha spp. plus Thymus calamintha; mountain kind usually calamint.
+dsc:3.36,θύμος,plant,Thymbra capitata,species,high,,conehead thyme,Berendes Satureja capitata (= Thymbra capitata); purple capitate heads.
+dsc:3.37,θύμβρα,plant,Satureja thymbra,species,medium,Satureja hortensis,savory,Berendes Satureja thymbra; cultivated kind perhaps another savory.
+dsc:3.38,ἔρπυλλος,plant,Thymus,genus,medium,Thymus serpyllum;Thymus zygis,wild thyme,"Garden creeping kind and erect wild kind (zygis); Berendes Thymus serpyllum, T. glabratus."
+dsc:3.39,σάμψουχον κράτιστον τὸ,plant,Origanum majorana,species,high,,sweet marjoram,Sampsuchon/amarakon of Cyzicus and Cyprus; Berendes Origanum majorana.
+dsc:3.40,μελίλωτος,plant,Melilotus,genus,medium,Trigonella cretica;Melilotus officinalis,melilot,"Saffron-coloured fragrant Attic kind; Berendes Melilotus creticus, M. neapolitanus; Sprengel M. officinalis."
+dsc:3.41,σισύμβριον οἱ δὲ ἕρπυλλον ἄγριον μέγαν καλοῦσιν,plant,Mentha aquatica,species,medium,,water mint,"Mint-like, broader-leaved, fragrant; usual identification water mint (Berendes 'Wasserminze')."
+dsc:3.42,μᾶρον ἢ ὑσόβρυον,plant,Origanum sipyleum,species,low,Teucrium marum,maron,"Berendes: not certain; Teucrium marum abandoned, Sibthorp/Fraas Origanum sipyleum (Magnesia, Tralles)."
+dsc:3.43,ἄκινος ἢ ἄκονος,plant,Clinopodium acinos,species,low,,basil thyme,"Basil-like, hairier, fragrant; Berendes Thymus acinos (= Clinopodium acinos)."
+dsc:3.44,βάκχαρις,plant,Helichrysum sanguineum,species,low,,bakcharis,Berendes: undetermined; Fraas Gnaphalium sanguineum; cinnamon-scented root.
+dsc:3.45,πήγανον,plant,Ruta graveolens,species,medium,Ruta chalepensis;Ruta montana,rue,"Garden, mountain and wild rue; garden R. graveolens/chalepensis, mountain kind R. montana."
+dsc:3.46,καλοῦσί τινες πήγανον,plant,Peganum harmala,species,high,,Syrian rue,'Wild rue' called moly in Cappadocia and Galatia; standard Peganum harmala.
+dsc:3.47,μῶ λυ,plant,Allium,genus,low,Allium nigrum;Allium moly,moly,"Grass-like leaves, milk-white flowers, small bulb; Berendes lists Allium nigrum/magicum; contested."
+dsc:3.48,πάνκες Ἡράκλειον,plant,Opopanax chironium,species,medium,Opopanax hispidus,opopanax,Herakleion panakes yielding opopanax gum; Berendes Ferula opopanax / Opopanax chironium.
+dsc:3.49,πάνακες Ἀσκληπίον,plant,Echinophora tenuifolia,species,low,,Asclepian panakes,"Fennel-like rough leaves, golden umbels; Berendes Echinophora tenuifolia."
+dsc:3.50,πάνακες Χειρώνιον,plant,Hypericum olympicum,species,low,Inula helenium;Helianthemum nummularium,Cheironian panakes,"Pelion plant, marjoram-like leaves, golden flower; Fraas Hypericum olympicum; others Inula, Helianthemum."
+dsc:3.51,λιγυστικόν,plant,Levisticum officinale,species,low,Siler montanum,ligustikon (lovage),"Ligurian Apennine umbellifer, poorly described; Sprengel Levisticum officinale or Laserpitium siler."
+dsc:3.52,σταφυλῖνος ἄγριος,plant,Daucus carota,species,high,,wild carrot,Wild staphylinos with central purple floret; Berendes Daucus carota var. silvestris.
+dsc:3.53,σέσελι,plant,Seseli tortuosum,species,medium,Bupleurum fruticosum;Myrrhis odorata,Massilian seseli,Massilian = Seseli tortuosum; Ethiopian = Bupleurum fruticosum; Peloponnesian uncertain (Berendes).
+dsc:3.54,τόρδιλον,plant,Tordylium officinale,species,medium,Tordylium apulum,hartwort,Cretan seseli of Amanus; round double shield-shaped seed; Berendes T. officinale.
+dsc:3.55,σίνων,plant,Sison amomum,species,medium,,stone parsley,Syrian celery-like black seed; traditional identification Sison amomum.
+dsc:3.56,ἄνσσον,plant,Pimpinella anisum,species,high,,anise,Anison; uncontroversial.
+dsc:3.57,καρώ,plant,Carum carvi,species,high,,caraway,"Karo, known aromatic seed; standard caraway."
+dsc:3.58,ἀνήθου ξηροῦ τῆς,plant,Anethum graveolens,species,high,,dill,Anethon; uncontroversial.
+dsc:3.59,κύμινον τὸ ἥμερον,plant,Cuminum cyminum,species,high,,cumin,Cultivated kyminon (Ethiopian 'royal' cumin); Berendes Cuminum cyminum.
+dsc:3.60,κύμινον ἄγριον,plant,Lagoecia cuminoides,species,medium,,wild cumin,Small plant with 5-6 round heads; Sprengel and Fraas Lagoecia cuminoides.
+dsc:3.61,ἐστι δὲ καὶ ἕτερον γένος ἀγρίου κυμίνου,plant,Nigella arvensis,species,low,,field nigella,"Horn-like capsules with nigella-like seed; Sprengel N. arvensis, Fraas N. aristata (= N. arvensis subsp. aristata)."
+dsc:3.62,ἄμι,plant,Trachyspermum ammi,species,medium,Visnaga daucoides,ajowan,"Tiny oregano-tasting seed; Sprengel Ammi copticum (= ajowan), Fraas Ammi visnaga."
+dsc:3.63,κόριον,plant,Coriandrum sativum,species,high,,coriander,Korion; uncontroversial.
+dsc:3.64,σέλινον κηπαῖον,plant,Apium graveolens,species,high,,celery,Garden selinon; uncontroversial.
+dsc:3.65,ὀρεοσέλινον,plant,Seseli libanotis,species,low,Seseli annuum,mountain parsley,"Rock/mountain umbellifer; Gesner and Sprengel Seseli libanotis, Fraas Seseli annuum."
+dsc:3.66,πετροσέλινον,plant,Petroselinum crispum,species,medium,Bubon macedonicum,parsley,"Macedonian cliffs, ammi-like seed; Fraas parsley, Sprengel Athamanta macedonica (= Bubon macedonicum)."
+dsc:3.67,ἱπποσέλινον,plant,Smyrnium olusatrum,species,high,,alexanders,"Hipposelinon/olusatrum, black seed; Fraas Smyrnium olusatrum."
+dsc:3.68,σμύρνιον,plant,Smyrnium perfoliatum,species,medium,,perfoliate alexanders,"Cilician 'petroselinon' of Amanus, myrrh-tasting seed; Berendes S. perfoliatum."
+dsc:3.69,ἐλαφοβόσκον,plant,Pastinaca sativa,species,medium,Cervaria rivini,parsnip,"Elaphoboskon, sweet edible root, deer food; Berendes Pastinaca sativa."
+dsc:3.70,μάραθον,plant,Foeniculum vulgare,species,high,,fennel,Marathon; uncontroversial.
+dsc:3.71,πομάραθον,plant,Cachrys,genus,low,Foeniculum vulgare,hippomarathon (wild fennel),"Big wild fennel with kachrys-like seed; Berendes: undetermined, Cachrys morisonii proposed."
+dsc:3.72,δαῦκος,plant,Athamanta cretensis,species,medium,Cervaria rivini;Ammi majus,Cretan daukos,Three kinds: Cretan = Athamanta cretensis; second Peucedanum cervaria (= Cervaria rivini); third Ammi majus (Fraas).
+dsc:3.73a,RV: δελφίνιον,plant,Delphinium,genus,medium,Delphinium peregrinum;Delphinium ajacis;Delphinium tenuissimum,larkspur,"RV-text chapter; dolphin-shaped flowers; Sibthorp D. ajacis, Fraas D. peregrinum; second kind D. tenuissimum."
+dsc:3.73b,πύρεθρος,plant,Anacyclus pyrethrum,species,medium,,pellitory,Burning root for toothache; Berendes Anacyclus pyrethrum; 'umbel' wording questioned.
+dsc:3.74,λιβανωτίς,plant,Cachrys libanotis,species,medium,,libanotis (kachrys),Fruiting kind yields kachrys: 'ohne Zweifel' Cachrys libanotis (Berendes); second kind Ferula nodiflora.
+dsc:3.75,λιβανωτίς,plant,Salvia rosmarinus,species,high,,rosemary,Libanotis called rosmarinus by the Romans; uncontroversial.
+dsc:3.76,σφονδύλιον,plant,Heracleum sphondylium,species,medium,,hogweed,"Plane-like leaves, broad winged seeds; Berendes Bärenklau (Heracleum)."
+dsc:3.77,νάρθηκος χλωροῦ ἡ,plant,Ferula communis,species,high,,giant fennel,Narthex pith; uncontroversial.
+dsc:3.78,πευκέκδανον,plant,Peucedanum officinale,species,medium,,hog's fennel,Peukedanon; Berendes Haarstrang (Peucedanum).
+dsc:3.79,μελάνθιον,plant,Nigella sativa,species,high,,black cumin,Melanthion; uncontroversial.
+dsc:3.80,σίλφιον,plant,Ferula,genus,low,Ferula assa-foetida;Ferula drudeana,silphium,Cyrenaic silphium unidentified (extinct?); Median/Syrian kinds are asafoetida-type Ferula.
+dsc:3.81,σαγαπηνόν,product,Ferula persica,species,low,Ferula szowitsiana,sagapenum,Gum of a ferula-like Median plant; Berendes probable source Ferula persica or F. szowitsiana.
+dsc:3.82,εὐφόρβιον,plant,Euphorbia resinifera,species,medium,Euphorbia officinarum,euphorbium spurge,"Ferula-like tree of Mauretanian Atlas, acrid latex (Juba's euphorbium)."
+dsc:3.83,χαλβάνη,product,Ferula gummosa,species,high,,galbanum,Gum-resin of a Syrian narthex; Berendes Ferula galbaniflua/rubricaulis (= F. gummosa).
+dsc:3.84,ἀμμωνιακόν,product,Ferula marmarica,species,medium,Ferula tingitana;Ferula ammoniacum,ammoniacum,Gum of a Cyrenaican ferula; Berendes F. tingitana; Persian trade ammoniac from Dorema ammoniacum (= Ferula ammoniacum).
+dsc:3.85,σαρκοκόλλα,product,Astragalus sarcocolla,species,medium,,sarcocolla,Tear of a Persian tree; Berendes cites Dymock: Persian Astragalus (formerly Penaea).
+dsc:3.86,γλαύκιον,product,Glaucium corniculatum,species,medium,,glaucium juice,Juice of Syrian plant with horned-poppy leaves; Berendes 'ohne Zweifel' Glaucium corniculatum.
+dsc:3.88,ἡ δὲ ἰχθυοκόλλα,animal,,unknown,high,,isinglass,"Fish glue from the belly of a large Pontic fish, i.e. sturgeon swim bladder."
+dsc:3.89,ἰξός,product,Viscum album,species,medium,Loranthus europaeus,birdlime (mistletoe),"Birdlime from round berries of ixia with box-like leaves, i.e. mistletoe."
+dsc:3.90,ἀπαρίνη,plant,Galium aparine,species,high,,cleavers,"Rough clinging stems, whorled leaves; Berendes Galium aparine."
+dsc:3.91,ἄλυσσον,plant,Fibigia clypeata,species,low,,alysson,Double shield-like silicles; Sprengel/Fraas Farsetia clypeata (= Fibigia clypeata).
+dsc:3.92,ἀσκληπιάς,plant,Vincetoxicum hirundinaria,species,low,,swallow-wort,"Ivy-like leaves, fragrant roots; traditional Vincetoxicum, Fraas 'Asclepias Dioscoridis'."
+dsc:3.93,ἀτρακτυλίς,plant,Carthamus lanatus,species,high,,woolly distaff thistle,Safflower-like thistle used as spindle; Matthiolus/Fraas Carthamus lanatus.
+dsc:3.94,πολύκνημον,plant,Ziziphora capitata,species,low,,polyknemon,"Oregano-like leaves, jointed stem, no umbel; Fraas Ziziphora capitata; uncertain."
+dsc:3.95,κλινοπόδιον,plant,Clinopodium vulgare,species,medium,,wild basil,Bed-foot-like whorled flowers; Berendes Clinopodium vulgare.
+dsc:3.96,λεοντοπέταλον,plant,Leontice leontopetalum,species,medium,Roemeria hybrida,lion's leaf,"Sprengel Leontice leontopetalum; Fraas Roemeria hybrida (pods, red flower) — debated."
+dsc:3.97,Τεύριον,plant,Teucrium flavum,species,medium,,yellow germander,"Teukrion of Cilicia, chamaedrys-like; Berendes Teucrium flavum."
+dsc:3.98,χαμαίρωψ ἢ χαμαίδρυς ἢ λινόδρυς,plant,Teucrium chamaedrys,species,medium,Teucrium lucidum,wall germander,"Oak-like small leaves; Sprengel/Sibthorp T. chamaedrys, Fraas T. lucidum."
+dsc:3.99,λευκάς,plant,Lamium maculatum,species,low,,leukas,"Fragmentary chapter; Berendes only conjectures: Sprengel Lamium maculatum, Fraas Lamium striatum."
+dsc:3.100,λυχνὶς στεφανωματική,plant,Silene coronaria,species,high,,rose campion,"Garland lychnis, purple leukoion-like flower; Berendes Lychnis coronaria."
+dsc:3.101,λυχνὶς ἀγρία,plant,Agrostemma githago,species,medium,,corncockle,Wild lychnis similar to garden one; Berendes Agrostemma githago.
+dsc:3.102,κρίνον,plant,Lilium candidum,species,high,,Madonna lily,"Krinon/leirion, garland flower, source of susinon oil; uncontroversial."
+dsc:3.103,βαλλντή,plant,Ballota nigra,species,high,,black horehound,"Ballote/melamprasion, square black stems; Berendes Ballota."
+dsc:3.104,μελισσόφυλλον,plant,Melissa officinalis,species,high,,lemon balm,"Melissophyllon, loved by bees; uncontroversial."
+dsc:3.105,πράσιον,plant,Marrubium vulgare,species,high,,white horehound,Prasion; Berendes Marrubium vulgare.
+dsc:3.106,στάχυς,plant,Stachys germanica,species,medium,,downy woundwort,"Like prasion but longer, whiter leaves; Berendes Stachys germanica (Sibthorp S. palaestina)."
+dsc:3.107,φυλλῖτις,plant,Asplenium scolopendrium,species,high,,hart's-tongue fern,Lapathon-like leaves with sori beneath; Berendes Scolopendrium officinale.
+dsc:3.108,φαλάγγιον,plant,Anthericum ramosum,species,low,Anthericum liliago;Gagea graeca,St Bernard's lily,"Lily-like white flower, black seed; Dodonaeus Anthericum ramosum, Fraas Lloydia graeca; uncertain."
+dsc:3.109,τρίφυλλον,plant,Bituminaria bituminosa,species,high,,pitch trefoil,Triphyllon/asphaltion smelling of bitumen; Berendes Asphaltklee.
+dsc:3.110,πόλιον,plant,Teucrium polium,species,high,,felty germander,"Polion/teuthrion, white small shrub; standard Teucrium polium."
+dsc:3.111,σκόρδιον,plant,Teucrium scordium,species,high,,water germander,"Skordion of marshy places, garlic-like smell; Berendes Knoblauch-Gamander."
+dsc:3.112,βήχιον,plant,Tussilago farfara,species,high,,coltsfoot,"Bechion, cough herb, smoke inhaled; Berendes Tussilago farfara."
+dsc:3.113,ἀρτεμισία,plant,Artemisia arborescens,species,medium,Artemisia campestris;Artemisia vulgaris,tree wormwood,Seaside wormwood-like shrub; Berendes A. arborescens and A. campestris; single-stemmed kind uncertain.
+dsc:3.114,ἀμβροσία,plant,Ambrosia maritima,species,medium,,sea ambrosia,"Sprengel and Fraas Ambrosia maritima; rue-like leaves, Cappadocian garlands."
+dsc:3.115,βότρυς,plant,Dysphania botrys,species,high,,Jerusalem oak,"Botrys, yellowish fragrant herb; Berendes Chenopodium botrys."
+dsc:3.116,γεράνιον,plant,Geranium tuberosum,species,medium,Erodium malacoides,tuberous cranesbill,Round sweet edible root; Berendes Geranium tuberosum; second kind Erodium malacoides.
+dsc:3.117,γναφαλλίου,plant,Achillea maritima,species,medium,,cottonweed,White soft leaves used as stuffing; Berendes Athanasia maritima (= Otanthus maritimus).
+dsc:3.118,τύφη,plant,Typha angustifolia,species,medium,Typha latifolia,lesser bulrush,Typhe of marshes with dense fluffy spike; Berendes Typha angustifolia.
+dsc:3.119,κιρκαία,plant,Vincetoxicum nigrum,species,low,Circaea lutetiana,kirkaia,"Berendes: not determined; Anguillara Cynanchum nigrum, Lobelius Circaea lutetiana."
+dsc:3.120,οἰνάνθη,plant,Filipendula vulgaris,species,medium,Pedicularis tuberosa,dropwort,"Root with many round heads; Fraas Spiraea filipendula, Sprengel Pedicularis tuberosa."
+dsc:3.121,κόνυζα,plant,Dittrichia viscosa,species,medium,Dittrichia graveolens;Inula britannica,false yellowhead,Greater konyza; Berendes Erigeron viscosum; small kind E. graveolens; third Inula britannica.
+dsc:3.122,ἡμεροκαλλές,plant,Hemerocallis fulva,species,low,Lilium bulbiferum,day lily,"Lily-like, leek-green leaves, yellow flowers; Berendes: not determined; Hemerocallis fulva or Lilium bulbiferum."
+dsc:3.123,λευκόϊον γνώριμον. ἐστι δʼ αὐτοῦ διαφορὰ ἐν τῷ ἄνθει,plant,Erysimum cheiri,species,medium,Matthiola incana,wallflower,Leukoion; yellow kind used medicinally = Cheiranthus cheiri (Berendes); other colours Matthiola.
+dsc:3.124,κραταιόγονον,plant,Crucianella monspeliaca,species,low,Persicaria maculosa,krataiogonon,"Wheat-like leaves, millet-like seed; Fraas Crucianella monspeliaca, Sprengel Polygonum persicaria."
+dsc:3.125,φύλλον,plant,Mercurialis perennis,species,low,Mercurialis annua;Mercurialis tomentosa,phyllon,Rock plant with thelygonon/arrhenogonon forms; Fraas Mercurialis perennis; Sprengel M. tomentosa.
+dsc:3.126,ὄρχις,plant,Anacamptis papilionacea,species,medium,Anacamptis morio,butterfly orchid,Kynos orchis with paired tubers; Berendes Orchis papilionacea or O. morio.
+dsc:3.127,ὄρχις ἕτερος,plant,Orchis italica,species,low,,serapias orchis,"Leek-like leaves, purple flowers; Sprengel declined, Fraas Orchis undulatifolia (= O. italica)."
+dsc:3.128,σατύριον,plant,Orchis anthropophora,species,low,Tulipa clusiana;Erythronium dens-canis;Fritillaria pyrenaica,satyrion,"Three-leaved bulbous aphrodisiac; Fraas Aceras anthropophora, Sprengel Tulipa; erythronion part also undetermined."
+dsc:3.129,ὅρμινον,plant,Salvia viridis,species,medium,Salvia verbenaca,annual clary,"Cultivated horminon, square stem; Berendes Salvia horminum (= S. viridis); wild kind other Salvia."
+dsc:3.130,ἡ δύσαρον τὸ ὑπὸ τῶν μυρεψῶν καλούμενον πελεκῖνος,plant,Coronilla securidaca,species,medium,Biserrula pelecinus,hatchet vetch,Hedysaron/pelekinos with axe-like seed; Berendes Coronilla securidaca (syn. Securigera securidaca).
+dsc:3.131,ὄνοσμα,plant,Onosma echioides,species,low,,onosma,Anchusa-like leaves; Fraas Onosma echioides; Sprengel wavered (Lithospermum/Anchusa).
+dsc:3.132,νυμφαία,plant,Nymphaea alba,species,high,Nuphar lutea,white water lily,White water lily; second nymphaia with yellow flower = Nuphar lutea (Berendes).
+dsc:3.133,ἀνδρόσακες,plant,Acetabularia acetabulum,species,medium,,mermaid's wineglass (green alga),White leafless seashore 'herb' with apical cup = marine alga Acetabularia; Sprengel 'Tubularia acetabulum'.
+dsc:3.134,ἄσπληνος,plant,Asplenium ceterach,species,high,,rustyback fern,"Asplenon/skolopendrion with lobed leaves, rusty beneath; Berendes Ceterach officinarum."
+dsc:3.135,ἡμιονῖτις,plant,Asplenium sagittatum,species,medium,,mule's fern,Crescent leaf like dracontion; Sprengel/Fraas Scolopendrium hemionitis (= Asplenium sagittatum).
+dsc:3.136,ἀνθυλλίς,plant,Cressa cretica,species,medium,Ajuga iva;Frankenia hirsuta,Cretan cressa,"First anthyllis lentil-leaved, salty = Cressa cretica (Berendes); second ajuga-like kind uncertain."
+dsc:3.137,ἀνθεμίς,plant,Matricaria chamomilla,species,medium,Cota tinctoria;Anthemis rosea,chamomile,"Three kinds by ray colour: white = chamomile, yellow = Anthemis tinctoria, purple = Anthemis rosea (Berendes)."
+dsc:3.138,παρθένιιον,plant,Tanacetum parthenium,species,medium,Matricaria chamomilla,feverfew,"Coriander-like leaves, white rays; Fraas Matricaria parthenium, Sprengel M. chamomilla."
+dsc:3.139,βούφθαλμον,plant,Glebionis coronaria,species,medium,Anacyclus valentinus,crown daisy,"Fennel-like leaves, large yellow 'ox-eye' flowers; Berendes Chrysanthemum coronarium."
+dsc:3.140,γλυκυσίδη,plant,Paeonia mascula,species,high,Paeonia officinalis,peony,Male peony with walnut-like leaves; female with divided leaves = P. officinalis.
+dsc:3.141,λιθόσπερμον,plant,Lithospermum officinale,species,high,,gromwell,Stony white seeds; standard Lithospermum officinale.
+dsc:3.142,φαληρίς,plant,Phalaris aquatica,species,medium,Phalaris canariensis,bulbous canary-grass,"Zea-like stems, white millet-sized seed; Berendes Phalaris nodosa (= P. aquatica), Sprengel P. canariensis."

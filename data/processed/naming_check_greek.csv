@@ -1,0 +1,271 @@
+monograph_id,taxon,confidence,lemma,wikidata_greek,agree
+dsc:1.4,Cyperus rotundus,medium,κύπερος,κυπειροσ; στρογγυλοσ,True
+dsc:1.6,Elettaria cardamomum,medium,καρδάμωμον,κακουλε; καρδαμο; καρδαμον; καρδαμωμον; λεπιδιον,True
+dsc:1.14,Cinnamomum verum,medium,κιννάμωμον,γνησιον; κινναμωμον,True
+dsc:1.17,Cymbopogon schoenanthus,medium,σχοῖνος,σχοινοσ,True
+dsc:1.20,Calicotome villosa,low,ἀσπάλαθος,ασπαλαθοσ; σπαλαθκια,True
+dsc:1.30,Olea europaea,high,ἔλαιον,ελαια; ελαιοδεντρο; ελια; ελιεσ,True
+dsc:1.31,Olea europaea,low,ἐλαιόμελι,ελαια; ελαιοδεντρο; ελια; ελιεσ,True
+dsc:1.32,Ricinus communis,high,κίκινον ἔλαιον,ρικινοσ,True
+dsc:1.34,Moringa peregrina,medium,βαλάνινον ἔλαιον,δελφινιον; ετερον,False
+dsc:1.35,Hyoscyamus albus,medium,ὑοσκυάμινον ἔλαιον,γερουλι,False
+dsc:1.36,Daphne gnidium,high,ἔλαιον διὰ κνιδίου κόκκου,γνιδιοσ; δαφνη,True
+dsc:1.37,Raphanus sativus,high,ῥαφάνινον ἔλαιον,ραδιξ; ραφανισ; ραφανοσ; ρεπανι,True
+dsc:1.39,Myrtus communis,high,μυρσίνινον ἔλαιον,μυρσινη,True
+dsc:1.40,Laurus nobilis,high,δάφνινον ἔλαιον,βαγια; δαφνη; δαφνολια; φυλλαδα,True
+dsc:1.41,Pistacia lentiscus,high,σχίνινον ἔλαιον,σκινοσ; σχινοσ,True
+dsc:1.42,Pistacia lentiscus,high,μαστίχινον ἔλαιον,σκινοσ; σχινοσ,False
+dsc:1.44,Phoenix dactylifera,medium,ἐλάτινον,χουρμαδια,False
+dsc:1.45,Cydonia oblonga,high,μήλινον,κυδωνια,False
+dsc:1.46,Vitis vinifera,high,οἰνάνθινον,αμπελοσ; αμπελωνασ; οινοφοροσ,False
+dsc:1.47,Trigonella foenum-graecum,high,τήλινον,ελληνικη; μοσχοσιταρο; ντηλιλινα; ντοντιλινα; στροφυλι; τηλι; τηλισ; τηντελιδα; τριγωνελλα; τριγωνισκοσ; τσιμενι,True
+dsc:1.48,Origanum majorana,medium,σαμψούχινον,μαντζουρανα; ματζουρανα,False
+dsc:1.49,Ocimum basilicum,high,ὠκίμινον,βασιλικον; βασιλικοσ; ωκιμον,True
+dsc:1.51,Anethum graveolens,high,ἀνήθινον,ανηθο; ανηθον; ανηθοσ,True
+dsc:1.53,Narcissus poeticus,medium,ναρκίσσινον,ναρκισσοσ; ποιητικοσ,True
+dsc:1.57,Vitis vinifera,medium,γλεύκινον,αμπελοσ; αμπελωνασ; οινοφοροσ,False
+dsc:1.58,Origanum majorana,medium,ἀμαράκινον,μαντζουρανα; ματζουρανα,False
+dsc:1.60,Commiphora myrrha,medium,στακτή,κομμιφοροσ; μυρρα,False
+dsc:1.61,Cinnamomum verum,medium,κιναμώμινον,γνησιον; κινναμωμον,True
+dsc:1.64,Commiphora myrrha,high,σμύρνα,κομμιφοροσ; μυρρα,True
+dsc:2.85,Triticum aestivum,medium,πυροί,μαλακοσ; πυροσ; σιτοσ,True
+dsc:2.86,Hordeum vulgare,high,κριθή,κριθαρι; κριθη,True
+dsc:2.87,Hordeum vulgare,high,ζῦθος,κριθαρι; κριθη,False
+dsc:2.88,Hordeum vulgare,high,κοῦρμι,κριθαρι; κριθη,False
+dsc:2.94,Avena sativa,high,βρόμος κάλαμός ἐστι,βρομη; βρομοσ; βρωμη,True
+dsc:2.95,Oryza sativa,high,ὄρυζα τῶν σιτηρῶν,ορυζα,True
+dsc:2.97,Panicum miliaceum,high,κέγχρος ἀτροφωτέρα τῶν,κεγχροσ,True
+dsc:2.99,Sesamum indicum,high,σήσαμον κακοστόμαχον καὶ,σησαμι; σουσαμι,True
+dsc:2.100,Lolium temulentum,high,αἶπα ἡ γινομένη,αιρα; ζιζανιον; θυαροσ,True
+dsc:2.101,Triticum aestivum,medium,ἄμμλον ὠνόμασται διὰ τὸ χωρὶς μύλου κατασκευάζεσθαι,μαλακοσ; πυροσ; σιτοσ,False
+dsc:2.102,Trigonella foenum-graecum,high,καὶ τὸ ἐκ,ελληνικη; μοσχοσιταρο; ντηλιλινα; ντοντιλινα; στροφυλι; τηλι; τηλισ; τηντελιδα; τριγωνελλα; τριγωνισκοσ; τσιμενι,False
+dsc:2.103,Linum usitatissimum,high,καὶ τὸ λινόσπεπμον,λιναρι,False
+dsc:2.104,Cicer arietinum,high,ἐρέβινθος ὁ ἥμερος,ερεβινθοσ; ρεβιθι; ρεβιθια; ρεβυθι,True
+dsc:2.105,Vicia faba,high,κύαμος Ἑλλην ικὸς,κουκι; κουκια; κυαμοσ,True
+dsc:3.3,Gentiana lutea,high,γεντιανή,γεντιανα; γεντιανη; κιτρινη; ωχρη,True
+dsc:3.5,Glycyrrhiza glabra,medium,γλυκύρριζα,γλυκοριζα; γλυκυρριζα,True
+dsc:3.7,Centaurium erythraea,high,κενταύρειον τὸ λεπτὸν,κενταυριον; μικρον,True
+dsc:3.8,Atractylis gummifera,high,χαμαιλέων λευκός,ιξινη,False
+dsc:3.9,Cardopatium corymbosum,medium,ὁ δὲ μέλας,καρδοπατιον; κορυμβωδεσ; μελασ; χαμαιλεων,True
+dsc:3.11,Dipsacus fullonum,high,δίψακος,δασικοσ; διψακοσ,True
+dsc:3.14,Scolymus hispanicus,medium,σκόλυμος,ισπανικοσ; σκολυμοσ,True
+dsc:3.16,Onopordum acanthium,medium,ἀκάνθιον,γαιδουραγκαθο,False
+dsc:3.18,Ononis spinosa,high,ἀνωνίς,αγκαθερη; ονωνιδα; ονωνισ,True
+dsc:3.21,Eryngium campestre,high,ἡρύγγη,ερυγγιο; πεδινο,True
+dsc:3.22,Aloe vera,medium,ἀλόη,αλοη; βερα; γνησια,True
+dsc:3.23,Artemisia absinthium,high,ἀψίνθιον,αρτεμισια; αψινθιον,True
+dsc:3.27,Origanum vulgare,medium,ὀρίγανος Ἡρακλεωτική,κοινον; οριγανον; ριγανη,True
+dsc:3.29,Origanum vulgare,medium,ἡ δὲ ἀγριορίγανος,κοινον; οριγανον; ριγανη,True
+dsc:3.31,Mentha pulegium,high,γλήχων,βληχων; μεντα; φλισκουνι,True
+dsc:3.32,Origanum dictamnus,high,δίκταμνον,δικταμι; δικταμνον; δικταμνοσ; δικταμο; δικταμοσ; ερωντασ; μαλλιαροχορτο; στομαχοχορτο,True
+dsc:3.33,Salvia fruticosa,medium,ἐλελίσφακον,ελληνικο; φασκομηλο,False
+dsc:3.34,Mentha spicata,medium,ἡδύοσμον,δυοσμοσ,True
+dsc:3.36,Thymbra capitata,high,θύμος,θυμον,True
+dsc:3.39,Origanum majorana,high,σάμψουχον κράτιστον τὸ,μαντζουρανα; ματζουρανα,False
+dsc:3.41,Mentha aquatica,medium,σισύμβριον οἱ δὲ ἕρπυλλον ἄγριον μέγαν καλοῦσιν,μεντα; υδροβια,False
+dsc:3.45,Ruta graveolens,medium,πήγανον,απηγανοσ,True
+dsc:3.49,Echinophora tenuifolia,low,πάνακες Ἀσκληπίον,ασκληπιειον; πανακεσ,True
+dsc:3.51,Levisticum officinale,low,λιγυστικόν,λεβιστικον; φαρμακευτικον,True
+dsc:3.52,Daucus carota,high,σταφυλῖνος ἄγριος,δαυκοσ; καρωτον,False
+dsc:3.56,Pimpinella anisum,high,ἄνσσον,ανισο; γλυκανισοσ,True
+dsc:3.57,Carum carvi,high,καρώ,αγριοκυμινο; κιουμελ,False
+dsc:3.58,Anethum graveolens,high,ἀνήθου ξηροῦ τῆς,ανηθο; ανηθον; ανηθοσ,True
+dsc:3.59,Cuminum cyminum,high,κύμινον τὸ ἥμερον,κυμινο,True
+dsc:3.61,Nigella arvensis,low,ἐστι δὲ καὶ ἕτερον γένος ἀγρίου κυμίνου,αγραυλον; μελανθιον; του,False
+dsc:3.63,Coriandrum sativum,high,κόριον,κολιανδροσ,False
+dsc:3.64,Apium graveolens,high,σέλινον κηπαῖον,νεροσελινο; ραπανοσελινο; σελινο,True
+dsc:3.66,Petroselinum crispum,medium,πετροσέλινον,μαιδανοσ; μαιντανοσ; μακεδονησι; πετροσελινο,True
+dsc:3.67,Smyrnium olusatrum,high,ἱπποσέλινον,αγριοσελινο; μελανοσελινον; σμερνο; σμυρνια; σμυρνιον,True
+dsc:3.69,Pastinaca sativa,medium,ἐλαφοβόσκον,εδωδιμοσ; παστινακη; σισαρον,False
+dsc:3.70,Foeniculum vulgare,high,μάραθον,μαραθο; μαραθοσ; μαραθρο; φοινικουλον,True
+dsc:3.73b,Anacyclus pyrethrum,medium,πύρεθρος,ανακυκλοσ; πυρεθρον,True
+dsc:3.75,Salvia rosmarinus,high,λιβανωτίς,δενδρολιβανο; δεντρολιβανο; λιβανωτισ; ροσμαρινον,True
+dsc:3.77,Ferula communis,high,νάρθηκος χλωροῦ ἡ,αρτυκασ; κοινη; ναρθηκασ; φερουλα,True
+dsc:3.79,Nigella sativa,high,μελάνθιον,εδωδιμοσ; νιγελα,False
+dsc:3.89,Viscum album,medium,ἰξός,γκι; ιξοσ,True
+dsc:3.96,Leontice leontopetalum,medium,λεοντοπέταλον,λεοντοπεταλον,True
+dsc:3.98,Teucrium chamaedrys,medium,χαμαίρωψ ἢ χαμαίδρυς ἢ λινόδρυς,χαμαιδρυσ,True
+dsc:3.104,Melissa officinalis,high,μελισσόφυλλον,μελισσοβοτανον; μελισσοχορτο,True
+dsc:3.105,Marrubium vulgare,high,πράσιον,κοινο; μαρρουβιο,False
+dsc:3.110,Teucrium polium,high,πόλιον,αγαποβοτανο,False
+dsc:3.112,Tussilago farfara,high,βήχιον,βηχιο,True
+dsc:3.117,Achillea maritima,medium,γναφαλλίου,αχιλλεια; παραλιοσ,False
+dsc:3.121,Dittrichia viscosa,medium,κόνυζα,ακονυζια,True
+dsc:3.127,Orchis italica,low,ὄρχις ἕτερος,σεραπιασ,False
+dsc:3.128,Orchis anthropophora,low,σατύριον,σατυριον,True
+dsc:3.134,Asplenium ceterach,high,ἄσπληνος,ασπληνιο; κητεραχιο,True
+dsc:3.137,Matricaria chamomilla,medium,ἀνθεμίς,ματρικαρια; περιτμημενη,False
+dsc:3.143,Rubia tinctorum,high,ἐρυθρόδανον ἐρευθέδανον,βαφικο; ερυθροδανο; ριζαρι,True
+dsc:3.145,Polystichum lonchitis,low,λογχῖτις ἑτέρα τραχεῖα,λογχιτισ,True
+dsc:3.148,Cannabis sativa,high,κάνναβις,ημερη; κανναβη,True
+dsc:4.2,Rumex aquaticus,low,βρεττανική,ιππολαπαθον,False
+dsc:4.4,Polygonum aviculare,high,πολύγονον ἄρρεν,αρρεν; κυνοχαλκη; πολυγονον,True
+dsc:4.10,Symphytum officinale,medium,σύμφυτον ἄλλο,αλλο; συμφυτον,True
+dsc:4.12,Sarcopoterium spinosum,medium,στοιβῆς ὁ καρπὸς,ακανθωδεσ; σαρκοποτηριο,False
+dsc:4.13,Lathyrus clymenum,low,κλύμενον,κλυμενον; λαθυροσ,True
+dsc:4.14,Lonicera etrusca,medium,περικλύμενον,περικλυμενον,True
+dsc:4.17,Trifolium arvense,medium,λαγώπουν,λαγωπουν,True
+dsc:4.23,Alkanna tinctoria,high,ἄγχουσα,αγχουσα; αλκανα; βαφικη,True
+dsc:4.28,Silene gallica,low,ὠκιμοειδές,ωκιμοειδεσ,True
+dsc:4.29,Cynodon dactylon,medium,ἄγρωστις,αγριαδα; αγρωστισ,True
+dsc:4.31,Parnassia palustris,low,ἡ δὲ ἐν τῷ Παρνασσῷ ἄγρωστις γεννωμένη πολυκλαδωτέρα ἐστί,αγρωστισ; ελοχαρησ; παρνασσια; παρνασσω,True
+dsc:4.38,Rubus idaeus,high,βάτος Ἰδαία,βατοσ; ιδαια; σμεουρο,True
+dsc:4.41,Agrimonia eupatoria,high,Εὐπατόριος,αγριμονια; αργεμωνη; ετερα,False
+dsc:4.45,Rhodiola rosea,high,Ῥοδία ῥίζα,ροδιολα; ροδοχρουσ,True
+dsc:4.56,Bongardia chrysogonum,medium,χρυσόγονον,χρυσογονον,True
+dsc:4.62,Hyacinthus orientalis,low,ὑάκινθος,ζουμπουλι; υακινθοσ,True
+dsc:4.63,Papaver rhoeas,high,μήκων ῥοιάς,μηκων; ροιασ,True
+dsc:4.64,Papaver somniferum,high,μήκων,μηκων; υπνοφοροσ,True
+dsc:4.65,Glaucium flavum,high,μήκων κερατῖτις,γλαυκιο; κιτρινο,False
+dsc:4.70,Solanum nigrum,high,στρύχνον κηπαῖον,αγριοντοματια; κηπαιον; μαυροχορτο; στιφνοσ; στρυχνον; στυφνοσ,True
+dsc:4.72,Withania somnifera,high,στρύχνον ὑπνωτικόν,στρυχνον; υπνωτικον,True
+dsc:4.73,Atropa belladonna,low,στρύχνον μανικόν,ιπποφλομοσ; μπελαντονα,False
+dsc:4.75,Mandragora officinarum,high,μανδραγόρας,μανδραγορασ,True
+dsc:4.78,Conium maculatum,high,κώνειον,κωνειον; στικτον,True
+dsc:4.79,Taxus baccata,high,σμῖλαξ,ιταμοσ; μιλοσ,True
+dsc:4.81,Nerium oleander,high,ν ήριον,πικροδαφνη,True
+dsc:4.84,Convallaria majalis,low,ἐφήμερον,μιγκε,False
+dsc:4.85,Parietaria officinalis,medium,ἑλξίνη,ελξινη,True
+dsc:4.102,Achillea millefolium,medium,στρατιώτης ὁ χιλιόφυλλος,αγριαψιθια,False
+dsc:4.112,Medicago arborea,medium,κύτισος,κυτισοσ; τηλινη,True
+dsc:4.121,Viola odorata,high,ἴον,ευοσμον; ιον,True
+dsc:4.129,Ruscus hypoglossum,medium,ὑπόγλωσσον,ρουσκοσ; υπογλωσσοσ,True
+dsc:4.134,Adiantum capillus-veneris,high,ἀδίαντον,αδιαντο; αδιαντον; πολυτριχον,True
+dsc:5.1,Vitis vinifera,high,ἀμπέλου οἰνοφόρου τὰ,αμπελοσ; αμπελωνασ; οινοφοροσ,True
+dsc:5.2,Vitis vinifera,medium,ἄμπελος ἀγρία διττή,αμπελοσ; αμπελωνασ; οινοφοροσ,True
+dsc:5.3,Vitis vinifera,high,σταφυλή᾿ ἡ μὲν,αμπελοσ; αμπελωνασ; οινοφοροσ,False
+dsc:5.4,Vitis vinifera,high,ο ἰνάνθη καλεῖται,αμπελοσ; αμπελωνασ; οινοφοροσ,False
+dsc:5.5,Vitis vinifera,high,ὀμφάκιον,αμπελοσ; αμπελωνασ; οινοφοροσ,False
+dsc:5.6,Vitis vinifera,high,οἶνοι,αμπελοσ; αμπελωνασ; οινοφοροσ,True
+dsc:5.13,Vitis vinifera,high,ὄξος ψύχει καὶ,αμπελοσ; αμπελωνασ; οινοφοροσ,False
+dsc:5.16,Thymbra capitata,medium,θυμοξάλμῃ ἐχρῶντο οἱ,θυμον,True
+dsc:5.17,Drimia maritima,high,τὸ δὲ σκιλλητικὸν,αγιοβασιλιτσα; ασκυλα; σκυλοκρομυδα,False
+dsc:5.18,Drimia maritima,high,ὁ δὲ ἀπὸ τῆς σκίλλης ρἶνος γίνεται οὕτω,αγιοβασιλιτσα; ασκυλα; σκυλοκρομυδα,False
+dsc:5.20,Cydonia oblonga,high,ὁ μὲν οὖν κυδωνί ίτης,κυδωνια,True
+dsc:5.21,Cydonia oblonga,high,καὶ μηλόμελι δέ,κυδωνια,False
+dsc:5.22,Cydonia oblonga,high,ὑδρόμηλον δὲ σκευάζεται,κυδωνια,False
+dsc:5.23,Vitis vinifera,high,ὀ μφακόμελι δὲ σκευάζεται τὸν τρόπον τοῦτον,αμπελοσ; αμπελωνασ; οινοφοροσ,False
+dsc:5.24,Pyrus communis,high,ἀπίτης σκευάζεται ὁμοίως,αμπουρτζια; αχλαδια; ογχνη,False
+dsc:5.25,Vitis vinifera,medium,ρἰνάνθινος δὲ σκευάζεται οὕτως,αμπελοσ; αμπελωνασ; οινοφοροσ,False
+dsc:5.26,Punica granatum,high,ῥοίτης δὲ οἶνος σκευάζεται οὕτως,ροδια,False
+dsc:5.28,Myrtus communis,high,μυρτίτην δὲ δεῖ,μυρσινη,False
+dsc:5.29,Myrtus communis,high,μυρσινίης δὲ σκευάζεται οὕτω,μυρσινη,True
+dsc:5.30,Pistacia lentiscus,high,καὶ ὁ σχίνινος δὲ ἐοικότως τῷ μυρσινίτῃ σκευάζεται,σκινοσ; σχινοσ,True
+dsc:5.31,Phoenix dactylifera,high,φοινικίτης,χουρμαδια,False
+dsc:5.32,Ficus carica,high,καὶ ὁ τροχίτης,συκεα; συκια,False
+dsc:5.33,Ficus sycomorus,high,σκευάζεται καὶ ὁ,συκομουρια,False
+dsc:5.35,Pinus pinea,medium,στροβιλίτης δὲ σκευάζεται,κουκουναρια,False
+dsc:5.36,Juniperus oxycedrus,medium,ὁ δὲ κέδρινος,αρκευθοσ; οξυκεδροσ,True
+dsc:5.37,Cedrus libani,medium,κεδρίτης δὲ γίνεται οὕτω,κεδροσ; λιβανου; του,True
+dsc:5.39,Artemisia absinthium,high,ἀψινθίτης δὲ ποικίλως σκευάζεται,αρτεμισια; αψινθιον,True
+dsc:5.40,Hyssopus officinalis,medium,ὑσσωπίτης δὲ ὁ,υσσωποσ; φαρμακευτικοσ,True
+dsc:5.41,Teucrium chamaedrys,high,καὶ ὁ χαμαιδρυίτης,χαμαιδρυσ,True
+dsc:5.47,Origanum dictamnus,high,δικταμνίτης,δικταμι; δικταμνον; δικταμνοσ; δικταμο; δικταμοσ; ερωντασ; μαλλιαροχορτο; στομαχοχορτο,True
+dsc:5.48,Marrubium vulgare,high,ὁ διὰ πρασίου,κοινο; μαρρουβιο,False
+dsc:5.49,Thymbra capitata,medium,θυμίτης,θυμον,False
+dsc:5.51,Origanum vulgare,medium,οἶνος ὀριγανίτης διʼ,κοινον; οριγανον; ριγανη,True
+dsc:5.53,Dittrichia viscosa,medium,οἶνος κονυζίτης ὁμοίως σκευάζεται,ακονυζια,True
+dsc:5.61,Salvia fruticosa,medium,ἐλελισφακίτης ὁμοίως,ελληνικο; φασκομηλο,False
+dsc:5.64,Apium graveolens,high,σελινίτης,νεροσελινο; ραπανοσελινο; σελινο,True
+dsc:5.65,Foeniculum vulgare,high,καὶ μαραθίτης δὲ,μαραθο; μαραθοσ; μαραθρο; φοινικουλον,True
+dsc:5.68,Daphne gnidium,high,θυμελαίτης,γνιδιοσ; δαφνη,False
+dsc:5.71,Mandragora officinarum,high,μανδραγορίτης,μανδραγορασ,True
+dsc:5.72,Helleborus odorus,medium,ἐλλεβορίτης,ελλεβοροσ; ευοσμοσ,True
+dsc:5.114,Vitis vinifera,high,τρύγα δὲ παραλημπτέον,αμπελοσ; αμπελωνασ; οινοφοροσ,False
+dsc:5.117,Vitis vinifera,high,τέφρα κληματίνη δύναμιν,αμπελοσ; αμπελωνασ; οινοφοροσ,False
+dsc:1.68,Boswellia sacra,high,λίβανος,λιβανοσ,True
+dsc:1.69,Pinus halepensis,medium,πίτυς,παραλια; πευκη; χαλεπιοσ,False
+dsc:1.70,Pistacia lentiscus,high,σχῖνος,σκινοσ; σχινοσ,True
+dsc:1.71,Pistacia terebinthus,high,τέρμινθος,κοκκορεβυθια; τερεβινθοσ; τραμιθια; τριμιθια,True
+dsc:1.74,Cupressus sempervirens,high,κυπάρισσος,αειθαλησ; κυπαρισσι; κυπαρισσοσ; μεσογειακο,True
+dsc:1.75,Juniperus oxycedrus,medium,ἄρκευθος,αρκευθοσ; οξυκεδροσ,True
+dsc:1.77,Cedrus libani,medium,κέδρος,κεδροσ; λιβανου; του,True
+dsc:1.78,Laurus nobilis,high,δάφνη,βαγια; δαφνη; δαφνολια; φυλλαδα,True
+dsc:1.79,Platanus orientalis,high,πλάτανος,ανατολικοσ; πλατανοσ,True
+dsc:1.80,Fraxinus ornus,medium,μελία,μελια; ορνοσ; φραξινοσ,True
+dsc:1.81,Populus alba,high,λεύκη,αχερωισ; λευκη; λυγδη,True
+dsc:1.83,Populus nigra,high,αἴγειρος,αιγειροσ,True
+dsc:1.85,Phragmites australis,medium,κάλαμος,καλαμι; καλαμια,True
+dsc:1.86,Cyperus papyrus,high,πάπυρος,παπυροσ,True
+dsc:1.88,Erica arborea,medium,ἐρείκη,δενδρωδησ; ερεικη,True
+dsc:1.93,Crataegus monogyna,medium,ὀξυάκανθα,κραταιγοσ; μονογυνοσ,False
+dsc:1.94,Rosa canina,medium,κυνόσβατος,αγριοτριανταφυλλια; κυνοροδο,True
+dsc:1.97,Cistus creticus,medium,κίσθος,ξισταρκα,False
+dsc:1.102,Olea europaea,high,ἀμόργη,ελαια; ελαιοδεντρο; ελια; ελιεσ,False
+dsc:1.103,Vitex agnus-castus,high,ἄγνος,αγνοσ; λυγαρια,True
+dsc:1.104,Salix alba,medium,ἰτέα,ιτεα; ιτια; λευκη,True
+dsc:1.105,Olea europaea,high,ἀγριελαία,ελαια; ελαιοδεντρο; ελια; ελιεσ,True
+dsc:1.107,Quercus infectoria,medium,κηκίς,βαφικη; δρυσ,False
+dsc:1.108,Rhus coriaria,high,ῥοῦς,βυρσοδεψικοσ; ρουσ,True
+dsc:1.109,Phoenix dactylifera,high,φοῖνιξ,χουρμαδια,False
+dsc:1.110,Punica granatum,high,ῥόα,ροδια,True
+dsc:1.111,Punica granatum,high,βαλαύστιον,ροδια,False
+dsc:1.112,Myrtus communis,high,μυρσίνη,μυρσινη,True
+dsc:1.113,Prunus avium,medium,κεράσια,κερασια,True
+dsc:1.114,Ceratonia siliqua,high,κεράτια,ελλοβοσ; κερατεα; κερωνια; χαρουπι; χαρουπια,True
+dsc:1.116,Pyrus communis,high,ἄπιος,αμπουρτζια; αχλαδια; ογχνη,False
+dsc:1.117,Celtis australis,medium,λωτός,κελτισ; νοτιοσ,False
+dsc:1.119,Cornus mas,high,κρανία,κρανα; κρανεια; κρανια; κρανον,True
+dsc:1.121,Prunus domestica,high,κοκκυμηλέα,δαμασκηνο,False
+dsc:1.124,Pistacia vera,high,πιστάκια,φιστικια; φυστικια,True
+dsc:1.125,Juglans regia,high,κάρυα βασιλικά,καρυα; καρυδια; περσικη,True
+dsc:1.127,Ficus sycomorus,high,συκόμορον,συκομουρια,True
+dsc:1.128,Ficus carica,high,σῦκα,συκεα; συκια,True
+dsc:2.106,Nelumbo nucifera,high,κύαμος Αἰγύπτιος,ινδικοσ; λωτοσ,False
+dsc:2.108,Vicia ervilia,high,ὄροβος,βικοσ; πικροσ,False
+dsc:2.109,Lupinus albus,high,θέρμος,θερμοσ,True
+dsc:2.110,Brassica rapa,high,γογγύλη,γογγυλη; κινεζικο; λαχανο,True
+dsc:2.111,Brassica napus,medium,βουνιάς,ελαιοκραμβη,False
+dsc:2.112,Raphanus sativus,high,ῥαφανίς,ραδιξ; ραφανισ; ραφανοσ; ρεπανι,True
+dsc:2.117,Amaranthus blitum,medium,βλίτον,βλιτο,True
+dsc:2.118,Malva sylvestris,medium,μολόχη,αγρια; μαλαχη; μαλβα; μολοχα,True
+dsc:2.119,Atriplex hortensis,high,ἀνδράφαξυς,αγριοσπανακι,False
+dsc:2.123,Beta vulgaris,high,σεῦτλον,παντζαρι,False
+dsc:2.124,Portulaca oleracea,high,ἀνδράχνη,ανδρακλα; ανδραχλη; αντρακλα; αντραχλιδα; γλιστριδα; γλυστιριδα; γλυστριδα; λαχανηρα; ολισθηρισ; πορτουλακη; σκλιμιτσα; τρευλο; χοιροβοτανο,True
+dsc:2.128,Nasturtium officinale,high,σισύμβριον,νεροκαρδαμο,False
+dsc:2.129,Crithmum maritimum,high,κρῆθμον,κριταμοσ,False
+dsc:2.131,Sonchus oleraceus,high,σόγχος,ζοχια; ζοχοσ,True
+dsc:2.132,Cichorium endivia,medium,σέρις,αντιδι,False
+dsc:2.135,Cucumis melo,medium,σίκυς ἥμερος,μηλοπεπων; πεπονι; πεπονια,False
+dsc:2.136,Lactuca sativa,high,θρίδαξ ἥμερος,μαρουλι,False
+dsc:2.139,Tordylium apulum,low,καυκαλίς,καυκαληθρα; καυκαλιδα; καυκαλιθρα; τορδυλιον; φαρμακευτικο,True
+dsc:2.141,Ocimum basilicum,high,ὤκιμον,βασιλικον; βασιλικοσ; ωκιμον,True
+dsc:2.146,Vigna unguiculata,medium,σμῖλαξ κηπαία,αμπελοφασουλο; φασηλοσ,False
+dsc:2.150,Allium ampeloprasum,high,ἀμπελόπρασον,αγριο; αλλιον; αμπελοπρασο; αμπελοπρασον; πρασο,True
+dsc:2.151,Allium cepa,high,κρόμυον,αλλιον; κοινο; κρεμμυδι; κρομμυον,True
+dsc:2.152,Allium sativum,high,σκόροδον,αλλιον; ημερον; σκορδο; σκορδον; σκοροδον,True
+dsc:2.155,Lepidium sativum,high,κάρδαμον,καρδαμο,True
+dsc:2.159,Piper nigrum,high,πέπερι,μελαν; πεπερι,True
+dsc:2.160,Zingiber officinale,high,ζιγγίβερι,πιπεροριζα; τζιντζερ,False
+dsc:2.161,Persicaria hydropiper,high,ὑδροπέπερι,υδροπεπερι,True
+dsc:2.166,Dracunculus vulgaris,medium,δρακόντιον,δρακοντια,True
+dsc:2.167,Arum italicum,medium,ἄρον,αρο; αρον; δρακοντια; ιταλικο; ιταλικον; του,True
+dsc:2.168,Arisarum vulgare,high,ἀρίσαρον,αρισαρον; κοινο,True
+dsc:2.169,Asphodelus ramosus,medium,ἀσφόδελος,ασφοδελοσ; πολυκλαδοσ,True
+dsc:2.170,Muscari comosum,medium,βολβὸς ἐδώδιμος,καλογηρια,False
+dsc:2.171,Drimia maritima,high,σκίλλα,αγιοβασιλιτσα; ασκυλα; σκυλοκρομυδα,False
+dsc:2.172,Pancratium maritimum,medium,παγκράτιον,θαλασσασ; κρινοσ; τησ,False
+dsc:2.173,Capparis spinosa,high,κάππαρις,ακανθωδησ; καπαρη; καππαρισ,True
+dsc:2.176,Anemone coronaria,medium,ἀνεμώνη,ανεμωνη; στεφανωματικη,True
+dsc:2.179,Hedera helix,high,κισσός,ελιξ; χεδερα,False
+dsc:2.180,Chelidonium majus,high,χελιδόνιον μέγα,δοντοχορτο; μεγα; χελιδονιον; χελιδονοχορτο,True
+dsc:2.181,Ficaria verna,high,χελιδόνιον μικρόν,εαρινη; συκορριζα,False
+dsc:4.135,Asplenium trichomanes,high,τριχομανές,τριχομανεσ,True
+dsc:4.140,Osyris alba,high,ὄσυρις,λευκη; οσυρισ,True
+dsc:4.142,Smilax aspera,high,σμῖλαξ τραχεῖα,σμιλαξ; τραχεια,True
+dsc:4.144,Ruscus aculeatus,high,μυρσίνη ἀγρία,λαγομηλια,False
+dsc:4.148,Veratrum album,high,ἐλλέβορος λευκός,βερατρον; λευκον,True
+dsc:4.150,Ecballium elaterium,high,σίκυς ἄγριος,πικραγγουρια,False
+dsc:4.154,Spartium junceum,high,σπαρτίον,σπαρτο,True
+dsc:4.155,Silybum marianum,high,σίλλυβον,γαιδουραγκαθο,False
+dsc:4.157,Moringa peregrina,medium,βάλανος μυρεψική,δελφινιον; ετερον,False
+dsc:4.158,Narcissus poeticus,medium,νάρκισσος,ναρκισσοσ; ποιητικοσ,True
+dsc:4.160,Centaurea spinosa,low,ἱππόφαιστον,ακανθωδησ; κενταυρια,False
+dsc:4.161,Ricinus communis,high,κίκι,ρικινοσ,False
+dsc:4.162,Helleborus odorus,medium,ἐλλέβορος μέλας,ελλεβοροσ; ευοσμοσ,True
+dsc:4.172,Daphne gnidium,high,θυμελαία,γνιδιοσ; δαφνη,False
+dsc:4.173,Sambucus nigra,high,ἀκτῆ,σαμπουκοσ,False
+dsc:4.180,Clematis vitalba,medium,κληματίς,κληματιτισ,True
+dsc:4.181,Dioscorea communis,medium,ἄμπελος ἀγρία,αβρωνια; βρυωνια; διοσκορεα; κοινη,False
+dsc:4.182,Bryonia cretica,medium,ἄμπελος λευκή,αμπελοσ; λευκη,True
+dsc:4.189,Mercurialis annua,high,λινόζωστις,μερκουριαλισ; μονοετησ,False

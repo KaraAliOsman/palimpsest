@@ -1,0 +1,508 @@
+monograph_id,concept_id,polarity,evidence,annotator_note
+cul:005-agrimony,gout,therapeutic,therefore must needs be good for the gout,inferred astrologically (Jupiter/Cancer) but stated as indication
+cul:005-agrimony,liver_disease,therapeutic,It opens and cleanses the liver,also 'admirable remedy for such whose livers are annoyed'
+cul:005-agrimony,jaundice,therapeutic,helps the jaundice,
+cul:005-agrimony,wounds,therapeutic,"healing all inward wounds, bruises, hurts, and other distempers",inward wounds
+cul:005-agrimony,bruises,therapeutic,"healing all inward wounds, bruises, hurts, and other distempers",
+cul:005-agrimony,envenomation,therapeutic,is good against the biting and stinging of serpents,
+cul:005-agrimony,kidney_disease,therapeutic,"helps them that make foul, troubled or bloody water",foul/bloody urine (haematuria); no haematuria concept
+cul:005-agrimony,colic,therapeutic,This herb also helps the cholic,
+cul:005-agrimony,cough,therapeutic,"cleanses the breast, and rids away the cough",
+cul:005-agrimony,malaria,therapeutic,rids away the tertian or quartan agues,tertian/quartan agues
+cul:005-agrimony,dysentery,therapeutic,"The leaves and seeds taken in wine, stays the bloody flux",
+cul:005-agrimony,skin_ulcers,therapeutic,"it helps old sores, cancers, and inveterate ulcers",
+cul:005-agrimony,cancer,therapeutic,"it helps old sores, cancers, and inveterate ulcers",'cancers' among sores: probably ulcerating lesions (early modern sense)
+cul:005-agrimony,ear_disease,therapeutic,helps foul and imposthumed ears,
+cul:005-agrimony,abscess,therapeutic,helps foul and imposthumed ears,imposthume located in the ear (also ear_disease)
+cul:005-agrimony,NONE,therapeutic,draws forth thorns and splinters of wood,extraction of splinters/thorns; dislocations ('members that be out of joint'): no concept
+cul:013-anemone,amenorrhea,action,The leaves provoke the terms mightily,
+cul:013-anemone,scaly_skin,therapeutic,"The body being bathed with the decoction of them, cures the leprosy","leprosy = lepra (scaly skin), not necessarily Hansen's disease"
+cul:013-anemone,delirium,therapeutic,is therefore excellent for the lethargy,"lethargy, by purging phlegm from the head"
+cul:013-anemone,conjunctivitis,therapeutic,it helps inflammations of the eyes,ointment on eyelids
+cul:013-anemone,skin_ulcers,therapeutic,cleanse malignant and corroding ulcers,
+cul:013-anemone,NONE,action,purges the head mightily,"errhine/masticatory: 'procures much spitting', purges phlegm from the head"
+cul:017-arssmart,skin_ulcers,therapeutic,very effectual for putrified ulcers in man or beast,
+cul:017-arssmart,bruises,therapeutic,"dissolveth the congealed blood of bruises by strokes, falls",
+cul:017-arssmart,inflammation,therapeutic,good against all imposthumes and inflammations at the beginning,mild Arssmart
+cul:017-arssmart,abscess,therapeutic,"laid to the joint that has a felon thereon, takes it away",felon (whitlow); also imposthumes
+cul:017-arssmart,toothache,therapeutic,"held to an aching tooth, takes away the pain",
+cul:017-arssmart,wounds,therapeutic,to heal green wounds,
+cul:017-arssmart,lice,action,it will soon kill all the fleas,"strewn in a chamber: insecticide against fleas, not applied to the body"
+cul:017-arssmart,NONE,therapeutic,The juice destroys worms in the ears,"worms in ears and in putrified ulcers = maggots, not intestinal helminths; 'consumes all colds, swellings' ambiguous; veterinary uses skipped"
+cul:026-garden-bazil-or-sweet-bazil,envenomation,therapeutic,"applied to the place bitten by venomous beasts, or stung by a wasp",draws the poison out
+cul:026-garden-bazil-or-sweet-bazil,labor,action,It expels both birth and after-birth,expels fetus and placenta; could also be read as abortifacient
+cul:026-garden-bazil-or-sweet-bazil,sexual_function,therapeutic,it helps the deficiency of Venus in one kind,ambiguous astrological phrasing; read as aiding venery/generation
+cul:026-garden-bazil-or-sweet-bazil,sexual_function,adverse,so it spoils all her actions in another,ambiguous; read as harming venery/generation
+cul:026-garden-bazil-or-sweet-bazil,NONE,adverse,Galen and Dioscorides hold it not fit to be taken inwardly,general toxicity warning ('virulent quality'); scorpion-in-brain folklore
+cul:053-bugle,bruises,therapeutic,dissolves the congealed blood in those that are bruised inwardly by a fall,
+cul:053-bugle,wounds,therapeutic,"very effectual for any inward wounds, thrusts, or stabs in the body",also wound-drinks
+cul:053-bugle,liver_disease,therapeutic,for those that are liver-grown (as they call it.),'liver-grown': folk term for enlarged/adherent liver
+cul:053-bugle,skin_ulcers,therapeutic,It is wonderful in curing all manner of ulcers and sores,"also gangrenes, fistulas, ulcers of the secret parts"
+cul:053-bugle,mouth_gums,therapeutic,cures all sores in the mouth and gums,
+cul:053-bugle,delirium,therapeutic,"troubled with strange fancies, strange sights in the night time",hallucinations and nightmare (Ephialtes) in heavy drinkers; could also be intoxication
+cul:053-bugle,NONE,therapeutic,helps those that have broken any bone,fractures and dislocations: no concept
+cul:060-camomile,pain,therapeutic,"eases pains, to what part of the body soever they be applied","also 'pains and stitches in the side' (possibly pleuritic, not mapped)"
+cul:060-camomile,fever,therapeutic,It is profitable for all sorts of agues,
+cul:060-camomile,spleen_disease,therapeutic,to be excellent for the spleen,"per Bachinus, Bena, Lobel"
+cul:060-camomile,liver_disease,therapeutic,nothing more profitable to the sides and region of the liver and spleen,
+cul:060-camomile,bruises,therapeutic,It comforts the sinews that are over-strained,strained sinews (sprain)
+cul:060-camomile,inflammation,therapeutic,mollifies all swellings,
+cul:060-camomile,cancer,therapeutic,much used against all hard swellings,hard swellings (scirrhus) per concept label 'hard tumours'; low confidence
+cul:060-camomile,colic,therapeutic,It eases all pains of the cholic and stone,also torments of the belly
+cul:060-camomile,urolithiasis,therapeutic,it most wonderfully breaks the stone,
+cul:060-camomile,diuresis,action,gently provokes urine,
+cul:060-camomile,common_cold,therapeutic,"helps to expel all colds, aches, and pains whatsoever",
+cul:060-camomile,amenorrhea,action,an excellent help to bring down women’s courses,
+cul:060-camomile,jaundice,therapeutic,a remedy against the jaundice and dropsy,
+cul:060-camomile,edema_dropsy,therapeutic,a remedy against the jaundice and dropsy,
+cul:060-camomile,convulsions,therapeutic,"shrinking of the sinews, or cramps",
+cul:060-camomile,joint_pain,therapeutic,or pains in the joints,
+cul:060-camomile,flatulence,therapeutic,it helps to dissolve the wind and pains in the belly,in clysters
+cul:060-camomile,NONE,action,The flowers boiled in posset-drink provokes sweat,diaphoretic: no concept
+cul:063-carduus-benedictus,vertigo,therapeutic,"helps swimming and giddiness of the head, or the disease called vertigo",
+cul:063-carduus-benedictus,jaundice,therapeutic,an excellent remedy against the yellow jaundice,also 'other infirmities of the gall'
+cul:063-carduus-benedictus,skin_blemishes,therapeutic,"helps red faces, tetters, and ring-worms",red faces
+cul:063-carduus-benedictus,dermatitis,therapeutic,"helps red faces, tetters, and ring-worms",tetters
+cul:063-carduus-benedictus,tinea,therapeutic,"helps red faces, tetters, and ring-worms",ring-worms
+cul:063-carduus-benedictus,plague,therapeutic,"It helps the plague, sores, boils, and itch",
+cul:063-carduus-benedictus,skin_ulcers,therapeutic,"It helps the plague, sores, boils, and itch",sores
+cul:063-carduus-benedictus,abscess,therapeutic,"It helps the plague, sores, boils, and itch",boils
+cul:063-carduus-benedictus,itch_scabies,therapeutic,"It helps the plague, sores, boils, and itch",
+cul:063-carduus-benedictus,rabies,therapeutic,the bitings of mad dogs and venomous beasts,
+cul:063-carduus-benedictus,envenomation,therapeutic,the bitings of mad dogs and venomous beasts,
+cul:063-carduus-benedictus,syphilis,therapeutic,it cures the French pox,
+cul:063-carduus-benedictus,memory,therapeutic,it strengthens the memory,
+cul:063-carduus-benedictus,ear_disease,therapeutic,cures deafness,deafness
+cul:063-carduus-benedictus,malaria,therapeutic,It cures quartan agues,
+cul:063-carduus-benedictus,melancholy,therapeutic,other diseases of melancholy,
+cul:063-carduus-benedictus,diuresis,action,Also provokes urine,
+cul:067-the-lesser-celandine-usually-known-by-th,hemorrhoids,therapeutic,wonderfully helps piles and hæmorrhoids,doctrine of signatures
+cul:067-the-lesser-celandine-usually-known-by-th,scrofula,therapeutic,"kernels by the ears and throat, called the king’s evil",
+cul:067-the-lesser-celandine-usually-known-by-th,cancer,therapeutic,or any other hard wens or tumours,hard wens/tumours per concept label; low confidence
+cul:073-chesnut-tree,headache,adverse,procure head ache,if eaten over-much
+cul:073-chesnut-tree,constipation,adverse,"procure head ache, and bind the body",binds the body (costiveness) if eaten over-much
+cul:073-chesnut-tree,diarrhea,therapeutic,soon stops any flux whatsoever,
+cul:073-chesnut-tree,menorrhagia,therapeutic,a good remedy to stop the terms in women,
+cul:073-chesnut-tree,cough,therapeutic,an admirable remedy for the cough and spitting of blood,
+cul:073-chesnut-tree,hemoptysis,therapeutic,an admirable remedy for the cough and spitting of blood,
+cul:077-five-fingered-grass,fever,therapeutic,you shall very seldom miss the cure of an ague,"any ague, in three fits"
+cul:077-five-fingered-grass,inflammation,therapeutic,an especial herb used in all inflammations and fevers,
+cul:077-five-fingered-grass,plague,therapeutic,"fevers, whether infectious or pestilential",pestilential fevers; low confidence
+cul:077-five-fingered-grass,mouth_gums,therapeutic,"for sore mouths, ulcers, cancers, fistulas",
+cul:077-five-fingered-grass,skin_ulcers,therapeutic,"for sore mouths, ulcers, cancers, fistulas",also running sores
+cul:077-five-fingered-grass,cancer,therapeutic,"for sore mouths, ulcers, cancers, fistulas",'cancers' among sores: probably ulcerating lesions
+cul:077-five-fingered-grass,sore_throat,therapeutic,cures the quinsey and yellow jaundice,quinsy; also hoarseness of the throat
+cul:077-five-fingered-grass,jaundice,therapeutic,cures the quinsey and yellow jaundice,
+cul:077-five-fingered-grass,epilepsy,therapeutic,cures the falling sickness,
+cul:077-five-fingered-grass,dysentery,therapeutic,"whether the white or red, as also the bloody flux",
+cul:077-five-fingered-grass,leukorrhea,therapeutic,"all fluxes in man or woman, whether the white or red","white flux; ambiguous (whites in women, seminal/gonorrhoeal in men)"
+cul:077-five-fingered-grass,menorrhagia,therapeutic,"all fluxes in man or woman, whether the white or red",red flux of women; ambiguous
+cul:077-five-fingered-grass,toothache,therapeutic,eases the pains of the toothach,
+cul:077-five-fingered-grass,cough,therapeutic,is very good for the cough of the lungs,
+cul:077-five-fingered-grass,paralysis,therapeutic,"it will in a short time help the palsy, or shaking in them",palsy/tremor of hands
+cul:077-five-fingered-grass,erysipelas,therapeutic,"as also inflammations, and St. Anthony’s fire, all imposthumes",
+cul:077-five-fingered-grass,abscess,therapeutic,"as also inflammations, and St. Anthony’s fire, all imposthumes",
+cul:077-five-fingered-grass,itch_scabies,therapeutic,"running and foul scabs, sores and itch",
+cul:077-five-fingered-grass,joint_pain,therapeutic,"applied to any joint full of pain, ache",
+cul:077-five-fingered-grass,gout,therapeutic,or the gout in the hands or feet,
+cul:077-five-fingered-grass,sciatica,therapeutic,"the hip gout, called the Sciatica",
+cul:077-five-fingered-grass,colic,therapeutic,eases much pain in the bowels,pain in the bowels
+cul:077-five-fingered-grass,bruises,therapeutic,"bruises or hurts by blows, falls",
+cul:077-five-fingered-grass,hemorrhage,therapeutic,to stay the bleeding of wounds in any parts inward or outward,
+cul:077-five-fingered-grass,malaria,therapeutic,"three a tertain, and four a quartan ague","reported ('Some hold'); Culpeper mocks the leaf-count, not the cure"
+cul:077-five-fingered-grass,NONE,therapeutic,the shingles also,shingles (herpes zoster); ruptures; knots/kernels/hard swellings: no concept
+cul:103-devils-bit,plague,therapeutic,is very powerful against the plague,
+cul:103-devils-bit,fever,therapeutic,all pestilential diseases or fevers,
+cul:103-devils-bit,poisoning,therapeutic,"all pestilential diseases or fevers, poisons also",
+cul:103-devils-bit,envenomation,therapeutic,the bitings of venemous beasts,
+cul:103-devils-bit,bruises,therapeutic,takes away the black and blue marks that remain in the skin,"also inward bruises, falls, blows"
+cul:103-devils-bit,sore_throat,therapeutic,inveterate tumours and swellings of the almonds and throat,almonds = tonsils; gargle
+cul:103-devils-bit,amenorrhea,action,It helps also to procure women’s courses,
+cul:103-devils-bit,uterine_disorders,therapeutic,eases all pains of the mother,
+cul:103-devils-bit,flatulence,therapeutic,"to break and discuss wind therein, and in the bowels",
+cul:103-devils-bit,helminthiasis,therapeutic,drives forth the worms in the body,
+cul:103-devils-bit,wounds,therapeutic,"is effectual for green wounds, or old sores",
+cul:103-devils-bit,skin_ulcers,therapeutic,"is effectual for green wounds, or old sores",
+cul:103-devils-bit,dermatitis,therapeutic,"from sores, scurf, itch, pimples, freckles, morphew",scurf
+cul:103-devils-bit,itch_scabies,therapeutic,"from sores, scurf, itch, pimples, freckles, morphew",
+cul:103-devils-bit,skin_blemishes,therapeutic,"from sores, scurf, itch, pimples, freckles, morphew",
+cul:104-dock,liver_disease,therapeutic,Blood-wort is exceeding strengthening to the liver,hepatic tonic
+cul:104-dock,diarrhea,therapeutic,do stay lasks and fluxes of all sorts,
+cul:104-dock,nausea_vomiting,therapeutic,the loathing of the stomach through choler,loathing = nausea; could be appetite_loss
+cul:104-dock,hemoptysis,therapeutic,is helpful for those that spit blood,
+cul:104-dock,itch_scabies,therapeutic,"help the itch, scabs, and breaking out of the skin",
+cul:104-dock,skin_blemishes,therapeutic,"cleanses the skin from freckles, morphews",
+cul:115-elecampane,flatulence,therapeutic,very effectual to warm a cold windy stomach,
+cul:115-elecampane,dyspepsia,therapeutic,"warm a cold windy stomach, or the pricking therein","cold stomach, pricking pains"
+cul:115-elecampane,spleen_disease,therapeutic,stiches in the sides caused by the spleen,
+cul:115-elecampane,cough,therapeutic,"to help the cough, shortness of breath, and wheezing in the lungs",
+cul:115-elecampane,asthma_dyspnea,therapeutic,"to help the cough, shortness of breath, and wheezing in the lungs",
+cul:115-elecampane,diuresis,therapeutic,profitable for those who have their urine stopped,treats urine retention
+cul:115-elecampane,amenorrhea,therapeutic,the stopping of women’s courses,treats suppressed menses
+cul:115-elecampane,uterine_disorders,therapeutic,the pains of the mother,
+cul:115-elecampane,urolithiasis,therapeutic,"the stone in the reins, kidneys, or bladder",
+cul:115-elecampane,poisoning,therapeutic,it resists poison,
+cul:115-elecampane,envenomation,therapeutic,stays the spreading of the venom of serpents,
+cul:115-elecampane,fever,therapeutic,as also putrid and pestilential fevers,
+cul:115-elecampane,plague,therapeutic,and the plague itself,
+cul:115-elecampane,eye_disease,therapeutic,quickens the sight of the eyes wonderfully,
+cul:115-elecampane,helminthiasis,therapeutic,kills and drives forth all manner of worms in the belly,
+cul:115-elecampane,mouth_gums,therapeutic,"fastens loose teeth, and helps to keep them from putrefaction",loose teeth; decay
+cul:115-elecampane,hemoptysis,therapeutic,being drank is good for those that spit blood,
+cul:115-elecampane,convulsions,therapeutic,helps to remove cramps or convulsions,
+cul:115-elecampane,gout,therapeutic,"gout, sciatica, pains in the joints",
+cul:115-elecampane,sciatica,therapeutic,"gout, sciatica, pains in the joints",
+cul:115-elecampane,joint_pain,therapeutic,"gout, sciatica, pains in the joints",
+cul:115-elecampane,bruises,therapeutic,or have any inward bruise,
+cul:115-elecampane,itch_scabies,therapeutic,an excellent remedy for scabs or itch in young or old,
+cul:115-elecampane,skin_ulcers,therapeutic,helps all sorts of filthy old putrid sores or cankers whatsoever,cankers = spreading ulcers
+cul:115-elecampane,skin_blemishes,therapeutic,"from any morphew, spots, or blemishes therein",
+cul:115-elecampane,NONE,therapeutic,is also good for those that are bursten,ruptures: no concept
+cul:118-fern,helminthiasis,therapeutic,kills both the broad and long worms in the body,
+cul:118-fern,spleen_disease,therapeutic,abates the swelling and hardness of the spleen,
+cul:118-fern,constipation,action,purge the belly of choleric and waterish humours,
+cul:118-fern,abortifacient,adverse,They are dangerous for women with child to meddle with,warning: 'they cause abortions'
+cul:118-fern,wounds,therapeutic,make a very profitable ointment to heal wounds,
+cul:118-fern,skin_ulcers,therapeutic,The powder of them used in foul ulcers,
+cul:118-fern,infertility,adverse,it causes barrenness,could be read as contraception (action); clause follows the fumigation passage
+cul:129-flux-weed,diarrhea,therapeutic,to stay the flux or lask of the belly,
+cul:129-flux-weed,hemorrhage,therapeutic,to restrain any other flux of blood in man or woman,
+cul:129-flux-weed,helminthiasis,therapeutic,doth kill the worms in the stomach or belly,
+cul:129-flux-weed,skin_ulcers,therapeutic,"doth quickly heal all old sores, how foul or malignant soever",
+cul:129-flux-weed,NONE,therapeutic,to consoladate bones broken or out of joint,fractures/dislocations; worms in ulcers (maggots): no concept
+cul:133-fumitory,liver_disease,therapeutic,"very effectual for the liver and spleen, opening the obstructions thereof",
+cul:133-fumitory,spleen_disease,therapeutic,"very effectual for the liver and spleen, opening the obstructions thereof",
+cul:133-fumitory,scaly_skin,therapeutic,"which cause leprosy, scabs, tetters, and itches",therapeutic: clears the humours that cause these (not adverse)
+cul:133-fumitory,itch_scabies,therapeutic,"which cause leprosy, scabs, tetters, and itches",therapeutic despite 'cause'
+cul:133-fumitory,dermatitis,therapeutic,"which cause leprosy, scabs, tetters, and itches",tetters; therapeutic despite 'cause'
+cul:133-fumitory,jaundice,therapeutic,It is also good against the yellow-jaundice,
+cul:133-fumitory,diuresis,action,"spends it by urine, which it procures in abundance",
+cul:133-fumitory,melancholy,therapeutic,cures melancholy,
+cul:133-fumitory,plague,therapeutic,conduces much against the plague and pestilence,
+cul:133-fumitory,mouth_gums,therapeutic,helps all sores of the mouth or throat,also sores of the throat
+cul:133-fumitory,eye_disease,therapeutic,clears the sight and takes away redness and other defects in them,
+cul:133-fumitory,conjunctivitis,therapeutic,clears the sight and takes away redness and other defects in them,redness of eyes
+cul:133-fumitory,pain,adverse,"although it procure some pain for the present, and cause tears",transient eye pain and tearing
+cul:133-fumitory,skin_blemishes,therapeutic,"cures all sorts of scabs, pimples, blotches, wheals, and pushes",
+cul:133-fumitory,NONE,therapeutic,hinders any fresh springing of hairs on the eye-lids,"eyelid depilatory (trichiasis), per Dioscorides; wheals: no concept"
+cul:134-the-furze-bush,liver_disease,therapeutic,open obstructions of the liver and spleen,
+cul:134-the-furze-bush,spleen_disease,therapeutic,open obstructions of the liver and spleen,
+cul:134-the-furze-bush,jaundice,therapeutic,hath been found effectual against the jaundice,
+cul:134-the-furze-bush,diuresis,action,as also to provoke urine,
+cul:134-the-furze-bush,urolithiasis,therapeutic,cleanse the kidneys from gravel or stone ingendered in them,
+cul:138-germander,memory,therapeutic,strengthens the brain and apprehension exceedingly when weak,apprehension = understanding
+cul:138-germander,cough,therapeutic,is a remedy for coughs,
+cul:138-germander,spleen_disease,therapeutic,hardness of the spleen and difficulty of urine,
+cul:138-germander,dysuria,therapeutic,hardness of the spleen and difficulty of urine,difficulty of urine
+cul:138-germander,edema_dropsy,therapeutic,helps those that are fallen into a dropsy,
+cul:138-germander,amenorrhea,action,It also brings down women’s courses,
+cul:138-germander,labor,action,expels the dead child,expulsion of dead fetus; abortifacient reading possible
+cul:138-germander,envenomation,therapeutic,most effectual against the poison of all serpents,
+cul:138-germander,skin_ulcers,therapeutic,it cleanses old and foul ulcers,
+cul:138-germander,eye_disease,therapeutic,takes away the dimness and moistness,
+cul:138-germander,pain,therapeutic,good for the pains in the sides and cramps,
+cul:138-germander,convulsions,therapeutic,convulsions and palsies,also cramps
+cul:138-germander,malaria,therapeutic,cures both tertain and quartan agues,
+cul:138-germander,headache,therapeutic,continual head-ache,
+cul:138-germander,epilepsy,therapeutic,falling-sickness,
+cul:138-germander,melancholy,therapeutic,"falling-sickness, melancholy, drowsiness and dullness of the spirits",drowsiness/dullness not separately mapped
+cul:138-germander,paralysis,therapeutic,convulsions and palsies,
+cul:138-germander,diuresis,action,A dram of the seed taken in powder purges by urine,
+cul:138-germander,jaundice,therapeutic,is good against the yellow jaundice,
+cul:138-germander,helminthiasis,therapeutic,kills the worms in the belly,
+cul:138-germander,NONE,therapeutic,dropped into the ears kills the worms in them,"ear worms (maggots), not intestinal"
+cul:151-hawthorn,urolithiasis,therapeutic,are held singularly good against the stone,
+cul:151-hawthorn,edema_dropsy,therapeutic,are good for the dropsy,
+cul:151-hawthorn,diarrhea,therapeutic,The distilled water of the flowers stay the lask,
+cul:151-hawthorn,pain,therapeutic,is good for inward tormenting pains,inward torments (possibly colic)
+cul:151-hawthorn,NONE,therapeutic,"wherein thorns and splinters, or the like, do abide in the flesh",draws out thorns/splinters: no concept
+cul:158-herb-true-love-or-one-berry,poisoning,therapeutic,"effectual to expel poison of all sorts, especially that of the aconites",
+cul:158-herb-true-love-or-one-berry,plague,therapeutic,"the plague, and other pestilential disorders",
+cul:158-herb-true-love-or-one-berry,colic,therapeutic,eases the pains of the cholic speedily,
+cul:158-herb-true-love-or-one-berry,wounds,therapeutic,effectual as well for green wounds,
+cul:158-herb-true-love-or-one-berry,skin_ulcers,therapeutic,to cleanse and heal up filthy old sores and ulcers,
+cul:158-herb-true-love-or-one-berry,inflammation,therapeutic,speedily to allay all inflammations,also tumours/swellings of privy parts and groin
+cul:158-herb-true-love-or-one-berry,abscess,therapeutic,The juice of the leaves applied to felons,felons and imposthumes at nail roots (whitlow/paronychia)
+cul:185-lungwort,cough,therapeutic,"for coughs, wheezings, and shortness of breath",
+cul:185-lungwort,asthma_dyspnea,therapeutic,"for coughs, wheezings, and shortness of breath",also broken-winded horses
+cul:185-lungwort,skin_ulcers,therapeutic,to stay the moist humours that flow to ulcers,also ulcers of the privy parts
+cul:204-moonwort,wounds,therapeutic,more available for all wounds both inward and outward,
+cul:204-moonwort,menorrhagia,therapeutic,"stay the immoderate flux of women’s courses, and the whites",
+cul:204-moonwort,leukorrhea,therapeutic,"stay the immoderate flux of women’s courses, and the whites",
+cul:204-moonwort,hemorrhage,therapeutic,"It also stays bleeding, vomiting, and other fluxes",
+cul:204-moonwort,nausea_vomiting,therapeutic,"It also stays bleeding, vomiting, and other fluxes",
+cul:204-moonwort,diarrhea,therapeutic,"It also stays bleeding, vomiting, and other fluxes",generic 'other fluxes'; low confidence
+cul:204-moonwort,bruises,therapeutic,It helps all blows and bruises,
+cul:204-moonwort,NONE,therapeutic,to consolidate all fractures and dislocations,"fractures, dislocations, ruptures; lock/horseshoe folklore ignored"
+cul:206-motherwort,melancholy,therapeutic,to take melancholy vapours from the heart,
+cul:206-motherwort,heart,therapeutic,"the trembling of the heart, and faintings and swoonings","palpitation, syncope"
+cul:206-motherwort,infertility,therapeutic,it makes women joyful mothers of children,
+cul:206-motherwort,uterine_disorders,therapeutic,for the suffocating or risings of the mother,also 'settles their wombs'
+cul:206-motherwort,labor,therapeutic,a wonderful help to women in their sore travail,
+cul:206-motherwort,diuresis,action,It also provokes urine and women’s courses,
+cul:206-motherwort,amenorrhea,action,It also provokes urine and women’s courses,
+cul:206-motherwort,cough,therapeutic,"cleanses the chest of cold phlegm, oppressing it",expectorant
+cul:206-motherwort,helminthiasis,therapeutic,kills worms in the belly,
+cul:206-motherwort,convulsions,therapeutic,to help cramps and convulsions,
+cul:216-nightshade,inflammation,therapeutic,to cool hot inflammations either inwardly or outwardly,
+cul:216-nightshade,sore_throat,therapeutic,good to wash the mouth and throat that is inflamed,
+cul:216-nightshade,mouth_gums,therapeutic,good to wash the mouth and throat that is inflamed,
+cul:216-nightshade,conjunctivitis,therapeutic,very good to anoint all hot inflammations in the eyes,
+cul:216-nightshade,tinea,therapeutic,"doth much good for the shingles, ringworms",
+cul:216-nightshade,skin_ulcers,therapeutic,"in all running, fretting and corroding ulcers",
+cul:216-nightshade,ear_disease,therapeutic,"The juice dropped into the ears, eases pains thereof",
+cul:216-nightshade,poisoning,adverse,Have a care you mistake not the deadly Nightshade for this,warning targets deadly/other nightshades; common nightshade declared safe if moderate
+cul:216-nightshade,NONE,therapeutic,doth much good for the shingles,shingles (herpes zoster); 'hot swellings under the throat' (Pliny)
+cul:218-oats,pain,therapeutic,take away the pains of stitches and wind in the sides,
+cul:218-oats,flatulence,therapeutic,stitches and wind in the sides or the belly,
+cul:218-oats,itch_scabies,therapeutic,helps the itch and the leprosy,
+cul:218-oats,scaly_skin,therapeutic,helps the itch and the leprosy,leprosy = lepra
+cul:218-oats,abscess,therapeutic,dissolves hard imposthumes,
+cul:218-oats,skin_blemishes,therapeutic,takes away freckles and spots in the face,
+cul:218-oats,NONE,therapeutic,the fistulas of the fundament,anal fistula: no concept
+cul:220-orchis,sexual_function,action,provoke lust exceedingly,aphrodisiac; dried roots said to restrain lust (anaphrodisiac)
+cul:220-orchis,helminthiasis,therapeutic,held to kill worms in children,
+cul:220-orchis,scrofula,therapeutic,to heal the king’s evil,
+cul:222-orpine,dyspepsia,therapeutic,profitable for gnawings or excoriations in the stomach or bowels,per Tragus; Culpeper: seldom used inwardly
+cul:222-orpine,tuberculosis,therapeutic,"or for ulcers in the lungs, liver, or other inward parts",lung ulcers ~ phthisis; per Tragus; low confidence
+cul:222-orpine,liver_disease,therapeutic,"or for ulcers in the lungs, liver, or other inward parts",liver ulcers; per Tragus
+cul:222-orpine,uterine_disorders,therapeutic,as also in the matrix,ulcers of the womb; per Tragus
+cul:222-orpine,dysentery,therapeutic,It stays the sharpness of humours in the bloody-flux,
+cul:222-orpine,diarrhea,therapeutic,and other fluxes in the body,
+cul:222-orpine,inflammation,therapeutic,to cool any heat or inflammation upon any hurt or wound,
+cul:222-orpine,pain,therapeutic,and eases the pains of them,pain of wounds
+cul:222-orpine,burns,therapeutic,to heal scaldings or burnings,
+cul:222-orpine,wounds,therapeutic,"laid to any green wound in the hand or legs, doth heal them quickly",
+cul:222-orpine,sore_throat,therapeutic,"being bound to the throat, much helps the quinsy",
+cul:222-orpine,NONE,therapeutic,it helps also ruptures and burstenness,ruptures: no concept
+cul:234-periwinkle,sexual_function,action,"the leaves eaten by man and wife together, cause love between them",love-philtre attributed to Venus; folklore
+cul:234-periwinkle,hemorrhage,therapeutic,stays bleeding both at mouth and nose,
+cul:234-periwinkle,nosebleed,therapeutic,stays bleeding both at mouth and nose,
+cul:234-periwinkle,menorrhagia,therapeutic,The French used it to stay women’s courses,
+cul:234-periwinkle,diarrhea,therapeutic,against the lasks and fluxes of the belly,
+cul:235-st-peters-wort,constipation,action,purges choleric humours,purgative
+cul:235-st-peters-wort,sciatica,therapeutic,helps those that are troubled with the sciatica,
+cul:235-st-peters-wort,burns,therapeutic,that have been burnt with fire,
+cul:241-the-poplar-tree,sciatica,therapeutic,"troubled with the sciatica, or the stranguary",
+cul:241-the-poplar-tree,dysuria,therapeutic,"troubled with the sciatica, or the stranguary",strangury
+cul:241-the-poplar-tree,ear_disease,therapeutic,"dropped warm into the ears, eases the pains in them",
+cul:241-the-poplar-tree,eye_disease,therapeutic,a good medicine for a dull sight,
+cul:241-the-poplar-tree,gout,therapeutic,"the leaves bruised with vinegar and applied, help the gout",
+cul:241-the-poplar-tree,epilepsy,therapeutic,held good against the falling-sickness,
+cul:241-the-poplar-tree,warts,therapeutic,"takes away warts, pushes, wheals",
+cul:241-the-poplar-tree,skin_blemishes,therapeutic,"takes away warts, pushes, wheals",pushes = pimples
+cul:241-the-poplar-tree,inflammation,therapeutic,singularly good for all heat and inflammations,
+cul:241-the-poplar-tree,wounds,therapeutic,tempers the heat of wounds,
+cul:241-the-poplar-tree,lactation,action,much used to dry up the milk of women’s breasts,antigalactagogue (at weaning)
+cul:246-queen-of-the-meadows-meadow-sweet-or-mea,hemorrhage,therapeutic,It is used to stay all manner of bleedings,
+cul:246-queen-of-the-meadows-meadow-sweet-or-mea,nausea_vomiting,therapeutic,"bleedings, fluxes, vomitings, and women’s courses, also their whites",
+cul:246-queen-of-the-meadows-meadow-sweet-or-mea,menorrhagia,therapeutic,"bleedings, fluxes, vomitings, and women’s courses, also their whites",
+cul:246-queen-of-the-meadows-meadow-sweet-or-mea,leukorrhea,therapeutic,"bleedings, fluxes, vomitings, and women’s courses, also their whites",
+cul:246-queen-of-the-meadows-meadow-sweet-or-mea,malaria,therapeutic,take away the fits of the quartan agues,
+cul:246-queen-of-the-meadows-meadow-sweet-or-mea,melancholy,therapeutic,to make a merry heart,
+cul:246-queen-of-the-meadows-meadow-sweet-or-mea,colic,therapeutic,troubled with the cholic,
+cul:246-queen-of-the-meadows-meadow-sweet-or-mea,constipation,action,it opens the belly,boiled in wine with honey
+cul:246-queen-of-the-meadows-meadow-sweet-or-mea,diarrhea,therapeutic,it stays the flux of the belly,boiled in red wine
+cul:246-queen-of-the-meadows-meadow-sweet-or-mea,skin_ulcers,therapeutic,"it helps old ulcers that are cankerous, or hollow fistulous",
+cul:246-queen-of-the-meadows-meadow-sweet-or-mea,mouth_gums,therapeutic,the sores in the mouth or secret parts,
+cul:246-queen-of-the-meadows-meadow-sweet-or-mea,conjunctivitis,therapeutic,helps the heat and inflammation in the eyes,
+cul:246-queen-of-the-meadows-meadow-sweet-or-mea,NONE,adverse,raise blisters thereon,vesicant on skin (per Tragus)
+cul:247-the-quince-tree,diarrhea,therapeutic,"help all sorts of fluxes in men or women, and choleric lasks",
+cul:247-the-quince-tree,nausea_vomiting,therapeutic,the stomach given to casting,also 'casting' among fluxes
+cul:247-the-quince-tree,appetite_loss,therapeutic,it stirs up the languishing appetite,
+cul:247-the-quince-tree,liver_disease,therapeutic,"helps the liver oppressed, that it cannot perfect the digestion",
+cul:247-the-quince-tree,dyspepsia,therapeutic,it likewise strengthens the stomach and belly,
+cul:247-the-quince-tree,poisoning,therapeutic,a preservative against the force of deadly poison,
+cul:247-the-quince-tree,sore_throat,therapeutic,lenify the harshness and hoarseness of the throat,
+cul:247-the-quince-tree,plague,therapeutic,"applied to plague sores, heals them up",
+cul:247-the-quince-tree,alopecia,therapeutic,brings hair to them that are bald,
+cul:247-the-quince-tree,NONE,therapeutic,restrains immoderate sweatings,sweating; sore breasts of women; purging only with added purgatives (not mapped)
+cul:249-ragwort,mouth_gums,therapeutic,wash the mouth or throat that hath ulcers or sores therein,
+cul:249-ragwort,abscess,therapeutic,"for swellings, hardness, or imposthumes",
+cul:249-ragwort,sore_throat,therapeutic,"as also the quinsy, and the king’s evil",
+cul:249-ragwort,scrofula,therapeutic,"as also the quinsy, and the king’s evil",
+cul:249-ragwort,common_cold,therapeutic,"stay catarrhs, thin rheums, and defluxions from the head",
+cul:249-ragwort,wounds,therapeutic,singularly good to heal green wounds,
+cul:249-ragwort,skin_ulcers,therapeutic,heal all old and filthy ulcers in the privities,"also fretting cankers, fistulas"
+cul:249-ragwort,pain,therapeutic,"help aches and pains either in the fleshy part, or in the nerves",
+cul:249-ragwort,sciatica,therapeutic,"as also the sciatica, or pain of the hips",
+cul:251-rest-harrow-or-cammock,diuresis,action,singularly good to provoke urine when it is stopped,
+cul:251-rest-harrow-or-cammock,urolithiasis,therapeutic,to break and drive forth the stone,
+cul:251-rest-harrow-or-cammock,toothache,therapeutic,"eases the tooth-ache, especially when it comes of rheum",
+cul:251-rest-harrow-or-cammock,liver_disease,therapeutic,open obstructions of the liver and spleen,
+cul:251-rest-harrow-or-cammock,spleen_disease,therapeutic,open obstructions of the liver and spleen,
+cul:251-rest-harrow-or-cammock,skin_ulcers,therapeutic,The powder of the roots strewed upon the brims of ulcers,
+cul:251-rest-harrow-or-cammock,NONE,therapeutic,the fleshy rupture,"herma carnosa (sarcocele/fleshy hernia), per Matthiolus"
+cul:252-rocket,headache,adverse,"their sharpness fumes into the head, causing aches and pains therein",wild Rocket used alone
+cul:252-rocket,sexual_function,action,to increase sperm and venerous qualities,
+cul:252-rocket,dyspepsia,therapeutic,It serves also to help digestion,
+cul:252-rocket,diuresis,action,provokes urine exceedingly,
+cul:252-rocket,envenomation,therapeutic,"cure the biting of serpents, the scorpion, and the shrew mouse",
+cul:252-rocket,poisoning,therapeutic,"the shrew mouse, and other poisons",
+cul:252-rocket,helminthiasis,therapeutic,"expels worms, and other noisome creatures that breed in the belly",
+cul:252-rocket,cough,therapeutic,helps the cough in children,
+cul:252-rocket,lactation,action,increases milk in nurses,galactagogue
+cul:252-rocket,spleen_disease,therapeutic,wastes the spleen,
+cul:252-rocket,skin_blemishes,therapeutic,takes away freckles and redness in the face,also morphew
+cul:252-rocket,bruises,therapeutic,black and blue spots,bruise marks
+cul:252-rocket,NONE,therapeutic,takes away the ill scent of the arm-pits,body odour; scars and smallpox marks: no concept
+cul:257-rhubarb-or-rephontic,NONE,,take therefore a description at large of it as follows:,"analysis_text holds only the introductory paragraph, no virtues (likely segmentation error)"
+cul:260-meadow-rue,skin_ulcers,therapeutic,perfectly heals old sores,per Dioscorides
+cul:260-meadow-rue,constipation,action,"to open the body, and make it soluble",also roots 'provokes to stool'
+cul:260-meadow-rue,lice,therapeutic,troubled with vermin and lice washed therewith,
+cul:260-meadow-rue,plague,therapeutic,In Italy it is good against the plague,
+cul:260-meadow-rue,jaundice,therapeutic,in Saxony against the jaundice,
+cul:263-rushes,diarrhea,therapeutic,stays the lask and women’s courses,
+cul:263-rushes,menorrhagia,therapeutic,"stays the lask and women’s courses, when they come down too abundantly",
+cul:263-rushes,headache,adverse,but it causes head-ache,
+cul:263-rushes,insomnia,action,"it provokes sleep likewise, but must be given with caution",soporific; caution
+cul:263-rushes,cough,therapeutic,helps the cough,
+cul:266-sage,liver_disease,therapeutic,"it is good for the liver, and to breed blood",
+cul:266-sage,diuresis,action,"provokes urine, brings down women’s courses",
+cul:266-sage,amenorrhea,action,"provokes urine, brings down women’s courses",
+cul:266-sage,labor,action,helps to expel the dead child,expulsion of dead fetus; abortifacient reading possible
+cul:266-sage,hemorrhage,therapeutic,It stays the bleeding of wounds,
+cul:266-sage,skin_ulcers,therapeutic,cleanses foul ulcers,
+cul:266-sage,hemoptysis,therapeutic,stay the spitting or casting of blood of them that are in a consumption,
+cul:266-sage,tuberculosis,therapeutic,stay the spitting or casting of blood of them that are in a consumption,haemoptysis in consumptives
+cul:266-sage,headache,therapeutic,all manner of pains in the head coming of cold,
+cul:266-sage,joint_pain,therapeutic,as also for all pains of the joints,
+cul:266-sage,epilepsy,therapeutic,"helps the falling-sickness, the lethargy",
+cul:266-sage,delirium,therapeutic,"helps the falling-sickness, the lethargy",lethargy
+cul:266-sage,paralysis,therapeutic,"laid upon the place affected with the palsy, helps much",
+cul:266-sage,common_cold,therapeutic,in all defluctions of rheum from the head,
+cul:266-sage,abscess,therapeutic,laid upon the imposthume that rises behind the ears,
+cul:266-sage,cough,therapeutic,helps a hoarseness and a cough,
+cul:266-sage,dysentery,therapeutic,Sage taken with wormwood is good for the bloody-flux,
+cul:266-sage,menorrhagia,therapeutic,stays them coming down too fast,per Pliny
+cul:266-sage,envenomation,therapeutic,helps the stinging and biting of serpents,
+cul:266-sage,memory,therapeutic,Sage is of excellent use to help the memory,
+cul:266-sage,plague,therapeutic,hath been of good use in time of the plague,
+cul:266-sage,mouth_gums,therapeutic,to wash sore mouths and throats,
+cul:266-sage,sore_throat,therapeutic,to wash sore mouths and throats,
+cul:266-sage,convulsions,therapeutic,troubled with the palsy and cramp,
+cul:266-sage,pain,therapeutic,"against the stitch, or pains in the side coming of wind",
+cul:266-sage,NONE,therapeutic,causes the hair to become black,hair dye; worms in ears and sores (maggots): no concept
+cul:268-solomons-seal,wounds,therapeutic,"available in wounds, hurts, and outward sores",
+cul:268-solomons-seal,skin_ulcers,therapeutic,"available in wounds, hurts, and outward sores",old sores
+cul:268-solomons-seal,nausea_vomiting,therapeutic,singularly good to stay vomitings and bleeding wheresoever,
+cul:268-solomons-seal,hemorrhage,therapeutic,singularly good to stay vomitings and bleeding wheresoever,
+cul:268-solomons-seal,diarrhea,therapeutic,as also all fluxes in man or woman,generic fluxes; low confidence
+cul:268-solomons-seal,bruises,therapeutic,"available for inward or outward bruises, falls or blows",
+cul:268-solomons-seal,skin_blemishes,therapeutic,"cleanses it from morphew, freckles, spots",
+cul:268-solomons-seal,NONE,therapeutic,to knit and join broken bones,"fractures, dislocations, ruptures: no concept"
+cul:269-samphire,dyspepsia,therapeutic,helps digestion,
+cul:269-samphire,liver_disease,therapeutic,opening obstructions of the liver and spleen,
+cul:269-samphire,spleen_disease,therapeutic,opening obstructions of the liver and spleen,
+cul:269-samphire,diuresis,action,provokes urine,
+cul:269-samphire,urolithiasis,therapeutic,wash away the gravel and stone engendered in the kidneys or bladder,
+cul:280-the-service-tree,diarrhea,therapeutic,"to stay fluxes, scouring, and casting",
+cul:280-the-service-tree,nausea_vomiting,therapeutic,"to stay fluxes, scouring, and casting",casting = vomiting
+cul:280-the-service-tree,hemorrhage,therapeutic,"stay the bleeding of wounds, and of the mouth or nose",
+cul:280-the-service-tree,nosebleed,therapeutic,"stay the bleeding of wounds, and of the mouth or nose",
+cul:281-shepherds-purse,hemorrhage,therapeutic,"It helps all fluxes of blood, either caused by inward or outward wounds",
+cul:281-shepherds-purse,diarrhea,therapeutic,"as also flux of the belly, and bloody flux",
+cul:281-shepherds-purse,dysentery,therapeutic,"as also flux of the belly, and bloody flux",
+cul:281-shepherds-purse,hemoptysis,therapeutic,"spitting blood, and bloody urine",
+cul:281-shepherds-purse,kidney_disease,therapeutic,"spitting blood, and bloody urine",bloody urine (haematuria)
+cul:281-shepherds-purse,menorrhagia,therapeutic,stops the terms in women,
+cul:281-shepherds-purse,jaundice,therapeutic,it helps the yellow jaundice,amulet: bound to wrists and soles
+cul:281-shepherds-purse,inflammation,therapeutic,helps inflammations and St. Anthony’s fire,
+cul:281-shepherds-purse,erysipelas,therapeutic,helps inflammations and St. Anthony’s fire,
+cul:281-shepherds-purse,ear_disease,therapeutic,"heals the pains, noise, and mutterings thereof",
+cul:281-shepherds-purse,wounds,therapeutic,A good ointment may be made of it for all wounds,
+cul:287-southern-wood,convulsions,therapeutic,troubled with cramps or convulsions of the sinews,
+cul:287-southern-wood,sciatica,therapeutic,"the sciatica, or difficulty in making water",
+cul:287-southern-wood,dysuria,therapeutic,"the sciatica, or difficulty in making water",
+cul:287-southern-wood,amenorrhea,action,bringing down women’s courses,
+cul:287-southern-wood,poisoning,therapeutic,"an antidote, or counter-poison against all deadly poison",
+cul:287-southern-wood,fever,therapeutic,"before the fits of agues come, takes them away",
+cul:287-southern-wood,conjunctivitis,therapeutic,It takes away inflammations in the eyes,
+cul:287-southern-wood,skin_blemishes,therapeutic,"it takes away pimples, pushes or wheals",
+cul:287-southern-wood,helminthiasis,therapeutic,to kill the worms in children,
+cul:287-southern-wood,skin_ulcers,therapeutic,dries up and heals old ulcers,
+cul:287-southern-wood,pain,adverse,"it bites sore, and puts them to sore pains",ashes sting when applied to ulcers
+cul:287-southern-wood,alopecia,therapeutic,"helps those that have hair fallen, and are bald",
+cul:287-southern-wood,syphilis,therapeutic,"used against the French disease, is very effectual",
+cul:287-southern-wood,lice,therapeutic,kills lice in the head,
+cul:287-southern-wood,urolithiasis,therapeutic,troubled with the stone,
+cul:287-southern-wood,spleen_disease,therapeutic,the diseases of the spleen and mother,
+cul:287-southern-wood,uterine_disorders,therapeutic,the diseases of the spleen and mother,
+cul:287-southern-wood,wounds,therapeutic,a singular wound herb,
+cul:287-southern-wood,dyspepsia,adverse,more offensive to the stomach than worm-wood,
+cul:287-southern-wood,NONE,therapeutic,helps those that are bursten,ruptures; splinters/thorns; serpent repellent: no concept
+cul:289-spleenwort-ceterach-or-hearts-tongue,spleen_disease,therapeutic,It is generally used against infirmities of the Spleen,
+cul:289-spleenwort-ceterach-or-hearts-tongue,dysuria,therapeutic,It helps the stranguary,
+cul:289-spleenwort-ceterach-or-hearts-tongue,urolithiasis,therapeutic,wasteth the stone in the bladder,
+cul:289-spleenwort-ceterach-or-hearts-tongue,jaundice,therapeutic,good against the yellow jaundice and the hiccough,
+cul:289-spleenwort-ceterach-or-hearts-tongue,hiccup,therapeutic,good against the yellow jaundice and the hiccough,
+cul:289-spleenwort-ceterach-or-hearts-tongue,infertility,adverse,the juice of it in women hinders conception,could be read as contraception (action)
+cul:289-spleenwort-ceterach-or-hearts-tongue,melancholy,therapeutic,helps all melancholy diseases,
+cul:289-spleenwort-ceterach-or-hearts-tongue,syphilis,therapeutic,those especially that arise from the French diseases,melancholy sequelae of the pox
+cul:289-spleenwort-ceterach-or-hearts-tongue,NONE,therapeutic,it helps the gonorrhea speedily,"gonorrhoea (early modern: any urethral/seminal discharge), per Matthiolus"
+cul:295-the-tamarisk-tree,hemorrhoids,therapeutic,stays the bleeding of the hæmorrhodical veins,
+cul:295-the-tamarisk-tree,hemoptysis,therapeutic,the spitting of blood,
+cul:295-the-tamarisk-tree,menorrhagia,therapeutic,the too abounding of women’s courses,
+cul:295-the-tamarisk-tree,jaundice,therapeutic,"the jaundice, the cholic",also black jaundice
+cul:295-the-tamarisk-tree,colic,therapeutic,"the jaundice, the cholic",
+cul:295-the-tamarisk-tree,envenomation,therapeutic,"the biting of all venomous serpents, except the asp",
+cul:295-the-tamarisk-tree,spleen_disease,therapeutic,very powerful against the hardness of the spleen,
+cul:295-the-tamarisk-tree,toothache,therapeutic,"and the tooth-ache, pains in the ears, red and watering eyes",
+cul:295-the-tamarisk-tree,ear_disease,therapeutic,"and the tooth-ache, pains in the ears, red and watering eyes",
+cul:295-the-tamarisk-tree,conjunctivitis,therapeutic,"and the tooth-ache, pains in the ears, red and watering eyes",
+cul:295-the-tamarisk-tree,skin_ulcers,therapeutic,good to stay gangrenes and fretting ulcers,
+cul:295-the-tamarisk-tree,lice,therapeutic,to wash those that are subject to nits and lice,
+cul:295-the-tamarisk-tree,syphilis,therapeutic,use the wood of it to cure the French disease,per Alpinus and Veslingius (Egypt)
+cul:295-the-tamarisk-tree,scaly_skin,therapeutic,"those who have the leprosy, scabs, ulcers",
+cul:295-the-tamarisk-tree,itch_scabies,therapeutic,"those who have the leprosy, scabs, ulcers",
+cul:295-the-tamarisk-tree,burns,therapeutic,heal blisters raised by burnings or scaldings,
+cul:295-the-tamarisk-tree,edema_dropsy,therapeutic,"It helps the dropsy, arising from the hardness of the spleen",
+cul:295-the-tamarisk-tree,melancholy,therapeutic,It is also helpful for melancholy,
+cul:306-thorough-wax-or-thorough-leaf,bruises,therapeutic,for all sorts of bruises and wounds either inward or outward,
+cul:306-thorough-wax-or-thorough-leaf,wounds,therapeutic,for all sorts of bruises and wounds either inward or outward,
+cul:306-thorough-wax-or-thorough-leaf,skin_ulcers,therapeutic,old ulcers and sores likewise,
+cul:306-thorough-wax-or-thorough-leaf,NONE,therapeutic,singularly good for all ruptures and burstings,ruptures; protruding navels in children (umbilical hernia): no concept
+cul:308-wild-thyme-or-mother-of-thyme,diuresis,action,It provokes urine and the terms,
+cul:308-wild-thyme-or-mother-of-thyme,amenorrhea,action,It provokes urine and the terms,
+cul:308-wild-thyme-or-mother-of-thyme,colic,therapeutic,eases the griping pain of the belly,
+cul:308-wild-thyme-or-mother-of-thyme,convulsions,therapeutic,"cramps, ruptures, and inflamation of the liver",
+cul:308-wild-thyme-or-mother-of-thyme,liver_disease,therapeutic,"cramps, ruptures, and inflamation of the liver",
+cul:308-wild-thyme-or-mother-of-thyme,headache,therapeutic,"anoint the head with it, it presently stops the pains thereof",
+cul:308-wild-thyme-or-mother-of-thyme,delirium,therapeutic,given either in phrenzy or lethargy,
+cul:308-wild-thyme-or-mother-of-thyme,hemoptysis,therapeutic,It helps spitting and voiding of blood,
+cul:308-wild-thyme-or-mother-of-thyme,cough,therapeutic,"coughing, and vomiting",
+cul:308-wild-thyme-or-mother-of-thyme,nausea_vomiting,therapeutic,"coughing, and vomiting",
+cul:308-wild-thyme-or-mother-of-thyme,flatulence,therapeutic,"expels wind, and breaks the stone",
+cul:308-wild-thyme-or-mother-of-thyme,urolithiasis,therapeutic,"expels wind, and breaks the stone",
+cul:308-wild-thyme-or-mother-of-thyme,NONE,therapeutic,"cramps, ruptures, and inflamation of the liver",ruptures: no concept
+cul:319-vipers-bugloss,envenomation,therapeutic,"against the biting of the Viper, and all other venomous beasts",also prophylactic
+cul:319-vipers-bugloss,poisoning,therapeutic,"against poison, or poisonous herbs",
+cul:319-vipers-bugloss,heart,therapeutic,most effectual to comfort the heart,
+cul:319-vipers-bugloss,melancholy,therapeutic,"expel sadness, or causeless melancholy",
+cul:319-vipers-bugloss,fever,therapeutic,allays hot fits of agues,
+cul:319-vipers-bugloss,lactation,action,procures abundance of milk in women’s breasts,galactagogue
+cul:319-vipers-bugloss,kidney_disease,therapeutic,"eases the pains in the loins, back, and kidneys",
+cul:321-the-wallnut-tree,constipation,action,they move the belly downwards,
+cul:321-the-wallnut-tree,dyspepsia,adverse,"being old, they grieve the stomach",
+cul:321-the-wallnut-tree,headache,adverse,cause the choler to abound and the head-ach,in hot bodies
+cul:321-the-wallnut-tree,cough,adverse,are an enemy to those that have the cough,
+cul:321-the-wallnut-tree,helminthiasis,therapeutic,are said to kill the broad worms in the belly or stomach,
+cul:321-the-wallnut-tree,rabies,therapeutic,they help the biting of a mad dog,
+cul:321-the-wallnut-tree,envenomation,therapeutic,the venom or infectious poison of any beast,
+cul:321-the-wallnut-tree,poisoning,therapeutic,"preserves from danger of poison, and infection that day it is taken","Mithridates' compound (walnuts, figs, rue, juniper)"
+cul:321-the-wallnut-tree,mouth_gums,therapeutic,an excellent gargle for sore mouths,
+cul:321-the-wallnut-tree,sore_throat,therapeutic,"The kernels beaten with rue and wine, being applied, help the quinsy",also inflammations in the throat
+cul:321-the-wallnut-tree,wounds,therapeutic,"used to heal the wounds of the sinews, gangrenes, and carbuncles",
+cul:321-the-wallnut-tree,abscess,therapeutic,"used to heal the wounds of the sinews, gangrenes, and carbuncles",carbuncles
+cul:321-the-wallnut-tree,diarrhea,therapeutic,will stay lasks and women’s courses,
+cul:321-the-wallnut-tree,menorrhagia,therapeutic,will stay lasks and women’s courses,
+cul:321-the-wallnut-tree,alopecia,therapeutic,stay the falling of the hair,
+cul:321-the-wallnut-tree,ear_disease,therapeutic,"wonderfully helps deafness, the noise, and other pains in the ears",
+cul:321-the-wallnut-tree,toothache,therapeutic,"put into a hollow tooth, eases the pain",
+cul:321-the-wallnut-tree,uterine_disorders,therapeutic,troubled with the rising of the mother,
+cul:321-the-wallnut-tree,colic,therapeutic,"to help the cholic, and to expel wind very effectually",
+cul:321-the-wallnut-tree,flatulence,therapeutic,"to help the cholic, and to expel wind very effectually",
+cul:321-the-wallnut-tree,dyspepsia,therapeutic,of good use for those that have weak stomachs,
+cul:321-the-wallnut-tree,fever,therapeutic,to cool the heat of agues,
+cul:321-the-wallnut-tree,plague,therapeutic,to resist the infection of the plague,
+cul:321-the-wallnut-tree,skin_ulcers,therapeutic,a singular cure on foul running ulcers and sores,

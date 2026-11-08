@@ -1,0 +1,11 @@
+{
+  "queried": "2026-11-08",
+  "N": 48227744,
+  "n_taxa": 606,
+  "n_pairs": 13102,
+  "k_controls": 12,
+  "seed": 11,
+  "taxon_query_example": "(TITLE_ABS:\"Artemisia absinthium\" OR KW:\"Artemisia absinthium\")",
+  "concept_query_example": "(TITLE_ABS:(\"jaundice\" OR \"icterus\" OR \"hyperbilirubinemia\" OR \"cholestasis\") OR KW:(\"jaundice\" OR \"icterus\" OR \"hyperbilirubinemia\" OR \"cholestasis\"))",
+  "total_query": "(TITLE_ABS:* OR KW:*)"
+}
