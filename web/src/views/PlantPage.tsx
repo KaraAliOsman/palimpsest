@@ -1,4 +1,4 @@
-import { useMemo, useState } from "react";
+import { useMemo, useState, type ReactNode } from "react";
 import {
   asArray, conceptLabel, conceptMap, dscRef, indexPlants, links, tierOf, useResource,
   type Claim, type Concept, type Plant, type PlantIndex, type Texts,
@@ -39,10 +39,10 @@ function Chain({ p }: { p: PlantIndex }) {
   );
 }
 
-function Folio({ id, kind, texts, textStatus, retry, error, cmap, persistent, lit, selected, onSelect, onHover }: {
+function Folio({ id, kind, texts, textStatus, retry, error, cmap, persistent, lit, selected, onSelect, onHover, switcher }: {
   id: string | null | undefined; kind: "dsc" | "cul"; texts: Texts | undefined; textStatus: string; retry: () => void; error?: Error;
   cmap: Map<string, Concept>; persistent: Set<string>; lit: string | null; selected: string | null;
-  onSelect: (id: string) => void; onHover: (id: string | null) => void;
+  onSelect: (id: string) => void; onHover: (id: string | null) => void; switcher?: ReactNode;
 }) {
   const t = id ? texts?.[id] : undefined;
   const isD = kind === "dsc";
@@ -56,6 +56,7 @@ function Folio({ id, kind, texts, textStatus, retry, error, cmap, persistent, li
           {isD ? (t?.ref ?? (r ? `De materia medica ${r.book}.${r.chapter}` : "De materia medica")) : "Government and virtues"}
           {id && ext && <> <Ext href={ext}>{isD ? "Scaife reader" : "Gutenberg 49513"}</Ext></>}
         </p>
+        {switcher}
       </header>
       {!id && <p className="folio-empty">{isD ? "No chapter of Dioscorides is matched to this taxon." : "Culpeper has no monograph matched to this taxon."}</p>}
       {id && textStatus === "loading" && <Skeleton rows={8} label="Reading the text" />}
@@ -123,25 +124,22 @@ export function PlantPage({ slug, route }: { slug: string; route: Route }) {
       </nav>
       <header className="plant-head">
         <h1 id="page-title" tabIndex={-1} className="binomial">{p.taxon}</h1>
-        <p className="plant-sub">{[p.common_name, p.family].filter(Boolean).join(", ") || " "}</p>
+        <p className="plant-sub">{[p.common_name ? p.common_name.charAt(0).toUpperCase() + p.common_name.slice(1) : null, p.family].filter(Boolean).join(", ") || " "}</p>
       </header>
 
       <Chain p={entry} />
 
       <p className="facing-hint">Highlighted words are extracted indications. Hover or focus one for its MeSH concept; select it to trace it in the table.</p>
       <section className="facing" aria-label="The two texts">
-        <div className="folio-wrap">
-          {entry.dscNames.length > 1 && (
+          <Folio switcher={entry.dscNames.length > 1 ? (
             <div className="segmented chapters" role="group" aria-label="Dioscorides chapter">
               {entry.dscNames.map((n, i) => {
                 const rr = dscRef(n.monograph_id);
                 return <button key={n.monograph_id ?? i} type="button" aria-pressed={chapter === i} onClick={() => setChapter(i)}>{rr ? `Chapter ${rr.book}.${rr.chapter}` : n.monograph_id}</button>;
               })}
             </div>
-          )}
-          <Folio key={entry.dscNames[chapter]?.monograph_id ?? "none"} id={(entry.dscNames[chapter] ?? entry.dscName)?.monograph_id} kind="dsc" texts={texts.data} textStatus={texts.status} retry={texts.retry} error={texts.error}
+          ) : null} key={entry.dscNames[chapter]?.monograph_id ?? "none"} id={(entry.dscNames[chapter] ?? entry.dscName)?.monograph_id} kind="dsc" texts={texts.data} textStatus={texts.status} retry={texts.retry} error={texts.error}
           cmap={cmap} persistent={persistent} lit={lit} selected={selected} onSelect={select} onHover={setLit} />
-        </div>
         <Folio id={entry.culName?.monograph_id} kind="cul" texts={texts.data} textStatus={texts.status} retry={texts.retry} error={texts.error}
           cmap={cmap} persistent={persistent} lit={lit} selected={selected} onSelect={select} onHover={setLit} />
       </section>

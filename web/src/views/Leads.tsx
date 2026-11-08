@@ -101,7 +101,7 @@ export function Leads({ route }: { route: Route }) {
                         <p className="lead-concept">{label}{s?.common ? <span className="muted">, {s.common.toLowerCase()}</span> : null}</p>
                         {(l.flag_historical_safety || l.flag_threatened) && (
                           <p className="lead-flags">
-                            {l.flag_historical_safety && <span className="flag">Historically toxic</span>}
+                            {l.flag_historical_safety && <span className="flag" title="The pipeline flags a historical safety concern for this plant">Safety flag</span>}
                             {l.flag_threatened && <span className="flag">Threatened species</span>}
                           </p>
                         )}

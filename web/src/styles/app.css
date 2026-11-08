@@ -94,8 +94,6 @@ select { padding-right: var(--space-xl); appearance: none; background-image: lin
 .mode-toggle:active { transform: translateY(1px); }
 .mode-toggle:focus-visible { outline: 2px solid var(--color-focus); outline-offset: 2px; }
 
-.mock-note { background: var(--color-paper-2); border-bottom: var(--rule-hair) solid var(--color-rule); }
-.mock-note p { font-size: var(--text-sm); color: var(--color-ink-2); padding-block: var(--space-xs); max-width: 75ch; }
 
 /* ------------------------------------------------------------ hero and the glossed leaf */
 
@@ -276,7 +274,7 @@ select { padding-right: var(--space-xl); appearance: none; background-image: lin
 .chain-meta { font-size: var(--text-sm); color: var(--color-muted); }
 .chain-note { font-size: var(--text-sm); color: var(--color-ink-2); max-width: 40ch; }
 .folio-wrap { min-width: 0; display: grid; gap: var(--space-md); align-content: start; }
-.chapters { justify-self: start; flex-wrap: wrap; }
+.chapters { justify-self: start; flex-wrap: wrap; margin-top: var(--space-xs); }
 .verdict { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: var(--gap-columns); margin-bottom: var(--space-3xl); border-top: var(--rule-double) double var(--color-ink); }
 .verdict-item { display: grid; gap: var(--space-xs); align-content: start; padding-top: var(--space-lg); }
 .verdict-figure { font-family: var(--font-display); font-size: var(--text-display-s); line-height: 1; }
@@ -523,6 +521,6 @@ select { padding-right: var(--space-xl); appearance: none; background-image: lin
 }
 
 @media print {
-  .masthead, .mock-note, .colophon, .filters, .reading-more, .numbers { display: none; }
+  .masthead, .colophon, .filters, .reading-more, .numbers { display: none; }
   .fibre::before { display: none; }
 }

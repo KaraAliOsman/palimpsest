@@ -45,7 +45,7 @@ function Leaf({ lead, status, cmap, entry }: { lead: Lead | null; status: string
           <dl className="layer-gloss">
             <div><dt>Papers on {label.toLowerCase()}</dt><dd className="num">{fmt.int(lead.epmc_pair)}</dd></div>
             <div><dt>Known compounds</dt><dd className="num">{fmt.int(lead.n_compounds)}</dd></div>
-            <div><dt>IUCN</dt><dd>{lead.iucn ?? "n/a"}</dd></div>
+            <div><dt>IUCN</dt><dd>{lead.iucn ?? "Not assessed"}</dd></div>
           </dl>
         </li>
       </ol>
