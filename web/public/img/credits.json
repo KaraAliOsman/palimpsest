@@ -118,7 +118,7 @@
   {
    "id": "galenosgruppe-wiener-dioskurides",
    "role": "scene",
-   "label": "Seven physicians with Galen (fol. 3v)",
+   "label": "Galen and six physicians (fol. 3v)",
    "taxa": [],
    "basis": null,
    "work": "Vienna Dioscurides (Codex Vindobonensis med. gr. 1)",
@@ -588,10 +588,8 @@
    "id": "dioskurides-caltha",
    "role": "plant",
    "label": "χρυσάνθεμον",
-   "taxa": [
-    "Glebionis coronaria"
-   ],
-   "basis": "commons-binomial",
+   "taxa": [],
+   "basis": null,
    "work": "Vienna Dioscurides (Codex Vindobonensis med. gr. 1)",
    "made": "Constantinople, c. 512 CE",
    "holder": "Österreichische Nationalbibliothek, Vienna",
@@ -619,7 +617,8 @@
      "src": "img/codex/dioskurides-caltha-640.webp",
      "bytes": 64612
     }
-   ]
+   ],
+   "concordance": "χρυσάνθεμον is dsc:4.57 Helichrysum stoechas in our concordance; the Commons identification (Glebionis coronaria) conflicts, so the folio is not matched"
   },
   {
    "id": "leukonion",
@@ -1440,9 +1439,9 @@
    "role": "plant",
    "label": "ὑπερικόν",
    "taxa": [
-    "Hypericum perforatum"
+    "Hypericum triquetrifolium"
    ],
-   "basis": "commons-binomial",
+   "basis": "folio-lemma",
    "work": "Vienna Dioscurides (Codex Vindobonensis med. gr. 1)",
    "made": "Constantinople, c. 512 CE",
    "holder": "Österreichische Nationalbibliothek, Vienna",
@@ -1470,17 +1469,18 @@
      "src": "img/codex/wiener-dioskurides-hyxperikon-640.webp",
      "bytes": 85544
     }
-   ]
+   ],
+   "concordance": "dsc:3.154 ὑπερικόν"
   },
   {
    "id": "wiener-dioskurides-thymbra-und-hyssopon",
    "role": "plant",
    "label": "θύμβρα and ὕσσωπος",
    "taxa": [
-    "Satureja hortensis",
-    "Hyssopus officinalis"
+    "Satureja thymbra",
+    "Origanum syriacum"
    ],
-   "basis": "commons-binomial",
+   "basis": "folio-lemma",
    "work": "Vienna Dioscurides (Codex Vindobonensis med. gr. 1)",
    "made": "Constantinople, c. 512 CE",
    "holder": "Österreichische Nationalbibliothek, Vienna",
@@ -1508,7 +1508,8 @@
      "src": "img/codex/wiener-dioskurides-thymbra-und-hyssopon-640.webp",
      "bytes": 30668
     }
-   ]
+   ],
+   "concordance": "dsc:3.37 θύμβρα; dsc:3.25 ὕσσωπος"
   },
   {
    "id": "wiener-dioskurides-bromos",
@@ -2107,9 +2108,9 @@
    "role": "plant",
    "label": "ἀείζῳον τὸ μικρόν",
    "taxa": [
-    "Sempervivum tectorum"
+    "Sedum"
    ],
-   "basis": "commons-binomial",
+   "basis": "folio-lemma",
    "work": "Vienna Dioscurides (Codex Vindobonensis med. gr. 1)",
    "made": "Constantinople, c. 512 CE",
    "holder": "Österreichische Nationalbibliothek, Vienna",
@@ -2137,7 +2138,8 @@
      "src": "img/codex/aeizon-to-mikron-sempervivum-tectorum-640.webp",
      "bytes": 136618
     }
-   ]
+   ],
+   "concordance": "dsc:4.89 ἀείζῳον τὸ μικρόν"
   },
   {
    "id": "aeizon-to-leptophyllon-sedum",
@@ -3098,9 +3100,9 @@
    "role": "plant",
    "label": "χόνδρος, fol. 376v",
    "taxa": [
-    "Hordeum vulgare"
+    "Triticum turgidum"
    ],
-   "basis": "commons-binomial",
+   "basis": "folio-lemma",
    "work": "Vienna Dioscurides (Codex Vindobonensis med. gr. 1)",
    "made": "Constantinople, c. 512 CE",
    "holder": "Österreichische Nationalbibliothek, Vienna",
@@ -3122,7 +3124,8 @@
      "src": "img/codex/khondros-376v-dioscoride-vienne-496.webp",
      "bytes": 32770
     }
-   ]
+   ],
+   "concordance": "dsc:2.96 χόνδρος (emmer groats)"
   },
   {
    "id": "de-historia-stirpium-commentarii-insignes-page-549-936500657",

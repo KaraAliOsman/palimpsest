@@ -1,0 +1,1476 @@
+{
+ "question": "Do our AI-curated identifications of Dioscorides' plants agree with expert identifications?",
+ "headline": {
+  "species_top1": {
+   "k": 38,
+   "n": 54,
+   "share": 0.7037037037037037,
+   "ci95": [
+    0.572,
+    0.809
+   ]
+  },
+  "species_top1_species_rank_ids": {
+   "k": 38,
+   "n": 47,
+   "share": 0.8085106382978723,
+   "ci95": [
+    0.675,
+    0.896
+   ]
+  },
+  "genus_top1": {
+   "k": 49,
+   "n": 54,
+   "share": 0.9074074074074074,
+   "ci95": [
+    0.801,
+    0.96
+   ]
+  },
+  "species_any_candidate": {
+   "k": 43,
+   "n": 54,
+   "share": 0.7962962962962963,
+   "ci95": [
+    0.671,
+    0.882
+   ]
+  },
+  "n_genus_rank_ids": 7,
+  "row_level_species_top1": {
+   "k": 39,
+   "n": 62,
+   "share": 0.6290322580645161,
+   "ci95": [
+    0.505,
+    0.738
+   ]
+  },
+  "row_level_genus_top1": {
+   "k": 56,
+   "n": 62,
+   "share": 0.9032258064516129,
+   "ci95": [
+    0.805,
+    0.955
+   ]
+  }
+ },
+ "definitions": {
+  "unit": "Dioscorides chapter (Wellmann numbering as cited by Lardos); kinds within a chapter pooled",
+  "expert_top1": "best non-empty botanical tier, ties broken by medicinal score (remaining ties: any counts)",
+  "species": "our identification at species rank equals an expert top-1 name (raw or GBIF-accepted)",
+  "genus": "same genus as an expert top-1 candidate",
+  "ci": "Wilson score 95%"
+ },
+ "caveat": "Our identifications were curated with AI assistance (Claude), which may have seen Lardos et al. (2024) or the same scholarly sources (Berendes, Beck, Gunther) during training; agreement therefore measures consistency with expert scholarship, not an independent blind re-identification. Lardos' candidate lists also come from the literature, so both sides share sources.",
+ "reproduce": "PYTHONPATH=src python scripts/expert_benchmark.py",
+ "generated": "2026-11-08",
+ "gold": {
+  "citation": "Lardos A, Patmore K, Allkin R, Lazarou R, Nesbitt M, Scott AC, Zipser B (2024). J Ethnopharmacol 322:117622. doi:10.1016/j.jep.2023.117622",
+  "data_doi": "10.17637/rh.23736189",
+  "licence": "CC BY 4.0 (verified via DataCite for the figshare record and via Europe PMC for the article)",
+  "access_note": "figshare (api.figshare.com, figshare.com, royalholloway.figshare.com) returns HTTP 403 to every request from our network, so the raw data files could not be downloaded; the expert results were parsed from the article's open-access JATS XML (Europe PMC PMC7615571, CC BY), which publishes the same Tables 1-2.",
+  "n_rows": 61,
+  "n_chapters_matched": 54
+ },
+ "by_confidence": {
+  "high": {
+   "species_top1": {
+    "k": 23,
+    "n": 30,
+    "share": 0.7666666666666667,
+    "ci95": [
+     0.591,
+     0.882
+    ]
+   },
+   "genus_top1": {
+    "k": 28,
+    "n": 30,
+    "share": 0.9333333333333333,
+    "ci95": [
+     0.787,
+     0.982
+    ]
+   }
+  },
+  "medium": {
+   "species_top1": {
+    "k": 14,
+    "n": 20,
+    "share": 0.7,
+    "ci95": [
+     0.481,
+     0.855
+    ]
+   },
+   "genus_top1": {
+    "k": 19,
+    "n": 20,
+    "share": 0.95,
+    "ci95": [
+     0.764,
+     0.991
+    ]
+   }
+  },
+  "low": {
+   "species_top1": {
+    "k": 1,
+    "n": 4,
+    "share": 0.25,
+    "ci95": [
+     0.046,
+     0.699
+    ]
+   },
+   "genus_top1": {
+    "k": 2,
+    "n": 4,
+    "share": 0.5,
+    "ci95": [
+     0.15,
+     0.85
+    ]
+   }
+  }
+ },
+ "units": [
+  {
+   "chapter": "1.1",
+   "headword": "ἶρις Ἰλλυρική",
+   "ours": "Iris germanica",
+   "confidence": "medium",
+   "expert_top1": [
+    "Iris fiorentina",
+    "Iris × germanica"
+   ],
+   "species_agree": true,
+   "genus_agree": true
+  },
+  {
+   "chapter": "1.4",
+   "headword": "κύπερος",
+   "ours": "Cyperus rotundus",
+   "confidence": "medium",
+   "expert_top1": [
+    "Cyperus rotundus"
+   ],
+   "species_agree": true,
+   "genus_agree": true
+  },
+  {
+   "chapter": "1.10",
+   "headword": "ἄσαρον",
+   "ours": "Asarum europaeum",
+   "confidence": "high",
+   "expert_top1": [
+    "Asarum europaeum"
+   ],
+   "species_agree": true,
+   "genus_agree": true
+  },
+  {
+   "chapter": "1.90",
+   "headword": "ῥάμνος",
+   "ours": "Lycium europaeum",
+   "confidence": "low",
+   "expert_top1": [
+    "Rhamnus oleoides"
+   ],
+   "species_agree": false,
+   "genus_agree": false
+  },
+  {
+   "chapter": "1.95",
+   "headword": "κύπρος",
+   "ours": "Lawsonia inermis",
+   "confidence": "high",
+   "expert_top1": [
+    "Lawsonia inermis"
+   ],
+   "species_agree": true,
+   "genus_agree": true
+  },
+  {
+   "chapter": "1.108",
+   "headword": "ῥοῦς",
+   "ours": "Rhus coriaria",
+   "confidence": "high",
+   "expert_top1": [
+    "Rhus coriaria"
+   ],
+   "species_agree": true,
+   "genus_agree": true
+  },
+  {
+   "chapter": "2.126",
+   "headword": "ἀρνόγλωσσον",
+   "ours": "Plantago major",
+   "confidence": "high",
+   "expert_top1": [
+    "Plantago lagopus",
+    "Plantago lanceolata",
+    "Plantago major"
+   ],
+   "species_agree": true,
+   "genus_agree": true
+  },
+  {
+   "chapter": "2.139",
+   "headword": "καυκαλίς",
+   "ours": "Tordylium apulum",
+   "confidence": "low",
+   "expert_top1": [
+    "Pimpinella saxifraga",
+    "Tordylium aegyptiacum"
+   ],
+   "species_agree": false,
+   "genus_agree": true
+  },
+  {
+   "chapter": "2.164",
+   "headword": "κυκλάμινος",
+   "ours": "Cyclamen",
+   "confidence": "high",
+   "expert_top1": [
+    "Cyclamen persicum"
+   ],
+   "species_agree": false,
+   "genus_agree": true
+  },
+  {
+   "chapter": "2.166",
+   "headword": "δρακόντιον",
+   "ours": "Dracunculus vulgaris",
+   "confidence": "medium",
+   "expert_top1": [
+    "Dracunculus vulgaris"
+   ],
+   "species_agree": true,
+   "genus_agree": true
+  },
+  {
+   "chapter": "2.167",
+   "headword": "ἄρον",
+   "ours": "Arum italicum",
+   "confidence": "medium",
+   "expert_top1": [
+    "Arum dioscoridis"
+   ],
+   "species_agree": false,
+   "genus_agree": true
+  },
+  {
+   "chapter": "2.169",
+   "headword": "ἀσφόδελος",
+   "ours": "Asphodelus ramosus",
+   "confidence": "medium",
+   "expert_top1": [
+    "Asphodelus aestivus"
+   ],
+   "species_agree": false,
+   "genus_agree": true
+  },
+  {
+   "chapter": "2.173",
+   "headword": "κάππαρις",
+   "ours": "Capparis spinosa",
+   "confidence": "high",
+   "expert_top1": [
+    "Capparis spinosa"
+   ],
+   "species_agree": true,
+   "genus_agree": true
+  },
+  {
+   "chapter": "2.180",
+   "headword": "χελιδόνιον μέγα",
+   "ours": "Chelidonium majus",
+   "confidence": "high",
+   "expert_top1": [
+    "Chelidonium majus"
+   ],
+   "species_agree": true,
+   "genus_agree": true
+  },
+  {
+   "chapter": "3.3",
+   "headword": "γεντιανή",
+   "ours": "Gentiana lutea",
+   "confidence": "high",
+   "expert_top1": [
+    "Gentiana lutea"
+   ],
+   "species_agree": true,
+   "genus_agree": true
+  },
+  {
+   "chapter": "3.4",
+   "headword": "ἀριστολοχεία",
+   "ours": "Aristolochia",
+   "confidence": "high",
+   "expert_top1": [
+    "Aristolochia parvifolia",
+    "Aristolochia rotunda"
+   ],
+   "species_agree": false,
+   "genus_agree": true
+  },
+  {
+   "chapter": "3.5",
+   "headword": "γλυκύρριζα",
+   "ours": "Glycyrrhiza glabra",
+   "confidence": "medium",
+   "expert_top1": [
+    "Glycyrrhiza echinata",
+    "Glycyrrhiza glabra"
+   ],
+   "species_agree": true,
+   "genus_agree": true
+  },
+  {
+   "chapter": "3.6",
+   "headword": "κενταύρειον τὸ μέγα",
+   "ours": "Rhaponticoides centaurium",
+   "confidence": "medium",
+   "expert_top1": [
+    "Rhaponticoides centaurium"
+   ],
+   "species_agree": true,
+   "genus_agree": true
+  },
+  {
+   "chapter": "3.7",
+   "headword": "κενταύρειον τὸ λεπτὸν",
+   "ours": "Centaurium erythraea",
+   "confidence": "high",
+   "expert_top1": [
+    "Centaurium erythraea"
+   ],
+   "species_agree": true,
+   "genus_agree": true
+  },
+  {
+   "chapter": "3.12",
+   "headword": "ἄκανθα λευκή",
+   "ours": "Lophiolepis ferox",
+   "confidence": "low",
+   "expert_top1": [
+    "Onopordum bracteatum",
+    "Picnomon acarna"
+   ],
+   "species_agree": false,
+   "genus_agree": false
+  },
+  {
+   "chapter": "3.20",
+   "headword": "τραγάκανθα",
+   "ours": "Astragalus",
+   "confidence": "medium",
+   "expert_top1": [
+    "Astragalus creticus"
+   ],
+   "species_agree": false,
+   "genus_agree": true
+  },
+  {
+   "chapter": "3.22",
+   "headword": "ἀλόη",
+   "ours": "Aloe vera",
+   "confidence": "medium",
+   "expert_top1": [
+    "Aloe vera"
+   ],
+   "species_agree": true,
+   "genus_agree": true
+  },
+  {
+   "chapter": "3.52",
+   "headword": "σταφυλῖνος ἄγριος",
+   "ours": "Daucus carota",
+   "confidence": "high",
+   "expert_top1": [
+    "Daucus carota"
+   ],
+   "species_agree": true,
+   "genus_agree": true
+  },
+  {
+   "chapter": "3.72",
+   "headword": "δαῦκος",
+   "ours": "Athamanta cretensis",
+   "confidence": "medium",
+   "expert_top1": [
+    "Athamanta cretensis"
+   ],
+   "species_agree": true,
+   "genus_agree": true
+  },
+  {
+   "chapter": "3.79",
+   "headword": "μελάνθιον",
+   "ours": "Nigella sativa",
+   "confidence": "high",
+   "expert_top1": [
+    "Nigella sativa"
+   ],
+   "species_agree": true,
+   "genus_agree": true
+  },
+  {
+   "chapter": "3.91",
+   "headword": "ἄλυσσον",
+   "ours": "Fibigia clypeata",
+   "confidence": "low",
+   "expert_top1": [
+    "Fibigia clypeata"
+   ],
+   "species_agree": true,
+   "genus_agree": true
+  },
+  {
+   "chapter": "3.105",
+   "headword": "πράσιον",
+   "ours": "Marrubium vulgare",
+   "confidence": "high",
+   "expert_top1": [
+    "Marrubium vulgare"
+   ],
+   "species_agree": true,
+   "genus_agree": true
+  },
+  {
+   "chapter": "3.109",
+   "headword": "τρίφυλλον",
+   "ours": "Bituminaria bituminosa",
+   "confidence": "high",
+   "expert_top1": [
+    "Bituminaria bituminosa"
+   ],
+   "species_agree": true,
+   "genus_agree": true
+  },
+  {
+   "chapter": "3.121",
+   "headword": "κόνυζα",
+   "ours": "Dittrichia viscosa",
+   "confidence": "medium",
+   "expert_top1": [
+    "Dittrichia graveolens",
+    "Dittrichia viscosa"
+   ],
+   "species_agree": true,
+   "genus_agree": true
+  },
+  {
+   "chapter": "3.134",
+   "headword": "ἄσπληνος",
+   "ours": "Asplenium ceterach",
+   "confidence": "high",
+   "expert_top1": [
+    "Asplenium ceterach"
+   ],
+   "species_agree": true,
+   "genus_agree": true
+  },
+  {
+   "chapter": "3.137",
+   "headword": "ἀνθεμίς",
+   "ours": "Matricaria chamomilla",
+   "confidence": "medium",
+   "expert_top1": [
+    "Matricaria chamomilla"
+   ],
+   "species_agree": true,
+   "genus_agree": true
+  },
+  {
+   "chapter": "3.158",
+   "headword": "χαμαίπιτυς",
+   "ours": "Ajuga chamaepitys",
+   "confidence": "high",
+   "expert_top1": [
+    "Ajuga chamaepitys",
+    "Ajuga iva",
+    "Thymelaea hirsuta"
+   ],
+   "species_agree": true,
+   "genus_agree": true
+  },
+  {
+   "chapter": "4.1",
+   "headword": "κέστρον τὸ καλούμενον",
+   "ours": "Betonica officinalis",
+   "confidence": "high",
+   "expert_top1": [
+    "Sideritis cretica"
+   ],
+   "species_agree": false,
+   "genus_agree": false
+  },
+  {
+   "chapter": "4.15",
+   "headword": "τρίβολος",
+   "ours": "Tribulus terrestris",
+   "confidence": "high",
+   "expert_top1": [
+    "Trapa natans"
+   ],
+   "species_agree": false,
+   "genus_agree": false
+  },
+  {
+   "chapter": "4.33",
+   "headword": "σιδηρῖτις",
+   "ours": "Sideritis",
+   "confidence": "medium",
+   "expert_top1": [
+    "Sideritis montana",
+    "Sideritis perfoliata"
+   ],
+   "species_agree": false,
+   "genus_agree": true
+  },
+  {
+   "chapter": "4.41",
+   "headword": "Εὐπατόριος",
+   "ours": "Agrimonia eupatoria",
+   "confidence": "high",
+   "expert_top1": [
+    "Agrimonia eupatoria"
+   ],
+   "species_agree": true,
+   "genus_agree": true
+  },
+  {
+   "chapter": "4.46",
+   "headword": "ἵππουρις",
+   "ours": "Equisetum",
+   "confidence": "high",
+   "expert_top1": [
+    "Equisetum ramosissimum",
+    "Equisetum telmateia"
+   ],
+   "species_agree": false,
+   "genus_agree": true
+  },
+  {
+   "chapter": "4.57",
+   "headword": "ἑλίχρυσον ἢ χρυσάνθεμον",
+   "ours": "Helichrysum stoechas",
+   "confidence": "medium",
+   "expert_top1": [
+    "Helichrysum italicum"
+   ],
+   "species_agree": false,
+   "genus_agree": true
+  },
+  {
+   "chapter": "4.68",
+   "headword": "ὑοσκύαμος",
+   "ours": "Hyoscyamus",
+   "confidence": "high",
+   "expert_top1": [
+    "Hyoscyamus albus",
+    "Hyoscyamus aureus",
+    "Hyoscyamus niger"
+   ],
+   "species_agree": false,
+   "genus_agree": true
+  },
+  {
+   "chapter": "4.69",
+   "headword": "ψύλλιον",
+   "ours": "Plantago afra",
+   "confidence": "high",
+   "expert_top1": [
+    "Plantago afra"
+   ],
+   "species_agree": true,
+   "genus_agree": true
+  },
+  {
+   "chapter": "4.70",
+   "headword": "στρύχνον κηπαῖον",
+   "ours": "Solanum nigrum",
+   "confidence": "high",
+   "expert_top1": [
+    "Solanum nigrum"
+   ],
+   "species_agree": true,
+   "genus_agree": true
+  },
+  {
+   "chapter": "4.75",
+   "headword": "μανδραγόρας",
+   "ours": "Mandragora officinarum",
+   "confidence": "high",
+   "expert_top1": [
+    "Mandragora autumnalis",
+    "Mandragora officinarum"
+   ],
+   "species_agree": true,
+   "genus_agree": true
+  },
+  {
+   "chapter": "4.78",
+   "headword": "κώνειον",
+   "ours": "Conium maculatum",
+   "confidence": "high",
+   "expert_top1": [
+    "Conium maculatum"
+   ],
+   "species_agree": true,
+   "genus_agree": true
+  },
+  {
+   "chapter": "4.81",
+   "headword": "ν ήριον",
+   "ours": "Nerium oleander",
+   "confidence": "high",
+   "expert_top1": [
+    "Nerium oleander"
+   ],
+   "species_agree": true,
+   "genus_agree": true
+  },
+  {
+   "chapter": "4.103",
+   "headword": "φλόμος",
+   "ours": "Verbascum",
+   "confidence": "high",
+   "expert_top1": [
+    "Verbascum phlomoides"
+   ],
+   "species_agree": false,
+   "genus_agree": true
+  },
+  {
+   "chapter": "4.134",
+   "headword": "ἀδίαντον",
+   "ours": "Adiantum capillus-veneris",
+   "confidence": "high",
+   "expert_top1": [
+    "Adiantum capillus-veneris"
+   ],
+   "species_agree": true,
+   "genus_agree": true
+  },
+  {
+   "chapter": "4.144",
+   "headword": "μυρσίνη ἀγρία",
+   "ours": "Ruscus aculeatus",
+   "confidence": "high",
+   "expert_top1": [
+    "Ruscus aculeatus"
+   ],
+   "species_agree": true,
+   "genus_agree": true
+  },
+  {
+   "chapter": "4.147",
+   "headword": "χαμαιδάφνη",
+   "ours": "Danae racemosa",
+   "confidence": "medium",
+   "expert_top1": [
+    "Ruscus hypophyllum"
+   ],
+   "species_agree": false,
+   "genus_agree": false
+  },
+  {
+   "chapter": "4.152",
+   "headword": "σταφὶς ἀγρία",
+   "ours": "Staphisagria macrosperma",
+   "confidence": "high",
+   "expert_top1": [
+    "Delphinium staphisagria"
+   ],
+   "species_agree": true,
+   "genus_agree": true
+  },
+  {
+   "chapter": "4.181",
+   "headword": "ἄμπελος ἀγρία",
+   "ours": "Dioscorea communis",
+   "confidence": "medium",
+   "expert_top1": [
+    "Dioscorea communis",
+    "Vitis vinifera"
+   ],
+   "species_agree": true,
+   "genus_agree": true
+  },
+  {
+   "chapter": "4.183",
+   "headword": "ἄμπελος μέλαινα",
+   "ours": "Bryonia alba",
+   "confidence": "medium",
+   "expert_top1": [
+    "Bryonia alba",
+    "Dioscorea communis"
+   ],
+   "species_agree": true,
+   "genus_agree": true
+  },
+  {
+   "chapter": "4.186",
+   "headword": "πολυπόδιον",
+   "ours": "Polypodium vulgare",
+   "confidence": "medium",
+   "expert_top1": [
+    "Polypodium cambricum",
+    "Polypodium vulgare"
+   ],
+   "species_agree": true,
+   "genus_agree": true
+  },
+  {
+   "chapter": "4.190",
+   "headword": "ἡλιοτρόπιον τὸ μέγα",
+   "ours": "Heliotropium europaeum",
+   "confidence": "medium",
+   "expert_top1": [
+    "Heliotropium europaeum"
+   ],
+   "species_agree": true,
+   "genus_agree": true
+  },
+  {
+   "chapter": "5.2",
+   "headword": "ἄμπελος ἀγρία διττή",
+   "ours": "Vitis vinifera",
+   "confidence": "medium",
+   "expert_top1": [
+    "Dioscorea communis",
+    "Vitis vinifera"
+   ],
+   "species_agree": true,
+   "genus_agree": true
+  }
+ ],
+ "disagreements": [
+  {
+   "chapter": "1.90",
+   "headword": "ῥάμνος",
+   "ours": "Lycium europaeum",
+   "our_rank": "species",
+   "confidence": "low",
+   "expert_top1": [
+    "Rhamnus oleoides"
+   ],
+   "expert_top_tier": [
+    "Rhamnus oleoides"
+   ],
+   "expert_candidates": [
+    "Rhamnus oleoides [moderate, med 1]",
+    "Frangula purshiana [not_in_flora, med 0]",
+    "Rhamnus lycioides [not_in_flora, med 0]"
+   ],
+   "genus_agrees": false,
+   "ours_in_expert_candidates": false,
+   "note": "Lardos evaluate only ῥάμνος 'μέλας' (Rhamnus); we follow the reading of the chapter's first kind as Lycium (low confidence)."
+  },
+  {
+   "chapter": "2.139",
+   "headword": "καυκαλίς",
+   "ours": "Tordylium apulum",
+   "our_rank": "species",
+   "confidence": "low",
+   "expert_top1": [
+    "Pimpinella saxifraga",
+    "Tordylium aegyptiacum"
+   ],
+   "expert_top_tier": [
+    "Pimpinella saxifraga",
+    "Tordylium aegyptiacum"
+   ],
+   "expert_candidates": [
+    "Pimpinella saxifraga [moderate, med 1]",
+    "Tordylium aegyptiacum [moderate, med 1]",
+    "Papaver [weak, med 0]"
+   ],
+   "genus_agrees": true,
+   "ours_in_expert_candidates": false,
+   "note": "Lardos' best candidates Pimpinella saxifraga / Tordylium aegyptiacum; we have Tordylium apulum (same genus, low confidence)."
+  },
+  {
+   "chapter": "2.164",
+   "headword": "κυκλάμινος",
+   "ours": "Cyclamen",
+   "our_rank": "genus",
+   "confidence": "high",
+   "expert_top1": [
+    "Cyclamen persicum"
+   ],
+   "expert_top_tier": [
+    "Cyclamen graecum",
+    "Cyclamen hederifolium",
+    "Cyclamen persicum"
+   ],
+   "expert_candidates": [
+    "Cyclamen graecum [strong, med 0]",
+    "Cyclamen hederifolium [strong, med 0]",
+    "Cyclamen persicum [strong, med 3]",
+    "Cyclamen cyprium [weak, med 3]",
+    "Cyclamen purpurascens [not_in_flora, med 0]"
+   ],
+   "genus_agrees": true,
+   "ours_in_expert_candidates": false,
+   "note": "Genus-rank ID (Cyclamen): chapter covers several cyclamens; Lardos top-1 C. persicum."
+  },
+  {
+   "chapter": "2.167",
+   "headword": "ἄρον",
+   "ours": "Arum italicum",
+   "our_rank": "species",
+   "confidence": "medium",
+   "expert_top1": [
+    "Arum dioscoridis"
+   ],
+   "expert_top_tier": [
+    "Arisarum vulgare",
+    "Arum dioscoridis",
+    "Arum italicum"
+   ],
+   "expert_candidates": [
+    "Arisarum vulgare [moderate, med 2]",
+    "Arum dioscoridis [moderate, med 3]",
+    "Arum italicum [moderate, med 2]",
+    "Arum maculatum [weak, med 2]",
+    "Dracunculus vulgaris [weak, med 2]"
+   ],
+   "genus_agrees": true,
+   "ours_in_expert_candidates": true,
+   "note": "Lardos attach 'δρακοντία μικρά' to 2.167 (our headword ἄρον); we have Arum italicum, Lardos top-1 Arum dioscoridis (same genus; ours in their Moderate tier)."
+  },
+  {
+   "chapter": "2.169",
+   "headword": "ἀσφόδελος",
+   "ours": "Asphodelus ramosus",
+   "our_rank": "species",
+   "confidence": "medium",
+   "expert_top1": [
+    "Asphodelus aestivus"
+   ],
+   "expert_top_tier": [
+    "Asphodelus aestivus",
+    "Asphodelus fistulosus",
+    "Asphodelus ramosus"
+   ],
+   "expert_candidates": [
+    "Asphodelus aestivus [moderate, med 2]",
+    "Asphodelus fistulosus [moderate, med 1]",
+    "Asphodelus ramosus [moderate, med 1]"
+   ],
+   "genus_agrees": true,
+   "ours_in_expert_candidates": true,
+   "note": "Asphodelus: all three Lardos candidates Moderate; medicinal tie-break picks A. aestivus, ours A. ramosus (in their top tier)."
+  },
+  {
+   "chapter": "3.4",
+   "headword": "ἀριστολοχεία",
+   "ours": "Aristolochia",
+   "our_rank": "genus",
+   "confidence": "high",
+   "expert_top1": [
+    "Aristolochia parvifolia",
+    "Aristolochia rotunda"
+   ],
+   "expert_top_tier": [
+    "Aristolochia pallida",
+    "Aristolochia parvifolia",
+    "Aristolochia rotunda"
+   ],
+   "expert_candidates": [
+    "Aristolochia parvifolia [strong, med 3]",
+    "Aristolochia sempervirens [weak, med 3]",
+    "Aristolochia fontanesii [not_in_flora, med 0]",
+    "Aristolochia pallida [moderate, med 0]",
+    "Aristolochia rotunda [moderate, med 3]",
+    "Aristolochia sempervirens [weak, med 3]"
+   ],
+   "genus_agrees": true,
+   "ours_in_expert_candidates": false,
+   "note": "Genus-rank ID (Aristolochia): chapter describes several aristolochias; genus agrees."
+  },
+  {
+   "chapter": "3.12",
+   "headword": "ἄκανθα λευκή",
+   "ours": "Lophiolepis ferox",
+   "our_rank": "species",
+   "confidence": "low",
+   "expert_top1": [
+    "Onopordum bracteatum",
+    "Picnomon acarna"
+   ],
+   "expert_top_tier": [
+    "Onopordum bracteatum",
+    "Picnomon acarna"
+   ],
+   "expert_candidates": [
+    "Onopordum bracteatum [moderate, med 1]",
+    "Picnomon acarna [moderate, med 1]",
+    "Echinops graecus [not_in_flora, med 0]",
+    "Cirsium ferox [not_in_flora, med 0]"
+   ],
+   "genus_agrees": false,
+   "ours_in_expert_candidates": true,
+   "note": "Thistle 'white acanthus': ours Lophiolepis ferox (= Cirsium ferox, in Lardos' list as 'not in flora'); Lardos top-1 Onopordum/Picnomon. Low confidence on our side."
+  },
+  {
+   "chapter": "3.20",
+   "headword": "τραγάκανθα",
+   "ours": "Astragalus",
+   "our_rank": "genus",
+   "confidence": "medium",
+   "expert_top1": [
+    "Astragalus creticus"
+   ],
+   "expert_top_tier": [
+    "Astragalus creticus"
+   ],
+   "expert_candidates": [
+    "Astragalus creticus [moderate, med 0]",
+    "Astragalus sempervirens [not_in_flora, med 1]",
+    "Astragalus prusianus [not_in_flora, med 0]"
+   ],
+   "genus_agrees": true,
+   "ours_in_expert_candidates": false,
+   "note": "Genus-rank ID (Astragalus); genus agrees."
+  },
+  {
+   "chapter": "4.1",
+   "headword": "κέστρον τὸ καλούμενον",
+   "ours": "Betonica officinalis",
+   "our_rank": "species",
+   "confidence": "high",
+   "expert_top1": [
+    "Sideritis cretica"
+   ],
+   "expert_top_tier": [
+    "Sideritis cretica"
+   ],
+   "expert_candidates": [
+    "Sideritis cretica [weak, med 0]",
+    "Betonica alopecuros [not_in_flora, med 0]"
+   ],
+   "genus_agrees": false,
+   "ours_in_expert_candidates": false,
+   "note": "κέστρον / βεττονική: ours Betonica officinalis (Berendes); Lardos evaluate Sideritis cretica (Weak) and Betonica alopecuros. Genuine disagreement."
+  },
+  {
+   "chapter": "4.15",
+   "headword": "τρίβολος",
+   "ours": "Tribulus terrestris",
+   "our_rank": "species",
+   "confidence": "high",
+   "expert_top1": [
+    "Trapa natans"
+   ],
+   "expert_top_tier": [
+    "Trapa natans"
+   ],
+   "expert_candidates": [
+    "Trapa natans [moderate, med 0]"
+   ],
+   "genus_agrees": false,
+   "ours_in_expert_candidates": false,
+   "note": "Lardos evaluate only the aquatic τρίβολος ('ἔνυδρος' = Trapa natans); our chapter-level ID is the land caltrop Tribulus terrestris, which the chapter also describes."
+  },
+  {
+   "chapter": "4.33",
+   "headword": "σιδηρῖτις",
+   "ours": "Sideritis",
+   "our_rank": "genus",
+   "confidence": "medium",
+   "expert_top1": [
+    "Sideritis montana",
+    "Sideritis perfoliata"
+   ],
+   "expert_top_tier": [
+    "Sideritis montana",
+    "Sideritis perfoliata",
+    "Sideritis romana",
+    "Sideritis sipylea"
+   ],
+   "expert_candidates": [
+    "Sideritis montana [strong, med 1]",
+    "Sideritis perfoliata [strong, med 1]",
+    "Sideritis romana [strong, med 0]",
+    "Sideritis sipylea [strong, med 0]",
+    "Sideritis cypria [moderate, med 1]",
+    "Stachys recta [moderate, med 0]",
+    "Ajuga reptans [moderate, med 0]",
+    "Sideritis scardica [not_in_flora, med 1]"
+   ],
+   "genus_agrees": true,
+   "ours_in_expert_candidates": false,
+   "note": "Genus-rank ID (Sideritis); genus agrees."
+  },
+  {
+   "chapter": "4.46",
+   "headword": "ἵππουρις",
+   "ours": "Equisetum",
+   "our_rank": "genus",
+   "confidence": "high",
+   "expert_top1": [
+    "Equisetum ramosissimum",
+    "Equisetum telmateia"
+   ],
+   "expert_top_tier": [
+    "Ephedra foeminea",
+    "Equisetum ramosissimum",
+    "Equisetum telmateia"
+   ],
+   "expert_candidates": [
+    "Equisetum ramosissimum [strong, med 3]",
+    "Equisetum telmateia [strong, med 3]",
+    "Ephedra foeminea [strong, med 0]",
+    "Equisetum arvense [moderate, med 3]",
+    "Equisetum sylvaticum [moderate, med 1]",
+    "Equisetum fluviatile [moderate, med 0]",
+    "Ephedra major [weak, med 2]",
+    "Ephedra fragilis [not_in_flora, med 2]"
+   ],
+   "genus_agrees": true,
+   "ours_in_expert_candidates": false,
+   "note": "Genus-rank ID (Equisetum); genus agrees."
+  },
+  {
+   "chapter": "4.57",
+   "headword": "ἑλίχρυσον ἢ χρυσάνθεμον",
+   "ours": "Helichrysum stoechas",
+   "our_rank": "species",
+   "confidence": "medium",
+   "expert_top1": [
+    "Helichrysum italicum"
+   ],
+   "expert_top_tier": [
+    "Helichrysum italicum",
+    "Helichrysum orientale",
+    "Helichrysum stoechas"
+   ],
+   "expert_candidates": [
+    "Helichrysum stoechas [strong, med None]",
+    "Helichrysum italicum [strong, med 1]",
+    "Helichrysum orientale [strong, med 0]",
+    "Petrosedum ochroleucum [moderate, med 0]",
+    "Sedum eriocarpum [moderate, med 0]",
+    "Teucrium polium [weak, med 3]",
+    "Helichrysum stoechas [not_in_flora, med 1]",
+    "Tanacetum annuum [not_in_flora, med 0]"
+   ],
+   "genus_agrees": true,
+   "ours_in_expert_candidates": true,
+   "note": "Helichrysum: ours H. stoechas (in Lardos' Strong tier), their medicinal tie-break picks H. italicum."
+  },
+  {
+   "chapter": "4.68",
+   "headword": "ὑοσκύαμος",
+   "ours": "Hyoscyamus",
+   "our_rank": "genus",
+   "confidence": "high",
+   "expert_top1": [
+    "Hyoscyamus albus",
+    "Hyoscyamus aureus",
+    "Hyoscyamus niger"
+   ],
+   "expert_top_tier": [
+    "Hyoscyamus albus",
+    "Hyoscyamus aureus",
+    "Hyoscyamus niger"
+   ],
+   "expert_candidates": [
+    "Hyoscyamus aureus [moderate, med None]",
+    "Hyoscyamus niger [moderate, med 2]",
+    "Hyoscyamus albus [strong, med 3]"
+   ],
+   "genus_agrees": true,
+   "ours_in_expert_candidates": false,
+   "note": "Genus-rank ID (Hyoscyamus; three kinds by flower colour); genus agrees."
+  },
+  {
+   "chapter": "4.103",
+   "headword": "φλόμος",
+   "ours": "Verbascum",
+   "our_rank": "genus",
+   "confidence": "high",
+   "expert_top1": [
+    "Verbascum phlomoides"
+   ],
+   "expert_top_tier": [
+    "Verbascum phlomoides"
+   ],
+   "expert_candidates": [
+    "Verbascum phlomoides [strong, med 3]",
+    "Verbascum sinuatum [moderate, med 3]",
+    "Verbascum thapsus [moderate, med 3]",
+    "Verbascum undulatum [not_in_flora, med 0]"
+   ],
+   "genus_agrees": true,
+   "ours_in_expert_candidates": false,
+   "note": "Genus-rank ID (Verbascum); genus agrees."
+  },
+  {
+   "chapter": "4.147",
+   "headword": "χαμαιδάφνη",
+   "ours": "Danae racemosa",
+   "our_rank": "species",
+   "confidence": "medium",
+   "expert_top1": [
+    "Ruscus hypophyllum"
+   ],
+   "expert_top_tier": [
+    "Ruscus hypophyllum"
+   ],
+   "expert_candidates": [
+    "Ruscus hypophyllum [moderate, med 1]",
+    "Danae racemosa [weak, med 1]"
+   ],
+   "genus_agrees": false,
+   "ours_in_expert_candidates": true,
+   "note": "χαμαιδάφνη: ours Danae racemosa (in Lardos' list, Weak); Lardos top-1 Ruscus hypophyllum."
+  }
+ ],
+ "staples_check": {
+  "n": 30,
+  "n_correct": 30,
+  "items": [
+   {
+    "plant": "barley",
+    "chapter": "dsc:2.86",
+    "headword": "κριθή",
+    "lemma_check": true,
+    "expected": "Hordeum vulgare",
+    "ours": "Hordeum vulgare",
+    "ours_accepted": "Hordeum vulgare",
+    "confidence": "high",
+    "correct": true
+   },
+   {
+    "plant": "wheat",
+    "chapter": "dsc:2.85",
+    "headword": "πυροί",
+    "lemma_check": true,
+    "expected": "Triticum (genus)",
+    "ours": "Triticum",
+    "ours_accepted": "Triticum",
+    "confidence": "medium",
+    "correct": true
+   },
+   {
+    "plant": "lentil",
+    "chapter": "dsc:2.107",
+    "headword": "φακός",
+    "lemma_check": true,
+    "expected": "Lens culinaris / Vicia lens",
+    "ours": "Lens culinaris",
+    "ours_accepted": "Vicia lens",
+    "confidence": "high",
+    "correct": true
+   },
+   {
+    "plant": "chickpea",
+    "chapter": "dsc:2.104",
+    "headword": "ἐρέβινθος ὁ ἥμερος",
+    "lemma_check": true,
+    "expected": "Cicer arietinum",
+    "ours": "Cicer arietinum",
+    "ours_accepted": "Cicer arietinum",
+    "confidence": "high",
+    "correct": true
+   },
+   {
+    "plant": "broad bean",
+    "chapter": "dsc:2.105",
+    "headword": "κύαμος Ἑλλην ικὸς",
+    "lemma_check": true,
+    "expected": "Vicia faba",
+    "ours": "Vicia faba",
+    "ours_accepted": "Vicia faba",
+    "confidence": "high",
+    "correct": true
+   },
+   {
+    "plant": "white lupin",
+    "chapter": "dsc:2.109",
+    "headword": "θέρμος",
+    "lemma_check": true,
+    "expected": "Lupinus albus",
+    "ours": "Lupinus albus",
+    "ours_accepted": "Lupinus albus",
+    "confidence": "high",
+    "correct": true
+   },
+   {
+    "plant": "oat",
+    "chapter": "dsc:2.94",
+    "headword": "βρόμος κάλαμός ἐστι",
+    "lemma_check": true,
+    "expected": "Avena (genus)",
+    "ours": "Avena sativa",
+    "ours_accepted": "Avena sativa",
+    "confidence": "high",
+    "correct": true
+   },
+   {
+    "plant": "rice",
+    "chapter": "dsc:2.95",
+    "headword": "ὄρυζα τῶν σιτηρῶν",
+    "lemma_check": true,
+    "expected": "Oryza sativa",
+    "ours": "Oryza sativa",
+    "ours_accepted": "Oryza sativa",
+    "confidence": "high",
+    "correct": true
+   },
+   {
+    "plant": "flax / linseed",
+    "chapter": "dsc:2.103",
+    "headword": "καὶ τὸ λινόσπεπμον",
+    "lemma_check": true,
+    "expected": "Linum usitatissimum",
+    "ours": "Linum usitatissimum",
+    "ours_accepted": "Linum usitatissimum",
+    "confidence": "high",
+    "correct": true
+   },
+   {
+    "plant": "sesame",
+    "chapter": "dsc:2.99",
+    "headword": "σήσαμον κακοστόμαχον καὶ",
+    "lemma_check": true,
+    "expected": "Sesamum indicum",
+    "ours": "Sesamum indicum",
+    "ours_accepted": "Sesamum indicum",
+    "confidence": "high",
+    "correct": true
+   },
+   {
+    "plant": "olive",
+    "chapter": "dsc:1.105",
+    "headword": "ἀγριελαία",
+    "lemma_check": true,
+    "expected": "Olea europaea",
+    "ours": "Olea europaea",
+    "ours_accepted": "Olea europaea",
+    "confidence": "high",
+    "correct": true
+   },
+   {
+    "plant": "fig",
+    "chapter": "dsc:1.128",
+    "headword": "σῦκα",
+    "lemma_check": true,
+    "expected": "Ficus carica",
+    "ours": "Ficus carica",
+    "ours_accepted": "Ficus carica",
+    "confidence": "high",
+    "correct": true
+   },
+   {
+    "plant": "grapevine",
+    "chapter": "dsc:5.1",
+    "headword": "ἀμπέλου οἰνοφόρου τὰ",
+    "lemma_check": true,
+    "expected": "Vitis vinifera",
+    "ours": "Vitis vinifera",
+    "ours_accepted": "Vitis vinifera",
+    "confidence": "high",
+    "correct": true
+   },
+   {
+    "plant": "date palm",
+    "chapter": "dsc:1.109",
+    "headword": "φοῖνιξ",
+    "lemma_check": true,
+    "expected": "Phoenix dactylifera",
+    "ours": "Phoenix dactylifera",
+    "ours_accepted": "Phoenix dactylifera",
+    "confidence": "high",
+    "correct": true
+   },
+   {
+    "plant": "pomegranate",
+    "chapter": "dsc:1.110",
+    "headword": "ῥόα",
+    "lemma_check": true,
+    "expected": "Punica granatum",
+    "ours": "Punica granatum",
+    "ours_accepted": "Punica granatum",
+    "confidence": "high",
+    "correct": true
+   },
+   {
+    "plant": "almond",
+    "chapter": "dsc:1.123",
+    "headword": "ἀμυγδάλη",
+    "lemma_check": true,
+    "expected": "Prunus dulcis / Prunus amygdalus",
+    "ours": "Prunus amygdalus",
+    "ours_accepted": "Prunus amygdalus",
+    "confidence": "high",
+    "correct": true
+   },
+   {
+    "plant": "walnut",
+    "chapter": "dsc:1.125",
+    "headword": "κάρυα βασιλικά",
+    "lemma_check": true,
+    "expected": "Juglans regia",
+    "ours": "Juglans regia",
+    "ours_accepted": "Juglans regia",
+    "confidence": "high",
+    "correct": true
+   },
+   {
+    "plant": "black mulberry",
+    "chapter": "dsc:1.126",
+    "headword": "μορέα",
+    "lemma_check": true,
+    "expected": "Morus nigra",
+    "ours": "Morus nigra",
+    "ours_accepted": "Morus nigra",
+    "confidence": "high",
+    "correct": true
+   },
+   {
+    "plant": "onion",
+    "chapter": "dsc:2.151",
+    "headword": "κρόμυον",
+    "lemma_check": true,
+    "expected": "Allium cepa",
+    "ours": "Allium cepa",
+    "ours_accepted": "Allium cepa",
+    "confidence": "high",
+    "correct": true
+   },
+   {
+    "plant": "garlic",
+    "chapter": "dsc:2.152",
+    "headword": "σκόροδον",
+    "lemma_check": true,
+    "expected": "Allium sativum",
+    "ours": "Allium sativum",
+    "ours_accepted": "Allium sativum",
+    "confidence": "high",
+    "correct": true
+   },
+   {
+    "plant": "lettuce",
+    "chapter": "dsc:2.136",
+    "headword": "θρίδαξ ἥμερος",
+    "lemma_check": true,
+    "expected": "Lactuca sativa",
+    "ours": "Lactuca sativa",
+    "ours_accepted": "Lactuca sativa",
+    "confidence": "high",
+    "correct": true
+   },
+   {
+    "plant": "cabbage",
+    "chapter": "dsc:2.120",
+    "headword": "κράμβη ἥμερος",
+    "lemma_check": true,
+    "expected": "Brassica oleracea",
+    "ours": "Brassica oleracea",
+    "ours_accepted": "Brassica oleracea",
+    "confidence": "high",
+    "correct": true
+   },
+   {
+    "plant": "beet / chard",
+    "chapter": "dsc:2.123",
+    "headword": "σεῦτλον",
+    "lemma_check": true,
+    "expected": "Beta vulgaris",
+    "ours": "Beta vulgaris",
+    "ours_accepted": "Beta vulgaris",
+    "confidence": "high",
+    "correct": true
+   },
+   {
+    "plant": "radish",
+    "chapter": "dsc:2.112",
+    "headword": "ῥαφανίς",
+    "lemma_check": true,
+    "expected": "Raphanus sativus",
+    "ours": "Raphanus sativus",
+    "ours_accepted": "Raphanus sativus",
+    "confidence": "high",
+    "correct": true
+   },
+   {
+    "plant": "turnip",
+    "chapter": "dsc:2.110",
+    "headword": "γογγύλη",
+    "lemma_check": true,
+    "expected": "Brassica rapa",
+    "ours": "Brassica rapa",
+    "ours_accepted": "Brassica rapa",
+    "confidence": "high",
+    "correct": true
+   },
+   {
+    "plant": "coriander",
+    "chapter": "dsc:3.63",
+    "headword": "κόριον",
+    "lemma_check": true,
+    "expected": "Coriandrum sativum",
+    "ours": "Coriandrum sativum",
+    "ours_accepted": "Coriandrum sativum",
+    "confidence": "high",
+    "correct": true
+   },
+   {
+    "plant": "dill",
+    "chapter": "dsc:3.58",
+    "headword": "ἀνήθου ξηροῦ τῆς",
+    "lemma_check": true,
+    "expected": "Anethum graveolens",
+    "ours": "Anethum graveolens",
+    "ours_accepted": "Anethum graveolens",
+    "confidence": "high",
+    "correct": true
+   },
+   {
+    "plant": "cumin",
+    "chapter": "dsc:3.59",
+    "headword": "κύμινον τὸ ἥμερον",
+    "lemma_check": true,
+    "expected": "Cuminum cyminum",
+    "ours": "Cuminum cyminum",
+    "ours_accepted": "Cuminum cyminum",
+    "confidence": "high",
+    "correct": true
+   },
+   {
+    "plant": "fennel",
+    "chapter": "dsc:3.70",
+    "headword": "μάραθον",
+    "lemma_check": true,
+    "expected": "Foeniculum vulgare",
+    "ours": "Foeniculum vulgare",
+    "ours_accepted": "Foeniculum vulgare",
+    "confidence": "high",
+    "correct": true
+   },
+   {
+    "plant": "celery",
+    "chapter": "dsc:3.64",
+    "headword": "σέλινον κηπαῖον",
+    "lemma_check": true,
+    "expected": "Apium graveolens",
+    "ours": "Apium graveolens",
+    "ours_accepted": "Apium graveolens",
+    "confidence": "high",
+    "correct": true
+   }
+  ],
+  "rule": "textbook identification (Berendes 1902; Beck 2005), GBIF-resolved; Greek lemma of our chapter checked; wheat and oats judged at genus level"
+ }
+}

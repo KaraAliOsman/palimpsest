@@ -56,12 +56,13 @@ Data are read-only from the explorer's point of view; derived JSON may be built 
 
 ## Evidence on Hand
 
-- Results in `web/public/data/summary.json` and `stats.json` (transmission 2.65×, size-matched 2.11×, within-family
+- Results in `web/public/data/summary.json` and `stats.json` (transmission 2.65× (always two decimals), size-matched 2.11×, within-family
   1.56×, matched controls 45% vs 32%, OR 2.77 [2.04–3.77], once-studied RR 1.04 [0.61–1.76]).
 - 60 ranked leads with quotes from both herbals (`leads.json`).
 - 94 public-domain images (Vienna Dioscurides, Fuchs 1542, Gerard 1597, Culpeper 1814) in `public/img/codex/`,
   with provenance in `public/img/credits.json`.
-- No testimonials, users, partners or endorsements exist; none may be invented. Team names are placeholders *(inferred)*.
+- No testimonials, users, partners or endorsements exist; none may be invented. Team names live in one constant, `src/content/team.ts` (`TEAM`); the About page shows "Team Palimpsest · EthnoHack 2026" until it is filled.
+- Identifications checked against Lardos et al. 2024 (`public/data/extra/expert_benchmark.json`): 70% species top-1 over 54 chapters (81% for species-rank IDs), 91% genus, staples 30/30.
 
 ## Product Principles
 

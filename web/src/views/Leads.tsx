@@ -5,6 +5,9 @@ import { fmt, plural } from "../lib/format";
 import { download, toCSV } from "../lib/export";
 import { smallest, useImages } from "../lib/images";
 import { Caution, Empty, ErrorState, Iucn, Meter, Skeleton } from "../components/ui";
+import { kendallTau, useLeadCertainty } from "../lib/leads";
+
+const CONF_LABEL: Record<string, string> = { high: "high", medium: "medium", low: "low" };
 
 type Sort = "rank" | "papers" | "compounds" | "mentions";
 const SORTS: { id: Sort; label: string }[] = [
@@ -31,12 +34,24 @@ export function Leads({ route }: { route: Route }) {
   const iucn = P.get("iucn") ?? ""; // "" any, "assessed", "nothreat"
   const sort = (SORTS.find((s) => s.id === P.get("sort"))?.id ?? "rank") as Sort;
   const [limit, setLimit] = useState(STEP);
+  const alpha = Math.max(0, Math.min(1, Number(P.get("w") ?? 0) || 0));
+  const cert = useLeadCertainty();
   const [draft, setDraft] = useState(q);
 
   const plants = useMemo(() => new Map((index.data?.plants ?? []).map((p) => [p.t, p])), [index.data]);
   const cmap = useMemo(() => new Map((index.data?.concepts ?? []).map((c) => [c.id, c])), [index.data]);
   const all = useMemo(() => asArray<Lead>(leads.data).filter((l) => l && l.taxon && l.concept_id), [leads.data]);
   const categories = useMemo(() => [...new Set(all.map((l) => cmap.get(l.concept_id)?.cat).filter((x): x is string => !!x))].sort(), [all, cmap]);
+
+  // Certainty weighting: adjusted = score × weight^alpha (alpha 0 = as published, 1 = fully weighted).
+  const adj = (l: Lead) => (l.score ?? 0) * Math.pow(cert.weight(l), alpha);
+  const position = useMemo(() => {
+    const order = all.slice().sort((a, b) => adj(b) - adj(a) || (a.rank ?? 0) - (b.rank ?? 0));
+    return new Map(order.map((l, i) => [l, i + 1]));
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [all, alpha, cert.ready, cert.fromExtra]);
+  const tau = useMemo(() => kendallTau(all.map((l) => l.rank ?? 0), all.map((l) => position.get(l) ?? 0)), [all, position]);
+  const moved = all.filter((l) => Math.abs((position.get(l) ?? 0) - (l.rank ?? 0)) > 2).length;
 
   const shown = useMemo(() => {
     const t = fold(q);
@@ -53,13 +68,13 @@ export function Leads({ route }: { route: Route }) {
       return true;
     });
     const by: Record<Sort, (a: Lead, b: Lead) => number> = {
-      rank: (a, b) => (a.rank ?? 1e9) - (b.rank ?? 1e9),
+      rank: (a, b) => (position.get(a) ?? 1e9) - (position.get(b) ?? 1e9),
       papers: (a, b) => (a.epmc_pair ?? 0) - (b.epmc_pair ?? 0) || (a.rank ?? 0) - (b.rank ?? 0),
       compounds: (a, b) => (b.n_compounds ?? 0) - (a.n_compounds ?? 0),
       mentions: (a, b) => mentions(b) - mentions(a) || (a.rank ?? 0) - (b.rank ?? 0),
     };
     return out.sort(by[sort]);
-  }, [all, cat, safety, iucn, q, cmap, plants, sort]);
+  }, [all, cat, safety, iucn, q, cmap, plants, sort, position]);
 
   const set = (k: string, v: string | null) => {
     const next = new URLSearchParams(route.params);
@@ -69,7 +84,7 @@ export function Leads({ route }: { route: Route }) {
   };
   const maxScore = Math.max(1e-9, ...all.map((l) => l.score ?? 0));
   const exportCSV = () => download("palimpsest-leads.csv", toCSV(shown, [
-    { key: "rank", get: (l) => l.rank }, { key: "taxon", get: (l) => l.taxon }, { key: "common_name", get: (l) => plants.get(l.taxon)?.c },
+    { key: "rank", get: (l) => l.rank }, { key: "certainty_weighted_position", get: (l) => position.get(l) }, { key: "certainty_weight", get: (l) => cert.weight(l) }, { key: "taxon", get: (l) => l.taxon }, { key: "common_name", get: (l) => plants.get(l.taxon)?.c },
     { key: "concept_id", get: (l) => l.concept_id }, { key: "indication", get: (l) => l.label }, { key: "mesh_id", get: (l) => cmap.get(l.concept_id)?.m },
     { key: "score", get: (l) => l.score }, { key: "papers_on_pair", get: (l) => l.epmc_pair }, { key: "papers_on_plant", get: (l) => l.epmc_taxon },
     { key: "known_constituents", get: (l) => l.n_compounds }, { key: "iucn", get: (l) => l.iucn }, { key: "historical_safety_flag", get: (l) => !!l.flag_historical_safety },
@@ -105,14 +120,6 @@ export function Leads({ route }: { route: Route }) {
           </select>
         </div>
         <div className="field">
-          <label htmlFor="lsafe">Historical warning</label>
-          <select id="lsafe" value={safety} onChange={(e) => set("safety", e.target.value || null)}>
-            <option value="">Any</option>
-            <option value="1">Warned plants only</option>
-            <option value="0">Hide warned plants</option>
-          </select>
-        </div>
-        <div className="field">
           <label htmlFor="liucn">IUCN</label>
           <select id="liucn" value={iucn} onChange={(e) => set("iucn", e.target.value || null)}>
             <option value="">Any status</option>
@@ -127,6 +134,27 @@ export function Leads({ route }: { route: Route }) {
           </select>
         </div>
       </form>
+
+      <div className="certainty">
+        <div className="certainty-ctl">
+          <label htmlFor="lw">Weight the ranking by identification certainty</label>
+          <div className="certainty-row">
+            <span className="muted">Off</span>
+            <input id="lw" type="range" min={0} max={1} step={0.25} value={alpha}
+              aria-valuetext={alpha === 0 ? "Off: the published ranking" : `${Math.round(alpha * 100)}% weight`}
+              onChange={(e) => set("w", Number(e.target.value) ? e.target.value : null)} />
+            <span className="muted">Full</span>
+            <span className="certainty-val num">{alpha === 0 ? "Off" : `${Math.round(alpha * 100)}%`}</span>
+          </div>
+          <label className="check"><input type="checkbox" checked={safety === "0"} onChange={(e) => set("safety", e.target.checked ? "0" : null)} /><span>Hide plants the herbals themselves warn about</span></label>
+        </div>
+        <p className="certainty-note" aria-live="polite">
+          Each lead takes the weaker of its two identifications: high <b>1.0</b>, medium <b>0.6</b>, low <b>0.3</b>{cert.fromExtra ? ", genus-only capped at 0.5" : ", × 0.6 if only the genus is known"}. 
+          Score × weight<sup>{alpha === 0 ? "0" : alpha}</sup>.{" "}
+          {alpha === 0 ? <>This is the published ranking; slide to see how much it rests on uncertain names.</> : <><b>{moved}</b> of {all.length} leads move more than two places; Kendall’s τ against the published ranking is <b className="num">{fmt.two(tau)}</b> (1 = identical).</>}
+          {cert.summary?.tauAll != null && <> Re-ranking all <span className="num">{fmt.int(cert.summary.nAll)}</span> candidates at full weight keeps <b className="num">{fmt.int(cert.summary.kept)}</b> of the published 60 in the top 60 (τ<sub>b</sub> <span className="num">{fmt.two(cert.summary.tauAll)}</span>){cert.summary.firstLeft ? <>; lead 1, rue, drops out, because Dioscorides’ <span lang="grc" className="grc">πήγανον</span> is identified with medium confidence only (it could be <i>Ruta chalepensis</i>)</> : null}.</>}
+        </p>
+      </div>
 
       {leads.status === "loading" && <Skeleton rows={10} label="Reading the leads" />}
       {leads.status === "error" && <ErrorState what="The leads" error={leads.error} retry={leads.retry} />}
@@ -149,7 +177,7 @@ export function Leads({ route }: { route: Route }) {
                 return (
                   <li key={`${l.taxon}|${l.concept_id}`} className="lead">
                     <div className="lead-id">
-                      <p className="lead-rank num" aria-label={`Rank ${l.rank}`}>{l.rank}</p>
+                      <p className="lead-rank num" aria-label={`Position ${position.get(l)}, published rank ${l.rank}`}>{position.get(l)}{position.get(l) !== l.rank && <span className={`rank-move ${(position.get(l) ?? 0) < (l.rank ?? 0) ? "is-up" : "is-down"}`}>was {l.rank}</span>}</p>
                       <div className="lead-name">
                         <h2 className="lead-title">{p ? <a href={href(`/plant/${p.s}`, { c: l.concept_id })}><i>{l.taxon}</i></a> : <i>{l.taxon}</i>}</h2>
                         <p className="lead-concept">{label}</p>
@@ -157,7 +185,9 @@ export function Leads({ route }: { route: Route }) {
                         <ul className="flags" aria-label="Flags">
                           {l.flag_historical_safety && <li className="flag flag--warn" title="The herbals themselves record a warning about this plant">Historical warning</li>}
                           {threatened ? <li className="flag flag--warn">Threatened (IUCN)</li> : <li className="flag"><Iucn code={l.iucn} /></li>}
+                          {cert.meta.get(l.rank ?? -1) && <li className="flag flag--conf" title="Identification confidence: Dioscorides name / Culpeper name">ID {CONF_LABEL[cert.meta.get(l.rank ?? -1)!.dsc_conf ?? ""] ?? "n/a"} / {CONF_LABEL[cert.meta.get(l.rank ?? -1)!.cul_conf ?? ""] ?? "n/a"}</li>}
                         </ul>
+                        <a className="lead-dossier-link" href={href(`/lead/${l.rank}`)}>Lead dossier</a>
                       </div>
                       {im && <img className="lead-thumb" src={smallest(im, 0)} alt="" width={64} height={Math.round((64 * im.height) / im.width)} loading="lazy" decoding="async" style={{ backgroundColor: im.color }} />}
                     </div>

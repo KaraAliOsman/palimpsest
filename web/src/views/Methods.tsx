@@ -4,6 +4,7 @@ import { href } from "../lib/router";
 import { fmt } from "../lib/format";
 import { SITE } from "../lib/export";
 import { Caution, Ext } from "../components/ui";
+import { ExpertBenchmark, TestsLedger } from "../components/Extras";
 
 function Part({ id, title, plain, children }: { id: string; title: string; plain: ReactNode; children: ReactNode }) {
   return (
@@ -18,12 +19,16 @@ function Part({ id, title, plain, children }: { id: string; title: string; plain
 }
 
 const PARTS: [string, string][] = [
-  ["sources", "Sources"], ["names", "Names across eras"], ["extraction", "Reading the claims"], ["transmission", "Transmission"],
-  ["evidence", "Modern evidence"], ["tiers", "Evidence tiers"], ["leads", "Leads"], ["limits", "Limitations"], ["responsible", "Responsible use"],
+  ["sources", "Sources"], ["names", "Names across eras"], ["benchmark", "Checked against experts"], ["extraction", "Reading the claims"], ["transmission", "Transmission"],
+  ["evidence", "Modern evidence"], ["tiers", "Evidence tiers"], ["leads", "Leads"], ["tests", "Tests we wrote down"], ["limits", "Limitations"], ["responsible", "Responsible use"],
 ];
 
 export function Methods() {
   const summary = useResource<Summary>("summary.json");
+  // sections fed by data/extra/ appear in the contents only when their file exists
+  const hasBench = useResource<unknown>("extra/expert_benchmark.json").status === "ready";
+  const hasTests = useResource<unknown>("extra/tests_ledger.json").status === "ready";
+  const parts = PARTS.filter(([id]) => (id !== "benchmark" || hasBench) && (id !== "tests" || hasTests));
   const ev = summary.data?.extraction_eval ?? {};
   const d = ev.dioscorides, c = ev.culpeper;
   const gr = namingAgreement(summary.data?.naming_eval, "greek");
@@ -39,7 +44,7 @@ export function Methods() {
       </header>
       <div className="methods-grid">
         <nav className="side-toc" aria-label="Sections">
-          <ol>{PARTS.map(([id, t]) => <li key={id}><a href={href("/methods", null, id)}>{t}</a></li>)}</ol>
+          <ol>{parts.map(([id, t]) => <li key={id}><a href={href("/methods", null, id)}>{t}</a></li>)}</ol>
         </nav>
         <div className="methods-body">
           <Part id="sources" title="Sources" plain="Two published herbals in their original languages, and open modern databases. Nothing was collected from living people or communities.">
@@ -50,8 +55,12 @@ export function Methods() {
 
           <Part id="names" title="Names across eras" plain="Each Greek chapter and English monograph was assigned a modern plant, with a confidence level and a reason, then joined on the currently accepted scientific name.">
             <p>Identifications were curated with AI assistance (Claude, Anthropic) from the lemma, its synonyms, the author’s own description and standard scholarly identifications (Wellmann, Berendes, Gunther/Goodyer, Beck; annotated Culpeper editions). Each row records kind, rank, confidence (high, medium, low), alternatives and a one-line justification (<code>data/curated/</code>), and is resolved on the GBIF backbone to the accepted taxon, following synonyms.</p>
-            <p>Checks: GBIF resolution {gbif != null ? <b>{fmt.pct(gbif)}</b> : "n/a"}; agreement with independent Wikidata Greek labels {fmt.pct(gr.rate)}{gr.n ? ` (n = ${gr.n})` : ""}; with GBIF English vernacular names {fmt.pct(en.rate)}{en.n ? ` (n = ${en.n})` : ""}. These are indicative: label coverage is patchy. Every test is repeated at genus level and with high-confidence identifications only.</p>
+            <p>Checks: GBIF resolution {gbif != null ? <b>{fmt.pct(gbif)}</b> : "n/a"}; agreement with independent Wikidata Greek labels {fmt.pct(gr.rate)}{gr.n ? ` (n = ${gr.n})` : ""}; with GBIF English vernacular names {fmt.pct(en.rate)}{en.n ? ` (n = ${en.n})` : ""}. These are indicative: label coverage is patchy. The stronger check is against expert botanists, below. Every test is repeated at genus level and with high-confidence identifications only.</p>
           </Part>
+
+          <section id="benchmark" className="part" aria-labelledby="benchmark-t">
+            <ExpertBenchmark heading={(t) => <h2 id="benchmark-t" className="part-title">{t}</h2>} />
+          </section>
 
           <Part id="extraction" title="Reading the claims" plain="Hand-built word lists in Ancient Greek and in seventeenth-century English find each mention of a complaint, and keep the exact characters it came from.">
             <figure className="inline-fig">
@@ -77,12 +86,16 @@ export function Methods() {
               <div><dt>Sparse</dt><dd>1 to 4 papers</dd></div>
               <div><dt>Studied</dt><dd>5 or more papers</dd></div>
             </dl>
-            <p>A co-mentioning paper may report benefit, no effect, or toxicity. Names are searched under the accepted GBIF binomial only, so literature under synonyms is missed (rosemary: <i>Salvia rosmarinus</i> finds 211 papers, <i>Rosmarinus officinalis</i> 1,994). The loss affects a plant’s claimed and control indications alike, but inflates “unstudied” for renamed plants.</p>
+            <p>A co-mentioning paper may report benefit, no effect, or toxicity. The published numbers search the accepted GBIF binomial only, so literature under synonyms is missed (rosemary: <i>Salvia rosmarinus</i> finds 211 papers, <i>Rosmarinus officinalis</i> 1,994). The loss affects a plant’s claimed and control indications alike, but inflates “unstudied” for renamed plants. A synonym-expanded re-run (accepted name, curated names and all GBIF synonyms; 10 names per plant at the median) was done, and the conclusions hold: OR 2.48 [1.84–3.36] for claims in both herbals, RR once studied 1.03, not significant.</p>
           </Part>
 
           <Part id="leads" title="Leads" plain="Leads are pairs both herbals agree on, with few modern papers, a plant with known chemistry, and a chapter about the plant itself in both books.">
-            <p>Persistent pairs with ≤ 4 papers are scored 0.35 · persistence + 0.25 · chemistry + 0.40 · gap, where persistence = min(1, mentions / 6), chemistry = log(1 + constituents) / log 501, and gap mixes 1/(1 + papers) with a surprise term under a Poisson whose mean is the plant’s biomedical co-mentions shared out by indication volume. The list is diversified (≤ 2 per plant, ≤ 4 per indication). Weights are a transparent heuristic. Safety warnings and IUCN status are flags, never part of the score. <a href={href("/leads")}>The leads</a>.</p>
+            <p>Persistent pairs with ≤ 4 papers are scored 0.35 · persistence + 0.25 · chemistry + 0.40 · gap, where persistence = min(1, mentions / 6), chemistry = log(1 + constituents) / log 501, and gap mixes 1/(1 + papers) with a surprise term under a Poisson whose mean is the plant’s biomedical co-mentions shared out by indication volume. The list is diversified (≤ 2 per plant, ≤ 4 per indication). Weights are a transparent heuristic. Safety warnings and IUCN status are flags, never part of the score. Identification doubt can be propagated into the score on the leads page (high 1.0, medium 0.6, low 0.3), with the change in ranking reported as Kendall’s τ. <a href={href("/leads")}>The leads</a>.</p>
           </Part>
+
+          <section id="tests" className="part" aria-labelledby="tests-t">
+            <TestsLedger heading={(t) => <h2 id="tests-t" className="part-title">{t}</h2>} />
+          </section>
 
           <Part id="limits" title="Limitations" plain="Read these before citing a number. The method is a screen for hypotheses, not a test of whether a remedy works.">
             <ul className="limits">
@@ -91,7 +104,7 @@ export function Methods() {
               <li><b>Retrospective identification</b> of ancient plants is uncertain; hence confidence levels and genus-level sensitivity.</li>
               <li><b>Lexicon recall is bounded.</b> Misses lower power but do not bias within-plant comparisons unless they correlate with modern evidence.</li>
               <li><b>Culpeper is not independent of Dioscorides</b> (via Galen, Mattioli, Gerard): persistence measures a textual tradition, not rediscovery.</li>
-              <li><b>Synonyms.</b> Searches use the accepted binomial only; synonym expansion is implemented but not used for the published numbers.</li>
+              <li><b>Synonyms.</b> The published numbers search the accepted binomial only. We re-ran the whole evidence analysis with every curated name and GBIF synonym, and the conclusions hold: claims in both herbals still have higher odds of being studied (OR 2.48 [1.84–3.36]) and are still not studied harder once studied (RR 1.03, not significant).</li>
               <li><b>AI-assisted reference annotation.</b> A human double-annotated subset with kappa is the next validation step.</li>
             </ul>
           </Part>

@@ -259,7 +259,23 @@ export interface SearchPlant {
 export interface SearchConcept { id: string; l: string; cat?: string; m?: string | null; d?: number; u?: number; top: string[]; np: number }
 export interface SearchIndex { generated?: string; plants: SearchPlant[]; concepts: SearchConcept[] }
 
-export interface PlantRecord { slug: string; plant: Plant; texts: Texts; images: string[] }
+export interface PlantRecord { slug: string; plant: Plant; texts: Texts; images: string[]; gloss?: Record<string, Record<string, string>> }
+
+/** "dim sight (ἀμβλυωπία)" -> {gloss: "dim sight", lemma: "ἀμβλυωπία"} */
+export function splitGloss(g: string | null | undefined): { gloss: string; lemma: string | null } | null {
+  if (!g) return null;
+  const m = /^(.*?)\s*\(([^()]*[Ͱ-Ͽἀ-῿][^()]*)\)\s*$/u.exec(g);
+  return m ? { gloss: m[1].trim(), lemma: m[2].trim() } : { gloss: g.trim(), lemma: null };
+}
+
+/** The whole word(s) a stem-level span sits in. */
+export function wordAt(text: string, start: number, end: number): string {
+  const L = /[\p{L}\p{M}'’-]/u;
+  let a = start, b = end;
+  while (a > 0 && L.test(text[a - 1])) a--;
+  while (b < text.length && L.test(text[b])) b++;
+  return text.slice(a, b).replace(/_/g, "");
+}
 
 export interface ImageSrc { w: number; h: number; src: string; bytes?: number }
 export interface CodexImage {

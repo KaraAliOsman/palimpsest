@@ -2,14 +2,7 @@ import { assetUrl } from "../lib/data";
 import { href } from "../lib/router";
 import { SITE } from "../lib/export";
 import { Ext } from "../components/ui";
-
-// Placeholder roles until the team confirms names and affiliations.
-const TEAM = [
-  { name: "Team member A", role: "Pipeline, statistics and knowledge graph" },
-  { name: "Team member B", role: "Greek text, lexicon and plant identifications" },
-  { name: "Team member C", role: "Evidence screening and leads" },
-  { name: "Team member D", role: "Explorer design and engineering" },
-];
+import { TEAM, TEAM_NAME } from "../content/team";
 
 export function About() {
   return (
@@ -30,10 +23,18 @@ export function About() {
           </section>
           <section aria-labelledby="team-t">
             <h2 id="team-t" className="sec-title">Team</h2>
-            <p className="muted">Names and affiliations will be added by the team.</p>
-            <ul className="team">
-              {TEAM.map((t) => <li key={t.name}><span className="team-name">{t.name}</span><span className="team-role">{t.role}</span></li>)}
-            </ul>
+            <p className="team-line">{TEAM_NAME}</p>
+            {TEAM.length > 0 && (
+              <ul className="team">
+                {TEAM.map((t) => (
+                  <li key={t.name}>
+                    <span className="team-name">{t.url ? <Ext href={t.url}>{t.name}</Ext> : t.name}</span>
+                    <span className="team-role">{[t.role, t.affiliation].filter(Boolean).join(" · ")}</span>
+                  </li>
+                ))}
+              </ul>
+            )}
+            <p>Built in the open: the Greek and English pipeline, the statistics and this explorer are in one repository, and every identification can be corrected by <Ext href={`${SITE.repo}/issues`}>opening an issue</Ext>.</p>
           </section>
           <section aria-labelledby="ctx-t">
             <h2 id="ctx-t" className="sec-title">Context</h2>

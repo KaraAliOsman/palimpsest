@@ -1,5 +1,5 @@
 import { useEffect, useId, useMemo, useRef, useState, type ReactNode } from "react";
-import { conceptLabel, type Concept, type Span } from "../lib/data";
+import { conceptLabel, splitGloss, type Concept, type Span } from "../lib/data";
 
 interface Props {
   text: string;
@@ -13,6 +13,13 @@ interface Props {
   onSelect: (id: string) => void;
   onHover: (id: string | null) => void;
   clampAt?: number;
+  /** literal gloss of the lexicon entry behind each span, keyed by its start offset */
+  gloss?: Record<string, string>;
+  /** set the glosses under the words (interlinear) */
+  interlinear?: boolean;
+  /** the other herbal's wording for the same plant and concept, if it makes the claim */
+  counterpart?: (conceptId: string) => string | null;
+  otherName?: string;
 }
 
 interface Tip { i: number; x: number; y: number; below: boolean }
@@ -39,7 +46,7 @@ function plain(s: string, lang: "grc" | "en", key: string): ReactNode[] {
   return out;
 }
 
-export function AnnotatedText({ text, spans, lang, source, concepts, persistent, lit, selected, onSelect, onHover, clampAt = 1800 }: Props) {
+export function AnnotatedText({ text, spans, lang, source, concepts, persistent, lit, selected, onSelect, onHover, clampAt = 1800, gloss, interlinear = false, counterpart, otherName }: Props) {
   const box = useRef<HTMLDivElement>(null);
   const timer = useRef<number | undefined>(undefined);
   const [tip, setTip] = useState<Tip | null>(null);
@@ -93,6 +100,8 @@ export function AnnotatedText({ text, spans, lang, source, concepts, persistent,
     if (s.start >= limit) return;
     if (s.start > at) parts.push(...plain(text.slice(at, s.start), lang, `p${i}`));
     const id = s.concept_id;
+    const g = splitGloss(gloss?.[String(s.start)]);
+    const short = g ? (g.gloss.length > 30 ? g.gloss.slice(0, 28).replace(/\s+\S*$/, "") + "…" : g.gloss) : undefined;
     const cls = [
       "span", `span--${source}`,
       persistent.has(id) ? "is-persistent" : "",
@@ -106,6 +115,7 @@ export function AnnotatedText({ text, spans, lang, source, concepts, persistent,
         className={cls}
         tabIndex={0}
         data-concept={id}
+        data-gloss={interlinear && lang === "grc" ? short : undefined}
         aria-describedby={tip?.i === i ? tipId : undefined}
         onMouseEnter={(e) => {
           const el = e.currentTarget;
@@ -136,7 +146,7 @@ export function AnnotatedText({ text, spans, lang, source, concepts, persistent,
   return (
     <div className="annotated" ref={box}>
       <div
-        className={`reading reading--${lang} ${long && !open ? "is-clamped" : ""}`}
+        className={`reading reading--${lang} ${long && !open ? "is-clamped" : ""} ${interlinear && lang === "grc" ? "is-interlinear" : ""}`}
         lang={lang}
         id={`${tipId}-text`}
       >
@@ -154,12 +164,27 @@ export function AnnotatedText({ text, spans, lang, source, concepts, persistent,
           className={`gloss-tip ${tip.below ? "is-below" : ""}`}
           style={{ left: tip.x, top: tip.y }}
         >
-          <span className="gloss-tip-label">{conceptLabel(concepts, active.concept_id)}</span>
-          <span className="gloss-tip-meta">
-            {c?.mesh_id ? <>MeSH <span className="num">{c.mesh_id}</span></> : "No MeSH id yet"}
-            {c?.category ? <>, {c.category}</> : null}
-          </span>
-          <span className="gloss-tip-meta">{POLARITY[active.polarity ?? "therapeutic"] ?? active.polarity}{persistent.has(active.concept_id) ? ", in both herbals" : ""}</span>
+          {(() => {
+            const g = splitGloss(gloss?.[String(active.start)]);
+            const other = counterpart?.(active.concept_id) ?? null;
+            return (
+              <>
+                {g && lang === "grc" && <span className="gloss-tip-gloss">“{g.gloss}”{g.lemma ? <> · <span className="gloss-tip-lemma" lang="grc">{g.lemma}</span></> : null}</span>}
+                <span className="gloss-tip-label">{conceptLabel(concepts, active.concept_id)}</span>
+                <span className="gloss-tip-meta">
+                  {c?.mesh_id ? <>MeSH <span className="num">{c.mesh_id}</span></> : "No MeSH id yet"}
+                  {c?.category ? <>, {c.category}</> : null}
+                </span>
+                {g && lang !== "grc" && <span className="gloss-tip-meta">Read as: {g.gloss}</span>}
+                <span className="gloss-tip-meta">{POLARITY[active.polarity ?? "therapeutic"] ?? active.polarity}</span>
+                {counterpart && (
+                  <span className="gloss-tip-meta gloss-tip-cul">
+                    {other ? <>{otherName ?? "The other herbal"}: <q lang={lang === "grc" ? "en" : "grc"} className={lang === "grc" ? "" : "grc"}>{other}</q></> : <>Not claimed by {otherName ?? "the other herbal"} for this plant</>}
+                  </span>
+                )}
+              </>
+            );
+          })()}
         </div>
       )}
     </div>

@@ -1,0 +1,166 @@
+{
+ "generated": "2026-11-08T16:38:33Z",
+ "counts": {
+  "dsc_chapters": 822,
+  "cul_monographs": 328,
+  "taxa": 692,
+  "taxa_shared": 136,
+  "claims": 10400,
+  "claims_dsc": 5151,
+  "claims_cul": 5249,
+  "concepts": 85,
+  "persistent_pairs": 642,
+  "pairs_queried": 13138,
+  "compounds": 18498
+ },
+ "persistence": {
+  "observed": 642,
+  "nullMean": 242.4281,
+  "q": [
+   213,
+   242,
+   273
+  ],
+  "fold": 2.6482078603924215,
+  "p": 0.00009999000099990002,
+  "nPerm": 10000,
+  "nTaxa": 136
+ },
+ "size": 2.1101914357781975,
+ "family": 1.5573339025768782,
+ "shareBoth": 0.4485981308411215,
+ "matchedBoth": 0.32217847769028873,
+ "or": {
+  "v": 2.7698321770864998,
+  "ci": [
+   2.0359205093856163,
+   3.768305419517053
+  ]
+ },
+ "rr": {
+  "v": 1.0408531830251846,
+  "ci": [
+   0.6139879185100158,
+   1.7644896844920341
+  ]
+ },
+ "leads": 60,
+ "hero": {
+  "taxon": "Ruta graveolens",
+  "slug": "ruta-graveolens",
+  "rank": 1,
+  "concept_id": "eye_disease",
+  "label": "Eye complaints / dim sight",
+  "common": "rue",
+  "papers_pair": 0,
+  "papers_plant": 416,
+  "compounds": 204,
+  "warn": true,
+  "names": {
+   "dsc": "πήγανον",
+   "cul": "Garden-Rue",
+   "dsc_conf": "medium"
+  },
+  "cul": {
+   "ref": "cul:261-garden-rue",
+   "title": "Garden-Rue",
+   "start": 1927,
+   "text": "The juice of it and fennel, with a little honey, and the gall of a cock put thereunto, helps the dimness of the eye-sight.",
+   "lead": 1,
+   "marks": [
+    {
+     "k": "juice",
+     "s": 1932,
+     "e": 1937
+    },
+    {
+     "k": "fennel",
+     "s": 1948,
+     "e": 1954
+    },
+    {
+     "k": "honey",
+     "s": 1970,
+     "e": 1975
+    },
+    {
+     "k": "eye",
+     "s": 2025,
+     "e": 2043
+    }
+   ]
+  },
+  "dsc": {
+   "ref": "dsc:3.45",
+   "head": "ὁ δὲ χυλὸς",
+   "headStart": 1617,
+   "start": 1690,
+   "text": "ἀμβλυωπίαις βοηθεῖ μετά μαράθου χυλοῦ καὶ μέλιτος ἐγχριόμενος",
+   "marks": [
+    {
+     "k": "juice",
+     "s": 1622,
+     "e": 1627
+    },
+    {
+     "k": "eye",
+     "s": 1690,
+     "e": 1701
+    },
+    {
+     "k": "fennel",
+     "s": 1714,
+     "e": 1721
+    },
+    {
+     "k": "honey",
+     "s": 1732,
+     "e": 1739
+    }
+   ]
+  },
+  "query": "(TITLE_ABS:\"Ruta graveolens\" OR KW:\"Ruta graveolens\") AND (TITLE_ABS:(\"eye disease\" OR \"vision\" OR \"cataract\" OR \"ophthalmic\" OR \"retina\") OR KW:(\"eye disease\" OR \"vision\" OR \"cataract\" OR \"ophthalmic\" OR \"retina\"))"
+ },
+ "tests": {
+  "n": 30,
+  "counts": {
+   "held": 22,
+   "null": 5,
+   "indicative": 3
+  }
+ },
+ "bench": {
+  "species": {
+   "k": 38,
+   "n": 54,
+   "share": 0.7037037037037037,
+   "ci": [
+    0.572,
+    0.809
+   ]
+  },
+  "speciesRank": {
+   "k": 38,
+   "n": 47,
+   "share": 0.8085106382978723,
+   "ci": [
+    0.675,
+    0.896
+   ]
+  },
+  "genus": {
+   "k": 49,
+   "n": 54,
+   "share": 0.9074074074074074,
+   "ci": [
+    0.801,
+    0.96
+   ]
+  },
+  "staples": {
+   "n": 30,
+   "ok": 30
+  },
+  "chapters": 54
+ }
+}

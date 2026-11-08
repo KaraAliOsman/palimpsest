@@ -157,7 +157,7 @@ Dark theme is "iron-gall night": the same vellum texture multiplied into near-bl
 - Porphyra is Dioscorides, verdigris is Culpeper, everywhere.
 - Flat gold is a field, never a gradient.
 - Provenance seamed under every image and headline number.
-- One load sequence; nothing moves on keyboard actions.
+- One authored moment: the scraped leaf. Nothing else moves except the one-time chart draw-in; nothing moves on keyboard shortcuts.
 
 ## Colors
 
@@ -263,8 +263,20 @@ A row of plain-text options inside one Ruling Strong outline with hairline divid
 ### Navigation
 Masthead at 64px, sticky, vellum at 94% with a 6px blur, closed by a 3px double rule. Wordmark in Alegreya 700 with a minium-ink initial. Links in Alegreya Sans 500, Ink Second; the current page gets a 2px minium underline that scales in from the left, and hover previews it at 40%. Below 980px the links drop into a full-width ruled list behind a menu button.
 
-### Era Control (signature)
-A radio row of eras (all, c. 60 CE, 1653, 2026) between a strong top rule and a hairline bottom rule. Each era is a lozenge in its source's pigment, an Alegreya year and a label-size "who" line. The checked era fills its lozenge with minium and draws a 2px minium underline. Choosing an era scrapes the name stack: the chosen layer writes back in with a clip-path wipe (620ms) while the other layers fade to 8–14%, and the matching spans light up in the concordance.
+### Scraped Leaf (signature)
+The hero is one leaf written three times, for lead 1 (rue for dim sight): Culpeper's 1653 sentence on top, Dioscorides' Greek recipe (3.45) beneath, and the bare vellum of 2026 under both, where the record is "0 papers". Dragging across the leaf (mouse, pen, or a horizontal touch drag; vertical touch still scrolls) erases the top layer through a low-resolution canvas alpha mask, so the scraped edge is soft with a little grit; once 40% is gone the rest lifts (380ms opacity, exponential ease-out). Shared ingredients carry a dotted ink underline; the claim both herbals make carries the 2px minium underline. On a first visit one short demonstration stroke runs after 1.3s. The era row beneath (1653 / c. 60 CE / 2026) is the keyboard and screen-reader path: arrows, Home and End; choosing a deeper era sweeps the blade across (520ms), a shallower one inks the layer back (240ms). Covered layers are `inert`. Under reduced motion layers swap without the sweep. The cursor is a lunellum, the parchment-maker's crescent knife.
+
+### Era Control
+A radio row of eras between a strong top rule and a hairline bottom rule. Each era is a lozenge in its source's pigment, an Alegreya year and a label-size "who" line. The checked era fills its lozenge with minium and draws a 2px minium underline; eras already scraped through fill with Ruling Strong.
+
+### How to read this
+A three-step ruled strip under the hero (i Read the marks, ii Look for red, iii Check 2026), each with a live sample of the mark it explains.
+
+### Survival flow
+A hand-built SVG alluvial: Dioscorides (said / not said) to Culpeper (kept, dropped, added) to the 2026 tier (unstudied, sparse, studied), for the species both herbals describe. Ribbons take the colour of what Culpeper did: minium kept, porphyra dropped, verdigris added; tier nodes are ink (hollow, Ruling Strong, Ink Second), as in the tier meter. Ribbons are buttons: hover or focus previews, Enter pins; the side panel lists the ribbon's plants with links. A body-system filter (segmented row plus select) and a plain-language sentence that recomputes; "Show the numbers" gives the table.
+
+### Lead dossier
+`#/lead/<rank>`: a printable document per lead. Facing quotations under a gilt double rule, glossed Greek, evidence with the exact Europe PMC query in a sunk code well, identification with confidence and certainty weight, safety and IUCN flags, constituents, citation (plain, BibTeX, CSL JSON). Print hides chrome and sets a provenance footer.
 
 ### Canon Table (signature)
 The concordance. Heads in Alegreya SC 700 at 0.9375rem over a 3px gilt double rule, optionally crowned by a 22px arch; rows separated by hairlines; numbers right-aligned and tabular; lit rows on Vellum Deep, selected rows on a 12% minium wash. Three-era rows (name columns, ways in) use gilt column dividers and a closing gilt double rule. Below 720px every row becomes a stacked record with its column labels inline.

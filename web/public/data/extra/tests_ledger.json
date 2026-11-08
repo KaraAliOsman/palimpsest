@@ -1,0 +1,521 @@
+{
+ "title": "Tests we wrote down",
+ "generated": "2026-11-08",
+ "status_definitions": {
+  "held": "the stated prediction's criterion is met",
+  "did not hold": "estimate in the opposite direction, CI excluding the null",
+  "null": "CI includes the null value - no detectable effect",
+  "indicative": "descriptive quality check without a pre-set threshold"
+ },
+ "timing_note": "'recorded' is the modification date of the result file (the repository has no git history); 'prediction_timing' marks criteria fixed only when this ledger was written.",
+ "counts": {
+  "held": 22,
+  "null": 5,
+  "indicative": 3
+ },
+ "n_tests": 30,
+ "tests": [
+  {
+   "id": "T1",
+   "area": "Transmission",
+   "question": "Does Culpeper repeat Dioscorides' indication for the same plant more often than chance?",
+   "prediction": "fold enrichment > 1, permutation p < 0.05",
+   "method": "label permutation of Culpeper claim sets among 136 shared species (10,000 permutations)",
+   "result": "642 shared vs 242 expected: 2.65x, z = 26.1, p < 0.0001",
+   "numbers": {
+    "fold": 2.6482078603924215,
+    "z": 26.09982529954958,
+    "p": 9.999000099990002e-05
+   },
+   "status": "held",
+   "prediction_timing": "a priori",
+   "reproduce": "PYTHONPATH=src python -m palimpsest analyze",
+   "source": "results/stats.json",
+   "recorded": "2026-11-08"
+  },
+  {
+   "id": "T2",
+   "area": "Transmission (stricter null / sensitivity)",
+   "question": "Does the transmission signal survive: permutation only among plants of similar entry length (quintiles)?",
+   "prediction": "fold > 1, p < 0.05",
+   "method": "permutation only among plants of similar entry length (quintiles)",
+   "result": "642 vs 304: 2.11x, z = 23.4, p = 0.0002 (5,000 permutations)",
+   "numbers": {
+    "fold": 2.1101914357781975,
+    "p": 0.0001999600079984003
+   },
+   "status": "held",
+   "prediction_timing": "a priori",
+   "reproduce": "PYTHONPATH=src python -m palimpsest analyze",
+   "source": "results/stats.json",
+   "recorded": "2026-11-08"
+  },
+  {
+   "id": "T3",
+   "area": "Transmission (stricter null / sensitivity)",
+   "question": "Does the transmission signal survive: permutation only within the same botanical family (most conservative)?",
+   "prediction": "fold > 1, p < 0.05",
+   "method": "permutation only within the same botanical family (most conservative)",
+   "result": "642 vs 412: 1.56x, z = 12.4, p = 0.0002 (5,000 permutations)",
+   "numbers": {
+    "fold": 1.5573339025768782,
+    "p": 0.0001999600079984003
+   },
+   "status": "held",
+   "prediction_timing": "a priori",
+   "reproduce": "PYTHONPATH=src python -m palimpsest analyze",
+   "source": "results/stats.json",
+   "recorded": "2026-11-08"
+  },
+  {
+   "id": "T4",
+   "area": "Transmission (stricter null / sensitivity)",
+   "question": "Does the transmission signal survive: same test with plants merged to genus?",
+   "prediction": "fold > 1, p < 0.05",
+   "method": "same test with plants merged to genus",
+   "result": "883 vs 369: 2.39x, z = 24.9, p = 0.0005 (2,000 permutations)",
+   "numbers": {
+    "fold": 2.394826307289032,
+    "p": 0.0004997501249375312
+   },
+   "status": "held",
+   "prediction_timing": "a priori",
+   "reproduce": "PYTHONPATH=src python -m palimpsest analyze",
+   "source": "results/stats.json",
+   "recorded": "2026-11-08"
+  },
+  {
+   "id": "T5",
+   "area": "Transmission (stricter null / sensitivity)",
+   "question": "Does the transmission signal survive: only high-confidence identifications?",
+   "prediction": "fold > 1, p < 0.05",
+   "method": "only high-confidence identifications",
+   "result": "392 vs 158: 2.49x, z = 19.1, p = 0.0005 (2,000 permutations)",
+   "numbers": {
+    "fold": 2.4865523190906322,
+    "p": 0.0004997501249375312
+   },
+   "status": "held",
+   "prediction_timing": "a priori",
+   "reproduce": "PYTHONPATH=src python -m palimpsest analyze",
+   "source": "results/stats.json",
+   "recorded": "2026-11-08"
+  },
+  {
+   "id": "T6",
+   "area": "Transmission (stricter null / sensitivity)",
+   "question": "Does the transmission signal survive: indications merged to therapeutic categories?",
+   "prediction": "fold > 1, p < 0.05",
+   "method": "indications merged to therapeutic categories",
+   "result": "552 vs 389: 1.42x, z = 14.1, p = 0.0005 (2,000 permutations)",
+   "numbers": {
+    "fold": 1.4204709942138967,
+    "p": 0.0004997501249375312
+   },
+   "status": "held",
+   "prediction_timing": "a priori",
+   "reproduce": "PYTHONPATH=src python -m palimpsest analyze",
+   "source": "results/stats.json",
+   "recorded": "2026-11-08"
+  },
+  {
+   "id": "M1",
+   "area": "Modern evidence: presence",
+   "question": "Are persistent (both herbals) claims more often studied at all than unclaimed indications of the same plants?",
+   "prediction": "OR > 1 (95% CI excludes 1)",
+   "method": "logit of >= 1 co-mentioning paper, indication FE + log plant volume, cluster-robust by plant",
+   "result": "OR 2.77 [2.04-3.77], p = 9e-11, n = 12,797",
+   "numbers": {
+    "or": 2.7698321770864998,
+    "ci": [
+     2.0359205093856163,
+     3.768305419517053
+    ],
+    "p": 8.787273594645483e-11
+   },
+   "status": "held",
+   "prediction_timing": "a priori",
+   "reproduce": "PYTHONPATH=src python -m palimpsest analyze",
+   "source": "results/stats.json",
+   "recorded": "2026-11-08"
+  },
+  {
+   "id": "M2",
+   "area": "Modern evidence: presence",
+   "question": "Are Dioscorides-only claims more often studied at all than unclaimed indications of the same plants?",
+   "prediction": "OR > 1 (95% CI excludes 1)",
+   "method": "logit of >= 1 co-mentioning paper, indication FE + log plant volume, cluster-robust by plant",
+   "result": "OR 1.98 [1.67-2.35], p = 4e-15, n = 12,797",
+   "numbers": {
+    "or": 1.983886267437955,
+    "ci": [
+     1.6717623172842289,
+     2.3542848654003636
+    ],
+    "p": 4.372771785338359e-15
+   },
+   "status": "held",
+   "prediction_timing": "a priori",
+   "reproduce": "PYTHONPATH=src python -m palimpsest analyze",
+   "source": "results/stats.json",
+   "recorded": "2026-11-08"
+  },
+  {
+   "id": "M3",
+   "area": "Modern evidence: presence",
+   "question": "Are Culpeper-only claims more often studied at all than unclaimed indications of the same plants?",
+   "prediction": "OR > 1 (95% CI excludes 1)",
+   "method": "logit of >= 1 co-mentioning paper, indication FE + log plant volume, cluster-robust by plant",
+   "result": "OR 1.65 [1.40-1.94], p = 2e-09, n = 12,797",
+   "numbers": {
+    "or": 1.6465104374197583,
+    "ci": [
+     1.3999764100332865,
+     1.936458786807519
+    ],
+    "p": 1.685926662699011e-09
+   },
+   "status": "held",
+   "prediction_timing": "a priori",
+   "reproduce": "PYTHONPATH=src python -m palimpsest analyze",
+   "source": "results/stats.json",
+   "recorded": "2026-11-08"
+  },
+  {
+   "id": "M4",
+   "area": "Modern evidence: presence",
+   "question": "Same, with an exact within-plant comparison?",
+   "prediction": "OR > 1",
+   "method": "conditional logit, strata = plant, + log indication volume",
+   "result": "OR 2.29 [1.80-2.90], p = 1e-11",
+   "numbers": {
+    "or": 2.285112241974001,
+    "ci": [
+     1.7983395281953978,
+     2.9036440986532552
+    ]
+   },
+   "status": "held",
+   "prediction_timing": "a priori",
+   "reproduce": "PYTHONPATH=src python -m palimpsest analyze",
+   "source": "results/stats.json",
+   "recorded": "2026-11-08"
+  },
+  {
+   "id": "M5",
+   "area": "Modern evidence: intensity",
+   "question": "Are persistent claims studied more intensively (more co-mentioning papers)?",
+   "prediction": "rate ratio > 1 (95% CI excludes 1)",
+   "method": "Poisson GLM, indication FE + offset log(expected), cluster-robust",
+   "result": "RR 1.18 [0.70-1.99], p = 0.53",
+   "numbers": {
+    "rr": 1.1802103432117974,
+    "ci": [
+     0.7001651497817203,
+     1.9893827258588213
+    ],
+    "p": 0.5339598106383241
+   },
+   "status": "null",
+   "prediction_timing": "a priori",
+   "reproduce": "PYTHONPATH=src python -m palimpsest analyze",
+   "source": "results/stats.json",
+   "recorded": "2026-11-08"
+  },
+  {
+   "id": "M6",
+   "area": "Modern evidence: intensity",
+   "question": "Are persistent claims studied more intensively (more co-mentioning papers)?",
+   "prediction": "rate ratio > 1 (95% CI excludes 1)",
+   "method": "Poisson GLM, offset only (secondary)",
+   "result": "RR 1.75 [1.05-2.91], p = 0.03",
+   "numbers": {
+    "rr": 1.7526698516841799,
+    "ci": [
+     1.0543791003319027,
+     2.9134223241295962
+    ],
+    "p": 0.030449938426523836
+   },
+   "status": "held",
+   "prediction_timing": "a priori",
+   "reproduce": "PYTHONPATH=src python -m palimpsest analyze",
+   "source": "results/stats.json",
+   "recorded": "2026-11-08"
+  },
+  {
+   "id": "M7",
+   "area": "Modern evidence: intensity",
+   "question": "Are persistent claims studied more intensively once studied?",
+   "prediction": "rate ratio > 1 (95% CI excludes 1)",
+   "method": "Poisson FE restricted to pairs with >= 1 paper (intensity once studied)",
+   "result": "RR 1.04 [0.61-1.76], p = 0.88",
+   "numbers": {
+    "rr": 1.0408531830251846,
+    "ci": [
+     0.6139879185100158,
+     1.7644896844920341
+    ],
+    "p": 0.8818031147556716
+   },
+   "status": "null",
+   "prediction_timing": "a priori",
+   "reproduce": "PYTHONPATH=src python -m palimpsest analyze",
+   "source": "results/stats.json",
+   "recorded": "2026-11-08"
+  },
+  {
+   "id": "M8",
+   "area": "Modern evidence: lift",
+   "question": "Within each plant, do claimed indications have higher lift over expectation than unclaimed ones?",
+   "prediction": "one-sided Wilcoxon p < 0.05",
+   "method": "within-plant signed-rank test of mean log2 lift, claimed vs unclaimed",
+   "result": "65% of 585 plants higher, p = 1e-15",
+   "numbers": {
+    "n_taxa": 585,
+    "median_diff_log2_lift": 0.08230718962549012,
+    "share_taxa_claimed_higher": 0.6461538461538462,
+    "statistic": 118199.0,
+    "p_value": 9.64794235210019e-16
+   },
+   "status": "held",
+   "prediction_timing": "a priori",
+   "reproduce": "PYTHONPATH=src python -m palimpsest analyze",
+   "source": "results/stats.json",
+   "recorded": "2026-11-08"
+  },
+  {
+   "id": "M9",
+   "area": "Modern evidence: matched controls",
+   "question": "Is the share of persistent (both herbals) pairs with >= 1 paper higher than for the unclaimed indications of exactly the same plants?",
+   "prediction": "claimed share's 95% CI above the matched share's 95% CI",
+   "method": "matched controls, cluster-bootstrap CIs (resampling plants)",
+   "result": "44.9% [37.2%-52.4%] vs 32.2% [27.8%-36.7%]",
+   "numbers": {
+    "share": 0.4485981308411215,
+    "matched": 0.32217847769028873
+   },
+   "status": "held",
+   "prediction_timing": "a priori",
+   "reproduce": "PYTHONPATH=src python -m palimpsest analyze",
+   "source": "results/stats.json",
+   "recorded": "2026-11-08"
+  },
+  {
+   "id": "M10",
+   "area": "Modern evidence: matched controls",
+   "question": "Is the share of Dioscorides-only pairs with >= 1 paper higher than for the unclaimed indications of exactly the same plants?",
+   "prediction": "claimed share's 95% CI above the matched share's 95% CI",
+   "method": "matched controls, cluster-bootstrap CIs (resampling plants)",
+   "result": "36.9% [32.6%-41.1%] vs 24.8% [22.2%-27.5%]",
+   "numbers": {
+    "share": 0.36905829596412554,
+    "matched": 0.24806701030927836
+   },
+   "status": "held",
+   "prediction_timing": "a priori",
+   "reproduce": "PYTHONPATH=src python -m palimpsest analyze",
+   "source": "results/stats.json",
+   "recorded": "2026-11-08"
+  },
+  {
+   "id": "M11",
+   "area": "Modern evidence: matched controls",
+   "question": "Is the share of Culpeper-only pairs with >= 1 paper higher than for the unclaimed indications of exactly the same plants?",
+   "prediction": "claimed share's 95% CI above the matched share's 95% CI",
+   "method": "matched controls, cluster-bootstrap CIs (resampling plants)",
+   "result": "35.1% [31.3%-38.7%] vs 24.0% [21.7%-26.8%]",
+   "numbers": {
+    "share": 0.3514629948364888,
+    "matched": 0.2403225806451613
+   },
+   "status": "held",
+   "prediction_timing": "a priori",
+   "reproduce": "PYTHONPATH=src python -m palimpsest analyze",
+   "source": "results/stats.json",
+   "recorded": "2026-11-08"
+  },
+  {
+   "id": "M12",
+   "area": "Modern evidence: sensitivity",
+   "question": "Intensity result with high-confidence plants only?",
+   "prediction": "RR > 1",
+   "method": "Poisson FE on 312 plants identified with high confidence in every source",
+   "result": "RR 0.97 [0.47-1.97]",
+   "numbers": {},
+   "status": "null",
+   "prediction_timing": "a priori",
+   "reproduce": "PYTHONPATH=src python -m palimpsest analyze",
+   "source": "results/stats.json",
+   "recorded": "2026-11-08"
+  },
+  {
+   "id": "S1",
+   "area": "Synonym sensitivity",
+   "question": "Does the presence result survive searching every plant under all its GBIF synonyms?",
+   "prediction": "persistent OR > 1 (CI excludes 1)",
+   "method": "same logit on synonym-expanded counts",
+   "result": "OR 2.48 [1.84-3.36]",
+   "numbers": {},
+   "status": "held",
+   "prediction_timing": "a priori",
+   "reproduce": "PYTHONPATH=src python scripts/sensitivity_synonyms.py evidence && python scripts/sensitivity_synonyms.py analyze",
+   "source": "results/sensitivity_synonyms/stats.json",
+   "recorded": "2026-11-08"
+  },
+  {
+   "id": "S2",
+   "area": "Synonym sensitivity",
+   "question": "Intensity once studied, synonym-expanded?",
+   "prediction": "RR > 1",
+   "method": "Poisson FE on pairs with >= 1 paper",
+   "result": "RR 1.03 [0.62-1.73]",
+   "numbers": {},
+   "status": "null",
+   "prediction_timing": "a priori",
+   "reproduce": "PYTHONPATH=src python scripts/sensitivity_synonyms.py evidence && python scripts/sensitivity_synonyms.py analyze",
+   "source": "results/sensitivity_synonyms/stats.json",
+   "recorded": "2026-11-08"
+  },
+  {
+   "id": "E1",
+   "area": "Extraction",
+   "question": "Is the Ancient Greek indication extractor accurate against a blind reference annotation?",
+   "prediction": "F1 >= 0.80",
+   "method": "blind annotation of 50 random monographs (seed 2026), (monograph, concept) level, bootstrap CIs",
+   "result": "P 0.88, R 0.83, F1 0.86 [0.81-0.89]",
+   "numbers": {},
+   "status": "held",
+   "prediction_timing": "post hoc",
+   "reproduce": "PYTHONPATH=src python -m palimpsest evaluate",
+   "source": "results/extraction_eval.json",
+   "recorded": "2026-11-08"
+  },
+  {
+   "id": "E2",
+   "area": "Extraction",
+   "question": "Is the Early Modern English indication extractor accurate against a blind reference annotation?",
+   "prediction": "F1 >= 0.80",
+   "method": "blind annotation of 49 random monographs (seed 2026), (monograph, concept) level, bootstrap CIs",
+   "result": "P 0.90, R 0.90, F1 0.90 [0.88-0.92]",
+   "numbers": {},
+   "status": "held",
+   "prediction_timing": "post hoc",
+   "reproduce": "PYTHONPATH=src python -m palimpsest evaluate",
+   "source": "results/extraction_eval.json",
+   "recorded": "2026-11-08"
+  },
+  {
+   "id": "N1",
+   "area": "Naming",
+   "question": "Do curated names resolve on the GBIF backbone?",
+   "prediction": ">= 95% resolved",
+   "method": "GBIF species/match",
+   "result": "99.2% resolved",
+   "numbers": {},
+   "status": "held",
+   "prediction_timing": "post hoc",
+   "reproduce": "PYTHONPATH=src python -m palimpsest naming",
+   "source": "results/naming_eval.json",
+   "recorded": "2026-11-08"
+  },
+  {
+   "id": "N2",
+   "area": "Naming",
+   "question": "Do Greek lemmas agree with independent Wikidata Greek labels of the resolved taxon?",
+   "prediction": "descriptive (no threshold)",
+   "method": "string agreement, Ancient/Modern Greek Wikidata labels",
+   "result": "64% of 269 checkable",
+   "numbers": {},
+   "status": "indicative",
+   "prediction_timing": "a priori",
+   "reproduce": "PYTHONPATH=src python -m palimpsest naming",
+   "source": "results/naming_eval.json",
+   "recorded": "2026-11-08"
+  },
+  {
+   "id": "N3",
+   "area": "Naming",
+   "question": "Do Culpeper headings agree with GBIF English vernacular names?",
+   "prediction": "descriptive (no threshold)",
+   "method": "string agreement with GBIF vernacular names",
+   "result": "72% of 326 checkable",
+   "numbers": {},
+   "status": "indicative",
+   "prediction_timing": "a priori",
+   "reproduce": "PYTHONPATH=src python -m palimpsest naming",
+   "source": "results/naming_eval.json",
+   "recorded": "2026-11-08"
+  },
+  {
+   "id": "X1",
+   "area": "Expert benchmark",
+   "question": "Do our Dioscorides identifications agree with Lardos et al. (2024) expert top-1 at species level?",
+   "prediction": "agreement > 50% (Wilson CI lower bound)",
+   "method": "54 chapters, expert top-1 = best botanical tier, medicinal tie-break",
+   "result": "70% (38/54) [0.57-0.81]",
+   "numbers": {},
+   "status": "held",
+   "prediction_timing": "post hoc",
+   "reproduce": "PYTHONPATH=src python scripts/expert_benchmark.py",
+   "source": "results/extensions/expert_benchmark.json",
+   "recorded": "2026-11-08"
+  },
+  {
+   "id": "X2",
+   "area": "Expert benchmark",
+   "question": "Do our Dioscorides identifications agree with Lardos et al. (2024) expert top-1 at genus level?",
+   "prediction": "agreement > 80% (Wilson CI lower bound)",
+   "method": "54 chapters, expert top-1 = best botanical tier, medicinal tie-break",
+   "result": "91% (49/54) [0.80-0.96]",
+   "numbers": {},
+   "status": "held",
+   "prediction_timing": "post hoc",
+   "reproduce": "PYTHONPATH=src python scripts/expert_benchmark.py",
+   "source": "results/extensions/expert_benchmark.json",
+   "recorded": "2026-11-08"
+  },
+  {
+   "id": "X3",
+   "area": "Expert benchmark",
+   "question": "Are the 30 commonest food/garden plants identified correctly?",
+   "prediction": "30/30",
+   "method": "textbook identifications, GBIF-resolved, Greek lemma checked",
+   "result": "30/30 correct",
+   "numbers": {},
+   "status": "held",
+   "prediction_timing": "a priori",
+   "reproduce": "PYTHONPATH=src python scripts/expert_benchmark.py",
+   "source": "results/extensions/expert_benchmark.json",
+   "recorded": "2026-11-08"
+  },
+  {
+   "id": "P4",
+   "area": "Leads",
+   "question": "Is the lead ranking robust to identification uncertainty?",
+   "prediction": "descriptive (Kendall tau; no threshold)",
+   "method": "score x certainty (high 1, medium 0.6, low 0.3, genus 0.5; weakest link of the two herbals), same diversification",
+   "result": "tau-b 0.56 over 517 candidates; 41/60 stay in the top 60",
+   "numbers": {},
+   "status": "indicative",
+   "prediction_timing": "a priori",
+   "reproduce": "PYTHONPATH=src python scripts/uncertainty_leads.py",
+   "source": "results/extensions/uncertainty_leads.json",
+   "recorded": "2026-11-08"
+  },
+  {
+   "id": "P10",
+   "area": "Mechanism (hypothesis-generating)",
+   "question": "Are a lead plant's active targets more often associated with its historical indication than with other diseases?",
+   "prediction": "lead disease above the plant's median over other diseases in > 50% of leads",
+   "method": "LOTUS -> ChEMBL (pChEMBL >= 6, human) -> Open Targets score >= 0.1",
+   "result": "33/60 leads have a path; lead disease above median in 22/51",
+   "numbers": {},
+   "status": "null",
+   "prediction_timing": "post hoc",
+   "reproduce": "PYTHONPATH=src python scripts/mechanism.py",
+   "source": "results/extensions/mechanism.json",
+   "recorded": "2026-11-08"
+  }
+ ]
+}

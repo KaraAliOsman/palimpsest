@@ -10,6 +10,7 @@ const Plants = lazy(() => import("./views/Plants").then((m) => ({ default: m.Pla
 const PlantPage = lazy(() => import("./views/PlantPage").then((m) => ({ default: m.PlantPage })));
 const Findings = lazy(() => import("./views/Findings").then((m) => ({ default: m.Findings })));
 const Leads = lazy(() => import("./views/Leads").then((m) => ({ default: m.Leads })));
+const LeadDossier = lazy(() => import("./views/LeadDossier").then((m) => ({ default: m.LeadDossier })));
 const Data = lazy(() => import("./views/Data").then((m) => ({ default: m.Data })));
 const Methods = lazy(() => import("./views/Methods").then((m) => ({ default: m.Methods })));
 const Credits = lazy(() => import("./views/Credits").then((m) => ({ default: m.Credits })));
@@ -17,10 +18,11 @@ const About = lazy(() => import("./views/About").then((m) => ({ default: m.About
 const NotFound = lazy(() => import("./views/NotFound").then((m) => ({ default: m.NotFound })));
 
 const META: Record<string, [string, string]> = {
-  "": ["Palimpsest: Dioscorides, Culpeper and the modern evidence", "Dioscorides’ Greek (c. 60 CE) and Culpeper’s Complete Herbal (1653), read to the word, mapped to 692 plants and tested against modern literature."],
+  "": ["Palimpsest: Dioscorides, Culpeper and the modern evidence", "Scrape a 1653 herbal and find Dioscorides underneath: two herbals read to the word, 642 claims that survived 2.65× more than chance, tested against modern literature."],
   plants: ["Plants · Palimpsest", "692 accepted taxa traced from Greek and English names, with their indications and modern evidence."],
-  findings: ["Findings · Palimpsest", "Culpeper repeats Dioscorides 2.6× more than chance; claimed indications are more often studied, but not studied more."],
+  findings: ["Findings · Palimpsest", "Culpeper repeats Dioscorides 2.65× more than chance; claimed indications are more often studied, but not studied more."],
   evidence: ["Findings · Palimpsest", "Transmission tests, matched controls and odds ratios."],
+  lead: ["Lead dossier · Palimpsest", "One persistent, under-studied plant–indication pair: both quotations, identification, the exact literature query, safety and a citation."],
   leads: ["Leads · Palimpsest", "60 persistent but under-studied plant–indication pairs, with safety and IUCN flags. Hypotheses, not advice."],
   data: ["Data and API · Palimpsest", "Download the knowledge graph, claims and leads; licences, citation and how to reproduce."],
   methods: ["Methods and responsible use · Palimpsest", "How a Greek clause becomes a hypothesis, and where the chain can break."],
@@ -102,6 +104,7 @@ export function App() {
     case "plant": view = <PlantPage key={route.path[1]} slug={route.path[1] ?? ""} route={route} />; break;
     case "findings": case "evidence": view = <Findings />; break;
     case "leads": view = <Leads route={route} />; break;
+    case "lead": view = <LeadDossier key={route.path[1]} rank={Number(route.path[1])} />; break;
     case "data": view = <Data />; break;
     case "methods": view = <Methods />; break;
     case "credits": view = <Credits />; break;

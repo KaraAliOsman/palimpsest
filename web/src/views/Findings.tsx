@@ -5,6 +5,8 @@ import { fmt } from "../lib/format";
 import { href } from "../lib/router";
 import { CategoryBars, Forest, FoldDots, MatchedDumbbell, NullHistogram, type MatchedRow, type Tone } from "../charts/Charts";
 import { Caution, Empty, ErrorState, Skeleton } from "../components/ui";
+import { SurvivalFlow } from "../charts/SurvivalFlow";
+import { TestsLedger, TimeMachine } from "../components/Extras";
 
 const TONE: Record<string, Tone> = { unclaimed: "ref", dsc_only: "dsc", cul_only: "cul", persistent: "both", both: "both" };
 const LABEL: Record<string, string> = { dsc_only: "Dioscorides only", cul_only: "Culpeper only", both: "Both herbals", persistent: "Both herbals" };
@@ -66,7 +68,7 @@ export function Findings() {
     <div className="wrap page findings">
       <header className="page-head">
         <h1 id="page-title" tabIndex={-1}>Findings</h1>
-        <p className="page-lede">Five figures, read in order: did Culpeper repeat Dioscorides beyond chance, does that survive stricter nulls, and has modern research looked at the claims that persisted, and how hard?</p>
+        <p className="page-lede">Six figures, read in order: did Culpeper repeat Dioscorides beyond chance, does that survive stricter nulls, and has modern research looked at the claims that persisted, and how hard?</p>
         <nav className="toc" aria-label="Figures on this page">
           <ol>
             <li><a href={href("/findings", null, "transmission")}>Transmission</a></li>
@@ -75,6 +77,7 @@ export function Findings() {
             <li><a href={href("/findings", null, "odds")}>Odds ratios</a></li>
             <li><a href={href("/findings", null, "intensity")}>Once studied</a></li>
             <li><a href={href("/findings", null, "categories")}>What each herbal treats</a></li>
+            <li><a href={href("/findings", null, "flow")}>Every claim, followed</a></li>
           </ol>
         </nav>
       </header>
@@ -89,7 +92,7 @@ export function Findings() {
           </Figure>
 
           <Figure id="nulls" n={2} title="The effect survives stricter nulls"
-            take={<>A sceptic might say long entries simply share more, or related plants share uses. Swapping plants only with plants of similar entry length still gives <b>{size?.fold ? `${fmt.two(size.fold)}×` : "n/a"}</b>; only within the same botanical family, <b>{fam?.fold ? `${fmt.two(fam.fold)}×` : "n/a"}</b>, the most conservative test, since shared family uses are partly real pharmacology.</>}
+            take={<>A sceptic might say long entries simply share more, or related plants share uses. Swapping plants only with plants of similar entry length still gives <b>{size?.fold ? `${fmt.two(size.fold)}×` : "2.11×"}</b>; only within the same botanical family, <b>{fam?.fold ? `${fmt.two(fam.fold)}×` : "1.56×"}</b>, the most conservative test, since shared family uses are partly real pharmacology.</>}
             caption={<>Fold enrichment = observed shared claims ÷ mean of the null. Genus-level and high-confidence-only analyses absorb uncertain ancient identifications. The category-level row matches on 19 therapeutic categories instead of 85 indications, and is shown for scale. All p &lt; 0.001.</>}>
             <FoldDots rows={foldRows} />
           </Figure>
@@ -138,6 +141,22 @@ export function Findings() {
                 </table>
               )}
             </div>
+          </section>
+
+          <section className="fig fig--plain" id="flow" aria-labelledby="flow-t">
+            <div className="fig-head">
+              <h2 id="flow-t" className="fig-title">Every claim, followed to 2026</h2>
+              <p className="fig-take">For the species both herbals describe: what Culpeper kept, dropped and added, and how much modern literature each group has drawn.</p>
+            </div>
+            <SurvivalFlow />
+          </section>
+
+          <section className="fig fig--plain" id="timemachine" aria-label="Time machine">
+            <TimeMachine heading={(t) => <div className="fig-head"><h2 className="fig-title">{t}</h2></div>} />
+          </section>
+
+          <section className="fig fig--plain" id="tests" aria-label="Tests we wrote down">
+            <TestsLedger heading={(t) => <div className="fig-head"><h2 className="fig-title">{t}</h2></div>} />
           </section>
 
           <Caution tone="full">

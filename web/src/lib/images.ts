@@ -33,8 +33,8 @@ export function smallest(im: CodexImage, min = 0): string {
 }
 
 export const BASIS_NOTE: Record<string, string> = {
-  "commons-binomial": "The Commons record names this species.",
-  "folio-lemma": "The folio is labelled with the Greek name Palimpsest identifies as this plant; the identification carries its confidence level.",
+  "commons-binomial": "The Commons record names this species, and our concordance identifies the folio’s Greek lemma as the same plant.",
+  "folio-lemma": "The folio is labelled with the Greek lemma our concordance identifies as this plant; the identification carries its confidence level.",
   "page-heading": "Fuchs’s printed Latin heading names the plant.",
 };
 

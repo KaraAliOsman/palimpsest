@@ -1,0 +1,4931 @@
+{
+ "question": "Is there a plausible molecular route from each lead plant's known constituents to its historical indication, and do its constituents carry modern hazard classifications?",
+ "method": {
+  "constituents": "LOTUS via Wikidata P703 (data/processed/taxon_compounds.csv)",
+  "activity": "ChEMBL activities, pChEMBL >= 6, human SINGLE PROTEIN targets",
+  "association": "Open Targets Platform overall association score >= 0.1 (indirect) between target and the lead's disease",
+  "disease_mapping": {
+   "diarrhea": "MONDO_0001673",
+   "constipation": "MONDO_0002203",
+   "colic": "HP_0002027",
+   "nausea_vomiting": "HP_0002013",
+   "spleen_disease": "MONDO_0002332",
+   "cough": "HP_0012735",
+   "asthma_dyspnea": "MONDO_0004979",
+   "sore_throat": "MONDO_0002258",
+   "tuberculosis": "MONDO_0018076",
+   "diuresis": "HP_0000016",
+   "urolithiasis": "MONDO_0024647",
+   "kidney_disease": "MONDO_0005240",
+   "sexual_function": "MONDO_0005362",
+   "amenorrhea": "MONDO_0001836",
+   "uterine_disorders": "MONDO_0002654",
+   "delirium": "MONDO_0045057",
+   "convulsions": "HP_0003394",
+   "gout": "MONDO_0005393",
+   "bruises": null,
+   "wounds": "GO_0042060",
+   "skin_ulcers": "HP_0200042",
+   "burns": "EFO_0009516",
+   "itch_scabies": "HP_0000989",
+   "dermatitis": "MONDO_0004980",
+   "scaly_skin": "MONDO_0005083",
+   "alopecia": "MONDO_0004907",
+   "skin_blemishes": "MONDO_0019289",
+   "erysipelas": "MONDO_0001266",
+   "eye_disease": "MONDO_0005328",
+   "ear_disease": "MONDO_0021205",
+   "toothache": "EFO_0010072",
+   "mouth_gums": "MONDO_0006858",
+   "edema_dropsy": "EFO_0009373",
+   "heart": "MONDO_0005267",
+   "hemorrhage": "HP_0001892",
+   "envenomation": null,
+   "poisoning": "MONDO_0029000"
+  },
+  "paths_per_lead": "best 2 distinct targets by OT score, then pChEMBL",
+  "hazard": "PubChem GHS hazard statements for path constituents and the 3 most promiscuous constituents; severe = acute toxicity (H300/301/310/311/330/331), CMR (H340/341/350/351/360/361), organ toxicity (H370/372)",
+  "open_targets_version": {
+   "apiVersion": {
+    "x": "26",
+    "y": "9",
+    "z": "0"
+   },
+   "dataVersion": {
+    "year": "26",
+    "month": "09"
+   }
+  }
+ },
+ "summary": {
+  "n_leads": 60,
+  "n_leads_with_path": 33,
+  "n_leads_without_disease_mapping": 7,
+  "n_activities": 6755,
+  "n_human_single_protein_targets": 335,
+  "n_diseases": 35,
+  "median_share_targets_associated_lead_disease": 0.03468208092485549,
+  "median_share_targets_associated_other_diseases": 0.031578947368421054,
+  "n_leads_lead_disease_above_median_of_others": 22,
+  "n_leads_with_bg": 51,
+  "n_leads_with_severe_ghs_constituent": 47,
+  "n_leads_historical_warning_and_severe_ghs": 27,
+  "n_leads_with_severe_ghs_non_ubiquitous": 13,
+  "n_leads_historical_warning_and_severe_ghs_non_ubiquitous": 7,
+  "n_leads_historical_warning": 29
+ },
+ "leads": [
+  {
+   "rank": 1,
+   "taxon": "Ruta graveolens",
+   "concept_id": "eye_disease",
+   "label": "Eye complaints / dim sight",
+   "disease_id": "MONDO_0005328",
+   "paths": [
+    {
+     "compound": "isorhamnetin",
+     "chembl": "CHEMBL379064",
+     "inchikey": "IZQSVPBOUDKVDZ-UHFFFAOYSA-N",
+     "target": "CYP1B1",
+     "ensembl": "ENSG00000138061",
+     "pchembl": 8.52,
+     "ot_score": 0.885
+    },
+    {
+     "compound": "isorhamnetin",
+     "chembl": "CHEMBL379064",
+     "inchikey": "IZQSVPBOUDKVDZ-UHFFFAOYSA-N",
+     "target": "CA2",
+     "ensembl": "ENSG00000104267",
+     "pchembl": 6.36,
+     "ot_score": 0.882
+    }
+   ],
+   "stats": {
+    "n_compounds_with_chembl": 63,
+    "n_active_compounds": 20,
+    "n_targets": 65,
+    "n_targets_associated": 36,
+    "share_targets_associated": 0.5538461538461539
+   },
+   "background": {
+    "share_lead_disease": 0.5538461538461539,
+    "median_share_other_diseases": 0.023076923076923078,
+    "percentile_among_diseases": 0.9411764705882353
+   },
+   "top_active_constituents": [
+    "CHEMBL50",
+    "CHEMBL150",
+    "CHEMBL243664"
+   ],
+   "flag_historical_safety": true,
+   "modern_hazard": [
+    {
+     "chembl": "CHEMBL150",
+     "compound": "kaempferol",
+     "pubchem_cid": 5280863,
+     "ghs": [
+      "H301",
+      "H341"
+     ],
+     "flags": [
+      "acute_toxicity",
+      "carcinogenic_mutagenic_reprotoxic"
+     ],
+     "ubiquitous": true
+    },
+    {
+     "chembl": "CHEMBL243664",
+     "compound": "acacetin",
+     "pubchem_cid": 5280442,
+     "ghs": [
+      "H315",
+      "H319",
+      "H335"
+     ],
+     "flags": [],
+     "ubiquitous": false
+    },
+    {
+     "chembl": "CHEMBL379064",
+     "compound": "isorhamnetin",
+     "pubchem_cid": 5281654,
+     "ghs": [
+      "H351"
+     ],
+     "flags": [
+      "carcinogenic_mutagenic_reprotoxic"
+     ],
+     "ubiquitous": true
+    },
+    {
+     "chembl": "CHEMBL50",
+     "compound": "quercetin",
+     "pubchem_cid": 5280343,
+     "ghs": [
+      "H301"
+     ],
+     "flags": [
+      "acute_toxicity"
+     ],
+     "ubiquitous": true
+    }
+   ],
+   "any_severe_ghs": true,
+   "any_severe_ghs_specific": false
+  },
+  {
+   "rank": 2,
+   "taxon": "Vicia faba",
+   "concept_id": "hemorrhage",
+   "label": "Bleeding / staunching blood",
+   "disease_id": "HP_0001892",
+   "paths": [
+    {
+     "compound": "quercetin",
+     "chembl": "CHEMBL50",
+     "inchikey": "REFJWTPEDVJJIY-UHFFFAOYSA-N",
+     "target": "TP53",
+     "ensembl": "ENSG00000141510",
+     "pchembl": 6.0,
+     "ot_score": 0.486
+    },
+    {
+     "compound": "genistein",
+     "chembl": "CHEMBL44",
+     "inchikey": "TZBJGXHYKVUXJN-UHFFFAOYSA-N",
+     "target": "ESR1",
+     "ensembl": "ENSG00000091831",
+     "pchembl": 8.01,
+     "ot_score": 0.454
+    }
+   ],
+   "stats": {
+    "n_compounds_with_chembl": 113,
+    "n_active_compounds": 45,
+    "n_targets": 155,
+    "n_targets_associated": 9,
+    "share_targets_associated": 0.05806451612903226
+   },
+   "background": {
+    "share_lead_disease": 0.05806451612903226,
+    "median_share_other_diseases": 0.05806451612903226,
+    "percentile_among_diseases": 0.47058823529411764
+   },
+   "top_active_constituents": [
+    "CHEMBL50",
+    "CHEMBL297453",
+    "CHEMBL164"
+   ],
+   "flag_historical_safety": true,
+   "modern_hazard": [
+    {
+     "chembl": "CHEMBL164",
+     "compound": "myricetin",
+     "pubchem_cid": 5281672,
+     "ghs": [
+      "H315",
+      "H319",
+      "H335"
+     ],
+     "flags": [],
+     "ubiquitous": true
+    },
+    {
+     "chembl": "CHEMBL297453",
+     "compound": "epigallocatechin gallate",
+     "pubchem_cid": 65064,
+     "ghs": [
+      "H302",
+      "H312",
+      "H317",
+      "H319",
+      "H401",
+      "H411"
+     ],
+     "flags": [],
+     "ubiquitous": false
+    },
+    {
+     "chembl": "CHEMBL44",
+     "compound": "genistein",
+     "pubchem_cid": 5280961,
+     "ghs": [
+      "H302",
+      "H315",
+      "H319",
+      "H335",
+      "H400",
+      "H410"
+     ],
+     "flags": [],
+     "ubiquitous": false
+    },
+    {
+     "chembl": "CHEMBL50",
+     "compound": "quercetin",
+     "pubchem_cid": 5280343,
+     "ghs": [
+      "H301"
+     ],
+     "flags": [
+      "acute_toxicity"
+     ],
+     "ubiquitous": true
+    }
+   ],
+   "any_severe_ghs": true,
+   "any_severe_ghs_specific": false
+  },
+  {
+   "rank": 3,
+   "taxon": "Ocimum basilicum",
+   "concept_id": "envenomation",
+   "label": "Venomous bites & stings",
+   "disease_id": null,
+   "paths": [],
+   "stats": {
+    "n_compounds_with_chembl": 132,
+    "n_active_compounds": 41,
+    "n_targets": 109,
+    "n_targets_associated": 0,
+    "share_targets_associated": 0.0
+   },
+   "background": {},
+   "top_active_constituents": [
+    "CHEMBL50",
+    "CHEMBL151",
+    "CHEMBL28"
+   ],
+   "flag_historical_safety": false,
+   "modern_hazard": [
+    {
+     "chembl": "CHEMBL151",
+     "compound": "luteolin",
+     "pubchem_cid": 5280445,
+     "ghs": [
+      "H315",
+      "H319",
+      "H335"
+     ],
+     "flags": [],
+     "ubiquitous": true
+    },
+    {
+     "chembl": "CHEMBL28",
+     "compound": "apigenin",
+     "pubchem_cid": 5280443,
+     "ghs": [
+      "H315",
+      "H319",
+      "H335",
+      "H412"
+     ],
+     "flags": [],
+     "ubiquitous": true
+    },
+    {
+     "chembl": "CHEMBL50",
+     "compound": "quercetin",
+     "pubchem_cid": 5280343,
+     "ghs": [
+      "H301"
+     ],
+     "flags": [
+      "acute_toxicity"
+     ],
+     "ubiquitous": true
+    }
+   ],
+   "any_severe_ghs": true,
+   "any_severe_ghs_specific": false
+  },
+  {
+   "rank": 4,
+   "taxon": "Juglans regia",
+   "concept_id": "skin_ulcers",
+   "label": "Ulcers & sores",
+   "disease_id": "HP_0200042",
+   "paths": [
+    {
+     "compound": "serotonin",
+     "chembl": "CHEMBL39",
+     "inchikey": "QZAYGJVTTNCVMB-UHFFFAOYSA-N",
+     "target": "HTR2C",
+     "ensembl": "ENSG00000147246",
+     "pchembl": 10.05,
+     "ot_score": 0.268
+    },
+    {
+     "compound": "progesterone",
+     "chembl": "CHEMBL103",
+     "inchikey": "RJKFOVLPORLFTN-LEKSSAKUSA-N",
+     "target": "AR",
+     "ensembl": "ENSG00000169083",
+     "pchembl": 8.07,
+     "ot_score": 0.13
+    }
+   ],
+   "stats": {
+    "n_compounds_with_chembl": 89,
+    "n_active_compounds": 41,
+    "n_targets": 169,
+    "n_targets_associated": 2,
+    "share_targets_associated": 0.011834319526627219
+   },
+   "background": {
+    "share_lead_disease": 0.011834319526627219,
+    "median_share_other_diseases": 0.03550295857988166,
+    "percentile_among_diseases": 0.08823529411764706
+   },
+   "top_active_constituents": [
+    "CHEMBL50",
+    "CHEMBL297453",
+    "CHEMBL6246"
+   ],
+   "flag_historical_safety": true,
+   "modern_hazard": [
+    {
+     "chembl": "CHEMBL103",
+     "compound": "progesterone",
+     "pubchem_cid": 5994,
+     "ghs": [
+      "H350",
+      "H351",
+      "H360",
+      "H361",
+      "H362",
+      "H410"
+     ],
+     "flags": [
+      "carcinogenic_mutagenic_reprotoxic"
+     ],
+     "ubiquitous": false
+    },
+    {
+     "chembl": "CHEMBL297453",
+     "compound": "epigallocatechin gallate",
+     "pubchem_cid": 65064,
+     "ghs": [
+      "H302",
+      "H312",
+      "H317",
+      "H319",
+      "H401",
+      "H411"
+     ],
+     "flags": [],
+     "ubiquitous": false
+    },
+    {
+     "chembl": "CHEMBL39",
+     "compound": "serotonin",
+     "pubchem_cid": 5202,
+     "ghs": [
+      "H301",
+      "H361"
+     ],
+     "flags": [
+      "acute_toxicity",
+      "carcinogenic_mutagenic_reprotoxic"
+     ],
+     "ubiquitous": false
+    },
+    {
+     "chembl": "CHEMBL50",
+     "compound": "quercetin",
+     "pubchem_cid": 5280343,
+     "ghs": [
+      "H301"
+     ],
+     "flags": [
+      "acute_toxicity"
+     ],
+     "ubiquitous": true
+    },
+    {
+     "chembl": "CHEMBL6246",
+     "compound": "ellagic acid",
+     "pubchem_cid": 5281855,
+     "ghs": [
+      "H315",
+      "H319",
+      "H335"
+     ],
+     "flags": [],
+     "ubiquitous": false
+    }
+   ],
+   "any_severe_ghs": true,
+   "any_severe_ghs_specific": true
+  },
+  {
+   "rank": 5,
+   "taxon": "Cannabis sativa",
+   "concept_id": "ear_disease",
+   "label": "Ear-ache / running ears",
+   "disease_id": "MONDO_0021205",
+   "paths": [
+    {
+     "compound": "L-glutamic acid",
+     "chembl": "CHEMBL575060",
+     "inchikey": "WHUUTDBJXJRKMK-VKHMYHEASA-N",
+     "target": "GRM3",
+     "ensembl": "ENSG00000198822",
+     "pchembl": 7.24,
+     "ot_score": 0.492
+    },
+    {
+     "compound": "(Z)-anethol",
+     "chembl": "CHEMBL1468832",
+     "inchikey": "RUVINXPYWBROJD-ARJAWSKDSA-N",
+     "target": "TP53",
+     "ensembl": "ENSG00000141510",
+     "pchembl": 8.3,
+     "ot_score": 0.478
+    }
+   ],
+   "stats": {
+    "n_compounds_with_chembl": 218,
+    "n_active_compounds": 47,
+    "n_targets": 99,
+    "n_targets_associated": 11,
+    "share_targets_associated": 0.1111111111111111
+   },
+   "background": {
+    "share_lead_disease": 0.1111111111111111,
+    "median_share_other_diseases": 0.045454545454545456,
+    "percentile_among_diseases": 0.7352941176470589
+   },
+   "top_active_constituents": [
+    "CHEMBL151",
+    "CHEMBL190461",
+    "CHEMBL575060"
+   ],
+   "flag_historical_safety": true,
+   "modern_hazard": [
+    {
+     "chembl": "CHEMBL1468832",
+     "compound": "(Z)-anethol",
+     "pubchem_cid": 1549040,
+     "ghs": [
+      "H317"
+     ],
+     "flags": [],
+     "ubiquitous": false
+    },
+    {
+     "chembl": "CHEMBL151",
+     "compound": "luteolin",
+     "pubchem_cid": 5280445,
+     "ghs": [
+      "H315",
+      "H319",
+      "H335"
+     ],
+     "flags": [],
+     "ubiquitous": true
+    },
+    {
+     "chembl": "CHEMBL190461",
+     "compound": "cannabidiol",
+     "pubchem_cid": 644019,
+     "ghs": [
+      "H302",
+      "H332",
+      "H361"
+     ],
+     "flags": [
+      "carcinogenic_mutagenic_reprotoxic"
+     ],
+     "ubiquitous": false
+    },
+    {
+     "chembl": "CHEMBL575060",
+     "compound": "L-glutamic acid",
+     "pubchem_cid": 33032,
+     "ghs": [
+      "H314",
+      "H318"
+     ],
+     "flags": [],
+     "ubiquitous": false
+    }
+   ],
+   "any_severe_ghs": true,
+   "any_severe_ghs_specific": true
+  },
+  {
+   "rank": 6,
+   "taxon": "Origanum vulgare",
+   "concept_id": "envenomation",
+   "label": "Venomous bites & stings",
+   "disease_id": null,
+   "paths": [],
+   "stats": {
+    "n_compounds_with_chembl": 101,
+    "n_active_compounds": 34,
+    "n_targets": 101,
+    "n_targets_associated": 0,
+    "share_targets_associated": 0.0
+   },
+   "background": {},
+   "top_active_constituents": [
+    "CHEMBL50",
+    "CHEMBL151",
+    "CHEMBL28"
+   ],
+   "flag_historical_safety": false,
+   "modern_hazard": [
+    {
+     "chembl": "CHEMBL151",
+     "compound": "luteolin",
+     "pubchem_cid": 5280445,
+     "ghs": [
+      "H315",
+      "H319",
+      "H335"
+     ],
+     "flags": [],
+     "ubiquitous": true
+    },
+    {
+     "chembl": "CHEMBL28",
+     "compound": "apigenin",
+     "pubchem_cid": 5280443,
+     "ghs": [
+      "H315",
+      "H319",
+      "H335",
+      "H412"
+     ],
+     "flags": [],
+     "ubiquitous": true
+    },
+    {
+     "chembl": "CHEMBL50",
+     "compound": "quercetin",
+     "pubchem_cid": 5280343,
+     "ghs": [
+      "H301"
+     ],
+     "flags": [
+      "acute_toxicity"
+     ],
+     "ubiquitous": true
+    }
+   ],
+   "any_severe_ghs": true,
+   "any_severe_ghs_specific": false
+  },
+  {
+   "rank": 7,
+   "taxon": "Brassica oleracea",
+   "concept_id": "constipation",
+   "label": "Constipation / purging",
+   "disease_id": "MONDO_0002203",
+   "paths": [
+    {
+     "compound": "myricetin",
+     "chembl": "CHEMBL164",
+     "inchikey": "IKMDFBPHZNJCSN-UHFFFAOYSA-N",
+     "target": "ACHE",
+     "ensembl": "ENSG00000087085",
+     "pchembl": 7.92,
+     "ot_score": 0.105
+    }
+   ],
+   "stats": {
+    "n_compounds_with_chembl": 83,
+    "n_active_compounds": 32,
+    "n_targets": 105,
+    "n_targets_associated": 1,
+    "share_targets_associated": 0.009523809523809525
+   },
+   "background": {
+    "share_lead_disease": 0.009523809523809525,
+    "median_share_other_diseases": 0.03333333333333333,
+    "percentile_among_diseases": 0.08823529411764706
+   },
+   "top_active_constituents": [
+    "CHEMBL50",
+    "CHEMBL164",
+    "CHEMBL151"
+   ],
+   "flag_historical_safety": true,
+   "modern_hazard": [
+    {
+     "chembl": "CHEMBL151",
+     "compound": "luteolin",
+     "pubchem_cid": 5280445,
+     "ghs": [
+      "H315",
+      "H319",
+      "H335"
+     ],
+     "flags": [],
+     "ubiquitous": true
+    },
+    {
+     "chembl": "CHEMBL164",
+     "compound": "myricetin",
+     "pubchem_cid": 5281672,
+     "ghs": [
+      "H315",
+      "H319",
+      "H335"
+     ],
+     "flags": [],
+     "ubiquitous": true
+    },
+    {
+     "chembl": "CHEMBL50",
+     "compound": "quercetin",
+     "pubchem_cid": 5280343,
+     "ghs": [
+      "H301"
+     ],
+     "flags": [
+      "acute_toxicity"
+     ],
+     "ubiquitous": true
+    }
+   ],
+   "any_severe_ghs": true,
+   "any_severe_ghs_specific": false
+  },
+  {
+   "rank": 8,
+   "taxon": "Iris germanica",
+   "concept_id": "skin_ulcers",
+   "label": "Ulcers & sores",
+   "disease_id": "HP_0200042",
+   "paths": [],
+   "stats": {
+    "n_compounds_with_chembl": 15,
+    "n_active_compounds": 2,
+    "n_targets": 3,
+    "n_targets_associated": 0,
+    "share_targets_associated": 0.0
+   },
+   "background": {
+    "share_lead_disease": 0.0,
+    "median_share_other_diseases": 0.0,
+    "percentile_among_diseases": 0.0
+   },
+   "top_active_constituents": [
+    "CHEMBL37537",
+    "CHEMBL455364"
+   ],
+   "flag_historical_safety": true,
+   "modern_hazard": [
+    {
+     "chembl": "CHEMBL37537",
+     "compound": "3,4-dihydroxybenzoic acid",
+     "pubchem_cid": 72,
+     "ghs": [
+      "H315",
+      "H319",
+      "H335"
+     ],
+     "flags": [],
+     "ubiquitous": true
+    },
+    {
+     "chembl": "CHEMBL455364",
+     "compound": "mangiferin",
+     "pubchem_cid": 5281647,
+     "ghs": [
+      "H302"
+     ],
+     "flags": [],
+     "ubiquitous": false
+    }
+   ],
+   "any_severe_ghs": false,
+   "any_severe_ghs_specific": false
+  },
+  {
+   "rank": 9,
+   "taxon": "Brassica oleracea",
+   "concept_id": "skin_ulcers",
+   "label": "Ulcers & sores",
+   "disease_id": "HP_0200042",
+   "paths": [],
+   "stats": {
+    "n_compounds_with_chembl": 83,
+    "n_active_compounds": 32,
+    "n_targets": 105,
+    "n_targets_associated": 0,
+    "share_targets_associated": 0.0
+   },
+   "background": {
+    "share_lead_disease": 0.0,
+    "median_share_other_diseases": 0.03333333333333333,
+    "percentile_among_diseases": 0.0
+   },
+   "top_active_constituents": [
+    "CHEMBL50",
+    "CHEMBL164",
+    "CHEMBL151"
+   ],
+   "flag_historical_safety": true,
+   "modern_hazard": [
+    {
+     "chembl": "CHEMBL151",
+     "compound": "luteolin",
+     "pubchem_cid": 5280445,
+     "ghs": [
+      "H315",
+      "H319",
+      "H335"
+     ],
+     "flags": [],
+     "ubiquitous": true
+    },
+    {
+     "chembl": "CHEMBL164",
+     "compound": "myricetin",
+     "pubchem_cid": 5281672,
+     "ghs": [
+      "H315",
+      "H319",
+      "H335"
+     ],
+     "flags": [],
+     "ubiquitous": true
+    },
+    {
+     "chembl": "CHEMBL50",
+     "compound": "quercetin",
+     "pubchem_cid": 5280343,
+     "ghs": [
+      "H301"
+     ],
+     "flags": [
+      "acute_toxicity"
+     ],
+     "ubiquitous": true
+    }
+   ],
+   "any_severe_ghs": true,
+   "any_severe_ghs_specific": false
+  },
+  {
+   "rank": 10,
+   "taxon": "Juglans regia",
+   "concept_id": "alopecia",
+   "label": "Hair loss",
+   "disease_id": "MONDO_0004907",
+   "paths": [
+    {
+     "compound": "progesterone",
+     "chembl": "CHEMBL103",
+     "inchikey": "RJKFOVLPORLFTN-LEKSSAKUSA-N",
+     "target": "AR",
+     "ensembl": "ENSG00000169083",
+     "pchembl": 8.07,
+     "ot_score": 0.514
+    },
+    {
+     "compound": "Epicatechin gallate",
+     "chembl": "CHEMBL36327",
+     "inchikey": "LSHVYAFMTMFKBA-TZIWHRDSSA-N",
+     "target": "BCL2",
+     "ensembl": "ENSG00000171791",
+     "pchembl": 6.64,
+     "ot_score": 0.461
+    }
+   ],
+   "stats": {
+    "n_compounds_with_chembl": 89,
+    "n_active_compounds": 41,
+    "n_targets": 169,
+    "n_targets_associated": 10,
+    "share_targets_associated": 0.05917159763313609
+   },
+   "background": {
+    "share_lead_disease": 0.05917159763313609,
+    "median_share_other_diseases": 0.029585798816568046,
+    "percentile_among_diseases": 0.5588235294117647
+   },
+   "top_active_constituents": [
+    "CHEMBL50",
+    "CHEMBL297453",
+    "CHEMBL6246"
+   ],
+   "flag_historical_safety": true,
+   "modern_hazard": [
+    {
+     "chembl": "CHEMBL103",
+     "compound": "progesterone",
+     "pubchem_cid": 5994,
+     "ghs": [
+      "H350",
+      "H351",
+      "H360",
+      "H361",
+      "H362",
+      "H410"
+     ],
+     "flags": [
+      "carcinogenic_mutagenic_reprotoxic"
+     ],
+     "ubiquitous": false
+    },
+    {
+     "chembl": "CHEMBL297453",
+     "compound": "epigallocatechin gallate",
+     "pubchem_cid": 65064,
+     "ghs": [
+      "H302",
+      "H312",
+      "H317",
+      "H319",
+      "H401",
+      "H411"
+     ],
+     "flags": [],
+     "ubiquitous": false
+    },
+    {
+     "chembl": "CHEMBL36327",
+     "compound": "Epicatechin gallate",
+     "pubchem_cid": 107905,
+     "ghs": [
+      "H315",
+      "H319",
+      "H335"
+     ],
+     "flags": [],
+     "ubiquitous": false
+    },
+    {
+     "chembl": "CHEMBL50",
+     "compound": "quercetin",
+     "pubchem_cid": 5280343,
+     "ghs": [
+      "H301"
+     ],
+     "flags": [
+      "acute_toxicity"
+     ],
+     "ubiquitous": true
+    },
+    {
+     "chembl": "CHEMBL6246",
+     "compound": "ellagic acid",
+     "pubchem_cid": 5281855,
+     "ghs": [
+      "H315",
+      "H319",
+      "H335"
+     ],
+     "flags": [],
+     "ubiquitous": false
+    }
+   ],
+   "any_severe_ghs": true,
+   "any_severe_ghs_specific": true
+  },
+  {
+   "rank": 11,
+   "taxon": "Plantago major",
+   "concept_id": "kidney_disease",
+   "label": "Kidney & bladder complaints",
+   "disease_id": "MONDO_0005240",
+   "paths": [
+    {
+     "compound": "quercetin",
+     "chembl": "CHEMBL50",
+     "inchikey": "REFJWTPEDVJJIY-UHFFFAOYSA-N",
+     "target": "MET",
+     "ensembl": "ENSG00000105976",
+     "pchembl": 6.24,
+     "ot_score": 0.9
+    },
+    {
+     "compound": "quercetin",
+     "chembl": "CHEMBL50",
+     "inchikey": "REFJWTPEDVJJIY-UHFFFAOYSA-N",
+     "target": "TP53",
+     "ensembl": "ENSG00000141510",
+     "pchembl": 6.0,
+     "ot_score": 0.848
+    }
+   ],
+   "stats": {
+    "n_compounds_with_chembl": 55,
+    "n_active_compounds": 25,
+    "n_targets": 95,
+    "n_targets_associated": 53,
+    "share_targets_associated": 0.5578947368421052
+   },
+   "background": {
+    "share_lead_disease": 0.5578947368421052,
+    "median_share_other_diseases": 0.031578947368421054,
+    "percentile_among_diseases": 0.9705882352941176
+   },
+   "top_active_constituents": [
+    "CHEMBL50",
+    "CHEMBL151",
+    "CHEMBL28"
+   ],
+   "flag_historical_safety": false,
+   "modern_hazard": [
+    {
+     "chembl": "CHEMBL151",
+     "compound": "luteolin",
+     "pubchem_cid": 5280445,
+     "ghs": [
+      "H315",
+      "H319",
+      "H335"
+     ],
+     "flags": [],
+     "ubiquitous": true
+    },
+    {
+     "chembl": "CHEMBL28",
+     "compound": "apigenin",
+     "pubchem_cid": 5280443,
+     "ghs": [
+      "H315",
+      "H319",
+      "H335",
+      "H412"
+     ],
+     "flags": [],
+     "ubiquitous": true
+    },
+    {
+     "chembl": "CHEMBL50",
+     "compound": "quercetin",
+     "pubchem_cid": 5280343,
+     "ghs": [
+      "H301"
+     ],
+     "flags": [
+      "acute_toxicity"
+     ],
+     "ubiquitous": true
+    }
+   ],
+   "any_severe_ghs": true,
+   "any_severe_ghs_specific": false
+  },
+  {
+   "rank": 12,
+   "taxon": "Ficus carica",
+   "concept_id": "ear_disease",
+   "label": "Ear-ache / running ears",
+   "disease_id": "MONDO_0021205",
+   "paths": [
+    {
+     "compound": "quercetin",
+     "chembl": "CHEMBL50",
+     "inchikey": "REFJWTPEDVJJIY-UHFFFAOYSA-N",
+     "target": "MET",
+     "ensembl": "ENSG00000105976",
+     "pchembl": 6.24,
+     "ot_score": 0.611
+    },
+    {
+     "compound": "epigallocatechin gallate",
+     "chembl": "CHEMBL297453",
+     "inchikey": "WMBWREPUVVBILR-WIYYLYMNSA-N",
+     "target": "DNMT1",
+     "ensembl": "ENSG00000130816",
+     "pchembl": 6.3,
+     "ot_score": 0.578
+    }
+   ],
+   "stats": {
+    "n_compounds_with_chembl": 47,
+    "n_active_compounds": 21,
+    "n_targets": 106,
+    "n_targets_associated": 7,
+    "share_targets_associated": 0.0660377358490566
+   },
+   "background": {
+    "share_lead_disease": 0.0660377358490566,
+    "median_share_other_diseases": 0.018867924528301886,
+    "percentile_among_diseases": 0.6176470588235294
+   },
+   "top_active_constituents": [
+    "CHEMBL50",
+    "CHEMBL297453",
+    "CHEMBL164"
+   ],
+   "flag_historical_safety": true,
+   "modern_hazard": [
+    {
+     "chembl": "CHEMBL164",
+     "compound": "myricetin",
+     "pubchem_cid": 5281672,
+     "ghs": [
+      "H315",
+      "H319",
+      "H335"
+     ],
+     "flags": [],
+     "ubiquitous": true
+    },
+    {
+     "chembl": "CHEMBL297453",
+     "compound": "epigallocatechin gallate",
+     "pubchem_cid": 65064,
+     "ghs": [
+      "H302",
+      "H312",
+      "H317",
+      "H319",
+      "H401",
+      "H411"
+     ],
+     "flags": [],
+     "ubiquitous": false
+    },
+    {
+     "chembl": "CHEMBL50",
+     "compound": "quercetin",
+     "pubchem_cid": 5280343,
+     "ghs": [
+      "H301"
+     ],
+     "flags": [
+      "acute_toxicity"
+     ],
+     "ubiquitous": true
+    }
+   ],
+   "any_severe_ghs": true,
+   "any_severe_ghs_specific": false
+  },
+  {
+   "rank": 13,
+   "taxon": "Foeniculum vulgare",
+   "concept_id": "eye_disease",
+   "label": "Eye complaints / dim sight",
+   "disease_id": "MONDO_0005328",
+   "paths": [
+    {
+     "compound": "isorhamnetin",
+     "chembl": "CHEMBL379064",
+     "inchikey": "IZQSVPBOUDKVDZ-UHFFFAOYSA-N",
+     "target": "CYP1B1",
+     "ensembl": "ENSG00000138061",
+     "pchembl": 8.52,
+     "ot_score": 0.885
+    },
+    {
+     "compound": "Astragalin",
+     "chembl": "CHEMBL233930",
+     "inchikey": "JPUKWEQWGBDDQB-QSOFNFLRSA-N",
+     "target": "CA2",
+     "ensembl": "ENSG00000104267",
+     "pchembl": 6.78,
+     "ot_score": 0.882
+    }
+   ],
+   "stats": {
+    "n_compounds_with_chembl": 140,
+    "n_active_compounds": 40,
+    "n_targets": 123,
+    "n_targets_associated": 71,
+    "share_targets_associated": 0.5772357723577236
+   },
+   "background": {
+    "share_lead_disease": 0.5772357723577236,
+    "median_share_other_diseases": 0.04065040650406504,
+    "percentile_among_diseases": 1.0
+   },
+   "top_active_constituents": [
+    "CHEMBL50",
+    "CHEMBL164",
+    "CHEMBL151"
+   ],
+   "flag_historical_safety": false,
+   "modern_hazard": [
+    {
+     "chembl": "CHEMBL151",
+     "compound": "luteolin",
+     "pubchem_cid": 5280445,
+     "ghs": [
+      "H315",
+      "H319",
+      "H335"
+     ],
+     "flags": [],
+     "ubiquitous": true
+    },
+    {
+     "chembl": "CHEMBL164",
+     "compound": "myricetin",
+     "pubchem_cid": 5281672,
+     "ghs": [
+      "H315",
+      "H319",
+      "H335"
+     ],
+     "flags": [],
+     "ubiquitous": true
+    },
+    {
+     "chembl": "CHEMBL233930",
+     "compound": "Astragalin",
+     "pubchem_cid": 5282102,
+     "ghs": [],
+     "flags": [],
+     "ubiquitous": false
+    },
+    {
+     "chembl": "CHEMBL379064",
+     "compound": "isorhamnetin",
+     "pubchem_cid": 5281654,
+     "ghs": [
+      "H351"
+     ],
+     "flags": [
+      "carcinogenic_mutagenic_reprotoxic"
+     ],
+     "ubiquitous": true
+    },
+    {
+     "chembl": "CHEMBL50",
+     "compound": "quercetin",
+     "pubchem_cid": 5280343,
+     "ghs": [
+      "H301"
+     ],
+     "flags": [
+      "acute_toxicity"
+     ],
+     "ubiquitous": true
+    }
+   ],
+   "any_severe_ghs": true,
+   "any_severe_ghs_specific": false
+  },
+  {
+   "rank": 14,
+   "taxon": "Vicia faba",
+   "concept_id": "bruises",
+   "label": "Bruises / falls / sprains",
+   "disease_id": null,
+   "paths": [],
+   "stats": {
+    "n_compounds_with_chembl": 113,
+    "n_active_compounds": 45,
+    "n_targets": 155,
+    "n_targets_associated": 0,
+    "share_targets_associated": 0.0
+   },
+   "background": {},
+   "top_active_constituents": [
+    "CHEMBL50",
+    "CHEMBL297453",
+    "CHEMBL164"
+   ],
+   "flag_historical_safety": true,
+   "modern_hazard": [
+    {
+     "chembl": "CHEMBL164",
+     "compound": "myricetin",
+     "pubchem_cid": 5281672,
+     "ghs": [
+      "H315",
+      "H319",
+      "H335"
+     ],
+     "flags": [],
+     "ubiquitous": true
+    },
+    {
+     "chembl": "CHEMBL297453",
+     "compound": "epigallocatechin gallate",
+     "pubchem_cid": 65064,
+     "ghs": [
+      "H302",
+      "H312",
+      "H317",
+      "H319",
+      "H401",
+      "H411"
+     ],
+     "flags": [],
+     "ubiquitous": false
+    },
+    {
+     "chembl": "CHEMBL50",
+     "compound": "quercetin",
+     "pubchem_cid": 5280343,
+     "ghs": [
+      "H301"
+     ],
+     "flags": [
+      "acute_toxicity"
+     ],
+     "ubiquitous": true
+    }
+   ],
+   "any_severe_ghs": true,
+   "any_severe_ghs_specific": false
+  },
+  {
+   "rank": 15,
+   "taxon": "Origanum majorana",
+   "concept_id": "bruises",
+   "label": "Bruises / falls / sprains",
+   "disease_id": null,
+   "paths": [],
+   "stats": {
+    "n_compounds_with_chembl": 41,
+    "n_active_compounds": 11,
+    "n_targets": 44,
+    "n_targets_associated": 0,
+    "share_targets_associated": 0.0
+   },
+   "background": {},
+   "top_active_constituents": [
+    "CHEMBL151",
+    "CHEMBL28",
+    "CHEMBL150"
+   ],
+   "flag_historical_safety": false,
+   "modern_hazard": [
+    {
+     "chembl": "CHEMBL150",
+     "compound": "kaempferol",
+     "pubchem_cid": 5280863,
+     "ghs": [
+      "H301",
+      "H341"
+     ],
+     "flags": [
+      "acute_toxicity",
+      "carcinogenic_mutagenic_reprotoxic"
+     ],
+     "ubiquitous": true
+    },
+    {
+     "chembl": "CHEMBL151",
+     "compound": "luteolin",
+     "pubchem_cid": 5280445,
+     "ghs": [
+      "H315",
+      "H319",
+      "H335"
+     ],
+     "flags": [],
+     "ubiquitous": true
+    },
+    {
+     "chembl": "CHEMBL28",
+     "compound": "apigenin",
+     "pubchem_cid": 5280443,
+     "ghs": [
+      "H315",
+      "H319",
+      "H335",
+      "H412"
+     ],
+     "flags": [],
+     "ubiquitous": true
+    }
+   ],
+   "any_severe_ghs": true,
+   "any_severe_ghs_specific": false
+  },
+  {
+   "rank": 16,
+   "taxon": "Iris germanica",
+   "concept_id": "colic",
+   "label": "Colic / gripes",
+   "disease_id": "HP_0002027",
+   "paths": [],
+   "stats": {
+    "n_compounds_with_chembl": 15,
+    "n_active_compounds": 2,
+    "n_targets": 3,
+    "n_targets_associated": 0,
+    "share_targets_associated": 0.0
+   },
+   "background": {
+    "share_lead_disease": 0.0,
+    "median_share_other_diseases": 0.0,
+    "percentile_among_diseases": 0.0
+   },
+   "top_active_constituents": [
+    "CHEMBL37537",
+    "CHEMBL455364"
+   ],
+   "flag_historical_safety": true,
+   "modern_hazard": [
+    {
+     "chembl": "CHEMBL37537",
+     "compound": "3,4-dihydroxybenzoic acid",
+     "pubchem_cid": 72,
+     "ghs": [
+      "H315",
+      "H319",
+      "H335"
+     ],
+     "flags": [],
+     "ubiquitous": true
+    },
+    {
+     "chembl": "CHEMBL455364",
+     "compound": "mangiferin",
+     "pubchem_cid": 5281647,
+     "ghs": [
+      "H302"
+     ],
+     "flags": [],
+     "ubiquitous": false
+    }
+   ],
+   "any_severe_ghs": false,
+   "any_severe_ghs_specific": false
+  },
+  {
+   "rank": 17,
+   "taxon": "Foeniculum vulgare",
+   "concept_id": "envenomation",
+   "label": "Venomous bites & stings",
+   "disease_id": null,
+   "paths": [],
+   "stats": {
+    "n_compounds_with_chembl": 140,
+    "n_active_compounds": 40,
+    "n_targets": 123,
+    "n_targets_associated": 0,
+    "share_targets_associated": 0.0
+   },
+   "background": {},
+   "top_active_constituents": [
+    "CHEMBL50",
+    "CHEMBL164",
+    "CHEMBL151"
+   ],
+   "flag_historical_safety": false,
+   "modern_hazard": [
+    {
+     "chembl": "CHEMBL151",
+     "compound": "luteolin",
+     "pubchem_cid": 5280445,
+     "ghs": [
+      "H315",
+      "H319",
+      "H335"
+     ],
+     "flags": [],
+     "ubiquitous": true
+    },
+    {
+     "chembl": "CHEMBL164",
+     "compound": "myricetin",
+     "pubchem_cid": 5281672,
+     "ghs": [
+      "H315",
+      "H319",
+      "H335"
+     ],
+     "flags": [],
+     "ubiquitous": true
+    },
+    {
+     "chembl": "CHEMBL50",
+     "compound": "quercetin",
+     "pubchem_cid": 5280343,
+     "ghs": [
+      "H301"
+     ],
+     "flags": [
+      "acute_toxicity"
+     ],
+     "ubiquitous": true
+    }
+   ],
+   "any_severe_ghs": true,
+   "any_severe_ghs_specific": false
+  },
+  {
+   "rank": 18,
+   "taxon": "Allium sativum",
+   "concept_id": "skin_blemishes",
+   "label": "Freckles / spots / sunburn",
+   "disease_id": "MONDO_0019289",
+   "paths": [
+    {
+     "compound": "kaempferol",
+     "chembl": "CHEMBL150",
+     "inchikey": "IYRMWMYZSQPJKC-UHFFFAOYSA-N",
+     "target": "TYR",
+     "ensembl": "ENSG00000077498",
+     "pchembl": 6.0,
+     "ot_score": 0.109
+    }
+   ],
+   "stats": {
+    "n_compounds_with_chembl": 106,
+    "n_active_compounds": 38,
+    "n_targets": 129,
+    "n_targets_associated": 1,
+    "share_targets_associated": 0.007751937984496124
+   },
+   "background": {
+    "share_lead_disease": 0.007751937984496124,
+    "median_share_other_diseases": 0.050387596899224806,
+    "percentile_among_diseases": 0.058823529411764705
+   },
+   "top_active_constituents": [
+    "CHEMBL50",
+    "CHEMBL164",
+    "CHEMBL151"
+   ],
+   "flag_historical_safety": true,
+   "modern_hazard": [
+    {
+     "chembl": "CHEMBL150",
+     "compound": "kaempferol",
+     "pubchem_cid": 5280863,
+     "ghs": [
+      "H301",
+      "H341"
+     ],
+     "flags": [
+      "acute_toxicity",
+      "carcinogenic_mutagenic_reprotoxic"
+     ],
+     "ubiquitous": true
+    },
+    {
+     "chembl": "CHEMBL151",
+     "compound": "luteolin",
+     "pubchem_cid": 5280445,
+     "ghs": [
+      "H315",
+      "H319",
+      "H335"
+     ],
+     "flags": [],
+     "ubiquitous": true
+    },
+    {
+     "chembl": "CHEMBL164",
+     "compound": "myricetin",
+     "pubchem_cid": 5281672,
+     "ghs": [
+      "H315",
+      "H319",
+      "H335"
+     ],
+     "flags": [],
+     "ubiquitous": true
+    },
+    {
+     "chembl": "CHEMBL50",
+     "compound": "quercetin",
+     "pubchem_cid": 5280343,
+     "ghs": [
+      "H301"
+     ],
+     "flags": [
+      "acute_toxicity"
+     ],
+     "ubiquitous": true
+    }
+   ],
+   "any_severe_ghs": true,
+   "any_severe_ghs_specific": false
+  },
+  {
+   "rank": 19,
+   "taxon": "Hordeum vulgare",
+   "concept_id": "diarrhea",
+   "label": "Diarrhoea / flux",
+   "disease_id": "MONDO_0001673",
+   "paths": [],
+   "stats": {
+    "n_compounds_with_chembl": 52,
+    "n_active_compounds": 22,
+    "n_targets": 56,
+    "n_targets_associated": 0,
+    "share_targets_associated": 0.0
+   },
+   "background": {
+    "share_lead_disease": 0.0,
+    "median_share_other_diseases": 0.07142857142857142,
+    "percentile_among_diseases": 0.0
+   },
+   "top_active_constituents": [
+    "CHEMBL41",
+    "CHEMBL267476",
+    "CHEMBL6640"
+   ],
+   "flag_historical_safety": true,
+   "modern_hazard": [
+    {
+     "chembl": "CHEMBL267476",
+     "compound": "linoleic acid",
+     "pubchem_cid": 5280450,
+     "ghs": [
+      "H226"
+     ],
+     "flags": [],
+     "ubiquitous": true
+    },
+    {
+     "chembl": "CHEMBL41",
+     "compound": "fluoxetine",
+     "pubchem_cid": 3386,
+     "ghs": [
+      "H302",
+      "H315",
+      "H318",
+      "H330",
+      "H336",
+      "H373",
+      "H410"
+     ],
+     "flags": [
+      "acute_toxicity"
+     ],
+     "ubiquitous": false
+    },
+    {
+     "chembl": "CHEMBL6640",
+     "compound": "tryptamine",
+     "pubchem_cid": 1150,
+     "ghs": [
+      "H315",
+      "H319",
+      "H335"
+     ],
+     "flags": [],
+     "ubiquitous": false
+    }
+   ],
+   "any_severe_ghs": true,
+   "any_severe_ghs_specific": true
+  },
+  {
+   "rank": 20,
+   "taxon": "Malva sylvestris",
+   "concept_id": "uterine_disorders",
+   "label": "Womb complaints",
+   "disease_id": "MONDO_0002654",
+   "paths": [
+    {
+     "compound": "eucalyptol",
+     "chembl": "CHEMBL485259",
+     "inchikey": "WEEGYLXZBRQIMU-UHFFFAOYSA-N",
+     "target": "MAPK1",
+     "ensembl": "ENSG00000100030",
+     "pchembl": 7.5,
+     "ot_score": 0.619
+    },
+    {
+     "compound": "gossypol",
+     "chembl": "CHEMBL51483",
+     "inchikey": "QBKSWRVVCFFDOT-UHFFFAOYSA-N",
+     "target": "BCL2",
+     "ensembl": "ENSG00000171791",
+     "pchembl": 6.77,
+     "ot_score": 0.554
+    }
+   ],
+   "stats": {
+    "n_compounds_with_chembl": 35,
+    "n_active_compounds": 14,
+    "n_targets": 34,
+    "n_targets_associated": 8,
+    "share_targets_associated": 0.23529411764705882
+   },
+   "background": {
+    "share_lead_disease": 0.23529411764705882,
+    "median_share_other_diseases": 0.029411764705882353,
+    "percentile_among_diseases": 0.8823529411764706
+   },
+   "top_active_constituents": [
+    "CHEMBL267476",
+    "CHEMBL51483",
+    "CHEMBL8659"
+   ],
+   "flag_historical_safety": true,
+   "modern_hazard": [
+    {
+     "chembl": "CHEMBL267476",
+     "compound": "linoleic acid",
+     "pubchem_cid": 5280450,
+     "ghs": [
+      "H226"
+     ],
+     "flags": [],
+     "ubiquitous": true
+    },
+    {
+     "chembl": "CHEMBL485259",
+     "compound": "eucalyptol",
+     "pubchem_cid": 2758,
+     "ghs": [
+      "H226",
+      "H317"
+     ],
+     "flags": [],
+     "ubiquitous": false
+    },
+    {
+     "chembl": "CHEMBL51483",
+     "compound": "gossypol",
+     "pubchem_cid": 3503,
+     "ghs": [
+      "H302",
+      "H351",
+      "H360"
+     ],
+     "flags": [
+      "carcinogenic_mutagenic_reprotoxic"
+     ],
+     "ubiquitous": false
+    },
+    {
+     "chembl": "CHEMBL8659",
+     "compound": "oleic acid",
+     "pubchem_cid": 445639,
+     "ghs": [
+      "H315",
+      "H319"
+     ],
+     "flags": [],
+     "ubiquitous": true
+    }
+   ],
+   "any_severe_ghs": true,
+   "any_severe_ghs_specific": true
+  },
+  {
+   "rank": 21,
+   "taxon": "Prunus domestica",
+   "concept_id": "mouth_gums",
+   "label": "Mouth sores / gums",
+   "disease_id": "MONDO_0006858",
+   "paths": [
+    {
+     "compound": "quercetin",
+     "chembl": "CHEMBL50",
+     "inchikey": "REFJWTPEDVJJIY-UHFFFAOYSA-N",
+     "target": "TP53",
+     "ensembl": "ENSG00000141510",
+     "pchembl": 6.0,
+     "ot_score": 0.686
+    },
+    {
+     "compound": "myricetin",
+     "chembl": "CHEMBL164",
+     "inchikey": "IKMDFBPHZNJCSN-UHFFFAOYSA-N",
+     "target": "PIK3CA",
+     "ensembl": "ENSG00000121879",
+     "pchembl": 6.77,
+     "ot_score": 0.609
+    }
+   ],
+   "stats": {
+    "n_compounds_with_chembl": 119,
+    "n_active_compounds": 39,
+    "n_targets": 131,
+    "n_targets_associated": 44,
+    "share_targets_associated": 0.33587786259541985
+   },
+   "background": {
+    "share_lead_disease": 0.33587786259541985,
+    "median_share_other_diseases": 0.030534351145038167,
+    "percentile_among_diseases": 0.8823529411764706
+   },
+   "top_active_constituents": [
+    "CHEMBL50",
+    "CHEMBL297453",
+    "CHEMBL164"
+   ],
+   "flag_historical_safety": true,
+   "modern_hazard": [
+    {
+     "chembl": "CHEMBL164",
+     "compound": "myricetin",
+     "pubchem_cid": 5281672,
+     "ghs": [
+      "H315",
+      "H319",
+      "H335"
+     ],
+     "flags": [],
+     "ubiquitous": true
+    },
+    {
+     "chembl": "CHEMBL297453",
+     "compound": "epigallocatechin gallate",
+     "pubchem_cid": 65064,
+     "ghs": [
+      "H302",
+      "H312",
+      "H317",
+      "H319",
+      "H401",
+      "H411"
+     ],
+     "flags": [],
+     "ubiquitous": false
+    },
+    {
+     "chembl": "CHEMBL50",
+     "compound": "quercetin",
+     "pubchem_cid": 5280343,
+     "ghs": [
+      "H301"
+     ],
+     "flags": [
+      "acute_toxicity"
+     ],
+     "ubiquitous": true
+    }
+   ],
+   "any_severe_ghs": true,
+   "any_severe_ghs_specific": false
+  },
+  {
+   "rank": 22,
+   "taxon": "Mentha spicata",
+   "concept_id": "ear_disease",
+   "label": "Ear-ache / running ears",
+   "disease_id": "MONDO_0021205",
+   "paths": [
+    {
+     "compound": "quercetin",
+     "chembl": "CHEMBL50",
+     "inchikey": "REFJWTPEDVJJIY-UHFFFAOYSA-N",
+     "target": "MET",
+     "ensembl": "ENSG00000105976",
+     "pchembl": 6.24,
+     "ot_score": 0.611
+    },
+    {
+     "compound": "carveol",
+     "chembl": "CHEMBL1385229",
+     "inchikey": "BAVONGHXFVOKBV-UHFFFAOYSA-N",
+     "target": "TP53",
+     "ensembl": "ENSG00000141510",
+     "pchembl": 8.1,
+     "ot_score": 0.478
+    }
+   ],
+   "stats": {
+    "n_compounds_with_chembl": 101,
+    "n_active_compounds": 29,
+    "n_targets": 97,
+    "n_targets_associated": 10,
+    "share_targets_associated": 0.10309278350515463
+   },
+   "background": {
+    "share_lead_disease": 0.10309278350515463,
+    "median_share_other_diseases": 0.030927835051546393,
+    "percentile_among_diseases": 0.7647058823529411
+   },
+   "top_active_constituents": [
+    "CHEMBL50",
+    "CHEMBL151",
+    "CHEMBL28"
+   ],
+   "flag_historical_safety": true,
+   "modern_hazard": [
+    {
+     "chembl": "CHEMBL1385229",
+     "compound": "carveol",
+     "pubchem_cid": 7438,
+     "ghs": [
+      "H315",
+      "H319",
+      "H335"
+     ],
+     "flags": [],
+     "ubiquitous": false
+    },
+    {
+     "chembl": "CHEMBL151",
+     "compound": "luteolin",
+     "pubchem_cid": 5280445,
+     "ghs": [
+      "H315",
+      "H319",
+      "H335"
+     ],
+     "flags": [],
+     "ubiquitous": true
+    },
+    {
+     "chembl": "CHEMBL28",
+     "compound": "apigenin",
+     "pubchem_cid": 5280443,
+     "ghs": [
+      "H315",
+      "H319",
+      "H335",
+      "H412"
+     ],
+     "flags": [],
+     "ubiquitous": true
+    },
+    {
+     "chembl": "CHEMBL50",
+     "compound": "quercetin",
+     "pubchem_cid": 5280343,
+     "ghs": [
+      "H301"
+     ],
+     "flags": [
+      "acute_toxicity"
+     ],
+     "ubiquitous": true
+    }
+   ],
+   "any_severe_ghs": true,
+   "any_severe_ghs_specific": false
+  },
+  {
+   "rank": 23,
+   "taxon": "Allium cepa",
+   "concept_id": "delirium",
+   "label": "Frenzy / lethargy",
+   "disease_id": "MONDO_0045057",
+   "paths": [
+    {
+     "compound": "rutin",
+     "chembl": "CHEMBL226335",
+     "inchikey": "IKGXIBQEEMLURG-NVPNHPEKSA-N",
+     "target": "ACHE",
+     "ensembl": "ENSG00000087085",
+     "pchembl": 7.92,
+     "ot_score": 0.377
+    }
+   ],
+   "stats": {
+    "n_compounds_with_chembl": 105,
+    "n_active_compounds": 32,
+    "n_targets": 96,
+    "n_targets_associated": 1,
+    "share_targets_associated": 0.010416666666666666
+   },
+   "background": {
+    "share_lead_disease": 0.010416666666666666,
+    "median_share_other_diseases": 0.046875,
+    "percentile_among_diseases": 0.058823529411764705
+   },
+   "top_active_constituents": [
+    "CHEMBL50",
+    "CHEMBL150",
+    "CHEMBL575060"
+   ],
+   "flag_historical_safety": true,
+   "modern_hazard": [
+    {
+     "chembl": "CHEMBL150",
+     "compound": "kaempferol",
+     "pubchem_cid": 5280863,
+     "ghs": [
+      "H301",
+      "H341"
+     ],
+     "flags": [
+      "acute_toxicity",
+      "carcinogenic_mutagenic_reprotoxic"
+     ],
+     "ubiquitous": true
+    },
+    {
+     "chembl": "CHEMBL226335",
+     "compound": "rutin",
+     "pubchem_cid": 5280805,
+     "ghs": [
+      "H302",
+      "H315",
+      "H319",
+      "H335"
+     ],
+     "flags": [],
+     "ubiquitous": true
+    },
+    {
+     "chembl": "CHEMBL50",
+     "compound": "quercetin",
+     "pubchem_cid": 5280343,
+     "ghs": [
+      "H301"
+     ],
+     "flags": [
+      "acute_toxicity"
+     ],
+     "ubiquitous": true
+    },
+    {
+     "chembl": "CHEMBL575060",
+     "compound": "L-glutamic acid",
+     "pubchem_cid": 33032,
+     "ghs": [
+      "H314",
+      "H318"
+     ],
+     "flags": [],
+     "ubiquitous": false
+    }
+   ],
+   "any_severe_ghs": true,
+   "any_severe_ghs_specific": false
+  },
+  {
+   "rank": 24,
+   "taxon": "Marrubium vulgare",
+   "concept_id": "eye_disease",
+   "label": "Eye complaints / dim sight",
+   "disease_id": "MONDO_0005328",
+   "paths": [
+    {
+     "compound": "chryseriol",
+     "chembl": "CHEMBL214321",
+     "inchikey": "SCZVLDHREVKTSH-UHFFFAOYSA-N",
+     "target": "CYP1B1",
+     "ensembl": "ENSG00000138061",
+     "pchembl": 7.71,
+     "ot_score": 0.885
+    },
+    {
+     "compound": "(E)-p-coumaric acid",
+     "chembl": "CHEMBL66879",
+     "inchikey": "NGSWKAQJJWESNS-ZZXKWVIFSA-N",
+     "target": "CA2",
+     "ensembl": "ENSG00000104267",
+     "pchembl": 6.01,
+     "ot_score": 0.882
+    }
+   ],
+   "stats": {
+    "n_compounds_with_chembl": 18,
+    "n_active_compounds": 9,
+    "n_targets": 40,
+    "n_targets_associated": 26,
+    "share_targets_associated": 0.65
+   },
+   "background": {
+    "share_lead_disease": 0.65,
+    "median_share_other_diseases": 0.025,
+    "percentile_among_diseases": 1.0
+   },
+   "top_active_constituents": [
+    "CHEMBL151",
+    "CHEMBL28",
+    "CHEMBL145"
+   ],
+   "flag_historical_safety": true,
+   "modern_hazard": [
+    {
+     "chembl": "CHEMBL145",
+     "compound": "trans-caffeic acid",
+     "pubchem_cid": 689043,
+     "ghs": [
+      "H315",
+      "H319",
+      "H335",
+      "H351",
+      "H361"
+     ],
+     "flags": [
+      "carcinogenic_mutagenic_reprotoxic"
+     ],
+     "ubiquitous": true
+    },
+    {
+     "chembl": "CHEMBL151",
+     "compound": "luteolin",
+     "pubchem_cid": 5280445,
+     "ghs": [
+      "H315",
+      "H319",
+      "H335"
+     ],
+     "flags": [],
+     "ubiquitous": true
+    },
+    {
+     "chembl": "CHEMBL214321",
+     "compound": "chryseriol",
+     "pubchem_cid": 5280666,
+     "ghs": [],
+     "flags": [],
+     "ubiquitous": false
+    },
+    {
+     "chembl": "CHEMBL28",
+     "compound": "apigenin",
+     "pubchem_cid": 5280443,
+     "ghs": [
+      "H315",
+      "H319",
+      "H335",
+      "H412"
+     ],
+     "flags": [],
+     "ubiquitous": true
+    },
+    {
+     "chembl": "CHEMBL66879",
+     "compound": "(E)-p-coumaric acid",
+     "pubchem_cid": 637542,
+     "ghs": [
+      "H301",
+      "H311",
+      "H314",
+      "H315",
+      "H317",
+      "H318",
+      "H319",
+      "H335"
+     ],
+     "flags": [
+      "acute_toxicity"
+     ],
+     "ubiquitous": true
+    }
+   ],
+   "any_severe_ghs": true,
+   "any_severe_ghs_specific": false
+  },
+  {
+   "rank": 25,
+   "taxon": "Hordeum vulgare",
+   "concept_id": "scaly_skin",
+   "label": "Lepra / scaly skin",
+   "disease_id": "MONDO_0005083",
+   "paths": [
+    {
+     "compound": "trans-caffeic acid",
+     "chembl": "CHEMBL145",
+     "inchikey": "QAIPRVGONGVQAS-DUXPYHPUSA-N",
+     "target": "NFKB1",
+     "ensembl": "ENSG00000109320",
+     "pchembl": 6.85,
+     "ot_score": 0.387
+    },
+    {
+     "compound": "oleic acid",
+     "chembl": "CHEMBL8659",
+     "inchikey": "ZQPPMHVWECSIRJ-KTKRTIGZSA-N",
+     "target": "FLT3",
+     "ensembl": "ENSG00000122025",
+     "pchembl": 6.29,
+     "ot_score": 0.208
+    }
+   ],
+   "stats": {
+    "n_compounds_with_chembl": 52,
+    "n_active_compounds": 22,
+    "n_targets": 56,
+    "n_targets_associated": 5,
+    "share_targets_associated": 0.08928571428571429
+   },
+   "background": {
+    "share_lead_disease": 0.08928571428571429,
+    "median_share_other_diseases": 0.07142857142857142,
+    "percentile_among_diseases": 0.6470588235294118
+   },
+   "top_active_constituents": [
+    "CHEMBL41",
+    "CHEMBL267476",
+    "CHEMBL6640"
+   ],
+   "flag_historical_safety": true,
+   "modern_hazard": [
+    {
+     "chembl": "CHEMBL145",
+     "compound": "trans-caffeic acid",
+     "pubchem_cid": 689043,
+     "ghs": [
+      "H315",
+      "H319",
+      "H335",
+      "H351",
+      "H361"
+     ],
+     "flags": [
+      "carcinogenic_mutagenic_reprotoxic"
+     ],
+     "ubiquitous": true
+    },
+    {
+     "chembl": "CHEMBL267476",
+     "compound": "linoleic acid",
+     "pubchem_cid": 5280450,
+     "ghs": [
+      "H226"
+     ],
+     "flags": [],
+     "ubiquitous": true
+    },
+    {
+     "chembl": "CHEMBL41",
+     "compound": "fluoxetine",
+     "pubchem_cid": 3386,
+     "ghs": [
+      "H302",
+      "H315",
+      "H318",
+      "H330",
+      "H336",
+      "H373",
+      "H410"
+     ],
+     "flags": [
+      "acute_toxicity"
+     ],
+     "ubiquitous": false
+    },
+    {
+     "chembl": "CHEMBL6640",
+     "compound": "tryptamine",
+     "pubchem_cid": 1150,
+     "ghs": [
+      "H315",
+      "H319",
+      "H335"
+     ],
+     "flags": [],
+     "ubiquitous": false
+    },
+    {
+     "chembl": "CHEMBL8659",
+     "compound": "oleic acid",
+     "pubchem_cid": 445639,
+     "ghs": [
+      "H315",
+      "H319"
+     ],
+     "flags": [],
+     "ubiquitous": true
+    }
+   ],
+   "any_severe_ghs": true,
+   "any_severe_ghs_specific": true
+  },
+  {
+   "rank": 26,
+   "taxon": "Verbena officinalis",
+   "concept_id": "skin_ulcers",
+   "label": "Ulcers & sores",
+   "disease_id": "HP_0200042",
+   "paths": [],
+   "stats": {
+    "n_compounds_with_chembl": 20,
+    "n_active_compounds": 8,
+    "n_targets": 43,
+    "n_targets_associated": 0,
+    "share_targets_associated": 0.0
+   },
+   "background": {
+    "share_lead_disease": 0.0,
+    "median_share_other_diseases": 0.023255813953488372,
+    "percentile_among_diseases": 0.0
+   },
+   "top_active_constituents": [
+    "CHEMBL151",
+    "CHEMBL28",
+    "CHEMBL168"
+   ],
+   "flag_historical_safety": false,
+   "modern_hazard": [
+    {
+     "chembl": "CHEMBL151",
+     "compound": "luteolin",
+     "pubchem_cid": 5280445,
+     "ghs": [
+      "H315",
+      "H319",
+      "H335"
+     ],
+     "flags": [],
+     "ubiquitous": true
+    },
+    {
+     "chembl": "CHEMBL168",
+     "compound": "oleanolic acid",
+     "pubchem_cid": 10494,
+     "ghs": [],
+     "flags": [],
+     "ubiquitous": false
+    },
+    {
+     "chembl": "CHEMBL28",
+     "compound": "apigenin",
+     "pubchem_cid": 5280443,
+     "ghs": [
+      "H315",
+      "H319",
+      "H335",
+      "H412"
+     ],
+     "flags": [],
+     "ubiquitous": true
+    }
+   ],
+   "any_severe_ghs": false,
+   "any_severe_ghs_specific": false
+  },
+  {
+   "rank": 27,
+   "taxon": "Artemisia absinthium",
+   "concept_id": "sore_throat",
+   "label": "Sore throat / quinsy",
+   "disease_id": "MONDO_0002258",
+   "paths": [],
+   "stats": {
+    "n_compounds_with_chembl": 66,
+    "n_active_compounds": 17,
+    "n_targets": 38,
+    "n_targets_associated": 0,
+    "share_targets_associated": 0.0
+   },
+   "background": {
+    "share_lead_disease": 0.0,
+    "median_share_other_diseases": 0.02631578947368421,
+    "percentile_among_diseases": 0.0
+   },
+   "top_active_constituents": [
+    "CHEMBL575060",
+    "CHEMBL145",
+    "CHEMBL379064"
+   ],
+   "flag_historical_safety": true,
+   "modern_hazard": [
+    {
+     "chembl": "CHEMBL145",
+     "compound": "trans-caffeic acid",
+     "pubchem_cid": 689043,
+     "ghs": [
+      "H315",
+      "H319",
+      "H335",
+      "H351",
+      "H361"
+     ],
+     "flags": [
+      "carcinogenic_mutagenic_reprotoxic"
+     ],
+     "ubiquitous": true
+    },
+    {
+     "chembl": "CHEMBL379064",
+     "compound": "isorhamnetin",
+     "pubchem_cid": 5281654,
+     "ghs": [
+      "H351"
+     ],
+     "flags": [
+      "carcinogenic_mutagenic_reprotoxic"
+     ],
+     "ubiquitous": true
+    },
+    {
+     "chembl": "CHEMBL575060",
+     "compound": "L-glutamic acid",
+     "pubchem_cid": 33032,
+     "ghs": [
+      "H314",
+      "H318"
+     ],
+     "flags": [],
+     "ubiquitous": false
+    }
+   ],
+   "any_severe_ghs": true,
+   "any_severe_ghs_specific": false
+  },
+  {
+   "rank": 28,
+   "taxon": "Prunus domestica",
+   "concept_id": "urolithiasis",
+   "label": "Stone & gravel",
+   "disease_id": "MONDO_0024647",
+   "paths": [
+    {
+     "compound": "(−)-epicatechin",
+     "chembl": "CHEMBL583912",
+     "inchikey": "PFTAWBLQPZVEMU-UKRRQHHQSA-N",
+     "target": "ALPL",
+     "ensembl": "ENSG00000162551",
+     "pchembl": 6.39,
+     "ot_score": 0.535
+    },
+    {
+     "compound": "quercetin",
+     "chembl": "CHEMBL50",
+     "inchikey": "REFJWTPEDVJJIY-UHFFFAOYSA-N",
+     "target": "ABCG2",
+     "ensembl": "ENSG00000118777",
+     "pchembl": 7.52,
+     "ot_score": 0.532
+    }
+   ],
+   "stats": {
+    "n_compounds_with_chembl": 119,
+    "n_active_compounds": 39,
+    "n_targets": 131,
+    "n_targets_associated": 13,
+    "share_targets_associated": 0.09923664122137404
+   },
+   "background": {
+    "share_lead_disease": 0.09923664122137404,
+    "median_share_other_diseases": 0.030534351145038167,
+    "percentile_among_diseases": 0.7941176470588235
+   },
+   "top_active_constituents": [
+    "CHEMBL50",
+    "CHEMBL297453",
+    "CHEMBL164"
+   ],
+   "flag_historical_safety": true,
+   "modern_hazard": [
+    {
+     "chembl": "CHEMBL164",
+     "compound": "myricetin",
+     "pubchem_cid": 5281672,
+     "ghs": [
+      "H315",
+      "H319",
+      "H335"
+     ],
+     "flags": [],
+     "ubiquitous": true
+    },
+    {
+     "chembl": "CHEMBL297453",
+     "compound": "epigallocatechin gallate",
+     "pubchem_cid": 65064,
+     "ghs": [
+      "H302",
+      "H312",
+      "H317",
+      "H319",
+      "H401",
+      "H411"
+     ],
+     "flags": [],
+     "ubiquitous": false
+    },
+    {
+     "chembl": "CHEMBL50",
+     "compound": "quercetin",
+     "pubchem_cid": 5280343,
+     "ghs": [
+      "H301"
+     ],
+     "flags": [
+      "acute_toxicity"
+     ],
+     "ubiquitous": true
+    },
+    {
+     "chembl": "CHEMBL583912",
+     "compound": "(−)-epicatechin",
+     "pubchem_cid": 72276,
+     "ghs": [
+      "H315",
+      "H319",
+      "H335"
+     ],
+     "flags": [],
+     "ubiquitous": false
+    }
+   ],
+   "any_severe_ghs": true,
+   "any_severe_ghs_specific": false
+  },
+  {
+   "rank": 29,
+   "taxon": "Mentha spicata",
+   "concept_id": "envenomation",
+   "label": "Venomous bites & stings",
+   "disease_id": null,
+   "paths": [],
+   "stats": {
+    "n_compounds_with_chembl": 101,
+    "n_active_compounds": 29,
+    "n_targets": 97,
+    "n_targets_associated": 0,
+    "share_targets_associated": 0.0
+   },
+   "background": {},
+   "top_active_constituents": [
+    "CHEMBL50",
+    "CHEMBL151",
+    "CHEMBL28"
+   ],
+   "flag_historical_safety": true,
+   "modern_hazard": [
+    {
+     "chembl": "CHEMBL151",
+     "compound": "luteolin",
+     "pubchem_cid": 5280445,
+     "ghs": [
+      "H315",
+      "H319",
+      "H335"
+     ],
+     "flags": [],
+     "ubiquitous": true
+    },
+    {
+     "chembl": "CHEMBL28",
+     "compound": "apigenin",
+     "pubchem_cid": 5280443,
+     "ghs": [
+      "H315",
+      "H319",
+      "H335",
+      "H412"
+     ],
+     "flags": [],
+     "ubiquitous": true
+    },
+    {
+     "chembl": "CHEMBL50",
+     "compound": "quercetin",
+     "pubchem_cid": 5280343,
+     "ghs": [
+      "H301"
+     ],
+     "flags": [
+      "acute_toxicity"
+     ],
+     "ubiquitous": true
+    }
+   ],
+   "any_severe_ghs": true,
+   "any_severe_ghs_specific": false
+  },
+  {
+   "rank": 30,
+   "taxon": "Portulaca oleracea",
+   "concept_id": "sexual_function",
+   "label": "Venery / sexual function",
+   "disease_id": "MONDO_0005362",
+   "paths": [
+    {
+     "compound": "dopamine",
+     "chembl": "CHEMBL59",
+     "inchikey": "VYFYYTLLBUKUHU-UHFFFAOYSA-N",
+     "target": "DRD2",
+     "ensembl": "ENSG00000149295",
+     "pchembl": 9.17,
+     "ot_score": 0.531
+    },
+    {
+     "compound": "dopamine",
+     "chembl": "CHEMBL59",
+     "inchikey": "VYFYYTLLBUKUHU-UHFFFAOYSA-N",
+     "target": "DRD4",
+     "ensembl": "ENSG00000069696",
+     "pchembl": 8.92,
+     "ot_score": 0.528
+    }
+   ],
+   "stats": {
+    "n_compounds_with_chembl": 54,
+    "n_active_compounds": 27,
+    "n_targets": 117,
+    "n_targets_associated": 11,
+    "share_targets_associated": 0.09401709401709402
+   },
+   "background": {
+    "share_lead_disease": 0.09401709401709402,
+    "median_share_other_diseases": 0.05982905982905983,
+    "percentile_among_diseases": 0.6764705882352942
+   },
+   "top_active_constituents": [
+    "CHEMBL50",
+    "CHEMBL164",
+    "CHEMBL151"
+   ],
+   "flag_historical_safety": false,
+   "modern_hazard": [
+    {
+     "chembl": "CHEMBL151",
+     "compound": "luteolin",
+     "pubchem_cid": 5280445,
+     "ghs": [
+      "H315",
+      "H319",
+      "H335"
+     ],
+     "flags": [],
+     "ubiquitous": true
+    },
+    {
+     "chembl": "CHEMBL164",
+     "compound": "myricetin",
+     "pubchem_cid": 5281672,
+     "ghs": [
+      "H315",
+      "H319",
+      "H335"
+     ],
+     "flags": [],
+     "ubiquitous": true
+    },
+    {
+     "chembl": "CHEMBL50",
+     "compound": "quercetin",
+     "pubchem_cid": 5280343,
+     "ghs": [
+      "H301"
+     ],
+     "flags": [
+      "acute_toxicity"
+     ],
+     "ubiquitous": true
+    },
+    {
+     "chembl": "CHEMBL59",
+     "compound": "dopamine",
+     "pubchem_cid": 681,
+     "ghs": [
+      "H302",
+      "H361",
+      "H400",
+      "H410"
+     ],
+     "flags": [
+      "carcinogenic_mutagenic_reprotoxic"
+     ],
+     "ubiquitous": false
+    }
+   ],
+   "any_severe_ghs": true,
+   "any_severe_ghs_specific": true
+  },
+  {
+   "rank": 31,
+   "taxon": "Marrubium vulgare",
+   "concept_id": "cough",
+   "label": "Cough",
+   "disease_id": "HP_0012735",
+   "paths": [],
+   "stats": {
+    "n_compounds_with_chembl": 18,
+    "n_active_compounds": 9,
+    "n_targets": 40,
+    "n_targets_associated": 0,
+    "share_targets_associated": 0.0
+   },
+   "background": {
+    "share_lead_disease": 0.0,
+    "median_share_other_diseases": 0.025,
+    "percentile_among_diseases": 0.0
+   },
+   "top_active_constituents": [
+    "CHEMBL151",
+    "CHEMBL28",
+    "CHEMBL145"
+   ],
+   "flag_historical_safety": true,
+   "modern_hazard": [
+    {
+     "chembl": "CHEMBL145",
+     "compound": "trans-caffeic acid",
+     "pubchem_cid": 689043,
+     "ghs": [
+      "H315",
+      "H319",
+      "H335",
+      "H351",
+      "H361"
+     ],
+     "flags": [
+      "carcinogenic_mutagenic_reprotoxic"
+     ],
+     "ubiquitous": true
+    },
+    {
+     "chembl": "CHEMBL151",
+     "compound": "luteolin",
+     "pubchem_cid": 5280445,
+     "ghs": [
+      "H315",
+      "H319",
+      "H335"
+     ],
+     "flags": [],
+     "ubiquitous": true
+    },
+    {
+     "chembl": "CHEMBL28",
+     "compound": "apigenin",
+     "pubchem_cid": 5280443,
+     "ghs": [
+      "H315",
+      "H319",
+      "H335",
+      "H412"
+     ],
+     "flags": [],
+     "ubiquitous": true
+    }
+   ],
+   "any_severe_ghs": true,
+   "any_severe_ghs_specific": false
+  },
+  {
+   "rank": 32,
+   "taxon": "Beta vulgaris",
+   "concept_id": "ear_disease",
+   "label": "Ear-ache / running ears",
+   "disease_id": "MONDO_0021205",
+   "paths": [
+    {
+     "compound": "quercetin",
+     "chembl": "CHEMBL50",
+     "inchikey": "REFJWTPEDVJJIY-UHFFFAOYSA-N",
+     "target": "MET",
+     "ensembl": "ENSG00000105976",
+     "pchembl": 6.24,
+     "ot_score": 0.611
+    },
+    {
+     "compound": "kaempferol",
+     "chembl": "CHEMBL150",
+     "inchikey": "IYRMWMYZSQPJKC-UHFFFAOYSA-N",
+     "target": "TYR",
+     "ensembl": "ENSG00000077498",
+     "pchembl": 6.0,
+     "ot_score": 0.519
+    }
+   ],
+   "stats": {
+    "n_compounds_with_chembl": 86,
+    "n_active_compounds": 29,
+    "n_targets": 119,
+    "n_targets_associated": 12,
+    "share_targets_associated": 0.10084033613445378
+   },
+   "background": {
+    "share_lead_disease": 0.10084033613445378,
+    "median_share_other_diseases": 0.04201680672268908,
+    "percentile_among_diseases": 0.7352941176470589
+   },
+   "top_active_constituents": [
+    "CHEMBL50",
+    "CHEMBL164",
+    "CHEMBL151"
+   ],
+   "flag_historical_safety": false,
+   "modern_hazard": [
+    {
+     "chembl": "CHEMBL150",
+     "compound": "kaempferol",
+     "pubchem_cid": 5280863,
+     "ghs": [
+      "H301",
+      "H341"
+     ],
+     "flags": [
+      "acute_toxicity",
+      "carcinogenic_mutagenic_reprotoxic"
+     ],
+     "ubiquitous": true
+    },
+    {
+     "chembl": "CHEMBL151",
+     "compound": "luteolin",
+     "pubchem_cid": 5280445,
+     "ghs": [
+      "H315",
+      "H319",
+      "H335"
+     ],
+     "flags": [],
+     "ubiquitous": true
+    },
+    {
+     "chembl": "CHEMBL164",
+     "compound": "myricetin",
+     "pubchem_cid": 5281672,
+     "ghs": [
+      "H315",
+      "H319",
+      "H335"
+     ],
+     "flags": [],
+     "ubiquitous": true
+    },
+    {
+     "chembl": "CHEMBL50",
+     "compound": "quercetin",
+     "pubchem_cid": 5280343,
+     "ghs": [
+      "H301"
+     ],
+     "flags": [
+      "acute_toxicity"
+     ],
+     "ubiquitous": true
+    }
+   ],
+   "any_severe_ghs": true,
+   "any_severe_ghs_specific": false
+  },
+  {
+   "rank": 33,
+   "taxon": "Hedera helix",
+   "concept_id": "burns",
+   "label": "Burns",
+   "disease_id": "EFO_0009516",
+   "paths": [
+    {
+     "compound": "oleic acid",
+     "chembl": "CHEMBL8659",
+     "inchikey": "ZQPPMHVWECSIRJ-KTKRTIGZSA-N",
+     "target": "PPARA",
+     "ensembl": "ENSG00000186951",
+     "pchembl": 6.22,
+     "ot_score": 0.185
+    },
+    {
+     "compound": "(R)-rosmarinic acid",
+     "chembl": "CHEMBL324842",
+     "inchikey": "DOUMFZQKYFQNTF-WUTVXBCWSA-N",
+     "target": "ENPP1",
+     "ensembl": "ENSG00000197594",
+     "pchembl": 7.57,
+     "ot_score": 0.1
+    }
+   ],
+   "stats": {
+    "n_compounds_with_chembl": 35,
+    "n_active_compounds": 15,
+    "n_targets": 70,
+    "n_targets_associated": 2,
+    "share_targets_associated": 0.02857142857142857
+   },
+   "background": {
+    "share_lead_disease": 0.02857142857142857,
+    "median_share_other_diseases": 0.04285714285714286,
+    "percentile_among_diseases": 0.23529411764705882
+   },
+   "top_active_constituents": [
+    "CHEMBL50",
+    "CHEMBL150",
+    "CHEMBL145"
+   ],
+   "flag_historical_safety": true,
+   "modern_hazard": [
+    {
+     "chembl": "CHEMBL145",
+     "compound": "trans-caffeic acid",
+     "pubchem_cid": 689043,
+     "ghs": [
+      "H315",
+      "H319",
+      "H335",
+      "H351",
+      "H361"
+     ],
+     "flags": [
+      "carcinogenic_mutagenic_reprotoxic"
+     ],
+     "ubiquitous": true
+    },
+    {
+     "chembl": "CHEMBL150",
+     "compound": "kaempferol",
+     "pubchem_cid": 5280863,
+     "ghs": [
+      "H301",
+      "H341"
+     ],
+     "flags": [
+      "acute_toxicity",
+      "carcinogenic_mutagenic_reprotoxic"
+     ],
+     "ubiquitous": true
+    },
+    {
+     "chembl": "CHEMBL324842",
+     "compound": "(R)-rosmarinic acid",
+     "pubchem_cid": 5281792,
+     "ghs": [
+      "H301",
+      "H400"
+     ],
+     "flags": [
+      "acute_toxicity"
+     ],
+     "ubiquitous": false
+    },
+    {
+     "chembl": "CHEMBL50",
+     "compound": "quercetin",
+     "pubchem_cid": 5280343,
+     "ghs": [
+      "H301"
+     ],
+     "flags": [
+      "acute_toxicity"
+     ],
+     "ubiquitous": true
+    },
+    {
+     "chembl": "CHEMBL8659",
+     "compound": "oleic acid",
+     "pubchem_cid": 445639,
+     "ghs": [
+      "H315",
+      "H319"
+     ],
+     "flags": [],
+     "ubiquitous": true
+    }
+   ],
+   "any_severe_ghs": true,
+   "any_severe_ghs_specific": true
+  },
+  {
+   "rank": 34,
+   "taxon": "Mentha pulegium",
+   "concept_id": "mouth_gums",
+   "label": "Mouth sores / gums",
+   "disease_id": "MONDO_0006858",
+   "paths": [
+    {
+     "compound": "Pectolinarigenin",
+     "chembl": "CHEMBL78010",
+     "inchikey": "GPQLHGCIAUEJQK-UHFFFAOYSA-N",
+     "target": "KIT",
+     "ensembl": "ENSG00000157404",
+     "pchembl": 6.22,
+     "ot_score": 0.453
+    },
+    {
+     "compound": "hispidulin",
+     "chembl": "CHEMBL293776",
+     "inchikey": "IHFBPDAQLQOCBX-UHFFFAOYSA-N",
+     "target": "FLT3",
+     "ensembl": "ENSG00000122025",
+     "pchembl": 6.64,
+     "ot_score": 0.399
+    }
+   ],
+   "stats": {
+    "n_compounds_with_chembl": 54,
+    "n_active_compounds": 13,
+    "n_targets": 36,
+    "n_targets_associated": 11,
+    "share_targets_associated": 0.3055555555555556
+   },
+   "background": {
+    "share_lead_disease": 0.3055555555555556,
+    "median_share_other_diseases": 0.027777777777777776,
+    "percentile_among_diseases": 0.8823529411764706
+   },
+   "top_active_constituents": [
+    "CHEMBL151",
+    "CHEMBL28",
+    "CHEMBL293776"
+   ],
+   "flag_historical_safety": false,
+   "modern_hazard": [
+    {
+     "chembl": "CHEMBL151",
+     "compound": "luteolin",
+     "pubchem_cid": 5280445,
+     "ghs": [
+      "H315",
+      "H319",
+      "H335"
+     ],
+     "flags": [],
+     "ubiquitous": true
+    },
+    {
+     "chembl": "CHEMBL28",
+     "compound": "apigenin",
+     "pubchem_cid": 5280443,
+     "ghs": [
+      "H315",
+      "H319",
+      "H335",
+      "H412"
+     ],
+     "flags": [],
+     "ubiquitous": true
+    },
+    {
+     "chembl": "CHEMBL293776",
+     "compound": "hispidulin",
+     "pubchem_cid": 5281628,
+     "ghs": [
+      "H302"
+     ],
+     "flags": [],
+     "ubiquitous": false
+    },
+    {
+     "chembl": "CHEMBL78010",
+     "compound": "Pectolinarigenin",
+     "pubchem_cid": 5320438,
+     "ghs": [
+      "H302",
+      "H315",
+      "H319",
+      "H335"
+     ],
+     "flags": [],
+     "ubiquitous": false
+    }
+   ],
+   "any_severe_ghs": false,
+   "any_severe_ghs_specific": false
+  },
+  {
+   "rank": 35,
+   "taxon": "Marchantia polymorpha",
+   "concept_id": "dermatitis",
+   "label": "Tetters / eczema / scurf",
+   "disease_id": "MONDO_0004980",
+   "paths": [
+    {
+     "compound": "luteolin",
+     "chembl": "CHEMBL151",
+     "inchikey": "IQPNAANSBPBGFQ-UHFFFAOYSA-N",
+     "target": "MMP12",
+     "ensembl": "ENSG00000262406",
+     "pchembl": 6.01,
+     "ot_score": 0.494
+    },
+    {
+     "compound": "arachidonic acid",
+     "chembl": "CHEMBL15594",
+     "inchikey": "YZXBAPSDXZZRGB-DOFZRALJSA-N",
+     "target": "ALOX15",
+     "ensembl": "ENSG00000161905",
+     "pchembl": 7.1,
+     "ot_score": 0.37
+    }
+   ],
+   "stats": {
+    "n_compounds_with_chembl": 29,
+    "n_active_compounds": 10,
+    "n_targets": 49,
+    "n_targets_associated": 2,
+    "share_targets_associated": 0.04081632653061224
+   },
+   "background": {
+    "share_lead_disease": 0.04081632653061224,
+    "median_share_other_diseases": 0.030612244897959183,
+    "percentile_among_diseases": 0.5
+   },
+   "top_active_constituents": [
+    "CHEMBL151",
+    "CHEMBL28",
+    "CHEMBL267476"
+   ],
+   "flag_historical_safety": false,
+   "modern_hazard": [
+    {
+     "chembl": "CHEMBL151",
+     "compound": "luteolin",
+     "pubchem_cid": 5280445,
+     "ghs": [
+      "H315",
+      "H319",
+      "H335"
+     ],
+     "flags": [],
+     "ubiquitous": true
+    },
+    {
+     "chembl": "CHEMBL15594",
+     "compound": "arachidonic acid",
+     "pubchem_cid": 444899,
+     "ghs": [
+      "H302",
+      "H312",
+      "H315",
+      "H319",
+      "H332",
+      "H335"
+     ],
+     "flags": [],
+     "ubiquitous": false
+    },
+    {
+     "chembl": "CHEMBL267476",
+     "compound": "linoleic acid",
+     "pubchem_cid": 5280450,
+     "ghs": [
+      "H226"
+     ],
+     "flags": [],
+     "ubiquitous": true
+    },
+    {
+     "chembl": "CHEMBL28",
+     "compound": "apigenin",
+     "pubchem_cid": 5280443,
+     "ghs": [
+      "H315",
+      "H319",
+      "H335",
+      "H412"
+     ],
+     "flags": [],
+     "ubiquitous": true
+    }
+   ],
+   "any_severe_ghs": false,
+   "any_severe_ghs_specific": false
+  },
+  {
+   "rank": 36,
+   "taxon": "Ficus carica",
+   "concept_id": "asthma_dyspnea",
+   "label": "Asthma / shortness of breath",
+   "disease_id": "MONDO_0004979",
+   "paths": [
+    {
+     "compound": "quercetin",
+     "chembl": "CHEMBL50",
+     "inchikey": "REFJWTPEDVJJIY-UHFFFAOYSA-N",
+     "target": "ALOX5",
+     "ensembl": "ENSG00000012779",
+     "pchembl": 6.1,
+     "ot_score": 0.576
+    },
+    {
+     "compound": "oleanolic acid",
+     "chembl": "CHEMBL168",
+     "inchikey": "MIJYXULNPSFWEK-GTOFXWBISA-N",
+     "target": "PTPRC",
+     "ensembl": "ENSG00000081237",
+     "pchembl": 6.0,
+     "ot_score": 0.544
+    }
+   ],
+   "stats": {
+    "n_compounds_with_chembl": 47,
+    "n_active_compounds": 21,
+    "n_targets": 106,
+    "n_targets_associated": 14,
+    "share_targets_associated": 0.1320754716981132
+   },
+   "background": {
+    "share_lead_disease": 0.1320754716981132,
+    "median_share_other_diseases": 0.018867924528301886,
+    "percentile_among_diseases": 0.8235294117647058
+   },
+   "top_active_constituents": [
+    "CHEMBL50",
+    "CHEMBL297453",
+    "CHEMBL164"
+   ],
+   "flag_historical_safety": true,
+   "modern_hazard": [
+    {
+     "chembl": "CHEMBL164",
+     "compound": "myricetin",
+     "pubchem_cid": 5281672,
+     "ghs": [
+      "H315",
+      "H319",
+      "H335"
+     ],
+     "flags": [],
+     "ubiquitous": true
+    },
+    {
+     "chembl": "CHEMBL168",
+     "compound": "oleanolic acid",
+     "pubchem_cid": 10494,
+     "ghs": [],
+     "flags": [],
+     "ubiquitous": false
+    },
+    {
+     "chembl": "CHEMBL297453",
+     "compound": "epigallocatechin gallate",
+     "pubchem_cid": 65064,
+     "ghs": [
+      "H302",
+      "H312",
+      "H317",
+      "H319",
+      "H401",
+      "H411"
+     ],
+     "flags": [],
+     "ubiquitous": false
+    },
+    {
+     "chembl": "CHEMBL50",
+     "compound": "quercetin",
+     "pubchem_cid": 5280343,
+     "ghs": [
+      "H301"
+     ],
+     "flags": [
+      "acute_toxicity"
+     ],
+     "ubiquitous": true
+    }
+   ],
+   "any_severe_ghs": true,
+   "any_severe_ghs_specific": false
+  },
+  {
+   "rank": 37,
+   "taxon": "Papaver somniferum",
+   "concept_id": "erysipelas",
+   "label": "St Anthony's fire / erysipelas",
+   "disease_id": "MONDO_0001266",
+   "paths": [],
+   "stats": {
+    "n_compounds_with_chembl": 48,
+    "n_active_compounds": 25,
+    "n_targets": 41,
+    "n_targets_associated": 0,
+    "share_targets_associated": 0.0
+   },
+   "background": {
+    "share_lead_disease": 0.0,
+    "median_share_other_diseases": 0.13414634146341464,
+    "percentile_among_diseases": 0.0
+   },
+   "top_active_constituents": [
+    "CHEMBL59",
+    "CHEMBL19224",
+    "CHEMBL12089"
+   ],
+   "flag_historical_safety": false,
+   "modern_hazard": [
+    {
+     "chembl": "CHEMBL12089",
+     "compound": "berberine",
+     "pubchem_cid": 2353,
+     "ghs": [],
+     "flags": [],
+     "ubiquitous": false
+    },
+    {
+     "chembl": "CHEMBL19224",
+     "compound": "papaverine",
+     "pubchem_cid": 4680,
+     "ghs": [
+      "H302"
+     ],
+     "flags": [],
+     "ubiquitous": false
+    },
+    {
+     "chembl": "CHEMBL59",
+     "compound": "dopamine",
+     "pubchem_cid": 681,
+     "ghs": [
+      "H302",
+      "H361",
+      "H400",
+      "H410"
+     ],
+     "flags": [
+      "carcinogenic_mutagenic_reprotoxic"
+     ],
+     "ubiquitous": false
+    }
+   ],
+   "any_severe_ghs": true,
+   "any_severe_ghs_specific": true
+  },
+  {
+   "rank": 38,
+   "taxon": "Tanacetum parthenium",
+   "concept_id": "urolithiasis",
+   "label": "Stone & gravel",
+   "disease_id": "MONDO_0024647",
+   "paths": [
+    {
+     "compound": "luteolin",
+     "chembl": "CHEMBL151",
+     "inchikey": "IQPNAANSBPBGFQ-UHFFFAOYSA-N",
+     "target": "DPP4",
+     "ensembl": "ENSG00000197635",
+     "pchembl": 6.92,
+     "ot_score": 0.281
+    },
+    {
+     "compound": "melatonin",
+     "chembl": "CHEMBL45",
+     "inchikey": "DRLFMBDRBRZALE-UHFFFAOYSA-N",
+     "target": "BLM",
+     "ensembl": "ENSG00000197299",
+     "pchembl": 8.8,
+     "ot_score": 0.173
+    }
+   ],
+   "stats": {
+    "n_compounds_with_chembl": 73,
+    "n_active_compounds": 18,
+    "n_targets": 58,
+    "n_targets_associated": 3,
+    "share_targets_associated": 0.05172413793103448
+   },
+   "background": {
+    "share_lead_disease": 0.05172413793103448,
+    "median_share_other_diseases": 0.05172413793103448,
+    "percentile_among_diseases": 0.4411764705882353
+   },
+   "top_active_constituents": [
+    "CHEMBL151",
+    "CHEMBL28",
+    "CHEMBL691"
+   ],
+   "flag_historical_safety": false,
+   "modern_hazard": [
+    {
+     "chembl": "CHEMBL151",
+     "compound": "luteolin",
+     "pubchem_cid": 5280445,
+     "ghs": [
+      "H315",
+      "H319",
+      "H335"
+     ],
+     "flags": [],
+     "ubiquitous": true
+    },
+    {
+     "chembl": "CHEMBL28",
+     "compound": "apigenin",
+     "pubchem_cid": 5280443,
+     "ghs": [
+      "H315",
+      "H319",
+      "H335",
+      "H412"
+     ],
+     "flags": [],
+     "ubiquitous": true
+    },
+    {
+     "chembl": "CHEMBL45",
+     "compound": "melatonin",
+     "pubchem_cid": 896,
+     "ghs": [],
+     "flags": [],
+     "ubiquitous": false
+    },
+    {
+     "chembl": "CHEMBL691",
+     "compound": "ethinylestradiol",
+     "pubchem_cid": 5991,
+     "ghs": [
+      "H302",
+      "H350",
+      "H360",
+      "H372",
+      "H410"
+     ],
+     "flags": [
+      "carcinogenic_mutagenic_reprotoxic",
+      "organ_toxicity"
+     ],
+     "ubiquitous": false
+    }
+   ],
+   "any_severe_ghs": true,
+   "any_severe_ghs_specific": true
+  },
+  {
+   "rank": 39,
+   "taxon": "Hedera helix",
+   "concept_id": "amenorrhea",
+   "label": "Provokes menses (emmenagogue)",
+   "disease_id": "MONDO_0001836",
+   "paths": [
+    {
+     "compound": "quercetin",
+     "chembl": "CHEMBL50",
+     "inchikey": "REFJWTPEDVJJIY-UHFFFAOYSA-N",
+     "target": "AXL",
+     "ensembl": "ENSG00000167601",
+     "pchembl": 6.02,
+     "ot_score": 0.139
+    }
+   ],
+   "stats": {
+    "n_compounds_with_chembl": 35,
+    "n_active_compounds": 15,
+    "n_targets": 70,
+    "n_targets_associated": 1,
+    "share_targets_associated": 0.014285714285714285
+   },
+   "background": {
+    "share_lead_disease": 0.014285714285714285,
+    "median_share_other_diseases": 0.04285714285714286,
+    "percentile_among_diseases": 0.14705882352941177
+   },
+   "top_active_constituents": [
+    "CHEMBL50",
+    "CHEMBL150",
+    "CHEMBL145"
+   ],
+   "flag_historical_safety": true,
+   "modern_hazard": [
+    {
+     "chembl": "CHEMBL145",
+     "compound": "trans-caffeic acid",
+     "pubchem_cid": 689043,
+     "ghs": [
+      "H315",
+      "H319",
+      "H335",
+      "H351",
+      "H361"
+     ],
+     "flags": [
+      "carcinogenic_mutagenic_reprotoxic"
+     ],
+     "ubiquitous": true
+    },
+    {
+     "chembl": "CHEMBL150",
+     "compound": "kaempferol",
+     "pubchem_cid": 5280863,
+     "ghs": [
+      "H301",
+      "H341"
+     ],
+     "flags": [
+      "acute_toxicity",
+      "carcinogenic_mutagenic_reprotoxic"
+     ],
+     "ubiquitous": true
+    },
+    {
+     "chembl": "CHEMBL50",
+     "compound": "quercetin",
+     "pubchem_cid": 5280343,
+     "ghs": [
+      "H301"
+     ],
+     "flags": [
+      "acute_toxicity"
+     ],
+     "ubiquitous": true
+    }
+   ],
+   "any_severe_ghs": true,
+   "any_severe_ghs_specific": false
+  },
+  {
+   "rank": 40,
+   "taxon": "Prunus avium",
+   "concept_id": "cough",
+   "label": "Cough",
+   "disease_id": "HP_0012735",
+   "paths": [
+    {
+     "compound": "vitamin C",
+     "chembl": "CHEMBL196",
+     "inchikey": "CIWBSHSKHKDKBQ-JLAZNSOCSA-N",
+     "target": "PTGS1",
+     "ensembl": "ENSG00000095303",
+     "pchembl": 6.27,
+     "ot_score": 0.6
+    },
+    {
+     "compound": "adenosine",
+     "chembl": "CHEMBL477",
+     "inchikey": "OIRDTQYFTABQOQ-KQYNXXCUSA-N",
+     "target": "ADORA3",
+     "ensembl": "ENSG00000282608",
+     "pchembl": 8.94,
+     "ot_score": 0.371
+    }
+   ],
+   "stats": {
+    "n_compounds_with_chembl": 199,
+    "n_active_compounds": 61,
+    "n_targets": 173,
+    "n_targets_associated": 6,
+    "share_targets_associated": 0.03468208092485549
+   },
+   "background": {
+    "share_lead_disease": 0.03468208092485549,
+    "median_share_other_diseases": 0.028901734104046242,
+    "percentile_among_diseases": 0.5294117647058824
+   },
+   "top_active_constituents": [
+    "CHEMBL50",
+    "CHEMBL297453",
+    "CHEMBL6246"
+   ],
+   "flag_historical_safety": false,
+   "modern_hazard": [
+    {
+     "chembl": "CHEMBL196",
+     "compound": "vitamin C",
+     "pubchem_cid": 54670067,
+     "ghs": [],
+     "flags": [],
+     "ubiquitous": false
+    },
+    {
+     "chembl": "CHEMBL297453",
+     "compound": "epigallocatechin gallate",
+     "pubchem_cid": 65064,
+     "ghs": [
+      "H302",
+      "H312",
+      "H317",
+      "H319",
+      "H401",
+      "H411"
+     ],
+     "flags": [],
+     "ubiquitous": false
+    },
+    {
+     "chembl": "CHEMBL477",
+     "compound": "adenosine",
+     "pubchem_cid": 60961,
+     "ghs": [
+      "H315",
+      "H319"
+     ],
+     "flags": [],
+     "ubiquitous": false
+    },
+    {
+     "chembl": "CHEMBL50",
+     "compound": "quercetin",
+     "pubchem_cid": 5280343,
+     "ghs": [
+      "H301"
+     ],
+     "flags": [
+      "acute_toxicity"
+     ],
+     "ubiquitous": true
+    },
+    {
+     "chembl": "CHEMBL6246",
+     "compound": "ellagic acid",
+     "pubchem_cid": 5281855,
+     "ghs": [
+      "H315",
+      "H319",
+      "H335"
+     ],
+     "flags": [],
+     "ubiquitous": false
+    }
+   ],
+   "any_severe_ghs": true,
+   "any_severe_ghs_specific": false
+  },
+  {
+   "rank": 41,
+   "taxon": "Solanum nigrum",
+   "concept_id": "erysipelas",
+   "label": "St Anthony's fire / erysipelas",
+   "disease_id": "MONDO_0001266",
+   "paths": [],
+   "stats": {
+    "n_compounds_with_chembl": 14,
+    "n_active_compounds": 4,
+    "n_targets": 16,
+    "n_targets_associated": 0,
+    "share_targets_associated": 0.0
+   },
+   "background": {
+    "share_lead_disease": 0.0,
+    "median_share_other_diseases": 0.0,
+    "percentile_among_diseases": 0.0
+   },
+   "top_active_constituents": [
+    "CHEMBL145",
+    "CHEMBL112570",
+    "CHEMBL441343"
+   ],
+   "flag_historical_safety": false,
+   "modern_hazard": [
+    {
+     "chembl": "CHEMBL112570",
+     "compound": "cholesterol",
+     "pubchem_cid": 5997,
+     "ghs": [],
+     "flags": [],
+     "ubiquitous": false
+    },
+    {
+     "chembl": "CHEMBL145",
+     "compound": "trans-caffeic acid",
+     "pubchem_cid": 689043,
+     "ghs": [
+      "H315",
+      "H319",
+      "H335",
+      "H351",
+      "H361"
+     ],
+     "flags": [
+      "carcinogenic_mutagenic_reprotoxic"
+     ],
+     "ubiquitous": true
+    },
+    {
+     "chembl": "CHEMBL441343",
+     "compound": "4-hydroxybenzoic acid",
+     "pubchem_cid": 135,
+     "ghs": [
+      "H315",
+      "H318",
+      "H319",
+      "H335"
+     ],
+     "flags": [],
+     "ubiquitous": true
+    }
+   ],
+   "any_severe_ghs": true,
+   "any_severe_ghs_specific": false
+  },
+  {
+   "rank": 42,
+   "taxon": "Onopordum acanthium",
+   "concept_id": "convulsions",
+   "label": "Cramps / convulsions",
+   "disease_id": "HP_0003394",
+   "paths": [],
+   "stats": {
+    "n_compounds_with_chembl": 2,
+    "n_active_compounds": 0,
+    "n_targets": 0,
+    "n_targets_associated": 0,
+    "share_targets_associated": null
+   },
+   "background": {},
+   "top_active_constituents": [],
+   "flag_historical_safety": false,
+   "modern_hazard": [],
+   "any_severe_ghs": false,
+   "any_severe_ghs_specific": false
+  },
+  {
+   "rank": 43,
+   "taxon": "Artemisia absinthium",
+   "concept_id": "bruises",
+   "label": "Bruises / falls / sprains",
+   "disease_id": null,
+   "paths": [],
+   "stats": {
+    "n_compounds_with_chembl": 66,
+    "n_active_compounds": 17,
+    "n_targets": 38,
+    "n_targets_associated": 0,
+    "share_targets_associated": 0.0
+   },
+   "background": {},
+   "top_active_constituents": [
+    "CHEMBL575060",
+    "CHEMBL145",
+    "CHEMBL379064"
+   ],
+   "flag_historical_safety": true,
+   "modern_hazard": [
+    {
+     "chembl": "CHEMBL145",
+     "compound": "trans-caffeic acid",
+     "pubchem_cid": 689043,
+     "ghs": [
+      "H315",
+      "H319",
+      "H335",
+      "H351",
+      "H361"
+     ],
+     "flags": [
+      "carcinogenic_mutagenic_reprotoxic"
+     ],
+     "ubiquitous": true
+    },
+    {
+     "chembl": "CHEMBL379064",
+     "compound": "isorhamnetin",
+     "pubchem_cid": 5281654,
+     "ghs": [
+      "H351"
+     ],
+     "flags": [
+      "carcinogenic_mutagenic_reprotoxic"
+     ],
+     "ubiquitous": true
+    },
+    {
+     "chembl": "CHEMBL575060",
+     "compound": "L-glutamic acid",
+     "pubchem_cid": 33032,
+     "ghs": [
+      "H314",
+      "H318"
+     ],
+     "flags": [],
+     "ubiquitous": false
+    }
+   ],
+   "any_severe_ghs": true,
+   "any_severe_ghs_specific": false
+  },
+  {
+   "rank": 44,
+   "taxon": "Lysimachia arvensis",
+   "concept_id": "wounds",
+   "label": "Wounds",
+   "disease_id": "GO_0042060",
+   "paths": [],
+   "stats": {
+    "n_compounds_with_chembl": 0,
+    "n_active_compounds": 0,
+    "n_targets": 0,
+    "n_targets_associated": 0,
+    "share_targets_associated": null
+   },
+   "background": {},
+   "top_active_constituents": [],
+   "flag_historical_safety": false,
+   "modern_hazard": [],
+   "any_severe_ghs": false,
+   "any_severe_ghs_specific": false
+  },
+  {
+   "rank": 45,
+   "taxon": "Melissa officinalis",
+   "concept_id": "toothache",
+   "label": "Toothache",
+   "disease_id": "EFO_0010072",
+   "paths": [],
+   "stats": {
+    "n_compounds_with_chembl": 58,
+    "n_active_compounds": 23,
+    "n_targets": 78,
+    "n_targets_associated": 0,
+    "share_targets_associated": 0.0
+   },
+   "background": {
+    "share_lead_disease": 0.0,
+    "median_share_other_diseases": 0.04487179487179487,
+    "percentile_among_diseases": 0.0
+   },
+   "top_active_constituents": [
+    "CHEMBL50",
+    "CHEMBL151",
+    "CHEMBL28"
+   ],
+   "flag_historical_safety": false,
+   "modern_hazard": [
+    {
+     "chembl": "CHEMBL151",
+     "compound": "luteolin",
+     "pubchem_cid": 5280445,
+     "ghs": [
+      "H315",
+      "H319",
+      "H335"
+     ],
+     "flags": [],
+     "ubiquitous": true
+    },
+    {
+     "chembl": "CHEMBL28",
+     "compound": "apigenin",
+     "pubchem_cid": 5280443,
+     "ghs": [
+      "H315",
+      "H319",
+      "H335",
+      "H412"
+     ],
+     "flags": [],
+     "ubiquitous": true
+    },
+    {
+     "chembl": "CHEMBL50",
+     "compound": "quercetin",
+     "pubchem_cid": 5280343,
+     "ghs": [
+      "H301"
+     ],
+     "flags": [
+      "acute_toxicity"
+     ],
+     "ubiquitous": true
+    }
+   ],
+   "any_severe_ghs": true,
+   "any_severe_ghs_specific": false
+  },
+  {
+   "rank": 46,
+   "taxon": "Mentha pulegium",
+   "concept_id": "heart",
+   "label": "Heart complaints / swooning",
+   "disease_id": "MONDO_0005267",
+   "paths": [
+    {
+     "compound": "alpha-terpineol",
+     "chembl": "CHEMBL449810",
+     "inchikey": "WUOACPNHFRMFPN-UHFFFAOYSA-N",
+     "target": "LMNA",
+     "ensembl": "ENSG00000160789",
+     "pchembl": 8.46,
+     "ot_score": 0.918
+    },
+    {
+     "compound": "luteolin",
+     "chembl": "CHEMBL151",
+     "inchikey": "IQPNAANSBPBGFQ-UHFFFAOYSA-N",
+     "target": "TTR",
+     "ensembl": "ENSG00000118271",
+     "pchembl": 7.16,
+     "ot_score": 0.814
+    }
+   ],
+   "stats": {
+    "n_compounds_with_chembl": 54,
+    "n_active_compounds": 13,
+    "n_targets": 36,
+    "n_targets_associated": 19,
+    "share_targets_associated": 0.5277777777777778
+   },
+   "background": {
+    "share_lead_disease": 0.5277777777777778,
+    "median_share_other_diseases": 0.027777777777777776,
+    "percentile_among_diseases": 0.9705882352941176
+   },
+   "top_active_constituents": [
+    "CHEMBL151",
+    "CHEMBL28",
+    "CHEMBL293776"
+   ],
+   "flag_historical_safety": false,
+   "modern_hazard": [
+    {
+     "chembl": "CHEMBL151",
+     "compound": "luteolin",
+     "pubchem_cid": 5280445,
+     "ghs": [
+      "H315",
+      "H319",
+      "H335"
+     ],
+     "flags": [],
+     "ubiquitous": true
+    },
+    {
+     "chembl": "CHEMBL28",
+     "compound": "apigenin",
+     "pubchem_cid": 5280443,
+     "ghs": [
+      "H315",
+      "H319",
+      "H335",
+      "H412"
+     ],
+     "flags": [],
+     "ubiquitous": true
+    },
+    {
+     "chembl": "CHEMBL293776",
+     "compound": "hispidulin",
+     "pubchem_cid": 5281628,
+     "ghs": [
+      "H302"
+     ],
+     "flags": [],
+     "ubiquitous": false
+    },
+    {
+     "chembl": "CHEMBL449810",
+     "compound": "alpha-terpineol",
+     "pubchem_cid": 17100,
+     "ghs": [
+      "H227",
+      "H315",
+      "H319",
+      "H335"
+     ],
+     "flags": [],
+     "ubiquitous": true
+    }
+   ],
+   "any_severe_ghs": false,
+   "any_severe_ghs_specific": false
+  },
+  {
+   "rank": 47,
+   "taxon": "Teucrium chamaedrys",
+   "concept_id": "convulsions",
+   "label": "Cramps / convulsions",
+   "disease_id": "HP_0003394",
+   "paths": [],
+   "stats": {
+    "n_compounds_with_chembl": 7,
+    "n_active_compounds": 4,
+    "n_targets": 28,
+    "n_targets_associated": 0,
+    "share_targets_associated": 0.0
+   },
+   "background": {
+    "share_lead_disease": 0.0,
+    "median_share_other_diseases": 0.03571428571428571,
+    "percentile_among_diseases": 0.0
+   },
+   "top_active_constituents": [
+    "CHEMBL28",
+    "CHEMBL9352",
+    "CHEMBL169"
+   ],
+   "flag_historical_safety": false,
+   "modern_hazard": [
+    {
+     "chembl": "CHEMBL169",
+     "compound": "ursolic acid",
+     "pubchem_cid": 64945,
+     "ghs": [],
+     "flags": [],
+     "ubiquitous": false
+    },
+    {
+     "chembl": "CHEMBL28",
+     "compound": "apigenin",
+     "pubchem_cid": 5280443,
+     "ghs": [
+      "H315",
+      "H319",
+      "H335",
+      "H412"
+     ],
+     "flags": [],
+     "ubiquitous": true
+    },
+    {
+     "chembl": "CHEMBL9352",
+     "compound": "naringenin",
+     "pubchem_cid": 439246,
+     "ghs": [
+      "H315",
+      "H319"
+     ],
+     "flags": [],
+     "ubiquitous": true
+    }
+   ],
+   "any_severe_ghs": false,
+   "any_severe_ghs_specific": false
+  },
+  {
+   "rank": 48,
+   "taxon": "Daucus carota",
+   "concept_id": "edema_dropsy",
+   "label": "Dropsy",
+   "disease_id": "EFO_0009373",
+   "paths": [
+    {
+     "compound": "retinol",
+     "chembl": "CHEMBL986",
+     "inchikey": "FPIPGXGPPPQFEQ-OVSJKPMPSA-N",
+     "target": "MAPK1",
+     "ensembl": "ENSG00000100030",
+     "pchembl": 7.5,
+     "ot_score": 0.763
+    },
+    {
+     "compound": "Astragalin",
+     "chembl": "CHEMBL233930",
+     "inchikey": "JPUKWEQWGBDDQB-QSOFNFLRSA-N",
+     "target": "CA2",
+     "ensembl": "ENSG00000104267",
+     "pchembl": 6.78,
+     "ot_score": 0.601
+    }
+   ],
+   "stats": {
+    "n_compounds_with_chembl": 188,
+    "n_active_compounds": 51,
+    "n_targets": 150,
+    "n_targets_associated": 26,
+    "share_targets_associated": 0.17333333333333334
+   },
+   "background": {
+    "share_lead_disease": 0.17333333333333334,
+    "median_share_other_diseases": 0.026666666666666665,
+    "percentile_among_diseases": 0.8529411764705882
+   },
+   "top_active_constituents": [
+    "CHEMBL50",
+    "CHEMBL297453",
+    "CHEMBL6246"
+   ],
+   "flag_historical_safety": false,
+   "modern_hazard": [
+    {
+     "chembl": "CHEMBL233930",
+     "compound": "Astragalin",
+     "pubchem_cid": 5282102,
+     "ghs": [],
+     "flags": [],
+     "ubiquitous": false
+    },
+    {
+     "chembl": "CHEMBL297453",
+     "compound": "epigallocatechin gallate",
+     "pubchem_cid": 65064,
+     "ghs": [
+      "H302",
+      "H312",
+      "H317",
+      "H319",
+      "H401",
+      "H411"
+     ],
+     "flags": [],
+     "ubiquitous": false
+    },
+    {
+     "chembl": "CHEMBL50",
+     "compound": "quercetin",
+     "pubchem_cid": 5280343,
+     "ghs": [
+      "H301"
+     ],
+     "flags": [
+      "acute_toxicity"
+     ],
+     "ubiquitous": true
+    },
+    {
+     "chembl": "CHEMBL6246",
+     "compound": "ellagic acid",
+     "pubchem_cid": 5281855,
+     "ghs": [
+      "H315",
+      "H319",
+      "H335"
+     ],
+     "flags": [],
+     "ubiquitous": false
+    },
+    {
+     "chembl": "CHEMBL986",
+     "compound": "retinol",
+     "pubchem_cid": 445354,
+     "ghs": [
+      "H302",
+      "H317",
+      "H319",
+      "H360",
+      "H413"
+     ],
+     "flags": [
+      "carcinogenic_mutagenic_reprotoxic"
+     ],
+     "ubiquitous": false
+    }
+   ],
+   "any_severe_ghs": true,
+   "any_severe_ghs_specific": true
+  },
+  {
+   "rank": 49,
+   "taxon": "Verbena officinalis",
+   "concept_id": "uterine_disorders",
+   "label": "Womb complaints",
+   "disease_id": "MONDO_0002654",
+   "paths": [
+    {
+     "compound": "oleanolic acid",
+     "chembl": "CHEMBL168",
+     "inchikey": "MIJYXULNPSFWEK-GTOFXWBISA-N",
+     "target": "F3",
+     "ensembl": "ENSG00000117525",
+     "pchembl": 8.3,
+     "ot_score": 0.618
+    },
+    {
+     "compound": "apigenin",
+     "chembl": "CHEMBL28",
+     "inchikey": "KZNIFHPLKGYRTM-UHFFFAOYSA-N",
+     "target": "CYP19A1",
+     "ensembl": "ENSG00000137869",
+     "pchembl": 6.05,
+     "ot_score": 0.554
+    }
+   ],
+   "stats": {
+    "n_compounds_with_chembl": 20,
+    "n_active_compounds": 8,
+    "n_targets": 43,
+    "n_targets_associated": 17,
+    "share_targets_associated": 0.3953488372093023
+   },
+   "background": {
+    "share_lead_disease": 0.3953488372093023,
+    "median_share_other_diseases": 0.023255813953488372,
+    "percentile_among_diseases": 0.9117647058823529
+   },
+   "top_active_constituents": [
+    "CHEMBL151",
+    "CHEMBL28",
+    "CHEMBL168"
+   ],
+   "flag_historical_safety": false,
+   "modern_hazard": [
+    {
+     "chembl": "CHEMBL151",
+     "compound": "luteolin",
+     "pubchem_cid": 5280445,
+     "ghs": [
+      "H315",
+      "H319",
+      "H335"
+     ],
+     "flags": [],
+     "ubiquitous": true
+    },
+    {
+     "chembl": "CHEMBL168",
+     "compound": "oleanolic acid",
+     "pubchem_cid": 10494,
+     "ghs": [],
+     "flags": [],
+     "ubiquitous": false
+    },
+    {
+     "chembl": "CHEMBL28",
+     "compound": "apigenin",
+     "pubchem_cid": 5280443,
+     "ghs": [
+      "H315",
+      "H319",
+      "H335",
+      "H412"
+     ],
+     "flags": [],
+     "ubiquitous": true
+    }
+   ],
+   "any_severe_ghs": false,
+   "any_severe_ghs_specific": false
+  },
+  {
+   "rank": 50,
+   "taxon": "Origanum vulgare",
+   "concept_id": "itch_scabies",
+   "label": "Itch / scabies",
+   "disease_id": "HP_0000989",
+   "paths": [
+    {
+     "compound": "ethinylestradiol",
+     "chembl": "CHEMBL691",
+     "inchikey": "BFPYWIDHMRZLRN-SLHNCBLASA-N",
+     "target": "NR3C1",
+     "ensembl": "ENSG00000113580",
+     "pchembl": 6.92,
+     "ot_score": 0.508
+    },
+    {
+     "compound": "ethinylestradiol",
+     "chembl": "CHEMBL691",
+     "inchikey": "BFPYWIDHMRZLRN-SLHNCBLASA-N",
+     "target": "SLC6A2",
+     "ensembl": "ENSG00000103546",
+     "pchembl": 6.02,
+     "ot_score": 0.37
+    }
+   ],
+   "stats": {
+    "n_compounds_with_chembl": 101,
+    "n_active_compounds": 34,
+    "n_targets": 101,
+    "n_targets_associated": 2,
+    "share_targets_associated": 0.019801980198019802
+   },
+   "background": {
+    "share_lead_disease": 0.019801980198019802,
+    "median_share_other_diseases": 0.039603960396039604,
+    "percentile_among_diseases": 0.20588235294117646
+   },
+   "top_active_constituents": [
+    "CHEMBL50",
+    "CHEMBL151",
+    "CHEMBL28"
+   ],
+   "flag_historical_safety": false,
+   "modern_hazard": [
+    {
+     "chembl": "CHEMBL151",
+     "compound": "luteolin",
+     "pubchem_cid": 5280445,
+     "ghs": [
+      "H315",
+      "H319",
+      "H335"
+     ],
+     "flags": [],
+     "ubiquitous": true
+    },
+    {
+     "chembl": "CHEMBL28",
+     "compound": "apigenin",
+     "pubchem_cid": 5280443,
+     "ghs": [
+      "H315",
+      "H319",
+      "H335",
+      "H412"
+     ],
+     "flags": [],
+     "ubiquitous": true
+    },
+    {
+     "chembl": "CHEMBL50",
+     "compound": "quercetin",
+     "pubchem_cid": 5280343,
+     "ghs": [
+      "H301"
+     ],
+     "flags": [
+      "acute_toxicity"
+     ],
+     "ubiquitous": true
+    },
+    {
+     "chembl": "CHEMBL691",
+     "compound": "ethinylestradiol",
+     "pubchem_cid": 5991,
+     "ghs": [
+      "H302",
+      "H350",
+      "H360",
+      "H372",
+      "H410"
+     ],
+     "flags": [
+      "carcinogenic_mutagenic_reprotoxic",
+      "organ_toxicity"
+     ],
+     "ubiquitous": false
+    }
+   ],
+   "any_severe_ghs": true,
+   "any_severe_ghs_specific": true
+  },
+  {
+   "rank": 51,
+   "taxon": "Rubia tinctorum",
+   "concept_id": "spleen_disease",
+   "label": "Spleen complaints",
+   "disease_id": "MONDO_0002332",
+   "paths": [
+    {
+     "compound": "anthragallol",
+     "chembl": "CHEMBL192032",
+     "inchikey": "AHKDJQYHVWSRLT-UHFFFAOYSA-N",
+     "target": "BCL2",
+     "ensembl": "ENSG00000171791",
+     "pchembl": 6.23,
+     "ot_score": 0.354
+    }
+   ],
+   "stats": {
+    "n_compounds_with_chembl": 19,
+    "n_active_compounds": 8,
+    "n_targets": 15,
+    "n_targets_associated": 1,
+    "share_targets_associated": 0.06666666666666667
+   },
+   "background": {
+    "share_lead_disease": 0.06666666666666667,
+    "median_share_other_diseases": 0.06666666666666667,
+    "percentile_among_diseases": 0.4117647058823529
+   },
+   "top_active_constituents": [
+    "CHEMBL294264",
+    "CHEMBL226335",
+    "CHEMBL284616"
+   ],
+   "flag_historical_safety": false,
+   "modern_hazard": [
+    {
+     "chembl": "CHEMBL192032",
+     "compound": "anthragallol",
+     "pubchem_cid": 11768,
+     "ghs": [],
+     "flags": [],
+     "ubiquitous": false
+    },
+    {
+     "chembl": "CHEMBL226335",
+     "compound": "rutin",
+     "pubchem_cid": 5280805,
+     "ghs": [
+      "H302",
+      "H315",
+      "H319",
+      "H335"
+     ],
+     "flags": [],
+     "ubiquitous": true
+    },
+    {
+     "chembl": "CHEMBL284616",
+     "compound": "(E)-chlorogenic acid",
+     "pubchem_cid": 1794427,
+     "ghs": [
+      "H315",
+      "H319",
+      "H335"
+     ],
+     "flags": [],
+     "ubiquitous": true
+    },
+    {
+     "chembl": "CHEMBL294264",
+     "compound": "purpurin",
+     "pubchem_cid": 6683,
+     "ghs": [
+      "H315",
+      "H319",
+      "H335"
+     ],
+     "flags": [],
+     "ubiquitous": false
+    }
+   ],
+   "any_severe_ghs": false,
+   "any_severe_ghs_specific": false
+  },
+  {
+   "rank": 52,
+   "taxon": "Ruta graveolens",
+   "concept_id": "itch_scabies",
+   "label": "Itch / scabies",
+   "disease_id": "HP_0000989",
+   "paths": [],
+   "stats": {
+    "n_compounds_with_chembl": 63,
+    "n_active_compounds": 20,
+    "n_targets": 65,
+    "n_targets_associated": 0,
+    "share_targets_associated": 0.0
+   },
+   "background": {
+    "share_lead_disease": 0.0,
+    "median_share_other_diseases": 0.038461538461538464,
+    "percentile_among_diseases": 0.0
+   },
+   "top_active_constituents": [
+    "CHEMBL50",
+    "CHEMBL150",
+    "CHEMBL243664"
+   ],
+   "flag_historical_safety": true,
+   "modern_hazard": [
+    {
+     "chembl": "CHEMBL150",
+     "compound": "kaempferol",
+     "pubchem_cid": 5280863,
+     "ghs": [
+      "H301",
+      "H341"
+     ],
+     "flags": [
+      "acute_toxicity",
+      "carcinogenic_mutagenic_reprotoxic"
+     ],
+     "ubiquitous": true
+    },
+    {
+     "chembl": "CHEMBL243664",
+     "compound": "acacetin",
+     "pubchem_cid": 5280442,
+     "ghs": [
+      "H315",
+      "H319",
+      "H335"
+     ],
+     "flags": [],
+     "ubiquitous": false
+    },
+    {
+     "chembl": "CHEMBL50",
+     "compound": "quercetin",
+     "pubchem_cid": 5280343,
+     "ghs": [
+      "H301"
+     ],
+     "flags": [
+      "acute_toxicity"
+     ],
+     "ubiquitous": true
+    }
+   ],
+   "any_severe_ghs": true,
+   "any_severe_ghs_specific": false
+  },
+  {
+   "rank": 53,
+   "taxon": "Beta vulgaris",
+   "concept_id": "erysipelas",
+   "label": "St Anthony's fire / erysipelas",
+   "disease_id": "MONDO_0001266",
+   "paths": [],
+   "stats": {
+    "n_compounds_with_chembl": 86,
+    "n_active_compounds": 29,
+    "n_targets": 119,
+    "n_targets_associated": 0,
+    "share_targets_associated": 0.0
+   },
+   "background": {
+    "share_lead_disease": 0.0,
+    "median_share_other_diseases": 0.046218487394957986,
+    "percentile_among_diseases": 0.0
+   },
+   "top_active_constituents": [
+    "CHEMBL50",
+    "CHEMBL164",
+    "CHEMBL151"
+   ],
+   "flag_historical_safety": false,
+   "modern_hazard": [
+    {
+     "chembl": "CHEMBL151",
+     "compound": "luteolin",
+     "pubchem_cid": 5280445,
+     "ghs": [
+      "H315",
+      "H319",
+      "H335"
+     ],
+     "flags": [],
+     "ubiquitous": true
+    },
+    {
+     "chembl": "CHEMBL164",
+     "compound": "myricetin",
+     "pubchem_cid": 5281672,
+     "ghs": [
+      "H315",
+      "H319",
+      "H335"
+     ],
+     "flags": [],
+     "ubiquitous": true
+    },
+    {
+     "chembl": "CHEMBL50",
+     "compound": "quercetin",
+     "pubchem_cid": 5280343,
+     "ghs": [
+      "H301"
+     ],
+     "flags": [
+      "acute_toxicity"
+     ],
+     "ubiquitous": true
+    }
+   ],
+   "any_severe_ghs": true,
+   "any_severe_ghs_specific": false
+  },
+  {
+   "rank": 54,
+   "taxon": "Papaver somniferum",
+   "concept_id": "gout",
+   "label": "Gout",
+   "disease_id": "MONDO_0005393",
+   "paths": [
+    {
+     "compound": "vitamin C",
+     "chembl": "CHEMBL196",
+     "inchikey": "CIWBSHSKHKDKBQ-JLAZNSOCSA-N",
+     "target": "PTGS1",
+     "ensembl": "ENSG00000095303",
+     "pchembl": 6.27,
+     "ot_score": 0.611
+    },
+    {
+     "compound": "dopamine",
+     "chembl": "CHEMBL59",
+     "inchikey": "VYFYYTLLBUKUHU-UHFFFAOYSA-N",
+     "target": "DRD5",
+     "ensembl": "ENSG00000169676",
+     "pchembl": 8.7,
+     "ot_score": 0.445
+    }
+   ],
+   "stats": {
+    "n_compounds_with_chembl": 48,
+    "n_active_compounds": 25,
+    "n_targets": 41,
+    "n_targets_associated": 2,
+    "share_targets_associated": 0.04878048780487805
+   },
+   "background": {
+    "share_lead_disease": 0.04878048780487805,
+    "median_share_other_diseases": 0.13414634146341464,
+    "percentile_among_diseases": 0.23529411764705882
+   },
+   "top_active_constituents": [
+    "CHEMBL59",
+    "CHEMBL19224",
+    "CHEMBL12089"
+   ],
+   "flag_historical_safety": false,
+   "modern_hazard": [
+    {
+     "chembl": "CHEMBL12089",
+     "compound": "berberine",
+     "pubchem_cid": 2353,
+     "ghs": [],
+     "flags": [],
+     "ubiquitous": false
+    },
+    {
+     "chembl": "CHEMBL19224",
+     "compound": "papaverine",
+     "pubchem_cid": 4680,
+     "ghs": [
+      "H302"
+     ],
+     "flags": [],
+     "ubiquitous": false
+    },
+    {
+     "chembl": "CHEMBL196",
+     "compound": "vitamin C",
+     "pubchem_cid": 54670067,
+     "ghs": [],
+     "flags": [],
+     "ubiquitous": false
+    },
+    {
+     "chembl": "CHEMBL59",
+     "compound": "dopamine",
+     "pubchem_cid": 681,
+     "ghs": [
+      "H302",
+      "H361",
+      "H400",
+      "H410"
+     ],
+     "flags": [
+      "carcinogenic_mutagenic_reprotoxic"
+     ],
+     "ubiquitous": false
+    }
+   ],
+   "any_severe_ghs": true,
+   "any_severe_ghs_specific": true
+  },
+  {
+   "rank": 55,
+   "taxon": "Anethum graveolens",
+   "concept_id": "nausea_vomiting",
+   "label": "Nausea & vomiting",
+   "disease_id": "HP_0002013",
+   "paths": [],
+   "stats": {
+    "n_compounds_with_chembl": 71,
+    "n_active_compounds": 30,
+    "n_targets": 95,
+    "n_targets_associated": 0,
+    "share_targets_associated": 0.0
+   },
+   "background": {
+    "share_lead_disease": 0.0,
+    "median_share_other_diseases": 0.031578947368421054,
+    "percentile_among_diseases": 0.0
+   },
+   "top_active_constituents": [
+    "CHEMBL50",
+    "CHEMBL164",
+    "CHEMBL151"
+   ],
+   "flag_historical_safety": false,
+   "modern_hazard": [
+    {
+     "chembl": "CHEMBL151",
+     "compound": "luteolin",
+     "pubchem_cid": 5280445,
+     "ghs": [
+      "H315",
+      "H319",
+      "H335"
+     ],
+     "flags": [],
+     "ubiquitous": true
+    },
+    {
+     "chembl": "CHEMBL164",
+     "compound": "myricetin",
+     "pubchem_cid": 5281672,
+     "ghs": [
+      "H315",
+      "H319",
+      "H335"
+     ],
+     "flags": [],
+     "ubiquitous": true
+    },
+    {
+     "chembl": "CHEMBL50",
+     "compound": "quercetin",
+     "pubchem_cid": 5280343,
+     "ghs": [
+      "H301"
+     ],
+     "flags": [
+      "acute_toxicity"
+     ],
+     "ubiquitous": true
+    }
+   ],
+   "any_severe_ghs": true,
+   "any_severe_ghs_specific": false
+  },
+  {
+   "rank": 56,
+   "taxon": "Ruscus aculeatus",
+   "concept_id": "diuresis",
+   "label": "Urine stoppage / diuretic",
+   "disease_id": "HP_0000016",
+   "paths": [],
+   "stats": {
+    "n_compounds_with_chembl": 15,
+    "n_active_compounds": 1,
+    "n_targets": 3,
+    "n_targets_associated": 0,
+    "share_targets_associated": 0.0
+   },
+   "background": {
+    "share_lead_disease": 0.0,
+    "median_share_other_diseases": 0.0,
+    "percentile_among_diseases": 0.0
+   },
+   "top_active_constituents": [
+    "CHEMBL226335"
+   ],
+   "flag_historical_safety": false,
+   "modern_hazard": [
+    {
+     "chembl": "CHEMBL226335",
+     "compound": "rutin",
+     "pubchem_cid": 5280805,
+     "ghs": [
+      "H302",
+      "H315",
+      "H319",
+      "H335"
+     ],
+     "flags": [],
+     "ubiquitous": true
+    }
+   ],
+   "any_severe_ghs": false,
+   "any_severe_ghs_specific": false
+  },
+  {
+   "rank": 57,
+   "taxon": "Plantago major",
+   "concept_id": "tuberculosis",
+   "label": "Consumption / phthisis",
+   "disease_id": "MONDO_0018076",
+   "paths": [
+    {
+     "compound": "gallic acid",
+     "chembl": "CHEMBL288114",
+     "inchikey": "LNTHITQWFMADLM-UHFFFAOYSA-N",
+     "target": "GALNT2",
+     "ensembl": "ENSG00000143641",
+     "pchembl": 6.03,
+     "ot_score": 0.185
+    },
+    {
+     "compound": "luteoloside",
+     "chembl": "CHEMBL233929",
+     "inchikey": "PEFNSGRTCBGNAN-QNDFHXLGSA-N",
+     "target": "TNF",
+     "ensembl": "ENSG00000232810",
+     "pchembl": 6.1,
+     "ot_score": 0.14
+    }
+   ],
+   "stats": {
+    "n_compounds_with_chembl": 55,
+    "n_active_compounds": 25,
+    "n_targets": 95,
+    "n_targets_associated": 12,
+    "share_targets_associated": 0.12631578947368421
+   },
+   "background": {
+    "share_lead_disease": 0.12631578947368421,
+    "median_share_other_diseases": 0.031578947368421054,
+    "percentile_among_diseases": 0.7647058823529411
+   },
+   "top_active_constituents": [
+    "CHEMBL50",
+    "CHEMBL151",
+    "CHEMBL28"
+   ],
+   "flag_historical_safety": false,
+   "modern_hazard": [
+    {
+     "chembl": "CHEMBL151",
+     "compound": "luteolin",
+     "pubchem_cid": 5280445,
+     "ghs": [
+      "H315",
+      "H319",
+      "H335"
+     ],
+     "flags": [],
+     "ubiquitous": true
+    },
+    {
+     "chembl": "CHEMBL233929",
+     "compound": "luteoloside",
+     "pubchem_cid": 5280637,
+     "ghs": [],
+     "flags": [],
+     "ubiquitous": false
+    },
+    {
+     "chembl": "CHEMBL28",
+     "compound": "apigenin",
+     "pubchem_cid": 5280443,
+     "ghs": [
+      "H315",
+      "H319",
+      "H335",
+      "H412"
+     ],
+     "flags": [],
+     "ubiquitous": true
+    },
+    {
+     "chembl": "CHEMBL288114",
+     "compound": "gallic acid",
+     "pubchem_cid": 370,
+     "ghs": [
+      "H315",
+      "H318",
+      "H319",
+      "H335"
+     ],
+     "flags": [],
+     "ubiquitous": true
+    },
+    {
+     "chembl": "CHEMBL50",
+     "compound": "quercetin",
+     "pubchem_cid": 5280343,
+     "ghs": [
+      "H301"
+     ],
+     "flags": [
+      "acute_toxicity"
+     ],
+     "ubiquitous": true
+    }
+   ],
+   "any_severe_ghs": true,
+   "any_severe_ghs_specific": false
+  },
+  {
+   "rank": 58,
+   "taxon": "Lysimachia vulgaris",
+   "concept_id": "hemorrhage",
+   "label": "Bleeding / staunching blood",
+   "disease_id": "HP_0001892",
+   "paths": [],
+   "stats": {
+    "n_compounds_with_chembl": 2,
+    "n_active_compounds": 1,
+    "n_targets": 3,
+    "n_targets_associated": 0,
+    "share_targets_associated": 0.0
+   },
+   "background": {
+    "share_lead_disease": 0.0,
+    "median_share_other_diseases": 0.0,
+    "percentile_among_diseases": 0.0
+   },
+   "top_active_constituents": [
+    "CHEMBL233930"
+   ],
+   "flag_historical_safety": false,
+   "modern_hazard": [
+    {
+     "chembl": "CHEMBL233930",
+     "compound": "Astragalin",
+     "pubchem_cid": 5282102,
+     "ghs": [],
+     "flags": [],
+     "ubiquitous": false
+    }
+   ],
+   "any_severe_ghs": false,
+   "any_severe_ghs_specific": false
+  },
+  {
+   "rank": 59,
+   "taxon": "Portulaca oleracea",
+   "concept_id": "erysipelas",
+   "label": "St Anthony's fire / erysipelas",
+   "disease_id": "MONDO_0001266",
+   "paths": [],
+   "stats": {
+    "n_compounds_with_chembl": 54,
+    "n_active_compounds": 27,
+    "n_targets": 117,
+    "n_targets_associated": 0,
+    "share_targets_associated": 0.0
+   },
+   "background": {
+    "share_lead_disease": 0.0,
+    "median_share_other_diseases": 0.05982905982905983,
+    "percentile_among_diseases": 0.0
+   },
+   "top_active_constituents": [
+    "CHEMBL50",
+    "CHEMBL164",
+    "CHEMBL151"
+   ],
+   "flag_historical_safety": false,
+   "modern_hazard": [
+    {
+     "chembl": "CHEMBL151",
+     "compound": "luteolin",
+     "pubchem_cid": 5280445,
+     "ghs": [
+      "H315",
+      "H319",
+      "H335"
+     ],
+     "flags": [],
+     "ubiquitous": true
+    },
+    {
+     "chembl": "CHEMBL164",
+     "compound": "myricetin",
+     "pubchem_cid": 5281672,
+     "ghs": [
+      "H315",
+      "H319",
+      "H335"
+     ],
+     "flags": [],
+     "ubiquitous": true
+    },
+    {
+     "chembl": "CHEMBL50",
+     "compound": "quercetin",
+     "pubchem_cid": 5280343,
+     "ghs": [
+      "H301"
+     ],
+     "flags": [
+      "acute_toxicity"
+     ],
+     "ubiquitous": true
+    }
+   ],
+   "any_severe_ghs": true,
+   "any_severe_ghs_specific": false
+  },
+  {
+   "rank": 60,
+   "taxon": "Lilium candidum",
+   "concept_id": "poisoning",
+   "label": "Poisons / antidote",
+   "disease_id": "MONDO_0029000",
+   "paths": [],
+   "stats": {
+    "n_compounds_with_chembl": 5,
+    "n_active_compounds": 3,
+    "n_targets": 18,
+    "n_targets_associated": 0,
+    "share_targets_associated": 0.0
+   },
+   "background": {
+    "share_lead_disease": 0.0,
+    "median_share_other_diseases": 0.0,
+    "percentile_among_diseases": 0.0
+   },
+   "top_active_constituents": [
+    "CHEMBL150",
+    "CHEMBL379064",
+    "CHEMBL38499"
+   ],
+   "flag_historical_safety": true,
+   "modern_hazard": [
+    {
+     "chembl": "CHEMBL150",
+     "compound": "kaempferol",
+     "pubchem_cid": 5280863,
+     "ghs": [
+      "H301",
+      "H341"
+     ],
+     "flags": [
+      "acute_toxicity",
+      "carcinogenic_mutagenic_reprotoxic"
+     ],
+     "ubiquitous": true
+    },
+    {
+     "chembl": "CHEMBL379064",
+     "compound": "isorhamnetin",
+     "pubchem_cid": 5281654,
+     "ghs": [
+      "H351"
+     ],
+     "flags": [
+      "carcinogenic_mutagenic_reprotoxic"
+     ],
+     "ubiquitous": true
+    },
+    {
+     "chembl": "CHEMBL38499",
+     "compound": "4-methylene-L-glutamic acid",
+     "pubchem_cid": 439282,
+     "ghs": [],
+     "flags": [],
+     "ubiquitous": false
+    }
+   ],
+   "any_severe_ghs": true,
+   "any_severe_ghs_specific": false
+  }
+ ],
+ "caveat": "Hypothesis-generating only. A constituent being active (pChEMBL >= 6) on a human protein in some assay, and that protein being associated with a disease in Open Targets, does not show that the plant, at any dose, treats the disease. Paths are screening aids for laboratory follow-up, not medical advice. GHS statements describe the pure substance, not the plant.",
+ "status": "hypothesis-generating",
+ "reproduce": "PYTHONPATH=src python scripts/mechanism.py",
+ "generated": "2026-11-08"
+}

@@ -1,6 +1,6 @@
-import { useMemo, useState, type ReactNode } from "react";
+import { useEffect, useMemo, useState, type ReactNode } from "react";
 import {
-  asArray, conceptLabel, conceptMap, dscRef, links, recordFile, tierOf, TIER_LABEL, TIER_NOTE, TIERS, useResource,
+  asArray, conceptLabel, conceptMap, dscRef, links, recordFile, tierOf, TIER_LABEL, TIER_NOTE, TIERS, useResource, wordAt,
   type Claim, type CodexImage, type Concept, type PlantName, type PlantRecord,
 } from "../lib/data";
 import { href, replaceParams, type Route } from "../lib/router";
@@ -76,10 +76,19 @@ function Plate({ im, primary }: { im: CodexImage; primary: boolean }) {
   );
 }
 
-function Folio({ id, kind, rec, cmap, persistent, lit, selected, onSelect, onHover }: {
+function Folio({ id, kind, rec, cmap, persistent, lit, selected, onSelect, onHover, otherId, interlinear }: {
   id: string | null | undefined; kind: "dsc" | "cul"; rec: PlantRecord; cmap: Map<string, Concept>; persistent: Set<string>;
   lit: string | null; selected: string | null; onSelect: (id: string) => void; onHover: (id: string | null) => void;
+  otherId: string | null | undefined; interlinear: boolean;
 }) {
+  const other = otherId ? rec.texts[otherId] : undefined;
+  const counterpart = useMemo(() => {
+    if (!otherId) return undefined;
+    return (cid: string) => {
+      const sp = asArray<{ start: number; end: number; concept_id: string; polarity?: string | null }>(other?.spans).find((x) => x.concept_id === cid && x.polarity !== "adverse");
+      return sp && other?.text ? wordAt(other.text, sp.start, sp.end) : null;
+    };
+  }, [other, otherId]);
   const t = id ? rec.texts[id] : undefined;
   const isD = kind === "dsc";
   const r = isD ? dscRef(id) : null;
@@ -97,7 +106,8 @@ function Folio({ id, kind, rec, cmap, persistent, lit, selected, onSelect, onHov
       {id && !t?.text && <p className="folio-empty">The text of <code>{id}</code> is not in the export.</p>}
       {id && t?.text && (
         <AnnotatedText text={t.text} spans={asArray(t.spans)} lang={isD ? "grc" : "en"} source={kind}
-          concepts={cmap} persistent={persistent} lit={lit} selected={selected} onSelect={onSelect} onHover={onHover} />
+          concepts={cmap} persistent={persistent} lit={lit} selected={selected} onSelect={onSelect} onHover={onHover}
+          gloss={rec.gloss?.[id]} interlinear={interlinear} counterpart={counterpart} otherName={isD ? "Culpeper" : "Dioscorides"} />
       )}
     </article>
   );
@@ -114,6 +124,8 @@ export function PlantPage({ slug, route }: { slug: string; route: Route }) {
   const imgs = useImages();
   const [lit, setLit] = useState<string | null>(null);
   const [chapter, setChapter] = useState(0);
+  const [interlinear, setInterlinear] = useState(() => { try { return localStorage.getItem("ps-interlinear") === "1"; } catch { return false; } });
+  useEffect(() => { try { localStorage.setItem("ps-interlinear", interlinear ? "1" : "0"); } catch { /* private mode */ } }, [interlinear]);
   const selected = route.params.get("c");
   const cmap = conceptMap(asArray<Concept>(concepts.data));
 
@@ -213,7 +225,11 @@ export function PlantPage({ slug, route }: { slug: string; route: Route }) {
         <div className="wrap">
           <div className="sec-head sec-head--split">
             <h2 id="texts-title" className="sec-title">The two texts, facing</h2>
-            <p className="sec-lede">Marked words are extracted indications; rubricated marks are claimed in both herbals. Hover or focus one for its MeSH concept, select it to trace it in the table.</p>
+            <p className="sec-lede">Marked words are extracted indications; red underlines are claimed in both herbals. Hover or focus a word for its literal English gloss, its MeSH concept and what the other herbal says; select it to trace it in the table.</p>
+          </div>
+          <div className="folio-tools">
+            <button type="button" className="btn btn--line btn--small" aria-pressed={interlinear} onClick={() => setInterlinear((v) => !v)}>{interlinear ? "Hide the glosses" : "Show glosses inline"}</button>
+            <span className="muted fine-inline">Glosses are the literal senses of the lexicon entry behind each match, not a translation of the chapter.</span>
           </div>
           {dscNames.length > 1 && (
             <div className="segmented" role="group" aria-label="Dioscorides chapter">
@@ -224,8 +240,8 @@ export function PlantPage({ slug, route }: { slug: string; route: Route }) {
             </div>
           )}
           <div className="facing">
-            <Folio key={dscId ?? "none"} id={dscId} kind="dsc" rec={r} cmap={cmap} persistent={persistent} lit={lit} selected={selected} onSelect={select} onHover={setLit} />
-            <Folio id={culName?.monograph_id} kind="cul" rec={r} cmap={cmap} persistent={persistent} lit={lit} selected={selected} onSelect={select} onHover={setLit} />
+            <Folio key={dscId ?? "none"} id={dscId} kind="dsc" rec={r} cmap={cmap} persistent={persistent} lit={lit} selected={selected} onSelect={select} onHover={setLit} otherId={culName?.monograph_id} interlinear={interlinear} />
+            <Folio id={culName?.monograph_id} kind="cul" rec={r} cmap={cmap} persistent={persistent} lit={lit} selected={selected} onSelect={select} onHover={setLit} otherId={dscId} interlinear={interlinear} />
           </div>
         </div>
       </section>

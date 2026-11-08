@@ -8,7 +8,7 @@ import type { Summary } from "../lib/data";
 export const NAV = [
   { to: "/plants", label: "Plants", match: ["plants", "plant"] },
   { to: "/findings", label: "Findings", match: ["findings", "evidence"] },
-  { to: "/leads", label: "Leads", match: ["leads"] },
+  { to: "/leads", label: "Leads", match: ["leads", "lead"] },
   { to: "/data", label: "Data", match: ["data"] },
   { to: "/methods", label: "Methods", match: ["methods"] },
 ];
