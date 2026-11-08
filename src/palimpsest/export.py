@@ -153,7 +153,9 @@ def export_web() -> dict:
                                                             "fold_enrichment", "p_value", "n_shared_taxa")}
                                     for k, v in stats["transmission_sensitivity"].items() if v},
         "lift_by_group": stats["modern"]["groups"],
-        "regression": {"poisson": stats["modern"]["poisson_rate_ratios"],
+        # "poisson" = intensity once studied (pairs with >= 1 paper); all-pairs model kept separately
+        "regression": {"poisson": stats["modern"].get("poisson_given_studied", stats["modern"]["poisson_rate_ratios"]),
+                       "poisson_all_pairs": stats["modern"]["poisson_rate_ratios"],
                        "logit": stats["modern"]["logit_fixed_effects"],
                        "poisson_offset_only": stats["modern"]["poisson_offset_only"],
                        "conditional_logit": stats["modern"]["conditional_logit"],

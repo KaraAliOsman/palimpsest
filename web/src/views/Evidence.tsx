@@ -27,6 +27,9 @@ export function Evidence() {
   const bothRR = poisson.find((r) => r.key === "both" || r.key === "persistent");
   const shareBoth = share.find((r) => r.key === "both" || r.key === "persistent");
   const shareNone = share.find((r) => r.key === "unclaimed");
+  // matched controls: unclaimed indications of exactly the plants with persistent claims
+  const matchedNone: number | null =
+    ((s as any)?.lift_by_group ?? []).find((g: any) => g.group === "both")?.matched_unclaimed_share ?? null;
   const logitModel = modelNote(s, "logit");
 
   return (
@@ -46,7 +49,7 @@ export function Evidence() {
                 <div className="verdict-item">
                   <p className="verdict-figure">{fmt.two(both.value)}×</p>
                   <p className="verdict-label">Odds that modern research has looked at all at an indication both herbals claim, against unclaimed indications of the same plants.</p>
-                  <p className="verdict-detail">Logit odds ratio, {ci(both)}{both.p !== null ? `, ${fmt.p(both.p)}` : ""}{shareBoth && shareNone ? `. ${fmt.pct(shareBoth.value)} of such pairs have a paper, against ${fmt.pct(shareNone.value)}.` : "."}</p>
+                  <p className="verdict-detail">Logit odds ratio, {ci(both)}{both.p !== null ? `, ${fmt.p(both.p)}` : ""}{shareBoth && (matchedNone !== null || shareNone) ? `. ${fmt.pct(shareBoth.value)} of such pairs have a paper, against ${fmt.pct(matchedNone ?? shareNone!.value)} for unclaimed indications of the same plants.` : "."}</p>
                 </div>
               )}
               {bothRR && (
