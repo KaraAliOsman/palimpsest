@@ -47,6 +47,8 @@ at least one paper, the rate ratio is 1.04 [0.61–1.76] (n.s.).
 Tradition predicts *whether* modern research looked, not *how hard* — that gap is where the leads are.
 Co-mention measures attention, not efficacy.
 
+*Sensitivity:* re-searching every plant under all its GBIF synonyms (rosemary 211 → 2,179 papers) leaves every conclusion intact (persistent vs same-plant controls 46% vs 35%; OR 2.48 [1.84–3.36]; once studied RR 1.03 n.s.); none of the 60 leads drops out.
+
 ![Evidence by group](https://raw.githubusercontent.com/KaraAliOsman/palimpsest/main/results/figures/fig2_evidence_by_group.png)
 ![Odds ratios](https://raw.githubusercontent.com/KaraAliOsman/palimpsest/main/results/figures/fig3_odds_ratios.png)
 
@@ -101,9 +103,11 @@ can use — or has it ignored?
 6. **Leads.** Persistent but under-studied plant–indication pairs are ranked by a transparent
    score combining persistence, LOTUS phytochemistry and a volume-aware evidence gap, with
    historical-safety and IUCN flags.
-7. **Knowledge graph + explorer.** All of it is exported as a provenance-anchored knowledge
-   graph (CSV/GraphML; every claim edge carries its verbatim quote and character offsets)
-   and an interactive web explorer.
+7. **Knowledge graph + explorer.** All of it is exported as a provenance-anchored knowledge graph
+   (CSV/GraphML; every claim edge carries its verbatim quote and character offsets) and a research-grade
+   web explorer: 95 public-domain images from the Vienna Dioscurides (c. 512 CE) and early printed herbals,
+   an era-layer view of every plant, accent-insensitive Greek search (Ctrl+K), cite/download for every
+   record, interactive findings, exportable leads and a data/API page.
 
 ## Technologies used
 Python (pandas, NumPy, SciPy, statsmodels, NetworkX, matplotlib), TEI/XML parsing,
@@ -142,6 +146,7 @@ living communities. AI assistance is disclosed and every AI-curated row carries 
 confidence level and justification for expert correction.
 
 ## Future development
+* Synonym-expanded literature search: done (sensitivity analysis; conclusions hold).
 * Expert review of the name concordance with ETHCSTWIN pharmacognosists and historians.
 * Add Galen, Pliny, Byzantine (e.g. Paul of Aegina) and Arabic sources to trace the full
   transmission chain, not just its endpoints.

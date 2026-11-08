@@ -109,7 +109,9 @@ record a warning about the plant.
 6. **Leads.** Persistent but under-studied plant–indication pairs are ranked transparently,
    with phytochemistry (LOTUS), safety and conservation flags.
 7. **Knowledge graph + explorer.** Everything is exported as a provenance-anchored knowledge
-   graph (CSV/GraphML) and an interactive web explorer.
+   graph (CSV/GraphML) and a research-grade web explorer with 95 public-domain images from the
+   Vienna Dioscurides (c. 512 CE) and early printed herbals, era-layer views, accent-insensitive
+   Greek search (Ctrl+K), cite/download for every record and a data/API page.
 
 ## Quick start
 
