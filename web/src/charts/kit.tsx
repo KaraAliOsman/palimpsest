@@ -19,7 +19,21 @@ export function useWidth<T extends HTMLElement>(): [RefObject<T | null>, number]
   return [ref, w];
 }
 
-/** Round ticks for a linear axis. */
+/** True once the element has scrolled into view (charts draw their marks once, then stay). */
+export function useInView<T extends Element>(): [RefObject<T | null>, boolean] {
+  const ref = useRef<T>(null);
+  const [seen, setSeen] = useState(false);
+  useEffect(() => {
+    const el = ref.current;
+    if (!el || seen) return;
+    if (typeof IntersectionObserver === "undefined") { setSeen(true); return; }
+    const io = new IntersectionObserver((es) => { if (es.some((e) => e.isIntersecting)) { setSeen(true); io.disconnect(); } }, { rootMargin: "0px 0px -12% 0px" });
+    io.observe(el);
+    return () => io.disconnect();
+  }, [seen]);
+  return [ref, seen];
+}
+
 export function niceTicks(lo: number, hi: number, count = 5): number[] {
   if (!(hi > lo)) return [lo];
   const step0 = (hi - lo) / Math.max(1, count);
@@ -31,10 +45,8 @@ export function niceTicks(lo: number, hi: number, count = 5): number[] {
 }
 
 export function logTicks(lo: number, hi: number): number[] {
-  const cands = [0.1, 0.2, 0.25, 0.5, 0.75, 1, 1.5, 2, 3, 4, 5, 10, 20, 50, 100];
-  const t = cands.filter((v) => v >= lo * 0.999 && v <= hi * 1.001);
-  if (t.length > 7) return t.filter((v) => [0.1, 0.25, 0.5, 1, 2, 5, 10, 20, 50, 100].includes(v));
-  return t;
+  const cands = [0.25, 0.5, 0.75, 1, 1.5, 2, 3, 4, 5, 10];
+  return cands.filter((v) => v >= lo * 0.999 && v <= hi * 1.001);
 }
 
 export interface TipState { x: number; y: number; lines: ReactNode[] }
@@ -48,7 +60,6 @@ export function ChartTip({ tip }: { tip: TipState | null }) {
   );
 }
 
-/** Pointer and keyboard handlers that place one tooltip relative to the chart's frame. */
 export function useTip(frame: RefObject<HTMLElement | null>) {
   const [tip, setTip] = useState<TipState | null>(null);
   const show = (el: Element, lines: ReactNode[]) => {
@@ -56,8 +67,8 @@ export function useTip(frame: RefObject<HTMLElement | null>) {
     if (!host) return;
     const r = el.getBoundingClientRect();
     const h = host.getBoundingClientRect();
-    const x = Math.max(70, Math.min(h.width - 70, r.left - h.left + r.width / 2));
-    setTip({ x, y: r.top - h.top - 8, lines });
+    const x = Math.max(80, Math.min(h.width - 80, r.left - h.left + r.width / 2));
+    setTip({ x, y: r.top - h.top - 10, lines });
   };
   const hide = () => setTip(null);
   useEffect(() => {
@@ -82,4 +93,14 @@ export function TableToggle({ label, children }: { label: string; children: Reac
       <div className="numbers-body">{children}</div>
     </details>
   );
+}
+
+/** Bar with a 4px rounded data end and a square baseline end. */
+export function barRight(x: number, y: number, w: number, h: number, r = 4): string {
+  const rr = Math.max(0, Math.min(r, h / 2, w));
+  return `M${x},${y}H${x + w - rr}Q${x + w},${y} ${x + w},${y + rr}V${y + h - rr}Q${x + w},${y + h} ${x + w - rr},${y + h}H${x}Z`;
+}
+export function barUp(x: number, y: number, w: number, h: number, r = 2): string {
+  const rr = Math.max(0, Math.min(r, w / 2, h));
+  return `M${x},${y + h}V${y + rr}Q${x},${y} ${x + rr},${y}H${x + w - rr}Q${x + w},${y} ${x + w},${y + rr}V${y + h}Z`;
 }

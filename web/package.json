@@ -6,6 +6,7 @@
   "description": "Static explorer for Palimpsest: Dioscorides, Culpeper and modern evidence.",
   "scripts": {
     "dev": "vite",
+    "derive": "node scripts/derive.mjs",
     "build": "tsc --noEmit && vite build",
     "preview": "vite preview",
     "typecheck": "tsc --noEmit"

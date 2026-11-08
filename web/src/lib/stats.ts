@@ -90,7 +90,7 @@ function readIntervals(raw: unknown, valueKeys: string[], labelKeys: string[]): 
     return {
       key, label: typeof o["label"] === "string" ? (o["label"] as string) : (GROUP_LABEL[key] ?? key),
       value: num(pick(o, ...valueKeys)) ?? NaN, lo, hi,
-      n: num(pick(o, "n", "count", "n_pairs")), p: num(pick(o, "p", "p_value", "pvalue")),
+      n: num(pick(o, "n", "count", "n_pairs", "n_obs")), p: num(pick(o, "p", "p_value", "pvalue")),
     };
   }).filter((r) => Number.isFinite(r.value));
 }

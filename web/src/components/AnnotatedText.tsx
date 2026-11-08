@@ -143,7 +143,7 @@ export function AnnotatedText({ text, spans, lang, source, concepts, persistent,
         {parts}
       </div>
       {long && (
-        <button type="button" className="btn btn--quiet btn--small reading-more" aria-expanded={open} aria-controls={`${tipId}-text`} onClick={() => setOpen((o) => !o)}>
+        <button type="button" className="btn btn--line btn--small reading-more" aria-expanded={open} aria-controls={`${tipId}-text`} onClick={() => setOpen((o) => !o)}>
           {open ? "Show less" : `Show the whole ${lang === "grc" ? "chapter" : "section"}`}
         </button>
       )}

@@ -2,23 +2,61 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Palimpsest: Dioscorides, Culpeper and the evidence</title>
-    <meta name="description" content="Plant remedies from Dioscorides' Greek (c. 60 CE) and Culpeper's Complete Herbal (1653), tested against modern literature, trials and phytochemistry." />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>Palimpsest: Dioscorides, Culpeper and the modern evidence</title>
+    <meta name="description" content="Dioscorides’ Greek (c. 60 CE) and Culpeper’s Complete Herbal (1653), read to the word, mapped to 692 plants and tested against modern literature. Computational hypotheses, not medical advice." />
     <meta name="color-scheme" content="light dark" />
-    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <meta name="theme-color" content="#e3d5b3" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#17120d" media="(prefers-color-scheme: dark)" />
+    <link rel="canonical" href="https://karaaliosman.github.io/palimpsest/" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Palimpsest" />
+    <meta property="og:title" content="Palimpsest: Dioscorides, Culpeper and the modern evidence" />
+    <meta property="og:description" content="Which ancient remedies survived 1,600 years of copying, and has modern science looked at them? 822 Greek chapters, 328 English monographs, 692 plants, 10,399 claims." />
+    <meta property="og:url" content="https://karaaliosman.github.io/palimpsest/" />
+    <meta property="og:image" content="https://karaaliosman.github.io/palimpsest/og.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="The wormwood folio of the Vienna Dioscurides beside the word ἀψίνθιον overwritten by Wormwood and Artemisia absinthium." />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:image" content="https://karaaliosman.github.io/palimpsest/og.png" />
+
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <link rel="icon" href="favicon-32.png" sizes="32x32" type="image/png" />
+    <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+    <link rel="manifest" href="site.webmanifest" />
+
     <script>
-      try { var m = localStorage.getItem("palimpsest-mode"); if (m === "dark" || m === "light") document.documentElement.dataset.mode = m; } catch (e) {}
-      document.documentElement.classList.add("js");
+      try { var t = localStorage.getItem("palimpsest-theme"); if (t === "dark" || t === "light") document.documentElement.dataset.theme = t; } catch (e) {}
     </script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500;1,600&family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Hanken+Grotesk:wght@400;500;600&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400;0,500;0,700;0,800;1,400;1,500;1,700&family=Alegreya+SC:wght@500;700&family=Alegreya+Sans:ital,wght@0,400;0,500;0,700;1,400&family=GFS+Didot&display=swap" rel="stylesheet" />
+    <link rel="preload" as="image" href="img/codex/wiener-dioskurides-absinthion-badypikron-1200.webp" imagesrcset="img/codex/wiener-dioskurides-absinthion-badypikron-640.webp 640w, img/codex/wiener-dioskurides-absinthion-badypikron-1200.webp 1200w, img/codex/wiener-dioskurides-absinthion-badypikron-1800.webp 1800w" imagesizes="(max-width: 860px) 92vw, 40vw" fetchpriority="high" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Dataset",
+        "name": "Palimpsest: Dioscorides and Culpeper against modern evidence",
+        "description": "Plant–indication claims extracted with character provenance from Dioscorides' De materia medica (Greek, c. 60 CE, 822 chapters) and Culpeper's Complete Herbal (1653, 328 monographs), mapped to 692 GBIF taxa and 85 MeSH concepts, screened against Europe PMC, with a knowledge graph and ranked research leads.",
+        "url": "https://karaaliosman.github.io/palimpsest/",
+        "sameAs": "https://github.com/KaraAliOsman/palimpsest",
+        "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "keywords": ["pharmacognosy", "history of medicine", "Dioscorides", "Culpeper", "materia medica", "drug discovery", "knowledge graph", "MeSH", "GBIF"],
+        "creator": { "@type": "Organization", "name": "Palimpsest team, EthnoHack 2026" },
+        "temporalCoverage": "0060/2026",
+        "distribution": [
+          { "@type": "DataDownload", "encodingFormat": "text/csv", "contentUrl": "https://raw.githubusercontent.com/KaraAliOsman/palimpsest/main/data/processed/kg/edges.csv" },
+          { "@type": "DataDownload", "encodingFormat": "application/xml", "contentUrl": "https://raw.githubusercontent.com/KaraAliOsman/palimpsest/main/data/processed/kg/palimpsest.graphml" }
+        ]
+      }
+    </script>
   </head>
   <body>
     <div id="root">
       <noscript>
-        <p class="noscript">Palimpsest is a static explorer that needs JavaScript to read its data files. The data itself lives in <code>data/</code> beside this page as plain JSON.</p>
+        <p class="noscript">Palimpsest is a static explorer that reads plain JSON files in <code>data/</code> beside this page, and needs JavaScript to draw them. The code and data are at github.com/KaraAliOsman/palimpsest.</p>
       </noscript>
     </div>
     <script type="module" src="/src/main.tsx"></script>

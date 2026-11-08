@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://karaaliosman.github.io/palimpsest/sitemap.xml

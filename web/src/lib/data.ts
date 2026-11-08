@@ -79,8 +79,12 @@ export function dataUrl(name: string): string {
 export function load<T>(name: string): Promise<T> {
   let p = cache.get(name) as Promise<T> | undefined;
   if (!p) {
-    p = fetch(dataUrl(name), { cache: "no-cache" }).then(async (r) => {
+    // "@/img/credits.json" resolves against the site root; anything else against data/.
+    const url = name.startsWith("@/") ? assetUrl(name.slice(2)) : dataUrl(name);
+    p = fetch(url, { cache: "no-cache" }).then(async (r) => {
       if (!r.ok) throw new Error(`${name} answered ${r.status} ${r.statusText}`.trim());
+      // A single-page fallback answers missing files with index.html; treat that as missing.
+      if ((r.headers.get("content-type") ?? "").includes("text/html")) throw new Error(`${name} answered 404 Not Found`);
       return (await r.json()) as T;
     });
     p.catch(() => cache.delete(name));
@@ -244,3 +248,31 @@ export const links = {
   wikidataItem: (qid: string) => `https://www.wikidata.org/wiki/${encodeURIComponent(qid)}`,
   mesh: (id: string) => `https://meshb.nlm.nih.gov/record/ui?ui=${encodeURIComponent(id)}`,
 };
+
+// ---------------------------------------------------------------- derived files (web/scripts/derive.mjs)
+
+export interface SearchPlant {
+  s: string; t: string; c?: string | null; f?: string | null; g: string[]; e?: string | null;
+  n: number; p: number; ls?: number | null; lr?: number | null; img?: string | null; k: string[];
+  tc: [number, number, number]; pe?: number | null; iu?: string | null;
+}
+export interface SearchConcept { id: string; l: string; cat?: string; m?: string | null; d?: number; u?: number; top: string[]; np: number }
+export interface SearchIndex { generated?: string; plants: SearchPlant[]; concepts: SearchConcept[] }
+
+export interface PlantRecord { slug: string; plant: Plant; texts: Texts; images: string[] }
+
+export interface ImageSrc { w: number; h: number; src: string; bytes?: number }
+export interface CodexImage {
+  id: string; role: "hero" | "scene" | "plant"; label: string; taxa: string[]; basis: string | null;
+  work: string; made: string; holder: string | null; commons_title: string; commons_page: string; source_url: string;
+  artist: string; date: string; licence: string; licence_url: string | null; description: string;
+  width: number; height: number; color: string; srcs: ImageSrc[];
+}
+export interface Credits { generated?: string; note?: string; images: CodexImage[] }
+
+export function assetUrl(path: string): string {
+  const base = import.meta.env.BASE_URL || "./";
+  return `${base.endsWith("/") ? base : base + "/"}${path.replace(/^\//, "")}`;
+}
+
+export const recordFile = (slug: string) => `derived/records/${encodeURIComponent(slug)}.json`;

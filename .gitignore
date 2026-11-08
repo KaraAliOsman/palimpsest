@@ -18,3 +18,6 @@ Thumbs.db
 # local tool artefacts
 web/.hallmark/
 .claude/
+web/.impeccable/
+web/public/img/**/*.webp.json
+web/public/img/*.webp.json

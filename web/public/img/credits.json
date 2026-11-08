@@ -1,0 +1,3342 @@
+{
+ "generated": "2026-11-08",
+ "note": "Every image was downloaded from upload.wikimedia.org after its Commons licence metadata was checked (Public domain or CC0 only). Mapping basis: 'commons-binomial' = the Commons description names the species; 'folio-lemma' = the folio's Greek label is the Dioscorides lemma Palimpsest identifies as this taxon (the identification is Palimpsest's and carries its confidence); 'page-heading' = Fuchs's printed Latin heading names the plant.",
+ "images": [
+  {
+   "id": "wiener-dioskurides-absinthion-badypikron",
+   "role": "hero",
+   "label": "ἀψίνθιον βαθύπικρον",
+   "taxa": [
+    "Artemisia absinthium"
+   ],
+   "basis": "commons-binomial",
+   "work": "Vienna Dioscurides (Codex Vindobonensis med. gr. 1)",
+   "made": "Constantinople, c. 512 CE",
+   "holder": "Österreichische Nationalbibliothek, Vienna",
+   "commons_title": "File:Wiener Dioskurides Absinthion badypikron.jpg",
+   "commons_page": "https://commons.wikimedia.org/wiki/File:Wiener_Dioskurides_Absinthion_badypikron.jpg",
+   "source_url": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Wiener_Dioskurides_Absinthion_badypikron.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "artist": "Unknown Byzantine illuminators",
+   "date": "c. 512",
+   "licence": "Public domain",
+   "licence_url": null,
+   "description": "Abbildung von Wermukraut (Artemisia absinthium)",
+   "width": 3569,
+   "height": 4449,
+   "color": "#d4be93",
+   "srcs": [
+    {
+     "w": 1800,
+     "h": 2244,
+     "src": "img/codex/wiener-dioskurides-absinthion-badypikron-1800.webp",
+     "bytes": 1104760
+    },
+    {
+     "w": 1200,
+     "h": 1496,
+     "src": "img/codex/wiener-dioskurides-absinthion-badypikron-1200.webp",
+     "bytes": 451344
+    },
+    {
+     "w": 640,
+     "h": 798,
+     "src": "img/codex/wiener-dioskurides-absinthion-badypikron-640.webp",
+     "bytes": 112660
+    }
+   ]
+  },
+  {
+   "id": "viennadioscoridesauthorportrait",
+   "role": "scene",
+   "label": "Dioscorides receiving the mandrake from Heuresis (fol. 4v)",
+   "taxa": [],
+   "basis": null,
+   "work": "Vienna Dioscurides (Codex Vindobonensis med. gr. 1)",
+   "made": "Constantinople, c. 512 CE",
+   "holder": "Österreichische Nationalbibliothek, Vienna",
+   "commons_title": "File:ViennaDioscoridesAuthorPortrait.jpg",
+   "commons_page": "https://commons.wikimedia.org/wiki/File:ViennaDioscoridesAuthorPortrait.jpg",
+   "source_url": "https://upload.wikimedia.org/wikipedia/commons/e/e2/ViennaDioscoridesAuthorPortrait.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "artist": "Unknown Byzantine illuminators",
+   "date": "c. 512",
+   "licence": "Public domain",
+   "licence_url": null,
+   "description": "From the Vienna Dioscorides (fol. 4 verso): The first of two portraits of original author Pedanius Dioscorides . Heuresis (the personification of discovery) presents Dioscorides with a mandrake root. Since this root was supposed to let out a deadly scream when harvested, a dog had it torn out of the",
+   "width": 1579,
+   "height": 1808,
+   "color": "#af9277",
+   "srcs": [
+    {
+     "w": 1400,
+     "h": 1603,
+     "src": "img/codex/viennadioscoridesauthorportrait-1400.webp",
+     "bytes": 439300
+    },
+    {
+     "w": 720,
+     "h": 824,
+     "src": "img/codex/viennadioscoridesauthorportrait-720.webp",
+     "bytes": 166746
+    }
+   ]
+  },
+  {
+   "id": "widmungsbild-juliana-anikia-wiener-dioskurides",
+   "role": "scene",
+   "label": "Dedication portrait of Anicia Juliana (fol. 6v)",
+   "taxa": [],
+   "basis": null,
+   "work": "Vienna Dioscurides (Codex Vindobonensis med. gr. 1)",
+   "made": "Constantinople, c. 512 CE",
+   "holder": "Österreichische Nationalbibliothek, Vienna",
+   "commons_title": "File:Widmungsbild Juliana Anikia (Wiener Dioskurides).jpg",
+   "commons_page": "https://commons.wikimedia.org/wiki/File:Widmungsbild_Juliana_Anikia_(Wiener_Dioskurides).jpg",
+   "source_url": "https://upload.wikimedia.org/wikipedia/commons/0/05/Widmungsbild_Juliana_Anikia_%28Wiener_Dioskurides%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "artist": "Unknown Byzantine illuminators",
+   "date": "c. 512",
+   "licence": "Public domain",
+   "licence_url": null,
+   "description": "Donor portrait from the Vienna Dioscurides (fol 6. verso)",
+   "width": 1787,
+   "height": 1825,
+   "color": "#a0887a",
+   "srcs": [
+    {
+     "w": 1400,
+     "h": 1430,
+     "src": "img/codex/widmungsbild-juliana-anikia-wiener-dioskurides-1400.webp",
+     "bytes": 618024
+    },
+    {
+     "w": 720,
+     "h": 735,
+     "src": "img/codex/widmungsbild-juliana-anikia-wiener-dioskurides-720.webp",
+     "bytes": 171992
+    }
+   ]
+  },
+  {
+   "id": "galenosgruppe-wiener-dioskurides",
+   "role": "scene",
+   "label": "Seven physicians with Galen (fol. 3v)",
+   "taxa": [],
+   "basis": null,
+   "work": "Vienna Dioscurides (Codex Vindobonensis med. gr. 1)",
+   "made": "Constantinople, c. 512 CE",
+   "holder": "Österreichische Nationalbibliothek, Vienna",
+   "commons_title": "File:Galenosgruppe (Wiener Dioskurides).jpg",
+   "commons_page": "https://commons.wikimedia.org/wiki/File:Galenosgruppe_(Wiener_Dioskurides).jpg",
+   "source_url": "https://upload.wikimedia.org/wikipedia/commons/7/72/Galenosgruppe_%28Wiener_Dioskurides%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "artist": "Unknown Byzantine illuminators",
+   "date": "c. 512",
+   "licence": "Public domain",
+   "licence_url": null,
+   "description": "Galen's Group. The second physician's portrait from the Codex of Vienna Dioscurides (Constantinople around 512 CE) is named after the physician Galen shown in the top center above. Further clockwise: Pedanios Dioskurides, Nicandros (with snake), Ruphos (Rufus) of Ephesus, Andreas (personal physician",
+   "width": 3834,
+   "height": 4558,
+   "color": "#b5997a",
+   "srcs": [
+    {
+     "w": 1400,
+     "h": 1664,
+     "src": "img/codex/galenosgruppe-wiener-dioskurides-1400.webp",
+     "bytes": 759434
+    },
+    {
+     "w": 720,
+     "h": 856,
+     "src": "img/codex/galenosgruppe-wiener-dioskurides-720.webp",
+     "bytes": 197314
+    }
+   ]
+  },
+  {
+   "id": "bibelmajuskel-und-transkription-wiener-dioskurides",
+   "role": "scene",
+   "label": "Greek majuscule with a later minuscule transcription in red",
+   "taxa": [],
+   "basis": null,
+   "work": "Vienna Dioscurides (Codex Vindobonensis med. gr. 1)",
+   "made": "Constantinople, c. 512 CE",
+   "holder": "Österreichische Nationalbibliothek, Vienna",
+   "commons_title": "File:Bibelmajuskel und Transkription (Wiener Dioskurides).jpg",
+   "commons_page": "https://commons.wikimedia.org/wiki/File:Bibelmajuskel_und_Transkription_(Wiener_Dioskurides).jpg",
+   "source_url": "https://upload.wikimedia.org/wikipedia/commons/5/52/Bibelmajuskel_und_Transkription_%28Wiener_Dioskurides%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "artist": "Unknown Byzantine illuminators",
+   "date": "before 512",
+   "licence": "Public domain",
+   "licence_url": null,
+   "description": "Griechische „ Bibelmajuskel “ und darunter in roter Farbe Transkription in Minuskel schrift im Wiener Dioskurides Manuskript. Der Text erläutert ein nebenstehendes Pflanzenbild „Andere Zungensumpfwurz“ (Rauer Wildfarn)",
+   "width": 1750,
+   "height": 688,
+   "color": "#dcc8b0",
+   "srcs": [
+    {
+     "w": 1400,
+     "h": 550,
+     "src": "img/codex/bibelmajuskel-und-transkription-wiener-dioskurides-1400.webp",
+     "bytes": 75718
+    },
+    {
+     "w": 720,
+     "h": 283,
+     "src": "img/codex/bibelmajuskel-und-transkription-wiener-dioskurides-720.webp",
+     "bytes": 26638
+    }
+   ]
+  },
+  {
+   "id": "leonhart-fuchs-historia-stirpium",
+   "role": "scene",
+   "label": "Page spread of De historia stirpium (1542)",
+   "taxa": [],
+   "basis": null,
+   "work": "Leonhart Fuchs, De historia stirpium commentarii insignes",
+   "made": "Basel, 1542",
+   "holder": null,
+   "commons_title": "File:Leonhart Fuchs Historia Stirpium.jpg",
+   "commons_page": "https://commons.wikimedia.org/wiki/File:Leonhart_Fuchs_Historia_Stirpium.jpg",
+   "source_url": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Leonhart_Fuchs_Historia_Stirpium.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "artist": "Michel Isingrin",
+   "date": "1542",
+   "licence": "Public domain",
+   "licence_url": null,
+   "description": "Page-spread from the \"De Historia Stirpium\" by Leonhart Fuchs printed by Michel Isingrin about 1542. Copy from the Warnock Library",
+   "width": 2000,
+   "height": 1527,
+   "color": "#b8b6ac",
+   "srcs": [
+    {
+     "w": 1400,
+     "h": 1069,
+     "src": "img/codex/leonhart-fuchs-historia-stirpium-1400.webp",
+     "bytes": 162786
+    },
+    {
+     "w": 720,
+     "h": 550,
+     "src": "img/codex/leonhart-fuchs-historia-stirpium-720.webp",
+     "bytes": 39954
+    }
+   ]
+  },
+  {
+   "id": "leonhart-fuchs01",
+   "role": "scene",
+   "label": "Fuchs's illustrators: Füllmaurer, Meyer and Speckle",
+   "taxa": [],
+   "basis": null,
+   "work": "Leonhart Fuchs, De historia stirpium commentarii insignes",
+   "made": "Basel, 1542",
+   "holder": null,
+   "commons_title": "File:Leonhart Fuchs01.jpg",
+   "commons_page": "https://commons.wikimedia.org/wiki/File:Leonhart_Fuchs01.jpg",
+   "source_url": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Leonhart_Fuchs01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "artist": "Leonhart Fuchs (1501-1566)",
+   "date": "1542",
+   "licence": "Public domain",
+   "licence_url": null,
+   "description": "Heinrich Fullmaurer, woodcuts (left) and Albrecht Meyer, artist, preparing plates for \"De historia stirpium\", Basle 1542.",
+   "width": 1737,
+   "height": 1195,
+   "color": "#acacad",
+   "srcs": [
+    {
+     "w": 1400,
+     "h": 963,
+     "src": "img/codex/leonhart-fuchs01-1400.webp",
+     "bytes": 245894
+    },
+    {
+     "w": 720,
+     "h": 495,
+     "src": "img/codex/leonhart-fuchs01-720.webp",
+     "bytes": 90572
+    }
+   ]
+  },
+  {
+   "id": "the-herball-1597-title-page",
+   "role": "scene",
+   "label": "Title page of John Gerard's Herball (1597)",
+   "taxa": [],
+   "basis": null,
+   "work": "John Gerard, The Herball or Generall Historie of Plantes",
+   "made": "London, 1597",
+   "holder": null,
+   "commons_title": "File:The Herball 1597 title page.jpg",
+   "commons_page": "https://commons.wikimedia.org/wiki/File:The_Herball_1597_title_page.jpg",
+   "source_url": "https://upload.wikimedia.org/wikipedia/commons/a/a0/The_Herball_1597_title_page.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "artist": "Unknown engraver, for John Norton",
+   "date": "1597",
+   "licence": "Public domain",
+   "licence_url": null,
+   "description": "John Gerard: The herball, or, Generall historie of plantes , title page, colorized. London, John Norton, 1597",
+   "width": 4646,
+   "height": 7396,
+   "color": "#a49272",
+   "srcs": [
+    {
+     "w": 1400,
+     "h": 2229,
+     "src": "img/codex/the-herball-1597-title-page-1400.webp",
+     "bytes": 773116
+    },
+    {
+     "w": 720,
+     "h": 1146,
+     "src": "img/codex/the-herball-1597-title-page-720.webp",
+     "bytes": 191224
+    }
+   ]
+  },
+  {
+   "id": "culpeper-s-complete-herbal-bhl4746630",
+   "role": "scene",
+   "label": "Culpeper's Complete Herbal, 1814 edition",
+   "taxa": [],
+   "basis": null,
+   "work": "Nicholas Culpeper, Culpeper's Complete Herbal",
+   "made": "London, 1814 edition",
+   "holder": null,
+   "commons_title": "File:Culpeper's complete herbal BHL4746630.jpg",
+   "commons_page": "https://commons.wikimedia.org/wiki/File:Culpeper%27s_complete_herbal_BHL4746630.jpg",
+   "source_url": "https://upload.wikimedia.org/wikipedia/commons/2/24/Culpeper%27s_complete_herbal_BHL4746630.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "artist": "Culpeper, Nicholas",
+   "date": "1814",
+   "licence": "Public domain",
+   "licence_url": null,
+   "description": "Culpeper's complete herbal : to which is now added, upwards of one hundred additional herbs, with a display of their medicinal and occult qualities physically applied to the cure of all disorders incident to mankind to which are now first annexed his English physician enlarged ... /",
+   "width": 2103,
+   "height": 3030,
+   "color": "#948c74",
+   "srcs": [
+    {
+     "w": 1400,
+     "h": 2017,
+     "src": "img/codex/culpeper-s-complete-herbal-bhl4746630-1400.webp",
+     "bytes": 500156
+    },
+    {
+     "w": 720,
+     "h": 1037,
+     "src": "img/codex/culpeper-s-complete-herbal-bhl4746630-720.webp",
+     "bytes": 149998
+    }
+   ]
+  },
+  {
+   "id": "abrotonon-wiener-dioskurides",
+   "role": "plant",
+   "label": "ἁβρότονον",
+   "taxa": [
+    "Artemisia abrotanum"
+   ],
+   "basis": "folio-lemma",
+   "work": "Vienna Dioscurides (Codex Vindobonensis med. gr. 1)",
+   "made": "Constantinople, c. 512 CE",
+   "holder": "Österreichische Nationalbibliothek, Vienna",
+   "commons_title": "File:Abrotonon Wiener Dioskurides.jpg",
+   "commons_page": "https://commons.wikimedia.org/wiki/File:Abrotonon_Wiener_Dioskurides.jpg",
+   "source_url": "https://upload.wikimedia.org/wikipedia/commons/d/da/Abrotonon_Wiener_Dioskurides.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "artist": "Unknown Byzantine illuminators",
+   "date": "c. 512",
+   "licence": "Public domain",
+   "licence_url": null,
+   "description": "Abbildung der Eberraute",
+   "width": 3658,
+   "height": 4564,
+   "color": "#cbb68d",
+   "srcs": [
+    {
+     "w": 1200,
+     "h": 1497,
+     "src": "img/codex/abrotonon-wiener-dioskurides-1200.webp",
+     "bytes": 349972
+    },
+    {
+     "w": 640,
+     "h": 799,
+     "src": "img/codex/abrotonon-wiener-dioskurides-640.webp",
+     "bytes": 94678
+    }
+   ]
+  },
+  {
+   "id": "asaron",
+   "role": "plant",
+   "label": "ἄσαρον",
+   "taxa": [
+    "Asarum europaeum"
+   ],
+   "basis": "folio-lemma",
+   "work": "Vienna Dioscurides (Codex Vindobonensis med. gr. 1)",
+   "made": "Constantinople, c. 512 CE",
+   "holder": "Österreichische Nationalbibliothek, Vienna",
+   "commons_title": "File:Asaron.jpg",
+   "commons_page": "https://commons.wikimedia.org/wiki/File:Asaron.jpg",
+   "source_url": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Asaron.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "artist": "Unknown Byzantine illuminators",
+   "date": "c. 512",
+   "licence": "Public domain",
+   "licence_url": null,
+   "description": "Abbildung des Asaron im Wiener Dioskurides .",
+   "width": 2355,
+   "height": 2051,
+   "color": "#d4d4c3",
+   "srcs": [
+    {
+     "w": 1200,
+     "h": 1045,
+     "src": "img/codex/asaron-1200.webp",
+     "bytes": 176248
+    },
+    {
+     "w": 640,
+     "h": 557,
+     "src": "img/codex/asaron-640.webp",
+     "bytes": 45526
+    }
+   ]
+  },
+  {
+   "id": "c-j-a-agrimonia",
+   "role": "plant",
+   "label": "εὐπατόριον",
+   "taxa": [
+    "Agrimonia eupatoria"
+   ],
+   "basis": "commons-binomial",
+   "work": "Vienna Dioscurides (Codex Vindobonensis med. gr. 1)",
+   "made": "Constantinople, c. 512 CE",
+   "holder": "Österreichische Nationalbibliothek, Vienna",
+   "commons_title": "File:C.J.A. Agrimonia.jpg",
+   "commons_page": "https://commons.wikimedia.org/wiki/File:C.J.A._Agrimonia.jpg",
+   "source_url": "https://upload.wikimedia.org/wikipedia/commons/c/cb/C.J.A._Agrimonia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "artist": "Unknown Byzantine illuminators",
+   "date": "c. 512",
+   "licence": "Public domain",
+   "licence_url": null,
+   "description": "Abbildung der Agrimonia",
+   "width": 2941,
+   "height": 4518,
+   "color": "#e2d4bb",
+   "srcs": [
+    {
+     "w": 1200,
+     "h": 1843,
+     "src": "img/codex/c-j-a-agrimonia-1200.webp",
+     "bytes": 251672
+    },
+    {
+     "w": 640,
+     "h": 983,
+     "src": "img/codex/c-j-a-agrimonia-640.webp",
+     "bytes": 64884
+    }
+   ]
+  },
+  {
+   "id": "cod-wien-polygonaton",
+   "role": "plant",
+   "label": "πολυγόνατον",
+   "taxa": [
+    "Polygonatum odoratum"
+   ],
+   "basis": "folio-lemma",
+   "work": "Vienna Dioscurides (Codex Vindobonensis med. gr. 1)",
+   "made": "Constantinople, c. 512 CE",
+   "holder": "Österreichische Nationalbibliothek, Vienna",
+   "commons_title": "File:Cod. Wien Polygonaton.jpg",
+   "commons_page": "https://commons.wikimedia.org/wiki/File:Cod._Wien_Polygonaton.jpg",
+   "source_url": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Cod._Wien_Polygonaton.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "artist": "Unknown Byzantine illuminators",
+   "date": "c. 512",
+   "licence": "Public domain",
+   "licence_url": null,
+   "description": "Abbildung von Polygonaton",
+   "width": 1516,
+   "height": 2288,
+   "color": "#b7ab93",
+   "srcs": [
+    {
+     "w": 1200,
+     "h": 1811,
+     "src": "img/codex/cod-wien-polygonaton-1200.webp",
+     "bytes": 465720
+    },
+    {
+     "w": 640,
+     "h": 966,
+     "src": "img/codex/cod-wien-polygonaton-640.webp",
+     "bytes": 93462
+    }
+   ]
+  },
+  {
+   "id": "aloe-juliana-anicia-codex",
+   "role": "plant",
+   "label": "ἀλόη",
+   "taxa": [
+    "Aloe vera"
+   ],
+   "basis": "folio-lemma",
+   "work": "Vienna Dioscurides (Codex Vindobonensis med. gr. 1)",
+   "made": "Constantinople, c. 512 CE",
+   "holder": "Österreichische Nationalbibliothek, Vienna",
+   "commons_title": "File:Aloe, Juliana Anicia Codex.jpg",
+   "commons_page": "https://commons.wikimedia.org/wiki/File:Aloe,_Juliana_Anicia_Codex.jpg",
+   "source_url": "https://upload.wikimedia.org/wikipedia/commons/2/20/Aloe%2C_Juliana_Anicia_Codex.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "artist": "Unknown Byzantine illuminators",
+   "date": "c. 512",
+   "licence": "Public domain",
+   "licence_url": null,
+   "description": "Depiction of Aloe from the Juliana Anicia Codex.",
+   "width": 3024,
+   "height": 4032,
+   "color": "#92785b",
+   "srcs": [
+    {
+     "w": 1200,
+     "h": 1600,
+     "src": "img/codex/aloe-juliana-anicia-codex-1200.webp",
+     "bytes": 306044
+    },
+    {
+     "w": 640,
+     "h": 853,
+     "src": "img/codex/aloe-juliana-anicia-codex-640.webp",
+     "bytes": 103676
+    }
+   ]
+  },
+  {
+   "id": "asklepias",
+   "role": "plant",
+   "label": "ἀσκληπιάς",
+   "taxa": [
+    "Vincetoxicum hirundinaria"
+   ],
+   "basis": "folio-lemma",
+   "work": "Vienna Dioscurides (Codex Vindobonensis med. gr. 1)",
+   "made": "Constantinople, c. 512 CE",
+   "holder": "Österreichische Nationalbibliothek, Vienna",
+   "commons_title": "File:Asklepias.jpg",
+   "commons_page": "https://commons.wikimedia.org/wiki/File:Asklepias.jpg",
+   "source_url": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Asklepias.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "artist": "Unknown Byzantine illuminators",
+   "date": "c. 512",
+   "licence": "Public domain",
+   "licence_url": null,
+   "description": "Abbildung der Pflanze Asclepias",
+   "width": 4179,
+   "height": 4587,
+   "color": "#d8ceb9",
+   "srcs": [
+    {
+     "w": 1200,
+     "h": 1317,
+     "src": "img/codex/asklepias-1200.webp",
+     "bytes": 172742
+    },
+    {
+     "w": 640,
+     "h": 702,
+     "src": "img/codex/asklepias-640.webp",
+     "bytes": 42710
+    }
+   ]
+  },
+  {
+   "id": "gansedistel-wiener-dioskurides-315r",
+   "role": "plant",
+   "label": "σόγχος, fol. 315r",
+   "taxa": [
+    "Sonchus oleraceus"
+   ],
+   "basis": "commons-binomial",
+   "work": "Vienna Dioscurides (Codex Vindobonensis med. gr. 1)",
+   "made": "Constantinople, c. 512 CE",
+   "holder": "Österreichische Nationalbibliothek, Vienna",
+   "commons_title": "File:Gänsedistel (Wiener Dioskurides 315r).jpg",
+   "commons_page": "https://commons.wikimedia.org/wiki/File:G%C3%A4nsedistel_(Wiener_Dioskurides_315r).jpg",
+   "source_url": "https://upload.wikimedia.org/wikipedia/commons/8/8f/G%C3%A4nsedistel_%28Wiener_Dioskurides_315r%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "artist": "Unknown Byzantine illuminators",
+   "date": "c. 512",
+   "licence": "Public domain",
+   "licence_url": null,
+   "description": "Gänsedistel (Sonchus oleraceus) im Wiener Dioskurides , Blatt 315r",
+   "width": 1602,
+   "height": 1956,
+   "color": "#c2b8ac",
+   "srcs": [
+    {
+     "w": 1200,
+     "h": 1465,
+     "src": "img/codex/gansedistel-wiener-dioskurides-315r-1200.webp",
+     "bytes": 256456
+    },
+    {
+     "w": 640,
+     "h": 781,
+     "src": "img/codex/gansedistel-wiener-dioskurides-315r-640.webp",
+     "bytes": 74798
+    }
+   ]
+  },
+  {
+   "id": "dioskurides-caltha",
+   "role": "plant",
+   "label": "χρυσάνθεμον",
+   "taxa": [
+    "Glebionis coronaria"
+   ],
+   "basis": "commons-binomial",
+   "work": "Vienna Dioscurides (Codex Vindobonensis med. gr. 1)",
+   "made": "Constantinople, c. 512 CE",
+   "holder": "Österreichische Nationalbibliothek, Vienna",
+   "commons_title": "File:Dioskurides Caltha.jpg",
+   "commons_page": "https://commons.wikimedia.org/wiki/File:Dioskurides_Caltha.jpg",
+   "source_url": "https://upload.wikimedia.org/wikipedia/commons/1/13/Dioskurides_Caltha.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "artist": "Unknown Byzantine illuminators",
+   "date": "c. 512",
+   "licence": "Public domain",
+   "licence_url": null,
+   "description": "Pflanzenbild von Chrysanthemon coronarium L., Fam. Compositae im Wiener Dioskurides , fol. 373r (Goldblume, Kranzwucherblume). Kommentar auf 372v ohne Transkription. Verwendung des Stängels als Gemüse und der Blüten als Mittel gegen Geschwülste und Gelbsucht [ 1 ]",
+   "width": 1686,
+   "height": 2232,
+   "color": "#d3c090",
+   "srcs": [
+    {
+     "w": 1200,
+     "h": 1589,
+     "src": "img/codex/dioskurides-caltha-1200.webp",
+     "bytes": 317176
+    },
+    {
+     "w": 640,
+     "h": 847,
+     "src": "img/codex/dioskurides-caltha-640.webp",
+     "bytes": 64612
+    }
+   ]
+  },
+  {
+   "id": "leukonion",
+   "role": "plant",
+   "label": "λευκόϊον",
+   "taxa": [
+    "Erysimum cheiri"
+   ],
+   "basis": "folio-lemma",
+   "work": "Vienna Dioscurides (Codex Vindobonensis med. gr. 1)",
+   "made": "Constantinople, c. 512 CE",
+   "holder": "Österreichische Nationalbibliothek, Vienna",
+   "commons_title": "File:Leukonion.jpg",
+   "commons_page": "https://commons.wikimedia.org/wiki/File:Leukonion.jpg",
+   "source_url": "https://upload.wikimedia.org/wikipedia/commons/1/17/Leukonion.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "artist": "Unknown Byzantine illuminators",
+   "date": "c. 512",
+   "licence": "Public domain",
+   "licence_url": null,
+   "description": "Abbildung von »Leukoion« (Erysimum cheiri?)",
+   "width": 2945,
+   "height": 3820,
+   "color": "#bfb28e",
+   "srcs": [
+    {
+     "w": 1200,
+     "h": 1557,
+     "src": "img/codex/leukonion-1200.webp",
+     "bytes": 175616
+    },
+    {
+     "w": 640,
+     "h": 830,
+     "src": "img/codex/leukonion-640.webp",
+     "bytes": 47488
+    }
+   ]
+  },
+  {
+   "id": "inula-wiener-dioskurides",
+   "role": "plant",
+   "label": "ἑλένιον",
+   "taxa": [
+    "Inula helenium"
+   ],
+   "basis": "commons-binomial",
+   "work": "Vienna Dioscurides (Codex Vindobonensis med. gr. 1)",
+   "made": "Constantinople, c. 512 CE",
+   "holder": "Österreichische Nationalbibliothek, Vienna",
+   "commons_title": "File:Inula Wiener Dioskurides.jpg",
+   "commons_page": "https://commons.wikimedia.org/wiki/File:Inula_Wiener_Dioskurides.jpg",
+   "source_url": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Inula_Wiener_Dioskurides.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "artist": "Unknown Byzantine illuminators",
+   "date": "c. 512",
+   "licence": "Public domain",
+   "licence_url": null,
+   "description": "Echter Alant (Inula helenium). Pflanzenbild im Wiener Dioskurides",
+   "width": 2984,
+   "height": 3200,
+   "color": "#e0e0d9",
+   "srcs": [
+    {
+     "w": 1200,
+     "h": 1287,
+     "src": "img/codex/inula-wiener-dioskurides-1200.webp",
+     "bytes": 105618
+    },
+    {
+     "w": 640,
+     "h": 686,
+     "src": "img/codex/inula-wiener-dioskurides-640.webp",
+     "bytes": 32892
+    }
+   ]
+  },
+  {
+   "id": "melisse-wiener-dioskurides-6-jh",
+   "role": "plant",
+   "label": "μελισσόφυλλον",
+   "taxa": [
+    "Melissa officinalis"
+   ],
+   "basis": "commons-binomial",
+   "work": "Vienna Dioscurides (Codex Vindobonensis med. gr. 1)",
+   "made": "Constantinople, c. 512 CE",
+   "holder": "Österreichische Nationalbibliothek, Vienna",
+   "commons_title": "File:Melisse Wiener Dioskurides 6. Jh.jpg",
+   "commons_page": "https://commons.wikimedia.org/wiki/File:Melisse_Wiener_Dioskurides_6._Jh.jpg",
+   "source_url": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Melisse_Wiener_Dioskurides_6._Jh.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "artist": "Unknown Byzantine illuminators",
+   "date": "c. 512",
+   "licence": "Public domain",
+   "licence_url": null,
+   "description": "Melissa officinalis",
+   "width": 2817,
+   "height": 2998,
+   "color": "#dbcaac",
+   "srcs": [
+    {
+     "w": 1200,
+     "h": 1277,
+     "src": "img/codex/melisse-wiener-dioskurides-6-jh-1200.webp",
+     "bytes": 232206
+    },
+    {
+     "w": 640,
+     "h": 681,
+     "src": "img/codex/melisse-wiener-dioskurides-6-jh-640.webp",
+     "bytes": 59510
+    }
+   ]
+  },
+  {
+   "id": "pyrethron-wiener-dioskurides",
+   "role": "plant",
+   "label": "πύρεθρον",
+   "taxa": [
+    "Anacyclus pyrethrum"
+   ],
+   "basis": "commons-binomial",
+   "work": "Vienna Dioscurides (Codex Vindobonensis med. gr. 1)",
+   "made": "Constantinople, c. 512 CE",
+   "holder": "Österreichische Nationalbibliothek, Vienna",
+   "commons_title": "File:Pyrethron Wiener Dioskurides.jpg",
+   "commons_page": "https://commons.wikimedia.org/wiki/File:Pyrethron_Wiener_Dioskurides.jpg",
+   "source_url": "https://upload.wikimedia.org/wikipedia/commons/3/30/Pyrethron_Wiener_Dioskurides.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "artist": "Unknown Byzantine illuminators",
+   "date": "c. 512",
+   "licence": "Public domain",
+   "licence_url": null,
+   "description": "Abbildung von Bertram (Anacyclus pyrethrum)",
+   "width": 1952,
+   "height": 2900,
+   "color": "#c5b9a2",
+   "srcs": [
+    {
+     "w": 1200,
+     "h": 1783,
+     "src": "img/codex/pyrethron-wiener-dioskurides-1200.webp",
+     "bytes": 301808
+    },
+    {
+     "w": 640,
+     "h": 951,
+     "src": "img/codex/pyrethron-wiener-dioskurides-640.webp",
+     "bytes": 88546
+    }
+   ]
+  },
+  {
+   "id": "polygonon-arren-wiener-dioskurides",
+   "role": "plant",
+   "label": "πολύγονον ἄρρεν",
+   "taxa": [
+    "Polygonum aviculare"
+   ],
+   "basis": "commons-binomial",
+   "work": "Vienna Dioscurides (Codex Vindobonensis med. gr. 1)",
+   "made": "Constantinople, c. 512 CE",
+   "holder": "Österreichische Nationalbibliothek, Vienna",
+   "commons_title": "File:Polygonon arren Wiener Dioskurides.jpg",
+   "commons_page": "https://commons.wikimedia.org/wiki/File:Polygonon_arren_Wiener_Dioskurides.jpg",
+   "source_url": "https://upload.wikimedia.org/wikipedia/commons/7/70/Polygonon_arren_Wiener_Dioskurides.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "artist": "Unknown Byzantine illuminators",
+   "date": "c. 512",
+   "licence": "Public domain",
+   "licence_url": null,
+   "description": "Abbildung von Polygonum aviculare",
+   "width": 2420,
+   "height": 2331,
+   "color": "#c8b498",
+   "srcs": [
+    {
+     "w": 1200,
+     "h": 1156,
+     "src": "img/codex/polygonon-arren-wiener-dioskurides-1200.webp",
+     "bytes": 283880
+    },
+    {
+     "w": 640,
+     "h": 616,
+     "src": "img/codex/polygonon-arren-wiener-dioskurides-640.webp",
+     "bytes": 75590
+    }
+   ]
+  },
+  {
+   "id": "weie-rube-wiener-dioskurides-89r",
+   "role": "plant",
+   "label": "γογγύλη, fol. 89r",
+   "taxa": [
+    "Brassica rapa"
+   ],
+   "basis": "commons-binomial",
+   "work": "Vienna Dioscurides (Codex Vindobonensis med. gr. 1)",
+   "made": "Constantinople, c. 512 CE",
+   "holder": "Österreichische Nationalbibliothek, Vienna",
+   "commons_title": "File:Weiße Rübe (Wiener Dioskurides, 89r).jpg",
+   "commons_page": "https://commons.wikimedia.org/wiki/File:Wei%C3%9Fe_R%C3%BCbe_(Wiener_Dioskurides,_89r).jpg",
+   "source_url": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Wei%C3%9Fe_R%C3%BCbe_%28Wiener_Dioskurides%2C_89r%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "artist": "Unknown Byzantine illuminators",
+   "date": "c. 512",
+   "licence": "Public domain",
+   "licence_url": null,
+   "description": "Weiße Rübe (Brassica rapa L., Fam. Cruciferae) im Wiener Dioskurides",
+   "width": 1920,
+   "height": 2294,
+   "color": "#babdad",
+   "srcs": [
+    {
+     "w": 1200,
+     "h": 1434,
+     "src": "img/codex/weie-rube-wiener-dioskurides-89r-1200.webp",
+     "bytes": 316250
+    },
+    {
+     "w": 640,
+     "h": 765,
+     "src": "img/codex/weie-rube-wiener-dioskurides-89r-640.webp",
+     "bytes": 98656
+    }
+   ]
+  },
+  {
+   "id": "wiener-dioskurides",
+   "role": "plant",
+   "label": "καπνός",
+   "taxa": [
+    "Fumaria officinalis"
+   ],
+   "basis": "commons-binomial",
+   "work": "Vienna Dioscurides (Codex Vindobonensis med. gr. 1)",
+   "made": "Constantinople, c. 512 CE",
+   "holder": "Österreichische Nationalbibliothek, Vienna",
+   "commons_title": "File:Wiener Dioskurides.jpg",
+   "commons_page": "https://commons.wikimedia.org/wiki/File:Wiener_Dioskurides.jpg",
+   "source_url": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Wiener_Dioskurides.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "artist": "Unknown Byzantine illuminators",
+   "date": "c. 512",
+   "licence": "Public domain",
+   "licence_url": null,
+   "description": "Fumaria officinalis",
+   "width": 2805,
+   "height": 3123,
+   "color": "#d9ccab",
+   "srcs": [
+    {
+     "w": 1200,
+     "h": 1336,
+     "src": "img/codex/wiener-dioskurides-1200.webp",
+     "bytes": 214744
+    },
+    {
+     "w": 640,
+     "h": 713,
+     "src": "img/codex/wiener-dioskurides-640.webp",
+     "bytes": 49994
+    }
+   ]
+  },
+  {
+   "id": "wiener-dioskurides-ion-porphyroyn",
+   "role": "plant",
+   "label": "ἴον πορφυροῦν",
+   "taxa": [
+    "Viola odorata"
+   ],
+   "basis": "commons-binomial",
+   "work": "Vienna Dioscurides (Codex Vindobonensis med. gr. 1)",
+   "made": "Constantinople, c. 512 CE",
+   "holder": "Österreichische Nationalbibliothek, Vienna",
+   "commons_title": "File:Wiener Dioskurides Ion porphyroyn.jpg",
+   "commons_page": "https://commons.wikimedia.org/wiki/File:Wiener_Dioskurides_Ion_porphyroyn.jpg",
+   "source_url": "https://upload.wikimedia.org/wikipedia/commons/0/09/Wiener_Dioskurides_Ion_porphyroyn.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "artist": "Unknown Byzantine illuminators",
+   "date": "c. 512",
+   "licence": "Public domain",
+   "licence_url": null,
+   "description": "Abbildung von Viola odorata",
+   "width": 3027,
+   "height": 3877,
+   "color": "#cbba9e",
+   "srcs": [
+    {
+     "w": 1200,
+     "h": 1537,
+     "src": "img/codex/wiener-dioskurides-ion-porphyroyn-1200.webp",
+     "bytes": 251110
+    },
+    {
+     "w": 640,
+     "h": 820,
+     "src": "img/codex/wiener-dioskurides-ion-porphyroyn-640.webp",
+     "bytes": 54922
+    }
+   ]
+  },
+  {
+   "id": "wiener-dioskurides-knikos",
+   "role": "plant",
+   "label": "κνῆκος",
+   "taxa": [
+    "Carthamus tinctorius"
+   ],
+   "basis": "commons-binomial",
+   "work": "Vienna Dioscurides (Codex Vindobonensis med. gr. 1)",
+   "made": "Constantinople, c. 512 CE",
+   "holder": "Österreichische Nationalbibliothek, Vienna",
+   "commons_title": "File:Wiener Dioskurides Knikos.jpg",
+   "commons_page": "https://commons.wikimedia.org/wiki/File:Wiener_Dioskurides_Knikos.jpg",
+   "source_url": "https://upload.wikimedia.org/wikipedia/commons/1/16/Wiener_Dioskurides_Knikos.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "artist": "Unknown Byzantine illuminators",
+   "date": "c. 512",
+   "licence": "Public domain",
+   "licence_url": null,
+   "description": "Abbildung von Carthamus tinctorius",
+   "width": 2277,
+   "height": 3059,
+   "color": "#cbb999",
+   "srcs": [
+    {
+     "w": 1200,
+     "h": 1612,
+     "src": "img/codex/wiener-dioskurides-knikos-1200.webp",
+     "bytes": 328342
+    },
+    {
+     "w": 640,
+     "h": 860,
+     "src": "img/codex/wiener-dioskurides-knikos-640.webp",
+     "bytes": 85786
+    }
+   ]
+  },
+  {
+   "id": "wiener-dioskurides-centauria-minor",
+   "role": "plant",
+   "label": "κενταύριον τὸ μικρόν",
+   "taxa": [
+    "Centaurium erythraea"
+   ],
+   "basis": "commons-binomial",
+   "work": "Vienna Dioscurides (Codex Vindobonensis med. gr. 1)",
+   "made": "Constantinople, c. 512 CE",
+   "holder": "Österreichische Nationalbibliothek, Vienna",
+   "commons_title": "File:Wiener Dioskurides Centauria minor.jpg",
+   "commons_page": "https://commons.wikimedia.org/wiki/File:Wiener_Dioskurides_Centauria_minor.jpg",
+   "source_url": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Wiener_Dioskurides_Centauria_minor.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "artist": "Unknown Byzantine illuminators",
+   "date": "c. 512",
+   "licence": "Public domain",
+   "licence_url": null,
+   "description": "Abbildung von Centaurium erythraea",
+   "width": 2514,
+   "height": 3048,
+   "color": "#cfbe9f",
+   "srcs": [
+    {
+     "w": 1200,
+     "h": 1455,
+     "src": "img/codex/wiener-dioskurides-centauria-minor-1200.webp",
+     "bytes": 257984
+    },
+    {
+     "w": 640,
+     "h": 776,
+     "src": "img/codex/wiener-dioskurides-centauria-minor-640.webp",
+     "bytes": 61616
+    }
+   ]
+  },
+  {
+   "id": "wiener-dioskurides-cyclamen",
+   "role": "plant",
+   "label": "κυκλάμινος",
+   "taxa": [
+    "Cyclamen"
+   ],
+   "basis": "commons-binomial",
+   "work": "Vienna Dioscurides (Codex Vindobonensis med. gr. 1)",
+   "made": "Constantinople, c. 512 CE",
+   "holder": "Österreichische Nationalbibliothek, Vienna",
+   "commons_title": "File:Wiener Dioskurides Cyclamen.jpg",
+   "commons_page": "https://commons.wikimedia.org/wiki/File:Wiener_Dioskurides_Cyclamen.jpg",
+   "source_url": "https://upload.wikimedia.org/wikipedia/commons/4/40/Wiener_Dioskurides_Cyclamen.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "artist": "Unknown Byzantine illuminators",
+   "date": "c. 512",
+   "licence": "Public domain",
+   "licence_url": null,
+   "description": "Abbildung von Cyclamen purpurascens",
+   "width": 2606,
+   "height": 3034,
+   "color": "#d4c1a3",
+   "srcs": [
+    {
+     "w": 1200,
+     "h": 1397,
+     "src": "img/codex/wiener-dioskurides-cyclamen-1200.webp",
+     "bytes": 203568
+    },
+    {
+     "w": 640,
+     "h": 745,
+     "src": "img/codex/wiener-dioskurides-cyclamen-640.webp",
+     "bytes": 54270
+    }
+   ]
+  },
+  {
+   "id": "wiener-dioskurides-chamomilla",
+   "role": "plant",
+   "label": "ἀνθεμίς",
+   "taxa": [
+    "Matricaria chamomilla"
+   ],
+   "basis": "commons-binomial",
+   "work": "Vienna Dioscurides (Codex Vindobonensis med. gr. 1)",
+   "made": "Constantinople, c. 512 CE",
+   "holder": "Österreichische Nationalbibliothek, Vienna",
+   "commons_title": "File:Wiener Dioskurides Chamomilla.jpg",
+   "commons_page": "https://commons.wikimedia.org/wiki/File:Wiener_Dioskurides_Chamomilla.jpg",
+   "source_url": "https://upload.wikimedia.org/wikipedia/commons/9/99/Wiener_Dioskurides_Chamomilla.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "artist": "Unknown Byzantine illuminators",
+   "date": "c. 512",
+   "licence": "Public domain",
+   "licence_url": null,
+   "description": "Abbildung von Matricaria chamomilla",
+   "width": 2422,
+   "height": 2855,
+   "color": "#dbc9a7",
+   "srcs": [
+    {
+     "w": 1200,
+     "h": 1415,
+     "src": "img/codex/wiener-dioskurides-chamomilla-1200.webp",
+     "bytes": 296880
+    },
+    {
+     "w": 640,
+     "h": 754,
+     "src": "img/codex/wiener-dioskurides-chamomilla-640.webp",
+     "bytes": 83800
+    }
+   ]
+  },
+  {
+   "id": "wiener-dioskurides-krokos",
+   "role": "plant",
+   "label": "κρόκος",
+   "taxa": [
+    "Crocus sativus"
+   ],
+   "basis": "commons-binomial",
+   "work": "Vienna Dioscurides (Codex Vindobonensis med. gr. 1)",
+   "made": "Constantinople, c. 512 CE",
+   "holder": "Österreichische Nationalbibliothek, Vienna",
+   "commons_title": "File:Wiener Dioskurides Krokos.jpg",
+   "commons_page": "https://commons.wikimedia.org/wiki/File:Wiener_Dioskurides_Krokos.jpg",
+   "source_url": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Wiener_Dioskurides_Krokos.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "artist": "Unknown Byzantine illuminators",
+   "date": "c. 512",
+   "licence": "Public domain",
+   "licence_url": null,
+   "description": "Abbildung von Crocus sativus - Saffran",
+   "width": 2162,
+   "height": 2741,
+   "color": "#ceba90",
+   "srcs": [
+    {
+     "w": 1200,
+     "h": 1521,
+     "src": "img/codex/wiener-dioskurides-krokos-1200.webp",
+     "bytes": 177616
+    },
+    {
+     "w": 640,
+     "h": 811,
+     "src": "img/codex/wiener-dioskurides-krokos-640.webp",
+     "bytes": 32606
+    }
+   ]
+  },
+  {
+   "id": "wiener-dioskurides-korion",
+   "role": "plant",
+   "label": "κόριον",
+   "taxa": [
+    "Coriandrum sativum"
+   ],
+   "basis": "commons-binomial",
+   "work": "Vienna Dioscurides (Codex Vindobonensis med. gr. 1)",
+   "made": "Constantinople, c. 512 CE",
+   "holder": "Österreichische Nationalbibliothek, Vienna",
+   "commons_title": "File:Wiener Dioskurides Korion.jpg",
+   "commons_page": "https://commons.wikimedia.org/wiki/File:Wiener_Dioskurides_Korion.jpg",
+   "source_url": "https://upload.wikimedia.org/wikipedia/commons/8/87/Wiener_Dioskurides_Korion.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "artist": "Unknown Byzantine illuminators",
+   "date": "c. 512",
+   "licence": "Public domain",
+   "licence_url": null,
+   "description": "Abbildung von Coriandrum sativum",
+   "width": 2489,
+   "height": 3051,
+   "color": "#cdb992",
+   "srcs": [
+    {
+     "w": 1200,
+     "h": 1471,
+     "src": "img/codex/wiener-dioskurides-korion-1200.webp",
+     "bytes": 239228
+    },
+    {
+     "w": 640,
+     "h": 785,
+     "src": "img/codex/wiener-dioskurides-korion-640.webp",
+     "bytes": 54598
+    }
+   ]
+  },
+  {
+   "id": "wiener-dioskurides-konion",
+   "role": "plant",
+   "label": "κώνειον",
+   "taxa": [
+    "Conium maculatum"
+   ],
+   "basis": "folio-lemma",
+   "work": "Vienna Dioscurides (Codex Vindobonensis med. gr. 1)",
+   "made": "Constantinople, c. 512 CE",
+   "holder": "Österreichische Nationalbibliothek, Vienna",
+   "commons_title": "File:Wiener Dioskurides Konion.jpg",
+   "commons_page": "https://commons.wikimedia.org/wiki/File:Wiener_Dioskurides_Konion.jpg",
+   "source_url": "https://upload.wikimedia.org/wikipedia/commons/9/91/Wiener_Dioskurides_Konion.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "artist": "Unknown Byzantine illuminators",
+   "date": "c. 512",
+   "licence": "Public domain",
+   "licence_url": null,
+   "description": "Abbildung von Conium maculatum oder Cicuta virosa",
+   "width": 2531,
+   "height": 2975,
+   "color": "#c0b190",
+   "srcs": [
+    {
+     "w": 1200,
+     "h": 1411,
+     "src": "img/codex/wiener-dioskurides-konion-1200.webp",
+     "bytes": 314958
+    },
+    {
+     "w": 640,
+     "h": 752,
+     "src": "img/codex/wiener-dioskurides-konion-640.webp",
+     "bytes": 92808
+    }
+   ]
+  },
+  {
+   "id": "wiener-dioskurides-eryggion",
+   "role": "plant",
+   "label": "ἠρύγγιον",
+   "taxa": [
+    "Eryngium campestre"
+   ],
+   "basis": "commons-binomial",
+   "work": "Vienna Dioscurides (Codex Vindobonensis med. gr. 1)",
+   "made": "Constantinople, c. 512 CE",
+   "holder": "Österreichische Nationalbibliothek, Vienna",
+   "commons_title": "File:Wiener Dioskurides Eryggion.jpg",
+   "commons_page": "https://commons.wikimedia.org/wiki/File:Wiener_Dioskurides_Eryggion.jpg",
+   "source_url": "https://upload.wikimedia.org/wikipedia/commons/3/37/Wiener_Dioskurides_Eryggion.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "artist": "Unknown Byzantine illuminators",
+   "date": "c. 512",
+   "licence": "Public domain",
+   "licence_url": null,
+   "description": "Abbildung von Eryngium campestre",
+   "width": 2438,
+   "height": 3051,
+   "color": "#c2ab83",
+   "srcs": [
+    {
+     "w": 1200,
+     "h": 1502,
+     "src": "img/codex/wiener-dioskurides-eryggion-1200.webp",
+     "bytes": 407208
+    },
+    {
+     "w": 640,
+     "h": 801,
+     "src": "img/codex/wiener-dioskurides-eryggion-640.webp",
+     "bytes": 106974
+    }
+   ]
+  },
+  {
+   "id": "wiener-dioskurides-staphis-agria",
+   "role": "plant",
+   "label": "σταφὶς ἀγρία",
+   "taxa": [
+    "Staphisagria macrosperma"
+   ],
+   "basis": "commons-binomial",
+   "work": "Vienna Dioscurides (Codex Vindobonensis med. gr. 1)",
+   "made": "Constantinople, c. 512 CE",
+   "holder": "Österreichische Nationalbibliothek, Vienna",
+   "commons_title": "File:Wiener Dioskurides Staphis agria.jpg",
+   "commons_page": "https://commons.wikimedia.org/wiki/File:Wiener_Dioskurides_Staphis_agria.jpg",
+   "source_url": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Wiener_Dioskurides_Staphis_agria.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "artist": "Unknown Byzantine illuminators",
+   "date": "c. 512",
+   "licence": "Public domain",
+   "licence_url": null,
+   "description": "Abbildung von Delphinium stephisagria",
+   "width": 2220,
+   "height": 2858,
+   "color": "#cdb17f",
+   "srcs": [
+    {
+     "w": 1200,
+     "h": 1545,
+     "src": "img/codex/wiener-dioskurides-staphis-agria-1200.webp",
+     "bytes": 318512
+    },
+    {
+     "w": 640,
+     "h": 824,
+     "src": "img/codex/wiener-dioskurides-staphis-agria-640.webp",
+     "bytes": 71210
+    }
+   ]
+  },
+  {
+   "id": "wiener-dioskurides-ippoyris",
+   "role": "plant",
+   "label": "ἵππουρις",
+   "taxa": [
+    "Equisetum"
+   ],
+   "basis": "folio-lemma",
+   "work": "Vienna Dioscurides (Codex Vindobonensis med. gr. 1)",
+   "made": "Constantinople, c. 512 CE",
+   "holder": "Österreichische Nationalbibliothek, Vienna",
+   "commons_title": "File:Wiener Dioskurides Ippoyris.jpg",
+   "commons_page": "https://commons.wikimedia.org/wiki/File:Wiener_Dioskurides_Ippoyris.jpg",
+   "source_url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Wiener_Dioskurides_Ippoyris.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "artist": "Unknown Byzantine illuminators",
+   "date": "c. 512",
+   "licence": "Public domain",
+   "licence_url": null,
+   "description": "Abbildung von Equisetum-Arten",
+   "width": 2342,
+   "height": 3038,
+   "color": "#d1c098",
+   "srcs": [
+    {
+     "w": 1200,
+     "h": 1557,
+     "src": "img/codex/wiener-dioskurides-ippoyris-1200.webp",
+     "bytes": 398162
+    },
+    {
+     "w": 640,
+     "h": 830,
+     "src": "img/codex/wiener-dioskurides-ippoyris-640.webp",
+     "bytes": 102728
+    }
+   ]
+  },
+  {
+   "id": "wiener-dioskurides-marathron",
+   "role": "plant",
+   "label": "μάραθον",
+   "taxa": [
+    "Foeniculum vulgare"
+   ],
+   "basis": "commons-binomial",
+   "work": "Vienna Dioscurides (Codex Vindobonensis med. gr. 1)",
+   "made": "Constantinople, c. 512 CE",
+   "holder": "Österreichische Nationalbibliothek, Vienna",
+   "commons_title": "File:Wiener Dioskurides Marathron.jpg",
+   "commons_page": "https://commons.wikimedia.org/wiki/File:Wiener_Dioskurides_Marathron.jpg",
+   "source_url": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Wiener_Dioskurides_Marathron.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "artist": "Unknown Byzantine illuminators",
+   "date": "c. 512",
+   "licence": "Public domain",
+   "licence_url": null,
+   "description": "Abbildung von Foeniculum vulgare",
+   "width": 2262,
+   "height": 2849,
+   "color": "#d6c39c",
+   "srcs": [
+    {
+     "w": 1200,
+     "h": 1511,
+     "src": "img/codex/wiener-dioskurides-marathron-1200.webp",
+     "bytes": 358862
+    },
+    {
+     "w": 640,
+     "h": 806,
+     "src": "img/codex/wiener-dioskurides-marathron-640.webp",
+     "bytes": 99054
+    }
+   ]
+  },
+  {
+   "id": "wiener-dioskurides-croton",
+   "role": "plant",
+   "label": "κρότων",
+   "taxa": [
+    "Ricinus communis"
+   ],
+   "basis": "commons-binomial",
+   "work": "Vienna Dioscurides (Codex Vindobonensis med. gr. 1)",
+   "made": "Constantinople, c. 512 CE",
+   "holder": "Österreichische Nationalbibliothek, Vienna",
+   "commons_title": "File:Wiener Dioskurides Croton.jpg",
+   "commons_page": "https://commons.wikimedia.org/wiki/File:Wiener_Dioskurides_Croton.jpg",
+   "source_url": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Wiener_Dioskurides_Croton.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "artist": "Unknown Byzantine illuminators",
+   "date": "c. 512",
+   "licence": "Public domain",
+   "licence_url": null,
+   "description": "Abbildung von Ricinus communis",
+   "width": 2355,
+   "height": 3051,
+   "color": "#c5b790",
+   "srcs": [
+    {
+     "w": 1200,
+     "h": 1555,
+     "src": "img/codex/wiener-dioskurides-croton-1200.webp",
+     "bytes": 281064
+    },
+    {
+     "w": 640,
+     "h": 829,
+     "src": "img/codex/wiener-dioskurides-croton-640.webp",
+     "bytes": 72222
+    }
+   ]
+  },
+  {
+   "id": "wiener-dioskurides-glykyrizon",
+   "role": "plant",
+   "label": "γλυκύρριζα",
+   "taxa": [
+    "Glycyrrhiza glabra"
+   ],
+   "basis": "commons-binomial",
+   "work": "Vienna Dioscurides (Codex Vindobonensis med. gr. 1)",
+   "made": "Constantinople, c. 512 CE",
+   "holder": "Österreichische Nationalbibliothek, Vienna",
+   "commons_title": "File:Wiener Dioskurides Glykyrizon.jpg",
+   "commons_page": "https://commons.wikimedia.org/wiki/File:Wiener_Dioskurides_Glykyrizon.jpg",
+   "source_url": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Wiener_Dioskurides_Glykyrizon.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "artist": "Unknown Byzantine illuminators",
+   "date": "c. 512",
+   "licence": "Public domain",
+   "licence_url": null,
+   "description": "Abbildung von Glycyrrhiza glabra",
+   "width": 2388,
+   "height": 3026,
+   "color": "#ccbe97",
+   "srcs": [
+    {
+     "w": 1200,
+     "h": 1521,
+     "src": "img/codex/wiener-dioskurides-glykyrizon-1200.webp",
+     "bytes": 435754
+    },
+    {
+     "w": 640,
+     "h": 811,
+     "src": "img/codex/wiener-dioskurides-glykyrizon-640.webp",
+     "bytes": 131172
+    }
+   ]
+  },
+  {
+   "id": "wiener-dioskurides-kissos",
+   "role": "plant",
+   "label": "κισσός",
+   "taxa": [
+    "Hedera helix"
+   ],
+   "basis": "commons-binomial",
+   "work": "Vienna Dioscurides (Codex Vindobonensis med. gr. 1)",
+   "made": "Constantinople, c. 512 CE",
+   "holder": "Österreichische Nationalbibliothek, Vienna",
+   "commons_title": "File:Wiener Dioskurides Kissos.jpg",
+   "commons_page": "https://commons.wikimedia.org/wiki/File:Wiener_Dioskurides_Kissos.jpg",
+   "source_url": "https://upload.wikimedia.org/wikipedia/commons/2/28/Wiener_Dioskurides_Kissos.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "artist": "Unknown Byzantine illuminators",
+   "date": "c. 512",
+   "licence": "Public domain",
+   "licence_url": null,
+   "description": "Abbildung von Hedera helix",
+   "width": 2505,
+   "height": 2984,
+   "color": "#c5b48b",
+   "srcs": [
+    {
+     "w": 1200,
+     "h": 1429,
+     "src": "img/codex/wiener-dioskurides-kissos-1200.webp",
+     "bytes": 313722
+    },
+    {
+     "w": 640,
+     "h": 762,
+     "src": "img/codex/wiener-dioskurides-kissos-640.webp",
+     "bytes": 83186
+    }
+   ]
+  },
+  {
+   "id": "wiener-dioskurides-hyxperikon",
+   "role": "plant",
+   "label": "ὑπερικόν",
+   "taxa": [
+    "Hypericum perforatum"
+   ],
+   "basis": "commons-binomial",
+   "work": "Vienna Dioscurides (Codex Vindobonensis med. gr. 1)",
+   "made": "Constantinople, c. 512 CE",
+   "holder": "Österreichische Nationalbibliothek, Vienna",
+   "commons_title": "File:Wiener Dioskurides Hyxperikon.jpg",
+   "commons_page": "https://commons.wikimedia.org/wiki/File:Wiener_Dioskurides_Hyxperikon.jpg",
+   "source_url": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Wiener_Dioskurides_Hyxperikon.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "artist": "Unknown Byzantine illuminators",
+   "date": "c. 512",
+   "licence": "Public domain",
+   "licence_url": null,
+   "description": "Abbildung von Hypericum perforatum",
+   "width": 1768,
+   "height": 2699,
+   "color": "#d7b78c",
+   "srcs": [
+    {
+     "w": 1200,
+     "h": 1832,
+     "src": "img/codex/wiener-dioskurides-hyxperikon-1200.webp",
+     "bytes": 417966
+    },
+    {
+     "w": 640,
+     "h": 977,
+     "src": "img/codex/wiener-dioskurides-hyxperikon-640.webp",
+     "bytes": 85544
+    }
+   ]
+  },
+  {
+   "id": "wiener-dioskurides-thymbra-und-hyssopon",
+   "role": "plant",
+   "label": "θύμβρα and ὕσσωπος",
+   "taxa": [
+    "Satureja hortensis",
+    "Hyssopus officinalis"
+   ],
+   "basis": "commons-binomial",
+   "work": "Vienna Dioscurides (Codex Vindobonensis med. gr. 1)",
+   "made": "Constantinople, c. 512 CE",
+   "holder": "Österreichische Nationalbibliothek, Vienna",
+   "commons_title": "File:Wiener Dioskurides Thymbra und Hyssopon.jpg",
+   "commons_page": "https://commons.wikimedia.org/wiki/File:Wiener_Dioskurides_Thymbra_und_Hyssopon.jpg",
+   "source_url": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Wiener_Dioskurides_Thymbra_und_Hyssopon.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "artist": "Unknown Byzantine illuminators",
+   "date": "c. 512",
+   "licence": "Public domain",
+   "licence_url": null,
+   "description": "Abbildung von Satureja hortensis und von Hyssopus officinalis",
+   "width": 5211,
+   "height": 3604,
+   "color": "#ccb999",
+   "srcs": [
+    {
+     "w": 1200,
+     "h": 830,
+     "src": "img/codex/wiener-dioskurides-thymbra-und-hyssopon-1200.webp",
+     "bytes": 119548
+    },
+    {
+     "w": 640,
+     "h": 443,
+     "src": "img/codex/wiener-dioskurides-thymbra-und-hyssopon-640.webp",
+     "bytes": 30668
+    }
+   ]
+  },
+  {
+   "id": "wiener-dioskurides-bromos",
+   "role": "plant",
+   "label": "βρόμος",
+   "taxa": [
+    "Avena sativa"
+   ],
+   "basis": "commons-binomial",
+   "work": "Vienna Dioscurides (Codex Vindobonensis med. gr. 1)",
+   "made": "Constantinople, c. 512 CE",
+   "holder": "Österreichische Nationalbibliothek, Vienna",
+   "commons_title": "File:Wiener Dioskurides Bromos.jpg",
+   "commons_page": "https://commons.wikimedia.org/wiki/File:Wiener_Dioskurides_Bromos.jpg",
+   "source_url": "https://upload.wikimedia.org/wikipedia/commons/6/65/Wiener_Dioskurides_Bromos.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "artist": "Unknown Byzantine illuminators",
+   "date": "c. 512",
+   "licence": "Public domain",
+   "licence_url": null,
+   "description": "Abbildung von Avena sativa",
+   "width": 1936,
+   "height": 2799,
+   "color": "#d4c59c",
+   "srcs": [
+    {
+     "w": 1200,
+     "h": 1735,
+     "src": "img/codex/wiener-dioskurides-bromos-1200.webp",
+     "bytes": 409780
+    },
+    {
+     "w": 640,
+     "h": 925,
+     "src": "img/codex/wiener-dioskurides-bromos-640.webp",
+     "bytes": 110634
+    }
+   ]
+  },
+  {
+   "id": "wiener-dioskurides-anethon",
+   "role": "plant",
+   "label": "ἄνηθον",
+   "taxa": [
+    "Anethum graveolens"
+   ],
+   "basis": "commons-binomial",
+   "work": "Vienna Dioscurides (Codex Vindobonensis med. gr. 1)",
+   "made": "Constantinople, c. 512 CE",
+   "holder": "Österreichische Nationalbibliothek, Vienna",
+   "commons_title": "File:Wiener Dioskurides Anethon.jpg",
+   "commons_page": "https://commons.wikimedia.org/wiki/File:Wiener_Dioskurides_Anethon.jpg",
+   "source_url": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Wiener_Dioskurides_Anethon.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "artist": "Unknown Byzantine illuminators",
+   "date": "c. 512",
+   "licence": "Public domain",
+   "licence_url": null,
+   "description": "Abbildung von Anethum graveolens",
+   "width": 3744,
+   "height": 4627,
+   "color": "#c9b583",
+   "srcs": [
+    {
+     "w": 1200,
+     "h": 1483,
+     "src": "img/codex/wiener-dioskurides-anethon-1200.webp",
+     "bytes": 303616
+    },
+    {
+     "w": 640,
+     "h": 791,
+     "src": "img/codex/wiener-dioskurides-anethon-640.webp",
+     "bytes": 69780
+    }
+   ]
+  },
+  {
+   "id": "wiener-dioskurides-cromyon",
+   "role": "plant",
+   "label": "κρόμμυον",
+   "taxa": [
+    "Allium cepa"
+   ],
+   "basis": "commons-binomial",
+   "work": "Vienna Dioscurides (Codex Vindobonensis med. gr. 1)",
+   "made": "Constantinople, c. 512 CE",
+   "holder": "Österreichische Nationalbibliothek, Vienna",
+   "commons_title": "File:Wiener Dioskurides Cromyon.jpg",
+   "commons_page": "https://commons.wikimedia.org/wiki/File:Wiener_Dioskurides_Cromyon.jpg",
+   "source_url": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Wiener_Dioskurides_Cromyon.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "artist": "Unknown Byzantine illuminators",
+   "date": "c. 512",
+   "licence": "Public domain",
+   "licence_url": null,
+   "description": "Abbildung von Allium cepa",
+   "width": 2979,
+   "height": 4124,
+   "color": "#d1c2af",
+   "srcs": [
+    {
+     "w": 1200,
+     "h": 1661,
+     "src": "img/codex/wiener-dioskurides-cromyon-1200.webp",
+     "bytes": 167364
+    },
+    {
+     "w": 640,
+     "h": 886,
+     "src": "img/codex/wiener-dioskurides-cromyon-640.webp",
+     "bytes": 36820
+    }
+   ]
+  },
+  {
+   "id": "wiener-dioskurides-gentiana",
+   "role": "plant",
+   "label": "γεντιανή",
+   "taxa": [
+    "Gentiana lutea"
+   ],
+   "basis": "folio-lemma",
+   "work": "Vienna Dioscurides (Codex Vindobonensis med. gr. 1)",
+   "made": "Constantinople, c. 512 CE",
+   "holder": "Österreichische Nationalbibliothek, Vienna",
+   "commons_title": "File:Wiener Dioskurides Gentiana.jpg",
+   "commons_page": "https://commons.wikimedia.org/wiki/File:Wiener_Dioskurides_Gentiana.jpg",
+   "source_url": "https://upload.wikimedia.org/wikipedia/commons/2/29/Wiener_Dioskurides_Gentiana.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "artist": "Unknown Byzantine illuminators",
+   "date": "c. 512",
+   "licence": "Public domain",
+   "licence_url": null,
+   "description": "Abbildung von Gentiana",
+   "width": 2472,
+   "height": 3084,
+   "color": "#ccbb92",
+   "srcs": [
+    {
+     "w": 1200,
+     "h": 1497,
+     "src": "img/codex/wiener-dioskurides-gentiana-1200.webp",
+     "bytes": 345416
+    },
+    {
+     "w": 640,
+     "h": 798,
+     "src": "img/codex/wiener-dioskurides-gentiana-640.webp",
+     "bytes": 100816
+    }
+   ]
+  },
+  {
+   "id": "wiener-dioskurides-ammoniake",
+   "role": "plant",
+   "label": "ἀμμωνιακόν",
+   "taxa": [
+    "Ferula marmarica"
+   ],
+   "basis": "folio-lemma",
+   "work": "Vienna Dioscurides (Codex Vindobonensis med. gr. 1)",
+   "made": "Constantinople, c. 512 CE",
+   "holder": "Österreichische Nationalbibliothek, Vienna",
+   "commons_title": "File:Wiener Dioskurides Ammoniake.jpg",
+   "commons_page": "https://commons.wikimedia.org/wiki/File:Wiener_Dioskurides_Ammoniake.jpg",
+   "source_url": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Wiener_Dioskurides_Ammoniake.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "artist": "Unknown Byzantine illuminators",
+   "date": "c. 512",
+   "licence": "Public domain",
+   "licence_url": null,
+   "description": "Abbildung der Pflanze Ammoniake",
+   "width": 2776,
+   "height": 3074,
+   "color": "#dbd0b7",
+   "srcs": [
+    {
+     "w": 1200,
+     "h": 1329,
+     "src": "img/codex/wiener-dioskurides-ammoniake-1200.webp",
+     "bytes": 206182
+    },
+    {
+     "w": 640,
+     "h": 709,
+     "src": "img/codex/wiener-dioskurides-ammoniake-640.webp",
+     "bytes": 50938
+    }
+   ]
+  },
+  {
+   "id": "wiener-dioskurides-seerosen",
+   "role": "plant",
+   "label": "νυμφαία",
+   "taxa": [
+    "Nymphaea alba"
+   ],
+   "basis": "folio-lemma",
+   "work": "Vienna Dioscurides (Codex Vindobonensis med. gr. 1)",
+   "made": "Constantinople, c. 512 CE",
+   "holder": "Österreichische Nationalbibliothek, Vienna",
+   "commons_title": "File:Wiener Dioskurides Seerosen.jpg",
+   "commons_page": "https://commons.wikimedia.org/wiki/File:Wiener_Dioskurides_Seerosen.jpg",
+   "source_url": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Wiener_Dioskurides_Seerosen.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "artist": "Unknown Byzantine illuminators",
+   "date": "c. 512",
+   "licence": "Public domain",
+   "licence_url": null,
+   "description": "Abbildung von Seerosen",
+   "width": 4039,
+   "height": 4713,
+   "color": "#d2c8b4",
+   "srcs": [
+    {
+     "w": 1200,
+     "h": 1400,
+     "src": "img/codex/wiener-dioskurides-seerosen-1200.webp",
+     "bytes": 170524
+    },
+    {
+     "w": 640,
+     "h": 747,
+     "src": "img/codex/wiener-dioskurides-seerosen-640.webp",
+     "bytes": 45158
+    }
+   ]
+  },
+  {
+   "id": "wiener-dioskurides-phlommos",
+   "role": "plant",
+   "label": "φλόμος",
+   "taxa": [
+    "Verbascum"
+   ],
+   "basis": "folio-lemma",
+   "work": "Vienna Dioscurides (Codex Vindobonensis med. gr. 1)",
+   "made": "Constantinople, c. 512 CE",
+   "holder": "Österreichische Nationalbibliothek, Vienna",
+   "commons_title": "File:Wiener Dioskurides Phlommos.jpg",
+   "commons_page": "https://commons.wikimedia.org/wiki/File:Wiener_Dioskurides_Phlommos.jpg",
+   "source_url": "https://upload.wikimedia.org/wikipedia/commons/6/60/Wiener_Dioskurides_Phlommos.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "artist": "Unknown Byzantine illuminators",
+   "date": "c. 512",
+   "licence": "Public domain",
+   "licence_url": null,
+   "description": "Abbildung von Phlommos (Königskerzenart)",
+   "width": 2075,
+   "height": 2864,
+   "color": "#d4c0a2",
+   "srcs": [
+    {
+     "w": 1200,
+     "h": 1656,
+     "src": "img/codex/wiener-dioskurides-phlommos-1200.webp",
+     "bytes": 208644
+    },
+    {
+     "w": 640,
+     "h": 883,
+     "src": "img/codex/wiener-dioskurides-phlommos-640.webp",
+     "bytes": 50606
+    }
+   ]
+  },
+  {
+   "id": "buglosson-wiener-dioskurides",
+   "role": "plant",
+   "label": "βούγλωσσον",
+   "taxa": [
+    "Anchusa azurea"
+   ],
+   "basis": "folio-lemma",
+   "work": "Vienna Dioscurides (Codex Vindobonensis med. gr. 1)",
+   "made": "Constantinople, c. 512 CE",
+   "holder": "Österreichische Nationalbibliothek, Vienna",
+   "commons_title": "File:Buglosson Wiener Dioskurides.jpg",
+   "commons_page": "https://commons.wikimedia.org/wiki/File:Buglosson_Wiener_Dioskurides.jpg",
+   "source_url": "https://upload.wikimedia.org/wikipedia/commons/b/be/Buglosson_Wiener_Dioskurides.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "artist": "Unknown Byzantine illuminators",
+   "date": "c. 512",
+   "licence": "Public domain",
+   "licence_url": null,
+   "description": "Abbildung der Ochsenzunge",
+   "width": 3287,
+   "height": 4584,
+   "color": "#bead84",
+   "srcs": [
+    {
+     "w": 1200,
+     "h": 1674,
+     "src": "img/codex/buglosson-wiener-dioskurides-1200.webp",
+     "bytes": 310308
+    },
+    {
+     "w": 640,
+     "h": 893,
+     "src": "img/codex/buglosson-wiener-dioskurides-640.webp",
+     "bytes": 77676
+    }
+   ]
+  },
+  {
+   "id": "anchusa-wiener-dioskurides",
+   "role": "plant",
+   "label": "ἄγχουσα",
+   "taxa": [
+    "Alkanna tinctoria"
+   ],
+   "basis": "folio-lemma",
+   "work": "Vienna Dioscurides (Codex Vindobonensis med. gr. 1)",
+   "made": "Constantinople, c. 512 CE",
+   "holder": "Österreichische Nationalbibliothek, Vienna",
+   "commons_title": "File:Anchusa Wiener Dioskurides.jpg",
+   "commons_page": "https://commons.wikimedia.org/wiki/File:Anchusa_Wiener_Dioskurides.jpg",
+   "source_url": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Anchusa_Wiener_Dioskurides.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "artist": "Unknown Byzantine illuminators",
+   "date": "c. 512",
+   "licence": "Public domain",
+   "licence_url": null,
+   "description": "Abbildung einer Ochsenzungen-Art",
+   "width": 2941,
+   "height": 3319,
+   "color": "#cac0ad",
+   "srcs": [
+    {
+     "w": 1200,
+     "h": 1354,
+     "src": "img/codex/anchusa-wiener-dioskurides-1200.webp",
+     "bytes": 231620
+    },
+    {
+     "w": 640,
+     "h": 722,
+     "src": "img/codex/anchusa-wiener-dioskurides-640.webp",
+     "bytes": 59196
+    }
+   ]
+  },
+  {
+   "id": "myrike-wiener-dioskurides",
+   "role": "plant",
+   "label": "μυρίκη",
+   "taxa": [
+    "Tamarix"
+   ],
+   "basis": "folio-lemma",
+   "work": "Vienna Dioscurides (Codex Vindobonensis med. gr. 1)",
+   "made": "Constantinople, c. 512 CE",
+   "holder": "Österreichische Nationalbibliothek, Vienna",
+   "commons_title": "File:Myrike Wiener Dioskurides.jpg",
+   "commons_page": "https://commons.wikimedia.org/wiki/File:Myrike_Wiener_Dioskurides.jpg",
+   "source_url": "https://upload.wikimedia.org/wikipedia/commons/9/99/Myrike_Wiener_Dioskurides.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "artist": "Unknown Byzantine illuminators",
+   "date": "c. 512",
+   "licence": "Public domain",
+   "licence_url": null,
+   "description": "Tamariske",
+   "width": 3784,
+   "height": 4285,
+   "color": "#d9d0c6",
+   "srcs": [
+    {
+     "w": 1200,
+     "h": 1359,
+     "src": "img/codex/myrike-wiener-dioskurides-1200.webp",
+     "bytes": 160272
+    },
+    {
+     "w": 640,
+     "h": 725,
+     "src": "img/codex/myrike-wiener-dioskurides-640.webp",
+     "bytes": 43216
+    }
+   ]
+  },
+  {
+   "id": "wien-scolopendrion-phyllitis",
+   "role": "plant",
+   "label": "σκολοπένδριον and φυλλῖτις",
+   "taxa": [
+    "Asplenium scolopendrium"
+   ],
+   "basis": "folio-lemma",
+   "work": "Vienna Dioscurides (Codex Vindobonensis med. gr. 1)",
+   "made": "Constantinople, c. 512 CE",
+   "holder": "Österreichische Nationalbibliothek, Vienna",
+   "commons_title": "File:Wien Scolopendrion - Phyllitis.jpg",
+   "commons_page": "https://commons.wikimedia.org/wiki/File:Wien_Scolopendrion_-_Phyllitis.jpg",
+   "source_url": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Wien_Scolopendrion_-_Phyllitis.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "artist": "Unknown Byzantine illuminators",
+   "date": "c. 512",
+   "licence": "Public domain",
+   "licence_url": null,
+   "description": "Abbildungen des Scolopendrium und der Phyllitis",
+   "width": 4272,
+   "height": 2799,
+   "color": "#c4b28e",
+   "srcs": [
+    {
+     "w": 1200,
+     "h": 786,
+     "src": "img/codex/wien-scolopendrion-phyllitis-1200.webp",
+     "bytes": 132052
+    },
+    {
+     "w": 640,
+     "h": 419,
+     "src": "img/codex/wien-scolopendrion-phyllitis-640.webp",
+     "bytes": 32044
+    }
+   ]
+  },
+  {
+   "id": "melanthion",
+   "role": "plant",
+   "label": "μελάνθιον",
+   "taxa": [
+    "Nigella sativa"
+   ],
+   "basis": "folio-lemma",
+   "work": "Vienna Dioscurides (Codex Vindobonensis med. gr. 1)",
+   "made": "Constantinople, c. 512 CE",
+   "holder": "Österreichische Nationalbibliothek, Vienna",
+   "commons_title": "File:Melanthion.jpg",
+   "commons_page": "https://commons.wikimedia.org/wiki/File:Melanthion.jpg",
+   "source_url": "https://upload.wikimedia.org/wikipedia/commons/8/89/Melanthion.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "artist": "Unknown Byzantine illuminators",
+   "date": "c. 512",
+   "licence": "Public domain",
+   "licence_url": null,
+   "description": "Abbildung von „Melanthion“",
+   "width": 1357,
+   "height": 980,
+   "color": "#d9d1c3",
+   "srcs": [
+    {
+     "w": 1200,
+     "h": 867,
+     "src": "img/codex/melanthion-1200.webp",
+     "bytes": 66248
+    },
+    {
+     "w": 640,
+     "h": 462,
+     "src": "img/codex/melanthion-640.webp",
+     "bytes": 25146
+    }
+   ]
+  },
+  {
+   "id": "ephemeron",
+   "role": "plant",
+   "label": "ἐφήμερον",
+   "taxa": [
+    "Convallaria majalis"
+   ],
+   "basis": "folio-lemma",
+   "work": "Vienna Dioscurides (Codex Vindobonensis med. gr. 1)",
+   "made": "Constantinople, c. 512 CE",
+   "holder": "Österreichische Nationalbibliothek, Vienna",
+   "commons_title": "File:Ephemeron.jpg",
+   "commons_page": "https://commons.wikimedia.org/wiki/File:Ephemeron.jpg",
+   "source_url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Ephemeron.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "artist": "Unknown Byzantine illuminators",
+   "date": "c. 512",
+   "licence": "Public domain",
+   "licence_url": null,
+   "description": "Abbildung des Ephemeron",
+   "width": 2420,
+   "height": 3577,
+   "color": "#c1b59e",
+   "srcs": [
+    {
+     "w": 1200,
+     "h": 1774,
+     "src": "img/codex/ephemeron-1200.webp",
+     "bytes": 631132
+    },
+    {
+     "w": 640,
+     "h": 946,
+     "src": "img/codex/ephemeron-640.webp",
+     "bytes": 106438
+    }
+   ]
+  },
+  {
+   "id": "peristeron-orthos",
+   "role": "plant",
+   "label": "περιστέριον ὀρθός",
+   "taxa": [
+    "Verbena officinalis"
+   ],
+   "basis": "folio-lemma",
+   "work": "Vienna Dioscurides (Codex Vindobonensis med. gr. 1)",
+   "made": "Constantinople, c. 512 CE",
+   "holder": "Österreichische Nationalbibliothek, Vienna",
+   "commons_title": "File:Peristeron orthos.jpg",
+   "commons_page": "https://commons.wikimedia.org/wiki/File:Peristeron_orthos.jpg",
+   "source_url": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Peristeron_orthos.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "artist": "Unknown Byzantine illuminators",
+   "date": "c. 512",
+   "licence": "Public domain",
+   "licence_url": null,
+   "description": "Abbildung von Peristeron orthos",
+   "width": 2179,
+   "height": 2844,
+   "color": "#c3b198",
+   "srcs": [
+    {
+     "w": 1200,
+     "h": 1566,
+     "src": "img/codex/peristeron-orthos-1200.webp",
+     "bytes": 272784
+    },
+    {
+     "w": 640,
+     "h": 835,
+     "src": "img/codex/peristeron-orthos-640.webp",
+     "bytes": 75874
+    }
+   ]
+  },
+  {
+   "id": "osterluzei-wiener-dioskurides",
+   "role": "plant",
+   "label": "ἀριστολοχεία",
+   "taxa": [
+    "Aristolochia"
+   ],
+   "basis": "commons-binomial",
+   "work": "Vienna Dioscurides (Codex Vindobonensis med. gr. 1)",
+   "made": "Constantinople, c. 512 CE",
+   "holder": "Österreichische Nationalbibliothek, Vienna",
+   "commons_title": "File:Osterluzei (Wiener Dioskurides).JPG",
+   "commons_page": "https://commons.wikimedia.org/wiki/File:Osterluzei_(Wiener_Dioskurides).JPG",
+   "source_url": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Osterluzei_%28Wiener_Dioskurides%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "artist": "Unknown Byzantine illuminators",
+   "date": "c. 512",
+   "licence": "Public domain",
+   "licence_url": null,
+   "description": "Pflanzenbild der Osterluzei aus dem Wiener Dioskurides , Blatt 17 verso (Aristolochia parviflora Sibth., Fam. Aristolochiaceae)",
+   "width": 1165,
+   "height": 1445,
+   "color": "#c6b592",
+   "srcs": [
+    {
+     "w": 1165,
+     "h": 1445,
+     "src": "img/codex/osterluzei-wiener-dioskurides-1165.webp",
+     "bytes": 153112
+    },
+    {
+     "w": 640,
+     "h": 794,
+     "src": "img/codex/osterluzei-wiener-dioskurides-640.webp",
+     "bytes": 45476
+    }
+   ]
+  },
+  {
+   "id": "aeizon-to-mega-aeonium-arboreum",
+   "role": "plant",
+   "label": "ἀείζῳον τὸ μέγα",
+   "taxa": [
+    "Aeonium arboreum"
+   ],
+   "basis": "commons-binomial",
+   "work": "Vienna Dioscurides (Codex Vindobonensis med. gr. 1)",
+   "made": "Constantinople, c. 512 CE",
+   "holder": "Österreichische Nationalbibliothek, Vienna",
+   "commons_title": "File:Aeizon to Mega Aeonium arboreum.jpg",
+   "commons_page": "https://commons.wikimedia.org/wiki/File:Aeizon_to_Mega_Aeonium_arboreum.jpg",
+   "source_url": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Aeizon_to_Mega_Aeonium_arboreum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "artist": "Unknown Byzantine illuminators",
+   "date": "c. 512",
+   "licence": "Public domain",
+   "licence_url": null,
+   "description": "Aeizon to Mega ( Aeonium arboreum ) in Codex Vindobonensis",
+   "width": 988,
+   "height": 1224,
+   "color": "#aa967b",
+   "srcs": [
+    {
+     "w": 988,
+     "h": 1224,
+     "src": "img/codex/aeizon-to-mega-aeonium-arboreum-988.webp",
+     "bytes": 499178
+    },
+    {
+     "w": 640,
+     "h": 793,
+     "src": "img/codex/aeizon-to-mega-aeonium-arboreum-640.webp",
+     "bytes": 133504
+    }
+   ]
+  },
+  {
+   "id": "aeizon-to-mikron-sempervivum-tectorum",
+   "role": "plant",
+   "label": "ἀείζῳον τὸ μικρόν",
+   "taxa": [
+    "Sempervivum tectorum"
+   ],
+   "basis": "commons-binomial",
+   "work": "Vienna Dioscurides (Codex Vindobonensis med. gr. 1)",
+   "made": "Constantinople, c. 512 CE",
+   "holder": "Österreichische Nationalbibliothek, Vienna",
+   "commons_title": "File:Aeizon to Mikron Sempervivum tectorum.jpg",
+   "commons_page": "https://commons.wikimedia.org/wiki/File:Aeizon_to_Mikron_Sempervivum_tectorum.jpg",
+   "source_url": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Aeizon_to_Mikron_Sempervivum_tectorum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "artist": "Unknown Byzantine illuminators",
+   "date": "c. 512",
+   "licence": "Public domain",
+   "licence_url": null,
+   "description": "Aeizon to Mikron ( Sempervivum tectorum ) in Codex Vindobonensis",
+   "width": 693,
+   "height": 702,
+   "color": "#838484",
+   "srcs": [
+    {
+     "w": 693,
+     "h": 702,
+     "src": "img/codex/aeizon-to-mikron-sempervivum-tectorum-693.webp",
+     "bytes": 189482
+    },
+    {
+     "w": 640,
+     "h": 648,
+     "src": "img/codex/aeizon-to-mikron-sempervivum-tectorum-640.webp",
+     "bytes": 136618
+    }
+   ]
+  },
+  {
+   "id": "aeizon-to-leptophyllon-sedum",
+   "role": "plant",
+   "label": "ἀείζῳον τὸ λεπτόφυλλον",
+   "taxa": [
+    "Sedum"
+   ],
+   "basis": "commons-binomial",
+   "work": "Vienna Dioscurides (Codex Vindobonensis med. gr. 1)",
+   "made": "Constantinople, c. 512 CE",
+   "holder": "Österreichische Nationalbibliothek, Vienna",
+   "commons_title": "File:Aeizon to Leptophyllon Sedum.jpg",
+   "commons_page": "https://commons.wikimedia.org/wiki/File:Aeizon_to_Leptophyllon_Sedum.jpg",
+   "source_url": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Aeizon_to_Leptophyllon_Sedum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "artist": "Unknown Byzantine illuminators",
+   "date": "c. 512",
+   "licence": "Public domain",
+   "licence_url": null,
+   "description": "Aeizon to Leptophyllon ( Sedum sp.) in Codex Vindobonensis",
+   "width": 1219,
+   "height": 1312,
+   "color": "#c5b453",
+   "srcs": [
+    {
+     "w": 1200,
+     "h": 1292,
+     "src": "img/codex/aeizon-to-leptophyllon-sedum-1200.webp",
+     "bytes": 277578
+    },
+    {
+     "w": 640,
+     "h": 689,
+     "src": "img/codex/aeizon-to-leptophyllon-sedum-640.webp",
+     "bytes": 52180
+    }
+   ]
+  },
+  {
+   "id": "gemeine-mohre-wiener-dioskurides",
+   "role": "plant",
+   "label": "σταφυλῖνος",
+   "taxa": [
+    "Daucus carota"
+   ],
+   "basis": "commons-binomial",
+   "work": "Vienna Dioscurides (Codex Vindobonensis med. gr. 1)",
+   "made": "Constantinople, c. 512 CE",
+   "holder": "Österreichische Nationalbibliothek, Vienna",
+   "commons_title": "File:Gemeine Möhre (Wiener Dioskurides).png",
+   "commons_page": "https://commons.wikimedia.org/wiki/File:Gemeine_M%C3%B6hre_(Wiener_Dioskurides).png",
+   "source_url": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Gemeine_M%C3%B6hre_%28Wiener_Dioskurides%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "artist": "Unknown Byzantine illuminators",
+   "date": "c. 512",
+   "licence": "Public domain",
+   "licence_url": null,
+   "description": "Pflanzenbild der Gemeinen Möhre (gelben Rübe, Karotte), (Daucus Carota L., Fam. Umbelliferae) im Wiener Dioskurides , Blatt 312 recto",
+   "width": 1791,
+   "height": 2198,
+   "color": "#d9c198",
+   "srcs": [
+    {
+     "w": 1200,
+     "h": 1473,
+     "src": "img/codex/gemeine-mohre-wiener-dioskurides-1200.webp",
+     "bytes": 217588
+    },
+    {
+     "w": 640,
+     "h": 785,
+     "src": "img/codex/gemeine-mohre-wiener-dioskurides-640.webp",
+     "bytes": 59472
+    }
+   ]
+  },
+  {
+   "id": "cannabissativadior",
+   "role": "plant",
+   "label": "κάνναβις",
+   "taxa": [
+    "Cannabis sativa"
+   ],
+   "basis": "folio-lemma",
+   "work": "Vienna Dioscurides (Codex Vindobonensis med. gr. 1)",
+   "made": "Constantinople, c. 512 CE",
+   "holder": "Österreichische Nationalbibliothek, Vienna",
+   "commons_title": "File:Cannabissativadior.jpg",
+   "commons_page": "https://commons.wikimedia.org/wiki/File:Cannabissativadior.jpg",
+   "source_url": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Cannabissativadior.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "artist": "Unknown Byzantine illuminators",
+   "date": "c. 512",
+   "licence": "Public domain",
+   "licence_url": null,
+   "description": "Illustration from the Vienna Dioscurides . Arabic words at left appear to be qinnab bustani قنب بستاني or \"garden hemp\"",
+   "width": 1933,
+   "height": 2280,
+   "color": "#dcc8a8",
+   "srcs": [
+    {
+     "w": 1200,
+     "h": 1415,
+     "src": "img/codex/cannabissativadior-1200.webp",
+     "bytes": 209146
+    },
+    {
+     "w": 640,
+     "h": 755,
+     "src": "img/codex/cannabissativadior-640.webp",
+     "bytes": 54754
+    }
+   ]
+  },
+  {
+   "id": "artemisia-monoclonos-c-j-a",
+   "role": "plant",
+   "label": "ἀρτεμισία μονόκλωνος",
+   "taxa": [
+    "Artemisia arborescens"
+   ],
+   "basis": "folio-lemma",
+   "work": "Vienna Dioscurides (Codex Vindobonensis med. gr. 1)",
+   "made": "Constantinople, c. 512 CE",
+   "holder": "Österreichische Nationalbibliothek, Vienna",
+   "commons_title": "File:Artemisia monoclonos C.J.A.jpg",
+   "commons_page": "https://commons.wikimedia.org/wiki/File:Artemisia_monoclonos_C.J.A.jpg",
+   "source_url": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Artemisia_monoclonos_C.J.A.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "artist": "Unknown Byzantine illuminators",
+   "date": "c. 512",
+   "licence": "Public domain",
+   "licence_url": null,
+   "description": "Abbildung von \"Artemisia monoclonos\"",
+   "width": 2391,
+   "height": 3062,
+   "color": "#b8a583",
+   "srcs": [
+    {
+     "w": 1200,
+     "h": 1537,
+     "src": "img/codex/artemisia-monoclonos-c-j-a-1200.webp",
+     "bytes": 266444
+    },
+    {
+     "w": 640,
+     "h": 820,
+     "src": "img/codex/artemisia-monoclonos-c-j-a-640.webp",
+     "bytes": 93882
+    }
+   ]
+  },
+  {
+   "id": "iris-147v-dioscoride-vienne",
+   "role": "plant",
+   "label": "ἶρις, fol. 147v",
+   "taxa": [
+    "Iris germanica"
+   ],
+   "basis": "folio-lemma",
+   "work": "Vienna Dioscurides (Codex Vindobonensis med. gr. 1)",
+   "made": "Constantinople, c. 512 CE",
+   "holder": "Österreichische Nationalbibliothek, Vienna",
+   "commons_title": "File:Iris 147v Dioscoride Vienne.png",
+   "commons_page": "https://commons.wikimedia.org/wiki/File:Iris_147v_Dioscoride_Vienne.png",
+   "source_url": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Iris_147v_Dioscoride_Vienne.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "artist": "Unknown Byzantine illuminators",
+   "date": "c. 512",
+   "licence": "Public domain",
+   "licence_url": null,
+   "description": "iris folio 147v",
+   "width": 548,
+   "height": 790,
+   "color": "#a79783",
+   "srcs": [
+    {
+     "w": 548,
+     "h": 790,
+     "src": "img/codex/iris-147v-dioscoride-vienne-548.webp",
+     "bytes": 58748
+    }
+   ]
+  },
+  {
+   "id": "krambe-hemeros-182v-dioscoride-vienne",
+   "role": "plant",
+   "label": "κράμβη ἥμερος, fol. 182v",
+   "taxa": [
+    "Brassica oleracea"
+   ],
+   "basis": "folio-lemma",
+   "work": "Vienna Dioscurides (Codex Vindobonensis med. gr. 1)",
+   "made": "Constantinople, c. 512 CE",
+   "holder": "Österreichische Nationalbibliothek, Vienna",
+   "commons_title": "File:Krambê hêmeros 182v Dioscoride Vienne.png",
+   "commons_page": "https://commons.wikimedia.org/wiki/File:Kramb%C3%AA_h%C3%AAmeros_182v_Dioscoride_Vienne.png",
+   "source_url": "https://upload.wikimedia.org/wikipedia/commons/0/05/Kramb%C3%AA_h%C3%AAmeros_182v_Dioscoride_Vienne.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "artist": "Unknown Byzantine illuminators",
+   "date": "c. 512",
+   "licence": "Public domain",
+   "licence_url": null,
+   "description": "krambê hêmeros folio 182v",
+   "width": 593,
+   "height": 733,
+   "color": "#96907c",
+   "srcs": [
+    {
+     "w": 593,
+     "h": 733,
+     "src": "img/codex/krambe-hemeros-182v-dioscoride-vienne-593.webp",
+     "bytes": 65900
+    }
+   ]
+  },
+  {
+   "id": "kuamos-189v-dioscoride-vienne",
+   "role": "plant",
+   "label": "κύαμος, fol. 189v",
+   "taxa": [
+    "Vicia faba"
+   ],
+   "basis": "folio-lemma",
+   "work": "Vienna Dioscurides (Codex Vindobonensis med. gr. 1)",
+   "made": "Constantinople, c. 512 CE",
+   "holder": "Österreichische Nationalbibliothek, Vienna",
+   "commons_title": "File:Kuamos 189v Dioscoride Vienne.png",
+   "commons_page": "https://commons.wikimedia.org/wiki/File:Kuamos_189v_Dioscoride_Vienne.png",
+   "source_url": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Kuamos_189v_Dioscoride_Vienne.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "artist": "Unknown Byzantine illuminators",
+   "date": "c. 512",
+   "licence": "Public domain",
+   "licence_url": null,
+   "description": "kuamos folio 189v",
+   "width": 534,
+   "height": 814,
+   "color": "#b09f88",
+   "srcs": [
+    {
+     "w": 534,
+     "h": 814,
+     "src": "img/codex/kuamos-189v-dioscoride-vienne-534.webp",
+     "bytes": 48718
+    }
+   ]
+  },
+  {
+   "id": "kuminon-hemeron-179v-dioscoride-vienne",
+   "role": "plant",
+   "label": "κύμινον ἥμερον, fol. 179v",
+   "taxa": [
+    "Cuminum cyminum"
+   ],
+   "basis": "folio-lemma",
+   "work": "Vienna Dioscurides (Codex Vindobonensis med. gr. 1)",
+   "made": "Constantinople, c. 512 CE",
+   "holder": "Österreichische Nationalbibliothek, Vienna",
+   "commons_title": "File:Kuminon hêmeron 179v Dioscoride Vienne.png",
+   "commons_page": "https://commons.wikimedia.org/wiki/File:Kuminon_h%C3%AAmeron_179v_Dioscoride_Vienne.png",
+   "source_url": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Kuminon_h%C3%AAmeron_179v_Dioscoride_Vienne.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "artist": "Unknown Byzantine illuminators",
+   "date": "c. 512",
+   "licence": "Public domain",
+   "licence_url": null,
+   "description": "kuminon hêmeron folio 179v",
+   "width": 562,
+   "height": 772,
+   "color": "#b3a38b",
+   "srcs": [
+    {
+     "w": 562,
+     "h": 772,
+     "src": "img/codex/kuminon-hemeron-179v-dioscoride-vienne-562.webp",
+     "bytes": 37032
+    }
+   ]
+  },
+  {
+   "id": "kapparis-172v-dioscoride-vienne",
+   "role": "plant",
+   "label": "κάππαρις, fol. 172v",
+   "taxa": [
+    "Capparis spinosa"
+   ],
+   "basis": "folio-lemma",
+   "work": "Vienna Dioscurides (Codex Vindobonensis med. gr. 1)",
+   "made": "Constantinople, c. 512 CE",
+   "holder": "Österreichische Nationalbibliothek, Vienna",
+   "commons_title": "File:Kapparis 172v Dioscoride Vienne.png",
+   "commons_page": "https://commons.wikimedia.org/wiki/File:Kapparis_172v_Dioscoride_Vienne.png",
+   "source_url": "https://upload.wikimedia.org/wikipedia/commons/3/34/Kapparis_172v_Dioscoride_Vienne.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "artist": "Unknown Byzantine illuminators",
+   "date": "c. 512",
+   "licence": "Public domain",
+   "licence_url": null,
+   "description": "kapparis folio 172v",
+   "width": 560,
+   "height": 777,
+   "color": "#aba18a",
+   "srcs": [
+    {
+     "w": 560,
+     "h": 777,
+     "src": "img/codex/kapparis-172v-dioscoride-vienne-560.webp",
+     "bytes": 62266
+    }
+   ]
+  },
+  {
+   "id": "karo-188v-dioscoride-vienne",
+   "role": "plant",
+   "label": "καρώ, fol. 188v",
+   "taxa": [
+    "Carum carvi"
+   ],
+   "basis": "folio-lemma",
+   "work": "Vienna Dioscurides (Codex Vindobonensis med. gr. 1)",
+   "made": "Constantinople, c. 512 CE",
+   "holder": "Österreichische Nationalbibliothek, Vienna",
+   "commons_title": "File:Karô 188v Dioscoride Vienne.png",
+   "commons_page": "https://commons.wikimedia.org/wiki/File:Kar%C3%B4_188v_Dioscoride_Vienne.png",
+   "source_url": "https://upload.wikimedia.org/wikipedia/commons/5/54/Kar%C3%B4_188v_Dioscoride_Vienne.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "artist": "Unknown Byzantine illuminators",
+   "date": "c. 512",
+   "licence": "Public domain",
+   "licence_url": null,
+   "description": "karô 188v",
+   "width": 532,
+   "height": 817,
+   "color": "#a4967f",
+   "srcs": [
+    {
+     "w": 532,
+     "h": 817,
+     "src": "img/codex/karo-188v-dioscoride-vienne-532.webp",
+     "bytes": 66204
+    }
+   ]
+  },
+  {
+   "id": "euzomon-118r-dioscoride-vienne",
+   "role": "plant",
+   "label": "εὔζωμον, fol. 118r",
+   "taxa": [
+    "Eruca vesicaria"
+   ],
+   "basis": "folio-lemma",
+   "work": "Vienna Dioscurides (Codex Vindobonensis med. gr. 1)",
+   "made": "Constantinople, c. 512 CE",
+   "holder": "Österreichische Nationalbibliothek, Vienna",
+   "commons_title": "File:Euzômon 118r Dioscoride Vienne.png",
+   "commons_page": "https://commons.wikimedia.org/wiki/File:Euz%C3%B4mon_118r_Dioscoride_Vienne.png",
+   "source_url": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Euz%C3%B4mon_118r_Dioscoride_Vienne.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "artist": "Unknown Byzantine illuminators",
+   "date": "c. 512",
+   "licence": "Public domain",
+   "licence_url": null,
+   "description": "euzômon folio 118r",
+   "width": 578,
+   "height": 752,
+   "color": "#b4a590",
+   "srcs": [
+    {
+     "w": 578,
+     "h": 752,
+     "src": "img/codex/euzomon-118r-dioscoride-vienne-578.webp",
+     "bytes": 57086
+    }
+   ]
+  },
+  {
+   "id": "erebinthos-119r-dioscoride-vienne",
+   "role": "plant",
+   "label": "ἐρέβινθος, fol. 119r",
+   "taxa": [
+    "Cicer arietinum"
+   ],
+   "basis": "folio-lemma",
+   "work": "Vienna Dioscurides (Codex Vindobonensis med. gr. 1)",
+   "made": "Constantinople, c. 512 CE",
+   "holder": "Österreichische Nationalbibliothek, Vienna",
+   "commons_title": "File:Erebinthos 119r Dioscoride Vienne.png",
+   "commons_page": "https://commons.wikimedia.org/wiki/File:Erebinthos_119r_Dioscoride_Vienne.png",
+   "source_url": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Erebinthos_119r_Dioscoride_Vienne.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "artist": "Unknown Byzantine illuminators",
+   "date": "c. 512",
+   "licence": "Public domain",
+   "licence_url": null,
+   "description": "erebinthos folio 119r",
+   "width": 573,
+   "height": 757,
+   "color": "#a29580",
+   "srcs": [
+    {
+     "w": 573,
+     "h": 757,
+     "src": "img/codex/erebinthos-119r-dioscoride-vienne-573.webp",
+     "bytes": 61442
+    }
+   ]
+  },
+  {
+   "id": "glekhon-87r-dioscoride-vienne",
+   "role": "plant",
+   "label": "γλήχων, fol. 87r",
+   "taxa": [
+    "Mentha pulegium"
+   ],
+   "basis": "folio-lemma",
+   "work": "Vienna Dioscurides (Codex Vindobonensis med. gr. 1)",
+   "made": "Constantinople, c. 512 CE",
+   "holder": "Österreichische Nationalbibliothek, Vienna",
+   "commons_title": "File:Glêkhôn 87r Dioscoride Vienne.png",
+   "commons_page": "https://commons.wikimedia.org/wiki/File:Gl%C3%AAkh%C3%B4n_87r_Dioscoride_Vienne.png",
+   "source_url": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Gl%C3%AAkh%C3%B4n_87r_Dioscoride_Vienne.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "artist": "Unknown Byzantine illuminators",
+   "date": "c. 512",
+   "licence": "Public domain",
+   "licence_url": null,
+   "description": "glêkhôn folio 87r",
+   "width": 548,
+   "height": 791,
+   "color": "#afa18a",
+   "srcs": [
+    {
+     "w": 548,
+     "h": 791,
+     "src": "img/codex/glekhon-87r-dioscoride-vienne-548.webp",
+     "bytes": 47322
+    }
+   ]
+  },
+  {
+   "id": "andrakhne-agria-37v-dioscoride-vienne",
+   "role": "plant",
+   "label": "ἀνδράχνη ἀγρία, fol. 37v",
+   "taxa": [
+    "Portulaca oleracea"
+   ],
+   "basis": "folio-lemma",
+   "work": "Vienna Dioscurides (Codex Vindobonensis med. gr. 1)",
+   "made": "Constantinople, c. 512 CE",
+   "holder": "Österreichische Nationalbibliothek, Vienna",
+   "commons_title": "File:Andrakhnê agria 37v Dioscoride Vienne.png",
+   "commons_page": "https://commons.wikimedia.org/wiki/File:Andrakhn%C3%AA_agria_37v_Dioscoride_Vienne.png",
+   "source_url": "https://upload.wikimedia.org/wikipedia/commons/7/78/Andrakhn%C3%AA_agria_37v_Dioscoride_Vienne.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "artist": "Unknown Byzantine illuminators",
+   "date": "c. 512",
+   "licence": "Public domain",
+   "licence_url": null,
+   "description": "andrakhnê agria folio 37v",
+   "width": 584,
+   "height": 745,
+   "color": "#a19681",
+   "srcs": [
+    {
+     "w": 584,
+     "h": 745,
+     "src": "img/codex/andrakhne-agria-37v-dioscoride-vienne-584.webp",
+     "bytes": 68078
+    }
+   ]
+  },
+  {
+   "id": "bliton-77v-dioscoride-vienne",
+   "role": "plant",
+   "label": "βλίτον, fol. 77v",
+   "taxa": [
+    "Amaranthus blitum"
+   ],
+   "basis": "folio-lemma",
+   "work": "Vienna Dioscurides (Codex Vindobonensis med. gr. 1)",
+   "made": "Constantinople, c. 512 CE",
+   "holder": "Österreichische Nationalbibliothek, Vienna",
+   "commons_title": "File:Bliton 77v Dioscoride Vienne.png",
+   "commons_page": "https://commons.wikimedia.org/wiki/File:Bliton_77v_Dioscoride_Vienne.png",
+   "source_url": "https://upload.wikimedia.org/wikipedia/commons/d/da/Bliton_77v_Dioscoride_Vienne.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "artist": "Unknown Byzantine illuminators",
+   "date": "c. 512",
+   "licence": "Public domain",
+   "licence_url": null,
+   "description": "bliton folio 77v",
+   "width": 560,
+   "height": 775,
+   "color": "#a59b87",
+   "srcs": [
+    {
+     "w": 560,
+     "h": 775,
+     "src": "img/codex/bliton-77v-dioscoride-vienne-560.webp",
+     "bytes": 41044
+    }
+   ]
+  },
+  {
+   "id": "thlaspi-141r-dioscoride-vienne",
+   "role": "plant",
+   "label": "θλάσπι, fol. 141r",
+   "taxa": [
+    "Thlaspi arvense"
+   ],
+   "basis": "folio-lemma",
+   "work": "Vienna Dioscurides (Codex Vindobonensis med. gr. 1)",
+   "made": "Constantinople, c. 512 CE",
+   "holder": "Österreichische Nationalbibliothek, Vienna",
+   "commons_title": "File:Thlaspi 141r Dioscoride Vienne.png",
+   "commons_page": "https://commons.wikimedia.org/wiki/File:Thlaspi_141r_Dioscoride_Vienne.png",
+   "source_url": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Thlaspi_141r_Dioscoride_Vienne.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "artist": "Unknown Byzantine illuminators",
+   "date": "c. 512",
+   "licence": "Public domain",
+   "licence_url": null,
+   "description": "thlaspi folio 141r",
+   "width": 518,
+   "height": 839,
+   "color": "#b8a98f",
+   "srcs": [
+    {
+     "w": 518,
+     "h": 839,
+     "src": "img/codex/thlaspi-141r-dioscoride-vienne-518.webp",
+     "bytes": 45526
+    }
+   ]
+  },
+  {
+   "id": "agnos-36v-dioscoride-vienne",
+   "role": "plant",
+   "label": "ἄγνος, fol. 36v",
+   "taxa": [
+    "Vitex agnus-castus"
+   ],
+   "basis": "folio-lemma",
+   "work": "Vienna Dioscurides (Codex Vindobonensis med. gr. 1)",
+   "made": "Constantinople, c. 512 CE",
+   "holder": "Österreichische Nationalbibliothek, Vienna",
+   "commons_title": "File:Agnos 36v Dioscoride Vienne.png",
+   "commons_page": "https://commons.wikimedia.org/wiki/File:Agnos_36v_Dioscoride_Vienne.png",
+   "source_url": "https://upload.wikimedia.org/wikipedia/commons/9/93/Agnos_36v_Dioscoride_Vienne.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "artist": "Unknown Byzantine illuminators",
+   "date": "c. 512",
+   "licence": "Public domain",
+   "licence_url": null,
+   "description": "Agnos folio 36v",
+   "width": 592,
+   "height": 733,
+   "color": "#a99d82",
+   "srcs": [
+    {
+     "w": 592,
+     "h": 733,
+     "src": "img/codex/agnos-36v-dioscoride-vienne-592.webp",
+     "bytes": 90860
+    }
+   ]
+  },
+  {
+   "id": "akte-73v-dioscoride-vienne",
+   "role": "plant",
+   "label": "ἀκτῆ, fol. 73v",
+   "taxa": [
+    "Sambucus nigra"
+   ],
+   "basis": "folio-lemma",
+   "work": "Vienna Dioscurides (Codex Vindobonensis med. gr. 1)",
+   "made": "Constantinople, c. 512 CE",
+   "holder": "Österreichische Nationalbibliothek, Vienna",
+   "commons_title": "File:Aktê 73v Dioscoride Vienne.png",
+   "commons_page": "https://commons.wikimedia.org/wiki/File:Akt%C3%AA_73v_Dioscoride_Vienne.png",
+   "source_url": "https://upload.wikimedia.org/wikipedia/commons/8/80/Akt%C3%AA_73v_Dioscoride_Vienne.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "artist": "Unknown Byzantine illuminators",
+   "date": "c. 512",
+   "licence": "Public domain",
+   "licence_url": null,
+   "description": "aktê folio 73v",
+   "width": 590,
+   "height": 735,
+   "color": "#a99e8a",
+   "srcs": [
+    {
+     "w": 590,
+     "h": 735,
+     "src": "img/codex/akte-73v-dioscoride-vienne-590.webp",
+     "bytes": 61096
+    }
+   ]
+  },
+  {
+   "id": "anemone-e-phoinike-25v-dioscoride-vienne",
+   "role": "plant",
+   "label": "ἀνεμώνη, fol. 25v",
+   "taxa": [
+    "Anemone coronaria"
+   ],
+   "basis": "folio-lemma",
+   "work": "Vienna Dioscurides (Codex Vindobonensis med. gr. 1)",
+   "made": "Constantinople, c. 512 CE",
+   "holder": "Österreichische Nationalbibliothek, Vienna",
+   "commons_title": "File:Anemonê ê phoinikê 25v Dioscoride Vienne.png",
+   "commons_page": "https://commons.wikimedia.org/wiki/File:Anemon%C3%AA_%C3%AA_phoinik%C3%AA_25v_Dioscoride_Vienne.png",
+   "source_url": "https://upload.wikimedia.org/wikipedia/commons/1/18/Anemon%C3%AA_%C3%AA_phoinik%C3%AA_25v_Dioscoride_Vienne.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "artist": "Unknown Byzantine illuminators",
+   "date": "c. 512",
+   "licence": "Public domain",
+   "licence_url": null,
+   "description": "anemonê ê phoinikê folio 25v",
+   "width": 565,
+   "height": 765,
+   "color": "#b2a688",
+   "srcs": [
+    {
+     "w": 565,
+     "h": 765,
+     "src": "img/codex/anemone-e-phoinike-25v-dioscoride-vienne-565.webp",
+     "bytes": 60174
+    }
+   ]
+  },
+  {
+   "id": "mekon-hemeros-kepaios-221v-dioscoride-vienne",
+   "role": "plant",
+   "label": "μήκων ἥμερος, fol. 221v",
+   "taxa": [
+    "Papaver somniferum"
+   ],
+   "basis": "folio-lemma",
+   "work": "Vienna Dioscurides (Codex Vindobonensis med. gr. 1)",
+   "made": "Constantinople, c. 512 CE",
+   "holder": "Österreichische Nationalbibliothek, Vienna",
+   "commons_title": "File:Mêkôn hêmeros kêpaios 221v Dioscoride Vienne.png",
+   "commons_page": "https://commons.wikimedia.org/wiki/File:M%C3%AAk%C3%B4n_h%C3%AAmeros_k%C3%AApaios_221v_Dioscoride_Vienne.png",
+   "source_url": "https://upload.wikimedia.org/wikipedia/commons/3/34/M%C3%AAk%C3%B4n_h%C3%AAmeros_k%C3%AApaios_221v_Dioscoride_Vienne.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "artist": "Unknown Byzantine illuminators",
+   "date": "c. 512",
+   "licence": "Public domain",
+   "licence_url": null,
+   "description": "mêkôn hêmeros kêpaios folio 221v",
+   "width": 557,
+   "height": 780,
+   "color": "#9f937f",
+   "srcs": [
+    {
+     "w": 557,
+     "h": 780,
+     "src": "img/codex/mekon-hemeros-kepaios-221v-dioscoride-vienne-557.webp",
+     "bytes": 49646
+    }
+   ]
+  },
+  {
+   "id": "phakos-365v-dioscoride-vienne",
+   "role": "plant",
+   "label": "φακός, fol. 365v",
+   "taxa": [
+    "Vicia lens"
+   ],
+   "basis": "commons-binomial",
+   "work": "Vienna Dioscurides (Codex Vindobonensis med. gr. 1)",
+   "made": "Constantinople, c. 512 CE",
+   "holder": "Österreichische Nationalbibliothek, Vienna",
+   "commons_title": "File:Phakos 365v Dioscoride Vienne.png",
+   "commons_page": "https://commons.wikimedia.org/wiki/File:Phakos_365v_Dioscoride_Vienne.png",
+   "source_url": "https://upload.wikimedia.org/wikipedia/commons/6/68/Phakos_365v_Dioscoride_Vienne.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "artist": "Unknown Byzantine illuminators",
+   "date": "c. 512",
+   "licence": "Public domain",
+   "licence_url": null,
+   "description": "Lens culinaris folio 365v",
+   "width": 590,
+   "height": 733,
+   "color": "#ab9a81",
+   "srcs": [
+    {
+     "w": 590,
+     "h": 733,
+     "src": "img/codex/phakos-365v-dioscoride-vienne-590.webp",
+     "bytes": 51496
+    }
+   ]
+  },
+  {
+   "id": "phasiolos-370v-dioscoride-vienne",
+   "role": "plant",
+   "label": "φασίολος, fol. 370v",
+   "taxa": [
+    "Vigna unguiculata"
+   ],
+   "basis": "commons-binomial",
+   "work": "Vienna Dioscurides (Codex Vindobonensis med. gr. 1)",
+   "made": "Constantinople, c. 512 CE",
+   "holder": "Österreichische Nationalbibliothek, Vienna",
+   "commons_title": "File:Phasiolos 370v Dioscoride Vienne.png",
+   "commons_page": "https://commons.wikimedia.org/wiki/File:Phasiolos_370v_Dioscoride_Vienne.png",
+   "source_url": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Phasiolos_370v_Dioscoride_Vienne.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "artist": "Unknown Byzantine illuminators",
+   "date": "c. 512",
+   "licence": "Public domain",
+   "licence_url": null,
+   "description": "Vigna unguiculata folio 370v",
+   "width": 565,
+   "height": 769,
+   "color": "#a29581",
+   "srcs": [
+    {
+     "w": 565,
+     "h": 769,
+     "src": "img/codex/phasiolos-370v-dioscoride-vienne-565.webp",
+     "bytes": 30258
+    }
+   ]
+  },
+  {
+   "id": "rhododaphne-283r-dioscoride-vienne",
+   "role": "plant",
+   "label": "ῥοδοδάφνη, fol. 283r",
+   "taxa": [
+    "Nerium oleander"
+   ],
+   "basis": "commons-binomial",
+   "work": "Vienna Dioscurides (Codex Vindobonensis med. gr. 1)",
+   "made": "Constantinople, c. 512 CE",
+   "holder": "Österreichische Nationalbibliothek, Vienna",
+   "commons_title": "File:Rhododaphnê 283r Dioscoride Vienne.png",
+   "commons_page": "https://commons.wikimedia.org/wiki/File:Rhododaphn%C3%AA_283r_Dioscoride_Vienne.png",
+   "source_url": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Rhododaphn%C3%AA_283r_Dioscoride_Vienne.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "artist": "Unknown Byzantine illuminators",
+   "date": "c. 512",
+   "licence": "Public domain",
+   "licence_url": null,
+   "description": "Nerium oleander folio 283r",
+   "width": 552,
+   "height": 786,
+   "color": "#8f806d",
+   "srcs": [
+    {
+     "w": 552,
+     "h": 786,
+     "src": "img/codex/rhododaphne-283r-dioscoride-vienne-552.webp",
+     "bytes": 68538
+    }
+   ]
+  },
+  {
+   "id": "selinon-kepaion-306r-dioscoride-vienne",
+   "role": "plant",
+   "label": "σέλινον κηπαῖον, fol. 306r",
+   "taxa": [
+    "Apium graveolens"
+   ],
+   "basis": "commons-binomial",
+   "work": "Vienna Dioscurides (Codex Vindobonensis med. gr. 1)",
+   "made": "Constantinople, c. 512 CE",
+   "holder": "Österreichische Nationalbibliothek, Vienna",
+   "commons_title": "File:Selinon kêpaion 306r Dioscoride Vienne.png",
+   "commons_page": "https://commons.wikimedia.org/wiki/File:Selinon_k%C3%AApaion_306r_Dioscoride_Vienne.png",
+   "source_url": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Selinon_k%C3%AApaion_306r_Dioscoride_Vienne.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "artist": "Unknown Byzantine illuminators",
+   "date": "c. 512",
+   "licence": "Public domain",
+   "licence_url": null,
+   "description": "Apium graveolens folio 306r",
+   "width": 562,
+   "height": 772,
+   "color": "#a4947d",
+   "srcs": [
+    {
+     "w": 562,
+     "h": 772,
+     "src": "img/codex/selinon-kepaion-306r-dioscoride-vienne-562.webp",
+     "bytes": 38382
+    }
+   ]
+  },
+  {
+   "id": "seutlon-melan-agrion-302r-dioscoride-vienne",
+   "role": "plant",
+   "label": "σεῦτλον, fol. 302r",
+   "taxa": [
+    "Beta vulgaris"
+   ],
+   "basis": "commons-binomial",
+   "work": "Vienna Dioscurides (Codex Vindobonensis med. gr. 1)",
+   "made": "Constantinople, c. 512 CE",
+   "holder": "Österreichische Nationalbibliothek, Vienna",
+   "commons_title": "File:Seutlon melan agrion 302r Dioscoride Vienne.png",
+   "commons_page": "https://commons.wikimedia.org/wiki/File:Seutlon_melan_agrion_302r_Dioscoride_Vienne.png",
+   "source_url": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Seutlon_melan_agrion_302r_Dioscoride_Vienne.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "artist": "Unknown Byzantine illuminators",
+   "date": "c. 512",
+   "licence": "Public domain",
+   "licence_url": null,
+   "description": "Beta vulgaris folio 302r",
+   "width": 553,
+   "height": 785,
+   "color": "#a89c8c",
+   "srcs": [
+    {
+     "w": 553,
+     "h": 785,
+     "src": "img/codex/seutlon-melan-agrion-302r-dioscoride-vienne-553.webp",
+     "bytes": 33194
+    }
+   ]
+  },
+  {
+   "id": "sinepi-kepaion-310r-dioscoride-vienne",
+   "role": "plant",
+   "label": "σίναπι κηπαῖον, fol. 310r",
+   "taxa": [
+    "Sinapis alba"
+   ],
+   "basis": "commons-binomial",
+   "work": "Vienna Dioscurides (Codex Vindobonensis med. gr. 1)",
+   "made": "Constantinople, c. 512 CE",
+   "holder": "Österreichische Nationalbibliothek, Vienna",
+   "commons_title": "File:Sinêpi kêpaion 310r Dioscoride Vienne.png",
+   "commons_page": "https://commons.wikimedia.org/wiki/File:Sin%C3%AApi_k%C3%AApaion_310r_Dioscoride_Vienne.png",
+   "source_url": "https://upload.wikimedia.org/wikipedia/commons/4/45/Sin%C3%AApi_k%C3%AApaion_310r_Dioscoride_Vienne.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "artist": "Unknown Byzantine illuminators",
+   "date": "c. 512",
+   "licence": "Public domain",
+   "licence_url": null,
+   "description": "Sinapis alba folio 310r",
+   "width": 526,
+   "height": 823,
+   "color": "#ad9b7d",
+   "srcs": [
+    {
+     "w": 526,
+     "h": 823,
+     "src": "img/codex/sinepi-kepaion-310r-dioscoride-vienne-526.webp",
+     "bytes": 41004
+    }
+   ]
+  },
+  {
+   "id": "strukhnos-melas-kepaios-292v-dioscoride-vienne",
+   "role": "plant",
+   "label": "στρύχνος κηπαῖος, fol. 292v",
+   "taxa": [
+    "Solanum nigrum"
+   ],
+   "basis": "commons-binomial",
+   "work": "Vienna Dioscurides (Codex Vindobonensis med. gr. 1)",
+   "made": "Constantinople, c. 512 CE",
+   "holder": "Österreichische Nationalbibliothek, Vienna",
+   "commons_title": "File:Strukhnos melas kêpaios 292v Dioscoride Vienne.png",
+   "commons_page": "https://commons.wikimedia.org/wiki/File:Strukhnos_melas_k%C3%AApaios_292v_Dioscoride_Vienne.png",
+   "source_url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Strukhnos_melas_k%C3%AApaios_292v_Dioscoride_Vienne.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "artist": "Unknown Byzantine illuminators",
+   "date": "c. 512",
+   "licence": "Public domain",
+   "licence_url": null,
+   "description": "Solanum nigrum folio 292v",
+   "width": 555,
+   "height": 778,
+   "color": "#a89884",
+   "srcs": [
+    {
+     "w": 555,
+     "h": 778,
+     "src": "img/codex/strukhnos-melas-kepaios-292v-dioscoride-vienne-555.webp",
+     "bytes": 67902
+    }
+   ]
+  },
+  {
+   "id": "tragopogon-340r-dioscoride-vienne",
+   "role": "plant",
+   "label": "τραγοπώγων, fol. 340r",
+   "taxa": [
+    "Tragopogon porrifolius"
+   ],
+   "basis": "commons-binomial",
+   "work": "Vienna Dioscurides (Codex Vindobonensis med. gr. 1)",
+   "made": "Constantinople, c. 512 CE",
+   "holder": "Österreichische Nationalbibliothek, Vienna",
+   "commons_title": "File:Tragopôgôn 340r Dioscoride Vienne.png",
+   "commons_page": "https://commons.wikimedia.org/wiki/File:Tragop%C3%B4g%C3%B4n_340r_Dioscoride_Vienne.png",
+   "source_url": "https://upload.wikimedia.org/wikipedia/commons/4/42/Tragop%C3%B4g%C3%B4n_340r_Dioscoride_Vienne.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "artist": "Unknown Byzantine illuminators",
+   "date": "c. 512",
+   "licence": "Public domain",
+   "licence_url": null,
+   "description": "probably Tragopogon porrifolius folio 340r",
+   "width": 570,
+   "height": 758,
+   "color": "#a0907c",
+   "srcs": [
+    {
+     "w": 570,
+     "h": 758,
+     "src": "img/codex/tragopogon-340r-dioscoride-vienne-570.webp",
+     "bytes": 25634
+    }
+   ]
+  },
+  {
+   "id": "prason-kepaion-278r-dioscoride-vienne",
+   "role": "plant",
+   "label": "πράσον κηπαῖον, fol. 278r",
+   "taxa": [
+    "Allium ampeloprasum"
+   ],
+   "basis": "commons-binomial",
+   "work": "Vienna Dioscurides (Codex Vindobonensis med. gr. 1)",
+   "made": "Constantinople, c. 512 CE",
+   "holder": "Österreichische Nationalbibliothek, Vienna",
+   "commons_title": "File:Prason kêpaion 278r Dioscoride Vienne.png",
+   "commons_page": "https://commons.wikimedia.org/wiki/File:Prason_k%C3%AApaion_278r_Dioscoride_Vienne.png",
+   "source_url": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Prason_k%C3%AApaion_278r_Dioscoride_Vienne.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "artist": "Unknown Byzantine illuminators",
+   "date": "c. 512",
+   "licence": "Public domain",
+   "licence_url": null,
+   "description": "Allium ampeloprasum folio 278r",
+   "width": 488,
+   "height": 889,
+   "color": "#b4a58d",
+   "srcs": [
+    {
+     "w": 488,
+     "h": 889,
+     "src": "img/codex/prason-kepaion-278r-dioscoride-vienne-488.webp",
+     "bytes": 31266
+    }
+   ]
+  },
+  {
+   "id": "ophioscordon-250r-dioscoride-vienne",
+   "role": "plant",
+   "label": "ὀφιόσκορδον, fol. 250r",
+   "taxa": [
+    "Allium scorodoprasum"
+   ],
+   "basis": "commons-binomial",
+   "work": "Vienna Dioscurides (Codex Vindobonensis med. gr. 1)",
+   "made": "Constantinople, c. 512 CE",
+   "holder": "Österreichische Nationalbibliothek, Vienna",
+   "commons_title": "File:Ophioscordon 250r Dioscoride Vienne.png",
+   "commons_page": "https://commons.wikimedia.org/wiki/File:Ophioscordon_250r_Dioscoride_Vienne.png",
+   "source_url": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Ophioscordon_250r_Dioscoride_Vienne.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "artist": "Unknown Byzantine illuminators",
+   "date": "c. 512",
+   "licence": "Public domain",
+   "licence_url": null,
+   "description": "Allium scorodoprasum folio 250r",
+   "width": 505,
+   "height": 853,
+   "color": "#a69680",
+   "srcs": [
+    {
+     "w": 505,
+     "h": 853,
+     "src": "img/codex/ophioscordon-250r-dioscoride-vienne-505.webp",
+     "bytes": 43762
+    }
+   ]
+  },
+  {
+   "id": "khondros-376v-dioscoride-vienne",
+   "role": "plant",
+   "label": "χόνδρος, fol. 376v",
+   "taxa": [
+    "Hordeum vulgare"
+   ],
+   "basis": "commons-binomial",
+   "work": "Vienna Dioscurides (Codex Vindobonensis med. gr. 1)",
+   "made": "Constantinople, c. 512 CE",
+   "holder": "Österreichische Nationalbibliothek, Vienna",
+   "commons_title": "File:Khondros 376v Dioscoride Vienne.png",
+   "commons_page": "https://commons.wikimedia.org/wiki/File:Khondros_376v_Dioscoride_Vienne.png",
+   "source_url": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Khondros_376v_Dioscoride_Vienne.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "artist": "Unknown Byzantine illuminators",
+   "date": "c. 512",
+   "licence": "Public domain",
+   "licence_url": null,
+   "description": "Hordeum vulgare folio 376v",
+   "width": 496,
+   "height": 873,
+   "color": "#b4a490",
+   "srcs": [
+    {
+     "w": 496,
+     "h": 873,
+     "src": "img/codex/khondros-376v-dioscoride-vienne-496.webp",
+     "bytes": 32770
+    }
+   ]
+  },
+  {
+   "id": "de-historia-stirpium-commentarii-insignes-page-549-936500657",
+   "role": "plant",
+   "label": "OCIMVM MAGNVM",
+   "taxa": [
+    "Ocimum basilicum"
+   ],
+   "basis": "page-heading",
+   "work": "Leonhart Fuchs, De historia stirpium commentarii insignes",
+   "made": "Basel, 1542",
+   "holder": null,
+   "commons_title": "File:De historia stirpium commentarii insignes (Page 549) (9365006571).jpg",
+   "commons_page": "https://commons.wikimedia.org/wiki/File:De_historia_stirpium_commentarii_insignes_(Page_549)_(9365006571).jpg",
+   "source_url": "https://upload.wikimedia.org/wikipedia/commons/7/7c/De_historia_stirpium_commentarii_insignes_%28Page_549%29_%289365006571%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "artist": "Fuchs, Leonhart; Füllmaurer, Heinrich; Meyer, Albrecht; Specklin, Veit Rudolph",
+   "date": "1542",
+   "licence": "Public domain",
+   "licence_url": null,
+   "description": "?4* OCIMVM MAGNVM, 6w$83.tfiltott",
+   "width": 1380,
+   "height": 2394,
+   "color": "#d9c5ae",
+   "srcs": [
+    {
+     "w": 1200,
+     "h": 2082,
+     "src": "img/codex/de-historia-stirpium-commentarii-insignes-page-549-936500657-1200.webp",
+     "bytes": 175542
+    },
+    {
+     "w": 640,
+     "h": 1110,
+     "src": "img/codex/de-historia-stirpium-commentarii-insignes-page-549-936500657-640.webp",
+     "bytes": 51084
+    }
+   ]
+  },
+  {
+   "id": "de-historia-stirpium-commentarii-insignes-page-509-936776263",
+   "role": "plant",
+   "label": "MALVA SYLVESTRIS ELATIOR",
+   "taxa": [
+    "Malva sylvestris"
+   ],
+   "basis": "page-heading",
+   "work": "Leonhart Fuchs, De historia stirpium commentarii insignes",
+   "made": "Basel, 1542",
+   "holder": null,
+   "commons_title": "File:De historia stirpium commentarii insignes (Page 509) (9367762632).jpg",
+   "commons_page": "https://commons.wikimedia.org/wiki/File:De_historia_stirpium_commentarii_insignes_(Page_509)_(9367762632).jpg",
+   "source_url": "https://upload.wikimedia.org/wikipedia/commons/2/28/De_historia_stirpium_commentarii_insignes_%28Page_509%29_%289367762632%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "artist": "Fuchs, Leonhart; Füllmaurer, Heinrich; Meyer, Albrecht; Specklin, Veit Rudolph",
+   "date": "1542",
+   "licence": "Public domain",
+   "licence_url": null,
+   "description": "MALVA SYLVESTRIS ELATIOR. %0$p.Xpptl",
+   "width": 1380,
+   "height": 2394,
+   "color": "#dcc8b1",
+   "srcs": [
+    {
+     "w": 1200,
+     "h": 2082,
+     "src": "img/codex/de-historia-stirpium-commentarii-insignes-page-509-936776263-1200.webp",
+     "bytes": 202948
+    },
+    {
+     "w": 640,
+     "h": 1110,
+     "src": "img/codex/de-historia-stirpium-commentarii-insignes-page-509-936776263-640.webp",
+     "bytes": 67422
+    }
+   ]
+  },
+  {
+   "id": "de-historia-stirpium-commentarii-insignes-page-592-936503629",
+   "role": "plant",
+   "label": "VERBENACA SIVE MAS",
+   "taxa": [
+    "Verbena officinalis"
+   ],
+   "basis": "page-heading",
+   "work": "Leonhart Fuchs, De historia stirpium commentarii insignes",
+   "made": "Basel, 1542",
+   "holder": null,
+   "commons_title": "File:De historia stirpium commentarii insignes (Page 592) (9365036297).jpg",
+   "commons_page": "https://commons.wikimedia.org/wiki/File:De_historia_stirpium_commentarii_insignes_(Page_592)_(9365036297).jpg",
+   "source_url": "https://upload.wikimedia.org/wikipedia/commons/0/02/De_historia_stirpium_commentarii_insignes_%28Page_592%29_%289365036297%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "artist": "Fuchs, Leonhart; Füllmaurer, Heinrich; Meyer, Albrecht; Specklin, Veit Rudolph",
+   "date": "1542",
+   "licence": "Public domain",
+   "licence_url": null,
+   "description": "VERBENACA S I V E M A S, i£i.mtr.mt tnmnU*",
+   "width": 1360,
+   "height": 2367,
+   "color": "#d5c4b0",
+   "srcs": [
+    {
+     "w": 1200,
+     "h": 2089,
+     "src": "img/codex/de-historia-stirpium-commentarii-insignes-page-592-936503629-1200.webp",
+     "bytes": 215576
+    },
+    {
+     "w": 640,
+     "h": 1114,
+     "src": "img/codex/de-historia-stirpium-commentarii-insignes-page-592-936503629-640.webp",
+     "bytes": 73516
+    }
+   ]
+  },
+  {
+   "id": "de-historia-stirpium-commentarii-insignes-page-530-936777608",
+   "role": "plant",
+   "label": "MANDRAGORA MAS",
+   "taxa": [
+    "Mandragora officinarum"
+   ],
+   "basis": "page-heading",
+   "work": "Leonhart Fuchs, De historia stirpium commentarii insignes",
+   "made": "Basel, 1542",
+   "holder": null,
+   "commons_title": "File:De historia stirpium commentarii insignes (Page 530) (9367776086).jpg",
+   "commons_page": "https://commons.wikimedia.org/wiki/File:De_historia_stirpium_commentarii_insignes_(Page_530)_(9367776086).jpg",
+   "source_url": "https://upload.wikimedia.org/wikipedia/commons/e/eb/De_historia_stirpium_commentarii_insignes_%28Page_530%29_%289367776086%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "artist": "Fuchs, Leonhart; Füllmaurer, Heinrich; Meyer, Albrecht; Specklin, Veit Rudolph",
+   "date": "1542",
+   "licence": "Public domain",
+   "licence_url": null,
+   "description": "MANDRAGORA MAS, $Ktatttnmmnfe,",
+   "width": 1375,
+   "height": 2367,
+   "color": "#d7c1aa",
+   "srcs": [
+    {
+     "w": 1200,
+     "h": 2066,
+     "src": "img/codex/de-historia-stirpium-commentarii-insignes-page-530-936777608-1200.webp",
+     "bytes": 173526
+    },
+    {
+     "w": 640,
+     "h": 1102,
+     "src": "img/codex/de-historia-stirpium-commentarii-insignes-page-530-936777608-640.webp",
+     "bytes": 55450
+    }
+   ]
+  },
+  {
+   "id": "de-historia-stirpium-commentarii-insignes-page-38-9364632659",
+   "role": "plant",
+   "label": "PLANTAGO MAIOR",
+   "taxa": [
+    "Plantago major"
+   ],
+   "basis": "page-heading",
+   "work": "Leonhart Fuchs, De historia stirpium commentarii insignes",
+   "made": "Basel, 1542",
+   "holder": null,
+   "commons_title": "File:De historia stirpium commentarii insignes (Page 38) (9364632659).jpg",
+   "commons_page": "https://commons.wikimedia.org/wiki/File:De_historia_stirpium_commentarii_insignes_(Page_38)_(9364632659).jpg",
+   "source_url": "https://upload.wikimedia.org/wikipedia/commons/f/f1/De_historia_stirpium_commentarii_insignes_%28Page_38%29_%289364632659%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "artist": "Fuchs, Leonhart; Füllmaurer, Heinrich; Meyer, Albrecht; Specklin, Veit Rudolph",
+   "date": "1542",
+   "licence": "Public domain",
+   "licence_url": null,
+   "description": "3* PLANTAGO MAIQR,",
+   "width": 1426,
+   "height": 2394,
+   "color": "#dcc5ad",
+   "srcs": [
+    {
+     "w": 1200,
+     "h": 2015,
+     "src": "img/codex/de-historia-stirpium-commentarii-insignes-page-38-9364632659-1200.webp",
+     "bytes": 154404
+    },
+    {
+     "w": 640,
+     "h": 1074,
+     "src": "img/codex/de-historia-stirpium-commentarii-insignes-page-38-9364632659-640.webp",
+     "bytes": 46316
+    }
+   ]
+  },
+  {
+   "id": "vellum-texture",
+   "role": "texture",
+   "label": "Vellum ground of this site",
+   "taxa": [],
+   "basis": null,
+   "work": "Vienna Dioscurides (Codex Vindobonensis med. gr. 1)",
+   "made": "Constantinople, c. 512 CE",
+   "holder": "Österreichische Nationalbibliothek, Vienna",
+   "commons_title": "File:Wiener Dioskurides Seerosen.jpg",
+   "commons_page": "https://commons.wikimedia.org/wiki/File:Wiener_Dioskurides_Seerosen.jpg",
+   "source_url": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Wiener_Dioskurides_Seerosen.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "artist": "Unknown Byzantine illuminators",
+   "date": "c. 512",
+   "licence": "Public domain",
+   "licence_url": null,
+   "description": "A blank 720 px square of the lower margin of this folio (pixels 441–1161, 3600–4320 of the original), deblocked (box-halved and Lanczos-restored to remove JPEG block edges), tone-mapped toward #e3d5b3 at 55% of its variation, given a faint isotropic grain and made seamless; used as the page background.",
+   "width": 720,
+   "height": 720,
+   "color": "#e3d5b3",
+   "srcs": [
+    {
+     "w": 720,
+     "h": 720,
+     "src": "img/vellum.webp",
+     "bytes": 17032
+    }
+   ]
+  }
+ ]
+}
