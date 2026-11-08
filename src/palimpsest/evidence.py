@@ -17,6 +17,7 @@ import json
 import random
 from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timezone
+from pathlib import Path
 
 import pandas as pd
 
@@ -90,10 +91,17 @@ def _pmap(fn, items, workers):
         return list(ex.map(fn, items))
 
 
-def run_evidence(workers: int = 24) -> dict:
+def run_evidence(workers: int = 24, out_processed: Path | None = None,
+                 out_results: Path | None = None) -> dict:
+    """``out_processed`` / ``out_results`` redirect the outputs (default:
+    ``data/processed`` and ``results``); inputs are always read from PROCESSED."""
     from .sources import clinicaltrials, europepmc, gbif
 
     ensure_dirs()
+    out_processed = Path(out_processed) if out_processed else PROCESSED
+    out_results = Path(out_results) if out_results else RESULTS
+    out_processed.mkdir(parents=True, exist_ok=True)
+    out_results.mkdir(parents=True, exist_ok=True)
     claims = pd.read_csv(PROCESSED / "claims.csv")
     mt = pd.read_csv(PROCESSED / "monograph_taxa.csv", dtype=str, keep_default_na=False)
     terms = concept_terms()
@@ -127,7 +135,7 @@ def run_evidence(workers: int = 24) -> dict:
     ev = pd.DataFrame([{"taxon": t, "concept_id": c, "pair": n, "taxon_total": taxon_total[t],
                         "concept_total": concept_total[c], "N": N}
                        for (t, c), n in zip(plan, counts)])
-    ev.to_csv(PROCESSED / "evidence_pairs.csv", index=False)
+    ev.to_csv(out_processed / "evidence_pairs.csv", index=False)
 
     # ---- per-taxon context: GBIF, Wikidata (LOTUS compounds, IUCN), trials
     sp = mt[(mt.taxon != "")].drop_duplicates("taxon")[["taxon", "taxon_rank", "family", "genus", "gbif_key"]]
@@ -143,8 +151,8 @@ def run_evidence(workers: int = 24) -> dict:
     info, compounds = _wikidata_context(sp, keys)
     sp = sp.merge(info, on="taxon", how="left")
     sp["n_compounds"] = sp.n_compounds.fillna(0).astype(int)
-    sp.to_csv(PROCESSED / "taxon_info.csv", index=False)
-    compounds.to_csv(PROCESSED / "taxon_compounds.csv", index=False)
+    sp.to_csv(out_processed / "taxon_info.csv", index=False)
+    compounds.to_csv(out_processed / "taxon_compounds.csv", index=False)
 
     meta = {
         "queried": datetime.now(timezone.utc).strftime("%Y-%m-%d"),
@@ -154,7 +162,7 @@ def run_evidence(workers: int = 24) -> dict:
         "concept_query_example": europepmc.concept_query(terms["jaundice"]),
         "total_query": europepmc.TOTAL_QUERY,
     }
-    (RESULTS / "evidence_meta.json").write_text(json.dumps(meta, indent=2), encoding="utf-8")
+    (out_results / "evidence_meta.json").write_text(json.dumps(meta, indent=2), encoding="utf-8")
     return {"taxa": len(taxa), "pairs": len(plan), "N": N,
             "taxa_with_compounds": int((sp.n_compounds > 0).sum())}
 

@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 import json
+from pathlib import Path
 
 import numpy as np
 import pandas as pd
@@ -33,12 +34,33 @@ def load_inputs():
     return claims, mt
 
 
-def run_analysis(n_perm: int = 10000) -> dict:
+def run_analysis(n_perm: int = 10000, evidence_dir: Path | None = None,
+                 out_processed: Path | None = None, out_results: Path | None = None) -> dict:
+    """Defaults reproduce the published run. ``evidence_dir`` is where
+    evidence_pairs.csv / taxon_info.csv are read from; ``out_processed`` /
+    ``out_results`` redirect every output (tables/ and figures/ go under
+    ``out_results``). claims.csv and monograph_taxa.csv always come from PROCESSED."""
     ensure_dirs()
+    evidence_dir = Path(evidence_dir) if evidence_dir else PROCESSED
+    out_processed = Path(out_processed) if out_processed else PROCESSED
+    out_results = Path(out_results) if out_results else RESULTS
+    tables = TABLES if out_results == RESULTS else out_results / "tables"
+    for d in (out_processed, out_results, tables):
+        d.mkdir(parents=True, exist_ok=True)
+    default_figs = figures.FIGURES
+    if out_results != RESULTS:
+        figures.FIGURES = out_results / "figures"
+    try:
+        return _run_analysis(n_perm, evidence_dir, out_processed, out_results, tables)
+    finally:
+        figures.FIGURES = default_figs
+
+
+def _run_analysis(n_perm, evidence_dir, out_processed, out_results, tables) -> dict:
     claims, mt = load_inputs()
     concepts = load_concepts()
     tc = taxon_claims(claims, mt, "species")
-    tc.to_csv(PROCESSED / "taxon_claims.csv", index=False)
+    tc.to_csv(out_processed / "taxon_claims.csv", index=False)
 
     # --- 1. transmission Dioscorides -> Culpeper (+ sensitivity analyses)
     trans = transmission_test(tc, n_perm=n_perm)
@@ -58,10 +80,10 @@ def run_analysis(n_perm: int = 10000) -> dict:
     fam = mt[mt.taxon != ""].drop_duplicates("taxon").set_index("taxon").family.to_dict()
     sens["within_family"] = transmission_test(tc, n_perm=5000, strata=fam)
     per_concept = trans["per_concept"].merge(concepts[["concept_id", "label", "category"]], on="concept_id")
-    per_concept.sort_values("both", ascending=False).to_csv(TABLES / "transmission_by_concept.csv", index=False)
+    per_concept.sort_values("both", ascending=False).to_csv(tables / "transmission_by_concept.csv", index=False)
 
     # --- 2. modern evidence
-    ev = pd.read_csv(PROCESSED / "evidence_pairs.csv")
+    ev = pd.read_csv(evidence_dir / "evidence_pairs.csv")
     ev = ev[ev.taxon.isin(set(tc.taxon))]
     N = int(ev.N.iloc[0])
     pairs = ev.merge(tc[["taxon", "concept_id", "n_dsc", "n_cul", "dsc", "cul"]],
@@ -73,7 +95,7 @@ def run_analysis(n_perm: int = 10000) -> dict:
     pairs["group"] = np.select([pairs.dsc & pairs.cul, pairs.dsc, pairs.cul],
                                ["both", "dsc_only", "cul_only"], "unclaimed")
     pairs = add_metrics(pairs, N)
-    pairs.to_csv(PROCESSED / "pairs_scored.csv", index=False)
+    pairs.to_csv(out_processed / "pairs_scored.csv", index=False)
     p = pairs[pairs.taxon_total > 0]
     modern = {
         "N_records": N,
@@ -101,7 +123,7 @@ def run_analysis(n_perm: int = 10000) -> dict:
     }
 
     # --- 3. leads
-    ti_path = PROCESSED / "taxon_info.csv"
+    ti_path = evidence_dir / "taxon_info.csv"
     ti = pd.read_csv(ti_path) if ti_path.exists() else pd.DataFrame({"taxon": []})
     adverse = claims[claims.polarity == "adverse"].merge(mt[["monograph_id", "taxon"]], on="monograph_id")
     # a lead must be supported by a chapter about the plant itself in BOTH herbals,
@@ -119,8 +141,8 @@ def run_analysis(n_perm: int = 10000) -> dict:
                                   set(adverse.taxon) - {""})
     lab = concepts[["concept_id", "label", "category"]]
     leads = leads.merge(lab, on="concept_id", how="left")
-    leads.to_csv(TABLES / "leads.csv", index=False)
-    leads_all.merge(lab, on="concept_id", how="left").to_csv(TABLES / "leads_all.csv", index=False)
+    leads.to_csv(tables / "leads.csv", index=False)
+    leads_all.merge(lab, on="concept_id", how="left").to_csv(tables / "leads_all.csv", index=False)
 
     # --- 4. descriptive
     mc = claims[claims.polarity.isin(["therapeutic", "action"])].merge(
@@ -132,7 +154,7 @@ def run_analysis(n_perm: int = 10000) -> dict:
     for s in ("dioscorides", "culpeper"):
         if s not in cat:
             cat[s] = 0.0
-    cat.to_csv(TABLES / "claims_by_category.csv", index=False)
+    cat.to_csv(tables / "claims_by_category.csv", index=False)
 
     descriptive = {
         "monographs": mt.groupby("source").size().to_dict(),
@@ -167,6 +189,6 @@ def run_analysis(n_perm: int = 10000) -> dict:
     stats = {"descriptive": descriptive, "transmission": trans,
              "transmission_sensitivity": sens, "modern": modern,
              "n_leads": int(len(leads))}
-    (RESULTS / "stats.json").write_text(json.dumps(_jsonable(stats), indent=2, ensure_ascii=False),
+    (out_results / "stats.json").write_text(json.dumps(_jsonable(stats), indent=2, ensure_ascii=False),
                                         encoding="utf-8")
     return stats

@@ -1,0 +1,12 @@
+{
+  "queried": "2026-11-08",
+  "N": 48227744,
+  "n_taxa": 606,
+  "n_pairs": 13138,
+  "k_controls": 12,
+  "seed": 11,
+  "taxon_query": "OR of accepted name, curated names and GBIF synonyms in TITLE_ABS/KW (POST)",
+  "taxon_query_example": "(TITLE_ABS:(\"Artemisia absinthium\" OR \"Absinthium bipedale\" OR \"Absinthium majus\" OR \"Absinthium officinale\" OR \"Absinthium vulgare\" OR \"Artemisia absinthia\" OR \"Artemisia baldaccii\" OR \"Artemisia doonense\" OR \"Artemisia inodora\" OR \"Artemisia kulbadica\" OR \"Artemisia pendula\" OR \"Artemisia rehan\" OR \"Artemisia rhaetica\") OR KW:(\"Artemisia absinthium\" OR \"Absinthium bipedale\" OR \"Absinthium majus\" OR \"Absinthium officinale\" OR \"Absinthium vulgare\" OR \"Artemisia absinthia\" OR \"Artemisia baldaccii\" OR \"Artemisia doonense\" OR \"Artemisia inodora\" OR \"Artemisia kulbadica\" OR \"Artemisia pendula\" OR \"Artemisia rehan\" OR \"Artemisia rhaetica\"))",
+  "concept_query_example": "(TITLE_ABS:(\"jaundice\" OR \"icterus\" OR \"hyperbilirubinemia\" OR \"cholestasis\") OR KW:(\"jaundice\" OR \"icterus\" OR \"hyperbilirubinemia\" OR \"cholestasis\"))",
+  "total_query": "(TITLE_ABS:* OR KW:*)"
+}

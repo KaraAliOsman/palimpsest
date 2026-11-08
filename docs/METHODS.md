@@ -171,3 +171,30 @@ threatened species" means none is *assessed* as VU/EN/CR.
   assistance, as was the curation; a human double-annotated subset (with kappa) is the
   next validation step.
 * Predictions are **hypotheses for laboratory follow-up**, never medical advice.
+
+### Sensitivity: synonym-expanded literature search
+
+To test the accepted-binomial limitation above, every species was re-searched under its accepted
+name OR the curators' names OR all GBIF backbone synonyms (median 10, max 60 names; Europe PMC
+`searchPOST`, same date), with the same claims, the same 12 seeded controls per plant and the same
+models and lead rules (`scripts/sensitivity_synonyms.py`; outputs in `results/sensitivity_synonyms/`,
+full comparison in `summary.md`). The published numbers above are unchanged.
+
+| | Primary (accepted name) | Synonym-expanded |
+|---|---|---|
+| Pairs with ≥ 1 paper | 3,721 / 13,138 | 4,072 / 13,138 |
+| Persistent claims vs matched controls, share studied | 45% vs 32% | 46% vs 35% |
+| Logit OR, persistent (indication FE + plant volume) | 2.77 [2.04–3.77] | 2.48 [1.84–3.36] |
+| Logit OR, Dioscorides-only / Culpeper-only | 1.98 / 1.65 | 2.08 / 1.72 |
+| Conditional logit OR, persistent | 2.29 | 2.07 |
+| Poisson RR given studied, persistent | 1.04 [0.61–1.76] | 1.03 [0.62–1.73] |
+| Within-plant Wilcoxon | p = 1e-15 | p = 2e-17 |
+| Lead candidates (persistent, ≤ 4 papers) | 517 | 511 |
+
+**Conclusions hold.** Synonyms add literature mainly for renamed plants (69 plants at least double;
+rosemary 211 → 2,179, *Vicia lens* 3 → 2,530), but claimed and control indications gain alike, so the
+persistent-claim odds ratio shrinks modestly (2.77 → 2.48) and stays highly significant; the "studied
+whether, not how hard" result is unchanged. Only 6 of 354 unstudied persistent pairs gain a paper; 6 lead
+candidates leave the ≤ 4-paper pool (e.g. *Ruta graveolens* – fevers 2 → 7, *Sinapis alba* – spleen
+3 → 11), none of them in the published top 60. 55 of the top 60 and all top 8 leads are unchanged;
+rosemary–jaundice stays at 0 papers and enters the top 60 (rank 24).

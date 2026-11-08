@@ -1,0 +1,86 @@
+concept_id,both,expected,n_dsc,n_cul,fold,label,category
+skin_ulcers,29,17.9024,38,64,1.603051775855323,Ulcers & sores,Skin & wounds
+envenomation,28,16.2275,46,48,1.7037811986250189,Venomous bites & stings,Toxicology
+inflammation,25,14.5326,45,44,1.6963133456620942,Inflammations / hot swellings,Inflammation
+amenorrhea,25,11.2697,34,45,2.1665802866683093,Provokes menses (emmenagogue),Women's health
+diuresis,21,11.4657,42,37,1.7968025272236476,Urine stoppage / diuretic,Urinary
+ear_disease,19,6.6187,25,36,2.7392641914956384,Ear-ache / running ears,Eye/ear/mouth
+sciatica,18,4.0256,21,26,4.08785575393318,Sciatica / hip pain,Musculoskeletal
+jaundice,18,7.4277,24,42,2.3335898179799943,Jaundice,Hepatobiliary
+spleen_disease,17,7.4194,21,48,2.209763365911559,Spleen complaints,Hepatobiliary
+wounds,16,6.6644,22,41,2.303053989168667,Wounds,Skin & wounds
+kidney_disease,15,8.4412,25,46,1.7335480696103431,Kidney & bladder complaints,Urinary
+uterine_disorders,15,5.73,30,26,2.4879614767255216,Womb complaints,Women's health
+dyspepsia,14,6.0208,24,34,2.223653539443013,Stomach complaints / dyspepsia,Digestive
+erysipelas,14,2.4485,22,15,4.917754790571477,St Anthony's fire / erysipelas,Skin & wounds
+constipation,14,5.9061,25,32,2.263467632412856,Constipation / purging,Digestive
+dermatitis,13,5.9132,26,31,2.1050333686771037,Tetters / eczema / scurf,Skin & wounds
+convulsions,13,3.3115,16,28,3.5419126328217234,Cramps / convulsions,Neurological
+diarrhea,13,4.5222,28,22,2.6880649914380155,Diarrhoea / flux,Digestive
+asthma_dyspnea,12,3.3488,17,27,3.2477655373103302,Asthma / shortness of breath,Respiratory
+bruises,12,4.593,23,27,2.454349106616925,Bruises / falls / sprains,Musculoskeletal
+dysuria,12,3.5477,20,24,3.088173530647034,Strangury / painful urination,Urinary
+cough,11,4.893,18,37,2.1323938438716854,Cough,Respiratory
+edema_dropsy,11,2.939,16,25,3.343995347484734,Dropsy,Cardiovascular & blood
+sore_throat,10,2.6172,15,24,3.3684075452329014,Sore throat / quinsy,Respiratory
+burns,10,1.3297,10,18,5.7386456796196095,Burns,Skin & wounds
+urolithiasis,10,3.5656,11,44,2.5826446280991737,Stone & gravel,Urinary
+toothache,10,2.702,16,23,3.279200499687695,Toothache,Eye/ear/mouth
+poisoning,10,3.5307,20,24,2.6050065745404027,Poisons / antidote,Toxicology
+gout,10,3.3782,12,38,2.707441596616987,Gout,Musculoskeletal
+eye_disease,9,4.973,27,25,1.7357938973140874,Eye complaints / dim sight,Eye/ear/mouth
+dysentery,9,1.5348,13,16,4.668763514841754,Dysentery / bloody flux,Digestive
+colic,9,3.7642,15,34,2.22785047605647,Colic / gripes,Digestive
+helminthiasis,9,2.3431,10,32,3.3414230945095142,Intestinal worms,Digestive
+headache,8,2.3848,13,25,2.9464780920687743,Headache / megrim,Neurological
+abscess,8,3.6632,25,20,2.0416986933128363,Boils / imposthumes / felons,Skin & wounds
+skin_blemishes,8,3.2371,10,44,2.2744909154156967,Freckles / spots / sunburn,Skin & wounds
+scaly_skin,8,2.2064,23,13,3.14070351758794,Lepra / scaly skin,Skin & wounds
+epilepsy,8,1.299,8,22,4.724847137298499,Falling sickness,Neurological
+liver_disease,7,3.7279,13,39,1.7739303200170298,Liver complaints,Hepatobiliary
+itch_scabies,7,2.9183,12,33,2.1940730772606267,Itch / scabies,Skin & wounds
+hemorrhage,7,1.3787,11,17,3.9921222121679882,Bleeding / staunching blood,Cardiovascular & blood
+delirium,6,1.0324,7,20,4.241712346645785,Frenzy / lethargy,Neurological
+tuberculosis,6,0.6495,6,15,5.654632448890823,Consumption / phthisis,Respiratory
+lactation,6,0.885,12,10,4.693140794223827,Breast milk,Women's health
+fever,6,3.6156,13,38,1.5793565944212262,Fevers / agues,Fever & infection
+mouth_gums,5,1.107,7,22,3.4225264467952705,Mouth sores / gums,Eye/ear/mouth
+hemoptysis,5,0.5898,10,8,5.046797577537164,Spitting blood,Cardiovascular & blood
+conjunctivitis,5,1.6011,12,18,2.617676455190139,Ophthalmia / sore eyes,Eye/ear/mouth
+flatulence,4,2.6041,17,21,1.4496955639315745,Flatulence / wind,Digestive
+nausea_vomiting,4,1.0701,12,12,2.866059486656901,Nausea & vomiting,Digestive
+hemorrhoids,4,1.2387,9,19,2.5881405647897857,Haemorrhoids / piles,Digestive
+appetite_loss,3,0.5258,7,10,3.4119711444726066,Loss of appetite,Digestive
+alopecia,3,0.36,6,8,4.069767441860465,Hair loss,Skin & wounds
+heart,3,0.3424,3,16,4.154795821462488,Heart complaints / swooning,Cardiovascular & blood
+warts,3,0.3589,7,7,4.074979625101874,Warts & corns,Skin & wounds
+menorrhagia,3,0.8634,9,13,2.5671116326829986,Excess menstrual bleeding,Women's health
+malaria,3,0.7396,10,10,2.823491448854469,Quartan & tertian agues,Fever & infection
+insomnia,3,0.3033,6,7,4.357027262542014,Sleeplessness / soporific,Neurological
+sexual_function,3,0.5926,10,8,3.2033681127585574,Venery / sexual function,Reproductive
+joint_pain,3,1.1828,10,16,2.0798668885191347,Joint pains / arthritis,Musculoskeletal
+labor,3,1.2908,7,25,1.954433772615591,Childbirth / afterbirth,Women's health
+hiccup,3,0.1434,4,5,5.4398507926639725,Hiccup,Digestive
+paralysis,2,0.3113,3,14,3.0814741772463945,Palsy,Neurological
+melancholy,2,0.1047,2,7,4.134281461881925,Melancholy / low spirits,Mental health
+rabies,2,0.1885,2,13,3.6310820624546114,Mad-dog bite,Toxicology
+common_cold,2,0.5647,3,26,2.348079271156194,Catarrh / colds,Respiratory
+vertigo,1,0.0349,1,5,2.804262478968031,Vertigo / dizziness,Neurological
+infertility,1,0.0233,3,1,2.8664246130326774,Barrenness / conception,Women's health
+contraception,1,0.0727,5,2,2.6191723415400734,Contraception,Women's health
+scrofula,1,0.7352,10,10,1.214378238341969,King's evil / struma,Oncology
+pain,1,2.1874,10,30,0.5581603036392052,Pain / anodyne,Pain
+plague,1,0.3995,2,27,1.6675931072818233,Plague / pestilence,Fever & infection
+intoxication,1,0.0673,3,3,2.644103648863035,Drunkenness / hangover,Toxicology
+pleurisy_pneumonia,1,0.4466,10,6,1.584618635115149,Pleurisy / chest inflammation,Respiratory
+cancer,0,0.2652,3,12,0.6534239414532148,Cancers / hard tumours,Oncology
+abortifacient,0,0.0,15,0,1.0,Abortifacient / miscarriage,Women's health
+anxiety,0,0.0,0,2,1.0,Fear / disturbed mind,Mental health
+lice,0,0.1518,5,4,0.7671064743786439,Lice & vermin,Parasites
+leukorrhea,0,0.0,0,8,1.0,The whites (leucorrhoea),Women's health
+memory,0,0.0,0,6,1.0,Memory / dull wits,Neurological
+nosebleed,0,0.0561,2,4,0.8991188635137565,Nose-bleeding,Cardiovascular & blood
+syphilis,0,0.0,0,5,1.0,French pox,Fever & infection
+stroke,0,0.0,0,4,1.0,Apoplexy,Neurological
+scurvy,0,0.0,0,3,1.0,Scurvy,Metabolic
+tinea,0,0.0,0,11,1.0,Ringworm,Skin & wounds

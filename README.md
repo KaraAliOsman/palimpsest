@@ -41,6 +41,9 @@ within-plant Wilcoxon p = 1e-15. Yet **once studied, persistent claims are not s
 at least one paper, the rate ratio is 1.04 [0.61–1.76] (n.s.).
 Tradition predicts *whether* modern research looked, not *how hard* — that gap is where the leads are.
 Co-mention measures attention, not efficacy.
+*Sensitivity:* re-searching every plant under all its GBIF synonyms (rosemary 211 → 2,179 papers) leaves the
+conclusions intact: persistent-claim OR 2.48 [1.84–3.36], RR once studied 1.03 (n.s.), 55 of the 60 leads and all top 8
+unchanged ([`results/sensitivity_synonyms/summary.md`](results/sensitivity_synonyms/summary.md), METHODS §8).
 
 ![Evidence by group](results/figures/fig2_evidence_by_group.png)
 ![Odds ratios](results/figures/fig3_odds_ratios.png)
