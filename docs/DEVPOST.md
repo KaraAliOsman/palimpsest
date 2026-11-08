@@ -21,10 +21,10 @@ literature, clinical trials, phytochemistry and conservation data.
 | | |
 |---|---|
 | **Corpus** | 822 Greek chapters of Dioscorides + 328 Culpeper monographs → 692 accepted taxa (466 species in Dioscorides, 315 in Culpeper; 136 with claims in both) |
-| **Claims** | 10,399 provenance-anchored indication mentions (85 MeSH-linked concepts) |
+| **Claims** | 10,400 provenance-anchored indication mentions (85 MeSH-linked concepts) |
 | **Extraction accuracy** (blind reference, 50 + 49 monographs) | Ancient Greek **F1 0.86** [0.81–0.89] (P 0.88, R 0.83) · Early Modern English **F1 0.9** [0.88–0.92] (P 0.9, R 0.9) |
 | **Name concordance** | 99.2% resolved on the GBIF backbone; agreement with independent Wikidata Greek names 64%, with GBIF English names 72% (indicative checks) |
-| **Modern evidence** | 12,797 plant–indication pairs queried against 48,227,744 Europe PMC records; 18,498 LOTUS constituents; knowledge graph of 20,425 nodes / 51,430 edges |
+| **Modern evidence** | 12,797 plant–indication pairs queried against 48,227,744 Europe PMC records; 18,498 LOTUS constituents; knowledge graph of 20,425 nodes / 51,431 edges |
 
 **1 · Knowledge persisted.** For the 136 species with claims in both herbals, Culpeper (1653)
 repeats Dioscorides' (c. 60 CE) indication for the same plant **2.65× more often than chance**

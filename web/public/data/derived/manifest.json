@@ -29,8 +29,8 @@
    "path": "data/processed/kg/edges.csv",
    "what": "Knowledge graph: edges, with provenance spans and quotes",
    "format": "CSV",
-   "bytes": 4623129,
-   "rows": 51430,
+   "bytes": 4623213,
+   "rows": 51431,
    "columns": [
     "source",
     "target",
@@ -52,7 +52,7 @@
    "path": "data/processed/kg/palimpsest.graphml",
    "what": "Knowledge graph, all attributes",
    "format": "GraphML",
-   "bytes": 30418660,
+   "bytes": 30419078,
    "rows": null,
    "columns": null
   },
@@ -61,8 +61,8 @@
    "path": "data/processed/claims.csv",
    "what": "Every extracted claim with its character span and clause",
    "format": "CSV",
-   "bytes": 4228672,
-   "rows": 10658,
+   "bytes": 4226935,
+   "rows": 10659,
    "columns": [
     "claim_id",
     "monograph_id",

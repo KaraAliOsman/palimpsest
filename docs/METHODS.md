@@ -76,7 +76,8 @@ precision on random corpus hits (`*_audit.md`). Overlapping hits are resolved
 longest-match-first; English negation/warning cues in the same clause ("hurtful to",
 "forbear") mark a hit as negated. Only therapeutic and action claims enter the analyses.
 
-*Evaluation.* 50 Dioscorides chapters and 50 Culpeper monographs were drawn at random
+*Evaluation.* 50 Dioscorides chapters and 50 Culpeper monographs (49 evaluable: one inherits its
+virtues text from a sibling entry and is excluded) were drawn at random
 (seed 2026) and annotated **blind** to the lexicons (annotator never saw the patterns),
 with a verbatim quotation for every reference claim. We report precision, recall and F1
 at the (monograph, concept) level with 95 % bootstrap CIs over monographs
@@ -147,6 +148,11 @@ product chapter such as an oil, a wine or bird-lime). Mentions count distinct cl
 lexical hits. Most leads concern plants without an IUCN assessment; "no lead depends on a
 threatened species" means none is *assessed* as VU/EN/CR.
 
+*Denominators.* Primary modern-evidence models use the 585 species with ≥ 1 paper (12,797 pairs);
+the 21 species with no literature at all are excluded from the models but listed in the data
+(13,138 pairs in total). Claim counts quoted as 10,400 are therapeutic/action claims; the claims
+file also holds adverse and negated mentions.
+
 ## 8. Limitations (read before citing any number)
 
 * **Circularity.** Modern research is partly *motivated* by tradition, so co-mention
@@ -165,8 +171,9 @@ threatened species" means none is *assessed* as VU/EN/CR.
   synonyms is missed — for rosemary, *Salvia rosmarinus* finds 211 papers but *Rosmarinus
   officinalis* 1,994. The loss is the same for a plant's claimed and control indications
   (within-plant design), but it lowers power and inflates "unstudied" gaps for renamed
-  plants. Synonym expansion (accepted + curated + GBIF synonyms, POST queries) is
-  implemented (`PALIMPSEST_SYNONYMS=1`) but was not run for the published numbers.
+  plants. The synonym-expanded re-run (accepted + curated + GBIF synonyms, POST queries;
+  `scripts/sensitivity_synonyms.py`) leaves every conclusion intact (see the sensitivity
+  subsection below), so the primary numbers are kept.
 * **AI-produced reference annotation.** The blind reference set was annotated with AI
   assistance, as was the curation; a human double-annotated subset (with kappa) is the
   next validation step.
@@ -196,5 +203,5 @@ rosemary 211 → 2,179, *Vicia lens* 3 → 2,530), but claimed and control indic
 persistent-claim odds ratio shrinks modestly (2.77 → 2.48) and stays highly significant; the "studied
 whether, not how hard" result is unchanged. Only 6 of 354 unstudied persistent pairs gain a paper; 6 lead
 candidates leave the ≤ 4-paper pool (e.g. *Ruta graveolens* – fevers 2 → 7, *Sinapis alba* – spleen
-3 → 11), none of them in the published top 60. 55 of the top 60 and all top 8 leads are unchanged;
+3 → 11), none of them in the published top 60. 55 of the top 60 are unchanged and all eight former top-8 leads stay in the top 60;
 rosemary–jaundice stays at 0 papers and enters the top 60 (rank 24).

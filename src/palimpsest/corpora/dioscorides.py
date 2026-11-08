@@ -70,6 +70,9 @@ def iter_chapters(path=DIOSCORIDES_XML) -> Iterator[dict]:
             if not text:
                 continue
             text = _LEADING_NUM.sub("", text, count=1)
+            # Arabic digits are always editorial section/line milestones (Dioscorides
+            # writes numbers with Greek letters), so they are removed from the text.
+            text = re.sub(r"\s+", " ", re.sub(r"(?<=\s)\d{1,3}(?=\s)", "", text)).strip()
             text = text.replace("·", "·")  # unify Greek ano teleia
             head = text.split("·", 1)[0].strip() if "·" in text[:80] else " ".join(text.split(" ")[:3])
             head = head.split(",")[0].strip(" ,.;")

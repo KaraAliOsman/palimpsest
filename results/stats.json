@@ -55,13 +55,13 @@
     "species_shared": 136,
     "claims_spans": {
       "therapeutic": 9343,
-      "action": 1056,
+      "action": 1057,
       "adverse": 201,
       "negated": 58
     },
     "claims_by_source": {
       "culpeper": 5249,
-      "dioscorides": 5150
+      "dioscorides": 5151
     },
     "taxon_concept_pairs": {
       "dsc": 2961,

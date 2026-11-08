@@ -16,10 +16,10 @@ EthnoHack 2026 · Track 1 — Traditional knowledge (with bridges to Track 2 dru
 | | |
 |---|---|
 | **Corpus** | 822 Greek chapters of Dioscorides + 328 Culpeper monographs → 692 accepted taxa (466 species in Dioscorides, 315 in Culpeper; 136 with claims in both) |
-| **Claims** | 10,399 provenance-anchored indication mentions (85 MeSH-linked concepts) |
+| **Claims** | 10,400 provenance-anchored indication mentions (85 MeSH-linked concepts) |
 | **Extraction accuracy** (blind reference, 50 + 49 monographs) | Ancient Greek **F1 0.86** [0.81–0.89] (P 0.88, R 0.83) · Early Modern English **F1 0.9** [0.88–0.92] (P 0.9, R 0.9) |
 | **Name concordance** | 99.2% resolved on the GBIF backbone; agreement with independent Wikidata Greek names 64%, with GBIF English names 72% (indicative checks) |
-| **Modern evidence** | 12,797 plant–indication pairs queried against 48,227,744 Europe PMC records; 18,498 LOTUS constituents; knowledge graph of 20,425 nodes / 51,430 edges |
+| **Modern evidence** | 12,797 plant–indication pairs queried against 48,227,744 Europe PMC records; 18,498 LOTUS constituents; knowledge graph of 20,425 nodes / 51,431 edges |
 
 **1 · Knowledge persisted.** For the 136 species with claims in both herbals, Culpeper (1653)
 repeats Dioscorides' (c. 60 CE) indication for the same plant **2.65× more often than chance**
@@ -42,8 +42,7 @@ at least one paper, the rate ratio is 1.04 [0.61–1.76] (n.s.).
 Tradition predicts *whether* modern research looked, not *how hard* — that gap is where the leads are.
 Co-mention measures attention, not efficacy.
 *Sensitivity:* re-searching every plant under all its GBIF synonyms (rosemary 211 → 2,179 papers) leaves the
-conclusions intact: persistent-claim OR 2.48 [1.84–3.36], RR once studied 1.03 (n.s.), 55 of the 60 leads and all top 8
-unchanged ([`results/sensitivity_synonyms/summary.md`](results/sensitivity_synonyms/summary.md), METHODS §8).
+conclusions intact: persistent-claim OR 2.48 [1.84–3.36], RR once studied 1.03 (n.s.), 55 of the 60 leads unchanged and the former top 8 all still in the top 60 ([`results/sensitivity_synonyms/summary.md`](results/sensitivity_synonyms/summary.md), METHODS §8).
 
 ![Evidence by group](results/figures/fig2_evidence_by_group.png)
 ![Odds ratios](results/figures/fig3_odds_ratios.png)

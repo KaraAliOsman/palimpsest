@@ -23,6 +23,11 @@ _FIRST_HERB = "AMARA DULCIS"
 _STOP = "SECTION I."
 
 
+def _title(s: str) -> str:
+    """Title-case that keeps "Butcher’s Broom" (str.title() gives "Butcher’S")."""
+    return re.sub(r"[A-Za-z]+(?:[’'][A-Za-z]+)?", lambda m: m.group(0).capitalize(), s.lower())
+
+
 def _blocks(lines: list[str]) -> Iterator[tuple[str, list[str]]]:
     start = next(i for i, l in enumerate(lines) if l.strip().startswith(_FIRST_HERB))
     stop = next(i for i, l in enumerate(lines[start:], start) if l.strip() == _STOP)
@@ -113,14 +118,14 @@ def _iter_raw(path) -> Iterator[dict]:
             analysis = " ".join(v for k, v in secs.items()
                                 if k not in ("description",) + _HEADER_KEYS and v)
         names = [p.strip(" .") for p in re.split(r",? OR |, CALLED |, ", heading) if p.strip(" .")]
-        title = heading.rstrip(".").title()
+        title = _title(heading.rstrip("."))
         yield {
             "id": f"cul:{n:03d}-{slugify(heading)[:40]}",
             "source": "culpeper",
             "lang": "en",
             "ref": f"Culpeper, Complete Herbal: {title}",
             "headword": title,
-            "names": [x.title() for x in names],
+            "names": [_title(x) for x in names],
             "sections": secs,
             "text": text,
             "analysis_text": analysis,

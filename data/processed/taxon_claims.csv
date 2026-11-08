@@ -1768,7 +1768,7 @@ Ecballium elaterium,abortifacient,0,1,True,False,,dsc:4.150
 Ecballium elaterium,abscess,0,1,True,False,,dsc:4.150
 Ecballium elaterium,amenorrhea,0,1,True,False,,dsc:4.150
 Ecballium elaterium,asthma_dyspnea,0,1,True,False,,dsc:4.150
-Ecballium elaterium,constipation,0,1,True,False,,dsc:4.150
+Ecballium elaterium,constipation,0,2,True,False,,dsc:4.150
 Ecballium elaterium,dermatitis,0,1,True,False,,dsc:4.150
 Ecballium elaterium,ear_disease,0,1,True,False,,dsc:4.150
 Ecballium elaterium,edema_dropsy,0,1,True,False,,dsc:4.150
